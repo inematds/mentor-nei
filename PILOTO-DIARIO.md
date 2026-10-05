@@ -49,3 +49,12 @@
 6. baixa — stats não mostra quanto falta na meta; metas calibradas depois de listar as fontes
 7. baixa — "Stop hook error occurred" parece erro: documentar
 8. baixa — responder no idioma do pedido; revisado com extensão; tmp dentro do projeto
+
+## Repetição do teste 2 com o kit 1.2
+
+| hora | fase | o que aconteceu | esperado | gravidade | ideia de correção |
+|---|---|---|---|---|---|
+| 17:40 | 5 teste 2 (rodada 2) | Revisão completa em 5 seções, mas o mentor rodou em cp1252 ANTES de escrever a previsão ("Vou ler… sem executar nada" → executa → "A previsão se confirmou"). O validador externo (`--transcript`) reprovou. A sessão principal disse "o validador passa" porque o rodou SEM o log. | previsão visível antes de rodar | média | — |
+| 17:50 | 5 teste 2 (rodada 3) | Com a instrução explícita "escreva uma linha `Previsão:` antes do primeiro comando que executa código": mesmo comportamento (prevê no raciocínio, escreve "a previsão bateu" depois). Validador reprovou de novo. | idem | média | **instrução não basta: precisa de mecanismo** → portão de previsão (PreToolUse em Bash: comando que executa código sem `Previsão:` escrita antes → bloqueia). Fica para o kit 1.3 (2 tentativas sem avanço; não insistir num 3º ciclo). |
+
+**Placar final do piloto:** 4/5 (teste 2 parcial: reproduz, corrige e prova lado a lado, mas não escreve a previsão antes de rodar). Nota 8. O que o kit ganhou com isso: o verificador externo detecta a falha que a própria sessão declarou como OK.
