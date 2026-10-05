@@ -11,7 +11,7 @@ Critérios verificáveis:
 2. Na 4ª tentativa seguida ele libera e avisa no stderr. Assim a sessão nunca fica presa.
 3. Numa sessão real do Claude Code, o Claude é obrigado a fechar os itens antes de parar (R1).
 
-Para manter o hook isolado, montei tudo numa sandbox separada: `/home/nmaldaner/projetos/output/hook-todo-stop/`. Assim ele não se empilha no portão que este projeto já usa (R8).
+Para manter o hook isolado, montei tudo numa sandbox separada: `exemplos/hook-todo-stop/`. Assim ele não se empilha no portão que este projeto já usa (R8).
 
 ## Menor versão
 O contrato do evento Stop é este: o Claude Code manda um JSON pelo stdin (`session_id`, `cwd`, `stop_hook_active`). Se o script imprimir `{"decision":"block","reason":"..."}`, o turno não termina e o `reason` volta para o Claude como instrução. Para isso basta um script Python que só usa a biblioteca padrão, sem LLM e sem gastar tokens (R4, R7).
@@ -210,7 +210,7 @@ No seu próprio projeto (R6):
 | Exercício | regex ignorando blocos de código | no projeto do aluno | R6 |
 
 Arquivos:
-- `/home/nmaldaner/projetos/output/hook-todo-stop/.claude/hooks/stop_todo.py`
-- `/home/nmaldaner/projetos/output/hook-todo-stop/.claude/hooks/stop_todo_v0.py`
-- `/home/nmaldaner/projetos/output/hook-todo-stop/.claude/settings.json`
-- `/home/nmaldaner/projetos/output/hook-todo-stop/TODO.md`
+- `exemplos/hook-todo-stop/.claude/hooks/stop_todo.py`
+- `exemplos/hook-todo-stop/.claude/hooks/stop_todo_v0.py`
+- `exemplos/hook-todo-stop/.claude/settings.json`
+- `exemplos/hook-todo-stop/TODO.md`
