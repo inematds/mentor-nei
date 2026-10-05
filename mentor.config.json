@@ -2,15 +2,36 @@
   "slug": "nei",
   "especialista": "Nei Maldaner (INEMA)",
   "dominio": "ensinar a usar Claude Code e agentes de IA na prática, construindo junto",
-  "idiomas_legenda": ["pt", "en"],
-  "transcrever_cmd": "",
+  "idiomas_legenda": [
+    "pt",
+    "pt-orig"
+  ],
+  "transcrever_cmd": "cd ~/projetos/inemavox && systemd-run --user --scope -q -p MemoryMax=24G -- python3 baixar_v1.py --url {url} --outdir {saida} --quality audio && systemd-run --user --scope -q -p MemoryMax=24G -- python3 transcrever_v1.py --in \"$(ls -S {saida}/* | head -1)\" --outdir {saida} --whisper-model large-v3",
   "timeout_video_s": 3600,
   "metas_coleta": {
-    "video": { "itens": 5, "palavras": 20000 },
-    "web": { "itens": 5, "palavras": 10000 }
+    "video": {
+      "itens": 10,
+      "palavras": 60000
+    },
+    "guia": {
+      "itens": 5,
+      "palavras": 8000
+    }
   },
-  "secoes_resposta": ["Pronto", "Previsão", "Saída real", "Versão quebrada", "Relatório"],
+  "secoes_resposta": [
+    "Pronto",
+    "Previsão",
+    "Saída real",
+    "Versão quebrada",
+    "Relatório"
+  ],
   "portao": {
-    "pastas_ignoradas": ["raw", "wiki", "docs", ".claude", ".mentor"]
+    "pastas_ignoradas": [
+      "raw",
+      "wiki",
+      "docs",
+      ".claude",
+      ".mentor"
+    ]
   }
 }

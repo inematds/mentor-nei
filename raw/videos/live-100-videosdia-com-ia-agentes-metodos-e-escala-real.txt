@@ -1,0 +1,1550 @@
+# LIVE： 100 Vídeos⧸Dia com IA — Agentes, Métodos e Escala Real
+Origem: https://www.youtube.com/watch?v=JuIZH8J36j4
+Texto: legenda
+
+[00:00:00] Olá, tudo bem?
+[00:00:16] Só para
+[00:00:27] bom pessoal,
+[00:00:29] novamente hoje bastante assunto. Testei
+[00:00:32] muita coisa durante a madrugada e como
+[00:00:35] sempre fui dormir de manhã.
+[00:00:39] ou quase de meio-dia, como muitos estão
+[00:00:42] me dizendo, né? Porque eu tô sempre
+[00:00:44] conectado e tudo mais, mas de noite ela
+[00:00:47] é altamente produtiva e aí eu consigo
+[00:00:50] avançar aí. Bom, eu tenho vários
+[00:00:52] assuntos aí. Eu coloquei um vídeo sobre
+[00:00:55] eh em todas as redes divulgando um pouco
+[00:00:59] sobre o que eu tô vendo de 2026 para
+[00:01:03] 2027, que nós vamos ter uma
+[00:01:05] transformação muito forte, né? E por
+[00:01:08] outro lado também falar sobre o comando
+[00:01:11] center, né? O que que tu pode estar
+[00:01:14] montando, para onde que nós estamos
+[00:01:15] indo. A ideia da IA é cada vez mais que
+[00:01:19] ela vai funcionar independente e a gente
+[00:01:22] apenas vai interagir com ela quando a
+[00:01:25] gente quer, dando orientações, comandos
+[00:01:28] e assim por diante. E hoje eu poderia já
+[00:01:30] olhar isso, né? Se nós pensarmos os meus
+[00:01:34] dados, eu posso estar usando um cérebro
+[00:01:37] onde que eu tenho a minha informação,
+[00:01:40] onde eu tô dando informações paraa Iá,
+[00:01:42] para ela poder tomar atitude baseado na
+[00:01:45] nos meus valores, nas minhas formações e
+[00:01:48] assim por diante. Porque a grande
+[00:01:50] questão é uma e a autônoma e nós estamos
+[00:01:53] chegando nela.
+[00:01:55] Quem não se ligar nisso vai simplesmente
+[00:01:58] ser mais um nessa sociedade,
+[00:02:01] né? Assim como no passado tinha reis,
+[00:02:04] né, nobres e toda a casta em redor e os
+[00:02:09] coitados, né? E eu vejo isso, né? Ou
+[00:02:13] você toma uma atitude e aprende para se
+[00:02:16] posicionar e usar um espaço dentro desse
+[00:02:19] novo ecossistema que tá criando. Vocês
+[00:02:22] viram agora Casa Bahia demitindo, né, e
+[00:02:26] fechando quase 300 lojas. Vocês podem
+[00:02:30] ter certeza que isso vai ser assim, ó,
+[00:02:33] em massa. É por causa da do problema do
+[00:02:35] Brasil, tem parte, mas também é uma uma
+[00:02:39] mudança do mundo inteiro. Quem não se
+[00:02:42] habilitar em entender como funciona as
+[00:02:44] redes sociais, como funciona a internet
+[00:02:47] e como funciona agora a inteligência
+[00:02:50] artificial e ano que vem como funciona a
+[00:02:54] robótica, os amanoides,
+[00:02:56] o tudo que tu tá construindo já era.
+[00:03:00] Eu assisti essa noite uma conteúdo de um
+[00:03:03] professor
+[00:03:05] e que criava cursos e tudo em hardware,
+[00:03:07] em várias universidade e ele disse: "As
+[00:03:10] universidades estão no fim, elas não têm
+[00:03:14] mais o que formar, porque formar
+[00:03:16] conhecimento, que era um fato do
+[00:03:18] passado, hoje não tem mais sentido." Tá
+[00:03:21] aí um exemplo das escolas inglês. Eu
+[00:03:23] posso usar o chat GPT e conversar com
+[00:03:25] ele para ele ser meu professor e ele vai
+[00:03:27] ser muito melhor do que, né, os
+[00:03:30] professores, porque ele vai entender a
+[00:03:32] minha fala, vai me corrigir. Basta eu
+[00:03:35] dar uma direção do que eu quero. E esse
+[00:03:38] é o diferencial. E aí, como é que fica
+[00:03:40] todas as escolas de inglês, de espanhol,
+[00:03:43] de francês, etc., né? Como é que elas
+[00:03:46] vão sobreviver, né? A, como é que o
+[00:03:49] duolíngo vai sobreviver? Ou seja, tudo
+[00:03:52] isso tá mudando. Então aqui, ó, eu só
+[00:03:55] queria dar uma palinha para vocês. Quem
+[00:03:57] é que tá aí no TikTok, quem é que tá no
+[00:03:59] no
+[00:04:01] Facebook, Instagram, né? E tá me
+[00:04:04] acompanhando aqui também na live, pode
+[00:04:06] ir pro YouTube em TDSX, ali eu transmito
+[00:04:10] minha tela, tá bom? Beleza. Boa noite,
+[00:04:13] Paula, e todo mundo que tá chegando aí.
+[00:04:15] Então, se vocês querem saber uma coisa
+[00:04:19] simples de desenvolver e dominar a
+[00:04:21] inteligência artificial, é você ter uma
+[00:04:25] base com seus dados. E aqui a gente
+[00:04:28] chama de hag. Deixa eu ver se não
+[00:04:30] aparece aqui numa outra melhor, tá?
+[00:04:35] Deixa eu ver. Opa, saí fora.
+[00:04:38] Deixa eu ver se não aparece melhor para
+[00:04:40] mim desenhar isso para vocês
+[00:04:43] aqui,
+[00:04:47] ó.
+[00:04:50] Então, o que que acontece? Se nós
+[00:04:51] pensarmos, né? Ah, eu tenho meus dados.
+[00:04:56] Esses dados eu uso um obsidian, que nada
+[00:04:58] mais é do que um grafo que vai pegar
+[00:05:01] esses dados e entregar para Iá. Então
+[00:05:03] ela se baseia nisso, mas eu não gostei
+[00:05:06] dessa, eu prefiro ainda daquele outro
+[00:05:08] aqui, certo? Então o que que acontece?
+[00:05:11] Eu tenho o hag aqui, né? O R, na verdade
+[00:05:14] é meus dados. [roncando] A Ia vai pegar
+[00:05:17] aqueles dados e estruturar como uma wik,
+[00:05:20] uma Wikipédia, com toda informação fácil
+[00:05:22] de acessar, certo? E quando eu quiser
+[00:05:25] conversar com ela, eu vou est buscando,
+[00:05:28] né, a saída, né, com o que que ela tem
+[00:05:32] de informações sobre mim. Então isso é
+[00:05:34] bom. Segundo lugar, como é que a Iá pode
+[00:05:37] aprender, como é que ela pode conhecer
+[00:05:39] sobre mim? baseado nos logs.
+[00:05:43] Então, se eu olhar os logs do chatt, do
+[00:05:47] cloud Code, do Codex ou até de qualquer
+[00:05:50] Jarvis, aá consegue entender o que eu tô
+[00:05:53] falando, com quem eu tô falando e assim
+[00:05:55] por diante. Entenderam?
+[00:06:01] Beleza? Tudo certo?
+[00:06:07] Então pessoal, uma das coisas que eu
+[00:06:09] quero mostrar para vocês justamente é
+[00:06:11] essa oportunidade que quem tá agora em
+[00:06:15] 2026 aprender isso, aprender enquanto
+[00:06:18] nós temos tempo. É mais ou menos assim,
+[00:06:21] imagina que existe uma corrida onde que
+[00:06:25] todos vocês vão participar 2027, 2028,
+[00:06:29] 2030.
+[00:06:31] Se você não tirar 2026 para treinar,
+[00:06:34] para ter acondicionamento físico, quando
+[00:06:36] chegar lá, você não vai ter fôlego para
+[00:06:39] competir com gente que já se preparou.
+[00:06:43] Só para vocês terem uma ideia, todo dia
+[00:06:45] eu publico em torno de 100 vídeos
+[00:06:48] e me minhas crianças com 10 anos, cada
+[00:06:51] uma tem muitos canais, provavelmente
+[00:06:53] todas elas publicaram mais de 10 vídeos
+[00:06:56] hoje. Eu não tô preocupado delas ter
+[00:07:00] visualização, nada. Eu tô preocupado que
+[00:07:02] elas tenham capacidade de produzir
+[00:07:05] conteúdo, de fazer conteúdo,
+[00:07:07] de ser alguém que constrói. Quando
+[00:07:11] chega, por exemplo, alguma encomenda, eu
+[00:07:13] entrego para elas, digo: "Ó, vocês têm
+[00:07:14] que montar. Ai, pai, eu não consigo". Eu
+[00:07:17] digo, se vira,
+[00:07:19] porque ela tem que ter essa capacidade.
+[00:07:21] Aí não tem manual. Azar, vai atrás, vai
+[00:07:25] na internet, pesquisa. Esse é o teu
+[00:07:27] problema. Eu quero. Pronto, porque o
+[00:07:30] mundo é assim, né? Ou tu vai chorar
+[00:07:33] sempre para o governo para ganhar milhar
+[00:07:36] migalhas,
+[00:07:37] né? Ou que nem antigamente se pedia
+[00:07:39] paraas pessoas migalhas. Então, eh, essa
+[00:07:43] primeira questão que eu queria mostrar
+[00:07:44] aqui para vocês hoje sobre essa isso
+[00:07:48] aqui.
+[00:07:51] Segundo lugar, deixa eu ver aí. Tá tendo
+[00:07:53] mensagem. Tudo bem?
+[00:07:57] Opa, o Carlos perguntando, eu não manjo,
+[00:07:59] né, nada. Eu quero. Como é que eu vou
+[00:08:03] ficar bom? Vocês podem ir lá no Inema.
+[00:08:06] Vamos lá abrir então aqui, ó. Se eu
+[00:08:07] chegar e botar inema.club na internet,
+[00:08:11] certo? Ó, 72.650
+[00:08:16] pessoas já estão aprendendo aqui de
+[00:08:18] graça, certo? Então aqui tu tem 1 2 3 4
+[00:08:23] 5 6 7 8 9 10 11 12 cursos gratuitos.
+[00:08:29] Curso rápido só de leitura, que te dá
+[00:08:32] uma visão e te transforma melhor do que
+[00:08:35] a maioria dos caras que estão aí até
+[00:08:38] querendo vender curso na internet,
+[00:08:41] porque abre tua visão.
+[00:08:43] Quem é jovem tem tempo, quem é mais
+[00:08:46] velho tem experiência. Então os dois
+[00:08:48] podem competir igual.
+[00:08:51] Certo? Como é que pode, né? Tu tem que
+[00:08:54] ser muito, muito inteligente para
+[00:08:57] competir alguém que já tem anos de
+[00:08:59] experiência e mesmo assim tu não tem
+[00:09:02] experiência, tu acredita algumas coisas.
+[00:09:04] Se tu não estudar, não observar, tu não
+[00:09:06] tem chance.
+[00:09:08] Então, tá aqui a oportunidade. E fora
+[00:09:10] isso, olha, eu fiz semana passada um
+[00:09:13] curso chamado Vibe Code do Zero, tá
+[00:09:17] disponível no YouTube, é um playlist ali
+[00:09:20] no na no canal Inema TDSX, certo? E quem
+[00:09:24] tá na comunidade tem todo o conteúdo lá
+[00:09:27] da comunidade sobre isso. Então tu
+[00:09:29] aprende a desde a ideia, a
+[00:09:31] infraestrutura, o terminal, o SSH, o
+[00:09:34] GitHub,
+[00:09:36] a publicação no Verscelo ou numa VPS,
+[00:09:40] entender do banco de dados, quer dizer,
+[00:09:42] foi quatro dias de muita coisa básica
+[00:09:47] que eu procurei passar.
+[00:09:50] E eu tô sempre fazendo isso por quê?
+[00:09:52] Porque eu quero elevar as pessoas subir
+[00:09:55] degrau, facilitar o trabalho, porque
+[00:09:58] depois que tu descobre que tu tem
+[00:10:00] capacidade, não para mais. Certo? Outro
+[00:10:03] curso que eu dei esses dias, Inema
+[00:10:06] Agentes Hub 5, ou seja, de você criar em
+[00:10:09] cinco pastos criar agentes, não tem,
+[00:10:13] pessoal. Vai faltar mão de obra, porque
+[00:10:16] só sabe uma minoria.
+[00:10:19] Quando eu olho esses influenciadores
+[00:10:21] ali, o que que eles ficam falando?
+[00:10:23] Falando uma e outra e outra e a Isso não
+[00:10:26] agrega nada. Eu até botei um vídeo aqui
+[00:10:29] na internet
+[00:10:31] falando sobre isso.
+[00:10:33] Não sei aqui aonde que tá ele, mas é
+[00:10:36] justamente quantas IAS tu testou e qual
+[00:10:40] tu usa.
+[00:10:42] Hoje eu tava falando aqui pro pessoal,
+[00:10:45] não adianta agora o GLM53 tá aí. Eles
+[00:10:48] estão dando 3 milhões de token por dia e
+[00:10:51] depois vai ser pago. Se tu não tem
+[00:10:53] dinheiro para pagar depois, que que
+[00:10:55] adianta tu ter testado?
+[00:10:58] Tu perder o teu tempo,
+[00:11:00] né? Tu tem que focar em alguma coisa que
+[00:11:03] tu pode construir e levar pros outros,
+[00:11:06] porque é assim que funciona o dinheiro.
+[00:11:08] Se tu tá buscando dinheiro ou fama, o
+[00:11:10] que for, é entregar alguma coisa útil
+[00:11:12] pros outros. Esse é o ponto, tá? E é
+[00:11:16] isso que muita gente perde. Ele perde a
+[00:11:19] oportunidade de construir qualquer
+[00:11:22] coisa, porque ele fica ali olhando tudo
+[00:11:26] que brilha.
+[00:11:28] Claro que sim. Só que eu tiro um pequeno
+[00:11:31] tempo do meu dia para ver coisas novas e
+[00:11:34] muito tempo para construir. Olha só,
+[00:11:36] para vocês terem uma ideia, eu vou abrir
+[00:11:38] aqui minha tela dos avatares.
+[00:11:41] Cadê você do avatar? Tá aqui, ó. Olha
+[00:11:44] só. Uma
+[00:11:47] hora atrás, uma hora atrás, uma hora
+[00:11:49] atrás. E assim, ó, tá vendo quantos
+[00:11:51] vídeos tem aqui, ó? Tudo eu falando,
+[00:11:55] ou seja, são milhares de vídeos meus
+[00:11:59] publicados na internet.
+[00:12:01] Sabe quanto custa isso para mim? 30 por
+[00:12:04] mês. Não importa quantos vídeos eu
+[00:12:06] publicar,
+[00:12:08] mas isso eu construí.
+[00:12:10] Eu tenho uma máquina de publicar. Se
+[00:12:13] você vai vir aqui, ó, tá? Eu tenho aqui,
+[00:12:16] ó, eu no Telegram, certo? Eu criei o
+[00:12:19] Inema CCB. Isso é baseado quando eu
+[00:12:23] criei aquele curso semana passada ou
+[00:12:25] retrasada de agentes e daí eu peguei no
+[00:12:29] meio do curso, eu disse: "Bom, vamos
+[00:12:30] montar então um agente chamado Inema CC
+[00:12:32] Rebote". E aí eu botei ele no ar. Olha
+[00:12:35] aqui, ó. Tudo o vídeo que ele me
+[00:12:37] publicou agora a pouco, 20:48
+[00:12:41] só.
+[00:12:42] Ou seja, eu dei uma ideia para ele. Se
+[00:12:46] eu olhar lá para cima, né, onde que eu
+[00:12:48] tô, ó, eu dei uma ideia para ele aqui,
+[00:12:51] ó, né? Eu botei assim, ó. Vamos três
+[00:12:55] ideias que eu passei. Daqui do anos,
+[00:12:58] você pode se arrepender de não ter
+[00:12:59] aprendido isso agora.
+[00:13:02] Não começa falando de Iá, começa falando
+[00:13:05] de futuro, de arrependimento. Depois
+[00:13:08] você revela. Não estou falando de
+[00:13:11] programação, estou falando de aprender a
+[00:13:14] pensar e trabalhar com IA. Antes que
+[00:13:16] isso vira o básico, eu passei isso para
+[00:13:19] o meu agente. O agente pegou isso e
+[00:13:22] transformou isso em conteúdo
+[00:13:26] para 32 vídeos.
+[00:13:28] Ó, botou aqui. Isso é o número 70. Daí
+[00:13:31] eu foquei também num outra coisa dos
+[00:13:33] pais. Por exemplo, eu tenho visto muita
+[00:13:36] gente perguntar para mim, certo? Como é
+[00:13:39] que eu tô educando meus filhos?
+[00:13:42] E eu tô educando meus filhos de três
+[00:13:44] maneiras. Uma, eu quero que eles aprenda
+[00:13:46] a lidar no mundo real, no mundo vivo,
+[00:13:52] tá? no mundo vivo.
+[00:13:56] Então, para isso, eles têm que aprender
+[00:13:58] as dificuldades da de arrumar uma
+[00:14:01] lâmpada, né, de de entupir o banheiro, o
+[00:14:05] vaso, eh, lavar louça, lavar roupa, eles
+[00:14:09] têm saber. Isso, isso é o básico. Não
+[00:14:12] importa quanto dinheiro eu tenho, mas
+[00:14:14] isso é o básico. Ele tem que aprender o
+[00:14:16] mundo real. Ele tem que aprender dirigir
+[00:14:19] quadriciclo, carro, trator e tudo quanto
+[00:14:22] antes.
+[00:14:24] Para quê? Para ele saber e ter
+[00:14:26] experiência dos problemas que isso vai
+[00:14:28] acontecer. Mas depois disso, o que que
+[00:14:31] eu fiz? Eu foquei em eles aprender
+[00:14:34] tecnologia,
+[00:14:35] aprender a instalar computador, montar
+[00:14:37] computador, aprender eles instalar as
+[00:14:40] coisas no Windows, no Linux e assim por
+[00:14:42] diante.
+[00:14:44] aprender eles a publicar as coisas e
+[00:14:47] usar e a
+[00:14:49] porque senão vai ser assim, eles vão
+[00:14:51] ficar só na no celular gastando o tempo
+[00:14:54] deles e assistindo vídeo dos outros e
+[00:14:57] principalmente vai ser porcaria porque é
+[00:14:59] o que mais a gente gosta de nós adultos
+[00:15:03] gostamos de besteira, imagina as
+[00:15:05] crianças,
+[00:15:07] certo? Daí eu botei: "Você ou filho
+[00:15:10] provavelmente vai viver num mundo que
+[00:15:12] ainda não sabe explicar".
+[00:15:14] Esse, né, é muito mais emocional falar
+[00:15:18] com os pais, professores, adultos em
+[00:15:20] geral. Depois a pergunta é não é se ele
+[00:15:24] vai usar a Iá, é que se ele vai saber
+[00:15:28] pensar com a IA, viver dependente dela
+[00:15:31] ou comandar ela. Esse é o ponto.
+[00:15:35] Então, o que que nós temos fazer? fazer
+[00:15:37] as pessoas e as crianças, elas se
+[00:15:40] desenvolveram nesse lado. E agora eu
+[00:15:42] pergunto, alguma universidade, alguma
+[00:15:45] empresa, algum governo tá fazendo isso?
+[00:15:48] Não.
+[00:15:49] Certo?
+[00:15:51] Então, só tá falando do que ai, qual é a
+[00:15:54] melhor IA? Mas isso não me interessa. A
+[00:15:56] melhor IA, isso é para quem tá
+[00:15:58] desenvolvendo as IAs, competindo entre
+[00:16:00] eles. O importante é o que eu consigo
+[00:16:03] fazer aquilo para alguém. Eu fui numa
+[00:16:07] fisioterapeuta e eu ouvi ela e eu já
+[00:16:09] disse: "Ó, tu pode fazer isso". Ela:
+[00:16:12] "Nei, quanto é que eu pago para mim ter
+[00:16:14] isso?" Eu digo, vai estudar. Mas veja a
+[00:16:16] oportunidade. Fui no médico ontem, levei
+[00:16:19] minha mãe e o médico enquanto tava
+[00:16:22] fazendo o exame lá, porque se para ver
+[00:16:24] se era COVID ou não, falando com ele de
+[00:16:27] novo, ele disse: "Mas tu tem como tu e
+[00:16:29] tu fazer isso para mim? Eu tô
+[00:16:31] interessado, eu tô buscando alguém."
+[00:16:33] Porque as pessoas querem terceirizar.
+[00:16:37] Então hoje 2026 é a oportunidade de você
+[00:16:40] pegar isso aí e criar uma relação de
+[00:16:43] confiança com as pessoas à tua volta e
+[00:16:46] fazer sim, né, uma oportunidade de
+[00:16:49] construir uma empresa que faz isso e
+[00:16:52] esses caras vão ser dependendo de ti,
+[00:16:54] porque se eles não estão estudando, não
+[00:16:56] estão indo atrás, vão precisar de ti e
+[00:16:58] tu pode escalar.
+[00:17:01] Então é a oportunidade que tem. Bom, eu
+[00:17:03] falei, fiz isso, tá? E ó, ele pegou
+[00:17:08] aqui, botou, ó, 31 fases aqui para 60
+[00:17:13] mais, para criadores, para educadores,
+[00:17:16] para empreendedores, para família, para
+[00:17:18] jovens, para mulheres, para pessoas
+[00:17:20] comuns, para profissionais, para
+[00:17:23] técnicos. E aí ele criou os vídeos.
+[00:17:29] Ó,
+[00:17:29] &gt;&gt; você se aposentou e depois de 2 meses,
+[00:17:32] &gt;&gt; ó, aqui ele falou pro 60 mais, daí ele
+[00:17:35] botou uma imagem, né, e não só uma,
+[00:17:38] durante todo o vídeo aí ele colocou
+[00:17:40] imagens, etc., logotipo, legenda, ele
+[00:17:44] fez tudo automático para mim, né? E
+[00:17:48] assim, daquele assunto ele transformou,
+[00:17:51] ó, da mesma a mesma conta daqui do anos,
+[00:17:55] né? O boleto que você repete sem ninguém
+[00:17:58] questionar, ele vai falar alguma coisa
+[00:18:00] sobre aquele assunto, gente.
+[00:18:03] &gt;&gt; Certo? Então, o que que eu fiz? Eu
+[00:18:06] comandei a Iá e ela tá trabalhando em
+[00:18:09] escala para mim. É isso que a gente tem
+[00:18:11] que pensar, não é repegar e para criar
+[00:18:14] um vídeo. Você você perdeu.
+[00:18:19] Como é que você vai fazer um, dois
+[00:18:21] vídeos por dia? E se eu fosse o teu
+[00:18:23] concorrente, eu faço 100.
+[00:18:25] E quando eu ganho mais, eu vou fazer
+[00:18:28] 200, 300, 500, 1000, porque é assim que
+[00:18:31] o mercado vai ser.
+[00:18:34] Essa concorrência que você tem que
+[00:18:37] entender não é aprender a inteligência
+[00:18:39] artificial, é usar inteligência
+[00:18:42] artificial para desenvolver soluções e
+[00:18:44] escalar,
+[00:18:46] certo? Pensa, você vende produto, eu
+[00:18:49] vendo também. Você fez um vídeo e eu fiz
+[00:18:52] 100. Você tem um, dois canais, eu tenho
+[00:18:56] 200 canais. É essa escala que tem que
+[00:18:59] pensar com a IA, certo? Então, olha só,
+[00:19:04] tudo isso, cada link já foi publicado.
+[00:19:07] Ele só tá me mandando aqui para mim
+[00:19:09] validar e eu posso dizer quando eu quero
+[00:19:12] aqui. Daí eu dei um status, daí ele tava
+[00:19:15] me dizendo quanto faltava, né? De 36
+[00:19:18] desse aqui, faltava 26, faltava sete,
+[00:19:21] né? Então, botei o status que eu queria
+[00:19:24] ver como é que ele tava rodando aqui,
+[00:19:27] certo? E aí, ó, depois mais de novo, ó,
+[00:19:30] mandando aqui, ó, 2048.
+[00:19:34] Daí eu botei 21,1,
+[00:19:36] botei um status, não tem mais nada para
+[00:19:38] rodar. Então, eu poderia buscar alguma
+[00:19:41] coisa úte útil para poder dizer o que
+[00:19:45] que é bom para as pessoas, o que que as
+[00:19:46] pessoas gostariam,
+[00:19:48] né? Como é que eu começo? Então, eu
+[00:19:51] posso ir para um chat,
+[00:19:54] né? um chat aqui e poderia dizer assim:
+[00:19:58] "Como posso
+[00:20:01] ajudar
+[00:20:03] as pessoas compreender que não é com,
+[00:20:10] né, e há que vão ter sucesso e sim
+[00:20:17] usando ela para soluções das pessoas."
+[00:20:22] Então, passei a idade, a ideia que deixa
+[00:20:25] eu aumentar o zoom aqui, certo? Então,
+[00:20:29] quer dizer, eu tô trocando ideia com aá
+[00:20:31] para como é que eu posso passar, né, uma
+[00:20:34] mensagem para as pessoas fazendo isso,
+[00:20:37] né? Daí tá, ele vem, não vai ser só numa
+[00:20:41] passagem, né? vai ser muito mais, mas
+[00:20:45] quero entregar algo prático que possa
+[00:20:51] usar na hora. Então eu vou melhorando,
+[00:20:54] melhorando o meu pensamento com ela, né?
+[00:20:59] Então veja só, ele veio aqui com uma
+[00:21:01] história. Para de procurar, procure uma
+[00:21:04] dor. Tá, tá, tá, tá, tá, tá, tá, tá.
+[00:21:07] Vamos imaginar, certo?
+[00:21:10] que eu peguei esse prompt que ele fez
+[00:21:12] aqui para mim, certo? E eu vou lá e
+[00:21:17] agora venho aqui e dou barra promovatar
+[00:21:22] 3. E aí eu coloquei aquele prompt aqui,
+[00:21:27] certo?
+[00:21:28] E aí dentro desse promptâmetros
+[00:21:33] que eu quero. Deixa eu buscar lá em cima
+[00:21:36] os parâmetros de corkelion.
+[00:21:39] Eh, deixa eu achar aqui.
+[00:21:46] Aqui,
+[00:21:48] ó. Vou pegar stúdio. É que eu não quero
+[00:21:50] digitar lá no no Hey Jin prompt viral,
+[00:21:54] que eu quero que esse vídeo seja viral e
+[00:21:56] sem portão, porque eu não quero dar yes,
+[00:21:58] yes, yes. Mas eu vou fazer o seguinte,
+[00:22:01] eu vou vir aqui, certo? Como eu tô
+[00:22:04] mostrando para vocês, eu vou vir aqui e
+[00:22:07] escrever, ó, eu dou a barrinha que ele
+[00:22:09] para ele saber que é um comando estúdio.
+[00:22:12] Eu não quero ficar trabalhando lá. E daí
+[00:22:16] o segundo lugar que eu quero prompt
+[00:22:19] igual viral. Então esse vídeo é para ser
+[00:22:23] explicativo, é para ser viral, é para
+[00:22:25] ser, né, promocional, porque podia ser
+[00:22:28] um produto que eu quero vender e assim
+[00:22:29] por diante. E eu não vou dar sem portão,
+[00:22:32] certo?
+[00:22:35] Ah, tá. Especial T.
+[00:22:39] Ó, ele fez isso aqui causa do problema
+[00:22:41] que ele sofre. Vamos mandar. Pronto.
+[00:22:43] Agora ele tá fazendo o quê? Criando 36
+[00:22:46] vídeos. Só que antes ele vai me dar o
+[00:22:49] texto para mim ler e se é exatamente o
+[00:22:52] que eu quero e eu aprovo. Certo? Então
+[00:22:56] esse é o ponto, tá? Enquanto todo mundo
+[00:22:59] tá ali ainda querendo aprender a usar,
+[00:23:03] né, um dos sistemas que estão aí, a
+[00:23:05] gente tem que construir sistema e para
+[00:23:08] construir é dizer para irá o que tu
+[00:23:10] quer.
+[00:23:12] Então não tem mais que aprender sistema
+[00:23:14] nenhum,
+[00:23:16] certo? O que que tu tem que fazer? Usar
+[00:23:18] e a Esse é o ponto, né?
+[00:23:23] Então isso que eu queria chamar atenção
+[00:23:25] e deixa eu dar oi para todo mundo. Oi
+[00:23:28] Vittor, tudo bem? Boa noite.
+[00:23:31] A Paulo, já te dei. Anderson, tudo bem?
+[00:23:33] Boa noite. Então tá, qual é o nosso
+[00:23:37] próximo passo aqui? Tá, depois disso
+[00:23:40] aqui, olha, mostrar para vocês algumas
+[00:23:43] coisas aqui, tá? Nós já estamos então
+[00:23:47] aqui eh no Vibe Code, né? Se vocês
+[00:23:50] entrar lá no Inema TDS do YouTube e
+[00:23:54] forem aqui, ó, na em playlist,
+[00:23:58] vocês têm aí vários cursos que eu tenho
+[00:24:01] aqui disponível para vocês.
+[00:24:04] Por exemplo, aqui eu tenho o duas
+[00:24:07] agentes aqui, tá?
+[00:24:09] &gt;&gt; Com todos os cursos aqui, ó.
+[00:24:11] &gt;&gt; E aí,
+[00:24:12] &gt;&gt; tá?
+[00:24:12] Deixa eu compartilhar aqui.
+[00:24:14] &gt;&gt; Tem do Vibe Code Zero também tão aqui.
+[00:24:18] &gt;&gt; Oi, boa tarde.
+[00:24:19] &gt;&gt; Boa tarde.
+[00:24:21] &gt;&gt; Certo, pessoal. Então, nós temos eles
+[00:24:24] aqui disponível para vocês, certo?
+[00:24:27] Bom, continuando aqui, pessoal, outra
+[00:24:31] coisa que eu queria mostrar para vocês é
+[00:24:34] o Boris.
+[00:24:36] Veja, eu sei que a grande maioria das
+[00:24:38] pessoas ainda tá começando. Na verdade,
+[00:24:41] não existe praticamente ninguém que tá
+[00:24:43] dominando muito a Iá, é uma minoria.
+[00:24:47] Mas eu queria passar um vídeo que ele
+[00:24:49] passou, tá, para mostrar aquilo que a
+[00:24:52] gente tá falando há muito tempo. Olha
+[00:24:54] só, você pode até tentar deletar o
+[00:24:56] restante também. Então, quando você
+[00:24:58] executa o cloud code, você pode,
+[00:25:00] &gt;&gt; tá? Vamos lá.
+[00:25:01] &gt;&gt; Muitas das coisas o system prompt
+[00:25:03] serviam para corrigir comportamentos que
+[00:25:05] o modelo deveria saber, mas que bem ele
+[00:25:07] não sabia.
+[00:25:09] OP 5 simplesmente faz isso. Então sim,
+[00:25:12] nós deletamos 80% do system prompt.
+[00:25:15] Ó, só para entender, o system prompt é
+[00:25:19] quando você faz uma pergunta para pra
+[00:25:21] Iá, ela vai pegar aquela pergunta e vai
+[00:25:24] ser ingerido todo aquele system prompt,
+[00:25:27] é um prompt gigante para poder ajudar Iá
+[00:25:30] a entender o que que o cara tá querendo.
+[00:25:33] E ele tá dizendo que agora com a versão
+[00:25:35] 5 foi tirado 80%.
+[00:25:39] &gt;&gt; Você pode até tentar deletar o restante
+[00:25:41] também. Então, quando você executa o
+[00:25:43] cloud code, você pode usar algo como
+[00:25:45] system prompt e definir qualquer
+[00:25:46] promptiser, caso que experimentar com
+[00:25:48] isso. E outra coisa que você pode tentar
+[00:25:51] é o modo simples. Este é, na verdade, um
+[00:25:54] recurso não documentado. Se você definir
+[00:25:56] cloud code 5 = 1, começa a variável
+[00:25:59] ambiente, então executar o cloud, ele
+[00:26:00] deletará todos os system prompts,
+[00:26:03] inclusive os das ferramentas.
+[00:26:06] E nós usamos isso como uma espécie de
+[00:26:07] avalação para descobrir o prompt é útil.
+[00:26:11] E o que é interessante é que o modelo é
+[00:26:13] na verdade um pouco mais inteligente sem
+[00:26:14] esses prontas,
+[00:26:16] &gt;&gt; ó. E aí ele fala que se tu não usar
+[00:26:20] nenhum desses system promps tudo, o
+[00:26:22] sistema é mais inteligente do que com
+[00:26:24] ele. Então aquela história que eu tenho
+[00:26:27] falado direto, né, pras pessoas que
+[00:26:31] Deixa eu ver se ele tá aqui.
+[00:26:35] Não, não tá aqui.
+[00:26:43] Ó, eu tô montando aí várias coisas de
+[00:26:46] sistema que é o meia, que é justamente
+[00:26:49] isso, né? Como é que tu começa usar IA
+[00:26:53] usando métodos? Não importa qual é IA,
+[00:26:55] mas que métodos tu tem, certo? E ainda
+[00:26:59] não cheguei no ponto que eu queria.
+[00:27:01] Deixa eu ver aqui. Não, não é também
+[00:27:03] nesses aqui,
+[00:27:13] não é?
+[00:27:16] Ó, eu tava usando, ele disse que eu
+[00:27:18] sobrecarreguei o sistema do chat EPT
+[00:27:20] aqui,
+[00:27:25] não. Então vai ficar nesse último aqui
+[00:27:27] que eu posso mostrar
+[00:27:29] a ideia para todo mundo aqui.
+[00:27:36] aqui, olha só, se a gente subir aqui no
+[00:27:40] primeiro,
+[00:27:44] nós temos Super Power, SC, BMED, são
+[00:27:48] tudo métodos para você trabalhar e eles,
+[00:27:51] né, trabalhavam sempre com skills, que
+[00:27:55] são habilidades e cloud MD ou agente MD.
+[00:27:59] O que tá chegando agora? Chegando à
+[00:28:01] conclusão que eu não preciso mais do
+[00:28:05] cloud MD, nem dos skills, porque a
+[00:28:08] inteligência artificial já tem
+[00:28:10] capacidade de fazer as coisas sem
+[00:28:12] precisar ter ser tutoriado.
+[00:28:15] Bom, vamos explicar isso melhor, então.
+[00:28:17] Em que linguagens mais? Hoje, por
+[00:28:20] exemplo, quando você tá trabalhando com
+[00:28:24] uma IA, ela tá tendo uma inteligência
+[00:28:28] tão grande que você não precisa dizer
+[00:28:31] passo a passo para ela. Então, a
+[00:28:33] engenharia de prompt ela na nas versões
+[00:28:36] atuais elas mudaram, mudou a forma.
+[00:28:40] Então, vou comparar um exemplo. Se você
+[00:28:42] quiser comparar com uma criança, certo?
+[00:28:45] uma criança de 10 anos, uma pessoa de 18
+[00:28:49] anos e um adulto de 40 anos. Você vai
+[00:28:52] mandar fazer alguma coisa para cada um
+[00:28:55] deles? Ah, você vai falar de forma
+[00:28:58] diferente.
+[00:28:59] Por quê? Porque a experiência de uma
+[00:29:01] criança num determinado aspecto é muito
+[00:29:04] diferente de alguém de 18 anos e alguém
+[00:29:07] de 40 anos.
+[00:29:10] Então, a instrução tu não pode dar a
+[00:29:12] mesma. Se tu quiser dar uma instrução a,
+[00:29:16] né, eh, vaga para uma criança, ela não
+[00:29:18] vai fazer porque ela não tem
+[00:29:20] experiência, ela vai fazer besteira, né?
+[00:29:24] Talvez um adulto de de 18 anos ele vai
+[00:29:28] fazer mais acertado e um de 40 anos
+[00:29:32] provavelmente ele já tem muita
+[00:29:33] experiência, já sabe o que que deu
+[00:29:35] errado, o que deu certo.
+[00:29:37] Só que se tu inverter o papel e fazer,
+[00:29:40] ó, tu tem que fazer passo a passo,
+[00:29:42] talvez com uma criança, T vai fazer, né,
+[00:29:45] do adolescente parcialmente e do adulto,
+[00:29:48] ele nem vai querer fazer daquela
+[00:29:50] maneira, ele vai olhar e dizer: "Não, na
+[00:29:52] minha experiência eu não concordo com
+[00:29:54] isso, né?" E aí dá os problemas. Isso
+[00:29:58] poderia ser aplicado na empresa, o
+[00:30:00] estagiário, alguém de 1 ano de empresa,
+[00:30:03] alguém de 20 anos de empresa, como você
+[00:30:06] vai tá passando? Então, as IAS hoje elas
+[00:30:09] são essas, elas já têm 20, 30 anos de
+[00:30:11] empresa. Vamos pensar, é diferente de
+[00:30:15] você tratar como um estagiário que tem
+[00:30:17] que conhecer os procedimentos da
+[00:30:19] empresa. Nós não estamos falando de
+[00:30:21] inteligência, a gente tá falando de como
+[00:30:23] você dar informações para alguém hoje
+[00:30:27] que tem mais inteligência. Então essa
+[00:30:29] diferença, né, dentro de você tá usando
+[00:30:33] os promptes. E aí entra um outro
+[00:30:36] problema. Se tu planejou teu software
+[00:30:38] não prevendo mudança constante,
+[00:30:42] você tem que reescrever o software.
+[00:30:45] Então eu tenho que pensar que toda a IA
+[00:30:46] que foi lançada o mês passado vai ser
+[00:30:49] substituída por uma nova que vem esse
+[00:30:51] mês, que vai ter uma do mês que vem e
+[00:30:53] pro jeito que tá indo, ela vai estar
+[00:30:56] saindo todo dia, toda semana.
+[00:31:00] Então eu já tenho que pensar em sistemas
+[00:31:03] que permitem isso e aí a gente tá
+[00:31:06] evoluindo, por exemplo. Então menos
+[00:31:08] contexto, mais inteligência,
+[00:31:11] certo? Eu tenho que diminuir o cloud MD
+[00:31:13] pro mínimo. Eu tenho que parar de usar
+[00:31:16] skill. Quando todo mundo agora tá
+[00:31:18] falando de skill,
+[00:31:20] eu tenho que parar de usar ela e
+[00:31:22] entender como funciona, porque senão eu
+[00:31:24] gasto muito de dinheiro e muito muito
+[00:31:27] tokens, certo, né? Como é que eu uso
+[00:31:31] suba? Qual é a vantagem que eu tenho de
+[00:31:34] transformar aquele pacote em vários
+[00:31:36] subaagentes, qual é as ferramentas que
+[00:31:38] eu posso usar? Então tudo isso começa a
+[00:31:41] mudar na forma de você fazer aá. Não é
+[00:31:45] mais dizer no comando, não é mais usar
+[00:31:47] interface gráfica, eu nem quero saber
+[00:31:50] mais das ferramentas de interface
+[00:31:51] gráfica. E aí começa os golpes, porque
+[00:31:54] daí oferecem, ó, você pode ter 10
+[00:31:57] ferramentas pelo preço de uma, tu pode
+[00:32:00] ter 20 ferramentas pelo preço de uma,
+[00:32:02] mas tu não é competente, né, nem
+[00:32:05] competitivo com elas, porque é ruim de
+[00:32:08] trabalhar. Enquanto que tu tá aí no
+[00:32:10] cloud e só diz: "Eu quero fazer uma
+[00:32:12] propaganda na meta". Pom.
+[00:32:16] Eu nem sei nada da meta. Eu não preciso
+[00:32:19] conhecer as interfaces porque eu tenho
+[00:32:21] um cloud code que vai falar com ela. E
+[00:32:24] aí que eu tenho que entender o que que é
+[00:32:26] esses MCP, esses skills, né, e esses
+[00:32:29] agentes e tudo mais. Para mim sim
+[00:32:32] otimizar o meio ambiente, senão eu caio
+[00:32:35] no conto do vigário.
+[00:32:37] Certo? Então outra coisa, né?
+[00:32:40] Inteligência primeiro, os andemes, né?
+[00:32:43] Depois, então tudo isso aqui tá
+[00:32:46] disponível para vocês ali na comunidade
+[00:32:48] para poder acompanhar, né? Então eu
+[00:32:50] tenho que entender, planejar, executar,
+[00:32:53] verificar e entregar. Esse é o fluxo de
+[00:32:55] uma arquitetura mínima. Hoje a coisa
+[00:32:58] mais importante é o quê? Verificar. É
+[00:33:01] mais ou menos que nem eu tinha uma
+[00:33:03] empresa com centenas de engenheiros. E
+[00:33:06] aí o que que eu faço? Eu não posso ficar
+[00:33:08] querendo que cada um faça do jeito que
+[00:33:11] eu quero. Eu tenho que ter indicadores e
+[00:33:14] maneira de fiscalizar se aquilo que eles
+[00:33:16] estão executando está dando certo.
+[00:33:20] E é isso que a inteligência artificial
+[00:33:22] que tá chegando agora numa capacidade
+[00:33:25] superior ao ser humano, que é a AGI,
+[00:33:29] como é que eu dirijo ela? Se eu não
+[00:33:32] tiver direção, ela vai fazer o que ela
+[00:33:34] quer. E talvez ela tenha informações
+[00:33:36] sobre rebeldia, sobre história, sobre
+[00:33:39] corrupção. Ela tem de tudo. É você que
+[00:33:42] tem direcionar ela pro caminho certo.
+[00:33:45] Certo? Então, nós temos aqui três
+[00:33:48] eh estruturas importantes e um o Carlos
+[00:33:53] lá da comunidade me pediu, nei, qual das
+[00:33:56] três tu usa? Qual é melhor? Então vamos
+[00:33:58] falar um pouco de cada uma. Nós temos o
+[00:34:01] Superpowers, nós temos o ECC e nós temos
+[00:34:05] o BIMED. O BIMED é um método, veja, isso
+[00:34:09] não é IA, isso é método de trabalhar. O
+[00:34:13] BMED ele é para quando você tem sistemas
+[00:34:16] complexos,
+[00:34:18] certo? Quando tu tem sistema complexo
+[00:34:20] para desenvolver, você vai usar um
+[00:34:22] método do Bibet, ou seja, é um brief que
+[00:34:26] ele cria o PRD, que é uma definição de
+[00:34:29] requisitos do produto, define qual é a
+[00:34:32] interface que vai ser usada, define qual
+[00:34:36] é a arquitetura.
+[00:34:37] Ele cria os épicos e as histórias que
+[00:34:40] são os passos que vão ser executados. E
+[00:34:43] aí com isso, você tem uma clareza
+[00:34:45] estratégica. Você consegue [roncando]
+[00:34:47] trabalhar em fases, né, e continuidade
+[00:34:50] entre elas. Você tem alinhamento, né, é
+[00:34:54] ótimo para grandes projetos. Isso não é
+[00:34:56] só para IA, é para qualquer projeto a
+[00:34:59] gente usa IA para fazer o projeto,
+[00:35:02] certo? Um arquiteto vai usar isso, um
+[00:35:05] psicólogo vai fazer isso, porque quando
+[00:35:08] o psicólogo vai trabalhar sobre a mente
+[00:35:11] de uma pessoa, é um projeto.
+[00:35:15] Ele tem uma meta, ele tem um
+[00:35:16] acompanhamento.
+[00:35:18] Não deixa de ser importante, é isso que
+[00:35:21] que muda as regras, porque nós temos
+[00:35:23] método. Então o bimed é isso, né? E o
+[00:35:27] que que é o superpower? Superpow é um
+[00:35:29] conjunto de skills que você usa dentro
+[00:35:32] do do chat, dentro do cloud, dentro do
+[00:35:36] codex, onde for, certo? E ele funciona
+[00:35:38] assim, toda vez que tu pede alguma
+[00:35:41] coisa, ele faz um brainstorm, ele
+[00:35:43] discute como ele vai atuar. Daí ele cria
+[00:35:46] um plano pequeno, né? Daí ele executa
+[00:35:50] isso e ele manda para os subagentes
+[00:35:53] fazerem, certo? E aí depois ele faz
+[00:35:56] review e verificação. Se tá OK, manda
+[00:36:00] paraa frente. Senão manda refazer tudo
+[00:36:02] de novo. Vantagens: bug sistemático,
+[00:36:06] menos retrabalho, melhor qualidade de
+[00:36:08] código, execução disciplinada e ótimo
+[00:36:11] para o dia a dia. E o que que é esse tal
+[00:36:14] de ECC? Everything Cloud Code é uma
+[00:36:18] caixa de ferramenta. Sabe aquele cara
+[00:36:20] que vem na tua casa para consertar
+[00:36:22] alguma coisa? Ele tem tudo ali na caixa,
+[00:36:24] no carro. Então é a mesma coisa, você
+[00:36:27] vai est usando esse, né, esse conjunto
+[00:36:29] de informações dentro da tua, né, da
+[00:36:34] tua, do teu ambiente de trabalho. Por
+[00:36:36] isso que é o BMED e o Superpowers e o
+[00:36:39] ECC fazendo parte de todo jogo, tá?
+[00:36:43] Então eu tenho bastante material que eu
+[00:36:45] fiz aí sobre isso, né? justamente para
+[00:36:48] ajudar as pessoas entender e otimizar,
+[00:36:52] porque é isso que tem que aprender,
+[00:36:54] certo? Não importa a tua profissão. Ah,
+[00:36:57] mas eu tava pensando aqui em fazer um
+[00:37:00] app. Mas para que a PP se todo mundo vai
+[00:37:03] tá usando óculos e vai tá usando voz,
+[00:37:07] talvez usando o, né, um um relógio,
+[00:37:11] talvez usando uma um colar,
+[00:37:15] um anel, porque é isso que nós estamos
+[00:37:18] saindo das telas para ir para um novo
+[00:37:20] mundo.
+[00:37:22] E olha quem é que dá minha idade sabe,
+[00:37:24] nós estávamos numa época que não era só
+[00:37:27] papel, daí passamos pra máquina de
+[00:37:28] escrever, pra fax, para mimiógrafo,
+[00:37:32] depois nós passamos para o PC, depois
+[00:37:35] pras redes, depois pra internet, né?
+[00:37:39] Depois paraas redes sociais,
+[00:37:41] né? Agora estamos com IA nas automações,
+[00:37:45] nos RPA que aconteceu tudo isso. Então
+[00:37:48] nós sabemos que tudo isso vai mudar.
+[00:37:52] e tá mudando muito rápido. Então, né,
+[00:37:55] todo o ambiente que nós temos hoje, para
+[00:37:58] onde que ele vai, como é que tu vai se
+[00:38:00] posicionar? Então isso é importante, né,
+[00:38:02] continuar com essa visão, [roncando]
+[00:38:05] certo?
+[00:38:07] Então, queria só dar uma uma geral. E
+[00:38:09] aqui tem um tal de m e a, tá? Mínimo
+[00:38:14] efetiva, agente, arquitetura,
+[00:38:17] certo? Então, qual é a função desse
+[00:38:19] cara? é um agente que toda vez que eu
+[00:38:22] falar com ele, com meu Jarvis, ele vai
+[00:38:25] governar a complexidade e vai dizer: "Ó,
+[00:38:28] uso BMED, uso super power, uso o ECC." É
+[00:38:33] um exemplo nisso que eu tô falando,
+[00:38:36] mas nós vamos ter esse cara trabalhando
+[00:38:39] no meus agentes, pegando o dado que
+[00:38:42] chega e fazendo orquestração,
+[00:38:45] certo? Então essa é a tendência que você
+[00:38:47] tem disso,
+[00:38:49] tá? E aí tem, né, os fluxos, vários
+[00:38:53] fluxos que eu montei aqui pra galera
+[00:38:55] entender todos esses processos aí, tá
+[00:38:58] legal? Então, para o pessoal que tá
+[00:39:01] comunidade, ó, tá aqui. Opa, olha só o
+[00:39:04] que aconteceu. Voltei para cá, já tá
+[00:39:07] pronto as 36 que é para falar. Vamos dar
+[00:39:11] uma olhadinha o que que ele falou
+[00:39:15] pro pessoal de 40 mais. Ele disse assim:
+[00:39:18] "Chama a sua experiência de velha, mas
+[00:39:21] presta atenção nisso. Imagina esse cara,
+[00:39:24] 40 e tantos anos, que já viu o mesmo
+[00:39:27] problema se repetir 10 vezes na empresa,
+[00:39:29] na família, no bairro. Um jovem qualquer
+[00:39:32] olha esse problema e já quer resolver
+[00:39:35] com um aplicativo cheio de inteligência
+[00:39:37] artificial. Esse cara de 40 e tantos faz
+[00:39:41] diferente. Ele já sabe de ver de perto
+[00:39:44] qual é a causa real. Ele não precisa de
+[00:39:47] tecnologia para enxergar isso. Precisa é
+[00:39:50] perguntar para três pessoas se essa dor
+[00:39:53] é a mesma que ele imagina. Opa, empatia,
+[00:39:56] né? Então fica a pergunta para você.
+[00:39:59] Responde um ou dois nos comentários. Eu
+[00:40:01] já vi esse problema de perto décadas. Eu
+[00:40:04] só imagino o que existe. Quem é que já
+[00:40:07] viu de perto sabe a causa antes de abrir
+[00:40:10] qualquer ferramenta. Ou seja, ele
+[00:40:12] transformou aquela minha instrução em um
+[00:40:15] texto que o meu avatar vai falar para um
+[00:40:19] público alvo certinho. Mas também tem
+[00:40:23] pro pessoal de 60 mais, também tem pro
+[00:40:27] pessoal que é os criadores,
+[00:40:29] também tem pros educadores,
+[00:40:32] né? Ou seja, e aí o que que eu tenho que
+[00:40:35] fazer? Se eu concordei com tudo isso,
+[00:40:38] né? Eu vou aqui embaixo e dou aprovar,
+[00:40:41] certo? C3, porque podia ter muita coisa
+[00:40:45] na fila. E aí ele já vai, ó, texto
+[00:40:49] aprovado, jogado lá. E agora o que que
+[00:40:52] ele vai fazer? Vai criar avatares disso
+[00:40:55] para depois criar os rios.
+[00:40:59] Beleza? Boa noite, Davi.
+[00:41:03] E aí que tá a oportunidade, certo?
+[00:41:07] Por isso que eu digo assim para vocês,
+[00:41:09] né? O que que eu fiz agora? Eu consegui
+[00:41:12] passar aquela minha ideia, aquela meu,
+[00:41:14] né, minha visão, né, para 306
+[00:41:19] públicos diferentes.
+[00:41:22] E claro que eu tenho que olhar, validar
+[00:41:24] e tudo mais se tá alinhado com aquilo
+[00:41:27] que eu fo, mas aumentou minha
+[00:41:28] produtividade. Eu teria que ter gravado
+[00:41:31] 36 vídeos para atingir o mesmo resultado
+[00:41:34] e talvez os meus vídeos não seriam bom,
+[00:41:37] teria dado problema. Engasguei, falei
+[00:41:40] mal. Não tenho dicção boa, tô cansado,
+[00:41:43] tô rouco. Tudo isso é uma mudança que
+[00:41:47] nós temos de trabalho. Então, quem
+[00:41:51] souber usar isso e não é comprar
+[00:41:54] software, é construir software,
+[00:41:56] construir a minha demanda. Isso que é a
+[00:42:00] grande mudança. Então, se você é da área
+[00:42:03] de tecnologia, pensa, em vez de você
+[00:42:06] querer vender o software, tá muito
+[00:42:07] melhor de você ir lá na empresa e criar
+[00:42:10] uma assessoria,
+[00:42:12] uma consultoria, uma área de treinamento
+[00:42:15] com eles, porque a constância de de
+[00:42:18] mudança vai ser cada vez mais rápida e
+[00:42:20] maior. Então, que tu tem que ajustar? um
+[00:42:24] método diferente, porque se você quiser
+[00:42:27] escalar, você não vai competir com os
+[00:42:29] grandes.
+[00:42:30] É um outro modelo que tá entrando agora,
+[00:42:33] né? Não tem como eu querer competir com
+[00:42:35] a Openide, com a Antrópica e elas estão
+[00:42:38] destruindo as empresas que antes viviam
+[00:42:41] delas. Olha o que que é o Lovable. Era
+[00:42:44] tudo. Agora eu não preciso mais do
+[00:42:45] Lovabl. O Cloud Code, o Codex, o Grock
+[00:42:49] lá com o cursor tão fazendo o mesmo,
+[00:42:52] cada vez mais simples, mais fácil.
+[00:42:56] E essa empresa que teve muita gente
+[00:42:58] botando dinheiro ali, talvez vai quebrar
+[00:43:01] lá na frente, mas nós já vimos isso lá
+[00:43:04] nos anos 90, nós vimos isso nos anos
+[00:43:06] 2000 e agora a gente vai ver de novo,
+[00:43:11] né? Então, tá aí uns detalhes
+[00:43:14] importantes que eu poderia mostrar para
+[00:43:16] vocês, tá legal? Então, esse conteúdo
+[00:43:19] aqui, primeiro que eu queria passar para
+[00:43:21] vocês, certo?
+[00:43:24] Ã, olha só, por exemplo, aqui eu tô com
+[00:43:27] num outro canal publicando aqui, certo?
+[00:43:32] Então, olha só, eu tenho aqui, né,
+[00:43:35] vários canais publicando.
+[00:43:39] Eh, agora eu limitei que eu tô colocando
+[00:43:41] aqui, tanto que tá, ó, tá pausado,
+[00:43:44] pausado. Eu tô focando só nos meus
+[00:43:48] views, então eu tô diminuindo por canal
+[00:43:51] para ver se dá mais alcance ou não.
+[00:43:53] Veja, eu tô fazendo estratégia de teste.
+[00:43:57] Primeiro eu colocava poucos, depois
+[00:43:59] aumentei para muitos. chegava a ter
+[00:44:01] colocar, né, 10, 20 até 42 vídeo por
+[00:44:06] canal.
+[00:44:08] Daí depois agora tô diminuindo
+[00:44:10] justamente para quê? Para descobrir qual
+[00:44:13] é que é melhor número por algoritmo,
+[00:44:16] certo? E por plataforma,
+[00:44:18] porque o que acontece? Tem plataforma
+[00:44:21] que não se importa quantos vídeos tu
+[00:44:23] coloca. Importante que o vídeo tenha
+[00:44:25] aderência. Tem outras que quando você
+[00:44:27] colocar muito vídeo, ela baixa o teu
+[00:44:29] alcance.
+[00:44:31] Então, o que que eu tô fazendo é testes,
+[00:44:34] botando mais, botando menos, criando
+[00:44:36] novos. Ó, já criei mais canais aqui, ó.
+[00:44:40] Esses aqui são tudo canais novos que
+[00:44:42] tão, ó. Se nós pegarmos aqui, ó, 30
+[00:44:46] dias, ó, não tem nada de histórico, ó.
+[00:44:48] Tudo canal novo aqui, mais novos canais
+[00:44:51] que eu tô colocando, ó. 7 dias são tudo
+[00:44:54] canais novos, ó. Esse aqui 30 dias, ó.
+[00:44:57] Deu um pico aqui, daí eu parei. Agora de
+[00:45:00] novo, né? Ó, vamos ver se aqui quanto
+[00:45:03] tempo eu tenho.
+[00:45:06] 7 dias, 30 dias. Ó, isso aqui tá mais,
+[00:45:10] tá mais ou menos 30 dias aqui. Tá no ar
+[00:45:13] também. Então, o tempo todo eu tô
+[00:45:15] trazendo, ó, 3 meses, 6 meses, ó. Esse
+[00:45:19] aqui tá em torno de 4, 5 meses no ar,
+[00:45:23] tá?
+[00:45:25] Ó, esse aqui eu não tenho nada publicado
+[00:45:27] hoje eu tenho que gerar conteúdo. E, ó,
+[00:45:30] 3 meses tava 6 meses, ó, também tá uns 4
+[00:45:35] 5 meses no ar, certo? Então, aí que tá,
+[00:45:39] a gente tem que tá sempre validando,
+[00:45:42] testando, buscando entender, né, as
+[00:45:45] demandas. Então, a demanda de software,
+[00:45:48] a demanda de assessoria, a demanda de
+[00:45:52] marketing, de tudo que nós temos
+[00:45:54] capacidade de fazer,
+[00:45:57] tá legal?
+[00:45:59] Aí, tudo bem, Marcelo?
+[00:46:02] Então pessoal, tá eh voltando aí,
+[00:46:05] pessoal que tá no TikTok, pessoal que tá
+[00:46:08] no Face, pessoal que tá no X aí, né,
+[00:46:12] pessoal que tá no Instagram, eu tô
+[00:46:15] transmitindo minha tela sempre no
+[00:46:17] YouTube, tá? Para não ficar transmitindo
+[00:46:20] em tudo que lugar e depois tá
+[00:46:22] administrando estress, porque as
+[00:46:24] plataformas querem que tu interaja em
+[00:46:26] cada uma. Então, mudei um pouco o meu,
+[00:46:29] senão vira um um caos para mim aqui.
+[00:46:32] Bom, aí eu posso configurar, né? Então,
+[00:46:35] por exemplo, se eu pegar aqui, ah, deixa
+[00:46:38] eu ver um exemplo aqui.
+[00:46:41] Não, todos estão operacionais,
+[00:46:45] mas eu poderia estar mudando a
+[00:46:47] configuração de cada uma delas de
+[00:46:50] publicação.
+[00:46:52] Ó, aqui foi publicado quatro, esse aqui
+[00:46:54] foi publicado três, aqui quatro.
+[00:46:57] Aqui foi publicado dois.
+[00:47:00] Aqui foi publicado três.
+[00:47:03] Esse aqui, ó, lives 10 não foi publicado
+[00:47:06] nada porque não tem nada para publicar.
+[00:47:10] Ã, aqui no importe aqui ele foi
+[00:47:13] publicado dois
+[00:47:15] aqui. Dois dois. Eu tô falando do dos
+[00:47:18] importes. Eu tô querendo só focar nos
+[00:47:20] import
+[00:47:22] 2 2 2 2 e aqui ainda nenhum. Tá, mas ele
+[00:47:26] botou um clipe aqui que aqui eu tirei os
+[00:47:29] importes daqui.
+[00:47:31] Beleza? Então é isso aí.
+[00:47:34] Tá mostrando aqui como é que eu
+[00:47:36] configuro isso aqui, pessoal. Das
+[00:47:38] novidades aqui que a gente tem sempre,
+[00:47:41] tá? Aqui, ó, últimos cursos, tá? E ah,
+[00:47:45] as últimos projetos, tá? Olha só aqui,
+[00:47:49] ó. Seu funcionário digital
+[00:47:52] em 7 dias, certo?
+[00:47:55] tu montar,
+[00:47:57] digamos, uma solução
+[00:48:00] para que tu tenha um funcionário
+[00:48:02] trabalhando para ti. Então, o seguinte,
+[00:48:05] aqui eu montei um curso que tu pode
+[00:48:08] estar online, gratuito aqui, né, que tu
+[00:48:11] pode estar seguindo e pensando como é
+[00:48:14] que eu crio, né, uma um sistema de
+[00:48:18] agente para ter um funcionário
+[00:48:21] trabalhando sete dias por semana.
+[00:48:24] Então, vejam só, pessoal, quando eu vejo
+[00:48:26] as notícias de como é que tá o mercado
+[00:48:29] financeiro e tudo, né, do Brasil,
+[00:48:31] inclusive eu tô fazendo um um material
+[00:48:34] aqui para mostrar, porque, cara, eu
+[00:48:37] tenho pena da situação das pessoas que
+[00:48:40] estão empregadas, tá? Olha só. Não, não
+[00:48:45] é aqui. É aqui.
+[00:48:48] Se nós pegarmos aqui, ó, tá?
+[00:48:53] e olhar as gerações, né? Tem o pessoal,
+[00:48:57] geração silenciosa, que sofreu lá com a
+[00:48:59] guerra e tudo mais. Depois veio os
+[00:49:02] boomers, que era da minha geração,
+[00:49:04] geração X, logo depois da minha, né? Os
+[00:49:08] milênios e agora a geração Z, certo? A
+[00:49:13] grande questão é, se nós olharmos cada
+[00:49:16] um, né, tinha uma tecnologia surgindo,
+[00:49:20] tá? surgiu os computadores, o celular, a
+[00:49:24] internet, né? E aqui as redes sociais e
+[00:49:27] e a Iá. A questão toda é o seguinte, né?
+[00:49:32] O que que essas gerações aqui vão fazer
+[00:49:35] da agora paraa frente?
+[00:49:38] Porque se as máquinas vão ocupar o
+[00:49:41] trabalho intelectual e físico, vai
+[00:49:44] sobrar o que para essas pessoas fazer? E
+[00:49:47] como sempre a gente olhando os governos,
+[00:49:52] certo?
+[00:49:53] O que que eles querem do povo? Eles
+[00:49:56] querem se manter no poder e querem
+[00:49:59] dinheiro.
+[00:50:01] Então o povo vai servir para eles se
+[00:50:04] manter no poder. Mas dinheiro eles não
+[00:50:06] precisam mais do povo, eles vão precisar
+[00:50:09] de quem produz. E quem vai produzir são
+[00:50:11] as máquinas. Então, será que essas
+[00:50:14] empresas vão vão pagar pro governo o que
+[00:50:18] que o governo precisaria pegar dessas
+[00:50:20] empresas e distribuir pro povo?
+[00:50:23] Para mim, esse é o grande problema de
+[00:50:25] agora em diante. Então, cabe a ti em que
+[00:50:29] cargo tu quer pegar, né? Aonde tu vai
+[00:50:31] atuar. Então, eu fiz um trabalho assim
+[00:50:34] muito grande de pesquisa
+[00:50:37] que, deixa eu ver qual é o lado que vai,
+[00:50:41] certo?
+[00:50:43] Que é o seguinte, resultado de tudo, o
+[00:50:46] maior tempo, né, o maior valor das
+[00:50:49] coisas é o tempo da gente,
+[00:50:51] certo? E agora nós estamos num tempo de
+[00:50:54] 1 2 anos que se tu ficar tendo a sua
+[00:50:58] vida de apenas consumir e não construir,
+[00:51:01] não estudar, como é que você vai querer
+[00:51:05] ter um espaço nessas nova era?
+[00:51:09] Porque essas grandes empresas vão querer
+[00:51:11] gente muito competente. Eu não preciso
+[00:51:14] mais do trabalho normal dentro das
+[00:51:16] empresas. Eu não preciso de
+[00:51:18] telemarketing, eu não preciso da
+[00:51:20] atendente.
+[00:51:23] Como é que lojas de varejo vão se
+[00:51:25] sustentar,
+[00:51:27] certo? Se tem alguém vendendo mais
+[00:51:29] barato, com menos infraestrutura online,
+[00:51:31] isso é óbvio, era uma questão de tempo,
+[00:51:36] né? Então, o que que vai acontecer?
+[00:51:41] as grandes empresas ou quem tiver vai
+[00:51:44] querer pessoas altamente competentes,
+[00:51:46] que sabem usaiar, que sabem construir
+[00:51:48] soluções, que são proativas, que t, né,
+[00:51:51] um comprometimento
+[00:51:53] e o resto vai viver consumindo seus bens
+[00:51:58] e levando a grana para quem tá, né, tá
+[00:52:01] no poder. Isso é natural.
+[00:52:06] Então isso é no mundo inteiro.
+[00:52:09] Então não jogue fora o o que que tu tem
+[00:52:12] de melhor, que é teu tempo, certo? Olha
+[00:52:17] só um alguns dados aí, né?
+[00:52:21] Se se as pessoas hoje não sabem fazer
+[00:52:23] economia, porque se ela pegava o
+[00:52:25] dinheiro que ela, né, que ela joga em
+[00:52:28] nos betão
+[00:52:31] de, né, de 50 anos, tu teria 10 milhões.
+[00:52:37] Alguém que jogaria R$ 500 por mês,
+[00:52:41] mas há pessoas, as pessoas não têm essa
+[00:52:43] visão. Por isso que no Brasil lá aqui é
+[00:52:46] futebol, é diversão e tudo. E na Ásia
+[00:52:49] eles focaram em transformar as pessoas,
+[00:52:52] né, altamente produtiva.
+[00:52:58] Então o que acontece? Nós temos no mundo
+[00:53:00] inteiro agora mais menos filhos e nós
+[00:53:03] vamos ter um problema com isso, porque
+[00:53:05] se tem menos filhos, nó quem é que vai
+[00:53:09] sustentar, né, a estrutura dos mais
+[00:53:12] velhos quando a geração Z, a geração dos
+[00:53:15] 20, 30 anos for a minha geração,
+[00:53:20] se eles não tiverem, né, um acumulado
+[00:53:24] recursos, será que os governos do mundo
+[00:53:27] inteiro vão ajudar? Tá? A gente pode ver
+[00:53:30] que aqui no Brasil não ajudam os os
+[00:53:33] velhos, até roubam os velhos. Então o
+[00:53:37] que que vai acontecer, né? Eu não tenho
+[00:53:40] dúvida que nós vamos viver de bolsa
+[00:53:43] família, de renda básica, mas da onde
+[00:53:46] vai vir essa renda básica, né? E qual o
+[00:53:49] sentido das pessoas se elas não têm
+[00:53:51] obrigação de trabalhar?
+[00:53:54] Então são coisas que eu tô trabalhando.
+[00:53:57] Outra coisa é a ansiedade, né? O os
+[00:53:59] casos de de pessoas com problemas de
+[00:54:02] distúrbios mentais e tudo tá cada vez
+[00:54:05] mais alarmante. E hoje tava me falando,
+[00:54:08] né? A Tisa tava me falando, "Ni, as
+[00:54:11] professoras estão me dizendo que elas
+[00:54:12] não têm noção, tá? que ela que que elas
+[00:54:17] não tinham noção que iam viver isso. Os
+[00:54:20] os alunos ficam até 4 da manhã em casa
+[00:54:22] no seu lar escondido dos pais e dentro
+[00:54:26] da escola eles querem dormir. Eles são
+[00:54:29] eles se irritam com qualquer coisa.
+[00:54:31] Claro, eu sei quando eu não durmo, né? O
+[00:54:34] que que acontece no outro dia? A gente
+[00:54:36] fica com com tudo mais sensíveis. E a e
+[00:54:40] a escola não é mais interessante, né? O
+[00:54:43] que que é interessante é as telas.
+[00:54:46] Então vocês imaginam para onde que nós
+[00:54:48] vamos, né? Bom, e é um fato, mas outro
+[00:54:53] dia eu continuo mais um pouquinho disso
+[00:54:55] aqui,
+[00:54:58] certo?
+[00:55:00] Então aí tô trazendo sempre conteúdos
+[00:55:03] melhores para vocês aqui. Então esse
+[00:55:06] aqui é um curso de formar, né? Ã um
+[00:55:10] funcionário. Como é que eu construo um
+[00:55:11] funcionário?
+[00:55:13] Certo? Outra coisa aqui nós temos
+[00:55:16] também, né, sobre eh os grafos,
+[00:55:20] engenharias de grafo, que é uma
+[00:55:23] evolução, né? Tu começa
+[00:55:26] com engenharia de prompt, engenharia de
+[00:55:28] contexto, né? eh, engenharia dos
+[00:55:31] agentes, os agentiic, depois os looping
+[00:55:34] e daí depois vem os grafo. Então, para
+[00:55:37] quem quer ir estudando,
+[00:55:40] tem tudo um curso sobre isso, como é que
+[00:55:43] é os fundamentos de grafo e tudo mais,
+[00:55:45] tá aqui. Então, tá sempre vindo coisas
+[00:55:48] novas aqui. Deixa eu ver se tem mais
+[00:55:50] algum.
+[00:55:53] H
+[00:55:57] aqui também sobre engenharia de software
+[00:56:00] para quem quer construir software, né?
+[00:56:03] Uma formação de IA para quem quer
+[00:56:06] aprender IA do zero e é
+[00:56:10] para as pessoas mais comuns. Então eu tô
+[00:56:12] criando também conteúdo assim, tá?
+[00:56:14] Beleza?
+[00:56:16] Bom,
+[00:56:18] um outro assunto que eu tenho aqui,
+[00:56:20] deixa eu só me achar aqui que eu fui
+[00:56:22] marcando, deixando aqui pronto para
+[00:56:25] vocês.
+[00:56:28] Não,
+[00:56:33] deixa eu ver se tá aqui.
+[00:56:41] Acho que tá aqui.
+[00:56:44] Não,
+[00:56:46] eu deixei um aqui, ó. Todo dia, se nós
+[00:56:50] vamos ver, tá aqui, ó. Novidade,
+[00:56:53] novidade, né? Ah, senscionalismo,
+[00:56:57] sensionalismo,
+[00:56:59] certo? [roncando]
+[00:57:01] Ã, que mais, né? Até esse cara sumiu
+[00:57:05] daí, né? Tão falando. Mas aí já vem a
+[00:57:09] coisa, ó. GLM53 free. Mentira, não é
+[00:57:12] free. Eles estão te dando uma amostra
+[00:57:15] para tu poder aprender, valorizar e que
+[00:57:18] eles querem te vender. Então não é free.
+[00:57:21] Apesar de ser open source, ela não roda
+[00:57:23] numa máquina comum. Então eu tenho que
+[00:57:26] pagar por isso. Certo? Outra coisa
+[00:57:29] também, Cloud 2.0 saindo nova versão.
+[00:57:34] Certo?
+[00:57:35] Então, outra coisa, comparando Kim, né,
+[00:57:39] K3 com o Fab também, ou seja, tem muita
+[00:57:43] comparação, muita coisa, né? O LTX 2.5,
+[00:57:47] roda local, tá? Eu uso essa aqui para
+[00:57:50] gerar imagem e vídeo. O Astra vindo aí
+[00:57:54] com a Openine, certo? Ou seja, pessoal,
+[00:57:59] né? Queen 3.8, tá ali, presos abertos.
+[00:58:03] Eu baixei ele inclusive na minha máquina
+[00:58:06] local,
+[00:58:07] certo? Mas daí tudo isso é por quê?
+[00:58:10] Então vamos lá dar uma olhadinha aqui,
+[00:58:12] um exemplo.
+[00:58:14] Quando eu vim aqui,
+[00:58:16] deixa eu ver, ó,
+[00:58:21] só para vocês verem aqui, né? Queen 2.5,
+[00:58:26] Queen Agentique, que eu tinha na minha
+[00:58:28] máquina. Mais um pouco. Deixa eu subir
+[00:58:31] aqui,
+[00:58:35] né? Então eu tô fazendo comparação se
+[00:58:38] vale a pena trocar na minha máquina ou
+[00:58:41] não. Ou seja, no meu ambiente.
+[00:58:46] Não, aqui já é outra outra santé
+[00:58:48] embaixo. Aqui,
+[00:58:55] ó. Eu dei um clear, limpei a memória,
+[00:58:57] entrei em um outro assunto. Certo?
+[00:59:00] Chegando o sistema, já temos a linha
+[00:59:02] Queen aqui, 3.6
+[00:59:04] de 35 bilhões de parâmetro, a Queen 3 de
+[00:59:08] 30 bilhões de parâmetros e temos o Queen
+[00:59:11] 2.5 de 72 bilhões de parâmetros. Cabe
+[00:59:15] rodar? Sim, tecnicamente com T. Eu tenho
+[00:59:19] 100 GB, 120 GB de memória. Beleza, dá
+[00:59:23] para rodar o 3.8,
+[00:59:25] certo? Quantizado e tudo gargalo. Real é
+[00:59:28] o disco, tá? Pá, né? E ele me disse:
+[00:59:32] "Pode limpar o Liama 3.170 duplicado,
+[00:59:35] pá, pá, né?" Daí aqui ele ele tá me
+[00:59:40] falando mais. Daí ele me comentou os
+[00:59:42] modelos, o que que eu podia economizar e
+[00:59:45] eu disse: "Não, mas antes disso, né,
+[00:59:47] vamos esperar, vamos analisar melhor as
+[00:59:50] coisas." E assim eu fui tocando. Então
+[00:59:53] ele tá só esperando eu apagar algumas
+[00:59:56] coisas e instalar outras. Ou seja, o
+[00:59:59] tempo todo nós temos isso, novidades,
+[01:00:02] novidades, novidades. Certo?
+[01:00:06] Então eu tenho que avaliar se vale a
+[01:00:09] pena tá mexendo nisso ou não,
+[01:00:12] certo? Então rodar local se tu tem uma
+[01:00:15] máquina potente, senão esqueça, né? Ah,
+[01:00:20] mas roda com 8 GB. Rodar, roda, mas não
+[01:00:24] funciona. É isso que tem que ter clareza
+[01:00:27] nas coisas. E para isso, qual é a
+[01:00:29] alternativa que eu digo? Se teu dinheiro
+[01:00:31] não banca isso aqui, ó, os modelos que
+[01:00:35] tu tem aqui,
+[01:00:37] esquece.
+[01:00:39] Vá trabalhar para alguém que se alguém
+[01:00:42] paga para ti gastar os tokens e
+[01:00:44] construir alguma coisa, porque senão
+[01:00:47] você vai ficar pedalando, pedalando e
+[01:00:49] não vai fazer nada e você não vai se
+[01:00:51] qualificar nesse novo mundo,
+[01:00:54] certo? Então, tu tem que construir
+[01:00:57] alguma coisa útil todo dia, certo?
+[01:01:01] Então, se tu puder trabalhar pros outros
+[01:01:04] e eles te pagar, melhor. Senão você tem
+[01:01:06] que bancar o teu dinheiro. Isso, né? Eu
+[01:01:10] tenho falado isso pro pessoal da
+[01:01:12] comunidade. Eu digo: "Ó, não adianta". E
+[01:01:15] vejam, eu tô lá fora hoje. Eu tinha aí
+[01:01:18] na nas minhas publicações aqui na nos
+[01:01:21] grupos que eu tô fora, eu tinha mais de
+[01:01:24] 60 mensagens aí das publicações que eu
+[01:01:27] vivo fazendo,
+[01:01:29] né?
+[01:01:33] E olha o que que eu coloquei aqui, só
+[01:01:34] para vocês ver, né? Boris for anropic
+[01:01:38] delete skill cloud filing. Então, audit
+[01:01:43] prompt, o que que eu tava mostrando pro
+[01:01:45] pessoal? Essa visão, né? Porque você tem
+[01:01:49] um promp para fazer auditoria, tá?
+[01:01:53] Depois,
+[01:01:56] né? Com menos prompt, mais inteligência.
+[01:02:00] E aí, né, como sempre, eu coloco para
+[01:02:03] todo mundo o meu prompt que eu coloquei
+[01:02:05] aqui pro pessoal tá otimizando dentro
+[01:02:08] da, né, e aí o pessoal interagindo,
+[01:02:12] tá assim nos, ó, nos inúmeros grupos que
+[01:02:15] eu tô, né, todo mundo interagindo aqui.
+[01:02:21] Por quê? Porque são assuntos que fazem
+[01:02:23] diferença. Deixa eu ver se tem aqui meu
+[01:02:26] meu post.
+[01:02:29] Não tá aqui.
+[01:02:35] Tá aqui ele, ó.
+[01:02:38] Também, ó, bastante gente aí
+[01:02:40] interagindo, né, no post aí,
+[01:02:45] porque é relevante isso,
+[01:02:51] tá legal?
+[01:02:53] Então, a mesma coisa, pessoal, aqui
+[01:02:54] dentro da comunidade aqui nós temos, né,
+[01:02:57] o Noinema Pro, o acervo, todo esse
+[01:03:00] material tá disponível para vocês numa
+[01:03:03] pesquisa rápida sobre isso, né? Ah, eu
+[01:03:06] quero saber sobre gráfico, né?
+[01:03:16] Gráfico,
+[01:03:18] né? E eu posso ver isso em capas, né? do
+[01:03:21] que que nós temos. Eu então as
+[01:03:23] informações todas agora tão cada vez
+[01:03:26] mais fácil. Por quê? Porque a Iá
+[01:03:28] organizou isso para nós, certo? Antes eu
+[01:03:31] tinha que pesquisar, eu tinha que ir
+[01:03:32] atrás. Então, cada vez mais ela vai ser,
+[01:03:36] né, autônomama. Mas eu tenho que
+[01:03:39] aprender dirigir os carros autônomos, as
+[01:03:43] coisas autôn as máquinas autônomas, os
+[01:03:46] sistemas autônomos. E é isso, o
+[01:03:48] investimento de que nós precisamos ter,
+[01:03:52] tá legal?
+[01:03:56] Então, era mais ou menos isso, tá? Eu
+[01:03:59] tava lendo aí sobre o que que os caras
+[01:04:01] estão falando, o GLM53,
+[01:04:03] né? Ou seja, tem muita coisa que
+[01:04:09] é objetos brilhantes
+[01:04:12] que não vale a pena você gastar teu
+[01:04:14] tempo sobre isso. É bom você só saber,
+[01:04:17] ó, o Astra tá aí, tá chegando ali, né? O
+[01:04:21] que que vai ser? O Astra vai ser a nova
+[01:04:23] versando a IA, mas ela vai ajudar,
+[01:04:25] talvez não, porque eu não tenho nem
+[01:04:27] grana para bancar isso. Então é isso que
+[01:04:29] a gente tem que pensar, tá? Beleza,
+[01:04:32] pessoal?
+[01:04:34] Por hoje era só. Amanhã tem mais, tá
+[01:04:37] bom?
+[01:04:51] Oi, Thago, tudo bem?
+[01:04:57] Oi, Thaago, você tem alguma maneira de
+[01:05:00] criar site e de gerar vídeo de em grande
+[01:05:05] escala por esse preço? Bom, depende,
+[01:05:08] primeiro lugar de que tipo de vídeo que
+[01:05:10] tu quer gerar. Mas, por exemplo, se você
+[01:05:13] pegar hoje o Agnes, tá, ele é 4 por mês.
+[01:05:19] Você pode criar 4.000 fotos por dia e
+[01:05:22] 200 minutos de vídeo por dia.
+[01:05:27] Tu pode ter duas, 3, 4, cestes valores e
+[01:05:32] você pode fazer isso em produção.
+[01:05:39] Agora pensa o seguinte, essa ideia de
+[01:05:42] comprar, né, a
+[01:05:47] de comprar solução de software, não
+[01:05:50] importa para mim qual é o software. Por
+[01:05:52] exemplo, agora eu conectei o Agnes, mas
+[01:05:55] daqui a pouco o Google tá me dando API
+[01:05:57] de graça quanto, né? A Open tá me dando
+[01:06:02] de graça quanto? É muito pouco. E se eu
+[01:06:05] criar 10 contas resolve? Sim. Não é
+[01:06:09] isso? O que resolve é tu rodar na tua
+[01:06:12] máquina quando tu tem grana para bancar
+[01:06:14] máquina. Se tu não tem grana para bancar
+[01:06:16] máquina, tu tem que ter grana para
+[01:06:18] bancar o software online.
+[01:06:22] Quem é que corre atrás do gratuito, ele
+[01:06:24] se ferra, porque não tem como, né, você
+[01:06:28] fazer alguma coisa produtiva no
+[01:06:31] gratuito. Só quem vende curso que
+[01:06:33] promete isso,
+[01:06:35] porque daí tu vai fazer o curso e ele
+[01:06:37] diz: "Ó, dá certo por causa dele, mas
+[01:06:40] porque tu tá comprando dele, ele tá
+[01:06:41] vendendo para ti,
+[01:06:44] porque se eu tivesse faturando aí tantos
+[01:06:46] dígitos, por que que eu vou fazer, né?
+[01:06:49] eh tentar vender curso por 140
+[01:06:54] R$ 14
+[01:06:58] não tem sentido.
+[01:07:01] Tá bom?
+[01:07:05] Deixa eu ver aqui as mensagens aí de
+[01:07:06] vocês.
+[01:07:19] Por exemplo, vídeos de venda de de
+[01:07:21] TikTok Shopping 8 segundos.
+[01:07:24] Tu vai hoje e cria, olha a o próprio API
+[01:07:27] do
+[01:07:29] TikTok lá pro como é que é o nome?
+[01:07:33] Dream.
+[01:07:35] Ah, esqueci. Dream alguma coisa que é do
+[01:07:38] Capcut. Tu pode automatizar ela, então
+[01:07:41] tu cria quantos vídeos quiser, tu dá da
+[01:07:44] tua imagem e cria. Tanto ali se tu ir no
+[01:07:48] Inema Club e e pesquisar de projeto, tem
+[01:07:51] vários projetos de vídeo. É só pegar um
+[01:07:53] desses projetos, mudar a PI e tá
+[01:07:56] rodando.
+[01:08:04] Então tem muita coisa que a galera pensa
+[01:08:07] assim, tudo depende. Tu tem, se tu tá
+[01:08:10] faturando, veja o cara que não quer
+[01:08:13] gastar dinheiro criando vídeo, mas se
+[01:08:16] ele não, ele quer gastar dinheiro, não
+[01:08:18] quer gastar dinheiro fazendo vídeo, é
+[01:08:21] porque lá também não tá dando dinheiro.
+[01:08:23] Porque se tivesse dando dinheiro, tu faz
+[01:08:26] um sistema e bota qualquer API
+[01:08:30] que gera imagem e vídeo e tá valendo,
+[01:08:33] não é?
+[01:08:38] Então, o que eu vejo das pessoas é
+[01:08:39] justamente isso, tá? Ah, o que que a
+[01:08:44] gente tem pensar, que nem no meu caso
+[01:08:46] aqui, eu tenho muitos canais, inclusive
+[01:08:49] Dark, que não dão mais grana.
+[01:08:52] Então, por que que eu vou manter meus
+[01:08:54] canais dark se não tá mais dando grana?
+[01:08:57] Só ser porque eu gosto
+[01:09:00] e aí eu vou bancar porque eu gosto. Que
+[01:09:04] nem tá aí, ó. Se eu entrar agora no link
+[01:09:06] aqui, ó,
+[01:09:10] devo ter lá quantos mil créditos aqui,
+[01:09:16] tá? Deixa eu entrar aí. Cadê você?
+[01:09:29] Ó, 8.000 crédito tenho aqui, certo?
+[01:09:33] Então eu vou criar que tipo de vídeo eu
+[01:09:34] vou criar
+[01:09:36] para pagar minha conta por mês aqui?
+[01:09:39] Certo? Se eu não, olha, eu tenho que ter
+[01:09:41] muita aderência e tudo. Eu tava
+[01:09:43] mostrando aqui agora sobre, quer ver um
+[01:09:46] exemplo?
+[01:09:51] Deixa eu ver aqui,
+[01:09:57] ó. Deixa eu só pegar. 1 2 3 4 5
+[01:10:03] 6 7 8 9 10 11 12 13 14
+[01:10:08] 15. Vou compartilhar aqui. Depois eu
+[01:10:13] depois eu mudo aqui
+[01:10:16] no Inema.
+[01:10:18] VIP nas novidades. Depois eu tiro de lá
+[01:10:23] só para mostrar para vocês. Opa,
+[01:10:32] tá? Isso aqui que ó, se eu olhar no
+[01:10:35] YouTube lá,
+[01:10:40] vamos lá. Em Nema VIP, novidades.
+[01:10:44] Ó, eu tenho vários canais aqui, ó. E
+[01:10:47] aqui tá, o pessoal pegou alguns vídeos
+[01:10:49] meus lá e publicou.
+[01:10:53] Esse cara faturou um monte sobre mim,
+[01:10:56] tá?
+[01:10:57] Isso aqui, ó, 1700
+[01:11:02] aqui, 75.000 visualizações. Esse aqui
+[01:11:06] 500 600.000.
+[01:11:10] Aqui não aparece. Deixa eu pegar aqui
+[01:11:13] que aparece
+[01:11:15] 100.000.
+[01:11:18] Aqui não aparece aqui. 5 milhões,
+[01:11:24] tá?
+[01:11:26] 1.600.
+[01:11:27] Quer dizer, tem um monte de vídeo. Eu
+[01:11:29] tava vendo desse cara aí que ele pegou
+[01:11:31] os conteúdos meus e publicou lá porque
+[01:11:34] tá liberado, né? Na internet todo mundo
+[01:11:36] pega do que for.
+[01:11:38] Agora o seguinte, hoje se eu tiver lá 10
+[01:11:42] milhões de visualizações, quanto o
+[01:11:45] TikTok, quanto o
+[01:11:48] YouTube vai me pagar, cara? Cara, eu
+[01:11:51] vejo os caras exibindo lá os dizendo que
+[01:11:54] fatura um monte, cara,
+[01:11:56] não funciona. Eu tenho muita
+[01:11:58] visualização em muitos canais Dark ou
+[01:12:01] não, não vale a pena. Não, banca aí.
+[01:12:06] Então, se tu quer gastar teu tempo para
+[01:12:08] publicar, beleza. Então, a mesma coisa
+[01:12:12] de vender no TikTok Shop,
+[01:12:15] faz. Se tu tá vendendo, aí você escala.
+[01:12:20] Se você fizer um vídeo e não consegue
+[01:12:22] ter venda, não é botando 30 vídeos que
+[01:12:25] vai aumentar as vendas, porque tu tem
+[01:12:27] que descobrir o modelo de construir a
+[01:12:30] venda. Será que é o vídeo? Será que é o
+[01:12:33] produto? Será que é o preço?
+[01:12:37] Porque criar em escala é fácil. As
+[01:12:39] máquinas estão aí, pronto, é só tu
+[01:12:41] baixar,
+[01:12:43] né?
+[01:12:46] Tá legal, pessoal?
+[01:12:52] Então mesmo o o TikTok todos esses aí
+[01:12:56] tão tão colocando o próprio Google tem
+[01:12:58] as APIs para tu gerar o vídeo e tudo,
+[01:13:02] só que tem que cair na real porque
+[01:13:04] passou a era de ganhar dinheiro nas
+[01:13:07] redes sociais,
+[01:13:10] você tem que ganhar dinheiro de outras
+[01:13:11] formas e não cair na na asneira, né?
+[01:13:15] Porque todo mundo que entra nas redes
+[01:13:16] sociais começa a querer exibir quanto
+[01:13:19] ele tá faturando. Qual é o Eu nunca
+[01:13:21] botei isso para vocês, quanto eu faturo,
+[01:13:26] porque qual é a vantagem que eu tenho?
+[01:13:27] Só se eu quisesse vender um curso para
+[01:13:30] vocês faturar que nem eu. Mas para vocês
+[01:13:33] faturar que nem eu, vocês têm que
+[01:13:34] trabalhar que nem eu, estudar que nem
+[01:13:36] eu, ter networking que nem eu, né?
+[01:13:41] E aí
+[01:13:44] eu passo 18 horas estudando,
+[01:13:46] construindo, etc. Tem que ser assim da
+[01:13:48] daí paraa frente,
+[01:13:50] né? Então, como é que as pessoas vão
+[01:13:53] conseguir?
+[01:13:55] Tá legal?
+[01:14:01] Deixa eu tirar disso aqui daqui que eu
+[01:14:02] só quis mostrar.
+[01:14:17] Esse cara aí já teve muitos vídeos que
+[01:14:21] meus aí que o cara faturou mais de 10
+[01:14:24] milhões de visualizações.
+[01:14:26] Por quê? Porque era uma época que rendia
+[01:14:28] bem isso. 2023,
+[01:14:31] 2022.
+[01:14:35] E esse é um canal de eventos extremos
+[01:14:37] que eu tenho.
+[01:14:39] Deixa eu botar aqui.
+[01:14:49] Beleza, pessoal?
+[01:14:58] Alguma pergunta me faz aí que eu posso
+[01:15:00] ajudar.
+[01:15:25] Isso aí, ó. um um uma que você pode
+[01:15:29] começar usar em escala em API é o Agnes
+[01:15:35] agnesai.com.
+[01:15:36] Ó,
+[01:15:38] tá? Tem a PI,
+[01:15:41] né? O preço dela, deixa eu ver se
+[01:15:43] aparece aqui o preço. Você tem que
+[01:15:46] comprar a versão de tokens, tá?
+[01:15:52] Eu
+[01:16:02] não sei agora. Deixa eu ver se eu
+[01:16:04] consigo botar aqui agnes aí.
+[01:16:07] Campanha.
+[01:16:32] aqui, ó.
+[01:16:36] Ela, você pode usar ela de graça
+[01:16:39] ou senão você faz, né, assinatura por
+[01:16:43] tokens.
+[01:16:45] Tá,
+[01:16:46] tokens plan.
+[01:16:51] E aí que tá, ó, ainda tá em promoção, ó.
+[01:16:55] No primeiro mês, depois vira quatro. Não
+[01:16:58] vale a pena colocar essa plus, ao menos
+[01:17:00] que tu quiser ter requestes maiores de
+[01:17:04] LLM, porque de imagem o o número é
+[01:17:07] igual,
+[01:17:09] tá?
+[01:17:11] e nem essa aqui. Com 4 suficiente tu ter
+[01:17:15] acesso. Ela não é uma um sistema de
+[01:17:17] imagem de vídeo top, mas é bom para tu
+[01:17:20] começar, para tu testar, etc.
+[01:17:30] Sempre, Thaago, tu começa na tua máquina
+[01:17:32] local, faz teu aplicativo e talvez você
+[01:17:36] vai jogaronde? Numa VPS? Não, talvez
+[01:17:39] você vai colocar isso rodando primeiro
+[01:17:42] numa num Versel, num GitHub e aí tu vai
+[01:17:46] para uma VPS se você quer rodar alguma
+[01:17:49] coisa que não roda nesses dois, porque
+[01:17:52] nesses dois tu faz de graça
+[01:17:54] e também tu tem algumas VPS de graça,
+[01:17:57] né, que nem da Oracle, que nem do Zo
+[01:18:01] Computer também é de graça, né, e assim
+[01:18:05] por diante.
+[01:18:08] Tá bom? Então, por hoje era só
+[01:18:12] vou comer alguma coisa e depois testar
+[01:18:15] como sempre. M.

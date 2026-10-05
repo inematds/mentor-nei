@@ -1,0 +1,1781 @@
+# LIVE： Bench Studio com 81 Modelos de IA - Instalação do Zero
+Origem: https://www.youtube.com/watch?v=tfLpUHmpvFk
+Texto: legenda
+
+[00:00:35] Beleza, pessoal, tudo certo?
+[00:00:43] Tô dando uma carga aqui. Fazer a live.
+[00:00:46] Tá no ar.
+[00:00:48] E aqui vamos ver como é que t de
+[00:00:49] bateria.
+[00:00:51] Ué.
+[00:01:02] Nada de vir sorce.
+[00:01:16] Eu tem bateria aqui também.
+[00:01:19] Bom, pessoal, hoje vamos falar de novo
+[00:01:22] do nosso amigo aqui, certo? do Bench
+[00:01:26] Studio com 73 modelo. Não, a gente tá
+[00:01:30] com muito mais do que isso. Eu vou
+[00:01:33] mostrar para vocês aí já.
+[00:01:36] Outra coisa é o fluxo. Eu vou explicar
+[00:01:39] como é o fluxo e como é a instalação. Eu
+[00:01:42] espero que seja o último dia que eu falo
+[00:01:44] disso direto, que amanhã tem outros
+[00:01:47] cursos. Beleza.
+[00:01:50] Saludo de Buenos Aires. Como está,
+[00:01:53] amigo?
+[00:02:04] Deixa eu ver aqui. Eh,
+[00:02:11] tudo bem. Deixa eu só tô botando aqui
+[00:02:14] mais uma
+[00:02:16] live aqui.
+[00:02:18] Feitou.
+[00:02:23] E aí, como é que tá, F?
+[00:02:27] Tudo certo?
+[00:02:35] Bom, vamos falar então do Bench Stúo.
+[00:02:38] Para quem não sabe, tá? É uma ferramenta
+[00:02:42] aqui, ó. Vou abrir aqui
+[00:02:46] que vocês possam baixar.
+[00:02:49] A ideia dela é substituir o Higfields e
+[00:02:52] todas essas ferramentas.
+[00:02:54] No meu caso aqui, ó, eu tô usando ela
+[00:02:57] localmente
+[00:02:59] e a porta é 5200,
+[00:03:02] certo?
+[00:03:03] Então, olha só,
+[00:03:07] eu tô aqui, ó, com tudo isso produzido,
+[00:03:09] não gastando nada, vídeos, filmes, etc.
+[00:03:13] Até aqui, ó, que legal.
+[00:03:16] E
+[00:03:19] deixa eu ver com aonde que tá catálogos.
+[00:03:23] Os meus catálogos agora não diz aqui a
+[00:03:26] quantidade.
+[00:03:28] 81 modelos, ó. Subiu de 73 para 81
+[00:03:32] modelos. Eu trouxe vários do Clean, tá?
+[00:03:36] Então aqui, ó, do Clan, do Kie, do
+[00:03:39] Agnes, do Inema. E aí vai entrar outro
+[00:03:42] aqui que é o Free Pix do Magnific.
+[00:03:46] Certo?
+[00:03:48] Então vamos só vamos ver o seguinte.
+[00:03:52] Eu tô aqui,
+[00:03:55] coloque no catálogo
+[00:04:01] os
+[00:04:03] modelos.
+[00:04:05] OK.
+[00:04:08] Então nós vamos ter assim, eu tô
+[00:04:09] implementando novas novos provedores.
+[00:04:12] Provavelmente eu vou tirar essa linha
+[00:04:14] aqui e tu vai selecionar, né, os que tu
+[00:04:17] quer, né, porque tá crescendo muito isso
+[00:04:22] também. O que que acontece aqui, ó? Isso
+[00:04:25] aqui são todos provedores de imagem de
+[00:04:27] vídeo, tá? Mais adiante vai ter vídeos
+[00:04:31] para conferência aqui também, porque as
+[00:04:34] coisas estão evoluindo para esse dado
+[00:04:37] do lugar.
+[00:04:40] Essa versão aqui, ó, tu pode deixar em
+[00:04:42] português ou em inglês, tá legal?
+[00:04:46] Tudo bem, Alexandre Miller? É só
+[00:04:48] atualizar. Ela é tudo igual. Eu peguei
+[00:04:51] aquela versão em inglês, deixei
+[00:04:53] redondinha, implementei as coisas que eu
+[00:04:55] queria e aí eu portei agora para ser
+[00:04:58] português inglês.
+[00:05:01] Eh, tem algumas coisinhas que eu tenho
+[00:05:02] que ajeitar aqui em português, ó, quando
+[00:05:04] eu vou em criar
+[00:05:07] e conforme o que que eu uso aqui, ó, ele
+[00:05:10] muda um pouco a porque o português é
+[00:05:13] maior, mas eu tô ajustando também. Eu tô
+[00:05:18] tirando esses ícones que não agrega em
+[00:05:20] nada aqui,
+[00:05:22] então deixar eles mais fácil,
+[00:05:26] tá?
+[00:05:28] Ã,
+[00:05:30] por exemplo, aqui eu posso tá
+[00:05:34] que nem eu quero fazer aqui um baseado
+[00:05:37] em duração, eu quero 15 segundos, certo?
+[00:05:42] Então, eh, eu preciso que, ó, deixa eu
+[00:05:46] fazer um texto, refinal prompt
+[00:05:51] aqui. Ele tem que mudar a cobrança, ó.
+[00:05:53] Aqui tem um bugzinho, ó. Tinha que
+[00:05:55] calcular a cobrança.
+[00:05:58] Então, deixa eu botar lá.
+[00:06:00] Tch tchã.
+[00:06:02] Quero
+[00:06:06] no
+[00:06:08] no se dance
+[00:06:11] na criação
+[00:06:13] não calcula
+[00:06:16] a cobrança total quando mudo o tempo.
+[00:06:23] Vamos ver o que ele faz. Beleza? Bom,
+[00:06:26] olha só o que que eu quero mostrar para
+[00:06:29] vocês. Vou puxar essa telinha aqui, ó.
+[00:06:33] Tá, deixa eu puxar essa telinha aqui. Tá
+[00:06:36] vendo essa tela? Isso aqui tá rodando na
+[00:06:40] numa VPS. Deixei redondinho minhas
+[00:06:43] crianças que estão brincando lá, certo?
+[00:06:46] Ó. E eu vou mostrar para vocês então
+[00:06:48] como instalar tudo isso, como
+[00:06:50] configurar, como é que dá proteção.
+[00:06:54] Ó, ele já tem o endereço de internet,
+[00:06:56] inclusive tudo direto. Esse é local e
+[00:07:00] esse não é local, é na nuvem. Ó, pode
+[00:07:03] ver que eu tô com duas coisas diferentes
+[00:07:06] aqui, ó. Certo? Ó, esse aqui é meu
+[00:07:09] local,
+[00:07:11] tá? Então, eu tô usando na nuvem também.
+[00:07:15] Opa, deixa eu só me organizar aqui na
+[00:07:17] tela
+[00:07:23] aqui. Ah,
+[00:07:28] também quando clicar em uma foto
+[00:07:39] criada,
+[00:07:41] quero que abre em [limpando a garganta]
+[00:07:43] vez de descer até no final
+[00:07:50] do detalhe.
+[00:07:53] Beleza? Então tá.
+[00:07:58] Eh,
+[00:08:00] pessoal aí que tá, eu tô transmitindo
+[00:08:02] isso tudo no YouTube, né? Vocês sabem
+[00:08:06] disso. Então, tá tudo lá. Se vocês
+[00:08:07] querem ver minha tela,
+[00:08:19] bom, então vamos lá. O que que acontece?
+[00:08:22] O que que eu preciso fazer para
+[00:08:23] instalar? Eu já botei aqui no Inema
+[00:08:26] Club,
+[00:08:28] ó,
+[00:08:30] Bent Studio BR,
+[00:08:33] tá? Então, tem a versão em inglês e tem
+[00:08:36] a BR. A BR é em português e inglês.
+[00:08:39] Então, tu pode vir aqui, né, baixar ela.
+[00:08:43] Então, aqui tem umas explicações, né,
+[00:08:45] sobre tudo a ideia. Ele faz um refino no
+[00:08:48] prompt. Depois escolhe o modelo que tu
+[00:08:51] quer, né? Então, baseado, até eu diria
+[00:08:54] que o modelo tu tem que escolher antes,
+[00:08:56] porque quando tu faz o refino, ele vai
+[00:08:59] se basear no modelo. Então aqui eu tinha
+[00:09:01] que inverter isso aqui. Ele já calcula o
+[00:09:04] que que seria, porque como tu escolheu o
+[00:09:06] modelo, ele sabe. Então, ã, são ajustes
+[00:09:10] que eu quero, porque quando a gente tá
+[00:09:13] fazendo para saber qual é o meu custo
+[00:09:14] para fazer essa brincadeira ou esse lado
+[00:09:17] profissional, né? geração, você tem uma
+[00:09:20] cópia local, né, e você tem um cálculo
+[00:09:23] que tu vai gastar todo nele,
+[00:09:28] né? Ã, com isso tu pode tá produzindo as
+[00:09:32] coisas para alguém e dizer assim: "Eu
+[00:09:34] vou cobrar baseado não no meu tempo, eu
+[00:09:37] vou cobrar em cima do que que é o o meu
+[00:09:40] custo mais do que eu quero ganhar."
+[00:09:42] Então, são várias formas tu pode fazer
+[00:09:44] nisso, certo?
+[00:09:47] H, nós temos aqui como editar o prompt,
+[00:09:50] né? Nós temos aqui tudo salvo o local.
+[00:09:53] Então, com isso, tu pode estudar,
+[00:09:56] aprender o que tu fez certo, errado. E
+[00:09:58] tu tem um MCP que é o motor e ele pode
+[00:10:01] servir para os outros. Então, eu posso
+[00:10:03] deixar isso rodando, né? E eu posso
+[00:10:06] chamar de outros sistemas e ele executar
+[00:10:09] para mim
+[00:10:11] uma limitação. Ele roda um por vez.
+[00:10:14] Então, se eu quiser usar ele ao mesmo
+[00:10:16] tempo, eu vou usar uma fila, né? Ou eu
+[00:10:20] vou ten que modificar ele para trabalhar
+[00:10:23] com mais workers. Eu não foquei nisso,
+[00:10:25] tá? Ã, eu posso ter, então, eu tenho que
+[00:10:29] ter o node, né? E eu tenho os modelos.
+[00:10:32] Então, eu tenho o F, eu tenho o clean,
+[00:10:35] eu tenho o Agnes, eu tenho K, eu tenho,
+[00:10:39] né? Eh,
+[00:10:40] aqui eu preciso ter ou o Google ou Open
+[00:10:43] Router para fazer o prompt, né, para
+[00:10:46] melhorar o prompt. Então, e esse que é o
+[00:10:49] fundamental, certo? Então, para
+[00:10:52] instalar, bem simples, gitone e tu dá o,
+[00:10:56] né, o caminho dele, vai para dentro do
+[00:11:00] da pasta e roda NPN instal. Eu vou
+[00:11:03] mostrar para vocês passo a passo hoje,
+[00:11:06] tudo bem?
+[00:11:17] Oi, tudo bem? Claro. Oi, samurai.
+[00:11:22] Tu pode sim, tá usando qualquer sistema
+[00:11:25] de voz, certo?
+[00:11:28] Em vez de tu tá escrevendo aqui, ó, no
+[00:11:31] painel, tu põe só um microfone ali, tu
+[00:11:35] implementa isso. Ou o próprio Windows já
+[00:11:38] te dá esse recurso, ou o Mac te dá esse
+[00:11:42] recurso, o celular te dá esse recurso, é
+[00:11:44] só tu colocar, certo?
+[00:11:49] Muito bem. Ã, daí nós vamos pro install.
+[00:11:53] Depois eu vou copiar o ENV, exemplo para
+[00:11:56] ponto ENV e botar as variáveis que eu
+[00:11:59] quero aqui dentro, certo? Então tá aqui
+[00:12:01] o comandinho dele, certo? Aí eu vou
+[00:12:05] subir e quando eu subir, ó, eu dou npm
+[00:12:09] room dev, ele vai abrir essa porta 5200,
+[00:12:14] certo? Só que ela fala com 87 87. Então,
+[00:12:19] né, tu diz que a 87 87 não fala com a
+[00:12:23] internet, quem fala é o 5200,
+[00:12:26] certo? Que é uma casca, né? Só a tela
+[00:12:29] aqui. Então, aumenta o nível de
+[00:12:31] segurança, né, contra hackers e tudo,
+[00:12:34] porque tu não fala com a API, tu fala
+[00:12:37] com a página web para fora da da do teu
+[00:12:40] servidor, certo?
+[00:12:44] Então aqui só falando de segurança, né?
+[00:12:48] Calculando o preço antes de tu rodar,
+[00:12:51] né? E aqui tu coloca uma chave, uma uma
+[00:12:55] senha para o teu terminal. Então se eu
+[00:12:57] chegar aqui, certo? E e digitar lá ã
+[00:13:03] v3.inema.club
+[00:13:06] do club 2.5200.
+[00:13:12] Ó, ele entrou por quê? Porque eu já
+[00:13:15] tenho uma senha autenticada, senão ele
+[00:13:18] ia perguntar a senha. Então, né, o ponto
+[00:13:21] de vista aqui que nós temos,
+[00:13:25] tá? É isso aqui. Tu implementa esse esse
+[00:13:28] recurso aqui, tu quer remover a senha ou
+[00:13:32] tu quer colocar a senha,
+[00:13:35] certo? Depois disso para alcançar o
+[00:13:36] estúdio de outra máquina, então eu criei
+[00:13:39] um script para liberar no firewall para
+[00:13:42] que tu possa acessar de outra máquina.
+[00:13:45] Então tu roda esse script espaço open,
+[00:13:48] né? Tu quer saber se ele tá aberto ou
+[00:13:50] não. Estatus. Se tu quiser fechar a
+[00:13:53] porta, close. Então você tá abrindo só a
+[00:13:56] porta 5200.
+[00:14:00] Eu
+[00:14:02] tô implementando isso, eu tô colocando
+[00:14:05] coisas novas nele em termos para
+[00:14:07] facilitar a mão de todo mundo, né? E
+[00:14:11] aqui, se você quer rodar o MCP, né?
+[00:14:14] Então tu quer, por exemplo, deixar que
+[00:14:17] outros sistemas acessem o teu sistema,
+[00:14:19] tu pode ativar ele via um MCP. Isso eu
+[00:14:23] vou falar mais adiante quando eu der o
+[00:14:25] curso amanhã depois eu vou falar sobre
+[00:14:27] isso aqui, tá legal?
+[00:14:30] Aqui, se tu quiser forçar o catálogo, ou
+[00:14:34] seja, qual é o lance do catálogo? É
+[00:14:36] saber qual é que as ISAS disponíveis,
+[00:14:38] aonde tu tem assinatura ou tem crédito,
+[00:14:41] certo? E sempre tem informações
+[00:14:45] atualizadas de lá. Então você pode rodar
+[00:14:48] esses comandos aqui, atualizar uma
+[00:14:50] instalação que tu já existe, por
+[00:14:52] exemplo, no caso, entrei lá, rodei isso
+[00:14:55] aqui, dou git pan, né? do NPN Instal e
+[00:15:00] do NPN Room Building. Talvez nem
+[00:15:03] precisaria, mas a gente força isso aqui
+[00:15:06] que não custa nada. Então se tiver
+[00:15:08] coisas novas, né, versionalizado e tudo,
+[00:15:11] ele atualiza. Então é o procedimento,
+[00:15:14] né, não só gitpol, mas roda o NPN
+[00:15:17] install e o run building. E depois tu
+[00:15:20] roda como tu quiser, né, teu sistema.
+[00:15:26] H,
+[00:15:28] as duas telas que tu vai mais usar aqui.
+[00:15:31] Você, eu tirei todos os os ícones porque
+[00:15:34] não tem sentido, eh, então deixar ele
+[00:15:37] mais limpo, tá? Aqui eu melhorei, então,
+[00:15:40] mais coisas aqui. A gente já vai dar uma
+[00:15:42] olhada aqui, certo? Então, vamos lá pro
+[00:15:45] GitHub,
+[00:15:49] pessoal. Do uso não tem erro, né? Ó,
+[00:15:52] enquanto isso, eu vou dar um pulo aqui
+[00:15:54] no uso. O que que é? Você vai dizer qual
+[00:15:57] é o modo que tu quer, se é live, né?
+[00:16:00] Livre, aliás, unbox, ou seja, os modos
+[00:16:03] que tu quer. Você pode criar teus novos
+[00:16:06] modos.
+[00:16:08] Isso aqui é sub, né, o controle de
+[00:16:11] baixo. Então, se tu vi aqui, ó, o
+[00:16:14] Emerson, só para tu ver. Tudo bem, Med?
+[00:16:18] Douglas, né?
+[00:16:20] Ó, o o modo aqui, ó, que que eu fiz?
+[00:16:24] Isso aqui eu melhorei de ontem para
+[00:16:25] hoje. Então, eu posso vir aqui, ó, eu
+[00:16:28] quero rios do inema. Então, aqui tem o,
+[00:16:32] né, um título, o prompt, certo? E aí tu
+[00:16:36] tem o que que tu tem de opções de
+[00:16:39] subcontroles,
+[00:16:41] certo? E tem toda uma explicação de como
+[00:16:44] funciona isso aqui. Ele vai ser refinado
+[00:16:47] e isso aqui vai ser injetado aquilo que
+[00:16:49] tu escolheu, né? Se tu pegar aqui a
+[00:16:52] defábrica, o o CG, certo? Ó, eu tenho
+[00:16:56] várias coisas. Eu tenho criador, eu
+[00:16:59] tenho critério, eu tenho batida, eu
+[00:17:01] tenho câmera. Como é que funciona isso
+[00:17:03] aqui, ó? Quando você chegou e colocou eh
+[00:17:06] livre, né, ou escolheu Rio Cinema,
+[00:17:10] apareceu aqui, ó, aquela lista. Mas se
+[00:17:13] tu clicou em OGC, ó, eu tenho uma, 2, 3,
+[00:17:17] 4. Eu posso criar quantos eu quero,
+[00:17:20] certo? E daí tu tem as listas aqui.
+[00:17:22] Então, tudo isso agora pode alterar
+[00:17:24] aqui, ó. Certo? Então, eu posso ir lá no
+[00:17:27] GC, ó, né? De cada criador, tem a lista,
+[00:17:31] cenário, a lista B.
+[00:17:34] a lista e assim por diante.
+[00:17:37] Então, deu flexibilidade aos modos,
+[00:17:40] certo? Em vez de mexer no código, tu vai
+[00:17:43] mexendo aqui, tu vai cadastrando,
+[00:17:45] alterando, ó, nas listas, tu pode sempre
+[00:17:47] aqui na última escrever alguma coisa
+[00:17:49] mais e daí tu salva aqui embaixo as
+[00:17:52] alterações.
+[00:18:02] Oi, vamos ver uma coisa. Isso, ô,
+[00:18:06] tá? Vamos ver o que deu erro de anexar.
+[00:18:09] Eu
+[00:18:16] vou explicar um pouquinho sobre isso nos
+[00:18:20] catálogos também, ó.
+[00:18:23] Então, eu tenho aqui toda a saída se é
+[00:18:25] só vídeo, só imagem, né? Ã, posso estar
+[00:18:29] buscando só os ligados.
+[00:18:32] Então eu quero só, eu vou deixar
+[00:18:35] desligar tudo, ligar só o sem custo e os
+[00:18:38] créditos de plano, ó. E daí eu quero
+[00:18:42] sobre vídeos, o que que eu tenho,
+[00:18:46] né? Se eu quero a crédito de plano, vou
+[00:18:48] tirar, né? Ã, e assim se eu quero agora
+[00:18:52] de imagem, então ficou fácil de tudo
+[00:18:55] ligar, desligar, configurar. Por isso
+[00:18:57] tirei aquelas imagens que era mais
+[00:18:59] frescura, certo?
+[00:19:02] Muito bem. Agora vamos lá no ponto de
+[00:19:05] vista que
+[00:19:10] ó, tem uma umas coisas assim que para
+[00:19:13] nós vermos aqui. É o seguinte, ó. Ã,
+[00:19:18] quando você vem aqui criar
+[00:19:21] e você selecionar, por exemplo, eu vou
+[00:19:24] selecionar o Agnes aqui, ó. Eu tenho
+[00:19:27] aqui dois, ó, texto para vídeo e imagem
+[00:19:31] para vídeo. Então, se tu usar texto para
+[00:19:33] vídeo
+[00:19:36] e você vai querer adicionar aqui, ó,
+[00:19:40] ele vai dar erro,
+[00:19:43] certo? Ele tá adicionando, mas aqui não
+[00:19:46] permite. Então, talvez eu tenha que
+[00:19:49] fazer um filtro dizendo, ó, tu não pode
+[00:19:51] subir a imagem se ele diz que é texto
+[00:19:54] para vídeo,
+[00:19:56] certo? Talvez seja esse o problema aqui
+[00:20:00] que tu encontrou, porque quando é texto
+[00:20:03] para vídeo, você não dá imagem,
+[00:20:06] certo? Você tem que usar imagem para
+[00:20:09] vídeo, ou seja, I2
+[00:20:12] V.
+[00:20:27] E não deixava anar. Tava como
+[00:20:32] não tinha a P do Fal, mas não tem
+[00:20:36] sentido, viu? Eu vou até ver isso.
+[00:20:40] É que como eu tenho apelido F, talvez é
+[00:20:43] um bug mesmo.
+[00:20:47] Tá, vou testar isso aí
+[00:20:51] agora na instalação. Vamos ver. Mas olha
+[00:20:53] só, quando eu criei aqui essa outra,
+[00:20:57] tá?
+[00:20:59] Ó,
+[00:21:01] se eu vi aqui, eu vou criar uma imagem,
+[00:21:04] tá?
+[00:21:06] imagem. Aqui eu tenho texto para imagem
+[00:21:09] e imagem edit, ó.
+[00:21:15] Daí eu vou puxar uma imagem qualquer, ó.
+[00:21:20] Eu
+[00:21:22] vou, deixa eu pegar aqui.
+[00:21:29] Quero colorido.
+[00:21:38] Ó, mesmo. Teve algum erro aqui mesmo.
+[00:21:42] Hum. Show de bola.
+[00:21:46] Tá, então vamos consertar aí, ó.
+[00:21:53] Quando
+[00:21:55] não tem API do F e estou usando Agnes,
+[00:22:03] deu
+[00:22:05] este erro. Show de bola. Tá aí, ó. Aqui,
+[00:22:09] ó. Eu tô usando a VPS onde eu não tenho
+[00:22:11] F. Deu bem esse certinho esse erro.
+[00:22:22] Vamos ver agora. Vou, tô corrigindo
+[00:22:24] então isso aí agora.
+[00:22:39] Não, deixa eu botar aqui para ele. Opa,
+[00:22:43] na VPS.
+[00:22:48] tem funcionar sem o
+[00:22:53] a apelidofal
+[00:22:57] no texto
+[00:23:00] para imagem funciona, mas imagem para
+[00:23:07] imagem dá erro.
+[00:23:18] Não quero ter chave do fã.
+[00:23:28] Vamos ver o que que ele tá me falando
+[00:23:29] aqui, ó.
+[00:23:54] Deix eu ver o que que ele me diz aqui,
+[00:24:05] ó. Deixa eu puxar aqui para vocês verem
+[00:24:07] a tela aqui, ó.
+[00:24:16] Ó,
+[00:24:17] causa raiz confirmada. O concerto é
+[00:24:20] pequeno. O que acontece? A rota
+[00:24:23] chama fal o pl de sempre. Seja qual for
+[00:24:27] o provider modo escolhido, texto imagem
+[00:24:30] não sobe nenhum arquivo. Por isso
+[00:24:32] funciona a tã imagem. Preciso da
+[00:24:36] referência cai no fal
+[00:24:39] sem chave e tudo. O detalhe é que o
+[00:24:41] servidor já grava uma cópia local
+[00:24:44] e já tem o resolve provider que entrega
+[00:24:47] no formato.
+[00:24:50] Aham.
+[00:24:52] Ou seja, o falo ali é desnecessário para
+[00:24:54] todo mundo que não é fal. É isso aí. Vai
+[00:24:57] ser conserto aí.
+[00:25:00] Beleza.
+[00:25:11] É, se colocasse só a a chave, mesmo que
+[00:25:14] tu não tem crédito, eu já ia funcionar.
+[00:25:16] Mas vamos consertar isso,
+[00:25:20] pessoal. Tá tá caindo o mundo aí. O que
+[00:25:22] que tá trovejando aí?
+[00:25:31] Vamos consertando. É isso aí.
+[00:25:34] Deixa consertar. Daí eu vou lá para
+[00:25:36] mostrar a instalação. Vou fazer uma
+[00:25:38] instalação do zero e vou também fazer
+[00:25:41] uma atualização.
+[00:26:05] Outra coisa,
+[00:26:07] não deveria
+[00:26:10] permitir
+[00:26:12] imagem quando
+[00:26:15] é texto para imagem ou
+[00:26:20] texto para vídeo,
+[00:26:23] não é?
+[00:26:45] Assim que você consertar,
+[00:26:48] atualizamos no Git e eu testo.
+[00:27:04] Beleza, Cléber. É bom sempre. Eu não sei
+[00:27:07] muita se é Dougla Cléber. Eu sou velho
+[00:27:10] do Gá já quase.
+[00:27:33] Ó, modelo texto, imagem
+[00:27:36] sem par. O anexo fica desabilitado.
+[00:27:41] Ó, modelo texto X com irmão.
+[00:28:05] Manter a dois.
+[00:28:08] Ó, aqui ele tá dizendo que o flux,
+[00:28:11] quando você manda texto para fluxo e
+[00:28:13] você manda uma imagem anexo, ele já muda
+[00:28:17] automático para
+[00:28:19] imagem to imagem.
+[00:28:23] Dom segundinho, eu vou ver aí se tá tudo
+[00:28:25] fechado aqui.
+[00:29:03] Só para saber que tá dentro temporal
+[00:29:05] forte aí.
+[00:29:06] &gt;&gt; Hã,
+[00:29:06] &gt;&gt; tem um temporal forte.
+[00:29:10] Temporal forte.
+[00:29:19] Tranquilo.
+[00:29:33] Oi, Emerson. Eu abri as skill, deu uma
+[00:29:35] olhada, mas não testei, viu?
+[00:29:39] Eu tava fora do hoje aí.
+[00:30:03] Bom,
+[00:30:08] continuando aqui, ó, enquanto ele
+[00:30:10] processa
+[00:30:16] Ó,
+[00:30:21] deixa l atualizar aí,
+[00:30:31] Agnes
+[00:30:35] imagem.
+[00:30:45] Ó, vamos ver.
+[00:30:51] Ó, eu botei para texto, ele sumiu a
+[00:30:53] imagem aqui.
+[00:30:55] Se eu pegar a imagem aqui, vamos pegar a
+[00:30:58] imagem.
+[00:31:14] Mas ele tá startando aqui.
+[00:32:09] Bom, aqui eu acho que agora vai ser
+[00:32:11] refinar.
+[00:32:13] Ainda tá fora do ar aqui.
+[00:32:45] Temos aqui e na VPS.
+[00:33:04] Deixa eu ver. Vamos ver de novo. Refinar
+[00:33:09] ainda tá fora do ar.
+[00:33:28] Ainda não.
+[00:33:30] Ai, ai, ai.
+[00:33:37] Ó, vamos lá.
+[00:33:40] Não termina aí para fazer as
+[00:33:41] atualizações dele
+[00:33:48] aqui. Subindo o local
+[00:33:52] feito lá.
+[00:33:57] Bom, deixa eu só queria fazer isso aqui
+[00:33:59] para passar para mostrar para vocês lá
+[00:34:02] os passo a passo.
+[00:34:14] Caramba.
+[00:34:22] Deixa eu ver aqui. M.
+[00:34:33] Eu
+[00:34:49] peguei essa cara aqui para fazer Ja.
+[00:35:09] Beleza.
+[00:35:11] Tá quase, tá quase aí.
+[00:35:18] Ai, ai, ele ele se confundiu achando que
+[00:35:21] eu tava focando na VPS
+[00:35:23] e eu tenho um aqui e tenho um outro na
+[00:35:26] VPS. Então,
+[00:35:28] agora anotação dos dois sistemas. Tá
+[00:35:31] bom. Vamos ver se passou agora.
+[00:35:42] Ainda tá fora do ar.
+[00:35:44] Deixa eu dar um refresh aqui. Então,
+[00:35:57] ainda não está no ar.
+[00:36:19] Ó, existe um comando barra l. Ele
+[00:36:22] startou, mas não botou barra l. Se tu
+[00:36:25] não botar if lan, ele só responde dentro
+[00:36:29] do local host. Agora sim, ó.
+[00:36:38] Beleza, agora sim.
+[00:36:40] Então vamos lá testar de novo. Eu vou
+[00:36:44] adicionar
+[00:36:48] uma imagem aqui.
+[00:37:02] Ó, ele veio agora com mandou essa
+[00:37:04] mensagem aqui, ó.
+[00:37:06] Ele tá dizendo que
+[00:37:09] não aceita, ó. Daí eu botei, ele mudou
+[00:37:11] para uma que aceita, ó.
+[00:37:16] Depois tem que dar uma ajeitadinha aqui,
+[00:37:18] ó, porque em inglês,
+[00:37:22] ó, aqui, ó.
+[00:37:26] Bom, e aí vamos fazer o seguinte.
+[00:37:30] Faça o robô caminhar
+[00:37:35] em frente ao
+[00:37:38] banner.
+[00:37:40] Ó, eu quero Agnes. O que que é?
+[00:37:44] Eu quero vídeo aqui.
+[00:37:47] Vídeo kefame. Esse aqui mesmo.
+[00:37:52] Refinar.
+[00:37:55] Ele refinou. E agora eu tô gerando ele
+[00:37:57] lá no Arnes.
+[00:38:00] Bom,
+[00:38:17] tá? Outra coisa é o seguinte, ele tá
+[00:38:20] trabalhando aqui,
+[00:38:22] eu vou mostrar para vocês o que que a
+[00:38:24] gente tem que fazer de atualização.
+[00:38:26] Então, se vocês v aqui no Git,
+[00:38:30] ó, eu documentei bem fácil agora,
+[00:38:34] tá? Então, ã, instalação, ó, tá toda a
+[00:38:39] instalação aqui. O que que tu faz? Tu
+[00:38:41] faz um clone, depois tu entra no
+[00:38:43] diretório, dá um npn install, copia a o
+[00:38:48] arquivo ponto envi para inv e roda o npn
+[00:38:52] dev,
+[00:38:54] certo? Isso aqui botou no ar, vai
+[00:38:56] funcionar local, mas se tu tem numa VPS
+[00:39:00] não roda. Então aqui tem como instalar
+[00:39:02] numa VPS.
+[00:39:04] Então o que que tu faz? Mesmo
+[00:39:06] procedimento,
+[00:39:08] só que aqui tu roda a senha. Eu tinha
+[00:39:11] deixado 100, mas isso é um risco de
+[00:39:13] segurança,
+[00:39:15] né? Então já entra rodando aqui, ele vai
+[00:39:18] te pedir uma senha e vai criptografar,
+[00:39:22] certo? Então é basta tu rodar de novo
+[00:39:25] para trocar a senha.
+[00:39:28] Daí tu vai rodar esse script aqui e vai
+[00:39:31] abrir a porta do teu firewall. Isso é
+[00:39:34] para quem não conhece nada. Então vai
+[00:39:37] roda isso aqui, certo?
+[00:39:41] Aqui se tu quiser ver uns log, o que que
+[00:39:43] tá acontecendo, coisa assim, certo? E aí
+[00:39:47] se tu quisesse ver aqui algum status,
+[00:39:50] mas só até aqui já deve funcionar tudo,
+[00:39:58] certo?
+[00:40:12] Tá?
+[00:40:13] Então, o que que nós vamos fazer? Ã,
+[00:40:16] depois aqui, ó, para deixar ele rodando,
+[00:40:20] mesmo que o servidor cair, esse é o
+[00:40:22] comando. Certo? Aqui mais algumas
+[00:40:26] explicações toda. Atualização.
+[00:40:31] Tu vai rodar isso aqui. Nós vamos rodar
+[00:40:32] agora isso aqui, ó. o git pã npn install
+[00:40:36] e npn run building, certo? Você tem
+[00:40:40] alguma coisa no ar e tudo, tu tem como
+[00:40:43] tirar do ar aqui, certo?
+[00:40:47] Então, no meu caso, é isso aqui. Vamos
+[00:40:50] lá rodar. Eu vou lá na VPS,
+[00:40:54] certo?
+[00:40:55] Vamos entrar dentro do projeto. Projeto
+[00:41:00] CD projetos
+[00:41:03] CD BENT.
+[00:41:06] E agora eu vou est rodando aqueles cara
+[00:41:09] lá, ó.
+[00:41:11] É o pull, o install e o build.
+[00:41:20] Tá, ó, entrou. Agora eu só tenho que
+[00:41:24] fazer o quê? tirar do arro, né?
+[00:41:28] Ó, eu vou ter que tirar o que tá rodando
+[00:41:33] e depois rodar o o dev e estaria no ar.
+[00:41:37] Então, vamos ver.
+[00:41:41] Vamos ver se dá certo.
+[00:41:48] Ó, tá no ar aqui carregando todos,
+[00:41:51] carregando todos os modelos aqui. Ele
+[00:41:54] deu algum erro aqui. Depois eu tenho que
+[00:41:56] olhar.
+[00:42:00] Erro de autenticação.
+[00:42:03] Ah, no fal aqui ele deu algum erro aqui.
+[00:42:05] Depois eu conserto. Isso.
+[00:42:08] Eu mexi, né? Tá bom? E daí só vamos ver
+[00:42:12] se ele tá no ar respondendo.
+[00:42:18] lá,
+[00:42:20] ó.
+[00:42:22] Então, eu tenho uma senha que eu
+[00:42:23] coloquei lá.
+[00:42:33] Ops.
+[00:42:47] Entrou.
+[00:42:50] Ó, ele tá carregando o catálogo todo,
+[00:42:54] tá? E a partir dali eu tenho aí, ó.
+[00:42:56] Vamos ver se vai funcionar aqui. Imagem
+[00:43:00] edit. É aquela de edit, né?
+[00:43:05] Vamos pegar,
+[00:43:15] quero um rosto
+[00:43:19] de cachorro.
+[00:43:23] Ah, mesma coisa, ó.
+[00:43:41] Mesma coisa.
+[00:43:50] Ainda na VPS
+[00:43:54] temos dois erros,
+[00:43:59] esse e no boot.
+[00:44:04] Deixa eu pegar lá na os erros do boot lá
+[00:44:06] e agora passar para ele.
+[00:44:15] Ó, já tô copiando tudo e daí ele já eu
+[00:44:18] já tenho base.
+[00:44:25] É que tava redondinho. Daí tu começa a
+[00:44:28] mexer mexer.
+[00:44:32] Deixa eu só ajustar aqui, ó. quando
+[00:44:33] tiver OK, daí a gente vai ali.
+[00:44:37] Então, voltando naquela questão, ó,
+[00:44:49] ele tá dizendo que eu não fiz isso,
+[00:45:04] tá? Eu vou forçar o o Ele tá dizendo que
+[00:45:06] eu não fiz o
+[00:45:14] Vamos lá.
+[00:45:17] Eu vou rodar o pulo aqui.
+[00:45:20] Git p.
+[00:45:25] Beleza. Ó.
+[00:45:28] Ah, tem um aborting aqui. Vamos ver se
+[00:45:30] não é isso aqui. Ja.
+[00:45:50] No.
+[00:46:25] Tô lendo aqui. Ja.
+[00:46:50] Vamos ver. Ele tá mandando eu rodar aqui
+[00:46:51] um comando. Aqui
+[00:47:01] ele descarta os dois arquivos que a
+[00:47:04] máquina gerou sozinha.
+[00:47:08] Reinicia o app e tira.
+[00:47:18] Deixa eu parar aí.
+[00:47:21] Como eu sei que atualizou
+[00:47:25] aqui? Não aparece nada a versão
+[00:47:32] três. Tã.
+[00:47:51] Vou passar para ele o comando aqui.
+[00:47:58] Eu não vi ele fazer esse comando.
+[00:48:15] Ó, esses problemas aí a gente tem que
+[00:48:17] fazer uma forma que não dá, que as
+[00:48:19] pessoas se resolvam, né?
+[00:48:34] Isso tudo é o erro do FAL aí que tá
+[00:48:36] dando
+[00:48:44] não. Opa,
+[00:48:46] não veio nada.
+[00:48:49] Que bosta.
+[00:49:08] Sim, ó, app tá parado. Sim, eu parei.
+[00:49:16] Sim.
+[00:49:18] Então vamos lá. Vamos botar de novo ele
+[00:49:20] no ar. NPM Fran deve.
+[00:49:33] Vamos ver se vai dar erro
+[00:49:43] aqui. Parou
+[00:49:47] catálogo. Falhou aqui. Algum catálogo
+[00:49:50] falhou.
+[00:49:56] Ah, fou o catálogo do F porque nós não
+[00:49:59] tem API, tá tudo certo.
+[00:50:08] Então, normal.
+[00:50:16] É, na verdade pode botar as APIs de
+[00:50:19] todos esses aí, porque se tu não tem
+[00:50:22] crédito vai rodar tudo normal, só não
+[00:50:24] vai poder gerar as imagens, né?
+[00:50:29] Bom, vamos ver então se ele tá
+[00:50:33] no ar aqui.
+[00:50:35] Lá vamos de novo nós.
+[00:50:51] Tá
+[00:50:54] pela milésima vez. Vamos editar aqui.
+[00:50:59] Vamos pegar uma imagem.
+[00:51:07] Certo.
+[00:51:09] Vamos pegar uma imagem qualquer aqui.
+[00:51:17] Quero
+[00:51:20] um robô na imagem. Vamos ver o que que
+[00:51:24] ele faz aqui,
+[00:51:27] ó. Refinou, beleza, passou.
+[00:51:32] E aí, gerar
+[00:51:36] bingo. Resolvido.
+[00:51:44] Oi, tudo bem, Douglas?
+[00:51:50] É que sim, ele ele se baseava no modelo
+[00:51:54] do F para gerar imagem, ó. Tudo bem, ó.
+[00:51:57] Fez isso.
+[00:51:59] Tá show de bola. Detalhe,
+[00:52:03] tá?
+[00:52:07] Eu mandei ele botar um robô na frente da
+[00:52:09] imagem, tá certo? Ficou legal.
+[00:52:12] Ó, eu tô usando o Agnes para isso,
+[00:52:14] certo? Aquela aqui eu tô usando Agnes
+[00:52:17] gratuito. Tudo isso aqui que eu fiz, eu
+[00:52:20] não tô gastando nada. Se vocês
+[00:52:22] observarem aqui, ó, ã,
+[00:52:26] catálogos dos modelos,
+[00:52:28] ó, eu só tenho Agnes, Agnes, Agnes,
+[00:52:31] Agnes, certo?
+[00:52:34] que a minha ideia é justamente para quem
+[00:52:36] tá começando ter uma ferramenta para ser
+[00:52:39] produtivo, para aprender fazer prompt,
+[00:52:41] para aprender fazer produto e tá
+[00:52:45] faturando, aí tu começa a colocar o
+[00:52:47] clean, colocar o o kai, né, o fal e
+[00:52:51] assim por diante para mais ferramentas
+[00:52:54] para vocês trabalharem,
+[00:52:58] tá legal?
+[00:52:59] Então tá, vamos lá. O que que acontece?
+[00:53:02] Eu vou fazer duas coisas com vocês.
+[00:53:04] Primeiro, vocês já viram que eu tava
+[00:53:06] aqui atualizando,
+[00:53:08] certo? No meu sistema para funcionar
+[00:53:11] ele, o que que eu preciso ter feito?
+[00:53:15] Ter criado uma pasta, né? Então, e
+[00:53:18] depois disso só dar o comando de
+[00:53:21] atualização sempre que for, né? Então,
+[00:53:24] vamos lá no manualzinho que eu tinha
+[00:53:27] aqui,
+[00:53:29] ó, o BR, né?
+[00:53:32] A gente vai aqui, depois eu vou
+[00:53:33] atualizar essas mudanças e esse bug que
+[00:53:36] deu aqui, como resolver lá de forma
+[00:53:38] fácil. Mas aqui tá instalação numa
+[00:53:41] máquina local, na tua máquina da tua,
+[00:53:43] né, do teu computador. Você dá um
+[00:53:45] glitch, cria uma pasta, né, chamado
+[00:53:49] projetos. Dentro dessa pasta você entra
+[00:53:52] e dá esse comando git clone, né, o link
+[00:53:57] que tu quer clonar. Entra na pasta
+[00:54:00] porque é o nome que você definiu aqui e
+[00:54:03] roda o NPN install. Depois disso, copia
+[00:54:06] o ponto ENV que baixou, exemplo para
+[00:54:09] ponto ENV. E você vai editar esse
+[00:54:12] arquivo ENV com as variáveis, com as as
+[00:54:15] chaves que tu vai precisar, né? Nós
+[00:54:18] temos, tu tem que ter usar uma chave ou
+[00:54:20] do Google, certo? Gemini que é free no
+[00:54:24] AI Stúio. Tu vem aqui no A Stúdio para
+[00:54:27] fazer isso, né? A I Stúio, então, né? Aí
+[00:54:33] estúdio, cadê você?
+[00:54:37] Ó, Gimini,
+[00:54:40] eh, chave de API, tá aqui, ó. Certo?
+[00:54:44] Aqui é gratuito, pessoal. Certo, né?
+[00:54:48] Então ele tá querendo aqui acessar
+[00:54:49] faturamento. Você precisa colocar uma ou
+[00:54:52] mais conta de faturamento. Eu não tenho
+[00:54:54] e tô usando. Só que tem uma cota, né?
+[00:54:57] Então se tu usar muito vai ser
+[00:54:59] problemático, mas se tu não usar tá
+[00:55:01] tranquilo para testar para isso. E outra
+[00:55:04] coisa, você pode ter mais de uma conta,
+[00:55:06] então tu pode ter mais usuários e você
+[00:55:09] tem mais chaves lá, certo? E daí tu cria
+[00:55:13] lá uma regrinha. Quando uma chave tá
+[00:55:15] toda ela consumida, usa outra, certo?
+[00:55:19] Então ele faz isso. Muito bem. Voltando
+[00:55:23] então aqui no Git, certo?
+[00:55:27] Então a local machine é isso aqui, né? O
+[00:55:31] estúdio tá nesse 52
+[00:55:34] 00 e o
+[00:55:38] é a API. você não acessa ela, o estúdio
+[00:55:42] que acessa ela, certo? E quando uma
+[00:55:45] outra aplicação quer fazer alguma coisa,
+[00:55:48] ela vai acessar aqui direto esse 87 87,
+[00:55:52] tá? Beleza? Então é isso aqui. Daí
+[00:55:56] segunda opção, lá na VPS nós vamos fazer
+[00:55:59] o mesmo, certo? Só que aqui no três a
+[00:56:03] gente vai rodar uma senha porque alguém
+[00:56:05] tá acessando remoto, tu tem que ter uma
+[00:56:07] senha mais. E a gente fez uma senha
+[00:56:10] criptografada, por isso tu roda esse
+[00:56:12] cara aqui.
+[00:56:15] Depois disso, você tem que abrir o
+[00:56:16] firewall. Eu não entendo de
+[00:56:18] configuração, então roda esse script
+[00:56:20] aqui. Open, né? Tu tenho, ah, vou fechar
+[00:56:24] porque eu não quero, né? Close, quero
+[00:56:27] ver o status, né? Bota status,
+[00:56:31] né?
+[00:56:33] Aqui, ó. Start. Se você SH session. Ah,
+[00:56:38] tá. Então, tu pode ver os logs e tudo
+[00:56:41] mais, tá? Eh, e aqui tu roda, tá, para
+[00:56:47] ver os status também. Isso aí.
+[00:56:50] Certo. Ó, aqui tá como é que você fecha
+[00:56:54] lá. Então, eu não tô usando mais. Vou
+[00:56:56] fechar aí para ninguém ter risco de vir
+[00:56:58] pegar lá a informação. Ó, eu posso vir
+[00:57:01] mudar para português aqui, ó.
+[00:57:04] Daí fica melhor. Eu não botei em
+[00:57:05] português porque a gente vem aqui, só
+[00:57:07] traduz para português, então já fica em
+[00:57:09] inglês e português o a documentação
+[00:57:12] aqui,
+[00:57:14] né? Para deixar ele em execução. Esse
+[00:57:17] comandinho aqui,
+[00:57:19] só entender o que que tem dentro dele. É
+[00:57:21] esses passos aqui, né? Então é mais de
+[00:57:25] de firewall.
+[00:57:27] Ã, se você já tem ela existente, é o que
+[00:57:31] nós fizemos aqui, ó. né? Nós entramos
+[00:57:34] dentro, demos o git p e a gente rodou
+[00:57:38] aqui direto isso aqui. Mas é bom sempre
+[00:57:40] tá rodando esses dois aqui que ele vai
+[00:57:44] atualizar alguma coisa para não ter
+[00:57:47] problema dele não, né, não ficar
+[00:57:49] desatualizado. Então, tu roda aqui, ele
+[00:57:52] tá usando a versão antiga, por isso o
+[00:57:54] NPN R building, ele vai, se tiver alguma
+[00:57:57] coisa, ele vai reconstruir,
+[00:58:00] certo? É isso aí.
+[00:58:02] Tá? O resto é mais explicação,
+[00:58:05] explicação, né?
+[00:58:08] Cada um delas explicando tudo,
+[00:58:12] tá?
+[00:58:15] Então é mais uma leitura aí para quem
+[00:58:17] quer conhecer, entender um pouco mais do
+[00:58:20] sistema por trás,
+[00:58:22] certo? Então, no uso da aplicação,
+[00:58:27] que eu poderia dizer para vocês?
+[00:58:32] Ó, que vocês podem ter, tem create,
+[00:58:35] website, documento, os catálogos, o
+[00:58:39] resultado e os modos, certo? Esse modo
+[00:58:43] você vai poder criar o que tu quiser
+[00:58:45] para est aqui os, né, uns template fácil
+[00:58:48] de usar aqui na frente,
+[00:58:51] tá? Beleza?
+[00:58:53] Então, vamos instalar um do zero. Bom,
+[00:58:57] que que é instalar um do zero? Vou ter
+[00:58:58] que abrir aqui então esse cara aqui,
+[00:59:01] certo? Vou pegar o link aqui que eu sei
+[00:59:04] que precisa.
+[00:59:06] E se vocês olharem lá em cima, passo a
+[00:59:09] passo, ó,
+[00:59:13] ó aqui, ó. Instalar em máquina de VPS,
+[00:59:17] essa parte aqui. Então, ó, eu dou o git,
+[00:59:22] entro no no na pasta e rodo o NPN
+[00:59:24] instal. Vamos fazer isso lá.
+[00:59:27] Vou pegar um outro
+[00:59:29] outro lugar ali.
+[00:59:32] Eh, tã.
+[00:59:36] Vamos ver se esse aqui eu eu tenho
+[00:59:38] acesso ele,
+[00:59:43] ó. Isso aqui é um um Jarvis que eu tenho
+[00:59:45] que roda lá,
+[00:59:49] tá? Então é um jarvis de brincadeira,
+[00:59:52] etc. CD Projetos.
+[00:59:56] Ó, ops, não tem nem o projetos aqui,
+[01:00:00] então,
+[01:00:01] MKIR projetos. Muito bom.
+[01:00:06] CD projetos.
+[01:00:10] Agora, o que que eu faço? Eu vou rodar
+[01:00:12] aqui aquele comandinho, né? Git clone
+[01:00:18] espaço ou link.
+[01:00:21] Eu
+[01:00:23] não sei nada o que tem nessa VPS, então
+[01:00:25] faz muito tempo que eu não acesso ela e
+[01:00:28] tudo, mas tá aí, já criou. Agora eu
+[01:00:30] entro dentro, né? Bentch
+[01:00:34] tá aqui. Entrei dentro dela. NPN
+[01:00:38] install.
+[01:00:44] Eu
+[01:00:49] não sei se tá atualizado, se não tá
+[01:00:51] atualizado. Eu podia estar mandando
+[01:00:53] fazer um update, mas tô fazendo normal,
+[01:00:55] como alguém faria.
+[01:00:59] Ó, que que ele tá dizendo, ó, que tem
+[01:01:02] vários, né? Tã versão atualizado que é
+[01:01:06] para instalar. Então vamos lá rodar o
+[01:01:09] NPN install esse cara aqui, ó, para
+[01:01:12] atualizar tudo que tu tem aqui. Então
+[01:01:14] vamos rodar, não custa nada.
+[01:01:17] Certo?
+[01:01:23] Ó,
+[01:01:25] já começou os erros.
+[01:01:29] Ã,
+[01:01:32] ó, que que eu sugiro sempre fazer? Marca
+[01:01:35] que que tu tá fazendo até um pouquinho
+[01:01:37] mais, se for o caso. Certo? Copia isso
+[01:01:41] aqui e vai pro chat. Eu podia te chamar
+[01:01:44] aqui, né? Ter a VPS aqui, o Cloud, o
+[01:01:47] Codex, mas não vai para para quem é bem
+[01:01:50] legal o chat. Opa, chat.
+[01:01:58] Chat,
+[01:02:04] ó. Eu
+[01:02:08] só jogo aqui para ele, né? O erro é
+[01:02:11] simples, não é compatível com o seu Node
+[01:02:13] atual, certo? Pa pá pá p pa pá, né? Ele
+[01:02:18] também não é erro. O que que você pode
+[01:02:20] fazer, ó? Dá o nó de men para mim ver a
+[01:02:24] versão, certo? Tã.
+[01:02:28] Se você quer atualizar o ND, eu
+[01:02:30] recomendo usar NVM, porque facilita a
+[01:02:32] troca entre os NODs, etc., sem bagunçar,
+[01:02:35] né? Instalação, uma versão compatível,
+[01:02:39] tá? Então, ã, eu vou só ver qual é que é
+[01:02:44] as versões do Node e do NPN.
+[01:02:47] Então, vamos lá.
+[01:02:50] Então,
+[01:02:52] Node - V.
+[01:02:55] Enter.
+[01:02:58] npm
+[01:03:01] - v,
+[01:03:03] ó, 108
+[01:03:06] e 2020.
+[01:03:08] Eu vou botar 10.
+[01:03:12] É melhor eu ter copiado do que ficar me
+[01:03:14] lembrando isso aqui.
+[01:03:28] Seu ambiente atual está consistente,
+[01:03:31] então mantenha assim por enquanto, tá?
+[01:03:34] Tá, tá dá. Ou seja, em vez de tu chegar
+[01:03:37] e ficar atualizando, tá tudo bem. Só o
+[01:03:40] que que eu quero que vocês entendam que
+[01:03:42] o fato de tu ter vindo para cá tirar
+[01:03:44] dúvida, etc. Tem duas vantagens. Uma te
+[01:03:48] dar conhecimento, tu vai aprendendo aos
+[01:03:51] poucos. Segundo lugar te dá
+[01:03:54] tranquilidade de não ficar fazendo
+[01:03:56] outras coisas que não precisa. E aí até
+[01:03:58] tu poderia se lemana instalar, tu dizer:
+[01:04:00] "Eu quero fazer isso, precisa?" Certo?
+[01:04:03] Então a, né? O chat é um tremendo de um
+[01:04:07] tutor para isso. Então, se eu quero
+[01:04:10] agora rodar aqui, tá? E eu tava lá mpm
+[01:04:17] install
+[01:04:19] e deu erro. Vamos ver,
+[01:04:24] ó. Não foi normal aqui, ó.
+[01:04:28] Então, agora o que que eu vou fazer? O
+[01:04:30] segundo passo que eu preciso fazer, olha
+[01:04:33] lá no
+[01:04:35] certo, ele instal. Vou copiar isso aqui,
+[01:04:41] certo? Botar a minha chave. Então nós
+[01:04:43] vamos pegar uma chave aí de API pelo
+[01:04:47] menos.
+[01:04:50] Cadê você? Aqui.
+[01:04:54] Então eu vou copiar o o ponto ENV. E
+[01:04:57] aqui, ó, eu podia deixar ele assim, mas
+[01:04:59] eu vou lá nano espaço pontoenv.
+[01:05:04] E aqui eu vou colocar algumas, né?
+[01:05:08] Então, pelo menos eu quero criar imagem,
+[01:05:10] eu vou usar o Agnes, certo? Então vamos
+[01:05:15] pegar o seguinte. Eu quero usar lá
+[01:05:18] uma chave, digamos, do FTD lá do Agnes.
+[01:05:24] Agnes
+[01:05:26] acomanha.
+[01:05:39] Deixa eu ver onde que tá Friapi.
+[01:05:44] Tá, vou me logar, né? Óbvio.
+[01:05:49] Tô me logando.
+[01:05:55] Continuar.
+[01:06:03] Pronto, ó. Não tenho nada. É, né? Cria
+[01:06:06] um API nova.
+[01:06:09] O nome vai ser, né? Vs
+[01:06:12] dois testes.
+[01:06:16] Depois eu venho deletar aqui depois da
+[01:06:18] live.
+[01:06:20] Pronto. E aqui ele tá me dando a chave,
+[01:06:25] OK? E posso vir copiar a chave aqui.
+[01:06:28] Essa chave aqui eu vou colocar lá dentro
+[01:06:31] do meu VPS. Veja todos vocês, eu não
+[01:06:34] gastei nada, tô colocando aqui. Uma
+[01:06:37] outra chave que eu poderia pegar é
+[01:06:39] também aqui para mim colocar no,
+[01:06:43] ó, ou eu pego do Open Router, certo? E
+[01:06:47] lá tem algumas Llms free, ou eu pego do
+[01:06:51] Google. Então nós vamos pegar aqui do
+[01:06:53] Google também. Aí Stúio.
+[01:06:57] Para que que ele precisa dessa API? para
+[01:06:59] gerar o prompt refinado,
+[01:07:02] certo?
+[01:07:22] Ó, cadê você?
+[01:07:33] Hum.
+[01:07:45] OP.
+[01:07:47] Então, para aí. Vamos de novo.
+[01:07:52] Era para tá aqui no lado, não sei por
+[01:07:54] não apareceu
+[01:07:57] Google.
+[01:08:02] Aí estúdio, né?
+[01:08:05] Aí, estúdio.
+[01:08:14] Vamos entrar no estúdio
+[01:08:18] get start.
+[01:08:38] Ju, ju.
+[01:08:41] Alguém tem ideia da Ah, tá aqui, ó.
+[01:08:44] Aí
+[01:08:46] é ceguinho o cara aqui. Bom, então vamos
+[01:08:49] lá criar uma chave,
+[01:08:52] tá? Ó, aqui eu já criei umas chaves até
+[01:08:55] nesse aqui.
+[01:08:57] Chave de API.
+[01:09:02] Então, vamos criar o nome. Vamos dar um
+[01:09:06] O nome. Vai ser VPS
+[01:09:09] 2 testes.
+[01:09:13] Criar a chave.
+[01:09:19] Pronto, copiei a chave.
+[01:09:22] E aí vamos para lá de novo.
+[01:09:28] Nó
+[01:09:32] tem que descer com o cursor aqui
+[01:09:35] com a setinha.
+[01:09:38] Pronto. Control O, ent, cont X. Certo.
+[01:09:43] Pronto. Agora o que que nós podemos ver?
+[01:09:47] Nós podemos fazer a outra parte aqui.
+[01:09:51] Tch tch tchã. Cadê você? Não, não é
+[01:09:54] aqui.
+[01:09:57] Aqui. Vamos ver o que que ele tá dizendo
+[01:09:59] depois. Room set password. Isso aqui é
+[01:10:03] porque a VPS nós vamos acessar remoto.
+[01:10:06] Então eu tenho que copiar isso aqui e
+[01:10:07] rodar lá, ó. Que que ele depois vocês
+[01:10:10] podem estudar isso. Tenho documentado
+[01:10:12] aqui para explicar.
+[01:10:14] Ó, vou dar uns enter aqui. Quando você
+[01:10:17] dá esse comando aqui, ó, ele vai pedir
+[01:10:20] uma senha, tá? Então, a senha, eu vou
+[01:10:24] dar uma senha.
+[01:10:26] Enter.
+[01:10:33] Pronto. O que que acontece agora? Ele
+[01:10:36] criptograma uma senha. Se eu for lá no,
+[01:10:38] né, no Nando lá e olhar, vende, certo?
+[01:10:43] Vamos procurar se ele botou a senha
+[01:10:45] aqui,
+[01:10:49] tá? A chave,
+[01:10:54] ó, tá aqui a senha, ó. Aquela senha que
+[01:10:57] eu botei tá criptografada. Então, mesmo
+[01:10:59] que alguém pegar, né, eh, conseguir
+[01:11:02] capturar essa senha, ele não sabe porque
+[01:11:07] eu porque não foi isso que eu escrevi,
+[01:11:09] certo? Então, só para mostrar para
+[01:11:11] vocês, certo?
+[01:11:14] E daí o que que ele manda agora? Rodar
+[01:11:16] para mim poder abrir, porque se eu tiver
+[01:11:19] nessa VPS, deixa eu ver qual é o número
+[01:11:21] da VPS que eu nem sei. Ã, tã. Ah, deixa
+[01:11:25] eu
+[01:11:27] sair fora aqui.
+[01:11:33] É uma das que eu faço teste sempre
+[01:11:38] aqui, ó.
+[01:11:43] Ó, é esse aqui a chave. Se eu pegar isso
+[01:11:45] aqui, tá? Vir para cá e digitar aqui
+[01:11:50] 2.5200,
+[01:11:52] não tá no ar, mas igual. Certo?
+[01:11:58] Ó, erro, certo? Muito bem. Se eu botar
+[01:12:01] no ar o sistema lá
+[01:12:07] aqui,
+[01:12:08] se eu botar esse sistema no ar
+[01:12:12] agora, para botar o sistema no ar, era
+[01:12:14] só dar npm
+[01:12:16] run dev. Mas aí que que acontece? Eu não
+[01:12:21] poderia acessar remoto porque tem o
+[01:12:24] firewall da VPS, então eu preciso
+[01:12:26] liberar. Para liberar isso, como é que
+[01:12:29] eu faço? Ó, eu tenho esse cara aqui, ó,
+[01:12:34] para rodar. Depois disso, sim, que eu
+[01:12:36] posso tá botando no ar a o meu servidor,
+[01:12:40] certo? Que é esse aqui, ó.
+[01:12:43] Tá?
+[01:12:45] Vamos lá, então. Vamos botar aqui.
+[01:12:49] Opa, tô já viajando aqui.
+[01:12:53] Não, não é isso aqui. Copiei errado.
+[01:13:00] Aqui.
+[01:13:04] Cadê você? Aqui,
+[01:13:08] ó, o script rodando. Open,
+[01:13:13] tá? Beleza, ele deixou aberto então a
+[01:13:16] porta só
+[01:13:19] para aquele endereço lá, né? E quando eu
+[01:13:23] tiver não tava usando, certo? Então para
+[01:13:27] restartar eu dou npn room dev,
+[01:13:31] né? E depois para fechar eu só dou esse
+[01:13:33] script espaço close, daí fecha essa
+[01:13:36] porta, né? Ou seja, eu tô protegendo meu
+[01:13:39] firewall.
+[01:13:43] Vamos primeiro antes de rodar o NPN, só
+[01:13:45] para mostrar aqui, se eu vi aqui, der um
+[01:13:48] refresh,
+[01:13:51] não tem nada rodando nessa porta, então
+[01:13:53] não vai adiantar. Se eu vi aqui então e
+[01:13:56] rodar NP
+[01:13:59] Jan, deve,
+[01:14:06] tá? Enter.
+[01:14:09] Entrou
+[01:14:10] no ar.
+[01:14:12] Tch tchã tchã. Vamos ver.
+[01:14:19] Vai pedir a senha.
+[01:14:22] Já entrou.
+[01:14:24] Show de bola. Por que que não pediu a
+[01:14:26] senha? Porque eu já tinha a senha. Eu
+[01:14:29] usei a mesma senha que eu tô usando no
+[01:14:31] outro.
+[01:14:34] Então ele tá lendo os catálogos e tudo e
+[01:14:37] vai tá aqui no ar.
+[01:14:39] Alguma coisa interrompeu. Servidor
+[01:14:41] estúdio tá fora do ar. Suba de novo
+[01:14:44] outra vez e tente outra vez. Por que
+[01:14:47] será?
+[01:14:50] Ah, não. Ele tá tendo aqui problemas,
+[01:14:58] ó.
+[01:15:06] Ó, isso aqui, ó, é outro probleminha
+[01:15:09] aqui, ó. Ele tá tendo problema com o FAL
+[01:15:12] de novo. Essa mudança que a gente fez
+[01:15:17] afetou alguma outra coisa. Então, vamos
+[01:15:19] ver ali meu meu sisteminha aí. Vem cá.
+[01:15:25] Isso é problema meu, pessoal.
+[01:15:30] Na VPS.
+[01:15:49] Sim, tu pode colocar dois, três,
+[01:15:52] certo? Porque cada um tá rodando numa
+[01:15:55] porta diferente. Só que lembra o
+[01:15:56] seguinte, tu tem que mudar a porta, o o
+[01:15:59] a outra porta também, ó.
+[01:16:02] Opa, deixa eu,
+[01:16:05] ó, quando você pegar aqui, ó,
+[01:16:09] lembra que a gente tem uma explicação
+[01:16:11] sobre as portas aqui embaixo.
+[01:16:17] Tu tem a porta 87 87, que é o teu
+[01:16:21] serviço, ó,
+[01:16:23] aqui, ó.
+[01:16:25] Então, por exemplo, se tu tem dois, duas
+[01:16:28] rodando duas na tua máquina, você vai
+[01:16:31] ter uma com 8087 e a outra 80 88.
+[01:16:36] E aí uma vai ser 52,
+[01:16:39] certo? Ã
+[01:16:43] 00, outro 5201, apontando para elas
+[01:16:47] diferente.
+[01:16:49] Até porque a gente não implementou
+[01:16:51] multiusuário, que podia também, certo?
+[01:16:54] Mas eu vou deixar sim, porque eu quero
+[01:16:56] que ele seja um serviço para as filas,
+[01:17:00] entendeu?
+[01:17:07] Só pro pessoal que tá no TikTok, no
+[01:17:10] Instagram, no no X e no Facebook.
+[01:17:13] Eu tô transmitindo minha tela no YouTube
+[01:17:17] nem TDSX, só para vocês saberem, tá?
+[01:17:25] Então [limpando a garganta]
+[01:17:27] aqui explico tudo porque que eu botei
+[01:17:29] sem, na verdade é tudo uma explicação
+[01:17:32] como é que eu pensei, o que que eu
+[01:17:34] busquei, o que que eu peguei, né, do
+[01:17:37] original, o que que a gente alterou,
+[01:17:41] certo?
+[01:17:43] Só a web survil, não tem nenhuma linha
+[01:17:45] de server no log.
+[01:18:01] Deixa eu só mostrar para ele. Tá me
+[01:18:03] dizendo aqui que deu um outro erro aqui.
+[01:18:06] Deixa eu botar o que que eu botei aqui.
+[01:18:11] Máquina VPS.
+[01:18:26] Ah,
+[01:18:28] é o hábito, né?
+[01:18:53] E ah, pode ser que eu tô com uma porta
+[01:18:55] antiga, não, mas eu não tinha porta
+[01:18:57] nenhuma rodando ali.
+[01:19:35] Ele tá dizendo que não subiu o server
+[01:19:37] aqui. Tem que entender porquê.
+[01:19:47] Vamos ver porquê.
+[01:20:04] Só deixa eu dar os logs aqui.
+[01:20:08] Nada de log.
+[01:20:26] Ã, não tem nada de log aqui. Ja.
+[01:20:49] Sim, Ja.
+[01:21:12] Deixa eu só dizer para ele. Eu tô
+[01:21:14] falando que eu fiz uma instalação nova
+[01:21:16] aí.
+[01:21:43] Bom, daí tu atualizou next.
+[01:21:49] Tá. Instalação moda tudo
+[01:21:52] o rost.
+[01:21:55] Caramba, né? esperado.
+[01:22:15] Ó, ele tá falando aqui que tem uma
+[01:22:17] coisa, mas daí eu quero corrigir depois
+[01:22:20] isso. Não quero que seja assim.
+[01:22:23] Pinv,
+[01:22:27] ele diz que é para tirar essa linha
+[01:22:29] aqui.
+[01:22:58] Vamos ver o que Que que ele diz aqui?
+[01:23:12] Ai, é que o F era o defult, né? E a
+[01:23:15] gente não querendo usar o FAL, era só
+[01:23:18] ter botado a chave do FAL, tudo ia
+[01:23:20] funcionar. Mas vamos ter que consertar
+[01:23:22] isso, ó. Ainda alguma coisa tá com
+[01:23:24] problemas que não tá legal.
+[01:23:34] Ó,
+[01:23:36] é o status do catálogo aqui, ó.
+[01:23:40] Tudo é o Fal, viu? Tão vendo? Ele tenta
+[01:23:42] buscar.
+[01:24:04] Bom, acho que eu vou dedicar mais tempo
+[01:24:06] depois para deixar redondinho aqui.
+[01:24:24] Ó, aqui tá o erro, tá isso aqui, ó.
+[01:24:42] Ah, ele tá sim, ele tá falando o mesmo
+[01:24:44] problema que que é o Nest, viu? E o
+[01:24:48] Node, ele tá dizendo que tem que
+[01:24:49] atualizar o node aqui.
+[01:24:58] Para resolver, sobe o node para 22.
+[01:25:02] Então, tu tem me dizer que isso tem que
+[01:25:04] ser um pré-requisito, meu amigo.
+[01:25:27] Ó, vamos lá.
+[01:25:29] Quero atualizar o node para
+[01:25:35] 24.
+[01:25:38] Vamos ver se isso vai resolver.
+[01:25:52] Que coisa séria.
+[01:25:57] A gente mexeu numa coisinha, daí foi
+[01:26:00] virando uma bagunça só, né?
+[01:26:07] Mas por isso que é o objetivo aqui de
+[01:26:09] hoje fazer justamente essa instalação
+[01:26:11] com vocês.
+[01:26:25] Vamos ver se ele instala aqui a nova
+[01:26:27] versão.
+[01:26:35] Hum.
+[01:26:37] Estou no um.
+[01:26:46] É o padrão aqui, ó. Aqueles update aí
+[01:26:49] que deveria ter dito para ele fazer
+[01:26:52] automático antes de começar.
+[01:26:58] Por isso que eu peguei uma zerada aqui,
+[01:27:00] tá?
+[01:27:07] Certo. Vamos agora direto para rodar
+[01:27:10] roda [limpando a garganta] aqui. NPN R
+[01:27:11] dev.
+[01:27:13] Ainda deu erro, ó.
+[01:27:41] Vamos lá instalando aqui, ó.
+[01:27:47] Hum, hum.
+[01:27:54] Essa é tentativa e erro aqui.
+[01:27:56] Antigamente eu fazia muito, ó.
+[01:28:07] Hoje como seria? Tu usa um SSH e manda o
+[01:28:10] chat ou
+[01:28:12] o Cloud resolver, ó.
+[01:28:19] Tá, vamos seguir o que que ele tá
+[01:28:20] dizendo aí. Passo a passo.
+[01:28:48] Ó, vamos lá.
+[01:28:50] Vamos simplificar.
+[01:28:59] Vocês viram o que que eu fiz? Eu disse:
+[01:29:01] "Não tem como ser um comando simples. O
+[01:29:03] cara enche de linguiça aqui para vocês."
+[01:29:07] Então aqui ele deu um comando simples e
+[01:29:09] a gente vai ver se instalou ou não aqui
+[01:29:11] com as versões novas,
+[01:29:16] ó.
+[01:29:20] Ó, V24
+[01:29:22] e a versão 11 aqui.
+[01:29:27] Então vamos botar aqui
+[01:29:55] eu tô seguindo agora um comando que ele
+[01:29:57] deu aqui pra gente ver. Depois eu
+[01:29:58] documento isso.
+[01:30:10] Ó, o que que ele fez aqui? Foi, entrou
+[01:30:13] no diretório, deu git pol, removeu os
+[01:30:17] módulos aqui, instalou, rodou o NPN
+[01:30:20] install,
+[01:30:22] setou aqui para rodar o NPN R dev.
+[01:30:28] Certo? Gerando um log aqui. Ou seja,
+[01:30:31] tudo isso para poder ser alguma coisa
+[01:30:33] não funcionar, ele ter log aqui.
+[01:30:38] Deixa eu agora pegar tudo isso que eu
+[01:30:40] fiz e mandar para ele para ele ver se se
+[01:30:43] tá OK.
+[01:31:00] Vamos ver lá.
+[01:31:03] Depois de uma noite toda de tentativa em
+[01:31:06] erros.
+[01:31:11] Vamos lá.
+[01:31:23] Aqui tem uns ajustar isso aqui.
+[01:31:26] Bom, então o que que acontece? O que o
+[01:31:30] que salvou foi essa instalação aqui que
+[01:31:32] eu vou botar depois na automação, ó.
+[01:31:37] Então,
+[01:31:42] sim.
+[01:31:45] Agora anote que fiz isso e o teu comando
+[01:31:50] para melhorar nas instruções de
+[01:31:56] instalação e
+[01:31:59] resolução de problemas.
+[01:32:12] Vamos ver o que que dá. funcionando ou
+[01:32:14] não aqui. Então, se eu vir em catálogos,
+[01:32:20] ó, eu tenho já ligado aqui o Agner. Essa
+[01:32:23] aqui é a VPS nova que a gente instalou
+[01:32:25] ali agora, certo? E apesar dele tá aqui
+[01:32:29] só ligado ele, né?
+[01:32:32] E vamos lá tentar criar alguma coisa no
+[01:32:35] Agnes.
+[01:32:37] Então eu vou criar, não, vamos direto
+[01:32:40] criar texto.
+[01:32:45] [roncando]
+[01:32:47] Vamos pegar nova
+[01:32:51] York
+[01:32:53] em 1900
+[01:32:56] 5.
+[01:32:59] Nova York. York.
+[01:33:05] Imagens, várias imagens de referência.
+[01:33:08] Não, eu quero apenas o Não, não quero
+[01:33:12] imagens.
+[01:33:15] É flash normal. Refinar o prompt.
+[01:33:20] Opa. Refinar o prompt.
+[01:33:25] Gerar.
+[01:33:38] Bingo.
+[01:33:41] Ó, em 1905 aqui. Vamos botar agora em
+[01:33:47] 13.
+[01:33:50] Refinar.
+[01:33:53] Eu
+[01:33:56] tô usando esse esse exemplo que em 5
+[01:33:58] anos a mudança que em Nova York teve é o
+[01:34:02] que nós vamos ter agora nos próximos 5
+[01:34:04] anos com a IA.
+[01:34:08] Ã,
+[01:34:11] já começou. Beleza. Agora 1920.
+[01:34:24] Detalhes,
+[01:34:34] é
+[01:34:41] gerar
+[01:34:45] funcionando. Então, vejam só, nós
+[01:34:47] tivemos bugzinho aqui porque a nessa
+[01:34:50] sempre esse é o problema maior que eu
+[01:34:52] vejo, tá? As VPS não estão atualizadas e
+[01:34:56] as pessoas precisam e atualizar. Então,
+[01:35:00] o mais interessante de tudo é os
+[01:35:02] comandinhos que eu rodei aqui, que é o
+[01:35:05] update,
+[01:35:07] tá? Então vamos voltar atrás aqui. No
+[01:35:10] final de contas o que resolveu mesmo foi
+[01:35:13] dois comandos,
+[01:35:15] tá? Esse aqui, ó, update,
+[01:35:19] certo? E depois aquele, esse aqui de
+[01:35:23] instalação,
+[01:35:25] certo?
+[01:35:27] Ó, instalação do Note aqui que eu já vou
+[01:35:31] mandei aí documentar.
+[01:35:35] Imagina aqui, ó, menos de 10 anos a
+[01:35:38] coisa. Nós tivemos uma mudança
+[01:35:41] significativa aqui, né?
+[01:36:10] Ah, Douglas, eu vou fazer isso.
+[01:36:20] Vou botar o gerar aqui no lado, então.
+[01:36:23] Se tu quiser gerar direto, sem precisar
+[01:36:26] refinar.
+[01:36:34] Boa sugestão. Tá legal. Deixa eu ver
+[01:36:36] mais aí. Pode instalar duas. Sim. O meu
+[01:36:39] disse que tinha que atualizar o next.
+[01:36:41] Isso aí era que tinha aqui o aqui também
+[01:36:44] o problema,
+[01:36:48] tá?
+[01:36:51] Tudo OK. Deixa eu
+[01:36:58] um problema. Então, em uma VPS nova é os
+[01:37:06] comandos de atualização e
+[01:37:10] precisa
+[01:37:12] ter validação
+[01:37:21] dos requisitos.
+[01:37:34] Vou fazer
+[01:37:37] tudo novamente
+[01:37:40] em outra
+[01:37:43] VPS.
+[01:37:45] Então, atualize o Git e o RIDM.
+[01:37:52] para eu seguir passo a passo,
+[01:38:04] tá? Essas mudanças aí eu vou fazer, viu,
+[01:38:07] M? Mas daí eu vou fazer testando aqui
+[01:38:10] antes de eu liberar porque senão dá esse
+[01:38:12] aqui, né? Eu queria demonstrar hoje.
+[01:38:15] Então, o que que nós temos aqui, né? Nós
+[01:38:17] temos uma estrutura,
+[01:38:19] certo? onde que tem essas informações
+[01:38:22] todas.
+[01:38:24] Então, o que que mais é o catálogo,
+[01:38:27] certo? Nós temos o os modos aqui que foi
+[01:38:31] implementado novo, que tu pode cadastrar
+[01:38:34] quando tu quiser, certo? vai ter um
+[01:38:37] problema aqui no layout, porque se tu
+[01:38:40] aumentar, por exemplo, o EGC aqui, ó,
+[01:38:42] ele tem isso aqui. Se tu colocar muitos,
+[01:38:45] tem que ver como é que ele vai se
+[01:38:46] comportar aqui. Eu vou até testar depois
+[01:38:49] disso aí, certo? Vamos testar agora
+[01:38:51] mesmo. Vamos ver no modo USG,
+[01:38:55] o GC, aliás, eu vou colocar um item mais
+[01:38:58] aqui.
+[01:39:02] Adicionar subcontrole.
+[01:39:07] Então aqui vai se chamar
+[01:39:10] eh testes.
+[01:39:17] Hum.
+[01:39:20] Sexo.
+[01:39:21] Vamos botar sexo aqui.
+[01:39:24] Homemada.
+[01:39:38] criança.
+[01:39:46] H,
+[01:39:49] velho,
+[01:39:55] BB,
+[01:39:57] só para mim ter aqui como um exemplo,
+[01:40:00] tá?
+[01:40:01] Então agora quando eu venho aqui em
+[01:40:02] criar,
+[01:40:05] ó. Ah, sim, ele já botou na linha de
+[01:40:07] baixo aqui, ó. Ficou legal.
+[01:40:13] Daí eu venho aqui em modo
+[01:40:16] o GC.
+[01:40:19] Vou lá. Eu quero excluir.
+[01:40:24] Salvar. Vamos ver se funciona.
+[01:40:28] Bingo.
+[01:40:29] Muito bom.
+[01:40:31] Tem coisinhas que a gente vai ajudar.
+[01:40:33] Imagina, eu fiz isso num em dois dias,
+[01:40:36] então vai ter muito bug bug aí. Por isso
+[01:40:39] que tem a versão, tá aqui, ó.
+[01:40:42] No fundo, a gente tem quatro bugs. Tem
+[01:40:45] mais melhorias do que bugs.
+[01:41:03] Então, pessoal, a instalação é bem
+[01:41:05] simples, né? Vocês já viram, tá? Eh, o
+[01:41:09] que nós podemos sim aprender um pouco
+[01:41:11] mais sobre a estrutura que ele tem,
+[01:41:14] certo? Então, na estrutura, eu posso
+[01:41:17] estar usando aqui que eu consigo mostrar
+[01:41:18] melhor. Deixa eu abrir aqui.
+[01:41:26] Ai,
+[01:41:36] então, projetos, projetos, projetos.
+[01:41:40] Cadê você? Aqui.
+[01:41:42] Projetos. E daí nós temos os
+[01:41:52] Bent Bent Bent
+[01:41:55] aqui. Bent studio em inglês.
+[01:42:01] Bente estú público.
+[01:42:06] Caramba, não tô vendo.
+[01:42:12] Tá, mas eu mostro aqui então o que que
+[01:42:15] nós temos aqui, ó. Ah, a estrutura que
+[01:42:19] vocês vão ver aqui,
+[01:42:22] tá?
+[01:42:30] S tá aqui ele. Nós temos o server, nós
+[01:42:33] temos os scripts.
+[01:42:35] Então, remote, aquele script que ele
+[01:42:38] mostra. Então isso aqui,
+[01:42:41] quem é curioso pode dar uma olhada como
+[01:42:43] é que ele configura tudo para fazer
+[01:42:45] aqueleos comandos que alguém teria que
+[01:42:48] abrir o firewall, certo? Então esse aqui
+[01:42:51] é para abrir e fechar o firewall,
+[01:42:54] certo? Ã, nós temos
+[01:42:58] o server, então tudo que tá rodando
+[01:43:02] atrás tá aqui, ó. Os catálogos tá aqui,
+[01:43:04] as informações todas estão aqui. Então,
+[01:43:08] tu quer dar uma olhada, né? Pode abrir
+[01:43:11] cada um desses arquivos, tentar
+[01:43:13] entender. Os providers estão aqui, ó.
+[01:43:17] Certo?
+[01:43:19] Então, né?
+[01:43:22] Depois os profiles, ó,
+[01:43:26] que nós podemos ter estão aqui, certo?
+[01:43:29] Os MCP
+[01:43:31] estão aqui. Então a estrutura toda do
+[01:43:34] server, onde que tu roda 80 80 87 87, tá
+[01:43:39] aqui rodando por em background, certo?
+[01:43:43] Depois nós temos o source, que é toda a
+[01:43:46] nossa aplicação, né, da interface e tudo
+[01:43:50] mais que é o estúdio,
+[01:43:53] tá?
+[01:43:54] Ã, que mais que nós podemos fazer aqui?
+[01:43:57] O guia não tem nada a ver com vocês. A
+[01:44:00] capa também não tem, certo? O doc aqui
+[01:44:04] eh é mais lá no início que eu que é que
+[01:44:08] eu coloquei lá para ter referências
+[01:44:11] quando eu comecei construir,
+[01:44:14] né? Aqui também não tem nada a ver com
+[01:44:16] isso. Então é bem simples. Aí o ritm tá
+[01:44:20] aqui, certo?
+[01:44:22] Né? sobre segurança, sobre cada um deles
+[01:44:25] aqui, nós temos aqui,
+[01:44:28] tá? Então, estrutura e o ponto ENV, que
+[01:44:32] aqui, ó, eu não tenho porque a gente tem
+[01:44:34] aqui, ó, ponto ENV sample, ele vai tirar
+[01:44:38] uma cópia e vai criar ponto ENV,
+[01:44:42] tá? É isso aí. Então, a a estrutura é
+[01:44:47] bem simples, bem estruturada, certo?
+[01:44:52] O desenho é isso. Tu tem a porta 5200
+[01:44:56] na, né, para seu estúdio e a porta 8787
+[01:45:01] para ser o servidor que roda as coisas
+[01:45:03] daqui, certo?
+[01:45:08] E os probleminhas de instalação e
+[01:45:10] manutenção, é só você chegar e dar
+[01:45:13] aqueles comandos lá do gitol, né? Daí
+[01:45:16] você dá o install, daí você dá o
+[01:45:20] building e daí o NPN, né, deve ali para
+[01:45:24] subir ou se você quiser deixar já em
+[01:45:26] produção.
+[01:45:31] Beleza, pessoal?
+[01:45:36] E sobre o uso aqui não tem muito. O que
+[01:45:38] que eu eu melhorei aqui em algumas
+[01:45:40] coisas é que quando você usar aqui,
+[01:45:43] deixa eu pegar no meu caso aqui que tem
+[01:45:46] mais, quando você usar aqui uma IA, por
+[01:45:50] exemplo, que seja
+[01:45:52] de referência, deixa eu liberar no
+[01:45:56] catálogo o clean aqui.
+[01:45:59] Ah, o fal também, só para
+[01:46:05] só para mostrar para vocês quando você
+[01:46:07] vi aqui, né, e selecionar aqui para para
+[01:46:11] tá usando, por exemplo,
+[01:46:15] o clean, texto para vídeo, imagem para
+[01:46:18] vídeo, tá? Ó, se você pegar esse aqui,
+[01:46:24] imagem para vídeo, ó, ele já ajustou
+[01:46:26] tudo aqui, mas ele não colocou, né?
+[01:46:29] uns quadrinhos. Então vamos mudar aqui.
+[01:46:32] Eu quero
+[01:46:34] imagem para vídeo. Esse aqui 25 a versão
+[01:46:38] 2,5.
+[01:46:40] Ó, vocês viram que ele colocou dois mais
+[01:46:42] aqui é para aquele conteúdo de vídeo que
+[01:46:45] tu dá a imagem do início e a imagem do
+[01:46:47] final. Então se ele apresenta dois aqui
+[01:46:51] é para isso, a o quadro inicial e o
+[01:46:53] quadro final, certo? Se eu mudar aqui,
+[01:46:57] eh,
+[01:47:00] por exemplo, eu quero esse aqui, ó,
+[01:47:02] também permite. Eu quero o três,
+[01:47:08] imagem para vídeo. Continua. Ó, todos
+[01:47:11] que permite esse tipo de coisa, ó, já
+[01:47:14] usei aqui, ó. Ó, texto, imagem para
+[01:47:18] vídeo. Ó, esse imagem para vídeo aqui da
+[01:47:21] versão 30 Omni, ele não permite, né, ele
+[01:47:27] permite colocar várias imagens, mas não
+[01:47:29] permite a tela a imagem inicial e a
+[01:47:32] final. Então, são coisas diferentes
+[01:47:34] aqui,
+[01:47:36] ó, meu vinho, meu vídeo que eu fiz aqui,
+[01:47:39] ó.
+[01:47:43] Mandei ele caminhar na frente do
+[01:47:53] Legal, né? Dá para fazer umas produções
+[01:47:55] bem legal. É só ser criativo.
+[01:48:00] Aqui, ó, eu fiz também, ó.
+[01:48:04] Deixa eu,
+[01:48:08] ó, as carroça
+[01:48:11] transformaram-se em carros, né? Botei a
+[01:48:14] inicial e a final. E aí tu tem que
+[01:48:16] explicar como que é. Ó, aqui ele fez um
+[01:48:19] outro modelo, ó.
+[01:48:21] Ó,
+[01:48:25] ó, foram mudando um outro estilo. Eu não
+[01:48:27] gostei.
+[01:48:32] Então, tu tem que ser criativo para
+[01:48:34] dizer o que tu quer que ela faça, né?
+[01:48:41] Então, eu tô dando para todos os meus
+[01:48:42] filhos eles brincar com isso. Como eu
+[01:48:45] posso criar uma conta, né, do
+[01:48:49] Agnes? para eles. Cada um com a sua
+[01:48:52] conta, com seu e-mail, ele pode gastar o
+[01:48:56] que quiser. Única coisa que eu preciso
+[01:48:58] botar uma VPS, certo? E aí eu vou fazer
+[01:49:01] o que que eu acho que o Douglas ou
+[01:49:03] Emerson falou de fazer várias cópias
+[01:49:07] disso aqui, certo? Daí fica um, um, né,
+[01:49:11] um ambiente de cada um. Ou eu podia
+[01:49:13] fazer um sistema multiário,
+[01:49:16] né? Eu não foquei nisso, mas dá para
+[01:49:18] pensar nisso,
+[01:49:20] né, para ele gastar. Só que daí se dois
+[01:49:23] estão mandando, certo? Ele vai tem que
+[01:49:26] ter igual mais capacidade, mais CPU e
+[01:49:29] tudo. Então é mais fácil eu tô separar e
+[01:49:32] só mudar a porta. Aonde que eu mudaria a
+[01:49:35] porta? Lá no ponto ENF.
+[01:49:46] Sim, tudo feito com Agnes aqui, ó,
+[01:49:51] para vocês ter uma ideia, ó, meu
+[01:49:54] crédito, ó, eu só tenho uma que foi
+[01:49:56] feito com acho que o clean ou coisa
+[01:49:59] assim que é 004.
+[01:50:02] O resto tudo com Agnes.
+[01:50:09] Acho que um outro tal que eu tava
+[01:50:10] testando assim na hora de testar mais,
+[01:50:14] mas tá aqui, ó. Ó, a capivara do Agnes
+[01:50:17] não saiu bonita, ó. Saiu meio estranha.
+[01:50:28] Então, galera, é só testar. Isso aí.
+[01:50:33] Provavelmente eu não vou ficar falando
+[01:50:35] mais, né, dessa aqui porque eu acho que
+[01:50:38] eu já expliquei tudo, né, e qualquer
+[01:50:42] coisa, é claro que eu vou dar suporte
+[01:50:44] para vocês, mas baixam aí. Essa versão
+[01:50:47] tá aqui, ó. Tu bota em inglês ou em
+[01:50:49] português.
+[01:50:51] Eu vou fazer uns pequenos ajustes que
+[01:50:52] nem em português aqui o vídeo sai pra
+[01:50:54] direita, ó.
+[01:50:56] Tem que ajustar um pouco por causa do
+[01:50:59] Mas é só frescuragem, né?
+[01:51:18] Muito legal. Dá para testar muito,
+[01:51:19] pessoal.
+[01:51:23] Outra coisa, hoje me ligou um cara aí
+[01:51:27] que trabalha com muitos deputados,
+[01:51:31] senadores, etc, e tava me ligando, nei,
+[01:51:34] eu preciso gente para trabalhar em
+[01:51:37] clipagem, eu preciso gente para, né,
+[01:51:41] fazer cortes, eu preciso gente para
+[01:51:44] escalar vídeo.
+[01:51:46] E aí, galera?
+[01:51:51] oportunidade agora na política, imagina
+[01:51:55] só.
+[01:51:57] E depois se tu pegar um cara desses aí,
+[01:52:00] ele vai te levar junto.
+[01:52:05] Beleza?
+[01:52:07] do MCP. É o seguinte, aqui ó, o conectar
+[01:52:10] o MCP aqui, ó, você tem o MCP, esse cara
+[01:52:14] aqui, que vai ser pro cloud, pro Codex
+[01:52:17] ou pro cursor. Ou você pode pegar o
+[01:52:19] exemplo e dizer para onde tu quer, né?
+[01:52:22] Vamos pensar que tu quer open
+[01:52:27] qualquer um desses novos aí que tão tá
+[01:52:30] tá aí aparecendo e você vai fazer, ó, tu
+[01:52:34] dá o bendo,
+[01:52:37] lembra 80 e 87. Se você tiver dois, tu
+[01:52:41] vai ter dois MCP rodando. Um a porta 808
+[01:52:44] 87, outro tu vai botar 87
+[01:52:48] 88, certo? E ele vai responder. E quando
+[01:52:52] responder, qual é que é o arquivo que tu
+[01:52:54] tem? Ó, dentro do server tem um arquivo
+[01:52:57] chamado MCP. Então, quando alguém chamar
+[01:53:00] nessa porta aqui, né, ele vai responder
+[01:53:05] o que que tá nesse arquivo,
+[01:53:07] certo?
+[01:53:09] Então seria, ou seja, e se eu tô lá
+[01:53:13] usando o meu sistema aqui do Inema Pro
+[01:53:18] do lá CCBT, certo? Eu quero usar dentro
+[01:53:24] dele o fluxo para gerar fotos, etc. e
+[01:53:27] tudo. O que que eu posso criar? Eu crio
+[01:53:30] lá uma uma novo domínio que se chama,
+[01:53:33] né, barra tal coisa ou que tu
+[01:53:36] interpreta, se tu quiser usar uma iá, e
+[01:53:39] ele vai chamar o Bent Studio. Esse B
+[01:53:45] Stúo, como é que ele chama? Ele chama
+[01:53:48] numa porta via API ou via MCP,
+[01:53:53] certo?
+[01:53:59] Então, eh, eu vou colocar até aí depois
+[01:54:03] lá na comunidade esses serviços que o
+[01:54:06] pessoal tá pedindo para mim fazer.
+[01:54:09] E mas olha só,
+[01:54:13] o MCP é isso, certo? Ele vai responder
+[01:54:17] naquela porta,
+[01:54:20] só isso. Bom, aqui tá o nosso fluxo, ó.
+[01:54:23] A ideia, eu tenho a interface ou vou
+[01:54:26] falar via MCP
+[01:54:28] porque ele tá respondendo lá na no
+[01:54:31] servidor, certo? E aí ele vai usar uma
+[01:54:34] API local rodando dentro do, né, de uma
+[01:54:39] VPS ou da tua máquina, certo? E aí ele
+[01:54:43] tem projetos, tem website, tem
+[01:54:45] documento, tem toda aquela questão aqui.
+[01:54:48] Quando você quiser, ele vai buscar um
+[01:54:50] daqueles provedores,
+[01:54:53] né? ele vai ler o conteúdo de cada um
+[01:54:55] deles, como é que ele atua,
+[01:54:58] certo? E daí vai tá gerando, né, o que
+[01:55:02] tu quer,
+[01:55:04] certo? Aqui tu tem uma pasta que tu tu
+[01:55:07] tem tipo toda a informação tua, uma
+[01:55:10] carteira,
+[01:55:12] ã, privacidade local, custo
+[01:55:15] transparente, CMCP, pronto, arquivos
+[01:55:18] locais, liberdade criativa é com vocês,
+[01:55:21] tá? Então, tá dentro do Inema Vibe isso
+[01:55:24] aqui.
+[01:55:27] E depois vou colocar a live de hoje aqui
+[01:55:29] embaixo também.
+[01:55:36] Tá beleza,
+[01:55:37] [roncando]
+[01:55:40] pessoal? Eu vou porque eu virei essa
+[01:55:43] noite passada e era 10 horas da manhã.
+[01:55:46] 11 num Eu queria resolver.
+[01:55:50] Eu
+[01:55:51] vou detonar agora tudo isso aqui, tá? Já
+[01:55:54] que eu tô fazendo aqui,
+[01:55:57] né? Então, excluir a chave aqui, ó.
+[01:56:08] Também lá do Agnes, eu vou excluir a a
+[01:56:11] chave aqui
+[01:56:14] e eu vou zerar ali de novo e instalar de
+[01:56:17] novo, certo? Eu tenho, vou fazer isso
+[01:56:21] numa outra VPS do zero até para ver o
+[01:56:24] que que dá de erro, porque quando tu já
+[01:56:27] tem tudo atualizado, aí tudo dá certo,
+[01:56:30] né?
+[01:56:32] Tem que pegar um, tipo assim, baixou uma
+[01:56:34] VPS antiga ou muitas vezes tu tem uma
+[01:56:37] VPS que nem agora tem um bto do 26,
+[01:56:41] tem várias coisas que não tá rodando
+[01:56:44] nele. Eu voltei para do 2 24, aliás,
+[01:56:48] rodou tudo certinho.
+[01:56:53] Tá bom, pessoal?
+[01:56:57] Vamos lá. Até mais, então. Um abraço e
+[01:57:00] até amanhã.
+[01:57:03] Tem curso amanhã. Deixa eu fazer uma
+[01:57:05] propaganda do curso amanhã.
+[01:57:08] O curso que tem amanhã aqui, ó.
+[01:57:13] Ó,
+[01:57:16] curso deinema CCBT
+[01:57:19] com promovatar,
+[01:57:21] certo? E vou até mostrar daí lá, talvez
+[01:57:24] até a gente integre ali com o
+[01:57:28] Bent, mas se der tempo, porque senão
+[01:57:30] vira é dois dias só que eu vou focar.
+[01:57:34] Então, quem é que é da comunidade
+[01:57:36] acessa, quem não é da comunidade aí,
+[01:57:39] espera que daqui a pouco eu compartilhe
+[01:57:41] esse vídeo ou senão entra nem que é por
+[01:57:44] um mês, aproveita, já conhece a
+[01:57:47] comunidade aqui. Certo?
+[01:57:50] Outra coisa, né? Eu fiz um curso novo
+[01:57:52] aqui, auditoria de ablação,
+[01:57:56] certo? Que é aquilo de analisar o teu
+[01:57:59] sistema. Então, vale a pena até pela
+[01:58:03] leitura, pelo que que nós estamos
+[01:58:06] otimizando, eu vejo muita gente
+[01:58:08] reclamar, os caras falar mal, de uma
+[01:58:11] Leleme, da outra Leleme, do Cloud, do
+[01:58:14] Codex, daí ele é apaixonado agora pela
+[01:58:17] China com tal coisa.
+[01:58:20] Tu vai analisar, os caras estão tudo
+[01:58:22] chutão, tá? Porque ele não entende do
+[01:58:25] que ele tá falando. Então ele vai, ele
+[01:58:27] entrou numa nova que é, né, a versão
+[01:58:31] nova. Ah, daqui a pouco ele é apaixonado
+[01:58:33] pelo Grock, depois é apaixonado pelo
+[01:58:35] outro. É porque ele não entende das
+[01:58:37] coisas. Tudo é bom, né? No fundo,
+[01:58:40] pessoal, 90%, eu tava até assistindo um
+[01:58:44] conteúdo aqui. Eh,
+[01:58:51] não, aqui, deixa eu ver se é isso aqui.
+[01:58:55] Esse mesmo aqui, ó.
+[01:58:58] Deixa eu ver onde que diz. 90.
+[01:59:03] Ó, ele tava comparando aqui, ó. É o
+[01:59:05] marque aí. Tava comparando,
+[01:59:09] tá?
+[01:59:10] A questão do custo do token. Clud lê 70
+[01:59:13] arquivos antes de escrever um plano e
+[01:59:15] tudo isso é enviado para o servidor
+[01:59:17] principal. O roteiro dele, tudo é
+[01:59:20] relacionado a software, vai para Codex,
+[01:59:22] arquitetura e análise para cloud. E
+[01:59:26] análise para a cloud, ou seja, tu usa o
+[01:59:28] melhor de cada um, certo? Onde
+[01:59:33] o codex falha, ele multiplica
+[01:59:35] arquiteturas ruins, prioriza demais a
+[01:59:37] compatibilidade com versões anteriores
+[01:59:40] logo no início do projeto, peca no
+[01:59:42] design da interface, né? E onde que o
+[01:59:46] cloud garante seu lugar? Trabalho
+[01:59:48] intelectual, redação, análise de
+[01:59:50] negócio, dados, pesquisa, decisão
+[01:59:52] inicial da arquitetura antes de qualquer
+[01:59:55] código que existir. Já aqui embaixo, né?
+[01:59:59] Ah,
+[02:00:02] porque o codex se destaca na velocidade
+[02:00:04] de interação menos planejamento inicial,
+[02:00:06] ele preenche as lacunas em vez de exigir
+[02:00:09] uma especificação completa. O tempo de
+[02:00:12] planejamento cai de 1 hora ou ou 2 horas
+[02:00:16] para 5 ou 15 minutos, ó, no Codex.
+[02:00:20] Então, o que que acontece? Ele não faz
+[02:00:22] muito planejamento. Então, muita gente
+[02:00:24] que diz que o Codex é maravilhoso, o que
+[02:00:27] que acontece? O cara não entendeu que o
+[02:00:30] Codex ele não faz planejamento que nem o
+[02:00:32] Cláudio faz. E aí todos eles têm seus
+[02:00:36] ponto bons ruim. Se nós vamos olhar
+[02:00:39] aqui, tá?
+[02:00:42] Ã t deve, cadê você? Deve aqui.
+[02:00:46] Certo. Cláudio vezes Codex.
+[02:00:50] Olha só,
+[02:00:52] cadê você? Aqui,
+[02:00:54] pessoal. Enquanto que o Cloud gastou
+[02:00:58] $800 para construir uma coisa, o Codex
+[02:01:01] gastou 3.000.
+[02:01:03] Enquanto o Cláudio gastou 5 horas para
+[02:01:07] fazer alguma coisa, ele gastou 61 horas.
+[02:01:11] Então, se tu calcular por hora, talvez
+[02:01:13] ele é mais barato, mas no fim de conta o
+[02:01:17] problema. Então é isso que a gente tem
+[02:01:19] que entender, tá? Aqui, ó, dentro do
+[02:01:21] inema dev comparando os dois, etc.
+[02:01:24] Então, sempre que tem alguma coisa
+[02:01:26] relevante, eu tenho aplicado e colocado
+[02:01:29] aqui de disponível para vocês, tá bom?
+[02:01:33] Então, não sejam rasos, sejam profundo,
+[02:01:37] vão aprendendo aquilo que não vai mudar.
+[02:01:40] As interface mudam, né? A gente tinha,
+[02:01:43] eu usava FreePix, já não existe mais,
+[02:01:46] agora é magnif, né? Então, que que
+[02:01:49] adianta tu ter dominado a interface? O
+[02:01:52] importante é tu entender o que tu quer
+[02:01:54] construir, os sistemas, tu construindo
+[02:01:57] teus próprios sistemas e ajustando aí.
+[02:02:01] Tá bom?
+[02:02:03] Até amanhã então galera, um abração e
+[02:02:06] estamos junto.

@@ -1,0 +1,3263 @@
+# INEMA  VibeCode do Zero - Dia 1 - Infra Git e Vercel
+Origem: https://www.youtube.com/watch?v=0UeW1P--sqc
+Texto: legenda
+
+[00:00:00] de ontem que tu botou ali nas novidades
+[00:00:02] agora.
+[00:00:04] &gt;&gt; Tá. Pois é, por isso que eu queria.
+[00:00:07] Então, vamos voltar atrás tudo de novo.
+[00:00:11] Deixa eu ver.
+[00:00:14] Ainda bem que a gente testa, né?
+[00:00:20] Então, para aí.
+[00:00:23] Sim, eu peguei o último, simplesmente
+[00:00:25] peguei o último que tava lá.
+[00:00:30] Agora apareceu aqui para mim.
+[00:00:32] &gt;&gt; Não, mas tudo bem. Era o É, tá bem.
+[00:00:37] &gt;&gt; Tá agora foi
+[00:00:39] &gt;&gt; sim. Deixa eu só tornar ele. Não,
+[00:00:45] &gt;&gt; tá
+[00:00:50] &gt;&gt; obrigado.
+[00:00:57] Sim. Deixa eu só tentar
+[00:01:22] só um refres aqui para mim ver se tá OK.
+[00:01:29] Tá,
+[00:01:31] valida só o som, tia, porque eu não
+[00:01:34] quero virar uma noite aí para para
+[00:01:37] refazer o
+[00:01:40] Tá bom.
+[00:01:42] Tá. Então, voltando à ideia é o
+[00:01:44] seguinte, né, como eu tava explicando,
+[00:01:46] ã, as pessoas têm essa dificuldade
+[00:01:49] muitas vezes de entender o processo
+[00:01:51] todo. Então, o processo é você ter uma
+[00:01:53] ideia, você construir isso aí através de
+[00:01:57] um projeto,
+[00:01:59] né, mandar implementar esse projeto,
+[00:02:03] jogar isso pro GitHub,
+[00:02:05] porque tu estaria versionalizando e
+[00:02:08] fazendo backup.
+[00:02:10] E ainda do do Git, tu atualizar onde que
+[00:02:13] você quiser,
+[00:02:15] certo? Então, por exemplo, tu pode jogar
+[00:02:18] isso para Versel, tu pode jogar isso
+[00:02:20] para qualquer outro ambiente e também na
+[00:02:23] sua VS VPS local, certo? Só que o grande
+[00:02:27] problema da VPS local é quando você tem
+[00:02:31] volume, certo? Então, a talvez você
+[00:02:34] dividiria isso em várias VPS, em vários
+[00:02:38] modelos, onde que tu tem um atendimento
+[00:02:40] às pessoas e tu aumenta o nível de
+[00:02:42] segurança dizendo, ó, só consigo
+[00:02:45] entregar HTTP, ou seja, a página web. É
+[00:02:48] o que que o Versal estaria fazendo para
+[00:02:50] mim, né? A mesma coisa.
+[00:02:52] &gt;&gt; Onde tu botou o link?
+[00:02:54] &gt;&gt; Oi.
+[00:02:55] &gt;&gt; Onde tu botou o link?
+[00:02:59] Fechou aqui o meu. Eu tava no celular e
+[00:03:01] daí eleou.
+[00:03:04] &gt;&gt; Agora tem que parar aqui então para mim
+[00:03:07] achar ele.
+[00:03:09] Tu
+[00:03:09] &gt;&gt; tem que compartilhar ele.
+[00:03:13] Eu peguei ele, mas daí eu
+[00:03:17] &gt;&gt; tá. Então vou compartilhar de novo.
+[00:03:20] &gt;&gt; Mudo. Aí eu fui entrar de novo e não
+[00:03:22] achei mais.
+[00:03:24] Compartilha aqui onde? No meu vou
+[00:03:26] tentar. Vou tentar. Calma aí, calma aí
+[00:03:29] que eu tô me me achando as minhas 500
+[00:03:32] telas aqui. Aqui,
+[00:03:35] ó.
+[00:03:40] Compartilha lá nas novidades também daí
+[00:03:42] eu não preciso ir sair daqui lá. Então,
+[00:03:45] voltando à ideia, então a ideia do do
+[00:03:50] da VPS seria justamente isso. Você tem
+[00:03:52] um banco e ele vai ter que ter um
+[00:03:56] trollput, uma, né, uma memória a disco e
+[00:03:59] tudo mais. Então, qual é o custo que de
+[00:04:01] eu ter isso, né, numa num super base que
+[00:04:05] ele tem uma um datacent e uma estrutura
+[00:04:08] para mim do que eu vou botar na minha
+[00:04:10] máquina local. A mesma coisa é uma
+[00:04:13] página web, o Firewall, etc e tudo.
+[00:04:17] Então, para quem tá começando, é mais ou
+[00:04:19] menos assim. Você tem a máquina local
+[00:04:22] configurado, você vai para o Git,
+[00:04:24] atualizar do Git, você vai lá no deploy,
+[00:04:28] no, né, no Versel, importar isso e
+[00:04:31] configurar no Supas, certo? E é no
+[00:04:35] Versel você tem que configurar, né, a
+[00:04:38] API do Supace aqui, tá legal?
+[00:04:42] Aonde tu botou o link? Tu não botou em
+[00:04:43] lugar nenhum.
+[00:04:45] &gt;&gt; Eu botei aqui no chat.
+[00:04:48] Pô, tu não vai me deixar dar curso hoje,
+[00:04:51] Tia?
+[00:04:56] Ó, vou botar inclusive aqui na no
+[00:04:58] &gt;&gt; Ah, eu tava esperando lá, tá? Agora
+[00:05:01] deu.
+[00:05:05] &gt;&gt; Deixa eu tirar isso aqui então.
+[00:05:09] Pronto.
+[00:05:11] Tá
+[00:05:13] beleza.
+[00:05:15] Eu sei que vocês estão querendo me
+[00:05:17] sabotar aqui, mas tudo bem. Vamos lá.
+[00:05:19] Não vou desistir assim fácil.
+[00:05:22] Certo? Então, a essa é a ideia do que
+[00:05:25] que nós vamos ver então hoje. E daí o
+[00:05:27] que eu decidi? decidir que essa parte
+[00:05:29] inicial, certo, seria um dia, né? Isso
+[00:05:33] aqui vocês já assistiram no curso da
+[00:05:36] semana passada ou já a gente bateu
+[00:05:39] muito, mas vamos recapitular, né? e
+[00:05:43] focar em macetes, em dicas e
+[00:05:46] configuração e amanhã o dia, digamos, o
+[00:05:49] dia todo, a aula toda, né, focada em
+[00:05:52] entender um banco de dados do Supas, no
+[00:05:56] caso do póstrir deles, certo?
+[00:06:01] Então, tá beleza. Ã, deixa eu aumentar
+[00:06:04] aqui,
+[00:06:06] tá?
+[00:06:08] Ah, o que que nós temos, então? H, deixa
+[00:06:11] eu ver aqui.
+[00:06:16] Então, vamos lá. O que que é o Vib code?
+[00:06:19] Tá, o Vibe Code, tu parte de uma ideia e
+[00:06:23] essa ideia você tem que estruturar ela
+[00:06:26] para virar um contexto, certo? Então,
+[00:06:30] qual é a nossa sugestão sempre nesse
+[00:06:32] caso da ideia? É você criar um burn
+[00:06:35] store, certo? No chat,
+[00:06:38] né? buscar opiniões diferentes,
+[00:06:41] pesquisas diferentes.
+[00:06:43] Se tu quiser pegar essa ideia, levar
+[00:06:46] para um outro ambiente de chat, né, ou
+[00:06:50] pegar uma outra sessão dentro do chat
+[00:06:52] GPT e mudar o o modelo lá, certo? Sempre
+[00:06:57] que nós tivermos trabalhando com o chat
+[00:07:00] e nós tivermos discutindo ideia,
+[00:07:03] aumentar o o esforço, certo? porque ele
+[00:07:07] vai buscar, né, eh, vários caminhos.
+[00:07:11] Quando você diminui o esforço, você
+[00:07:14] diminui a capacidade de buscar caminhos,
+[00:07:16] ele vai seguir o que que ele foi
+[00:07:17] treinado, certo? E aí a gente vai
+[00:07:22] construir nosso plano,
+[00:07:24] vai pedir paraa Iá construir um plano de
+[00:07:27] daquilo lá. E aí você pode pegar aquele
+[00:07:30] plano, validar de novo para outros
+[00:07:33] modelos, certo? Então nós usamos aquele
+[00:07:36] recurso chamado
+[00:07:38] Cloudex, que é uma skill que ela joga do
+[00:07:42] cloud pro Cludex e vice-versa fazendo
+[00:07:45] rounds e sempre questionando, né, o o
+[00:07:51] plano. Quando o plano tá pronto, você
+[00:07:54] vai para implementar. E aí tem um
+[00:07:57] recurso chamado, né, eh, jogos dos de
+[00:08:00] guerras que você podia est usando. Ele
+[00:08:03] pega e começa a trabalhar num plano onde
+[00:08:07] que ele prevê que tudo pode dar errado.
+[00:08:09] Então, ele vai trabalhando cada fase.
+[00:08:12] Então, você tem que estar junto
+[00:08:14] administrando ele. Não dá para deixar
+[00:08:16] ele por conta porque ele vai te
+[00:08:18] questionar sempre o tempo todo. Então,
+[00:08:22] isso é só pra questão da ideia. E depois
+[00:08:25] nós temos um terceiro ponto que é a
+[00:08:27] validação, que é fazer teste. Então
+[00:08:29] também é muito bom tu ter uma outra IA
+[00:08:32] que faça teste, ou seja, é o cara que
+[00:08:34] vai questionar tudo o que que foi feito,
+[00:08:37] vai testar tudo que foi feito.
+[00:08:40] Geralmente o custo maior não é criar, o
+[00:08:43] custo maior é validar, tanto que em
+[00:08:46] tokens, em tempo e assim por diante, tá
+[00:08:49] legal? Só que desde que tu faz a ideia,
+[00:08:52] tu vai salvando no Git, ou seja, você
+[00:08:56] vai fazendo comits.
+[00:08:58] Então, se você tem instalado o Git logo
+[00:09:01] de início, ele vai comitando tudo que
+[00:09:04] você faz, mesmo que ele não joga para a
+[00:09:06] nuvem, certo? Ele cria uma pasta chamado
+[00:09:10] ponto git e ali vai trabalhar com isso.
+[00:09:13] Então, vamos mostrar isso aqui, né? Se
+[00:09:17] eu pegar na minha máquina local,
+[00:09:21] certo, e for lá no meu usuário, sempre a
+[00:09:24] estrutura essa, vai pro meu usuário,
+[00:09:28] certo? E vai no usuário. E aqui, certo?
+[00:09:31] Eu tenho todos ponto alguma coisa da
+[00:09:34] estrutura. Então, lembra, a gente
+[00:09:37] configurou o SSH. Para que que é o SSH?
+[00:09:40] paraa minha conexão com qualquer um dos
+[00:09:44] sistemas remotos que eu queiro ter e não
+[00:09:47] preciso estar botando a senha. Então, no
+[00:09:49] Superabase eu não quero usar senha, eu
+[00:09:52] posso criar uma conexão da minha máquina
+[00:09:54] com o Supas, com o overcell, com o
+[00:09:57] GitHub, certo? Com minha VPS,
+[00:10:01] certo? Então, se alguém tem dificuldade
+[00:10:03] de entender isso, pesquise o que que é o
+[00:10:07] SSH, certo? E como nós podemos estar
+[00:10:10] usando sobre isso, tá? Não vou me
+[00:10:13] aprofundar ao menos que alguém disser
+[00:10:14] nei demonstra, faça e tudo mais, certo?
+[00:10:18] E aí nós temos os ponto cloud, o ponto ã
+[00:10:24] codex, certo? Ponto agentes e tudo que
+[00:10:29] você tiver usando hoje, ele tem essa
+[00:10:32] estrutura dentro da do teu usuário. Se
+[00:10:35] você for para uma VPS, certo?
+[00:10:39] Deixa eu puxar a VPS para cá, [roncando]
+[00:10:42] ó. Se você for na VPS, a mesma coisa nós
+[00:10:46] temos o home, certo? E abaixo do home eu
+[00:10:51] tenho a estrutura que nós temos lá no
+[00:10:54] meu C, o ponto cashcargo.cloud,
+[00:10:59] certo? Ã, esses cloud flow são serviços
+[00:11:04] que eu instalei. Tem o Codex, certo? Eu
+[00:11:07] tenho config, né? Tem o agente, deixa eu
+[00:11:11] ver. Ponto agente aqui, ó. Agentes,
+[00:11:15] certo? Tem o ponto docker, se eu tiver
+[00:11:19] configurando a minha minha VPS Docker,
+[00:11:21] tem o ponto rey Jin, porque eu tô usando
+[00:11:24] ponto rei rey frames, né? Hiperframes,
+[00:11:28] aliás. Certo? Então, todos eles são as
+[00:11:31] configurações ou clean aqui que eu tô
+[00:11:33] usando, certo? Então, todas as
+[00:11:36] configurações que eu uso, ele cria
+[00:11:39] abaixo do meu usuário, tá? Esse esse
+[00:11:43] ponto e assim também eu criei o
+[00:11:46] projetos, uma pasta chamado projetos ali
+[00:11:49] dentro, certo? No início eu tinha criado
+[00:11:53] projetos e daí eu criei projetos cloud
+[00:11:56] code e depois eu vi que pode ser um
+[00:11:58] projeto só para tudo, né? E dentro do
+[00:12:02] projeto eu crio as pastas dos meus
+[00:12:05] projetos e que no meu caso tá chegando
+[00:12:08] em 500 projetos aqui, certo?
+[00:12:14] E nessa pasta eu criei dois scripts que
+[00:12:18] estão lá embaixo. No meu caso, nesse
+[00:12:21] caso que é Linux, os meus dois scripts
+[00:12:23] são CC, no caso, e CX, para usar o Codex
+[00:12:29] e para usar o Cloud Code. Para quê? Para
+[00:12:32] mim poder, quando eu tô num projeto, vou
+[00:12:34] entrar em algum, eu não preciso lembrar
+[00:12:36] dos parâmetros que é normal utilizar,
+[00:12:41] certo? Então a estrutura é essa padrão
+[00:12:45] de todo mundo. Então quando eu tiver
+[00:12:48] agora, por exemplo, vou pegar sempre o
+[00:12:49] exemplo da ties aqui. Eu vou pegar aqui,
+[00:12:52] ó. Tá? Abrir. A
+[00:12:55] &gt;&gt; posso comer sorvete?
+[00:12:57] &gt;&gt; Pode.
+[00:12:57] &gt;&gt; Um pote bem grande.
+[00:13:00] &gt;&gt; Come devagar só, tá?
+[00:13:04] Ó onde que tá a tiz aqui, ó.
+[00:13:08] Se eu me conectar agora aqui, ó.
+[00:13:13] conectado.
+[00:13:16] Aonde que eu vou cair? A princípio, se
+[00:13:19] eu se eu tô entrando, eu caí no usuário
+[00:13:22] da Tiza, certo?
+[00:13:26] E aí, ó, tá tá como eu entrei como Rut
+[00:13:30] lá na TA, certo? Ela não protegeu,
+[00:13:33] proibindo rout. Então, enquanto ela não
+[00:13:35] proibir, eu tô lá invadindo o ambiente
+[00:13:38] dela. Então, CD projetos,
+[00:13:42] certo? Ó, tá aqui ele. Se eu voltar
+[00:13:45] atrás, né? CD ponto codex.
+[00:13:52] Entrei ali, ó. Existe ponto ponto cd.
+[00:13:57] Cloud
+[00:13:59] errado. Por ela não instalou cloud, ela
+[00:14:02] só tem o codex lá. Agora CD. Agentes.
+[00:14:08] Agentes
+[00:14:10] também não tem instalado nada lá disso
+[00:14:13] aí. Certo? Então, como é que eu posso
+[00:14:16] saber o que que tem? Eu dou LS, que
+[00:14:19] seria o de menos la. Daí ele aparece os
+[00:14:24] escondidos, ó. Então eu tenho
+[00:14:26] pcodex.concfig.
+[00:14:29] Cash, ponto agente zero. Ó, ela tem um
+[00:14:32] agente zero. Ah, não tem ponto, mas é só
+[00:14:35] agente zero lá. Ã,
+[00:14:39] Docker, ela tem, certo? Local, ela tem
+[00:14:42] uma configuração de local, projetos,
+[00:14:45] SSH, ela tem. Então, se eu entrar ponto
+[00:14:48] SSh,
+[00:14:50] certo? de aliás ls
+[00:14:54] - la.
+[00:14:57] Ó, ela tem aqui, ó, ela tem dois. Se eu
+[00:15:03] se eu agora tive acesso e olhar esse
+[00:15:05] arquivo que não tem o pub, eu vou poder
+[00:15:08] ver a chave secreta dela privada,
+[00:15:12] certo?
+[00:15:14] Dentro dessa pasta.
+[00:15:17] Mas a chave pública eu posso ver, certo?
+[00:15:20] que é aquela que ela leva para fora dos
+[00:15:22] ambientes dela. Então, tá tudo aqui e eu
+[00:15:26] preciso entender de pastas, certo? Ah,
+[00:15:29] mas nem eu não entendo. E qual é o
+[00:15:31] ambiente gráfico que tu pode estar
+[00:15:33] usando? Bom, tu pode estar usando até,
+[00:15:36] né, o términos com o ambiente gráfico e
+[00:15:38] tu navega por aqui, certo? Então, né, se
+[00:15:43] tu usar o térmitos e usar o SFTP,
+[00:15:47] certo? Tu podia selecionar o host que tu
+[00:15:49] quer e eu diria, eu quero entrar, né,
+[00:15:52] navegando na tisa. Conecta, mesma
+[00:15:55] lógica.
+[00:15:57] E o que ele vai acontecer? Ele caiu lá
+[00:15:59] para o root porque eu me loguei com isso
+[00:16:03] e aí eu tenho toda a estrutura de novo
+[00:16:05] aqui. E se eu der dois clique aqui nos
+[00:16:09] projetos,
+[00:16:11] eu vou entrar nos projetos que ela tem.
+[00:16:13] Ela tem projetos de publicação no
+[00:16:16] YouTube, ela tem o Inema Ref, né, que
+[00:16:20] teria que ver o que que é lá dentro. Ah,
+[00:16:23] deve ser criação de vídeos e e
+[00:16:25] animações.
+[00:16:27] Ela tem algumas skills aqui. Ela tem o C
+[00:16:30] Bote, tem o CC Bote, que eu dei o curso
+[00:16:34] semana passada, certo? Ela tem um Jarvis
+[00:16:38] aqui, ela tem um marketing 3, certo? Eu
+[00:16:42] tenho uma pasta de backup, tem uma pasta
+[00:16:45] web, né? Vamos ver o que que essa web tá
+[00:16:48] fazendo aqui. Não tá vazio, não tem
+[00:16:50] nada. Ou seja, eu posso navegar assim
+[00:16:53] também visualmente. Então tem que ter
+[00:16:55] uma ferramenta de terceiros para meu eu
+[00:16:59] navegar na VPS. E para mim copiar alguma
+[00:17:02] coisa de um lado para outro é só
+[00:17:04] arrastar, certo? Para um lado e pro
+[00:17:07] outro, certo? Então eu podia vir aqui e
+[00:17:10] procurar o download.
+[00:17:12] Certo? Então eu iria no usuário,
+[00:17:16] tá? User aqui da máquina local users,
+[00:17:21] certo? E aí eu procuraria o nei e aí eu
+[00:17:25] poderia pegar e dizer assim: "Eu quero
+[00:17:27] levar um documento para lá. Cadê um
+[00:17:31] documento que eu quero aqui?" Certo.
+[00:17:34] Podia tá ordenando de uma forma,
+[00:17:38] tá? Ah, mas eu quero download. Então,
+[00:17:41] dois clique no download aqui.
+[00:17:44] E aí eu tenho um monte de documento de
+[00:17:47] imagem, né? Por exemplo, eu tenho essa
+[00:17:49] imagem aqui e eu podia estar arrastando
+[00:17:52] ela para cá. Aonde que eu arrastar, ela
+[00:17:55] vai cair, certo? Então, se eu botar
+[00:17:58] simplesmente aqui, ó, não organizado,
+[00:18:01] vai virar um babel, né? Então é bom. Ah,
+[00:18:04] isso aqui é imagens. Aonde vai tá?
+[00:18:06] Embaixo de que projeto? Porque ele ficou
+[00:18:08] aqui. Então, se eu entrar lá, né? Opa.
+[00:18:12] Aliás, eu tô aqui ainda, né? Se eu
+[00:18:15] entrar lá na tisa, né? E se der CD
+[00:18:18] projetos
+[00:18:20] e der umir,
+[00:18:23] ó, um LS
+[00:18:25] menos la para mim ver tudo é um JPEG.
+[00:18:30] Então,
+[00:18:32] vamos dizer assim, ã, K X, certo? Se nós
+[00:18:38] olharmos agora lá dentro no XA e der de
+[00:18:43] novo um ls - a, virou KX. Então eu posso
+[00:18:47] est fazendo o comando aqui que eu tenho
+[00:18:49] que me lembrar e no chat e tudo ou eu
+[00:18:52] posso estar usando uma interface, né,
+[00:18:55] gráfica para fazer isso. Mas essa capa X
+[00:18:58] não é para ficar ali para não poluir as
+[00:19:00] coisas. Se eu quiser criar uma pasta, eu
+[00:19:03] vou criar uma pasta. Assim como, por
+[00:19:05] exemplo, eu dentro dos meus projetos,
+[00:19:08] né, eu tenho pasta para tudo. Ó, isso
+[00:19:11] aqui, ó, o que que esse cara tá fazendo
+[00:19:13] aqui? tá perdido esses dois vídeos aqui.
+[00:19:16] Isso vira a poluição. Então, ó, tem
+[00:19:19] vídeos que não deveriam tá aqui, imagens
+[00:19:22] não deviam estar aqui, áudio que não
+[00:19:23] deviam estar aqui. Eu botei justamente
+[00:19:25] para mostrar para vocês. Vira uma
+[00:19:27] confusão. Então, se eu que ah, esse
+[00:19:30] áudio é uma música que eu mandei para
+[00:19:32] lá. Então, o que que eu fiz? Eu criei
+[00:19:34] uma pasta, certo? E vamos ver se tá aqui
+[00:19:39] musical,
+[00:19:42] certo?
+[00:19:44] musical. O que que é? É uma referência
+[00:19:47] que eu te peguei lá do, eu gostei de uma
+[00:19:49] música lá do do Facebook e mandei lá
+[00:19:53] para o meu uma API do Suno, que não é
+[00:19:58] nem do Suno, mas é o Suno, e disse: "Eu
+[00:20:01] quero que você tira uma ideia dessa
+[00:20:04] música, crie uma música aqui, que eu
+[00:20:06] quero que uma música seja minha a partir
+[00:20:08] dessa referência." E ele criou então
+[00:20:11] essa referência ali, inclusive criou um
+[00:20:14] vídeo aqui. Deixa eu ver o que que é
+[00:20:17] isso.
+[00:20:17] &gt;&gt; Valor do workshop avançado, engenharia
+[00:20:19] do software cuá vai subir. No dia um, tu
+[00:20:21] aprende a trabalhar IA first, sem perder
+[00:20:23] o controle. Tu aprende onde realmente
+[00:20:25] está a IA hoje e por que os fundamentos
+[00:20:28] voltaram a importar muito. Tu aprende
+[00:20:30] também spec driven development,
+[00:20:32] &gt;&gt; tu aprende harness, tu aprende loop
+[00:20:33] engine, automações, code review e os
+[00:20:36] quality gates que garantem que a IA gera
+[00:20:39] código em escala sem quebrar nada. No
+[00:20:41] dia dois o foco vai pra arquitetura na
+[00:20:43] era da como modernizar aquele código
+[00:20:45] legado com segurança, desenhar sistemas
+[00:20:48] que os agentes entendem e fugir do
+[00:20:50] overer e da dívida. aqui desse vídeo,
+[00:20:54] tá? Eu achei que era de música, ele foi
+[00:20:56] colocou aqui. Não, não foi. Eu acho que
+[00:20:58] eu mandei errado a coisa. Quer ver um
+[00:21:01] outro análise aqui? As análises todas
+[00:21:04] que eu fiz aqui de cada um deles, certo?
+[00:21:07] Outra música, tá? As músicas que ele
+[00:21:10] pegou e fez para mim. Então, botei numa
+[00:21:13] pasta os promptes. Não tem prompt
+[00:21:16] nenhum. Então eu tenho a pasta aqui.
+[00:21:18] Isso aqui deve ser um que eu mandei
+[00:21:21] errado para cá. Por isso que ele não
+[00:21:24] achou. Foi bem assim. Ahã. Não achou
+[00:21:27] isso aqui. Já vou deletar que não seria,
+[00:21:30] né? Nada nada a ver. Então, pessoal, o
+[00:21:33] que que nós fizemos? A gente começa a
+[00:21:36] organizar as pastas sobre isso, certo?
+[00:21:41] Cada um ambiente vai tendo uma função.
+[00:21:45] Então eu tenho, por exemplo, aqui, eu
+[00:21:47] tenho uma biblioteca,
+[00:21:49] certo? Que eu construí essa madrugada,
+[00:21:53] certo? O que que essa biblioteca tem? Os
+[00:21:57] scripts, etc. Tudo e muito conteúdo.
+[00:22:00] Libro
+[00:22:02] VI. E assim eu vou dando nomes para me
+[00:22:05] localizar,
+[00:22:07] certo? dentro de todo o ambiente. Então,
+[00:22:11] a pasta é fundamental pra gente
+[00:22:13] localizar isso aí. Certo? Tudo bem? Ã,
+[00:22:21] ô Viana, tudo certo? Olha só, se tu
+[00:22:23] quiser interagir, tem um o link na
+[00:22:26] página lá no Inema
+[00:22:29] VIP para tu poder interagir aí conosco,
+[00:22:32] tá bom? que tá assistindo pelo YouTube.
+[00:22:38] Ã, deixa a pergunta aí, André Val,
+[00:22:41] quando você faz a programação dos
+[00:22:43] projetos, um projeto conversa com outro,
+[00:22:45] por exemplo, você faz um projeto de
+[00:22:47] pagamento que vai servir para todos os
+[00:22:49] projetos? Muito boa pergunta, André.
+[00:22:52] Veja só, tudo depende de como você quer
+[00:22:56] isso. Se ele vai ser um serviço para
+[00:22:59] todos ou ele vai ser apenas uma
+[00:23:01] inspiração para todos.
+[00:23:04] Como todos os projetos estão na linha,
+[00:23:08] certo?
+[00:23:09] Por exemplo,
+[00:23:12] se eu pegar aqui na minha VPS,
+[00:23:14] os projetos estão todos numa pasta
+[00:23:17] abaixo de projetos.
+[00:23:20] Então, quando eu quero que a IA, né, ela
+[00:23:24] ela busque um exemplo, ela pode buscar
+[00:23:27] um exemplo ou ela pode referenciar,
+[00:23:31] certo? Então, por exemplo, vamos
+[00:23:34] imaginar esse caso aqui, ó. Libro,
+[00:23:38] certo?
+[00:23:40] Vi origem, tá? Vocês podem ver que ele
+[00:23:44] botou um ponto aqui, ele é escondido,
+[00:23:48] certo?
+[00:23:50] E já nós temos um libo
+[00:23:52] que ele fez a solução, tá? Então ele tem
+[00:23:57] imagem dos promptes, todos eles aqui,
+[00:24:00] ele tem os vídeos, todos eles aqui,
+[00:24:03] certo? Mas a origem ele deixou
+[00:24:06] escondido.
+[00:24:07] Isso. O Cláudio fez isso aí.
+[00:24:10] Como eu tô vendo sempre os escondidos e
+[00:24:12] a gente vem aqui na configuração e diz
+[00:24:15] que tu quer ver todos eles, ele fez
+[00:24:18] isso. Mas aqui dentro não está toda
+[00:24:23] todos os dados. Por quê? Porque eu disse
+[00:24:25] que esse aqui pertence ao Inema Pro.
+[00:24:29] Inema
+[00:24:32] Pro, certo? Que é esse aqui, Inema Pro.
+[00:24:37] E dentro do inema pro eu tenho
+[00:24:39] aplicações. E aqui eu tenho o que se
+[00:24:41] chama LIB,
+[00:24:43] eu tenho CVIT, eh, CVIP, eu tenho clube,
+[00:24:48] eu tenho buscas, eu tenho pagamentos, eu
+[00:24:52] tenho o pro. Então, cada um deles aqui
+[00:24:55] tu vai ver é a parte de pagamentos, mas
+[00:24:59] o LIB é a parte da biblioteca. Então, eu
+[00:25:04] tenho dois repositórios, na verdade eu
+[00:25:06] tenho repositório lá da biblioteca, onde
+[00:25:10] tem toda a estrutura dela e eu tenho
+[00:25:12] aqui o controle, a referência para
+[00:25:15] aquela lá. Então, os dois fazem parte do
+[00:25:18] mesmo projeto,
+[00:25:20] certo? Mas eu não te respondi ainda 100%
+[00:25:23] a resposta, né? Primeiro, deixa eu
+[00:25:26] mostrar um detalhe aqui. Se eu entrar
+[00:25:30] aqui, ó, e eu for aqui,
+[00:25:34] é, deixa eu entrar aqui para uma nova,
+[00:25:37] para INEMA Pro,
+[00:25:40] certo?
+[00:25:44] Opa, que que eu fiz?
+[00:25:47] de substituir o Higfield por uma skill
+[00:25:49] do Cloud, porque o Higsfield, embora
+[00:25:51] seja bom em promover seu serviço, é bem
+[00:25:52] caro.
+[00:25:53] &gt;&gt; Não, não é isso que eu queria.
+[00:25:56] Ele entrou errado aqui. Deixa eu ver.
+[00:25:59] Inema Pro.
+[00:26:05] Agora sim, eu digitei alguma coisa
+[00:26:07] errada. Quando nós temos aqui, ó,
+[00:26:10] biblioteca,
+[00:26:12] certo? Cliquei aqui, ó. Eu entrei. Isso
+[00:26:17] aqui é aonde? É dentro daquele eh
+[00:26:21] daquele repositório chamado e o projeto
+[00:26:25] chamado biblioteca.
+[00:26:29] Só que, por exemplo, ele tá integrado
+[00:26:31] aqui dentro do INEMA Pro por causa
+[00:26:34] daquela referência que nós fizemos aqui.
+[00:26:37] No caso aqui eu implementei essa noite
+[00:26:39] são 14, não são 100 promptes com vídeos
+[00:26:43] e imagens. onde tu pode estar olhando
+[00:26:46] qualquer uma, dizendo assim: "Ah, eu
+[00:26:48] quero essa aqui". Certo? Daí eu tenho a
+[00:26:52] o vídeo aqui e o prompt aqui embaixo,
+[00:26:55] certo? Então, o que que eu fiz? Eu não
+[00:26:58] coloquei tudo num pacote só, eu separei
+[00:27:02] e deixei
+[00:27:04] dentro, né, do meu projeto lá, mas eu
+[00:27:08] vim e criei uma aplicação chamado LIB.
+[00:27:11] Para quê? Porque o INEMA Pro incorporou
+[00:27:15] o gerenciamento dela. Então eu não
+[00:27:17] preciso fazer login, não preciso fazer
+[00:27:20] pagamento, nada disso, porque o com isso
+[00:27:24] aqui ela ele gerencia aquele projeto, a
+[00:27:28] questão de direitos, permissão, etc.
+[00:27:31] Certo? Então eu utilizo um com o outro,
+[00:27:35] mas ele continua independente. Se eu
+[00:27:37] quero melhorar a interface, se eu quero
+[00:27:40] melhorar qualquer coisa aqui, é lá
+[00:27:42] naquele projeto individual.
+[00:27:47] Entenderam ou não?
+[00:27:50] Você
+[00:27:52] vai ter uma pasta para cada projeto
+[00:27:54] independente,
+[00:27:57] senão você teria uma estrutura raiz, nem
+[00:28:01] uma hierarquia, não. A gente tem uma
+[00:28:04] pasta em cima da outra com cada projeto
+[00:28:07] individual. Agora, quando você tem
+[00:28:10] alguém que abraça aquele projeto, você
+[00:28:13] coloca apenas a aplicação ali dentro da
+[00:28:16] integração.
+[00:28:20] Por exemplo, se eu entrar aqui, tá? Ã,
+[00:28:24] vou entrar aqui
+[00:28:26] pegando aqui, ó, por exemplo,
+[00:28:29] peguei aqui e abro uma nova sessão e vou
+[00:28:33] aquiema
+[00:28:35] pro.
+[00:28:37] Entrei noema pro, já ele caiu aqui, ó.
+[00:28:41] Caiu no Inema Pay
+[00:28:44] de pagamento.
+[00:28:47] Vamos pegar um outro exemplo, ó. Eu vou
+[00:28:50] pegar aqui, deixa eu deixar pro lado. Eu
+[00:28:52] vou pegar esse link aqui e tô passando
+[00:28:56] ele para alguém. Olha só, Paula, olha
+[00:28:59] que legal esse vídeo aqui, ó. Certo? Um
+[00:29:04] vídeo promocional. Enter.
+[00:29:07] Ó, passou
+[00:29:10] certo, porque eu tô autenticado.
+[00:29:13] Agora, se eu tivesse que entrar aqui num
+[00:29:16] outro, vamos ver se aqui aparece se eu
+[00:29:20] tô. Vamos ver se aqui eu não tô
+[00:29:22] autenticado.
+[00:29:24] Ó, passei aqui. Enter.
+[00:29:28] Passou. Ops. Então eu tô autenticado. Ou
+[00:29:31] é um furo,
+[00:29:34] tá?
+[00:29:36] Deixa eu ver. Provavelmente eu tô
+[00:29:38] autenticado,
+[00:29:39] mas ele teria que simplesmente voltar
+[00:29:42] que nem aquela opção, né? Ou tem
+[00:29:47] vazamento, um furo, descobrir um furo,
+[00:29:49] talvez. Preciso dar uma olhada nisso.
+[00:29:52] Mas ele teria que ter bloqueado
+[00:29:55] se eu não tô logado aqui.
+[00:29:58] Certo?
+[00:30:00] Deixa eu só perguntar lá pro meu amigo.
+[00:30:03] Mas essa a ideia que tem, deixa eu
+[00:30:05] colocar.
+[00:30:08] Quando vou passar este link a um
+[00:30:17] user que não tem autenticação,
+[00:30:21] ele passou. Vamos ver se ele vai me
+[00:30:24] dizer ou não. Em vez de eu testar e
+[00:30:27] tudo, deixo para ele, ele vai dizer:
+[00:30:30] "Não, não passou, passou".
+[00:30:33] Certo? Então, a pasta, a estrutura de
+[00:30:35] pasta é isso aí. A gente vai construindo
+[00:30:39] eles em cima. Daí a pergunta
+[00:30:43] Sim, eu botei no anônimo ali, Cléber.
+[00:30:47] Ah, não, não botei no anônimo, mas deixa
+[00:30:49] eu ver.
+[00:30:54] Agora eu quero pro André, ainda não
+[00:30:56] ficou 100% eh André claro o que que eu
+[00:31:00] queria dar resposta para ti, que é o
+[00:31:03] seguinte,
+[00:31:04] às vezes você vai usar apenas como
+[00:31:08] referência um projeto e incorporar ele
+[00:31:11] para ter independência.
+[00:31:14] Porque o que que é um problema que você
+[00:31:16] tem? Eu tive um problema ontem, tá?
+[00:31:18] Naquele meu projeto aqui, ó. Deixa eu
+[00:31:23] ver se tá. É esse aqui, o Inema CC Bote
+[00:31:27] com,
+[00:31:28] ó,
+[00:31:31] nesse projeto aqui, o que que aconteceu?
+[00:31:34] Ele dava erro porque eu usava uma skill
+[00:31:38] que era colaborativa com todo mundo.
+[00:31:42] E aí o próprio projeto disse: "Não,
+[00:31:45] vamos usar ela global porque todo mundo
+[00:31:48] pode estar usando".
+[00:31:50] Mas aí tem um problema que quando ela
+[00:31:54] foi atualizada e daí começou a ferrar as
+[00:31:57] aplicações que não tava compatível com
+[00:32:00] ela.
+[00:32:03] Então tu tem que medir o que que é
+[00:32:05] melhor se você tem cada uma individual,
+[00:32:10] né? E daí quando tem manutenção e tu
+[00:32:12] tivesse, tu tem que atualizar cada uma
+[00:32:14] delas,
+[00:32:16] certo? ou você quer uma global, mas daí
+[00:32:20] tu tem que ver se aquela mudança que tu
+[00:32:22] vai fazer na global não vai afetar cada
+[00:32:24] uma delas. Então, né, é as duas coisas
+[00:32:29] que tu tem que medir. Por exemplo, eu tô
+[00:32:31] trabalhando aqui num projeto chamado
+[00:32:34] promo avatar,
+[00:32:36] tá? O promovatar é aquele que eu mostrei
+[00:32:39] para vocês aqui, tá? Do baixar
+[00:32:44] o promo avatar aqui, ó. T
+[00:32:48] tã.
+[00:32:50] Isso aqui, ó, do Inema aqui. Esse é o
+[00:32:53] promo Avatar.
+[00:32:56] Daí o que que acontece? Eu eu tirei uma
+[00:32:59] cópia dele para chegar promovatar 3,
+[00:33:04] que seria aquela versão de três vídeos
+[00:33:06] além dos 12.
+[00:33:09] E aí eu fiquei discutindo com ele, será
+[00:33:11] que era melhor só criar uma opção dentro
+[00:33:14] ou criar toda uma estrutura
+[00:33:17] independente?
+[00:33:20] E na hora do planejamento tu vai
+[00:33:22] discutir isso
+[00:33:25] e vai botar as duas questões sobre isso,
+[00:33:28] certo? O que que é melhor? Você ter
+[00:33:31] independência e customizar aquilo ou
+[00:33:34] você ter uma coisa que pode ser
+[00:33:36] replicada? E aí a gente decidiu que é
+[00:33:39] melhor ter duas isolada, certo?
+[00:33:43] Inspirada uma na outra, mas não
+[00:33:47] compartilhada, porque aí me dá
+[00:33:49] flexibilidade de mudar e otimizar para
+[00:33:52] cada uma. Porém, se eu tivesse, em vez
+[00:33:55] de uma para du paraa segunda, eu tivesse
+[00:33:58] uma para 30, talvez valeria a pena
+[00:34:02] manter uma e ela ser compartilhada com
+[00:34:05] 30. Certo? Porque daí eu faço manutenção
+[00:34:10] e ajusta as 30. Mas as 30as tem que ser
+[00:34:13] praticamente cópia. Assim eu faço com
+[00:34:16] aquele
+[00:34:19] ube, né? Lives. Eu faço cópia. Então eu
+[00:34:23] mexo só numa e eu posso ter 30, 40
+[00:34:26] canais. Todos são uma cópia, um padrão.
+[00:34:31] Beleza? Deu para entender isso aí?
+[00:34:36] Então não tem o certo, né? Você vai
+[00:34:38] trabalhar com os dois.
+[00:34:41] Bom, então voltando para nosso conteúdo
+[00:34:44] de hoje,
+[00:34:46] tá? Vamos ver. Eu tinha aqui, então hoje
+[00:34:50] o nosso dia, né? É fazer um pouco dessa
+[00:34:53] introdução ao VIP code e estruturar
+[00:34:57] pastas. Então a pasta é fundamental,
+[00:35:01] certo? dentro da pasta do projeto,
+[00:35:04] sempre tem uma pasta que é onde tem os
+[00:35:07] teus dados originais. Então, a mesma
+[00:35:09] coisa aqui, ó. Se você abrir, né, a
+[00:35:12] pasta aqui, todas elas, né, por exemplo,
+[00:35:17] se eu vou pegar um projeto, pegar esse
+[00:35:20] do
+[00:35:21] aqui do filme, não, não do filme, não,
+[00:35:25] do, deixa eu pegar lá em cima que eu tô
+[00:35:28] eu boto sempre em ordem de última
+[00:35:30] alteração para mim me achar. Ó, no Lib,
+[00:35:34] tá vendo que a lib aqui, ó, ela não tem
+[00:35:37] um arquivo doc, certo?
+[00:35:40] Se eu pegar, por exemplo,
+[00:35:44] esse aqui, what 7D, eu tenho um arquivo
+[00:35:48] doc. O que que é o arquivo doc? O meu
+[00:35:52] conteúdo de contexto para ele conseguir
+[00:35:54] planejar. Então, se nós entrar aqui, ó,
+[00:35:57] tá? Eu peguei, montei toda uma estrutura
+[00:36:01] de cursos para ele e dei toda essa base
+[00:36:04] para ele. Ó, tem sete conteúdos aqui que
+[00:36:08] eu busquei na internet, né? Tá todo eles
+[00:36:11] em inglês. E eu diria assim, ó, baseado
+[00:36:14] nesse conteúdo que eu acho bala, né?
+[00:36:17] Vamos montar um planejamento de etc,
+[00:36:20] etc. Então, eu tenho a minha fonte de
+[00:36:23] informação. Ele não vai chutar buscando
+[00:36:26] na internet. muitas vezes. E aí ele
+[00:36:29] monta o conteúdo a partir disso aqui. Só
+[00:36:33] que essa pasta não é compartilhada no
+[00:36:35] Git, certo? Porque isso é privado, é
+[00:36:39] minha inspiração.
+[00:36:41] Outra coisa, se eu pegar aqui, né, ã, um
+[00:36:45] outro, ó,
+[00:36:47] loopgraf
+[00:36:48] é a mesma coisa, né? Imagens originais,
+[00:36:53] certo? O plano, etc. Tudo foi feito aqui
+[00:36:56] e eu dei as imagens que eu queria.
+[00:36:59] Então, mostrando aqui as imagens para
+[00:37:01] vocês, ó. Eu peguei toda aquela
+[00:37:04] discussão de textos, etc., que eu fiz lá
+[00:37:07] no chat. Depois eu criei essas imagens.
+[00:37:10] Depois eu dei os exemplos que eu peguei
+[00:37:13] lá, certo? Então isso foi tudo
+[00:37:16] construído por mim, certo? Discutido no
+[00:37:20] chat que tem. Então eu dei as imagens,
+[00:37:23] dei documentos para ele sobre isso aqui
+[00:37:26] no plano que eu já criei lá e a partir
+[00:37:30] dali, certo? Ele montou o curso que eu
+[00:37:33] queria,
+[00:37:34] certo?
+[00:37:37] Então eu tenho uma pasta onde que fica o
+[00:37:40] meu a minha o meu contexto, o meu
+[00:37:43] planejamento.
+[00:37:46] Tudo bem?
+[00:37:48] Então, pessoal,
+[00:37:50] sempre tem um uma pasta. Para mim, eu
+[00:37:53] dei o nome sempre de doc, que é singular
+[00:37:57] e doc plural é quando ele cria. Então,
+[00:38:01] tu podia dar o nome que tu quiser, cria
+[00:38:03] um padrão. Eu às vezes o nome às vezes
+[00:38:05] nem fecha mais com o que que eu criei,
+[00:38:07] mas já virou padrão e eu não fico
+[00:38:10] mudando para não me perder mais. Então
+[00:38:13] eu consigo administrar e assim em todas
+[00:38:17] elas que eu quero trabalhar, que nem no
+[00:38:20] skill manager tem doc
+[00:38:23] montado dessa forma, certo? Mas a na
+[00:38:26] medida que eu que eu quero montar alguma
+[00:38:28] coisa, eu crio uma base para que ele
+[00:38:31] possa se inspirar em cima disso, tá
+[00:38:35] legal?
+[00:38:37] Então essa é a importância de criar isso
+[00:38:40] aqui. Isso te dá possibilidade de
+[00:38:42] trabalhar com muita coisa, certo? Um que
+[00:38:46] nem eu tô trazendo ideias novas, tô
+[00:38:49] buscando, tô assistindo um vídeo de
+[00:38:51] alguém que nem essa parte do do loop
+[00:38:54] gráfico. Eu achei isso muito importante
+[00:38:56] porque tem muita gente que não tem nem
+[00:38:58] ideia do que que é isso. Então o que que
+[00:39:01] acontece? Eu fui trabalhar, fiz bastante
+[00:39:04] material, que nem aqui, ó. Aqui eu tô
+[00:39:06] trabalhando um outro, né, mais conteúdo
+[00:39:10] sobre isso aqui. Então, eu peguei vários
+[00:39:13] prints das pessoas e tô dando para que é
+[00:39:17] mais legal tu dar esses prints do que
+[00:39:20] você escrever e explicar para ela.
+[00:39:23] Então, tu usa os prints para isso, tá?
+[00:39:27] Então, o que que é? Como nós estamos
+[00:39:29] migrando para um ambiente, né, futuro
+[00:39:33] que que vai ser os grafos que nós vamos
+[00:39:37] evoluir do looping para o grafo, comecei
+[00:39:40] a buscar material sobre isso. Então, na
+[00:39:44] verdade estou estudando, né, estudando
+[00:39:47] esse negócio e já levando esse conteúdo
+[00:39:50] pra frente, como foi a evolução, etc e
+[00:39:54] tudo, né? Então tá todo ele aqui. Isso
+[00:39:58] aqui basta, né, para entregar que nem
+[00:40:01] aqui. Isso aqui é um erro que tem na
+[00:40:04] aplicação. Eu expliquei, ele não
+[00:40:06] entendeu. Eu dei um print do erro que é
+[00:40:09] não tá aparecendo aqui. Então fica mais
+[00:40:12] fácil explicar com uma imagem do que
+[00:40:15] você querer, né, explicar com texto.
+[00:40:18] Vamos até ver se ele alterou isso aqui
+[00:40:20] para mim, ó.
+[00:40:23] Se eu chegar aqui na na biblioteca,
+[00:40:28] entrar,
+[00:40:29] ó, ainda não foi alterado.
+[00:40:32] Eu só eu mandei para ele, mas ele não
+[00:40:34] alterou ainda, ó, que fica dessa forma
+[00:40:37] aqui. E eu queria que aparecesse toda a
+[00:40:40] lista e não só o que tá em destaque
+[00:40:43] aqui, certo? Então eu dou um print para
+[00:40:47] ele para para me ajudar resolver os
+[00:40:49] bugs, né, e assim por diante,
+[00:40:54] tá legal? Então, primeira parte que eu
+[00:40:57] queria mostrar para vocês, tá, do
+[00:41:00] primeiro dia é justamente isso, né? A, o
+[00:41:04] que que é o Vibe Code? que o vib code é
+[00:41:06] você dizer o que tu quer construir, a
+[00:41:08] tua intenção, mas ela não pode ser num
+[00:41:11] prompt, ela tem que ser num contexto. E
+[00:41:15] o contexto, o que que a gente faz?
+[00:41:17] Entrega uma pasta cheia de informações
+[00:41:20] para eles, certo?
+[00:41:23] Segunda coisa que a gente vai fazer
+[00:41:25] depois da de tá pronto o nosso Vibe Code
+[00:41:27] é atualizar no Git, no Versel e no
+[00:41:31] Supase. Então nós temos hoje e amanhã
+[00:41:34] para configurar essas duas coisas, né,
+[00:41:37] com mais detalhes, as três coisas, na
+[00:41:39] verdade com mais detalhe. Então, o que
+[00:41:41] que seria a preparação do ambiente? Para
+[00:41:44] mim é você abrir uma pasta com o nome do
+[00:41:48] teu projeto, né? Criar uma pasta lá
+[00:41:51] dentro que é onde vai ter a o contexto
+[00:41:53] teu, certo? Que eu chamo de doc. E aí
+[00:41:58] conversar com ele as três fases, a fase
+[00:42:02] de projeto, né, de planejamento,
+[00:42:05] a fase de implementação
+[00:42:07] e a fase de testes,
+[00:42:10] certo? que na verdade dura, né? A a
+[00:42:15] parte de teste é a que mais vai durar,
+[00:42:17] porque vai ter muitos vai e vem e ajuste
+[00:42:20] com isso. E se você não tiver muito
+[00:42:22] claro do que você quer que ele teste,
+[00:42:25] ele vai gastar muitos tokens indo e
+[00:42:27] voltando, certo?
+[00:42:30] Ã,
+[00:42:33] criação do projeto nós vamos criar hoje
+[00:42:35] e vamos atualizar ele, então, para isso,
+[00:42:38] certo? Então essa a primeira fase. Então
+[00:42:41] vamos lá no GitHub do que que nós
+[00:42:44] precisamos saber do Git.
+[00:42:49] Para quem nunca criou no GitHub, tá? É
+[00:42:53] git.com.
+[00:42:55] github.com.
+[00:42:57] Você vai criar uma conta nova, certo? E
+[00:43:01] assim que tu criar uma conta nova, você
+[00:43:04] vai criar repositórios,
+[00:43:08] certo?
+[00:43:10] Esses repositórios, quando você criar um
+[00:43:13] repositório, ele vai sempre verificar se
+[00:43:16] ele já existe dentro ou não. Teste, por
+[00:43:19] exemplo, ó, esse tá liberado.
+[00:43:24] Se eu botar aqui portal,
+[00:43:26] não pode porque ele já tá existente
+[00:43:29] dentro desse desse eh dessa conta e
+[00:43:34] sempre vai ser o nome da tua conta que
+[00:43:37] você queira. Então, cuidado para não
+[00:43:39] botar o nome. Isso aqui eu botei, né?
+[00:43:42] Mas vocês podem ver que tudo que nós
+[00:43:44] temos tá dentro do inema TDS, dentro do
+[00:43:47] inema, tal, né? E assim por diante, que
+[00:43:50] eu não coloquei no meu nome.
+[00:43:53] Essa parte aqui é mais do usuário do meu
+[00:43:56] nome que eu faço testes, etc. e tudo,
+[00:43:59] mas eu tenho muitas contas. Então, veja
+[00:44:02] só, se eu clicar aqui, ó, vocês estão
+[00:44:04] vendo o número de contas que eu tenho
+[00:44:06] aqui?
+[00:44:07] né? Então, tenho contas de tudo e cada
+[00:44:10] uma tem seu propósito, justamente até
+[00:44:14] para distribuir, né? Se der uma der
+[00:44:18] problema numa conta, não afeta as outras
+[00:44:20] e assim por diante. Então, eu tenho uma
+[00:44:22] conta pro banco, eu tenho uma conta para
+[00:44:25] o, digamos, a as publicações no GitHub,
+[00:44:29] né? Eu tenho uma conta, né, pra
+[00:44:31] publicação
+[00:44:32] do das das coisas privadas e, né? Eu
+[00:44:36] tenho, por exemplo, alguns projetos que
+[00:44:39] eu consigo pegar na internet, mas que eu
+[00:44:41] não posso deixar público. Então, eu crio
+[00:44:44] uma outra conta, onde que eu coloco lá,
+[00:44:47] certo? Então eu vou distribuindo isso em
+[00:44:49] várias contas, certo? E aí você pode
+[00:44:53] estar criando, né, como você quiser. Uma
+[00:44:56] das coisas importantes aqui é definir
+[00:44:59] você quer público ou privado. Qual é a
+[00:45:02] vantagem de ser privado? Eu não quero
+[00:45:05] compartilhar com as pessoas, certo? E o
+[00:45:08] que que eu perco que se é privado? Eu
+[00:45:10] perco a publicação de página. Porque
+[00:45:13] quando eu torno público, certo? Por
+[00:45:17] exemplo, eu vou pegar um exemplo aqui,
+[00:45:21] ã,
+[00:45:24] ó,
+[00:45:25] eu vou botar GitHub e botar aqui,
+[00:45:29] ã, não, vamos lá no no outro que fica
+[00:45:32] melhor.
+[00:45:35] Cinema TDS
+[00:45:39] ou FTD. Vamos ver pegar aqui. FtD.
+[00:45:43] Entrei no FTD. um outro usuário. Então,
+[00:45:46] github.com,
+[00:45:51] ó, vou me logar. Será que eu já existo
+[00:45:54] ou não?
+[00:45:56] Certo. Me logar como
+[00:45:59] já me loguei aqui.
+[00:46:02] Tô entrando sempre com conta do usuário
+[00:46:05] e tudo. Ah, para mim entrar, ó, como eu
+[00:46:07] não tô há muito tempo, ele quer que eu
+[00:46:11] valido alguma coisa. Então o Git é bem
+[00:46:14] seguro nisso. Então
+[00:46:17] ele me mandou uma mensagem aqui, eu vou
+[00:46:19] configurar, vou liberar aí
+[00:46:27] isso aqui, ó. Mandou um código para mim.
+[00:46:32] Deixa eu digitar esse código aqui.
+[00:46:44] Tá verificando.
+[00:46:47] Beleza. Entrei aqui, né? Eu não tenho
+[00:46:52] repositório. Tenho, tenho um do aqui,
+[00:46:56] certo? Não, nem tenho nada de
+[00:46:58] repositório. Então, vamos criar um
+[00:47:00] repositório, ó.
+[00:47:01] Esse é um uma canal que eu não tenho o
+[00:47:04] GitHub aí, então eu podia ser teste um.
+[00:47:08] Quando eu faço o teste um, eu posso ter
+[00:47:10] uma descrição aqui, a visibilidade,
+[00:47:13] quando eu ponho privado ou público,
+[00:47:16] certo? Eu posso mudar aqui, eu posso
+[00:47:19] dizer, né, qual é o arquivo que ele é
+[00:47:22] para dizer ignore. Então o seguinte, eu
+[00:47:26] posso quando tiver lá na minha pasta
+[00:47:28] local, né, dizer o seguinte, qual dos
+[00:47:31] arquivos que não é para um ir para o
+[00:47:34] git, por exemplo, o ponto ENV. ENV quer
+[00:47:37] dizer ponto ev.
+[00:47:41] Ali dentro desse arquivo é onde estão as
+[00:47:43] senhas. Então isso é um padrão.
+[00:47:46] Arquivos. Envão são enviado para o
+[00:47:50] GitHub,
+[00:47:52] certo? Agora arquivos.
+[00:47:56] Exemplo, aí são enviado. Ah, mas eu não
+[00:47:59] quero. Então você tem que colocar num
+[00:48:02] arquivo chamado Git ignore, que tá
+[00:48:05] dentro da tua pasta. Vamos dar uma
+[00:48:07] olhada se ele existe. Então, se eu pegar
+[00:48:10] aqui e
+[00:48:12] trabalhar aqui nesse projeto aqui, ó,
+[00:48:16] ó,
+[00:48:18] ignore. Se eu olhar o conteúdo aqui
+[00:48:21] dentro,
+[00:48:23] ó, aqui ele tá dizendo, ó, o que que não
+[00:48:26] pode tá certo? O ponto ENV, né? Esses
+[00:48:32] arquivos não podem ser logado para lá,
+[00:48:36] tá?
+[00:48:38] Aqui ele tá falando que a mídia de dois
+[00:48:41] de 9.2 GB vive no dataset HF, nunca no
+[00:48:47] git. Ou seja, todo meus dados, aquilo
+[00:48:50] que vocês viram lá, né, da biblioteca,
+[00:48:53] ele não tá no Git, ele tá jogado
+[00:48:56] diretamente no Hug Face. Eu criei lá
+[00:49:00] porque lá é de graça, etc. Eu posso ter
+[00:49:03] até 100 GB free
+[00:49:06] guardado lá. Então, botamos lá ele para
+[00:49:09] ter fácil acesso, tem trp bom, etc, etc.
+[00:49:14] Certo? Se eu vim aqui abrir esse
+[00:49:17] conteúdo, eu vou mostrar senhas para
+[00:49:19] vocês. Então, esse cara não é enviado
+[00:49:23] para o GitHub. E tu pode colocar aqui no
+[00:49:27] Git ignore tudo os arquivos que não
+[00:49:30] querem que vá. Por exemplo, se eu vim
+[00:49:32] naquele outro projeto aqui, né, o
+[00:49:35] projeto
+[00:49:38] esse aqui, ó, se eu pegar o git ignore,
+[00:49:42] provavelmente tem o doc que não é para
+[00:49:44] ir pra nuvem,
+[00:49:46] certo? Ó, tá vendo o doc alguma coisa,
+[00:49:50] ele não é para ir pra nuvem, isso é um
+[00:49:52] assunto pessoal meu, certo? Então você
+[00:49:57] pode eh controlar o que que não saia do
+[00:50:00] teu computador. Tu coloca no gitne.
+[00:50:04] Certo? Então é um exemplo aqui, foi
+[00:50:07] muito bom esses exemplos que tem aqui,
+[00:50:10] certo? Então é um material que eu
+[00:50:12] pesquisei na internet, que eu colhi,
+[00:50:15] certo? e que eu peguei, usei ele como,
+[00:50:18] né, inspiração. Muitas vezes é conteúdo
+[00:50:21] em inglês que eu localizo e coloco em
+[00:50:25] português aqui. Então, tô construindo
+[00:50:27] sempre conteúdo, certo? Buscando
+[00:50:30] inspiração, buscando tradução e assim
+[00:50:33] por diante,
+[00:50:35] certo? Então, é esse essa questão que eu
+[00:50:38] tô colocando aqui também. Poderia
+[00:50:41] colocar um arquivo de licença, etc. para
+[00:50:44] para explicar para as pessoas sobre esse
+[00:50:46] repositório, que ele é público ou
+[00:50:49] privado, mas que tem a regra de licença,
+[00:50:53] certo? Porque o Hug fez, aliás, o GitHub
+[00:50:57] foi desenvolvido para ser um repositório
+[00:50:59] de código open source. E aí eu faria
+[00:51:03] minhas regras ali, tá legal? E aí eu dou
+[00:51:07] create, né? O repositório
+[00:51:10] agora que ele foi criado, tá aqui, ó.
+[00:51:13] Certo? Eu posso vir em settings e mudar
+[00:51:16] aquelas regras que eu estabeleci, ó,
+[00:51:19] como visibilidade. Tão aonde? Aqui, ó.
+[00:51:23] Eu posso mudar, certo? Eu posso tá
+[00:51:26] mudando, né, tudo aqueles informações
+[00:51:29] que tem e posso aqui vir e deletar ele,
+[00:51:33] certo? Então aqui no setting eu faço
+[00:51:36] isso.
+[00:51:38] Por outro lado, o meu git agora tá
+[00:51:41] vazio, mas tá criado.
+[00:51:48] Sim. Olha só, o André tá perguntando aí.
+[00:51:51] Vamos supor que o não vai. Por isso que
+[00:51:54] toda vez que você tiver configurado na
+[00:51:57] Versel ou em outro lugar, tu tem que
+[00:52:00] configurar o ponto ENV manual
+[00:52:03] lá. Nós vamos fazer isso. Depois eu vou
+[00:52:06] mostrar para vocês, no meu caso, como é
+[00:52:08] que eu faço isso e como a gente faz isso
+[00:52:12] de forma fácil. Poderia ter 20, 30
+[00:52:15] variáveis, eu vou fazer fácil isso,
+[00:52:18] certo? Então, né, mostrando aqui o que
+[00:52:22] que nós temos. E aí quando nós clicamos
+[00:52:25] em setting também eu vou poder ter os
+[00:52:28] recursos aqui à esquerda,
+[00:52:31] né? Eu tenho muitas coisas que eu podia
+[00:52:34] em cada um deles, que nem actions, eu
+[00:52:37] posso ter, né, ações, workflow, etc.
+[00:52:41] tudo aqui embutido e configurado aqui.
+[00:52:45] Só que única, né, eu tenho web hooks
+[00:52:47] também que eu posso estar implementando,
+[00:52:50] que são atendimentos, né, que tu pode
+[00:52:53] fazer, ele vai buscar, tu vai chegar e
+[00:52:55] conversar, né, com essa ã com essa esse
+[00:53:01] repositório via uma API que tu tá
+[00:53:05] construindo aqui. Então você vem aqui e
+[00:53:08] constrói ela, né? Todo ela configurada
+[00:53:12] como web hooks. Ou seja, nós podemos
+[00:53:14] fazer coisas muito avançadas,
+[00:53:17] tudo com o meu GitHub,
+[00:53:19] certo? Copilote também a mesma coisa, o
+[00:53:23] planning, etc, etc. O environment, né?
+[00:53:27] As variáveis de ambiente que tu quer.
+[00:53:29] Mas em tudo isso, o que que importa
+[00:53:32] mesmo para mim é aqui pages,
+[00:53:35] certo? Se eu quero que aquela minha, meu
+[00:53:38] repositório
+[00:53:40] esteja disponível na internet, tá? Eu
+[00:53:44] venho em page e eu digo aqui, ó, né,
+[00:53:47] branch e digo que a página vai tá aonde?
+[00:53:52] Aqui no caso não tem n, mas eu teria que
+[00:53:55] ter alguma coisa ali para compartilhar
+[00:53:57] aquela página. E aí, certo? É a mesma
+[00:54:01] coisa que tu vem aqui, ó. Se tu vem
+[00:54:04] github
+[00:54:06] e aliáscom/inema
+[00:54:10] tds, é uma página minha, certo?
+[00:54:14] Você vê todos os repositórios que tem
+[00:54:17] públicos aqui, certo? No caso, eu tô com
+[00:54:21] outro usuário, eu só vejo os 422, tem
+[00:54:24] quase 500, certo? Mas daí tem muito
+[00:54:28] privado, então eu tenho acesso a todo
+[00:54:31] aquele conteúdo. Se eu vim aqui e pedir,
+[00:54:34] ah, eu quero ver esse promo avatar que
+[00:54:36] eu nem tá falando tanto, certo? Tá aqui
+[00:54:40] o promo avatar, certo? E aí, seu
+[00:54:43] promovatar eu não tenho setting porque
+[00:54:46] eu não mando nele. Se eu entrasse lá no
+[00:54:49] Inema TDS, eu tenho setting,
+[00:54:52] certo? E única coisa que eu preciso
+[00:54:54] dizer que é aonde que vai tá, né, o
+[00:54:58] index HTM. Ó, aqui não tem index HTM,
+[00:55:02] então será que, né, no aonde? No guia.
+[00:55:07] Ah, guia tem. Então, se eu entrasse lá
+[00:55:10] no Inema TDS, vamos pegar, olhar o Inema
+[00:55:13] TDS aqui para nós vermos. Inema TDS.
+[00:55:17] Se eu for lá no Git, onde tem? Não tenho
+[00:55:20] o Git aqui, então vamos abrir
+[00:55:25] Inema, aliás, é Git Hubema, TDS.
+[00:55:31] Se eu for lá clicar agora aqui e for no
+[00:55:35] promo avatar, vai aparecer o setting
+[00:55:38] aqui. E aí eu posso clicar aqui, certo?
+[00:55:43] e vim e configurar em page.
+[00:55:47] Ó, pages, certo?
+[00:55:50] Ó, aqui ele colocou, ó, não tem nada de
+[00:55:54] domínio, não tem nada. E ele colocou
+[00:55:57] aqui, né, alguma coisa de ação,
+[00:56:01] ó. Ele botou aqui, ó,
+[00:56:04] ele colocou aqui inema TDS promo avatar,
+[00:56:11] certo?
+[00:56:13] Agora, se eu pegar numa outra, vamos dar
+[00:56:15] uma olhadinha num outro projeto
+[00:56:19] que esse aqui eu fiz de forma
+[00:56:20] automática, então não é a mesma coisa.
+[00:56:24] Vamos pegar um outro aqui. Esse aqui que
+[00:56:27] é um curso,
+[00:56:29] certo?
+[00:56:30] Ó, ele botou na raiz aqui. Se eu ir no
+[00:56:33] settings
+[00:56:35] e eu clicar lá em pages,
+[00:56:38] ó, ele pegou aqui, eu disse que em vez n
+[00:56:42] eu coloquei main e ele botou em root.
+[00:56:46] Podia est no doc, não tá no root.
+[00:56:49] Então com isso, se eu pegar e inverter,
+[00:56:53] ó, tá vendo aqui?
+[00:56:54] gitchub.com/usuário/ome
+[00:56:59] do projeto, certo? Se agora eu pegar e
+[00:57:02] inverter, ó, tá vendo isso aqui, ó? Ele
+[00:57:05] inverte. Então eu copio aqui. Se a
+[00:57:09] inversão ela é o quê? Eu primeiro dou o
+[00:57:12] nome do usuário, inema tds.github.io.
+[00:57:19] Antes era github.com.
+[00:57:22] Eu invertei, inverti, eu botei que o o
+[00:57:26] github.com tava no início, certo? E
+[00:57:30] depois vinha meu usuário e daí vinha meu
+[00:57:32] meu meu curso. Agora inverteu
+[00:57:37] inematds.github.
+[00:57:41] E aí vem o nome do curso, né? No caso
+[00:57:45] aqui, ó, ele tá aqui um curso chamado
+[00:57:48] formação IA para pessoas normais.
+[00:57:52] Certo, mas vamos pegar e trocar esse
+[00:57:55] essa aqui era wat, certo? Que isso aqui
+[00:57:59] é um framework,
+[00:58:01] tá? 7 dias.
+[00:58:05] O que que acontece, pessoal? Eu peguei
+[00:58:08] um framework da internet, certo? Onde
+[00:58:12] tinha uma formação daquele framework.
+[00:58:16] Eu peguei, baixei todo aquele framework
+[00:58:18] para minha pasta chamado doc.
+[00:58:22] E eu disse, eu quero que tu analisa esse
+[00:58:25] esse aí e constrói um curso para mim
+[00:58:29] baseado nisso, no formato da versão V2,
+[00:58:34] né? Aquele outro era formato V V V V V5,
+[00:58:38] ó, esse é um outro formato mais para
+[00:58:40] quem é mais leigo, etc, que gosta de
+[00:58:42] ler, etc. E esse aqui é uma formato mais
+[00:58:46] técnico.
+[00:58:48] Então eu peguei isso aqui e ó, seu
+[00:58:50] funcionário digital, sete dias para
+[00:58:52] mostrar mostrar um assistente de que
+[00:58:55] trabalha sozinho do zero, sem saber
+[00:58:58] programar. Então o framework ele ajuda a
+[00:59:02] montar esse conhecimento e leva 7 dias.
+[00:59:06] Então a ideia é pro cara entender o
+[00:59:09] ambiente, entender o framework,
+[00:59:13] entender o que que é o MCP, entender o
+[00:59:15] que que é skill, entender o deploy,
+[00:59:18] entender as interface, entender, né, o
+[00:59:22] agendamento ou, né, os
+[00:59:26] loopings de o Chrome aqui, né, e montar
+[00:59:30] seu assistente. Então, né, são oito
+[00:59:34] trilhas que a pessoa tem para fazer
+[00:59:36] isso, tá? Então, eu achei fantástico
+[00:59:39] esse conteúdo, fantástico o framework,
+[00:59:43] então eu trouxe ele para cá, mas como é
+[00:59:45] que eu fiz? Eu tive a ideia, peguei o
+[00:59:48] conteúdo, botei dentro de um doc que
+[00:59:50] criou o meu contexto e aí uma instrução
+[00:59:53] simples levou ele a atingir o resultado
+[00:59:56] que eu queria,
+[00:59:59] tá legal?
+[01:00:02] Então, mostrando isso aqui para vocês,
+[01:00:04] voltando então lá pro git, certo, da
+[01:00:08] configuração das páginas. Então, quando
+[01:00:11] eu habilito isso aqui, eu
+[01:00:13] automaticamente transformo aquele
+[01:00:15] repositório simples, certo? Num conteúdo
+[01:00:20] de página web. Mas aí entra a questão,
+[01:00:23] André, eu não quero deixar vocês verem
+[01:00:27] meu conteúdo,
+[01:00:29] então o que que eu tenho que fazer?
+[01:00:31] Tornar ele privado.
+[01:00:33] E daí para tornar ele privado, eu tenho
+[01:00:35] que ir lá usar uma ferramenta, ou seja,
+[01:00:39] minha VPS ou o Vercelo, qualquer um
+[01:00:42] desses desses projetos e importar.
+[01:00:48] Isso é arquivo para lá. Então eu iria
+[01:00:50] lá, certo?
+[01:00:54] Puxaria esse esse conteúdo lá, ó. Eu
+[01:00:59] entrei lá no Versel, vou criar um novo
+[01:01:02] projeto.
+[01:01:05] E esse novo projeto ele vai, como eu me
+[01:01:07] loguei já no GitHub,
+[01:01:09] ele já me exibiu o que que eu tenho
+[01:01:11] aqui, ó. Eu tava procurando o Pro,
+[01:01:16] certo? Então eu vou explicar já para
+[01:01:18] vocês isso, mas antes vamos naquilo lá.
+[01:01:21] Eu quero pegar e pesquisar. Como eu
+[01:01:23] tenho muito conteúdo lá, vamos ver o que
+[01:01:25] que eu queria. É o
+[01:01:28] esse projeto What. Tá aqui ele. Então
+[01:01:31] basta eu vir aqui e dar import,
+[01:01:37] tá? Esse importe, tá?
+[01:01:40] Eu tenho que dizer o nome dele. Então,
+[01:01:44] como não existe, esse nome é único no
+[01:01:47] Versel.
+[01:01:49] Então, se eu botei Inema Pro, existe?
+[01:01:51] Não. Então, é meu, certo? Se já existe,
+[01:01:54] eu não posso estar usando. E esse nome
+[01:01:57] do projeto vai ser esse nome pvversel.
+[01:02:03] Certo? ou eu dou um domínio para isso.
+[01:02:06] Mas aí que tá o nome aqui, tu pode
+[01:02:08] alterar depois quando tu quiser, certo?
+[01:02:12] E aqui, ó, o diretório. Se você não
+[01:02:14] tiver na raiz, você vai vir no edit e
+[01:02:17] escolher aonde está teu sistema. Então,
+[01:02:21] podia tá dentro de curso, eu teria que
+[01:02:23] clicar aqui, certo? Não é dentro da
+[01:02:26] trilha um. Eu pegaria aqui. Então, aonde
+[01:02:31] tá a página inicial do teu projeto,
+[01:02:34] certo? E eu disse, não, tá na raiz,
+[01:02:38] certo? Então, continua aqui. Outra coisa
+[01:02:41] que nós temos aqui é ambiente, variáveis
+[01:02:44] ambientes. Aí que tá o que o André
+[01:02:47] pediu, certo?
+[01:02:49] Como não vai o ponto ENV para o Git, eu
+[01:02:54] tenho que vir aqui e botar as variáveis
+[01:02:56] e as as chaves aqui para cada um deles,
+[01:03:03] certo?
+[01:03:05] Então para cada um deles, eu preciso est
+[01:03:07] configurando essa a variável, certo?
+[01:03:11] Para cá, né? E depois eu fiz aí o
+[01:03:15] primeiro, né? Vamos botar aqui aqui que
+[01:03:17] a chave é essa aqui. Adicione mais o
+[01:03:20] segundo. Então o primeiro podia do CP
+[01:03:23] base. Ele precisa três variáveis do
+[01:03:26] base. O o endereço da URL, o segundo é o
+[01:03:31] ANOM e o terceiro seria a chave de e
+[01:03:35] serviço, né? Ah, mas ele precisa a senha
+[01:03:38] do banco de dados também seria mais uma.
+[01:03:41] Agora eu tenho também conexão com API lá
+[01:03:45] do Open Router. Então eu preciso o
+[01:03:47] endereço, certo? Eu preciso a chave e eu
+[01:03:53] preciso o modelo que eu vou usar, certo?
+[01:03:56] Se eu quiser. Então são chaves que a
+[01:03:59] gente coloca aqui. Vou mostrar para
+[01:04:01] vocês uma funcional, então. Tá? Então
+[01:04:04] vamos voltar aqui. Certo? O meu projeto
+[01:04:07] aqui ficou pela metade,
+[01:04:10] mas eu vou mostrar, por exemplo, aqui,
+[01:04:13] ã,
+[01:04:18] qual é que eu posso mostrar?
+[01:04:27] Deixa eu ver se esse aqui aparece.
+[01:04:31] Environment variável. Sim. Ó, aqui, ó,
+[01:04:35] dentro desse aqui tem o Open Router API,
+[01:04:38] certo? E o Open Router Model. Então, o
+[01:04:42] nome das variáveis são Open Router API
+[01:04:46] ponto, né? E você vai colocar a chave. E
+[01:04:50] qual é o modelo que eu tô usando? Certo?
+[01:04:53] Tu pode vir aqui, editar, mas olha só,
+[01:04:58] eu não consigo enxergar nada. Ele mantém
+[01:05:01] a chave, mas eu tenho que colocar, né, o
+[01:05:04] conteúdo aqui, ó, open route. E aqui eu
+[01:05:07] podia trocar de chave,
+[01:05:10] certo? Se vazou a chave e tudo mais.
+[01:05:12] Então, né, é essa a forma que eu tenho
+[01:05:15] de fazer. Porém,
+[01:05:18] existe uma outra maneira que a gente
+[01:05:21] pode estar fazendo isso, ó. Cliquei aqui
+[01:05:24] em variável.
+[01:05:26] Imagina que eu tenho que jogar 30
+[01:05:28] variáveis. dá trabalho. Então, o que que
+[01:05:32] acontece?
+[01:05:34] Adicionar uma nova variável. E aqui
+[01:05:37] embaixo à esquerda, deixa eu ver se
+[01:05:38] vocês veem, sim, aqui, ó, import.
+[01:05:45] Então, você tem aquele arquivo teu de
+[01:05:47] configuração,
+[01:05:49] você pode clicar aqui e importar,
+[01:05:54] entendeu?
+[01:05:59] Então você consegue importar ele. Mas
+[01:06:02] como é que eu faço? Eu vou lá, pedo,
+[01:06:05] peço para o cloud, o Codex e digo assim:
+[01:06:08] "Eu quero para esse projeto salve todas
+[01:06:11] as variáveis em um importe."
+[01:06:15] Então, olha só, se vocês verem aqui, ó,
+[01:06:18] tá vendo? Import. do ENV. Ontem eu usei
+[01:06:23] isso aqui, eu importei, eu mandei ele
+[01:06:26] salvar aqui e depois eu só vim aqui e
+[01:06:28] importei.
+[01:06:31] Deixa eu me localizar aqui, ó. Não é no
+[01:06:34] TDS, né?
+[01:06:36] E daí eu importei aqui, ó. Ele vem aqui,
+[01:06:39] eu seleciono ela, né? Abrir.
+[01:06:44] E aí ele cria todas as variáveis para
+[01:06:46] mim, ó. Criou todas as variáveis aqui
+[01:06:49] para mim.
+[01:06:51] Vou dar X aqui que eu não vou salvar
+[01:06:53] antes que
+[01:06:56] você descarte troca. Sim, antes que eu
+[01:06:58] faço besteira aqui, tá?
+[01:07:03] Ã,
+[01:07:10] viu? Ã, veja só, por exemplo, tu tá
+[01:07:13] falando render, tá? render isso.
+[01:07:19] Opa, deixa, deixa eu digitar aqui.
+[01:07:25] Então, por que que render?
+[01:07:28] Ah,
+[01:07:29] meu dedo não funciona mais, ele vai para
+[01:07:32] onde ele quer. Por exemplo, então
+[01:07:37] o que que nós temos? Nós temos inúmeras
+[01:07:41] ferramentas, eh, plataformas para fazer
+[01:07:44] a mesma coisa.
+[01:07:46] Certo? Por exemplo, cada plataforma vai
+[01:07:49] brigar de uma forma por nós,
+[01:07:53] certo? Então ela pode estar oferecendo
+[01:07:55] hospedagem
+[01:07:57] e mais outros tipos de serviço. Então
+[01:07:59] ela podia oferecer para nós APIs, ela
+[01:08:04] poderia oferecer para nós VPS, né? Ela
+[01:08:08] pode oferecer e então o Versel,
+[01:08:11] certo? Tá? Se a gente a estudar o que
+[01:08:15] que o Versel tem, né? H,
+[01:08:21] ó,
+[01:08:23] o Versel virou uma ferramenta onde que
+[01:08:26] tu pode tá usando certos serviços
+[01:08:29] gratuitos como hobby,
+[01:08:31] né, uns serviços pagos
+[01:08:34] e aí muitos serviços especiais que eles
+[01:08:37] têm. Então, cada um deles cria um
+[01:08:41] método. Por que que a gente faz com
+[01:08:44] overcel?
+[01:08:45] Porque ele é mais simples de começar.
+[01:08:49] Certo? Então, André, seguinte, ó. Você
+[01:08:52] podia ir atrás dessas empresas que
+[01:08:54] oferecem um pacote de
+[01:08:59] e as Mas quantas realmente tu usa? E
+[01:09:03] quando você precisar usar aquela melhor,
+[01:09:06] será que tá no pacote?
+[01:09:08] Certo? Então, por exemplo, ah, eu uso o
+[01:09:14] exemplo, eu eu tinha assinatura, tenho
+[01:09:17] assinatura do clean,
+[01:09:20] certo?
+[01:09:22] Só que, por exemplo, em vez de eu tá
+[01:09:24] usando o clean aqui, eu podia tá tá
+[01:09:27] tendo assinatura do Eleven Labs e usar o
+[01:09:30] clean por lá. E talvez o preço seja o
+[01:09:34] mesmo ou até melhor, certo? Só que aqui
+[01:09:37] eu pago on demand. Aqui eu tenho que
+[01:09:40] pagar por mês. E aí eu fui lá ontem
+[01:09:43] cancelar, viu T?
+[01:09:45] Já que ninguém tá usando ela
+[01:09:49] e eu tô focando muito mais em a gente do
+[01:09:51] que criar vídeo e etc e tudo. Eu fui lá
+[01:09:54] para cancelar. Eu tô com uma versão pro,
+[01:09:58] certo? E todo mês ele vai lá e me joga
+[01:10:01] fora 3.000 créditos, porque eu não tô
+[01:10:03] tendo tempo.
+[01:10:07] Só que como eu fiz assinatura anual para
+[01:10:10] aproveitar, eu tô pagando um ano e não
+[01:10:14] tô usando.
+[01:10:18] Certo?
+[01:10:20] Por que que isso é? Porque mudou a
+[01:10:22] regra. Porque antes era interessante
+[01:10:24] isso, agora não. Agora eu tenho que eu
+[01:10:28] tenho, né, por exemplo, o que aí,
+[01:10:33] então aqui dentro do
+[01:10:36] né, vídeos API e aqui eu tenho clean.
+[01:10:42] E se eu vou ver os benefícios e tudo são
+[01:10:44] os mesmos, só que aqui eu tenho créditos
+[01:10:48] e eu só gasto o que que eu consumi.
+[01:10:53] Então, em vez de eu pagar 300, né,
+[01:10:56] dólares por ano, aqui eu vou gastar só
+[01:11:00] na demanda.
+[01:11:02] Então nós temos um novo conceitos, né,
+[01:11:05] que não é comprar nas plataformas, é
+[01:11:08] comprar as quem vende os créditos para
+[01:11:11] mim que seja o mesmo preço da
+[01:11:13] plataforma,
+[01:11:17] certo?
+[01:11:18] Então, por exemplo, que nem aqui, ó, eu
+[01:11:20] tenho aqui, ó,
+[01:11:23] se eu olhar preço dentro do cai, eu
+[01:11:25] tenho música,
+[01:11:28] então eu não preciso ir lá no Suno para
+[01:11:31] usar a música.
+[01:11:35] E aí vocês podem observar, ó.
+[01:11:39] Eu não entendo nada de música, né? Nem
+[01:11:41] escuto música para não me perturbar meu
+[01:11:44] meus pensamentos.
+[01:11:46] Mas daí eu fui aqui, ó, eu apareceu uma
+[01:11:51] música muito legal aqui na que eu gostei
+[01:11:55] e daí eu disse, né, eu quero que ele
+[01:11:58] crie uma música ou que nem ele criou
+[01:12:00] umas músicas aqui para mim, ó, o suno,
+[01:12:03] etc e tudo.
+[01:12:06] Então, simplesmente eu mando mensagem
+[01:12:09] que nem eu mandei aqui, eu mandei o link
+[01:12:11] para ele foi lá, né?
+[01:12:14] E aqui eu posso dizer agora, agora vamos
+[01:12:17] criar outra música do mesmo jeito antes,
+[01:12:24] mas quero semelhança
+[01:12:28] total nas vozes e estilo.
+[01:12:34] Ó, então o que que ele vai pegar? Ele
+[01:12:37] vai pegar essa música que ele fez
+[01:12:38] download no meu Inema Vox, certo? e tá
+[01:12:42] mandando lá pro pro eh K
+[01:12:47] o Cai, né? E aqui ele criou músicas
+[01:12:50] aqui,
+[01:12:52] ó. Vamos
+[01:12:54] criar uma música aqui para mim.
+[01:13:14] Da ele pegou e disse que não gostou
+[01:13:16] muito da música.
+[01:13:18] Por quê? Por que que ele não gostou da
+[01:13:19] música? Porque eu mandei aquele outro
+[01:13:21] vídeo sem querer. Vocês viram
+[01:13:25] que era daquele cara falando de A,
+[01:13:30] então eu tinha mandado o link errado.
+[01:13:33] Certo? Então, só para falando das
+[01:13:35] plataformas. Então, voltando para o
+[01:13:38] Versel,
+[01:13:40] certo?
+[01:13:42] Que é onde que nós estamos trabalhando
+[01:13:43] agora.
+[01:13:46] Deixa eu ver aqui.
+[01:13:49] Tá, o Versel virou a nossa plataforma
+[01:13:53] queridinha para facilitar a importação
+[01:13:56] das coisas.
+[01:13:58] Mas se nós olharmos lá, né, do versel de
+[01:14:02] novo aqui,
+[01:14:06] eu tenho um custo que logo estoura, ó.
+[01:14:10] Vocês estão vendo aqui, ó, já passou do
+[01:14:12] meu limite gratuito aqui, ó.
+[01:14:15] Então,
+[01:14:17] a minha CPU já ele eu já tô tendo
+[01:14:19] degradação, ele me sugere fazer o
+[01:14:22] upgrade,
+[01:14:24] certo? Outra coisa, eu ganho 1 milhão de
+[01:14:27] request
+[01:14:29] por causa do pro, né? Eu já tô tendo um
+[01:14:33] problema aqui.
+[01:14:36] Eu já vou ter que fazer a assinatura
+[01:14:38] dele,
+[01:14:40] viu, tia? Tá vendo?
+[01:14:44] E aí que tá o problema. Daí é o
+[01:14:46] seguinte, daí tu diz: "Não, vamos
+[01:14:47] colocar legal, um design legal, bonito,
+[01:14:49] legal e tudo". E daí tu tem começa a ter
+[01:14:51] custos.
+[01:14:53] É custo de banco de dados, é custo de
+[01:14:56] site, é custo de VPS, é custo disso.
+[01:14:58] Então o teu produto, né, quando ele
+[01:15:01] escala, ele tem um custo
+[01:15:05] e tu pode levar daí para onde quiser.
+[01:15:07] Então a estratégia da do Versel, do
+[01:15:10] Supis e de todas essas empresas é te dar
+[01:15:13] de graça e se teu negócio crescer você
+[01:15:16] tem que bancar,
+[01:15:20] certo?
+[01:15:22] Então, por exemplo, aqui todos eles nós
+[01:15:25] estamos vendo, ó, ele já tá 600 aqui.
+[01:15:28] Tem que ver que quando vence a, né, mais
+[01:15:32] o volume tá tendo muito grande aqui.
+[01:15:36] Então eu tenho até até eu separei em
+[01:15:38] vários projetos, levei em outros
+[01:15:41] usuários e cheguei à conclusão que não
+[01:15:43] adianta quem tá consumindo muito, se eu
+[01:15:46] pegar e olhar aonde que tá os consumos,
+[01:15:51] certo,
+[01:15:53] né? O Inema Pro, o Inema Lib aqui, aqui
+[01:15:57] nós tivemos um período aqui que eu
+[01:15:59] divulguei, daí todo mundo foi lá e
+[01:16:02] testou, certo?
+[01:16:05] Então, tava liberando e agora voltou, tá
+[01:16:08] voltando ao normal. Então, provavelmente
+[01:16:11] depois tem que ver, será que o pessoal
+[01:16:13] vai começar a usar mais ou não, né? Aqui
+[01:16:16] foi o teste de todo mundo,
+[01:16:20] certo? Então, eu consigo monitorar o que
+[01:16:23] que tá se gastando, né? De que regiões,
+[01:16:26] né, que estão consumindo. Se é de São
+[01:16:29] Paulo, olha só, a maioria de São Paulo,
+[01:16:32] certo? dos Estados Unidos, de
+[01:16:34] Washington. Tem aqui o azulzinho, olha
+[01:16:36] só como é forte. Dos Estados Unidos, tá?
+[01:16:40] Da Alemanha é um pouquinho aqui, né? São
+[01:16:43] Francisco também nem daí nem conta nada
+[01:16:46] aqui, né? Da onde? De Londres, ó. Não,
+[01:16:50] Singapura, nós temos aí. Então, da onde
+[01:16:54] que o pessoal tá indo consumir o meu
+[01:16:57] conteúdo? E eu tô falando de quê? de de
+[01:17:01] pessoas logadas na comunidade,
+[01:17:04] né? Também posso analisar, né, o que que
+[01:17:07] tá usando dentro do meu ambiente, né, o
+[01:17:11] que que é,
+[01:17:13] né, e o que que seria, o que que é o
+[01:17:15] midware e o que que é a função. Então, é
+[01:17:18] o midware que tem. Então eu tenho que
+[01:17:20] pensar para onde que eu vou levar isso,
+[01:17:23] mas isso é lá adiante, quando o meu
+[01:17:25] sistema tá em produção, quando eu já tô
+[01:17:27] fazendo teste de usuário e assim por
+[01:17:30] diante. Mas eu tenho que sempre saber
+[01:17:33] qual é meu custo quando eu quiser, né,
+[01:17:36] pagar e ter um volume, né, considerável
+[01:17:39] de consumo. Mesmo assim eu acho barato,
+[01:17:43] né? Porque daqui a pouco, se nós vamos
+[01:17:45] olhar lá nos preços,
+[01:17:49] certo? O que que acontece daí? Deixa eu
+[01:17:51] ver aqui embaixo. Nós podemos estudar
+[01:17:53] isso,
+[01:17:55] tá? E é de request 1 milhão por mês
+[01:18:01] com pro é 10 milhões, certo? E depois
+[01:18:05] são
+[01:18:06] dólares por cada milhão. Então tá
+[01:18:08] tranquilo, né? O custo é barato se nós
+[01:18:11] pararmos para pensar. Não para quem tá
+[01:18:13] começando, mas ali transferência, volume
+[01:18:17] de transferência 100 GB, né? Eu tenho
+[01:18:19] que olhar como tá. Se eu tenho aqui é 10
+[01:18:23] vezes mais por 20,
+[01:18:25] certo? E depois 15 centavos por giga
+[01:18:28] mais, certo? Então tudo é voltado a
+[01:18:33] medir isso aqui, né? A parte de
+[01:18:36] firewall, né? Quantas regras eu posso
+[01:18:39] estar criando, etc, etc. Assim. Então
+[01:18:43] isso faz com que a gente vai olhar ou tu
+[01:18:46] pega isso aqui e dá pro teu para Iá e
+[01:18:49] diz: "Olha, né, baseado no nosso
+[01:18:52] projeto, como é que é? Como é que eu
+[01:18:54] posso calcular? Qual é meu custo, qual é
+[01:18:56] que é a minha estimativa?"
+[01:18:59] E você tem o link do preço levando para
+[01:19:02] ele para te escalar aonde você quer
+[01:19:04] chegar, tá legal?
+[01:19:08] Então, era isso primeiro que eu queria
+[01:19:11] mostrar.
+[01:19:14] Então eu quero que vocês façam o
+[01:19:15] seguinte, né? Vão lá e cri uma página do
+[01:19:20] zero, tá? Ou seja, criar um projeto
+[01:19:24] dentro do teu projetos. Cria uma página,
+[01:19:28] joga pro git, certo? E transforma aquilo
+[01:19:32] não inversel. Deixa público e transforma
+[01:19:36] aquilo publicável. façam isso e eu tô
+[01:19:39] aqui para ajudar vocês.
+[01:19:43] Depois nós vamos botar no Verscel,
+[01:19:48] vão ver o que que vocês já sabem e o que
+[01:19:50] não sabem que eu tô aqui para ajudar. Eu
+[01:19:53] vou pegar um negócio para beber enquanto
+[01:19:55] isso.
+[01:20:13] Насио
+[01:20:31] &gt;&gt; Vem cá, vem cá.
+[01:20:37] Hum.
+[01:20:39] esqueci. Ai,
+[01:20:42] &gt;&gt; vamos pega aí.
+[01:20:44] &gt;&gt; Tá derretido.
+[01:20:45] &gt;&gt; Não, imagina.
+[01:20:47] &gt;&gt; Pega uma taça pro pai lá.
+[01:20:49] &gt;&gt; Tá derretido, pai.
+[01:20:51] &gt;&gt; Hum. Um pouco sim. Mas que coisa triste
+[01:20:53] isso.
+[01:21:00] &gt;&gt; Um pouco
+[01:21:02] &gt;&gt; põe uma taça e traz pro pai que o pai tá
+[01:21:04] em live em curso.
+[01:21:19] Bom, enquanto vocês vão fazendo aqui,
+[01:21:27] eu quero mostrar para vocês
+[01:21:31] a configuração do Versel lá,
+[01:21:35] aliás, do GitHubs, desculpe,
+[01:21:39] do FTD que a gente tava fazendo.
+[01:21:47] Pode ir fazendo enquanto isso.
+[01:21:49] E daí fica gravado aqui para explicar
+[01:21:51] para vocês.
+[01:21:53] Uma outra coisa que vocês podem fazer é
+[01:21:56] o seguinte, vi aqui no settings
+[01:21:59] do
+[01:22:01] GitHub
+[01:22:03] e aqui vocês vão ter o SSH
+[01:22:06] para você configurar.
+[01:22:08] Então você fez a chave lá na tua
+[01:22:10] máquina, tá? Tem instruções lá para você
+[01:22:14] sobre como fazer essa configuração de
+[01:22:16] SSH.
+[01:22:18] Então você tem a chave aqui que tu vai
+[01:22:21] criar. Então isso aqui vai ser ã
+[01:22:26] meu PCEI.
+[01:22:32] Eu vou ter que pegar uma chave e trazer
+[01:22:34] para cá.
+[01:22:36] Certo?
+[01:22:37] Então normalmente é o quê? Eu vou ter
+[01:22:41] que ir lá descobrir a chave que eu
+[01:22:43] tenho.
+[01:22:45] C
+[01:22:47] usuários
+[01:22:50] o meu nome
+[01:22:52] SSH.
+[01:22:53] E aí eu vou pegar uma chave qualquer
+[01:22:56] delas que eu tenho, mas a parte pública,
+[01:23:00] certo?
+[01:23:02] Então essa parte pública aqui, essa sim
+[01:23:05] eu posso abrir ela.
+[01:23:08] O certo era ter aberto com Tá, deixa eu
+[01:23:11] fechar. Não,
+[01:23:15] não, tem que ser com o Notepad.
+[01:23:21] Abrir com bloco de nota. Tô abrindo a
+[01:23:23] pública, sim.
+[01:23:25] Ó, essa chave aqui agora eu pego control
+[01:23:28] C
+[01:23:29] e vou lá pro meu arquivo.
+[01:23:35] Tem bastante
+[01:23:37] pai. Sabe o que que eu consegui fazer?
+[01:23:38] Sabe por tá assim?
+[01:23:40] &gt;&gt; Eu enfiei retirei assim.
+[01:23:43] &gt;&gt; Tá muito feio isso aí. me traz um papel
+[01:23:46] aí para limpar que tá tudo lambuzado.
+[01:23:53] Eu tô com um garçom aqui hoje, não tem
+[01:23:56] aula, ele veio ficar aqui, só que ele me
+[01:23:59] trouxe um sorvete. E olha só para vocês
+[01:24:01] ver o sorvete ele trouxe numa taça de
+[01:24:04] champanhe.
+[01:24:06] Olha que ti
+[01:24:09] não. E tudo lambuzado em redor aqui, ó.
+[01:24:12] Pô, eu perguntei para ele, eu perguntei
+[01:24:16] para ele hoje se ele era um cozinheiro.
+[01:24:18] Disse: "Não, mas que ele pedia pro chat
+[01:24:21] para saber, para fazer quando ele quer."
+[01:24:27] Ele fez uma pizza para mim, ele fez de
+[01:24:29] tudo hoje.
+[01:24:35] &gt;&gt; Não, não,
+[01:24:35] &gt;&gt; né? Maternidade, paternidade, dando
+[01:24:38] frutos, dando retorno.
+[01:24:43] &gt;&gt; É, tem que fazer bastante filho pra
+[01:24:44] gente, para trabalhar pra gente.
+[01:24:49] &gt;&gt; Uma hora o retorno, uma hora o
+[01:24:51] investimento retorna nele.
+[01:24:53] &gt;&gt; Sim.
+[01:24:55] É, mas tu sabe que todo investimento
+[01:24:57] retorna se tu investir nele, né?
+[01:25:00] &gt;&gt; É, tem que ficar trabalhando em cima
+[01:25:02] dele.
+[01:25:02] &gt;&gt; É. Não, não. Você sabe por que ele tá
+[01:25:05] aqui hoje? Ele devia estar com a mãe,
+[01:25:07] né? Mas hoje não tem aula. E eu disse:
+[01:25:10] "Ó, tem que configurar minha impressora
+[01:25:12] 3D.
+[01:25:13] E eu eu tô com o meu notebook novo e não
+[01:25:17] tem configurado. Eu deu fui paraa
+[01:25:19] configurada, digo, sabe de uma coisa? É
+[01:25:20] mais fácil eu chamar ele
+[01:25:23] do que eu ficar descobrindo como é que
+[01:25:25] é, que ele já sabe tudo.
+[01:25:30] É, tô ficando velho,
+[01:25:33] velho e preguiçoso. Bom, continuando
+[01:25:36] aqui, peguei a chave, botei aqui de
+[01:25:39] volta, ó. Então, busquei a chave lá
+[01:25:43] pública, né? Fui lá no meu PC, podia ter
+[01:25:47] ido lá no terminal, né? e dá um cat ou
+[01:25:50] dá um type para poder ver essa chave,
+[01:25:53] né, que ela tá lá, ó. Cada uma delas que
+[01:25:56] eu tenho várias chaves,
+[01:25:58] né, para várias situações.
+[01:26:01] Botei a chave aqui e pronto. Agora que
+[01:26:05] eu já criei essa chave, quando eu quiser
+[01:26:09] publicar alguma coisa no GitHub do FTD
+[01:26:13] do meu PC, eu não preciso botar usuário
+[01:26:15] e senha.
+[01:26:21] Certo?
+[01:26:23] Então, por exemplo, eu posso vir colocar
+[01:26:25] aqui a chave do meu PC, eu tenho
+[01:26:27] notebook, eu vou botar a chave do
+[01:26:29] notebook também aqui, certo?
+[01:26:34] Né? E assim eu vou vou colocando várias
+[01:26:36] chaves aqui que eu quiser
+[01:26:40] e isso vai permitir eu acessar de várias
+[01:26:43] máquinas,
+[01:26:45] né?
+[01:26:46] Se eu fosse lá na minha VPS, a mesma
+[01:26:48] coisa, eu pegar uma das chaves lá, só
+[01:26:51] que eu posso criar uma chave SSH para
+[01:26:54] essa daquela máquina para esse serviço
+[01:26:57] para isolar.
+[01:27:00] Se for vazado aquele serviço não afeta
+[01:27:02] os outros,
+[01:27:04] porque senão essa chave seria, né?
+[01:27:08] Mas como é a chave pública, não tem
+[01:27:10] problema.
+[01:27:26] Então isso aqui seria uma coisa
+[01:27:29] para verificar
+[01:27:31] um outro macete que nós temos aqui, ó,
+[01:27:34] em vez de que eu nunca achei aonde que é
+[01:27:37] aqui na no menu, certo? Então, tu pode
+[01:27:41] tirar os kis e botar tokens.
+[01:27:46] Acho que é tokens.
+[01:27:48] Isso, ó.
+[01:27:51] Você pode tá criando um novo token aqui.
+[01:27:56] Então, quando tu quiser gerar um token,
+[01:27:59] né, tu pode usar o clássico ou normal ou
+[01:28:03] ou esse outro. Qual é a diferença do
+[01:28:06] clássico e do desse aqui? Esse aqui
+[01:28:08] permite tu configurar detalhe por
+[01:28:10] detalhe e o clássico é menos, né? Então
+[01:28:15] aqui, ó, eu posso dizer o que que eu
+[01:28:17] quero que aquele token vai fazer. Qual é
+[01:28:20] a vantagem disso? É dividir com vocês.
+[01:28:24] Eu podia pegar agora, né, e permitir
+[01:28:27] vocês acessarem, né, alguma coisa dentro
+[01:28:31] do meu GitHub, certo?
+[01:28:35] E dizer o que que vocês podem fazer.
+[01:28:38] Então eu configuro aqui liberando o que
+[01:28:40] que eu quero para gerar esse token,
+[01:28:44] certo? Então é outra coisa que tem. Como
+[01:28:47] é que tu faz? Github.com/setting/tokens.
+[01:28:54] &gt;&gt; Pai, olha quanto que 53 minutos.
+[01:28:57] &gt;&gt; Tá bom, tá bom.
+[01:29:01] guardou na no freezer.
+[01:29:20] Então, dando os comandinhos e as dicas
+[01:29:23] aqui que vocês podem tá sabendo.
+[01:29:39] Deixa eu ver se tem mais alguma coisa
+[01:29:41] aqui que eu posso explicar
+[01:29:44] do settings. É isso.
+[01:30:11] Aqui você não authentication. Aqui você
+[01:30:13] ativa, né?
+[01:30:16] as o
+[01:30:19] true factor, né? Autenticação em dois
+[01:30:22] nível.
+[01:30:24] Eu implementei nos meus todos eles isso,
+[01:30:27] por isso ele pede sempre a o aquele
+[01:30:30] usuário
+[01:30:32] e e é bom você usar aquele autenticador
+[01:30:35] ou do Google ou de outra empresa que
+[01:30:38] fica no teu celular, né? E você salva
+[01:30:41] aquilo lá também em outro lugar, porque
+[01:30:43] se der problema no teu celular, tu tem
+[01:30:45] como autenticar,
+[01:30:47] né?
+[01:30:48] H, senão tu fica preso nessa questão de
+[01:30:52] acesso.
+[01:31:34] Que que eu tô estranhando aqui? Antes
+[01:31:36] aparecia várias chaves aqui. Ele não tá
+[01:31:41] não tá mais exibindo.
+[01:31:47] Muito estranho isso.
+[01:31:56] Mas tudo isso, pessoal, a gente depois
+[01:31:58] de ter colocado a chave aqui, a gente
+[01:32:00] faz tudo pelo comando de linha chamado
+[01:32:03] GH,
+[01:32:05] certo?
+[01:32:08] Então, quando a gente vai para
+[01:32:10] o DOS, deixa eu chamar aqui o chat,
+[01:32:26] né?
+[01:32:28] Qual diferença tem o Git
+[01:32:33] e o GH no terminal? Certo? Então nós
+[01:32:38] temos o GH e o Git lá.
+[01:32:43] No terminal. O Git e GH são ferramentas
+[01:32:45] diferentes, embora trabalham muito bem
+[01:32:47] juntas. O Git é o sistema que controla a
+[01:32:50] versão. Serve para gerenciar histórico
+[01:32:53] do seu código localmente e também
+[01:32:55] interagir em repositórios remotos.
+[01:32:57] O Git não permite você criar coisas
+[01:33:01] dentro do Git, por exemplo, criar
+[01:33:03] repositórios novos, etc, e tudo. Ele é
+[01:33:06] mais para você fazer push, né? E que nem
+[01:33:09] aqui, init, adicionar, commit, branch,
+[01:33:14] né? Ou seja, branch é uma cópia. Depois
+[01:33:16] tu pode tornar essa cópia, né,
+[01:33:19] misturada, porque eu poderia trabalhar
+[01:33:21] em duas, três pessoas. Então ele tira
+[01:33:24] uma cópia, tu trabalha e depois ele
+[01:33:26] consolida. O push é enviar para o git e
+[01:33:30] o pulo é trazer. Então é o normal que a
+[01:33:33] gente usaria nos comandos, certo? Agora
+[01:33:37] que que nós precisamos? O GH ele pode
+[01:33:40] fazer tudo, né? Eu eu posso usar ele
+[01:33:42] para autenticar, eu posso usar ele para
+[01:33:45] criar um repo, né? que é um repositório,
+[01:33:48] eu posso estar clonando. Ah, aqui também
+[01:33:50] eu tenho um clone, não apareceu, mas eu
+[01:33:52] posso dar git clone, certo? Eu posso tá
+[01:33:57] ã
+[01:33:59] e criando um PR, né? Um um listando uma
+[01:34:03] um PR, né? Que é o o P request, tá?
+[01:34:09] E assim por diante. Então, a gente
+[01:34:11] instala os dois na sua máquina local,
+[01:34:15] certo?
+[01:34:17] Então, digamos assim, como eu instalo
+[01:34:24] ele no Linux e no Windows,
+[01:34:29] seja direto para não me enrolar com um
+[01:34:31] monte de conteúdo,
+[01:34:37] tá?
+[01:34:39] Então, no caso do Linux, tu dá sudo
+[01:34:42] aptidate, ou seja, ele vai atualizar,
+[01:34:45] certo? E daí sudo aptal
+[01:34:49] git-,
+[01:34:52] né? No Linux para instalar o GH. Sudo
+[01:34:56] aptal
+[01:34:58] GH-Y
+[01:35:00] porque tu já rodou o update ali, senão
+[01:35:02] tu usaria. Sempre atualizar o update
+[01:35:05] primeiro, né? E depois coloca ele.
+[01:35:10] E aí tem outros. Ah, daí complicou. Daí
+[01:35:13] é melhor tu pegar aí no chat e pedir
+[01:35:15] ajuda para ele etc. Aqui, aqui ele tá te
+[01:35:18] dando várias opções, mas não vou focar
+[01:35:20] nisso, certo? No Windows baixar ele,
+[01:35:26] certo? Instalar. Se você usar no Power
+[01:35:29] Shell, você tem o win get install men-
+[01:35:34] ID e daí da git.git-e
+[01:35:37] e é o comandinho que você tem, certo?
+[01:35:43] e o GH, a mesma coisa. Ou senão baixa na
+[01:35:47] interface gráfica para ver se tá
+[01:35:50] instalado os dois, certo? Git espaço if
+[01:35:55] inversion,
+[01:35:57] ghpa if if inversion ou só digitar git.
+[01:36:00] Se ele não dá erro, é porque ele tá ali,
+[01:36:03] ele vai te dar o help, o GH, a mesma
+[01:36:06] coisa, tá legal?
+[01:36:09] Então, eu quero que vocês de exercem. O
+[01:36:12] que que vocês têm que fazer? Criar uma
+[01:36:15] página local, certo? Como é que tu faz
+[01:36:18] isso? Cria um, né, uma pasta,
+[01:36:22] tá? Vou criar, ó, CD. Vamos lá, CD.
+[01:36:28] CMD. Vamos lá pro dos
+[01:36:32] CD Projetos.
+[01:36:36] Agora eu vou criar MD ou MKD,
+[01:36:40] certo? E agora eu daria o nome da pasta.
+[01:36:44] Vai ser testes.
+[01:36:47] Testes 1. Pronto. CD testes 1. Entrei na
+[01:36:52] pasta. Eu poderia dizer, agora eu vou
+[01:36:55] criar MD MKD de novo e criar pasta
+[01:36:58] testes, né? Ou aliás, Doc. E eu botaria
+[01:37:02] todas as dicas que eu fui lá no chat
+[01:37:04] conversar, copiaria ali.
+[01:37:08] E aí você vai pegar e
+[01:37:11] abrir o Codex,
+[01:37:14] tá? Ou senão
+[01:37:19] o Cloud Code. Lembra que eu disse que
+[01:37:22] tem aquele arquivinho chamado
+[01:37:25] eh CX ou CC.BAT,
+[01:37:29] B, no caso do Windows e ps lá no Linux e
+[01:37:33] ele tem os parâmetros todos que eu
+[01:37:35] preciso tá configurado. Isso tá dentro
+[01:37:38] do inema
+[01:37:40] VIP lá da do Telegram. Tem lá ou senão
+[01:37:44] vocês pedem ali que a Tisa te passe o
+[01:37:47] link.
+[01:37:50] Ó, ele tem atualizações novas,
+[01:37:55] então ele tá atualizando já automático.
+[01:38:08] Ó, terminou. Daí eu rodo ele de novo.
+[01:38:20] Beleza. Confio nesse diretório. Sim. E
+[01:38:23] agora o mínimo que eu faria. Quero que
+[01:38:26] você crie uma land page. Então os
+[01:38:31] termos, que que é page? O que que é land
+[01:38:33] page, etc. Tudo isso são termos que
+[01:38:36] ajudam a identificar o que eu quero.
+[01:38:39] Estilo
+[01:38:41] simples e clean
+[01:38:45] sobre
+[01:38:47] o lançamento
+[01:38:49] de um curso para
+[01:38:58] vibe code. Vibe
+[01:39:02] code.
+[01:39:03] Certo? Do zero. Agora veja só, se em vez
+[01:39:08] de ter feito isso, eu fosse lá no chat,
+[01:39:13] tá? Eu venho aqui no chat
+[01:39:17] abrir uma nova sessão,
+[01:39:20] tá?
+[01:39:22] E aqui eu diria assim:
+[01:39:25] Pesquise sobre a página
+[01:39:29] eventos.
+[01:39:34] Inema Pro
+[01:39:38] e me fale
+[01:39:43] sobre o curso
+[01:39:46] de Vibe Code,
+[01:39:49] ou seja, já tô fazendo ele trabalhar
+[01:39:52] para mim,
+[01:39:54] tá? pesquisei, etc. e tudo.
+[01:39:59] E daí eu diria assim:
+[01:40:01] "Quero criar uma página
+[01:40:05] Land
+[01:40:07] page promocional deste curso. Qual seria
+[01:40:13] a instrução que você poderia me dar para
+[01:40:18] orientar
+[01:40:20] o desenvolvimento
+[01:40:22] dela?
+[01:40:26] E daí ele já fez aqui, ó, toda uma
+[01:40:29] instrução aí. Claro que eu tô chutando
+[01:40:32] por cima, né, e sendo rápido. Então eu
+[01:40:34] diria salve
+[01:40:37] em MD. [roncando] Só que eu podia,
+[01:40:42] tá?
+[01:40:47] Ó, eu tô tudo fazendo na no free.
+[01:40:53] Ele salvou e me deu. Não,
+[01:41:02] não, salv.
+[01:41:07] Eu
+[01:41:12] quero
+[01:41:13] um arquivo
+[01:41:17] para salvar.
+[01:41:22] Ah, agora espero que ele crie.
+[01:41:26] Ó, tá aqui a instrução que ele tá
+[01:41:28] fazendo
+[01:41:32] e ainda não fez, viu? Eu acho que é
+[01:41:34] porque eu não me loguei.
+[01:41:40] Tá tudo bem. Seja dessa forma. Daí eu
+[01:41:44] abro aqui,
+[01:41:47] colo aqui e salvo.
+[01:41:51] Salvar como
+[01:41:53] aonde lá no meu usuário de novo,
+[01:41:58] certo?
+[01:42:00] Usuários name projetos.
+[01:42:05] E dentro do projeto era teste zoom
+[01:42:11] ttum.
+[01:42:14] Ó, eu posso deixar aqui ou posso criar
+[01:42:16] aquela pasta que eu disse, né, que eu
+[01:42:19] crio sempre. Doc,
+[01:42:23] doc.
+[01:42:24] Entro na pasta
+[01:42:28] e aí eu vou chamar isso aqui
+[01:42:31] testes
+[01:42:35] MD.
+[01:42:38] Salvei lá. Agora, se eu voltar pro meu
+[01:42:41] sistema aqui e eu podia assim, você pode
+[01:42:45] se basear no conteúdo
+[01:42:49] do conteúdo
+[01:42:54] do
+[01:42:56] @
+[01:42:58] doc, tá aqui embaixo, ó. E tá o testes
+[01:43:02] aqui,
+[01:43:04] certo? Enter.
+[01:43:06] Pronto. Então eu não preciso explicar
+[01:43:09] muito porque eu tenho um exemplo lá, só
+[01:43:12] que esse exemplo podia ter sido com, né,
+[01:43:15] links de outro site, prints de outro
+[01:43:18] site e assim por diante.
+[01:43:22] Quando ele tiver terminado, o que que eu
+[01:43:24] vou dizer para ele atualizar no Git,
+[01:43:29] certo?
+[01:43:33] A página será uma experiência derrota
+[01:43:36] única, com bastante respiro, tipografia,
+[01:43:40] etc, etc, etc.
+[01:43:53] Nem uma pergunta.
+[01:44:02] Então, toda a questão de vibe code é o
+[01:44:04] que que é? Eh, você tem uma estrutura de
+[01:44:08] pastas,
+[01:44:10] você tá conectado com repositório que
+[01:44:13] nem o GitHub
+[01:44:15] e você poder dizer para ele de forma
+[01:44:18] simples o que tu quer, porque você já
+[01:44:20] tem um contexto, você já tem uma pasta
+[01:44:23] com imagens, com links, com instruções
+[01:44:27] que vão te ajudar a ele ser mais
+[01:44:29] assertivo. Ele não precisa adivinhar o
+[01:44:32] que tu quer.
+[01:44:34] ele vai seguir as tuas ordens lá. Então,
+[01:44:37] o fato de tu ter feito isso aqui no no
+[01:44:41] chat vai dar chance de você conversar,
+[01:44:45] pesquisar, mandar exibir, talvez no chat
+[01:44:47] e dizer: "Me demonstra essa tela como
+[01:44:50] seria", né? Cria uma imagem do que
+[01:44:53] seria. Então eu poderia vir aqui e
+[01:44:55] dizer, crie
+[01:44:58] uma imagem
+[01:45:01] como exemplo
+[01:45:04] do que seria,
+[01:45:07] certo?
+[01:45:10] Posso, mas essa conversa não consigo
+[01:45:12] gerar imagem diretamente. Se você
+[01:45:14] tivesse logado, sim. Então eu tenho que
+[01:45:17] me logar. Me obrigou a logar para isso.
+[01:45:22] Então vamos me logar.
+[01:45:33] OK. Então vamos ver. Será que tem página
+[01:45:37] isso?
+[01:45:42] Faça a imagem
+[01:45:48] do que seria a página.
+[01:46:03] Não, não, para aí. Isso não tem nada a
+[01:46:05] ver com o que que eu tava fazendo.
+[01:46:14] Ele ele perdeu o que que eu não tava
+[01:46:16] logado. Então
+[01:46:23] deixa eu fazer o seguinte.
+[01:46:32] Crie uma imagem que represente
+[01:46:36] a página.
+[01:46:43] Agora sim. Enquanto isso, vamos ver o
+[01:46:45] que que ele tá fazendo aqui.
+[01:46:49] A estrutura já tá montada. Agora estou
+[01:46:51] aplicando o conteúdo real do curso em
+[01:46:54] narrativa, mas enxuto promessa clara.
+[01:46:57] benefício, trilha, projetos, público,
+[01:47:01] dúvida e chamada final, sem inventar
+[01:47:04] preço, certificado, direção ou
+[01:47:06] depoimentos.
+[01:47:19] E eu posso dar uma olhada como é que tá,
+[01:47:21] se ele tá estruturando isso em pastas ou
+[01:47:24] coisas assim ou não. Então, usuário,
+[01:47:27] né? De novo,
+[01:47:29] você pode criar um shortcut, né? Um uma
+[01:47:32] um atalho para não precisar entrando
+[01:47:35] toda vez aqui. Mas é para mim
+[01:47:36] demonstrar, eu acho que isso é muito
+[01:47:38] legal.
+[01:47:40] Vou forçando todo mundo entender aonde
+[01:47:42] que estão as coisas.
+[01:47:45] Ó, ele já criou toda essa estrutura
+[01:47:48] agora dentro do teste um. O git
+[01:47:52] sobre a o ponto openine,
+[01:47:54] certo?
+[01:47:56] Vangler, ou seja, todo um, ó, ele até
+[01:47:59] pegou exemplos que tem aí do mercado,
+[01:48:03] tá? e tá montando a página toda para mim
+[01:48:07] aqui.
+[01:48:08] Daí o que que eu tenho que fazer? Tenho
+[01:48:10] que atualizar no Git, certo?
+[01:48:14] Então vamos ver. No Git eu já tenho uma
+[01:48:16] página chamado
+[01:48:18] teste Zoom. Sim, eu vou dizer que vai
+[01:48:20] ser no teste Zoom lá
+[01:48:24] e vou mandar atualizar para lá.
+[01:48:30] Olha
+[01:48:47] aí, ó.
+[01:48:53] Vou pegar do André aqui, ó. O André já
+[01:48:56] fez. Quem fizer, vai, quiser
+[01:48:58] compartilhar, vai compartilhando.
+[01:49:01] Vê, olha só, o André fez agora, jogou a
+[01:49:04] a o conteúdo aqui, não. Então, preciso
+[01:49:07] do conteúdo. André,
+[01:49:10] criou a página, criou o repositório.
+[01:49:13] Agora tu tem que jogar o conteúdo para
+[01:49:15] nós poder ver teu site aí.
+[01:49:34] Ó, tá construindo agora a página.
+[01:49:44] Eu
+[01:49:52] vou me atrasar um pouco aí hoje, tá? Mas
+[01:49:54] quem quiser ir embora e depois assistir
+[01:49:57] o vídeo tá liberado.
+[01:50:00] Mas o qual é a missão hoje? É publicar
+[01:50:02] aqui e depois publicar no Versel,
+[01:50:06] né? Então, no Versel, tu pode publicar
+[01:50:08] mesmo aqui tando público ou se tu fechar
+[01:50:11] tu tem que botar no Verscel ou em outros
+[01:50:13] sites.
+[01:50:34] Um exemplo que eu poderia dizer, tem
+[01:50:36] bastante gente prontando pra Tisa, eu
+[01:50:39] quero criar um blog. O que que a gente
+[01:50:41] pode fazer? Pegar exemplo de blogs
+[01:50:44] prontos,
+[01:50:46] botar dentro do diretório do,
+[01:50:49] usar esse diretório como fonte e dizer:
+[01:50:52] "Eu quero criar meu blog". Certo?
+[01:50:57] Inclusive lá dentro do inema Vibe tem aí
+[01:51:01] uns exemplos de criar blogs dessa
+[01:51:04] maneira. São três exemplos que tem.
+[01:51:08] Responde ali o André da diferença de
+[01:51:10] usar uma plataforma visual.
+[01:51:13] Eu ia responder, mas quero que tu
+[01:51:15] responda.
+[01:51:16] &gt;&gt; Sim. Olha só, André, se tu fizer uma
+[01:51:19] plataforma visual, deixa eu só entender
+[01:51:21] se é o que tu tá querendo dizer. eu
+[01:51:23] pegar uma plataforma e começar a criar
+[01:51:26] ele
+[01:51:28] eh dentro da plataforma, arrastando os
+[01:51:31] objetos. É isso que tu quer dizer?
+[01:51:40] Só me responde se é isso.
+[01:51:59] Ah, sim. Ó, por que que eu posso pegar?
+[01:52:01] O que que é o VS Stú? Nada mais é do que
+[01:52:05] você ter e o terminal com uma tela no
+[01:52:09] lado para você poder navegar, certo?
+[01:52:14] Então tu pode navegar ali na tela do
+[01:52:17] lado com os menus e pro outro lado você
+[01:52:20] podia ter exibição,
+[01:52:22] mas daí é a mesma lógica do que eu pegar
+[01:52:25] o codex, certo? Entrar aqui, ó,
+[01:52:30] e entrar como, tá? Hã?
+[01:52:39] Deixa eu ver se enquanto ele, ó, aqui
+[01:52:41] ele criou a página dele aí do jeito que
+[01:52:44] ele criou,
+[01:52:46] ó. Nada a ver, né?
+[01:52:53] Os exemplos que ele botou nada a ver.
+[01:52:55] Então eu diria assim, isso não foi a
+[01:52:59] página, então crie a página em HTML para
+[01:53:06] mim ver.
+[01:53:09] Ó, enquanto ele tá trabalhando aqui no
+[01:53:11] chat,
+[01:53:13] vamos abrir um outro chat.
+[01:53:16] Ó, eu não tenho, eu não tenho os
+[01:53:18] recursos aqui na gratuita, mas se a
+[01:53:21] gente for na paga, no chat EPT pago,
+[01:53:26] deixa eu ir aqui no no
+[01:53:30] ó, quando eu abrir aqui no chat,
+[01:53:34] eu vou ter essa opção aqui de work,
+[01:53:38] certo?
+[01:53:40] Então também, ó, né,
+[01:53:43] eu posso baixar o aplicativo, rodar
+[01:53:45] local, então eu posso também ter um
+[01:53:48] visual, uma estrutura e tudo, né, e
+[01:53:51] escolher o projeto aqui, ó, que eu tô
+[01:53:53] trabalhando, né, tanto na pasta como no
+[01:53:57] GitHub, fazer as conexões aqui,
+[01:54:01] certo?
+[01:54:03] Então, o fato de tu tá usando VS Studio
+[01:54:07] ou a interface do do chat ou interface
+[01:54:11] do cloud code com cowork ou você tá
+[01:54:15] usando o cursor,
+[01:54:18] são vários ide ou você não usando o
+[01:54:20] antigrav
+[01:54:23] que acontece? qualquer um deles, desde
+[01:54:25] que tu tem habilidade, vive nele, tá
+[01:54:28] tranquilo. Porém, por que que eu foco no
+[01:54:31] terminal?
+[01:54:33] Porque daí a questão é da tua cabeça e
+[01:54:36] você pode estar em qualquer ambiente que
+[01:54:40] você vai rodar igual. Então, eu posso
+[01:54:43] estar em que ambiente? Eu posso estar no
+[01:54:46] Codex, no cloud Code, certo? No manus,
+[01:54:49] aonde que eu quiser usar é igual.
+[01:54:55] Certo? Então é escolha. Por exemplo, a
+[01:54:57] maioria das pessoas que eu conheço mais
+[01:55:00] avançado estão usando VB Stúio,
+[01:55:04] certo? Só que se eu começar usar o o VB
+[01:55:08] Stúo aqui para ensinar vocês, nós vamos
+[01:55:13] ter muita distração,
+[01:55:18] certo?
+[01:55:22] Então a gente desfoca daquilo que é o
+[01:55:24] essencial, André. Mas eu diria assim,
+[01:55:27] para ti ser produtivo, o VB Stú é ótimo,
+[01:55:31] certo?
+[01:55:37] Mas eu não quero dar casca, não quero
+[01:55:39] dar camada, eu quero dar fundamento.
+[01:55:46] Tanto que no curso passado, o que que a
+[01:55:48] gente fez? A gente fez tudo por, né,
+[01:55:51] pelo pelo dos.
+[01:55:55] E aqui eu já fiz vocês pegar a chave da
+[01:55:59] do SSH via Windows, né?
+[01:56:03] A Land está pronta, ó.
+[01:56:10] Ele até botou no ar, etc. e tudo que eu
+[01:56:13] nem pedi, ó.
+[01:56:16] Criei um visual simples, calmo,
+[01:56:18] responsível, etc, etc. Mas daí eu vou
+[01:56:22] pegar e clicar ele aqui, ó.
+[01:56:23] Provavelmente não vai funcionar.
+[01:56:27] Daí eu vou botar aqui o seguinte:
+[01:56:29] atualize
+[01:56:32] no Git.
+[01:56:34] Daí o usuário que eu quero é
+[01:56:36] inemaftd@gmail.com.
+[01:56:43] Você tem ssh.
+[01:56:47] Deixa eu ver o que mais.
+[01:56:49] E e o repo é o mesmo
+[01:56:56] e testes um. Vamos ver se ele passa.
+[01:57:24] Muito bem. Vamos dar um refres aqui no
+[01:57:27] no André,
+[01:57:30] ó. Enquanto o processo aqui, [roncando]
+[01:57:40] deixa eu só botar a conta é
+[01:57:45] inema FTD.
+[01:57:49] Aliás, opa, e a conta, ó, o hábito, né,
+[01:57:54] da gente, a conta é
+[01:57:58] inema
+[01:58:00] FTD.
+[01:58:03] Vamos ver se ele bota lá. Enquanto isso,
+[01:58:05] vamos olhar
+[01:58:07] a do o André. André tá show de bola,
+[01:58:11] André. Ó, então, o André pegou, criou
+[01:58:13] aqui, ó.
+[01:58:15] Certo?
+[01:58:17] E isso aqui o que que é?
+[01:58:19] Ele criou aqui o ritme. Isso aqui é o
+[01:58:22] ritmo que foi criado. Se nós olharmos, é
+[01:58:25] isso aqui, ó. Porque não é essa aqui, é
+[01:58:28] esse cara aqui. Então, tu sempre pode
+[01:58:30] dizer o que que é para colocar no ritme.
+[01:58:33] Agora, para poder nós entrar nessa
+[01:58:35] página aqui, a gente vai ter que
+[01:58:37] inverter, ó.
+[01:58:39] Então, ah, vamos abrir no lado aqui, ó,
+[01:58:43] só para nós manter a página. Vai ser, ó,
+[01:58:46] já que é
+[01:58:49] André Val 74 e Nema Testes. Então, vai
+[01:58:54] ser André
+[01:58:56] Val.github.ioio/inema
+[01:59:04] testes. Eu acho que é isso aí.
+[01:59:09] Será que é teste? Então,
+[01:59:15] ó, é testes.
+[01:59:18] Vamos só examinar.
+[01:59:22] André Val,
+[01:59:25] certo? André Valemate.
+[01:59:34] André Val. GitHub. E nemate. E aí, por
+[01:59:38] que que não tá funcionando, André?
+[01:59:43] Qual o problema?
+[01:59:45] Quem é que pode ajudar? André, Tisa,
+[01:59:51] vai lá, Tia. Me ajuda. O André ali. Que
+[01:59:54] que o André não fez certo?
+[01:59:57] A página ele não tá no ar.
+[02:00:00] Ah, muito bem, André.
+[02:00:04] Isso mesmo.
+[02:00:07] Enquanto isso, vamos ver se a minha tá
+[02:00:09] funcionando aqui.
+[02:00:20] &gt;&gt; Nei.
+[02:00:21] &gt;&gt; Oi.
+[02:00:22] &gt;&gt; Daniel aqui. Eh, Nei, eu não consegui
+[02:00:25] fazer nem o nem pegar o SSH. Eu tentei
+[02:00:28] pelo Power Shell, eu não consegui pegar.
+[02:00:31] Eu vou tentar fazer isso mais tarde, eh,
+[02:00:35] porque eu não tô conseguindo configurar
+[02:00:37] a página no GitHub, né?
+[02:00:39] &gt;&gt; Sim. Tu na página do Git, tu vai fazer o
+[02:00:42] seguinte, tu vai ir lá na página, ó.
+[02:00:44] &gt;&gt; Uhum.
+[02:00:45] &gt;&gt; Por exemplo, tá? Vamos pegar aqui no meu
+[02:00:48] FTD,
+[02:00:51] que é, eu venho aqui na minha página, ó,
+[02:00:55] onde que eu publiquei, e tu vai vir aqui
+[02:00:57] e mudar,
+[02:00:59] ó. Vai lá agora. E tu vai clicar e tu
+[02:01:02] vai ver que tá um rot aqui.
+[02:01:06] Ah, tá.
+[02:01:07] &gt;&gt; Um rot. Isso só vai aparecer esse rot
+[02:01:10] depois de você ter mandado uma vez a
+[02:01:13] página paraa internet, pro git.
+[02:01:18] Que que eu foi foi eu coloquei aula
+[02:01:21] value code e nem, né?
+[02:01:24] Eu só criei o projeto, não criei mais
+[02:01:26] nada. Sim, mas daí agora tu vai lá no
+[02:01:29] GitHub, dá um refresh, clica em cima do
+[02:01:32] teu projeto,
+[02:01:34] vai em settings e vai em página.
+[02:01:37] E aí vai aparecer aqui além de none, vai
+[02:01:41] aparecer rot
+[02:01:44] e às vezes rot e doc ou senão vai
+[02:01:47] aparecer rot aqui.
+[02:02:17] Deu
+[02:02:18] Não, ainda tô eh o set, deixa eu ver o
+[02:02:22] settings. Configuraçõ é configuraçõ.
+[02:02:25] &gt;&gt; Tu não faz mais nada no teu micro local.
+[02:02:27] É só lá.
+[02:02:30] É só lá que tu tem que fazer [roncando]
+[02:02:33] &gt;&gt; em um. Aí eu coloco o principal.
+[02:02:36] &gt;&gt; Isso.
+[02:02:37] &gt;&gt; Deixa a raiz
+[02:02:38] &gt;&gt; e salva.
+[02:02:43] &gt;&gt; Daí conta até 10 aí. 15 20 30.
+[02:02:48] E aí vai atualizar
+[02:03:12] posso pegar e olhar aqui, ó. Se eu
+[02:03:14] chegar aqui no meu GitHub
+[02:03:16] do Inema TDS, ó, qualquer um que eu que
+[02:03:20] eu clicar aqui, que não for que for
+[02:03:22] público,
+[02:03:24] ó, CC bot aqui, ó.
+[02:03:30] Se eu vou em settings
+[02:03:32] e eu vim em pages,
+[02:03:35] eu vou ter, no caso aqui, ó. Ah, não.
+[02:03:38] Esse aqui eu fiz diferente.
+[02:03:41] Deixa eu pegar um outro exemplo.
+[02:03:44] &gt;&gt; Bitub, eu nunca fusei o Bitub, né?
+[02:03:47] &gt;&gt; Sim. Não, é tranquilo. É, o objetivo é
+[02:03:49] justamente isso, né? Ó, vamos lá num
+[02:03:53] repositório, naquele repositório, tu foi
+[02:03:55] lá e vamos pensar que é esse cara aqui,
+[02:03:58] Wet,
+[02:04:00] o 3D, certo? Ó, o index tá aqui na raiz.
+[02:04:04] Se ele tivesse dentro do cursos, eu
+[02:04:06] tinha que mudar. Mas daí o seguinte, tá
+[02:04:08] na raiz, eu dou clique settings, vou na
+[02:04:12] página e aqui, ó, tá vendo? Ele era no
+[02:04:16] outro tava nono, daí tu muda para mine
+[02:04:20] &gt;&gt; em português. É, eu acho que deve ser
+[02:04:22] principal. E aqui tu deixa no root
+[02:04:25] porque a página tá no root, podia tá no
+[02:04:28] docs, podia tá lá no, né, no cursos.
+[02:04:32] E aí tu simplesmente salva isso, tá? Vai
+[02:04:36] ter um save aqui no lado.
+[02:04:48] E eu
+[02:04:51] não apareceu o domínio ainda, né?
+[02:04:54] &gt;&gt; Oi.
+[02:04:55] &gt;&gt; Só apareceu o domínio. Eh, seu site tá
+[02:04:57] online aí. tem
+[02:05:00] eh eu coloquei aula vibe coding
+[02:05:04] tem, mas eu preciso da chave a CSH.
+[02:05:13] Ó, a única coisa que tu tem que vir aqui
+[02:05:15] e fazer isso aqui, ó. Botar no mine e
+[02:05:17] deixar no root e dar save e não mexer
+[02:05:19] mais nada.
+[02:05:22] &gt;&gt; Já entendi.
+[02:05:23] &gt;&gt; Ó, daí se nós vamos fazer isso, tá? O
+[02:05:28] que que eu quero fazer? Aquela questão
+[02:05:30] que eu disse, eu tava no, acho que aqui
+[02:05:33] fazendo,
+[02:05:38] não, deixa eu me localizar aqui aonde
+[02:05:41] que eu tô no FTD aqui que eu tava
+[02:05:44] fazendo com
+[02:05:51] Não. Então, vamos lá.
+[02:05:53] Eh, André Val
+[02:05:58] 74.
+[02:06:01] GitHub.
+[02:06:07] O teste
+[02:06:10] inema
+[02:06:14] é testes inema ou teste?
+[02:06:23] Ah! Ah!
+[02:06:38] Ver que nós fiz.
+[02:06:43] &gt;&gt; O meu tá tá no O meu tá no ar. Ô net,
+[02:06:47] &gt;&gt; eu acho que eu digitei alguma coisa
+[02:06:49] errada.
+[02:06:53] &gt;&gt; O meu, o Você quer que eu coloque aqui
+[02:06:55] no chat o meu link?
+[02:06:58] &gt;&gt; Coloca o link ali para mim ver o que que
+[02:07:00] eu tô digitando errado. Oi. Oi, filho.
+[02:07:03] &gt;&gt; Que eu fiz agora.
+[02:07:04] &gt;&gt; Ah, não. Aqui eu botei ao contrário, ó.
+[02:07:06] Eu botei testes inema e é inema
+[02:07:10] teste.
+[02:07:12] Bingo
+[02:07:15] &gt;&gt; Paula, o André, o Daniel já passou por
+[02:07:18] ti, Marcos. O Daniel já passou por ti.
+[02:07:21] Ta, tu nem chegou perto ainda. Assim não
+[02:07:24] dá. Ó, vem cá.
+[02:07:26] &gt;&gt; Fazendo aqui, ó. Tá fazendo aqui,
+[02:07:28] &gt;&gt; ó. Olha aqui, ó. Esse cara aqui já fez,
+[02:07:30] ó. Já fez, tá?
+[02:07:33] Esse cara sabe tudo. Esse cara dá um nó
+[02:07:36] na mãe dele.
+[02:07:40] &gt;&gt; Aí se eu pegar a chave agora eu faço por
+[02:07:46] &gt;&gt; veja o SSH não é importante aqui, certo?
+[02:07:50] O SSH é só para tu não precisar quando
+[02:07:52] ele fizer a conexão, tá pedindo a senha
+[02:07:56] toda hora.
+[02:07:57] &gt;&gt; Entendi.
+[02:07:59] &gt;&gt; Tá. Então, tipo assim, o SSH é só para
+[02:08:02] aumentar a segurança e diminuir nosso
+[02:08:05] trabalho de autenticação.
+[02:08:08] Depois eu pego o direitinho, então, eh,
+[02:08:12] porque pelo que eu entendi, o SSH para
+[02:08:14] rodar com a máquina, com a minha
+[02:08:16] máquina, né, localmente, [roncando]
+[02:08:18] &gt;&gt; o SSH é apenas uma forma de tu dizer, a
+[02:08:23] conexão
+[02:08:25] entre essa máquina e esse serviço tá
+[02:08:28] autenticada.
+[02:08:30] Uhum.
+[02:08:32] Perfeito.
+[02:08:32] &gt;&gt; Ele faz por trás esse trabalho para ti,
+[02:08:36] certo?
+[02:08:37] É, então eu eh depois eu vou fazer isso.
+[02:08:40] Então agora agora eh eu consigo colocar
+[02:08:43] no Verscel e também no base.
+[02:08:48] &gt;&gt; Pode pode falar o que foi.
+[02:08:51] &gt;&gt; A partir do momento que a página tá
+[02:08:54] feita no no Bitub, consigo colocá-la no
+[02:08:58] Vcel e depois no B.
+[02:08:59] &gt;&gt; Sim. Ó, veja só, nós não vamos falar
+[02:09:02] nada do Supas hoje, tá? Mas o que que
+[02:09:05] seria? Eu iria aqui vir no Versel.
+[02:09:09] Versel,
+[02:09:10] certo? Me logaria lá no Versel,
+[02:09:16] tá?
+[02:09:17] &gt;&gt; Eu tô logado com com mesmo.
+[02:09:20] &gt;&gt; É, ó.
+[02:09:23] Ah, que eu não vou conseguir.
+[02:09:26] Eu tô sem ter que autenticar telefone.
+[02:09:29] Mas você faria autenticação lá. Então
+[02:09:32] vamos usar um outro usuário aqui que é,
+[02:09:34] deixa eu ver esse aqui, tá
+[02:09:37] certo?
+[02:09:40] Tu iria no Verscela aqui, ó,
+[02:09:44] &gt;&gt; e vai importar,
+[02:09:48] ó, adicione o projeto e vai importar
+[02:09:51] aquele projeto de lá.
+[02:09:54] Então, como nós não estamos falando em
+[02:09:56] banco de dados, nada, na hora de
+[02:09:57] importar, o que que importa, né?
+[02:10:00] Combinou até isso? É esse diretório.
+[02:10:04] Se o index HTML tiver na raiz, tá
+[02:10:07] resolvido. Se não tiver na raiz, você
+[02:10:09] vai vir editar e vai buscar aonde que tá
+[02:10:13] ele, né? Ah, ele tá dentro de curso,
+[02:10:16] então tu clicaria curso,
+[02:10:20] certo?
+[02:10:21] Então essa a única coisa por enquanto.
+[02:10:24] Amanhã nós vamos focar em como dentro do
+[02:10:27] Versel eu consigo usar uma API de fora,
+[02:10:31] né? Como é que eu consigo acessar meu
+[02:10:34] banco de dados de fora,
+[02:10:37] tá? Então amanhã nós vamos focar só no
+[02:10:39] superbase. Então o o
+[02:10:42] Verselo é muito fácil. Então vou falar
+[02:10:44] agora sobre o Versel.
+[02:10:47] Obrigado,
+[02:10:48] &gt;&gt; então, a nossa ideia do Versela é o
+[02:10:50] seguinte. Quando eu tenho um projeto já
+[02:10:53] configurado,
+[02:10:55] eu tenho dois lugares importantes para
+[02:10:57] olhar. Um deles é as minhas variáveis.
+[02:11:01] Então, se eu selecionei um projeto, tá?
+[02:11:05] E esse projeto, por exemplo, seria o o
+[02:11:11] acho que o buscas que eu tava
+[02:11:12] demonstrando, certo? E daí eu clico em
+[02:11:16] variáveis aqui, ó, seria as variáveis
+[02:11:18] que eu vou colocar aqui. O busca não tem
+[02:11:21] nada de variáveis, certo? Ele não
+[02:11:23] precisa de um banco nem nada para mim tá
+[02:11:25] buscando.
+[02:11:27] Agora, se eu pegar, por exemplo, eu vou
+[02:11:29] pegar um outro projeto,
+[02:11:32] o projeto cérebro aqui, cérebro VIP,
+[02:11:37] certo? Então, quando eu clico em
+[02:11:39] variável, o cérebro VIP, ele precisa do
+[02:11:42] Open Router, certo? que eu tava vendo
+[02:11:44] antes e a chave, certo? E eu modelo.
+[02:11:49] Então, eu tenho a chave do Open Router e
+[02:11:52] o modelo. Para quê? Para ele buscar. E
+[02:11:55] quando alguém tá perguntando alguma
+[02:11:56] coisa, eu tô usando uma API do Open
+[02:11:59] Router para responder,
+[02:12:02] certo?
+[02:12:04] Que é um serviço,
+[02:12:06] tá? Uma penalter, é só fazer mais uma
+[02:12:10] chave, escolher o modelo e colocar lá.
+[02:12:13] Isso. Então, de, mas isso eu vou me
+[02:12:15] focar amanhã. Amanhã a gente vai fazer
+[02:12:17] essas conexões. Outra coisa que nós
+[02:12:20] temos aqui, né, do Versel é o domínio.
+[02:12:25] Então vocês estão vendo aqui quando você
+[02:12:27] digitar CVP.
+[02:12:30] Innema pro, ele vai aonde ele vai buscar
+[02:12:35] isso. A mesma coisa, né?
+[02:12:38] H, ele vai tá configurando isso aqui. Eu
+[02:12:42] vou já mostrar para vocês em detalhe.
+[02:12:45] Então, eu tenho aqui várias coisas, por
+[02:12:47] exemplo, deployment,
+[02:12:49] né? Se eu vou ver o que que ele fez, né?
+[02:12:51] Ó, tá bloqueado, bloqueado, bloqueado
+[02:12:54] aqui, né? Mas por que tá tudo bloqueado,
+[02:12:58] certo?
+[02:13:00] Então eu vou ter que ver por que ele tá
+[02:13:02] bloqueado aqui,
+[02:13:04] certo?
+[02:13:12] Ó, ele não tá fechando. Eu tô usando o
+[02:13:15] cérebro, uma conta de e-mail que não
+[02:13:17] fecha porque esse usuário aqui não é
+[02:13:20] isso aqui. Então eu teria que tá só na
+[02:13:23] versão paga para poder mais de um
+[02:13:26] usuário ao mesmo tempo, certo? Então vou
+[02:13:30] poder depois dar uma olhadinha aqui.
+[02:13:32] Outra coisa, ã,
+[02:13:35] log, etc. e tudo. E lá embaixo eu tenho
+[02:13:38] settings,
+[02:13:40] tá? O settings. Quando eu dou building,
+[02:13:44] deployment,
+[02:13:46] eu clico aqui, eu tenho como mudar o
+[02:13:50] root do diretório que vocês não mudaram
+[02:13:53] lá na raiz, só que aqui eu não consigo
+[02:13:55] navegar. Aqui eu tenho que escrever qual
+[02:13:58] é o root se fosse lá dentro do cursos.
+[02:14:02] Então tu configura aqui, certo? Então
+[02:14:06] ele tem muit opções que nem o Git. Qual
+[02:14:09] é o git que eu tô usando? Certo? Então
+[02:14:12] tu configura aqui, ó, inema TDS ser VIP,
+[02:14:17] tá? É a conexão é por aqui. É aqui que é
+[02:14:20] a importação. Se eu quiser desconectar e
+[02:14:22] conectar de novo em outro caminho, em
+[02:14:24] outro lugar, é por aqui, certo? Então
+[02:14:28] são vários lugares, é muita
+[02:14:30] configuraçãozinha que você tem, mas eu
+[02:14:32] para mim existe duas coisas importantes,
+[02:14:36] que é o environment, certo? Que é as
+[02:14:41] variáveis aqui, o melhor três, vamos
+[02:14:44] pensar assim, mas eu o que importa é
+[02:14:46] duas. as variáveis, certo? E o
+[02:14:52] diretório, certo? Que é lá no no
+[02:14:55] settings, settings,
+[02:14:58] building deployment. É aqui que tu muda
+[02:15:02] o diretório, ó.
+[02:15:05] E a terceira coisa que poderia ser é o
+[02:15:08] domínio, por exemplo, né? Eu tenho
+[02:15:12] domínio aqui, aonde que tá aqui. Então
+[02:15:14] eu posso vir e criar vários domínios
+[02:15:17] aqui. Eu poderia dizer que é
+[02:15:19] cerebro.inema.com,
+[02:15:22] né, ppr.
+[02:15:24] E eu daria aqui, botaria ele cadastraria
+[02:15:28] aqui. Então eu poderia dar cérebro,
+[02:15:32] cerebro
+[02:15:36] pinema.pro.
+[02:15:39] Se eu dou adicionar o domínio, certo?
+[02:15:43] Ah, ele disse que já tem, ó, já tem de
+[02:15:47] um outro cara aqui que é para trazer
+[02:15:49] para cá. Não, não quero, tá? Não fui
+[02:15:52] feliz no exemplo aqui, mas eu posso
+[02:15:55] estar dando assim, então
+[02:15:59] cérebro dois, cérebro 2 ponto ãema
+[02:16:07] pro.
+[02:16:09] Adiciono o domínio aqui.
+[02:16:12] Pronto. Ele vai ficar vermelho porque eu
+[02:16:15] tenho que ir lá no meu DNS colocar essa
+[02:16:18] variável aqui.
+[02:16:24] A Tisa criou uma página, né, de
+[02:16:27] divulgação da imersão que nós vamos ter
+[02:16:29] esse mês. E ela disse: "Ah, tá lá a
+[02:16:32] página imersão, né, pvversel.
+[02:16:37] App. Ah, mas ela queria que tivesse, né?
+[02:16:41] Imersão.
+[02:16:43] Pro
+[02:16:45] Inema Pro.
+[02:16:47] Ela tem que me dar isso aqui para mim
+[02:16:49] configurar para que aquilo apareça como
+[02:16:52] imersão pinema pro.
+[02:16:57] Eu entendo um pouco direal com página,
+[02:16:59] né? Eh, páginas, né, no provedor e tudo
+[02:17:03] mais. Eh, isso aí é um pouco fácil. Por
+[02:17:06] isso tudo isso aqui, a minha sugestão é
+[02:17:08] vocês centralizarem no cloud fair,
+[02:17:12] porque daí você simplesmente vai dar um
+[02:17:14] comando aqui. E é o que eu faria aqui,
+[02:17:16] ó. Eu daria um comando agora, conttrl C.
+[02:17:19] Isso aqui eu iria na minha VPS,
+[02:17:24] ó.
+[02:17:25] Eu vou aqui e só colocaria aqui, ó.
+[02:17:30] Coloque
+[02:17:32] no
+[02:17:34] ar.
+[02:17:35] E dou o link aqui, ó, que nem eu fiz
+[02:17:37] aqui em cima, ó. Tá vendo o lib? A mesma
+[02:17:40] lógica, ó. E ele vai daqui uns
+[02:17:43] minutinhos, tá pronto.
+[02:17:51] Tá legal. Meu fone hoje não tá
+[02:17:54] funcionando aqui.
+[02:17:55] &gt;&gt; Muito obrigado, viu,
+[02:17:57] &gt;&gt; pessoal? Eu vou ficar disponível. Oi,
+[02:18:01] obrigado. Obrigado.
+[02:18:02] &gt;&gt; Tá, eu vou ficar disponível aqui um
+[02:18:05] pouco para vocês.
+[02:18:08] Só tem que tirar esse som daqui em algum
+[02:18:10] lugar.
+[02:18:16] Eu já volto aí. Eu vou no banheiro e já
+[02:18:17] volto aí para tirar as dúvidas de vocês,
+[02:18:19] tá bom?
+[02:18:23] Mas cadê o som?
+[02:18:36] às vezes. Tá bom, já volto aí.
+[02:18:47] G
+[02:18:54] [limpando a garganta]
+[02:19:10] sp your
+[02:19:21] Can
+[02:19:41] together we
+[02:19:45] [canto]
+[02:19:47] sky
+[02:20:33] the
+[02:20:51] We are the future
+[02:20:54] building dreams [canto] in
+[02:21:04] we build
+[02:21:06] the future
+[02:21:08] the
+[02:21:09] Come down.
+[02:21:45] Aí, ó, tem uma música por aí.
+[02:21:54] Tá aqui. Achei.
+[02:22:05] &gt;&gt; Pessoal, eu vou deixar vocês que eu
+[02:22:07] tenho que levar minha filha na fono.
+[02:22:09] Amanhã estamos aí. Quem precisar umas 7
+[02:22:12] horas tô disponível de novo. Podem me
+[02:22:14] chamar ali na comunidade, tá?
+[02:22:16] &gt;&gt; Obrigada, filha.
+[02:22:17] &gt;&gt; Até mais. Tem mais, tem mais. Tô de
+[02:22:19] volta aqui.
+[02:22:23] &gt;&gt; Então, ó, pessoal, o negócio é
+[02:22:25] atualizar,
+[02:22:28] certo?
+[02:22:35] Carrega o agente pelo Power Sol. Estar
+[02:22:38] agente Tit.
+[02:22:48] Deixa eu ver assim.
+[02:22:50] Por não
+[02:22:53] posso
+[02:22:55] usar ela?
+[02:23:00] Onde está o limite?
+[02:23:11] Ó, ele tá, eu tô usando essa, o CMD, daí
+[02:23:14] ele disse que não, que eu teria, tá?
+[02:23:20] O limite é o sandbox dessa sessão, não
+[02:23:23] da sua chave, nem do git. Eu posso
+[02:23:26] acessar os arquivos dentro de teste um.
+[02:23:29] Algumas pastas também tem leitura
+[02:23:31] permitida como git, porém essa pasta
+[02:23:34] está bloqueada.
+[02:23:38] Ah, tá bom.
+[02:23:44] Qual o comando que dou?
+[02:23:53] Ah, tá aqui, ó.
+[02:24:01] Tá. A forma segura é usar essa gente que
+[02:24:04] mantém ela.
+[02:24:06] Então eu vou rodar isso aqui, ó. Ó.
+[02:24:08] Legal.
+[02:24:10] Eu não tive acesso à página do SSH.
+[02:24:14] Então eu vou fazer isso aqui.
+[02:24:19] Vou rodar esse cara aqui. Vamos ver se
+[02:24:22] vai dar certo. CMD.
+[02:24:34] Deixa eu botar.
+[02:24:36] Quero comandos no cmd. É só para mim
+[02:24:40] complicar com a vida dele.
+[02:25:08] Show de bola. Vou dar uma olhada, Azar,
+[02:25:11] André. Já vou dar uma olhada. Só deixa
+[02:25:13] eu resolver meu problema aqui, tá? Ó, o
+[02:25:17] comando, tá? Ele é diferente. Esse
+[02:25:20] comando aqui é para o Power Shell. Esse
+[02:25:22] aqui é o SMD,
+[02:25:32] tá?
+[02:25:34] Ó, vou abrir como um administrador.
+[02:25:36] Então, eu clico aqui, ó.
+[02:25:39] E eu tenho que abrir ele como
+[02:25:41] administrador.
+[02:25:42] Botão da direita.
+[02:25:46] Cadê você?
+[02:25:50] CMD
+[02:25:53] aqui em cima, ó. Tá aqui o CMD. Botão da
+[02:25:55] direita como administrador.
+[02:26:01] Sim.
+[02:26:02] Daí eu eu dou aqueles comandos A.
+[02:26:15] Deixa eu ver se deu certo.
+[02:26:26] Não sei se ele pegou isso aqui ou não,
+[02:26:28] mas vamos voltar lá.
+[02:26:35] Teste agora.
+[02:27:28] Nossa, quero
+[02:27:32] quero ter acesso aqui nesta sessão
+[02:27:40] da chave.
+[02:27:43] Eu
+[02:27:49] quero usar aquela chave original.
+[02:27:56] Assim é a gente, né? Briga com coisas
+[02:27:59] óbvias.
+[02:28:23] É, ele quer, ele me deu uma curva, mas
+[02:28:25] eu não quero isso.
+[02:28:28] Mas não quero
+[02:28:32] uma chave por repositório.
+[02:28:36] Quero uma geral que posso usar.
+[02:28:44] Qual alternativa
+[02:28:47] definitiva você me dá?
+[02:29:42] Isso é porque eu entrei num num modelo
+[02:29:44] de sandbox aí de proteção e ele não tá
+[02:29:48] deixando eu chegar na chave lá. Eu tô
+[02:29:51] querendo ver sua chave já é geral contra
+[02:29:56] o bloqueio é apenas sandbox do Codex. Eu
+[02:29:59] sei disso, eu quero resolver isso. A
+[02:30:02] solução definitiva é usar chave,
+[02:30:04] executar comando, push em qualquer
+[02:30:05] repositório, iniciar o codex com full
+[02:30:08] acesso,
+[02:30:10] tá?
+[02:30:12] Então tá aí, ó.
+[02:30:14] Agora deixa eu ver assim.
+[02:30:16] Veja
+[02:30:18] qual a diferença no CX ponto
+[02:30:28] cx.bate
+[02:30:31] que eu já tenho,
+[02:30:35] ó. É só esse aqui, ó. Danger full
+[02:30:38] acesso.
+[02:30:41] Tem que colocar esses parâmetros lá no
+[02:30:43] arquivinho. Ja.
+[02:31:00] Так.
+[02:31:44] Crie [roncando]
+[02:31:47] cria um cx2.
+[02:31:51] Bate,
+[02:32:01] ó. É aqueles parâmetros do codex aí que
+[02:32:04] tá que eu tinha aqui, ó, por proteção,
+[02:32:06] porque como eu tava testando e coisa na
+[02:32:08] minha máquina, eu não,
+[02:32:12] eu faço o teste, então eu coloco
+[02:32:14] restrição nele. Era isso que tá dando o
+[02:32:16] problema.
+[02:32:27] E essas restrições é para não
+[02:32:31] para ele não delar nada na sua máquina.
+[02:32:33] &gt;&gt; Isso, ó. Pode ver o comando que ele tá
+[02:32:36] dando aqui, ó. Danger for acesso, ou
+[02:32:39] seja, acesso total, certo? E se botar on
+[02:32:43] request, é sempre que tiver um risco,
+[02:32:45] ele vai ter prontar IAS,
+[02:32:48] certo? Mas eu coloquei aqui, né, que ele
+[02:32:52] tá protegendo a minha máquina e tudo,
+[02:32:55] certo? Tá, mas com sandbox, mas eu botei
+[02:32:59] o never, que eu não quero ficar dando
+[02:33:01] yes e yes yes. Só que ele não faz nada
+[02:33:03] de grave fora da minha pasta,
+[02:33:08] só abaixo da minha pasta.
+[02:33:11] Por isso esse é workspace.
+[02:33:13] No meu workspace eu tenho acesso
+[02:33:15] gravação total, mas eu tô num sandbox,
+[02:33:19] numa proteção, numa caixa de areia, né,
+[02:33:22] de proteção. Então o que que eu tô
+[02:33:25] querendo? Querendo acessar aquela chave
+[02:33:28] dentro do SSH e ele não deixa.
+[02:33:31] &gt;&gt; Entendi.
+[02:33:34] &gt;&gt; Daí agora eu criei o C X2.
+[02:33:38] Agora sim, ó.
+[02:33:44] Ó, CX2
+[02:33:47] pon.
+[02:33:53] Agora sim, vamos ver. Quero atualizar o
+[02:33:57] git para o
+[02:34:00] repo inema
+[02:34:03] FTD
+[02:34:08] @ugmail.com
+[02:34:13] usuário e
+[02:34:15] userema
+[02:34:17] FTD.
+[02:34:53] Obrigado.
+[02:34:54] &gt;&gt; O repositório é cinema. Não,
+[02:35:00] testes um.
+[02:35:33] Que confusão por causa de segurança
+[02:35:35] aqui.
+[02:35:46] Por isso que aí a estrutura de você tá
+[02:35:49] criando, né, um projeto por projeto, né,
+[02:35:52] ele ele dá segurança que sempre vai
+[02:35:54] trabalhar aí para baixo e não para cima
+[02:35:58] pegando outras coisas.
+[02:36:03] Beleza, Daniel? Até mais.
+[02:36:12] Oi, Paula. Vamos ver o da Paula. Tô
+[02:36:14] louco para ver da Paula agora.
+[02:36:22] &gt;&gt; Ó, Paula, muito bem. Primeiro,
+[02:36:36] que show.
+[02:36:38] Agora vamos botar as imagens, Paula.
+[02:37:06] Uhum.
+[02:37:09] Amanhã nós vamos fazer um um chat aqui
+[02:37:11] integrando,
+[02:37:13] certo? Porque vai ser gravado tudo no
+[02:37:15] banco, vai ter base de informação no
+[02:37:18] banco.
+[02:37:27] Show de bola.
+[02:37:31] Tá, ó, aproveita, deixa bonitinho esse
+[02:37:34] site com as imagens e tudo para amanhã
+[02:37:36] nós deixar ele, ó, bala. Ó, mais alguém
+[02:37:39] fez aí? Deixa eu ver
+[02:37:42] aqui o o
+[02:37:47] Zagda. Ó, o outro aqui
+[02:37:59] aceitar as privacidades.
+[02:38:06] Olha só, até tem um falar aqui com o
+[02:38:09] consultor,
+[02:38:11] um chatzinho aqui.
+[02:38:14] Muito bom.
+[02:38:18] falar com o especialista.
+[02:38:22] Ativar agora.
+[02:38:33] Muito bom.
+[02:38:36] Agora o seguinte, se eu quisesse pegar
+[02:38:39] esse site, o da Paula aqui, vamos pegar
+[02:38:41] da Paula aqui, só para complicar a vida
+[02:38:45] dela.
+[02:38:46] Eu poderia ir aqui embaixo, abrir uma
+[02:38:49] nova sessão, olha.
+[02:38:51] CMD,
+[02:38:56] CD Projetos,
+[02:38:58] MK.
+[02:39:00] Vamos lá. CD
+[02:39:03] M kadir
+[02:39:07] analise. Opa.
+[02:39:11] análises.
+[02:39:13] CD análises,
+[02:39:17] não, CD analises.
+[02:39:20] Agora eu vou pegar,
+[02:39:24] vou
+[02:39:26] chamar esse cara aqui.
+[02:39:33] Muito bem.
+[02:39:36] Vamos ver.
+[02:39:38] Imp.
+[02:39:40] Não tá aí
+[02:39:42] em pé.
+[02:39:45] Me dei mal aqui. Ele não tá
+[02:39:48] a Então vamos lá. Aqui na VPS
+[02:39:54] cd.
+[02:39:56] Mkadir
+[02:39:58] análise
+[02:40:00] sites
+[02:40:02] CD ana
+[02:40:05] ver. Opa.
+[02:40:09] CD
+[02:40:11] análises
+[02:40:12] stat.
+[02:40:17] Isso.
+[02:40:19] Vamos pegar o site da Paula
+[02:40:22] e dizer assim: "Quero,
+[02:40:26] eu tenho aqui o impecável, ó, esse cara
+[02:40:29] aqui.
+[02:40:30] Quero uma crítica
+[02:40:34] do site da Paula.
+[02:40:44] Seja duro. Não quero elogio,
+[02:40:49] quero crítica.
+[02:40:54] O que que o impecável faz? Ele é uma
+[02:40:56] skill que tem um design legal.
+[02:41:01] Então ele aprende sobre isso. Então ele
+[02:41:03] tá muito crítico. Eu atualizei ontem ele
+[02:41:07] paraa versão 4. Eu tinha a versão 311 e
+[02:41:10] tinha muitas versões novas. Então eu tô
+[02:41:13] louco para ver. Eu não quero botar ele
+[02:41:15] criticar o meu, tá? [risadas]
+[02:41:17] Vou deixar de criticar dos outros.
+[02:41:21] Então ele permite você desenvolver site
+[02:41:24] usando ele, etc. e tudo.
+[02:41:28] Então agora ele vai pegar, tá usando,
+[02:41:33] ó, tá? Ele já tá criando aqui, ó,
+[02:41:36] referência crítica MD, ou seja, aqui
+[02:41:39] dentro tem um, né, instruções
+[02:41:44] do que que é para ser crítico, o que que
+[02:41:46] é, né? Então, claro que a gente pode
+[02:41:49] olhar lá e ver o ponto de vista que ele
+[02:41:51] colocou lá.
+[02:42:05] Demora, demora.
+[02:42:14] Ó, crítica.
+[02:42:19] Veredico em uma frase. Tá preparada,
+[02:42:22] Paulo?
+[02:42:24] Isso não é um site, é um template
+[02:42:26] preenchido pela metade que foi para a
+[02:42:28] produção.
+[02:42:30] Antes de discutir design, ele falha no
+[02:42:33] básico. Um cliente quer entrar aqui não
+[02:42:35] consegue falar com a empresa. É óbvio,
+[02:42:39] né? [risadas]
+[02:42:40] Tá? E aí, pá, pá, pá, pá, faz toda uma
+[02:42:43] crítica aqui, né?
+[02:42:46] Eh, e etc, etc, etc. Então, o que eu tô
+[02:42:51] querendo, na verdade, não é criticar o,
+[02:42:53] né, o site da da Paula, mas usar
+[02:42:56] como você pode melhorar, né, descobrir
+[02:43:01] as coisas que estão erradas, etc., e
+[02:43:03] tudo no teu site.
+[02:43:06] Certo?
+[02:43:08] Então, ó, ele fez um relatório de tudo
+[02:43:10] isso aqui, ó. E por que que eu peguei o
+[02:43:13] da Paula? Porque ele tava pela metade
+[02:43:15] justamente, né?
+[02:43:17] Então é legal para mostrar bem assim os
+[02:43:20] erros que a gente possa ter depois de
+[02:43:24] feito ele principalmente, né?
+[02:43:30] Ninguém revisou essa página.
+[02:43:33] [risadas]
+[02:43:42] Mas o importante é de um negócio visual.
+[02:43:45] que vende acabamento e está vazia e
+[02:43:47] ainda avisa que está vazia. [risadas]
+[02:43:53] Por isso eu digo aí a não é inteligente,
+[02:43:55] né?
+[02:43:59] Mas beleza. Então, impecável. Vocês
+[02:44:01] podem baixar essa essa
+[02:44:04] skill que é bastante válida para você
+[02:44:07] fazer design, etc. e tudo, tá?
+[02:44:12] &gt;&gt; [roncando]
+[02:44:13] &gt;&gt; e
+[02:44:15] sempre usar como referência. Tanto que
+[02:44:17] aqui no Inema, ó, deixa eu clicar aqui
+[02:44:21] no Inema Tools,
+[02:44:25] Inema
+[02:44:28] Nema
+[02:44:31] Tools. Nós temos aqui, ó,
+[02:44:35] site L page. Tem vários sites aqui que
+[02:44:38] são de referência para você usar.
+[02:44:42] Certo? Então a gente não usa mais
+[02:44:45] templates nem nada, você usa
+[02:44:47] referências.
+[02:44:49] Então tem bastante eh conteúdo assim que
+[02:44:53] são sites que vão virando referências
+[02:44:56] para você dizer, certo? Então é uma
+[02:44:59] forma que você tem de melhorar lampages,
+[02:45:02] etc e tudo, mas a gente fala, mas não
+[02:45:06] faz na nossa, né?
+[02:45:10] Tá legal?
+[02:45:12] Então era isso, tá? Eu acho que hoje era
+[02:45:15] mais ou menos. Se vocês tiverem alguma
+[02:45:16] dúvida, tô eu aqui ainda. Deixa eu abrir
+[02:45:18] o chat que mudei de página aqui.
+[02:45:25] Aqui
+[02:45:29] não.
+[02:45:44] Bom, nem sei agora onde tá meu chat
+[02:45:45] aqui.
+[02:45:48] Eu vou fazer minha pergunta por áudio
+[02:45:49] aqui mesmo, então pode ser.
+[02:45:51] &gt;&gt; Tá, tá bom. pode
+[02:45:54] que não se
+[02:45:54] &gt;&gt; é lá no no primeiro tópico, né, no
+[02:45:56] começo da aula do sobre vibe do Code,
+[02:45:59] quando você falou que é pra gente criar
+[02:46:01] um um documento
+[02:46:04] eh, né, uma pasta do que ali e criando
+[02:46:07] contexto, as imagens, textos, né,
+[02:46:09] material de chat anterior para depois
+[02:46:11] poder trabalhar. Eh, num determinado
+[02:46:14] você falou assim, olha, você disse,
+[02:46:16] olha, tem que construir um plano então
+[02:46:18] eu eu uso o Cloudex e o Codex, né? Eles
+[02:46:21] ficam ali no looping para melhorar
+[02:46:24] aquilo. Aí no CMD, como que você evoca
+[02:46:27] eles? É simplesmente com
+[02:46:31] com um ordem vibe core ou não tem um
+[02:46:35] código específico?
+[02:46:36] &gt;&gt; Não, quando você vai fazer, por exemplo,
+[02:46:38] assim, se tu usar o Codex, o Cloudex,
+[02:46:40] por exemplo, tá?
+[02:46:43] Vamos lá no
+[02:46:50] E a outra pergunta de Jacente seria
+[02:46:52] quando você fala de jogos de guerra, é
+[02:46:54] uma skill delas também ou não?
+[02:46:57] &gt;&gt; Sim. Ó, vou te mostrar aqui as duas,
+[02:47:01] tá?
+[02:47:03] Ã,
+[02:47:05] primeiro cloud dex
+[02:47:10] aqui, certo?
+[02:47:16] Depois até eu tenho que agora não me
+[02:47:18] lembro qual é a diferença entre as duas
+[02:47:20] aqui. Eu acho que essa aqui eu já
+[02:47:21] adaptei ela, tá? Mas igual vamos dar uma
+[02:47:25] olhadinha nessa.
+[02:47:28] A ideia aqui, ó,
+[02:47:32] tá? que você tenha instalado ela no teu
+[02:47:35] cloud
+[02:47:37] e você vai ter a PI, né, do tu vai fazer
+[02:47:41] a instalação dentro do cloud. Deixa eu
+[02:47:44] ver se diz aqui,
+[02:47:47] ó. Você vai, ó, recomendado, né? Tu vai
+[02:47:50] usar o Codex Plugin CC para fazer a
+[02:47:53] integração entre os dois, tá? Tu tem
+[02:47:56] isso aqui, ó, o plugin que integra os
+[02:47:59] dois.
+[02:48:02] Certo? E aí ele vai te pedir, ó, codex
+[02:48:05] setup. Daí tu vai botar usuário e senha.
+[02:48:08] Então tu vai est o Codex dentro do
+[02:48:11] cloud,
+[02:48:13] certo?
+[02:48:15] &gt;&gt; Assim como quando tem, tu tem o
+[02:48:18] antigravity, tu instala o Codex e o
+[02:48:21] cloud dentro do antigravity,
+[02:48:25] porque tu vai fazer, ele vai,
+[02:48:27] provavelmente nessa aqui ele vai te
+[02:48:28] perguntar usuário e senha.
+[02:48:33] Mas aqui, ó, aqui tem o espaço para
+[02:48:36] fazer isso, tá? Deixa eu só olhar o que
+[02:48:40] que é o outro aqui, o ICDX.
+[02:48:49] Ah, eu eu só traduzi e ajustei alguma
+[02:48:52] coisa nele aqui.
+[02:48:59] É, eu acho que foi isso. Eu não quis
+[02:49:02] mexer na no original e daí eu tirei uma
+[02:49:05] cópia aqui. Tá só em português ele, mas
+[02:49:07] deve ser igual.
+[02:49:09] Certo? Então, só pra leitura e para
+[02:49:14] ó, por baixo do capô. Então,
+[02:49:19] a ideia aqui, ó, tu dá barra cloudex
+[02:49:22] 2.plan,
+[02:49:24] né? E aí tu vai usar ele dessa forma.
+[02:49:28] Mas isso eu te digo assim, no básico,
+[02:49:32] quem tá começando, não precisa instalar
+[02:49:34] isso, não precisa focar nisso, o que tu
+[02:49:37] faria? Fez o plano, ele vai criar um MD.
+[02:49:42] Tu pega o plano e leva no Codex.
+[02:49:45] faz análise e vice-versa,
+[02:49:49] certo? Outra coisa que tu pode fazer,
+[02:49:51] não tem nem codex lá, tu pega, tem o
+[02:49:54] cloud, certo? Tu faz o plano, gerou o
+[02:49:58] arquivo, vai lá no no o no chat GPT e
+[02:50:02] manda ele avaliar aquele plano,
+[02:50:06] certo?
+[02:50:07] Mas tu não tem o, digamos, o Cloud, tu
+[02:50:10] tem o Codex ou ou o e fez o plano. Você
+[02:50:15] pode levar lá no Manos,
+[02:50:18] né? Tu pode levar lá no Grock,
+[02:50:21] em qualquer lugar que tu levar. E se tu
+[02:50:23] não quiser levar para um outro lugar, o
+[02:50:25] que que tu pode fazer? Dentro do próprio
+[02:50:28] Codex, você tem várias versões,
+[02:50:32] certo? de de
+[02:50:35] LLMs. Então, sempre procurar fazer o
+[02:50:39] projeto na melhor
+[02:50:41] e a implementação pode ser na menor, na
+[02:50:44] média,
+[02:50:47] né?
+[02:50:49] A implementação é bom que o esforço seja
+[02:50:51] o mínimo
+[02:50:56] &gt;&gt; caso do dos créditos.
+[02:51:00] Não só por isso, porque é o seguinte,
+[02:51:03] você tem, tu tem dois funcionários
+[02:51:05] trabalhando contigo.
+[02:51:07] Um é criativo
+[02:51:09] e outro segue as coisas.
+[02:51:14] Tu mandar pro criativo, ele é capaz de
+[02:51:16] nem fazer o que tu quer.
+[02:51:20] &gt;&gt; Ele começa
+[02:51:22] &gt;&gt; a ver,
+[02:51:22] &gt;&gt; a sinar demais, né?
+[02:51:24] &gt;&gt; Sim. Veja o quando você tem esforço
+[02:51:27] maior, ele tem raciocínio. Então ele vai
+[02:51:29] pegar aquilo e dizer: "Escute, será que
+[02:51:31] eu não tenho uma outra forma de fazer?"
+[02:51:34] E vai tendo.
+[02:51:37] Então talvez na ele vai te entregar
+[02:51:40] alguma coisa que não precisava. Então a
+[02:51:42] gente sempre, claro, tu quer quando?
+[02:51:45] Quando é planejamento eu, tu quer que
+[02:51:46] ele busque várias formas e consolida
+[02:51:50] uma.
+[02:51:52] Agora, depois que tu já consolidou isso,
+[02:51:55] dá para alguém que seja operacional, não
+[02:51:58] que seja criativo.
+[02:52:01] &gt;&gt; Então, a hora que você evoca ali o
+[02:52:03] Codex, você coloca essa taxa de esforço.
+[02:52:06] Tem um um uma maneira de fazer um setup
+[02:52:10] de
+[02:52:10] &gt;&gt; Sim. Sim. Tu faz o esforço, tu seta o
+[02:52:12] esforço,
+[02:52:14] tá? nos dois tu faz isso.
+[02:52:16] &gt;&gt; E uma das coisas assim, ó, que nem eu
+[02:52:18] quando eu tinha a minha empresa lá, tá?
+[02:52:21] Eu tinha uma equipe, eu chamava a galera
+[02:52:24] para discutir,
+[02:52:26] mas quem decidia era eu,
+[02:52:29] certo?
+[02:52:31] Depois eu pensei, não, evoluí, vamos ter
+[02:52:34] um conselho, cara. Tu chamava o pessoal
+[02:52:37] do conselho, tu tinha que selecionar
+[02:52:39] quem era as pessoas do grupo, senão era
+[02:52:42] só tumulto.
+[02:52:45] Porque tu já tinha decidido uma coisa e
+[02:52:47] tu queria discutir daí a implementação,
+[02:52:49] mas tinha gente que continuava querendo
+[02:52:52] mexer todo o plano. Não, nós estamos
+[02:52:54] discutindo a implementação.
+[02:52:59] Eu me lembro quando eu fui pro Japão, eu
+[02:53:00] visitei várias indústrias lá na década
+[02:53:03] de 90 e
+[02:53:06] daí eu, por exemplo, eu fui numa numa
+[02:53:08] reunião lá de altos executivos e tinha
+[02:53:11] os cabeça branca e os cabeça preta, não
+[02:53:13] sei se sabem. E os cabeça branca eram
+[02:53:17] tudo com canetinha nas paredes
+[02:53:19] sentadinho e na mesa os cabeça preta lá
+[02:53:24] e um cabeça grisalho, vamos chamar
+[02:53:26] assim, que era o
+[02:53:28] E daí o cara levantou e disse assim pros
+[02:53:31] cabeça preta, tá? Ã, ó, nós temos esse
+[02:53:35] problema. Pá, pá, bá, que que nós vamos
+[02:53:37] fazer? Daí começaram todo mundo discutir
+[02:53:40] e os velhinhos lá só anotando.
+[02:53:44] Daí o cara pegou, fez o momento do chá,
+[02:53:46] todo mundo saiu, veio pra mesa os
+[02:53:49] velhinhos.
+[02:53:51] Daí cada velhinho falou, não teve
+[02:53:54] discussão, teve opinião.
+[02:53:57] Daí saiu também, daí o cara lá, o cabeça
+[02:54:00] grisalho, ficou parado um tempo ali,
+[02:54:02] tudo, anotou umas coisas aí, chamou todo
+[02:54:05] mundo, disse: "Ó, é assim que vai ser".
+[02:54:08] Então eu eu usei o melhor de cada um.
+[02:54:13] Então a lógica da I é a mesma coisa, né?
+[02:54:16] Nós usar o melhor de cada um.
+[02:54:20] Então, por exemplo, eu tô otimizando a
+[02:54:22] publicação de várias coisas, né? Eu tô
+[02:54:25] agora dois dias praticamente sem dormir,
+[02:54:28] otimizando, otimizando. O que eu
+[02:54:31] gastava? 15 milhão e de tokens.
+[02:54:35] A ideia minha é gastar zero.
+[02:54:39] Por quê? Porque eu transformei tudo
+[02:54:41] aquilo que ele fez em raciocínio em
+[02:54:43] script,
+[02:54:45] em worker,
+[02:54:47] certo? E isso tem vantagem se eu repetir
+[02:54:51] 1000 vezes.
+[02:54:53] &gt;&gt; Sim.
+[02:54:54] &gt;&gt; Se eu se eu repetir apenas algumas
+[02:54:56] vezes,
+[02:54:58] certo? Aí é melhor deixar ele fazer na,
+[02:55:01] né, na liberdade que ele tem, porque eu
+[02:55:04] gastei dois dias muitos tokens para
+[02:55:07] otimizar os scripts,
+[02:55:11] né? E eu fico pensando, né, o que que é
+[02:55:14] no futuro? O futuro é deixar o agente.
+[02:55:17] Eu tava vendo que ele tá gastando mais,
+[02:55:21] certo, agora com os script do que ele
+[02:55:24] ter criado
+[02:55:26] por conta.
+[02:55:29] Certo?
+[02:55:32] Então é [limpando a garganta] a questão
+[02:55:34] é como tu vai otimizar isso? Vai chegar
+[02:55:37] um ponto, né? Eu tô estudando bastante
+[02:55:39] sobre looping e grafos,
+[02:55:41] né?
+[02:55:43] Tu não vai estar preocupado muito com o
+[02:55:45] teu custo,
+[02:55:47] porque tu quer o resultado acontecendo
+[02:55:50] que nem não, né? Tu manda lá no
+[02:55:52] workflow, no o ultraplan
+[02:55:55] do do
+[02:55:59] cloud, ele vai criar lá 100, 200, 500
+[02:56:04] eh agentes rodando ao mesmo tempo.
+[02:56:09] E eu me lembro assim, algumas vezes que
+[02:56:11] eu usei isso, é quando eu tô assim com
+[02:56:13] bastante crédito e tá vencendo o a cota
+[02:56:17] da semana,
+[02:56:19] mas isso já não acontece mais tempo, né?
+[02:56:22] Porque eu tô aqui, ó, em dois dias eu
+[02:56:24] gastei da cota,
+[02:56:27] tô com 55% em dois dias e eu tenho mais
+[02:56:30] cinco
+[02:56:34] e eu tô poupando.
+[02:56:37] Agora vocês imaginam se, né, quando eu
+[02:56:39] vejo aquela aquele pessoal dizendo: "Ah,
+[02:56:42] tu eu tô tenho o meu sistema no Hermes
+[02:56:45] ou no Cloud C e tu pode criar os teus
+[02:56:49] agentes." Eu
+[02:56:51] fico assim, da onde que o cara vai
+[02:56:52] bancar isso em termos de token?
+[02:56:58] É, eu eu sempre penso nisso daí quando
+[02:57:00] eu vejo alguma coisa assim no Instagram
+[02:57:02] também, né?
+[02:57:05] &gt;&gt; Então, claro que vai chegar um tempo que
+[02:57:08] isso vai estar mais barato, porque
+[02:57:10] evoluiu as tecnologias e tudo, né? Mas
+[02:57:13] eu já testo. Ah, vamos rodar na minha
+[02:57:15] máquina local. Na minha máquina local o
+[02:57:18] resultado é muito ruim. Então eu prefiro
+[02:57:21] gastar, né, R$ 500, R$ 1.000 usando o
+[02:57:26] cloud, porque vai ser muito melhor, vai
+[02:57:28] ser fe bem feito uma vez e pronto,
+[02:57:33] né?
+[02:57:36] Beleza, pessoal. Então, era isso aí.
+[02:57:41] Um abraço. Até amanhã. estrada. Aí minha
+[02:57:43] minha minha página ficou pronta aqui. Eu
+[02:57:46] tô subindo ela no subindo ela agora lá
+[02:57:49] no no.
+[02:57:50] &gt;&gt; Tá bom.
+[02:57:52] Eu perdi a página. Eu acho que eu fechei
+[02:57:54] a página que era o meu chat aqui.
+[02:57:57] Tô tentando achar, mas não sei.
+[02:58:01] [roncando]
+[02:58:01] &gt;&gt; É, eu vou ver aqui para você, ó. Tem o o
+[02:58:04] André Val perguntou às 16:57.
+[02:58:08] Nei, você acha que o impecável é o
+[02:58:10] melhor hoje para design e criação de
+[02:58:13] páginas?
+[02:58:14] &gt;&gt; Sim, é que ele ele tá, na verdade, ele
+[02:58:17] tá competindo com o front design da
+[02:58:21] Antropic,
+[02:58:24] né?
+[02:58:26] Existe um outro também chamado Open
+[02:58:29] Design, que é um outro repositório, mas
+[02:58:32] daí ele é um gigante,
+[02:58:36] tá? que também é muito bom.
+[02:58:39] Mas olha só o que que acontece. O mais
+[02:58:43] importante de tudo é as referências que
+[02:58:45] tu vai dar para Iá,
+[02:58:50] certo? Então tem muitas formas de tu
+[02:58:53] pegar e dar esse tipo de coisa.
+[02:58:58] Mas, por exemplo, se você fizer o site
+[02:59:01] usando o K3,
+[02:59:03] a qualidade é muito melhor do que tu
+[02:59:06] fazer isso no Opos,
+[02:59:09] porque o K3 já é em design, ele compete,
+[02:59:13] talvez ele é melhor do que o próprio ã
+[02:59:18] o próprio Fable.
+[02:59:20] Só que o problema todo é o seguinte. Se
+[02:59:23] você pegar aqui, ó, vamos olhar isso.
+[02:59:26] Open, eh,
+[02:59:29] open router.
+[02:59:38] Se eu entrar aqui no Open Router
+[02:59:46] models
+[02:59:49] e a gente pensar, eu vou usar o K3,
+[02:59:53] certo? O K3 é muito bala e tudo, mas
+[02:59:56] quanto é o custo? 14. Ô, baixaram dólar
+[03:00:00] agora. Certo?
+[03:00:03] Então,
+[03:00:05] se ele custa $ em token e eu tiver
+[03:00:09] usando aqui o Fable
+[03:00:14] que custa $50, realmente ele é 1/3.
+[03:00:21] Mas quando nós estamos usando o Fibo por
+[03:00:23] aqui,
+[03:00:25] se você tiver usando o Fabio pelo pela
+[03:00:28] ação em Natura, ele é quantas vezes mais
+[03:00:31] barato?
+[03:00:34] Você
+[03:00:36] sabe que tem um estudo, né, dizendo que
+[03:00:39] se tu ir lá pro chat aqui de novo e no
+[03:00:42] chat tem estudo
+[03:00:46] sobre
+[03:00:47] custo da
+[03:00:52] assinatura
+[03:00:55] do cloud e do
+[03:01:00] Codex.
+[03:01:03] Quanto seria se pagar
+[03:01:06] em API direto?
+[03:01:10] Me mostre.
+[03:01:14] Certo? Então, quando alguém fala que ele
+[03:01:16] é barato e tudo, tá?
+[03:01:21] T t tã.
+[03:01:24] Ó, o valor aqui é 100 200,
+[03:01:28] tá? Deixa eu ver onde que ele coloca.
+[03:01:36] Tã.
+[03:01:41] Não, não me mostrou
+[03:01:48] quando a P fica mais barato. Quando não,
+[03:01:50] eu digo, quero quero
+[03:01:55] calcular
+[03:01:58] no uso pleno.
+[03:02:02] Eu não tô usando a minha assinatura, por
+[03:02:04] isso que ele não tá me respondendo aqui
+[03:02:06] muita coisa. uso pleno.
+[03:02:23] Ó, então se eu tiver, né, depende do
+[03:02:27] tokens que eu tô usando aqui, certo?
+[03:02:31] De quantos milhões que tu tá usando,
+[03:02:34] quanto é que representa em API?
+[03:02:37] estimativa.
+[03:02:39] Então é muitas vezes mais do que tu tá
+[03:02:41] pagando aqui.
+[03:02:44] Então tem um cálculo que ele não me
+[03:02:46] mostrou aqui, mas eu posso mandar ele
+[03:02:48] pesquisar que é em torno de $.000,
+[03:02:53] tá? Para para quem tá fazendo $ aqui,
+[03:02:59] pagando assinatura de $, o custo seria
+[03:03:02] pagando em API 8.000.
+[03:03:07] Tá? E na e na Openine é mais é 14.000,
+[03:03:12] tá? Por $ ou 200. Vamos botar $ aqui que
+[03:03:17] seja.
+[03:03:18] Onde está este estudo?
+[03:03:23] Comparando
+[03:03:24] a assinatura
+[03:03:27] plena vezes o seu uso
+[03:03:34] na API.
+[03:03:42] Aí, ó, os números de $8.000 e 14.000
+[03:03:46] no GPT 200
+[03:03:48] vem de um recente estudo do semianálise
+[03:03:53] que esgotou os limites da assinatura
+[03:03:55] executando tarefas longas de programação
+[03:03:57] com agentes e comparou esse uso com o
+[03:04:00] custo equivalente da PI. O estudo
+[03:04:04] concluiu que no no limite máximo o plano
+[03:04:07] de 200 corresponde aproximadamente 20
+[03:04:10] vezes mais.
+[03:04:15] Certo? Então, quando a gente pensa em
+[03:04:18] usar recurso open source,
+[03:04:22] ele teria que ser 20 vezes mais barato
+[03:04:25] para ser equivalente,
+[03:04:32] né? Então, só para ter consciência
+[03:04:35] disso. Mas claro, tu vai só fazer um
+[03:04:37] design, então tu vai gastar lá seus 10,
+[03:04:39] 20,
+[03:04:42] né? Mas se você pensar em, "Ah, eu vou
+[03:04:46] trocar". Que nem um amigo meu agora
+[03:04:47] disse, ele viu tanto vídeo falando do
+[03:04:50] K3, agora ele disse: "Eu vou trocar
+[03:04:52] minha assinatura pelo K3". Da. Eu digo,
+[03:04:54] "Tu vai usar PI, tu vai quebrar,
+[03:05:01] né?
+[03:05:03] E esse é o problema que quando a gente
+[03:05:05] vê notícia, a Microsoft baniu o o cloud
+[03:05:08] Code, né? Por quê? Porque o pessoal tava
+[03:05:11] usando assinatura de API,
+[03:05:16] aí estourou as contas,
+[03:05:19] né?
+[03:05:21] Beleza, pessoal. Então, tá, até amanhã,
+[03:05:25] então.
+[03:05:27] Valeu aí. Me chamam aí mais tarde, se
+[03:05:29] precisarem. Eu vou ter live hoje, claro.
+[03:05:31] Vai
+[03:05:31] &gt;&gt; ter live à noite,
+[03:05:32] &gt;&gt; tá bom? Live tem que ter, né?
+[03:05:35] &gt;&gt; Live à noite.
+[03:05:36] &gt;&gt; As live tem que ter para contar as
+[03:05:37] novidades. O YouTube não avisa, a gente
+[03:05:40] fica perdido. Tem que ficar
+[03:05:43] &gt;&gt; não tá avisando. É, eu não tô
+[03:05:45] conseguindo ver o aviso. Não sei se
+[03:05:47] &gt;&gt; eu não sei o que que deu. Tá todo mundo.
+[03:05:49] Inclusive eu tenho um amigo que tem um
+[03:05:51] 150.000 seguidores. Ele disse isso
+[03:05:54] também, que não tá avisando.
+[03:05:57] &gt;&gt; É, a gente fica esperando a 9 horas.
+[03:05:59] fica esperando no celular para mentira.
+[03:06:01] &gt;&gt; É, é ó, 99 tô eu ali, tá? Só, só não
+[03:06:05] saia assim, tipo, eu tô com compromisso
+[03:06:07] lá com na cidade com a minhas crianças e
+[03:06:10] daí atrasa e coisa que nem eu não sei
+[03:06:13] quando foi. Domingo, acho que foi
+[03:06:15] &gt;&gt; domingo. É, domingo não teve. Eu fiquei
+[03:06:16] esperando, não teve.
+[03:06:17] &gt;&gt; Sim, não. Eu saí da cidade est, tô indo
+[03:06:19] para fazer a live. E deu trânsito e
+[03:06:22] trancou meu portão e etc. Quando cheguei
+[03:06:25] aqui era 15 para pras 10. Eu digo: "Ah,
+[03:06:28] nem vou começar mais."
+[03:06:31] Tá, tá beleza. E outra coisa que tem um
+[03:06:35] problema, porque o sono meu mesmo vem às
+[03:06:37] 7 da noite
+[03:06:40] e daí depois eu digo: "Não, vou terminar
+[03:06:42] a live e vou dormir que nada, vira a
+[03:06:44] noite".
+[03:06:47] Mas é bom. Bom, tá, pessoal, até amanhã
+[03:06:50] então. Até amanhã. Obrigado. Abraço.
+[03:06:53] &gt;&gt; Beleza.
+[03:06:54] &gt;&gt; Obrigado por tudo. Até amanhã.
+[03:06:59] Agora veio a guia.

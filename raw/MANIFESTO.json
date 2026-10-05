@@ -1,0 +1,212 @@
+[
+  {
+    "id": "guia-maestro-roteador-triagem-de-modelo-e-esforco-para-ded1b",
+    "tipo": "guia",
+    "url": "https://inematds.github.io/maestro-roteador/guia/",
+    "titulo": "maestro-roteador — triagem de modelo e esforço para Claude Code",
+    "arquivo": "raw/guia/maestro-roteador-triagem-de-modelo-e-esforco-para--ded1bc.md",
+    "coletado_em": "2026-10-05",
+    "palavras": 1418,
+    "sha256": "b8540f7c45b432d3779817b05f659e1a84a82a9d46c33d38a00d8ecc0b351039"
+  },
+  {
+    "id": "guia-makeshorts-fabrica-de-shorts-com-ia-70fe54",
+    "tipo": "guia",
+    "url": "https://inematds.github.io/makeshorts/guia/",
+    "titulo": "MakeShorts — Fábrica de Shorts com IA",
+    "arquivo": "raw/guia/makeshorts-fabrica-de-shorts-com-ia-70fe54.md",
+    "coletado_em": "2026-10-05",
+    "palavras": 885,
+    "sha256": "b70056b96b727fce70225f3e6ed2860eb3c78ae08482fdf8b3df676ef095d1ae"
+  },
+  {
+    "id": "guia-atende-clinica-agenda-whatsapp-e-equipe-no-telegra-c3a0",
+    "tipo": "guia",
+    "url": "https://inematds.github.io/atende-clinica/guia/",
+    "titulo": "Atende Clínica — agenda, WhatsApp e equipe no Telegram para clínicas",
+    "arquivo": "raw/guia/atende-clinica-agenda-whatsapp-e-equipe-no-telegra-c3a005.md",
+    "coletado_em": "2026-10-05",
+    "palavras": 1077,
+    "sha256": "22b28c75aed8e05dc2cf84b292036502c3bdf216ad7996282d51d0218f220bf4"
+  },
+  {
+    "id": "guia-transformsite-seu-site-vira-um-agente-de-atendimen-f267",
+    "tipo": "guia",
+    "url": "https://inematds.github.io/transformsite/guia/",
+    "titulo": "transformsite — seu site vira um agente de atendimento por chat",
+    "arquivo": "raw/guia/transformsite-seu-site-vira-um-agente-de-atendimen-f26733.md",
+    "coletado_em": "2026-10-05",
+    "palavras": 1036,
+    "sha256": "f61646e639513f3c9c32ba482d5312d9552d3ae1256a6642d911e4876ae1fa08"
+  },
+  {
+    "id": "guia-inemaseo-seu-site-em-destaque-no-google-no-bing-e-daa22",
+    "tipo": "guia",
+    "url": "https://inematds.github.io/inemaseo-metodo/guia/",
+    "titulo": "inemaSEO — seu site em destaque no Google, no Bing e nas IAs",
+    "arquivo": "raw/guia/inemaseo-seu-site-em-destaque-no-google-no-bing-e--daa22e.md",
+    "coletado_em": "2026-10-05",
+    "palavras": 1427,
+    "sha256": "bb12938ce79d31ed880405322ad8a9bd41e474e5f727b99020592a0b5d513528"
+  },
+  {
+    "id": "guia-musicavideo-musica-capa-e-clipe-a-partir-de-uma-fr-b4bc",
+    "tipo": "guia",
+    "url": "https://inematds.github.io/musicavideo/guia/",
+    "titulo": "musicavideo — música, capa e clipe a partir de uma frase",
+    "arquivo": "raw/guia/musicavideo-musica-capa-e-clipe-a-partir-de-uma-fr-b4bc8f.md",
+    "coletado_em": "2026-10-05",
+    "palavras": 1426,
+    "sha256": "aa6517f7e771268b8c8542a0153c3402c2cb0adad6d0b1ab4e878a0a4d9399e2"
+  },
+  {
+    "id": "video-live-claude-code-economize-90-dos-tokens-com-3-comando",
+    "tipo": "video",
+    "url": "https://www.youtube.com/watch?v=UJmuJeIt-3E",
+    "titulo": "LIVE： Claude Code - Economize 90% dos Tokens com 3 Comandos",
+    "arquivo": "raw/videos/live-claude-code-economize-90-dos-tokens-com-3-comandos.txt",
+    "coletado_em": "2026-10-05",
+    "palavras": 9540,
+    "sha256": "00e951b6868bb3e572aa670fc4f02b932cbf43f7c5b1ff404a52d37fe08b04d9"
+  },
+  {
+    "id": "video-live-fim-dos-skills-auditoria-de-ablacao-no-claude-cod",
+    "tipo": "video",
+    "url": "https://www.youtube.com/watch?v=601gW2hmP64",
+    "titulo": "LIVE： Fim dos Skills？ Auditoria de Ablação no Claude Code",
+    "arquivo": "raw/videos/live-fim-dos-skills-auditoria-de-ablacao-no-claude-code.txt",
+    "coletado_em": "2026-10-05",
+    "palavras": 13545,
+    "sha256": "25719b1e10c2f2c97266ace5a91e23efffd0a52339e0cc136dff69b715a3c8f9"
+  },
+  {
+    "id": "video-live-de-prompt-a-grafo-a-nova-era-dos-agentes-de-ia",
+    "tipo": "video",
+    "url": "https://www.youtube.com/watch?v=K1Efjxrllaw",
+    "titulo": "LIVE： De Prompt a Grafo — A Nova Era dos Agentes de IA",
+    "arquivo": "raw/videos/live-de-prompt-a-grafo-a-nova-era-dos-agentes-de-ia.txt",
+    "coletado_em": "2026-10-05",
+    "palavras": 11879,
+    "sha256": "2c4fecfdae65a9c37d29348c0785b46d7df5e4a4199f738cd0a4a45519aed369"
+  },
+  {
+    "id": "video-live-agentes-workers-filas-e-skills-arquitetura-ia",
+    "tipo": "video",
+    "url": "https://www.youtube.com/watch?v=vnSZUDjvdZQ",
+    "titulo": "LIVE： Agentes, Workers, Filas e Skills - Arquitetura IA",
+    "arquivo": "raw/videos/live-agentes-workers-filas-e-skills-arquitetura-ia.txt",
+    "coletado_em": "2026-10-05",
+    "palavras": 8312,
+    "sha256": "ebca7755fac7978c25499c1f61b65f74de098fb7457f2c7d51799aba3fc4e5b0"
+  },
+  {
+    "id": "video-live-inemaccbot-fluxos-vs-agentes-de-ia-de-us-3-a-zero",
+    "tipo": "video",
+    "url": "https://www.youtube.com/watch?v=axMCHVuSu0M",
+    "titulo": "LIVE： INEMACCBOT Fluxos vs Agentes de IA — De US$3 a Zero por Vídeo",
+    "arquivo": "raw/videos/live-inemaccbot-fluxos-vs-agentes-de-ia-de-us-3-a-zero-por-v.txt",
+    "coletado_em": "2026-10-05",
+    "palavras": 13957,
+    "sha256": "dfb0e26b942f427431fbfec26d2b417ace4da5c4db6159962243eed0d7bdb23a"
+  },
+  {
+    "id": "video-live-deepseek-harness-orquestre-ias-e-corte-custos-em-",
+    "tipo": "video",
+    "url": "https://www.youtube.com/watch?v=D0n_9orkl4k",
+    "titulo": "LIVE： DeepSeek Harness - Orquestre IAs e Corte Custos em 95x",
+    "arquivo": "raw/videos/live-deepseek-harness-orquestre-ias-e-corte-custos-em-95x.txt",
+    "coletado_em": "2026-10-05",
+    "palavras": 13373,
+    "sha256": "cb1b386374a5824af0ea59e1545884db90d40ab10f05653187ae2577e2779204"
+  },
+  {
+    "id": "video-live-empresa-agentica-agentes-de-ia-no-comando-do-nego",
+    "tipo": "video",
+    "url": "https://www.youtube.com/watch?v=U1pEPovZyfY",
+    "titulo": "LIVE： Empresa Agêntica - Agentes de IA no Comando do Negócio",
+    "arquivo": "raw/videos/live-empresa-agentica-agentes-de-ia-no-comando-do-negocio.txt",
+    "coletado_em": "2026-10-05",
+    "palavras": 8371,
+    "sha256": "bda2517ee7f2acf28d07ce7a1370a944f5fbb2d9b1d1a31b3672f9a30bd4df3c"
+  },
+  {
+    "id": "video-live-100-videosdia-com-ia-agentes-metodos-e-escala-rea",
+    "tipo": "video",
+    "url": "https://www.youtube.com/watch?v=JuIZH8J36j4",
+    "titulo": "LIVE： 100 Vídeos⧸Dia com IA — Agentes, Métodos e Escala Real",
+    "arquivo": "raw/videos/live-100-videosdia-com-ia-agentes-metodos-e-escala-real.txt",
+    "coletado_em": "2026-10-05",
+    "palavras": 11567,
+    "sha256": "615ef250a2fe587ec5ed3b252488631e1a686a903b5d838bc8366cdcdca75668"
+  },
+  {
+    "id": "video-live-web-mcp-seu-site-esta-pronto-para-os-agentes",
+    "tipo": "video",
+    "url": "https://www.youtube.com/watch?v=to23gU8eeSY",
+    "titulo": "LIVE： Web MCP - Seu Site Está Pronto para os Agentes？",
+    "arquivo": "raw/videos/live-web-mcp-seu-site-esta-pronto-para-os-agentes.txt",
+    "coletado_em": "2026-10-05",
+    "palavras": 8082,
+    "sha256": "1d068249b2fa5b30be32070de305beef12c44af16c0637e0e31f9bfc90d19b25"
+  },
+  {
+    "id": "video-inema-vibecode-do-zero-dia-1-infra-git-e-vercel",
+    "tipo": "video",
+    "url": "https://www.youtube.com/watch?v=0UeW1P--sqc",
+    "titulo": "INEMA  VibeCode do Zero - Dia 1 - Infra Git e Vercel",
+    "arquivo": "raw/videos/inema-vibecode-do-zero-dia-1-infra-git-e-vercel.txt",
+    "coletado_em": "2026-10-05",
+    "palavras": 22822,
+    "sha256": "9cbc7505e1e07bb1a3db7e4739dcf7313279b276469cedaa4bdd3ccbca8638a3"
+  },
+  {
+    "id": "video-inema-vibecode-do-zero-dia-3-basico-de-infra",
+    "tipo": "video",
+    "url": "https://www.youtube.com/watch?v=SgVhktUzuFM",
+    "titulo": "INEMA  VibeCode do Zero - Dia 3 -  Basico de Infra",
+    "arquivo": "raw/videos/inema-vibecode-do-zero-dia-3-basico-de-infra.txt",
+    "coletado_em": "2026-10-05",
+    "palavras": 21385,
+    "sha256": "c13937343c0e98cfb0a89a9912c5a959b9bdf153d6164bb3ee69c4d6db9293d2"
+  },
+  {
+    "id": "video-live-36-videos-por-assunto-com-agentes-ia-no-piloto-au",
+    "tipo": "video",
+    "url": "https://www.youtube.com/watch?v=pqa_KO5Wegk",
+    "titulo": "LIVE： 36 Vídeos por Assunto com Agentes IA no Piloto Automático",
+    "arquivo": "raw/videos/live-36-videos-por-assunto-com-agentes-ia-no-piloto-automati.txt",
+    "coletado_em": "2026-10-05",
+    "palavras": 15046,
+    "sha256": "67b7f1ec02ced0f1262e90de26f2fbadee432a64d67a61ffdd9ef57e66d2a324"
+  },
+  {
+    "id": "video-live-bench-studio-com-81-modelos-de-ia-instalacao-do-z",
+    "tipo": "video",
+    "url": "https://www.youtube.com/watch?v=tfLpUHmpvFk",
+    "titulo": "LIVE： Bench Studio com 81 Modelos de IA - Instalação do Zero",
+    "arquivo": "raw/videos/live-bench-studio-com-81-modelos-de-ia-instalacao-do-zero.txt",
+    "coletado_em": "2026-10-05",
+    "palavras": 12058,
+    "sha256": "6e15383b7b1a98ed8c4dc8de7eedc184b3d8bc95f1105b1906568267999a2a17"
+  },
+  {
+    "id": "guia-execucao-longa-agentes-que-trabalham-horas-e-dias-b4357",
+    "tipo": "guia",
+    "url": "https://inematds.github.io/execucao-longa/guia/",
+    "titulo": "Execução Longa — agentes que trabalham horas e dias sem perder o rumo",
+    "arquivo": "raw/guia/execucao-longa-agentes-que-trabalham-horas-e-dias--b43579.md",
+    "coletado_em": "2026-10-05",
+    "palavras": 2131,
+    "sha256": "78f5642f0a3af6954a6cc602f847db96cfb6c24095196e9aa5795e6fd431641c"
+  },
+  {
+    "id": "video-transcript",
+    "tipo": "video",
+    "url": "https://www.youtube.com/watch?v=Zb8TRf97zt8",
+    "titulo": "transcript",
+    "arquivo": "raw/videos/transcript.txt",
+    "coletado_em": "2026-10-05",
+    "palavras": 8045,
+    "sha256": "4732438ce358fcd811e2fc18448af9dc889ff5715376f1cf4c39cafdba619264"
+  }
+]

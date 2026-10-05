@@ -1,0 +1,1979 @@
+# LIVE： Fim dos Skills？ Auditoria de Ablação no Claude Code
+Origem: https://www.youtube.com/watch?v=601gW2hmP64
+Texto: legenda
+
+[00:00:00] Hoje de noite
+[00:00:02] o conteúdo dessa live é único. Eu acho
+[00:00:06] que ninguém tá falando disso.
+[00:00:09] Aliás, talvez aqui no Brasil ninguém lá
+[00:00:11] fora a gente já vê e falando sobre isso.
+[00:00:15] Adeus Skills e Cloud MD. Bom, não é bem
+[00:00:20] assim, mas vamos entender o que que quer
+[00:00:22] dizer isso, né? Quando a gente fala do
+[00:00:25] fim dos skills ou do Cloud MD. Veja, a
+[00:00:30] gente sabe que e eu posso estar
+[00:00:32] navegando aqui na internet, depois eu
+[00:00:35] volto aqui. E se eu chegar esse colocar
+[00:00:38] skill
+[00:00:40] ponh,
+[00:00:42] skills psh, vamos ver se é skills ou
+[00:00:46] skill.
+[00:00:49] skills.
+[00:00:51] SH.
+[00:00:53] Isso mesmo. É, é plural que existe mais
+[00:00:58] de 1 milhão, certo? De skills disponível
+[00:01:02] para você fazer download,
+[00:01:04] né? Só essa find skills 2.900,
+[00:01:10] né? 800.000 downloads. 840.000 download.
+[00:01:15] Fronch Design da Antropica 700.000
+[00:01:19] 774.000
+[00:01:21] download, né? Improve Codase e
+[00:01:24] arquitetura da Mat
+[00:01:30] 97.000 download. Ou seja, nós temos
+[00:01:34] muito muito conteúdo de skill.
+[00:01:38] As skills vieram para ficar por um lado,
+[00:01:40] mas por outro lado elas têm que ser
+[00:01:43] administradas.
+[00:01:44] E aí a ideia de colocar muito skill, a
+[00:01:48] gente começa a aprender os erros que a
+[00:01:51] gente faz, certo? Então eu vou fazer um
+[00:01:56] lance aqui e mostrar para vocês, tá?
+[00:01:59] Olha só, se vocês olharem aqui pro meu
+[00:02:02] sistema, tá?
+[00:02:05] O que que acontece? Eu tinha quase 200
+[00:02:09] skills
+[00:02:11] porque a gente foi lá melhorando,
+[00:02:13] melhorando e isso funcionava legal na
+[00:02:17] versão 4.8 do Opus.
+[00:02:21] Quando veio o cinco foi uma droga.
+[00:02:24] Quando veio o o Feibo lá naquele rolo
+[00:02:27] que deu, a gente não sabia bem certo o
+[00:02:29] que que era. E aí numa entrevista que eu
+[00:02:33] assisti essa semana, né, do criador da
+[00:02:36] do Cloud Code, ele disse: "Pare de usar
+[00:02:41] os skills, pare de usar o Cloud MD".
+[00:02:45] E eu fui assistir, assisti a live dele
+[00:02:47] toda, transcrevi, questionei, pesquisei
+[00:02:52] e descobri, né, um grande erro que a
+[00:02:55] gente tá fazendo na versão, né, da da
+[00:03:00] das versões novas. Não, na verdade não é
+[00:03:03] só do cloud, é de tudo, porque daí vamos
+[00:03:06] fazer uma análise bem legal para dar
+[00:03:08] para comparar.
+[00:03:11] Se eu tiver que ensinar
+[00:03:13] minha filha fazer um trabalho, meu filho
+[00:03:16] fazer um trabalho, ele tem 10 anos e eu
+[00:03:20] tenho uma outra pessoa de 18 anos fazer
+[00:03:23] o trabalho
+[00:03:25] e depois eu tenho uma outra de 40 anos
+[00:03:28] fazer o trabalho.
+[00:03:30] Quando eu vou dar missão para eles, eu
+[00:03:32] não posso dizer para eles fazer da mesma
+[00:03:35] forma, porque a experiência e o
+[00:03:38] conhecimento deles é diferente.
+[00:03:42] Mesma coisa numa empresa. Eu tenho um
+[00:03:45] funcionário, né, um uma pessoa que tá
+[00:03:47] trabalhando lá 5, 10 anos. Eu tenho um
+[00:03:51] um estagiário que chegou agora e eu
+[00:03:54] tenho alguém que tá trabalhando mais de
+[00:03:55] 20 anos. Quando eu dou trabalho para
+[00:03:58] eles, não é a mesma forma que eu dou.
+[00:04:02] Pro primeiro, eu vou talvez dar um
+[00:04:03] manual, um passo a passo pro estagiário
+[00:04:06] que tá começando, pro cara que tem lá 5
+[00:04:09] anos, ele eu já mais ou menos eu dou
+[00:04:12] para ele, ele já sabe fazer. Agora o de
+[00:04:15] 20 anos, eu só digo: "Ó, eu quero que tu
+[00:04:17] faça isso."
+[00:04:19] Então, quando nós estamos falando das
+[00:04:22] viadas, é a mesma coisa. As versões
+[00:04:24] novas, elas não precisam ter um
+[00:04:26] acompanhamento
+[00:04:28] passo a passo. E isso é um erro. Isso
+[00:04:32] atrapalha mais do que ajuda. Certo?
+[00:04:35] Porque é como se fosse alguém já
+[00:04:37] experiência dizer: "Não, mas para aí
+[00:04:39] isso que tu tá me dando aí, eu já tenho
+[00:04:42] experiência. Isso não é assim. É outra
+[00:04:45] maneira que você faz agora".
+[00:04:48] Então ele colocou sobre isso. O melhor é
+[00:04:50] não ter skill, é não ter cloud MD, que
+[00:04:55] seria, né, as regras do system prompt e
+[00:04:57] deixar ele fazer por conta.
+[00:05:00] E eu fui estudar muito isso, inclusive
+[00:05:03] coloquei aqui na comunidade o vídeo
+[00:05:05] dele, certo? Aqui embaixo, ó. Tá aqui o
+[00:05:09] vídeo dele. Cadê você? Aqui, ó. Eu fiz
+[00:05:12] todo um trabalho aqui, então, de ontem
+[00:05:16] para hoje, onde que eu peguei muitos
+[00:05:19] vídeos, muito conteúdo, estudei,
+[00:05:23] comparei, testei com e sem e descobri
+[00:05:26] algumas coisas. Então eu consolidei aqui
+[00:05:29] em dois promptes, um em português,
+[00:05:32] explicando para quem quiser, em vez de
+[00:05:34] você ficar lá, né, virar a noite, que
+[00:05:37] nem eu fiquei e entender o que tá
+[00:05:39] acontecendo, eu fiz um resumo. Então,
+[00:05:42] quer ler, tá aqui, quer aprender, tá
+[00:05:44] aqui. Certo? Eu vou compartilhar isso
+[00:05:47] com tudo com vocês, já vou dizer onde
+[00:05:49] que tá, certo? Segunda coisa que eu fiz,
+[00:05:53] certo? Eu fiz um prompt de auditoria
+[00:05:56] muito bala, certo? Esse prompt que eu
+[00:06:00] construí aqui, ó, olha só que loucura.
+[00:06:03] Ele diz: "Eu quero que você faça uma
+[00:06:05] auditoria de ablação
+[00:06:08] do meu cloud MD e das minhas skills.
+[00:06:11] Objetivo: reduzir instruções
+[00:06:13] desnecessárias, redundante, antigas
+[00:06:16] [roncando] ou excessivamente
+[00:06:18] prescritiva, sem perder. Contextos
+[00:06:21] importantes do projeto negócio. Regras
+[00:06:23] realmente obrigatórias. Preferências de
+[00:06:26] marcas e formato. Segurança,
+[00:06:28] integrações. Critério de coralidade e
+[00:06:31] comportamentos demonstraram
+[00:06:35] ser necessários. E brá
+[00:06:39] bra. Certo? Ó, ficou muito bala isso
+[00:06:44] aqui. E aí, para vocês verem como é que
+[00:06:46] ficou bala,
+[00:06:48] né? Eu peguei o conteúdo dele, peguei
+[00:06:51] esse essa essa minha, fiz aí uma
+[00:06:53] avaliação, inclusive tem alguns
+[00:06:56] documentos aqui, ó.
+[00:06:58] Ablação total do prompt é tem um comando
+[00:07:01] chamado cloud code simples igual a 1. É
+[00:07:05] um comando não documentado
+[00:07:09] que ele comentou e eu fui lá, capturei.
+[00:07:12] Realmente muito bom que tu pode testar
+[00:07:14] essas coisas aqui. E resultado, o que
+[00:07:17] que eu fiz, né? Eu peguei e fiz no dos
+[00:07:22] meus projetos, pessoal. Eu tinha antes
+[00:07:28] ã
+[00:07:30] skills, eu já reduzi para 114 e ele
+[00:07:34] pegou e fez uma análise nessa 114 e ó,
+[00:07:37] me chamou de lixo mesmo. Certo? Então o
+[00:07:40] que que eu fiz? Eu peguei para vocês
+[00:07:43] aqui, ó, e tá lá no Inema Club, certo?
+[00:07:47] Se vocês entrarem no Inema Club aqui, ó,
+[00:07:50] descerem lá últimos projetos, tá aqui
+[00:07:53] audit
+[00:07:55] ablação CC, ó, auditoria de ablação do
+[00:07:59] seu cloud code, o que na configura ainda
+[00:08:02] paga o próprio custo. Então tem aqui um
+[00:08:05] resuminho, certo? E vai pro GitHub
+[00:08:09] e você tem acesso a tudo isso, tá? Tem o
+[00:08:12] doc, que são meus documentos aqui com
+[00:08:16] todo o conteúdo. Eu criei uma skill, se
+[00:08:18] você quiser usar skill para isso, tá
+[00:08:20] aqui dentro dos workflow, certo? E, né,
+[00:08:25] aliás, tá aqui ela aqui aqui fora. E no
+[00:08:28] doc tem toda a documentação para tu
+[00:08:30] estudar. E aqui no Ritmão,
+[00:08:34] certo, pessoal? Ouro puro não tem aí.
+[00:08:37] Ninguém fez isso ainda, tá? Pelo menos
+[00:08:41] eu não vi, eu te pesquisei e tudo mais.
+[00:08:43] Então, tá aí um prompt danado. E eu vou
+[00:08:46] mostrar para vocês na prática aqui o que
+[00:08:49] eu fiz. Eu tô super empolgado com isso.
+[00:08:52] É de chorar, né? Um outro cara não ia
+[00:08:56] mostrar isso, né? Ia ficar com vergonha
+[00:08:58] do que que do sistema que ele tem na
+[00:09:00] mão. Mas vamos lá. Eu botei aqui, eu
+[00:09:02] peguei o prompt C, botei aqui, ó. Tá
+[00:09:07] todo ele aqui, certo? E aí,
+[00:09:12] né? Eu ainda fui ali reforçar. Você não
+[00:09:15] deve alternar
+[00:09:17] alternar
+[00:09:18] nada. Alterar nada, apenas mostrar o
+[00:09:23] relatório e exemplos. Entendido? Nada
+[00:09:27] será alterado, só relatório, exemplo. Eu
+[00:09:29] já tinha colocado no prompt, mas eu
+[00:09:31] coloquei aqui em cima do meu de
+[00:09:33] produção.
+[00:09:35] E aí o que que ele fez?
+[00:09:37] Ele fez uma auditoria, né, dizendo que
+[00:09:39] nada foi alterado, só leitura. Resumo do
+[00:09:42] executivo, os cinco maiores problemas,
+[00:09:46] cara, é de chorar aqui. O custo real não
+[00:09:50] está no cloud MD, mas nas descrição das
+[00:09:53] 114 skills,
+[00:09:56] medindo 58.000 caracteres. São 14.000
+[00:10:01] tokens carregados em toda a sessão
+[00:10:04] contra 2000 tokens do cloud global. Uma
+[00:10:08] descrição de 1251
+[00:10:11] caracteres do curso formato curso V2.
+[00:10:16] Custa mais da sessão, né, do que o corpo
+[00:10:19] do printpress, que é usado
+[00:10:21] eventualmente.
+[00:10:23] Então, primeiro lugar, ele tá me dizendo
+[00:10:25] que porque eu tenho essa 114 skill, ele
+[00:10:31] tem a descrição de todas as skills e
+[00:10:34] essas skills vão pra memória. Eu sempre
+[00:10:37] sabia disso, só que eu diminuí de 180
+[00:10:41] para 114. E ele tá me dizendo que eu
+[00:10:44] gasto 114.000 tokens toda vez que eu dou
+[00:10:48] um comando,
+[00:10:50] certo? Quer dizer, não pode ter, é muito
+[00:10:54] gasto, é muita burrica, é muita entrega
+[00:10:56] de lixo para o Cloud. Segunda, famílias
+[00:11:01] canibais com gatilhos idênticos e
+[00:11:03] contraditórios. Eu tenho, né, a versão
+[00:11:07] formato de curso V1, V2, V3, V4. São
+[00:11:10] cinco skills, são 4700
+[00:11:14] linhas,
+[00:11:15] cara. Claro, eu deveria desativar e a
+[00:11:20] gente deixa lá porque, ah, vou usar a
+[00:11:22] V2, vou usar V5. Só que ele tá levando
+[00:11:25] pra memória o tempo todo, mesmo que eu
+[00:11:28] não use. Então, o que que eu deveria
+[00:11:31] fazer? levar elas para, né, uma pasta,
+[00:11:36] né, um projeto e quando eu quiser eu
+[00:11:38] chamo o projeto,
+[00:11:40] certo? Ou o que que eu faço? Eu desativo
+[00:11:43] para ele ser identificado e eu chamo no
+[00:11:47] comando barra o nome e daí ele ele vai
+[00:11:51] carregar, né? E não vai precisar tá na
+[00:11:54] memória para ele entender qual skill ele
+[00:11:56] vai buscar. E quando eu paro para pensar
+[00:11:59] e digo: "Ah, esses cara usando o Hermes,
+[00:12:02] usando OpenCloud e se vangloriando que
+[00:12:06] tem 200 e hã
+[00:12:09] agentes com não sei quantas mil skills,
+[00:12:13] cara, é só na teoria, porque na prática
+[00:12:16] quanto ele tá gastando, né? Eu noto aqui
+[00:12:19] por mim num tapem, né? Em dois dias eu
+[00:12:23] gasto 1000
+[00:12:25] reais, 1.000, muitas vezes gastando em
+[00:12:28] tokens, trabalhando pesado, certo?
+[00:12:32] Depois ele descobriu também outra coisa,
+[00:12:34] bugs concretos,
+[00:12:38] os skills quebrados. Por quê? Porque eu
+[00:12:40] tava skill fazendo na minha máquina
+[00:12:43] local com Windows e eu levei essa skill
+[00:12:46] pro Linux
+[00:12:48] e eu não sei como e eu não revisei que
+[00:12:50] ela tava com a barra de Windows barra
+[00:12:54] barra, né? E no Linux é diferente. Então
+[00:12:57] no Linux não funciona.
+[00:13:00] Ou seja, eu só copiei. Ah, aquela
+[00:13:03] história é só copiar, levar lá vai
+[00:13:05] funcionar. Só que, né, ela quebra.
+[00:13:09] Então, a auditoria que ele fez, tá?
+[00:13:12] Outra coisa, né? Eu tava usando aquele
+[00:13:14] recurso do super poers e tudo mais,
+[00:13:17] aquelas skill top de linha do Fable 107
+[00:13:23] Playbook, que para ele não errar lá no
+[00:13:25] 4.8, eu documentava no global e dizia:
+[00:13:28] "Ó, você tem que seguir essa regra". E
+[00:13:31] ele sempre carregava isso. E aí virou,
+[00:13:35] né? Eu, deixa eu ver se diz aí quanto,
+[00:13:39] né? 102 linhas de log que não preciso
+[00:13:42] ter porque o cinco ele já sabe essas
+[00:13:46] coisas, não precisa ser assertivo que
+[00:13:49] nem receita de bolo. Então aquela
+[00:13:51] história para alguém, ah, eu não sei
+[00:13:53] cozinhar, então vou pegar uma receita
+[00:13:55] para fazer alguma coisa. uma cozinheira,
+[00:13:58] a receita vai atrapalhar. Ela já sabe de
+[00:14:01] cor, ela já sabe um outro formato que
+[00:14:04] tem do que aquela receita aí.
+[00:14:07] Beleza? Então, ó, e daí olha só o que
+[00:14:10] que ele me deu.
+[00:14:12] Essa aqui, isso aqui tudo para mim
+[00:14:15] mudar.
+[00:14:17] Então, é um trabalho de 2, tr dias para
+[00:14:20] otimizar o meu sistema.
+[00:14:23] Ou seja, tudo que funcionava bem nas
+[00:14:25] versões anteriores, a cinco, agora não
+[00:14:29] funcionam mais. Então ele fez toda uma
+[00:14:32] auditoria
+[00:14:34] punk aqui para mim, certo? Então
+[00:14:38] pessoal, esse conteúdo tá disponível
+[00:14:40] para vocês, só ir lá no inema.club,
+[00:14:43] baixar o auditoria. Vou repetir lá para
+[00:14:47] vocês verem aonde que está,
+[00:14:50] certo? Você vai lá pra página do Inema
+[00:14:52] Club
+[00:14:55] direto na internet, lembra? Desce aqui.
+[00:14:59] Depois dos cursos básicos, tem aqui
+[00:15:02] últimos cursos e últimos projetos,
+[00:15:06] certo? Aqui sempre tem os últimos 20
+[00:15:09] projetos que eu tô trabalhando. Então tá
+[00:15:11] ali audit ablação CC de cloud Cod. clica
+[00:15:17] aqui e vai no git,
+[00:15:22] tá bom?
+[00:15:24] E depois me diz o que que tu achou.
+[00:15:27] Lembra de pedir para ele apenas fazer
+[00:15:30] auditoria, não alterar sem você ler,
+[00:15:33] estudar,
+[00:15:34] senão pode ser que ele estraga alguma
+[00:15:37] coisa que tá funcionando bem.
+[00:15:39] Beleza, galera?
+[00:15:42] Sim, isso é para para pouca gente, tá
+[00:15:44] bom? Boa noite aí, Paula.
+[00:15:49] Olavo, tudo certo,
+[00:15:54] Herberson, tudo bem? Alexandre, tudo
+[00:15:56] bem?
+[00:15:58] Tá bom.
+[00:16:00] E aí o pessoal do TikTok, pessoal do do
+[00:16:03] Face, pessoal do Instagram, estamos tudo
+[00:16:06] junto aí.
+[00:16:08] Bom, primeiro, então, eu já falei do que
+[00:16:10] que eu queria falar aqui,
+[00:16:13] certo? Vamos ver o que que eu tenho mais
+[00:16:16] aí para falar.
+[00:16:20] Ã, cadê você?
+[00:16:23] Sim, eu tenho outras coisas que eu vou
+[00:16:25] falar aí que que eu tava testando.
+[00:16:35] Vou falar aqui com o Olavo,
+[00:16:46] [roncando] tá? Ã, que que eu tenho aqui,
+[00:16:48] pessoal?
+[00:16:50] Olha
+[00:16:52] só, hoje nós terminamos o curso de vibe
+[00:16:56] code do zero, tá? Tá também no no TikTok
+[00:16:59] lá na, aliás, viajei
+[00:17:02] no
+[00:17:04] YouTube,
+[00:17:06] tá? Tem uma playlist com quatro
+[00:17:10] gravações. O conteúdo tá dentro da
+[00:17:12] comunidade aí, certo? Então, desde a
+[00:17:16] ideia GitHub Deploy, nós falamos sobre
+[00:17:20] infraestrutura,
+[00:17:21] certo? O Vibecode do zero não é da
+[00:17:26] comando,
+[00:17:28] certo? e sim criar o contexto do teu
+[00:17:30] ambiente, aprender você se conectar,
+[00:17:33] usar o SSH, usar o GitHub, usar o deploy
+[00:17:38] na Versel ou na VPS, integrar com banco
+[00:17:42] de dados, principalmente para quem não
+[00:17:44] conhece essa área, certo?
+[00:17:47] Então tá disponível aí dia 1, dia dois e
+[00:17:52] daí eu fiz uma revisão dia um e dia
+[00:17:56] dois, ou seja, um conteúdo um pouco mais
+[00:17:57] avançado de cada dia aí, certo? Muito
+[00:18:01] bem. Outra novidade aí, eu não sei se
+[00:18:04] vocês estão acompanhando, mas o MCP
+[00:18:08] mudou,
+[00:18:09] certo? Antes ele tinha que ter uma
+[00:18:12] estrutura toda para funcionar,
+[00:18:15] né? E agora ele mudou, ele tá, ele leve,
+[00:18:19] escalável.
+[00:18:21] Tanto que eu fiz um vídeo disso aqui no
+[00:18:24] Brasil, não bombou nada. Eu publiquei
+[00:18:27] nas redes sociais lá dos Estados Unidos.
+[00:18:29] É um horror. Tá todo mundo enlouquecido
+[00:18:32] com isso. Então aí mostra muito que
+[00:18:35] nosso perfil aí tá muito devagar sobre
+[00:18:39] conhecimento mais de valor dentro da
+[00:18:42] deia.
+[00:18:44] Então, para quem não sabe, o MCP é um
+[00:18:47] protocolo de contexto, né? E esse
+[00:18:51] contexto é que você simplesmente fala
+[00:18:54] com a IA, certo? E essa I vai absorver
+[00:18:59] aquela tua linguagem comum e vai
+[00:19:02] aplicar. Então, vejam só, se eu tiver
+[00:19:05] MCP do da meta para fazer ADS, né,
+[00:19:11] propaganda, antes eu teria que conhecer
+[00:19:14] toda aquela aquela interface dele
+[00:19:16] complicada,
+[00:19:18] né? Isso vai ser mais fácil.
+[00:19:21] A mesma lógica, certo?
+[00:19:25] H, a mesma lógica é a questão do,
+[00:19:30] né, do do Rigsfield.
+[00:19:34] O Rigfields nada mais é do que um
+[00:19:37] serviço
+[00:19:38] que você conversa com ele e, ou seja,
+[00:19:42] tinha uma interface gráfica e fazia
+[00:19:44] criação de vídeos, etc, etc. Então eles
+[00:19:47] pegaram as IA que existe de mercado,
+[00:19:50] todas elas de imagem, vídeo e tudo mais,
+[00:19:55] né? E criaram uma interface. Só que
+[00:19:58] quando eles criaram o MCP,
+[00:20:01] eu consegui vir a Cloud Code e dizer:
+[00:20:04] "Eu quero fazer um vídeo assim, assim,
+[00:20:06] assim. Entreguei para ele, o MCP entende
+[00:20:10] o que tu quer e transforma em instruções
+[00:20:13] pros comandos atrás. Então, a lógica da
+[00:20:18] mudança não é nós paraa pessoa que
+[00:20:20] consome, e sim nós, se nós somos os que
+[00:20:24] criamos o MCP. Então, você que pensa em
+[00:20:28] criar serviços, em vez de você tá
+[00:20:31] criando serviços de página, de web, você
+[00:20:35] vai criar serviços de MCP,
+[00:20:38] onde que o cara vai est conectando
+[00:20:40] contigo e talvez pagando por ti, por
+[00:20:43] tráfego, né? ou por outra maneira que tu
+[00:20:46] queira e ele vai estar usando na
+[00:20:49] interface que ele quiser. Pode ser no
+[00:20:51] Telegram, pode ser no WhatsApp, pode ser
+[00:20:54] num chat, pode ser no terminal, certo?
+[00:20:57] Pode ser no cloud code, no Codex, pode
+[00:21:01] ser no Cowork, aonde for e conecta nesse
+[00:21:05] plugin. Então, o que que teve de
+[00:21:07] evolução? evolução, principalmente que
+[00:21:11] ele parou de ter um controle individual,
+[00:21:14] onde tem banco de dados, onde tem uma
+[00:21:16] sessão eh permanente, uma negociação
+[00:21:21] permanente, era complexo de eu criar,
+[00:21:26] certo? E agora o que que eles fizeram?
+[00:21:29] Sem ter, né, nenhum controle individual,
+[00:21:33] eu posso escalar com isso. Então, com
+[00:21:36] isso, o que que acontece? Como eu não
+[00:21:38] preciso ter um banco de dados, nem uma
+[00:21:41] sessão aberta, nada disso, eu posso
+[00:21:44] mandar o trabalho para para ali, ele vai
+[00:21:47] e tem um balanceamento, porque ele pode
+[00:21:50] jogar para quantas instâncias ele
+[00:21:52] quiser, 1000, 2000, 5.000, 1 milhão, ele
+[00:21:56] é escalável agora, certo? Então, se
+[00:22:00] vocês pensam em desenvolver serviços
+[00:22:03] para alguém e querer cobrar por isso,
+[00:22:06] né, ou não, você vai desenvolver em cima
+[00:22:09] do MCP e não mais de uma API e não mais
+[00:22:14] de uma página web e não mais talvez até
+[00:22:17] pode ser via CLI,
+[00:22:21] certo? Então era isso, tá aqui, ó. Eu
+[00:22:24] coloquei isso dentro do grupo do Inema
+[00:22:27] que é conceitos que explica esse tipo de
+[00:22:30] coisa.
+[00:22:31] Tá
+[00:22:34] muito bom. Deixa eu responder ali. Oi,
+[00:22:37] Emerson. Sim, as lives que eu tenho
+[00:22:39] feito durante o dia, certo? Eu faço o
+[00:22:43] seguinte, a gente tem
+[00:22:45] Meet ou outra ferramenta para conversa
+[00:22:48] entre quem tá fazendo o curso da
+[00:22:50] comunidade, certo? e gravo a gravação
+[00:22:54] toda. Eu faço no YouTube porque fica
+[00:22:56] fácil de todo mundo acessar, tá certo?
+[00:23:00] Então, ó, por exemplo, se tu vi aqui,
+[00:23:03] né, e observar aqui, ó, né, Vibecode do
+[00:23:07] zero, aonde que ele tá? No grupo Inema
+[00:23:10] Dev. Então, se tu for aqui no Inema Dev,
+[00:23:15] ó, nós temos aqui vibe code do zero, tá?
+[00:23:20] Até deixa eu deletar isso aqui que não
+[00:23:22] precisa mais. Certo? Aqui tá os cursos,
+[00:23:25] ó. Certo? E aqui eu tenho dia um com
+[00:23:29] todo o conteúdo que eu coloquei aqui,
+[00:23:32] certo?
+[00:23:34] Então, todo ele aqui com as lives, todo
+[00:23:37] o conteúdo, né? O dia dois, então é dia
+[00:23:41] 1, 2, 3 e 4. Se tu quiser ir, inclusive
+[00:23:44] tá aqui, ó, as os repositório, o que que
+[00:23:48] a gente explicou. Dá para assistir lá.
+[00:23:52] Ã,
+[00:23:55] também até eu vou compartilhar aqui.
+[00:23:57] Deixa eu ir pro YouTube aqui.
+[00:24:01] Aqui
+[00:24:06] para facilitar a vida da galera,
+[00:24:09] tá? Eu criei as playlist aqui. Então, na
+[00:24:13] playlist aqui, ó, eu coloquei a playlist
+[00:24:16] dos agentes, certo? de criar agentes,
+[00:24:20] aquilo da do mês passado e aqui do
+[00:24:23] Vibecode zero, tá? Então, tá aqui, ó, a
+[00:24:28] playlist tá aqui. Deixa eu copiar a
+[00:24:30] playlist aqui e já colocar ali também
+[00:24:32] pra galera como é que eu copio aqui.
+[00:24:34] Deixa eu ver. Cadê o link?
+[00:24:39] Volta
+[00:24:41] aqui. Tá o link
+[00:24:44] cat. E daí eu posso compartilhar todo
+[00:24:48] mundo para, né, vibe code do zero.
+[00:24:53] Ó,
+[00:24:59] ele seria bom se ele criasse uma
+[00:25:03] uma imagem, mas não criou.
+[00:25:07] Então, deixa eu deletar aqui só.
+[00:25:28] Pronto.
+[00:25:30] Tá bom.
+[00:25:33] Então, era isso aí. Bom, outra coisa que
+[00:25:36] eu queria mostrar para vocês é o
+[00:25:37] seguinte.
+[00:25:39] Aqui dentro da do dos projetos,
+[00:25:45] eu tenho aqui um novo projeto também
+[00:25:48] chamado registro de DNS em um comando
+[00:25:51] sem abrir o painel, tá? O que que é
+[00:25:54] isso? É um CLI do Cloud Fair DNS.
+[00:25:59] Veja, hoje, em vez de você tá mexendo no
+[00:26:03] toda vez no DNS para mudar o que tu tá
+[00:26:06] criando e tudo mais, você pode
+[00:26:09] configurar no ã Cloudfir.
+[00:26:14] Ã, cadê você?
+[00:26:21] Deixa eu ver
+[00:26:24] aqui, ó. Tu pode colocar lá um token,
+[00:26:27] certo? e configurar isso. E daí a partir
+[00:26:30] dali você simplesmente fala no cloud e
+[00:26:34] diz: "Coloque esses, né, esse novo site
+[00:26:38] no ar com o nome que você quiser." Então
+[00:26:42] eu posso vir lá no Verscel, configurar
+[00:26:46] um Verscel. Deixa eu ver se tem aqui um
+[00:26:48] Versel. Tem, por exemplo, aqui, ó, a
+[00:26:50] gente tava descarte, a gente tava
+[00:26:53] criando esse inema DLP,
+[00:26:56] certo? Então eu criei um DLP e tudo e eu
+[00:27:00] queria no domínio tá criando, certo? Uma
+[00:27:06] um em vez de chamar inema dlpversel.app,
+[00:27:10] eu quero que seja dlpinema.club
+[00:27:14] ou dlp2,
+[00:27:16] certo? Então simplesmente eu venho aqui
+[00:27:19] e crio. Poderia ser, né?
+[00:27:23] CF.inema.club.
+[00:27:27] Então, quando eu fizer isso, eu adiciono
+[00:27:30] o domínio,
+[00:27:32] ó, ele vai ficar em vermelho aqui.
+[00:27:34] Então, para ser produção, o que que eu
+[00:27:36] teria que fazer? Ir lá cadastrar isso
+[00:27:39] aqui, ó. Certo? Para esse cara. Então,
+[00:27:42] eu venho aqui, só marco isso aqui, dou
+[00:27:46] contrtrl C e vou lá no meu no meu cloud
+[00:27:51] code. Certo?
+[00:27:54] E aí eu que deixa eu ver aqui. Sim. Aqui
+[00:27:57] eu vou botar, quero que
+[00:28:01] cadastre
+[00:28:04] este
+[00:28:06] domínio. Nem precisa explicar mesmo. É
+[00:28:09] só botar o que que tu quer ele vai
+[00:28:11] saber. Pronto.
+[00:28:13] Então eu não preciso entrar no antes eu
+[00:28:16] tinha que ir lá me lembrar da senha,
+[00:28:18] configuração e tudo e configurar isso.
+[00:28:21] Agora não. Então eu posso até fazer os
+[00:28:24] sistemas automático para para um site,
+[00:28:27] para pras empresas e tudo tudo de forma
+[00:28:30] automatizada,
+[00:28:33] né?
+[00:28:35] Posso dar o nome, por exemplo, eu posso
+[00:28:36] criar aí um sistema que aquele de
+[00:28:40] prospecção
+[00:28:42] que você navega, acha no na no Google
+[00:28:46] Maps, né, aqueles sites legais com
+[00:28:49] e-mail e tudo. Tu cria o site e bota no
+[00:28:52] ar e manda para ele com dentro do teu
+[00:28:55] domínio faz tudo isso, ó. Já foi, já tá
+[00:28:58] criado, tá? E agora se eu voltar
+[00:29:04] aqui, ó, dou um refresh aqui ou senão,
+[00:29:08] deixa eu fechar aqui do domínio,
+[00:29:11] ó. Vou clicar no domínio,
+[00:29:14] tá? [roncando] Ele ainda tá. Deixa eu
+[00:29:17] dar um refresh, vai levar um tempinho
+[00:29:19] até ele tá no ar.
+[00:29:22] Ó, já tá aqui. Se alguém chegar e
+[00:29:25] escrever agora cfinema.club, do club vai
+[00:29:29] chegar nessa página do Vercelo aqui que
+[00:29:32] é o DLP, tá? Que é um teste que a gente
+[00:29:36] fez hoje durante o dia.
+[00:29:42] Então, para você poder configurar tudo
+[00:29:44] isso,
+[00:29:46] o que que eu fiz de forma fácil?
+[00:29:49] Eu, opa, cadê o mouse?
+[00:29:53] A gente pegou, criou aqui, ó,
+[00:29:56] esse
+[00:29:58] esse conteúdo aqui e você simplesmente
+[00:30:00] leva no cloud code, no codex,
+[00:30:04] esse repositório e diz: "Ó, me ajude a
+[00:30:07] instalar e configurar o Cloud Fair para
+[00:30:10] mim gerenciar os meus DNS."
+[00:30:14] Certo? Então, mais uma coisinha aqui.
+[00:30:18] Deixa eu fechar isso que tem muita coisa
+[00:30:21] aberta aqui, tá?
+[00:30:24] Beleza. O que mais nós temos aqui? Hum.
+[00:30:29] Beleza. Então, não tem nada. Deixa eu
+[00:30:31] mostrar aqui, ó.
+[00:30:34] Olha só,
+[00:30:38] Paulo, ó, me diz o que que tu acha. Eu
+[00:30:41] mandei criar uma página de um site, né,
+[00:30:45] do corvo.
+[00:30:47] Corvo é a marca de um grão de
+[00:30:53] de café, certo?
+[00:30:56] Então aqui, ó,
+[00:30:59] simples, simples, simples, sem nenhuma
+[00:31:02] imagem. Tudo ele é feito diretamente na
+[00:31:05] minha máquina local,
+[00:31:09] né? O que que é isso? Eu
+[00:31:12] usei uma uma IA totalmente open source
+[00:31:18] free na minha máquina local e mandei ela
+[00:31:21] criar um site. Então vocês veem como as
+[00:31:25] IAS open source já podem estar muito
+[00:31:29] barata. Imagina se você quiser agora
+[00:31:32] criar site de graça para todo mundo na
+[00:31:36] tua máquina 24 horas por dia, você cria
+[00:31:39] o site, vai lá, joga ele no GitHub, do
+[00:31:44] GitHub joga no Versel, por exemplo, vai
+[00:31:48] lá no Cloudfare, coloca um domínio e
+[00:31:51] envia para aquele cliente que tu quer
+[00:31:53] conquistar,
+[00:31:54] certo?
+[00:31:57] Agora veja só
+[00:32:00] qual é que é a ferramenta que eu usei
+[00:32:02] lá. Eu usei o pi,
+[00:32:05] né?
+[00:32:06] Pi.Ddev.
+[00:32:09] Pessoal, é um concorrente,
+[00:32:11] certo? Do
+[00:32:13] do open source, né? Eh, de open source
+[00:32:17] do Ué, que que é isso?
+[00:32:22] Deixa eu ver. P
+[00:32:25] deve.
+[00:32:30] Será que é junto? Deixa eu ver o site.
+[00:32:33] Ó, Pi deve. É isso.
+[00:32:39] Ah, tudo bem.
+[00:32:42] Eu botei Y sem querer. Tá lá. Então, tá
+[00:32:45] aqui ele. Esse cara aqui é o concorrente
+[00:32:48] do cloud Code, do Codex, do cursor, etc.
+[00:32:52] para open source. A vantagem dele é que
+[00:32:56] ele é muito muito leve, certo? Então eu
+[00:33:00] vou dar até mais adiante, eu tô testando
+[00:33:02] bastante ele e vou fazer um curso depois
+[00:33:05] para vocês aí também, pra comunidade
+[00:33:08] para entender, né, como é que eu posso
+[00:33:10] estar usando ele, como é que eu integro
+[00:33:13] todos os sistemas que eu quiser nele,
+[00:33:17] certo? Mas o que que é legal? porque ele
+[00:33:20] é leve, compacto e eficiente.
+[00:33:23] E se nós ir no Git, GitHub
+[00:33:27] e pesquisar por PI,
+[00:33:31] cadê?
+[00:33:40] Achei. Não,
+[00:33:50] ó,
+[00:33:52] tem muitos aí
+[00:33:54] apresentando o PI.
+[00:33:59] Então, para quem não conhecia, vamos ver
+[00:34:01] só quantas estrelas tem esse aqui. Olha
+[00:34:04] só, esse aqui tem 89.000
+[00:34:07] estrelas, não é pouca coisa, certo?
+[00:34:11] Então, vocês estão vendo aqui
+[00:34:14] mais uma ferramenta que vai ter bastante
+[00:34:17] aderência e o objetivo é rodar na
+[00:34:20] máquina local,
+[00:34:22] certo? Ou numa VPS,
+[00:34:25] certo? rodando. Tanto faz se tu quer
+[00:34:29] rodar,
+[00:34:31] eu tô rodando o Queen 3.6,
+[00:34:35] certo?
+[00:34:37] Então, ã, só para mostrar para vocês
+[00:34:40] como essas coisas já começam ser
+[00:34:42] possíveis de fazer.
+[00:34:45] Deixa eu ver aqui. Tá, esse aqui era o
+[00:34:51] exit.
+[00:34:53] Eu
+[00:34:55] já olho as mensagens, tá pessoal?
+[00:34:58] Ó, ele botou aqui, ó, o corvo tá no ar e
+[00:35:01] agora o 4174
+[00:35:04] é o Inema Club. Vamos ver o que que ele
+[00:35:06] me fez,
+[00:35:09] tá?
+[00:35:10] Vamos ver.
+[00:35:17] 192. Vamos aí.
+[00:35:22] Qual é o nome mesmo?
+[00:35:25] Deixa eu me lembrar. Não me lembro mais.
+[00:35:30] 4174,
+[00:35:33] ó. 41
+[00:35:40] 74.
+[00:35:57] Não podia ter um som.
+[00:36:00] Eu mandei ele pegar e olhar o site do
+[00:36:03] Club e criar um site.
+[00:36:10] Criar um site em 3D.
+[00:36:13] É mais ou menos.
+[00:36:21] Sem graça.
+[00:36:27] Será que tem control M? Kit ferramenta.
+[00:36:33] É mais ou menos catálogo.
+[00:36:39] Não gostei.
+[00:36:41] Mas tudo bem. Vamos pegar o 73 aqui, que
+[00:36:44] é aquele que eu tinha feito,
+[00:36:46] ó. Mas ser de graça aqui, ó. Ó, esse é o
+[00:36:49] 73 que eu fiz aqui antes.
+[00:36:53] Para quem tá começando, primeira vez que
+[00:36:55] eu tô usando. Vamos otimizar ele. Vamos
+[00:36:58] ver os templates que ele tem, tá?
+[00:37:02] E isso aí pode ser uma boa mais para
+[00:37:05] frente.
+[00:37:08] Oi, tudo bem, Hermon? Já testei a VPS da
+[00:37:12] Oracle. Sim,
+[00:37:17] boa noite, Tia.
+[00:37:24] Muito bem. Então, só para falar um pouco
+[00:37:27] do PI, vocês vão ver eu falar bastante,
+[00:37:30] vou testar. Isso é a primeira primeira
+[00:37:33] coisa que eu tô rodando nele.
+[00:37:36] Ah,
+[00:37:38] que mais que eu vou baixar aqui?
+[00:37:41] que eu quero falar para vocês.
+[00:37:46] Humum.
+[00:37:50] Bom,
+[00:38:02] então vamos lá para o
+[00:38:05] Inema CCB.
+[00:38:08] Pessoal, a máquina não para de produzir.
+[00:38:12] Ô Tiza, olha aqui, ó. 63.
+[00:38:17] Tá vendo? Tudo isso aqui é vídeo
+[00:38:20] produzido hoje, ó.
+[00:38:22] &gt;&gt; Você construiu,
+[00:38:23] &gt;&gt; certo?
+[00:38:26] Tá? Então,
+[00:38:29] ó, tudo isso aqui, ó, 61, 62, 63,
+[00:38:35] tá?
+[00:38:37] Aqui, ó, deu um erro, né? E eu
+[00:38:41] simplesmente fui lá e mandei refazer 63.
+[00:38:44] Ele pegou o que tinha de erro e produziu
+[00:38:46] tudo, né? Ó, tudo isso aqui produzindo,
+[00:38:54] ó, ó, 62.
+[00:38:58] E eu passo aquela ideia aqui que eu
+[00:39:00] quero do assunto e ele transforma isso
+[00:39:03] em vídeo, certo? naquela ferramenta
+[00:39:06] gratuita que é o Inema CCBT.
+[00:39:10] Pessoal, qual é a vantagem de usar o
+[00:39:12] CCB?
+[00:39:14] É que nós transformamos aquilo daquele
+[00:39:16] curso semana passada,
+[00:39:19] tá? Ó, desse curso aqui, ó,
+[00:39:24] tá? Semana passada retrasada, nem me
+[00:39:26] lembro mais. Esse curso, o que que ele
+[00:39:29] fez? Ele criou um bote, um gerenciador
+[00:39:32] de bote. Botamos filas aqui e aí nós
+[00:39:37] temos os agentes, as skills que executam
+[00:39:40] eles, certo? E manda paraa publicação.
+[00:39:46] Opa,
+[00:39:52] certo? Manda paraa publicação aqui.
+[00:39:57] Eh, o que que acontece?
+[00:40:00] Como é que eu mando várias coisas?
+[00:40:02] Imagina, eu mandei mais de 100 vídeos
+[00:40:06] para ser criado nos avatares,
+[00:40:08] todos eles com o assunto que eu disse,
+[00:40:12] com a abordagem que eu disse. Então eles
+[00:40:15] entraram na fila e eu tive hoje de
+[00:40:18] manhã, tava com umas ideias legal,
+[00:40:20] mandei um, mandei outro, mandei outro.
+[00:40:23] Eu acho que eu mandei o 60, 61, 62,
+[00:40:27] 63.
+[00:40:29] Tá? Ou seja, cada um foi criado 36
+[00:40:32] vídeos,
+[00:40:36] certo?
+[00:40:38] E aí é o seguinte, aqui nesses agentes
+[00:40:41] que tem os rios, aqui nesse agente tem
+[00:40:45] mandar fazer lá no no rei Jen o avatar.
+[00:40:50] E se vocês observarem aqui, ó, tá? É
+[00:40:53] isso aqui, ó. Os avatares que que estão
+[00:40:56] eu hoje, ó.
+[00:40:58] Ó,
+[00:41:03] ó, tudo isso aqui em menos de 24 horas.
+[00:41:10] Daí, o que que a máquina de publicação
+[00:41:12] faz? Certo? Onde que tá ela? Aqui. Ela
+[00:41:17] pega aqui no meio, né? Depois de ter
+[00:41:20] mandado fazer o
+[00:41:24] avatar, ele vai mandar fazer o rios, ou
+[00:41:28] seja, colocar aquele avatar com
+[00:41:30] templates que eu prédefini,
+[00:41:34] certo?
+[00:41:36] Então, o que que acontece? E hoje o que
+[00:41:38] que eu queria mostrar para vocês? Uma
+[00:41:40] evolução.
+[00:41:41] Se a gente olhar aqui, tá? Inema CCBOT,
+[00:41:48] tá? ele aqui. Git
+[00:41:52] atualização. Atualização,
+[00:41:56] né?
+[00:41:58] Olha, 5 dias, 3 dias, etc. Tudo tá aqui,
+[00:42:01] ó. Certo? E aí
+[00:42:06] eu tenho dentro disso aqui também,
+[00:42:10] cadê você? aqui o promovatar, que é uma
+[00:42:16] skill que tá lá dentro produzindo essa
+[00:42:19] promovatar, olha só,
+[00:42:23] há duas 3 horas atrás, 5 dias atrás, 3
+[00:42:28] horas atrás, 48 minutos atrás, certo? Ou
+[00:42:32] seja, eu fiz uma alteração nela uma hora
+[00:42:35] atrás,
+[00:42:36] certo? E o que que eu fiz de mudança
+[00:42:38] nela? Aí eu quero mostrar para vocês.
+[00:42:42] Isso aí é para quem tá mais avançado, tá
+[00:42:44] bom? Ó, eu peguei e vim aqui. Onde que
+[00:42:47] tu tá? Deixa eu me achar.
+[00:42:51] Esse não. Esse não. Esse não. Esse não.
+[00:42:58] Não.
+[00:43:01] Também não.
+[00:43:03] Esse aqui eu acho que foi isso. Olha só
+[00:43:06] que legal aqui, ó.
+[00:43:10] Deixa eu voltar aqui para cima para
+[00:43:11] mostrar o que que eu fiz. Tava
+[00:43:13] funcionando bem, sim, mas sempre a gente
+[00:43:16] pode melhorar. Então, olha o que que eu
+[00:43:18] fiz. Deixa eu ir lá para cima,
+[00:43:22] ó. Eu peguei, dei clear, certo? E botei
+[00:43:28] modelo, né? Modelo opus 5, certo?
+[00:43:33] Esforço médio, certo?
+[00:43:38] E aí eu peguei um plano que foi feito
+[00:43:41] aqui, plano salvo autorevisado.
+[00:43:45] O que que eu fiz? Eu peguei, botei em
+[00:43:47] alto de eh o modelo alto do Fable, botei
+[00:43:52] X height com Fable e disse: "Olha esse
+[00:43:57] sistema e eu quero que tu faz crítica no
+[00:44:00] meu sistema de prompt. Eu quero que esse
+[00:44:03] prompte seja, né, viral, mas que seja
+[00:44:08] ético.
+[00:44:10] Então, vou ler só para vocês. Plano
+[00:44:12] salve autorevisado.
+[00:44:14] Pá, onde que ele tá? O que ele contém?
+[00:44:18] Sete tarefas com edição exata, texto
+[00:44:21] velho, texto novo, verificação, progret
+[00:44:24] e commit por tarefa. Essência no passo
+[00:44:27] zero vezes 3 prompt. Pedido central
+[00:44:31] itens zero obrigatório. O que esse
+[00:44:33] conteúdo é retrato fiel de duas a quatro
+[00:44:37] frases, o que afirma quem fala o que não
+[00:44:41] é. E com o contrato, cada vídeo muda a
+[00:44:45] embalagem por público vezes tipo nunca a
+[00:44:49] essência. E o teste quem escreveu o
+[00:44:52] assunto reconheceria a própria ideia. A
+[00:44:55] essência vira a primeira sessão do
+[00:44:58] resumo estratégico. O dono confere a
+[00:45:01] leitura no portão antes de julgar
+[00:45:04] roteiros.
+[00:45:06] Olha só o lance, pessoal. Eu tinha um
+[00:45:10] prompt bala
+[00:45:12] e eu disse assim: "Eu quero que esse
+[00:45:14] prompt ele tenha a ver o resultado do
+[00:45:17] vídeo com aquilo que eu mandei de
+[00:45:20] texto."
+[00:45:22] Ou seja, eu não quero que você
+[00:45:24] transforme aquilo lá em outro conteúdo.
+[00:45:26] Eu quero que seja a voz do que eu tô
+[00:45:29] falando.
+[00:45:30] Então ele pegou os promptes que eu já
+[00:45:33] tinha e melhorou para alinhar. Eu peguei
+[00:45:36] a melhor e a do da Antropic para ela
+[00:45:40] pegar, olhar meus promptes e melhorar os
+[00:45:42] promptes aonde teria essas falhas,
+[00:45:46] certo?
+[00:45:48] Então, ah, o que que acontece?
+[00:45:51] O que eu tô querendo? Eu tô querendo que
+[00:45:53] meus vídeos sejam a o retrato do que eu
+[00:45:57] falo, certo? Então eu disse, eu quero
+[00:46:00] que seja viral, mas eu quero que tenha a
+[00:46:03] ética e meus valores, certo? Então ele
+[00:46:07] já trabalhou nisso aqui, né? Que ele é
+[00:46:10] para pegar e transformar o conteúdo
+[00:46:12] antes, certo? Com a cara de quem, né,
+[00:46:16] olhou, quem escreveu o assunto
+[00:46:18] reconheceria a própria ideia.
+[00:46:22] Depois, dores do público, coluna dor na
+[00:46:25] tabela de skill, as 12 dores escrita por
+[00:46:28] no plano, lembra? São 12 públicos. Então
+[00:46:32] ele criou as 12 dores.
+[00:46:36] Gatilho do 40 mais trocado em três
+[00:46:38] lugares, né? Skill, flow e três alvos.
+[00:46:43] Ou seja, ele tá mostrando que em três
+[00:46:45] lugares tem esses gatilhos.
+[00:46:49] Regra dois, apontando para a tabela, tá?
+[00:46:53] Oficinas de gancho nas três variantes,
+[00:46:55] cinco frases, teste de laguna. Máximo,
+[00:46:59] nove palavras, ganchos descartados nos
+[00:47:02] arquivos. Olha só, tudo que ele acha que
+[00:47:05] não é válido vai para um arquivo, certo?
+[00:47:09] Para quê? para isso virar história.
+[00:47:12] Então, toda vez que ele faz uma um, né,
+[00:47:15] cria um texto para ser narrado, vem uma
+[00:47:20] que valida aquilo, isso é viral, isso tá
+[00:47:24] violando os valores,
+[00:47:26] está. Então, ele descarta, mas isso vai
+[00:47:29] para um arquivo. Para quê? Pra gente ter
+[00:47:32] histórico disso.
+[00:47:34] 15 regras, aliás, regras 15 16. Pessoa
+[00:47:38] concreta, fase repetível, três vezes com
+[00:47:41] adaptação viral. Contradição do viral.
+[00:47:45] Pró vira, direção sem marca, regras de
+[00:47:49] venda marcadas como não aplicadas.
+[00:47:52] Duração livre, o binário passa a exigir
+[00:47:56] opções renomeadas na fala. Fecha com
+[00:47:59] perguntas abertas do handoff. Ou seja,
+[00:48:02] ele tá dizendo, quando você quer criar
+[00:48:04] um conteúdo viral, você tira, né, hã,
+[00:48:10] regras de vendas, ou seja, não pode ter
+[00:48:13] nada de venda, certo? Que isso aí vai
+[00:48:16] queimando, vai minando o público. Certas
+[00:48:19] éticas, vergonha só autodirigida. Então,
+[00:48:23] de novo, né? Não falar mal de ninguém,
+[00:48:26] incomodar sem humilhar, não pode
+[00:48:29] humilhar, marcação com vida sem rotular
+[00:48:32] o mercado. Então isso é uma outra coisa.
+[00:48:35] A gente tá vendo que tem muita gente que
+[00:48:37] tá crescendo falando mal dos outros,
+[00:48:40] certo? Não adianta também ficar
+[00:48:43] elogiando, então tem que bater na tecla
+[00:48:46] dor, do desejo, certo? Sem humilhar.
+[00:48:50] Então são técnicas que tu usa da das
+[00:48:53] minhas cercas. éticas, né? E vocês podem
+[00:48:56] dizer: "Eu fico indignado muitas vezes,
+[00:48:58] mas eu não fico falando mal, né, disso,
+[00:49:00] daquilo, ou pelo menos eu procuro não
+[00:49:03] falar mal.
+[00:49:05] Verificação final, né? Ou testes 25
+[00:49:08] testes, regras 11b
+[00:49:11] intactas, o flow válido, portabilidade.
+[00:49:15] Ou seja,
+[00:49:17] o hoje em dia é mais importante do que
+[00:49:20] um prompt é ter validação das regras. Ou
+[00:49:24] seja, ele verificar se aquilo tá OK ou
+[00:49:26] não. Então, tá sendo feito, certo?
+[00:49:29] Então, para isso, eu mandei executar,
+[00:49:35] certo? Então, ele pegou e me deu aqui os
+[00:49:38] pontos todos.
+[00:49:41] Eu disse, ele avaliou os flags. Daí eu
+[00:49:43] perguntei se ele avaliou, ele já me deu
+[00:49:45] os flags aqui e mandei executar. Então
+[00:49:49] ele pegou e foi alterando, ó, os
+[00:49:51] promptes da fase um, da fase do um,
+[00:49:54] ainda também viral promoção e é alcance,
+[00:49:59] certo?
+[00:50:01] E
+[00:50:03] depois a fase três versões, né, promoção
+[00:50:07] e tudo foi alterando,
+[00:50:10] alterou a skill do promo Avatar 3. Ó,
+[00:50:14] ele tirou todo esse texto aqui e colocou
+[00:50:18] aqui. Então, se a gente pegar isso aqui,
+[00:50:20] era o que tinha antes. Entrou esse aqui.
+[00:50:24] Então, vejam só, vamos só ler um pouco.
+[00:50:26] Pessoa comum.
+[00:50:28] Leigo, você usa iá do jeito preguiçoso.
+[00:50:32] Dá para fazer muito melhor com truque
+[00:50:34] simples. Ele removeu e disse assim:
+[00:50:37] "Sente que todo mundo está tirando
+[00:50:39] proveito da Iá, menos ele. Medo de ficar
+[00:50:42] para trás até no básico. Você usa a do
+[00:50:46] jeito, ou seja, ele já criou um outro
+[00:50:48] gatito, um gancho aqui na frente do que
+[00:50:51] aquele lá direto. E assim ele tá fazendo
+[00:50:54] para todos, certo? Então ele tá
+[00:50:57] mostrando um exemplo disso aí.
+[00:51:01] E aí publicou, né? E aí ele tá dizendo o
+[00:51:05] que que ele fez, ó,
+[00:51:08] né? Os comites todo que ele fez. Então,
+[00:51:10] cada comite eu posso voltar atrás, né?
+[00:51:14] Porque ele totalizou um comite para cada
+[00:51:16] uma das mudanças que ele fez. Certo?
+[00:51:25] Beleza? Então, pessoal, eu eu falei, é
+[00:51:27] um pouco mais técnico que que eu tô
+[00:51:29] mostrando, mas eu eu vejo assim, não tem
+[00:51:33] como alguém querer ser bom na Iá se ele
+[00:51:38] não estudar e entender o que eu tô
+[00:51:40] falando.
+[00:51:42] Certo? Daí vem aqueles daquele conteúdo
+[00:51:45] bem raso que o cara diz: "Ah, eu quero
+[00:51:47] criar um e pronto, foi lá, vai sair uma
+[00:51:51] porcaria, porque você tem que tá sempre
+[00:51:54] melhorando, melhorando, melhorando,
+[00:51:57] certo?
+[00:51:59] E aí que tu faz isso." Então, o que que
+[00:52:01] acontece? Isso aqui agora tá em
+[00:52:03] produção, certo? Eu vou poder dizer
+[00:52:06] assim: "Restarta
+[00:52:11] o sistema".
+[00:52:13] Vamos ver se ele ele vai restartar se
+[00:52:16] não tem nada rodando.
+[00:52:23] Olha, disse: "Memória do projeto:
+[00:52:26] Restartar mata o que que tem em voo.
+[00:52:29] conferir jobs rodando antes. Ou seja, eu
+[00:52:33] tenho isso na memória do meu sistema
+[00:52:36] aqui. Então, já anotei isso. Todas as
+[00:52:39] coisas ele vai aprendendo, os erros que
+[00:52:42] a gente faz colocando em memória. Então,
+[00:52:45] toda vez que tu mandar, ele olha lá a
+[00:52:47] memória antes de executar.
+[00:52:50] [roncando]
+[00:52:52] Então, o que que ele tá fazendo, ó? Fila
+[00:52:54] vazia, nenhum fluxo aberto.
+[00:52:57] Último render entregue, nada disparado.
+[00:53:00] Depois seguro reiniciar. Reiniciando
+[00:53:04] o serviço.
+[00:53:08] Nota o restante subiu,
+[00:53:11] né? O dis já está. Rodeio building. Nada
+[00:53:15] do início foi alterado nessa sessão. As
+[00:53:18] edição foram todas para promovatar 3,
+[00:53:23] certo? E no promovatar
+[00:53:29] não teve nada,
+[00:53:33] não foi melhorado os prompts?
+[00:53:42] Oi, tudo bem pessoal? Oi, Víor,
+[00:53:45] tudo bem? Tempo no Sul, como é que tá
+[00:53:48] pessoal? Ó, eu do TikTok, vocês têm que
+[00:53:51] ir lá pro Inema, pro Inema TDS do
+[00:53:54] YouTube,
+[00:53:56] porque quando eu transmito aqui no
+[00:53:58] TikTok, logo ele me bane porque vocês
+[00:54:01] não me mandam dinheiro para ele, certo?
+[00:54:04] Então ele quer que interage tudo mais,
+[00:54:06] daí não dá. Aí eu perco, né, de entregar
+[00:54:10] conteúdo bala para quem quer assistir.
+[00:54:13] Então eu só deixo aqui para o pro
+[00:54:15] pessoal que tava reclamando para mim e
+[00:54:17] dizendo assim: "Ah, eu nunca sei quando
+[00:54:19] tu tá na live". Então eu abro a live
+[00:54:22] aqui pro no TikTok, abro a live no
+[00:54:27] Instagram, a live do Facebook, mas eu só
+[00:54:31] tô salvando agora a tela no YouTube,
+[00:54:35] senão vocês me ferram com a minha vida
+[00:54:37] aqui, porque o negócio meu é testar e
+[00:54:41] ensinar pra galera que quer aprender.
+[00:54:45] Beleza? Então tá, deixa eu responder aí,
+[00:54:48] Emerson. o CC bote do Telegram que
+[00:54:51] organiza as filas. Isso aí mesmo.
+[00:54:54] Provavelmente amanhã de tarde eu vou
+[00:54:57] gravar um vídeo explicando esse sistema,
+[00:55:01] porque muita gente já tá usando ele, tá?
+[00:55:04] E eu quero mostrar as otimizações que a
+[00:55:07] gente pode fazer,
+[00:55:10] tá? Todo dia tá saindo 100 vídeos meus
+[00:55:13] espalhado pelas redes, né? E aos poucos
+[00:55:17] é tipo assim, tá esquentando conteúdo em
+[00:55:20] muitos canais,
+[00:55:22] certo? Por quê? Porque é o público que o
+[00:55:24] algoritmo tá descobrindo. Não quero que
+[00:55:27] ele tenha milhares de pessoas que não
+[00:55:30] interessa. Se eu tô escrevendo um
+[00:55:32] conteúdo para alguém de 60 anos, é para
+[00:55:35] esse público, certo? Então ele vai
+[00:55:38] entregando aos poucos. Tô vendo o
+[00:55:40] crescimento disso. Certo?
+[00:55:45] Então é por isso que a gente tem esse
+[00:55:47] aí, o Inema CCBOT é o gerenciador das
+[00:55:52] filas
+[00:55:54] via Telegram, certo? E aí os skills que
+[00:55:57] tu colocar lá dentro vão fazer o que tu
+[00:56:00] quiser.
+[00:56:01] Você criar vídeo, né? Criar, mandar
+[00:56:04] mensagem, né? fazer negociação, o que tu
+[00:56:08] quiser. É um sistema como se fosse um
+[00:56:11] Jarvis, mas é um sistema de fila para
+[00:56:14] você colocar e escalar.
+[00:56:18] Isso que fez com o Fabo. Deve ter
+[00:56:20] consumido muitos tokens. Ó, ele consumiu
+[00:56:25] 1% só do meu conteúdo semanal.
+[00:56:31] Por que que Por que que ele não gastou
+[00:56:33] muito? Porque a gente tem que saber como
+[00:56:36] usar. O que que eu fiz? Eu limpei
+[00:56:39] contexto, certo?
+[00:56:42] Primeiro lugar, eu limpei o contexto.
+[00:56:45] Então, o que que eu fiz aqui? Que nem
+[00:56:47] agora. Agora eu tenho um monte de
+[00:56:48] contexto aqui, ó. Não, 15% só. Por quê?
+[00:56:53] Porque ali em cima eu limpei o contexto,
+[00:56:56] ó. Antes de começar a fazer todo esse
+[00:56:58] trabalho, eu limpei o contexto. E outra
+[00:57:01] coisa, eu mandei,
+[00:57:04] quando ele fez a coisa toda, eu mandei
+[00:57:07] ele gravar.
+[00:57:10] Deixa eu ver onde é que tá
+[00:57:17] monitor.
+[00:57:27] Certo. Deixa eu ver onde que tá.
+[00:57:38] E tem bastante coisa aqui. Deixa eu
+[00:57:40] mexer.
+[00:57:50] Ó, isso aqui tudo é antigo, tá?
+[00:57:54] Daí vai chegar o momento, ó, aqui que
+[00:57:57] foi, ó.
+[00:58:05] Ó, eu dei clear aqui, certo? Então, eu
+[00:58:10] limpei o contexto todo.
+[00:58:17] Tã. Não, isso aqui ainda antes tem mais
+[00:58:19] coisa para baixo. Deixa eu achar o
+[00:58:21] outro.
+[00:58:23] Então, tu tem que se acostumar de limpar
+[00:58:25] o contexto de tempos em tempos.
+[00:58:33] Tá. Isso aqui eu tava trabalhando de
+[00:58:35] tarde.
+[00:58:43] Cadê você?
+[00:58:50] Né? A gente trabalha bastante, ó. Eu
+[00:58:53] tenho melhorado muito o sistema aqui.
+[00:59:08] Deixa eu achar aqui. Eu quero te mostrar
+[00:59:10] bem o que que eu fiz aqui.
+[00:59:26] Eu acho que foi. Deixa eu seguir mais
+[00:59:28] para baixo.
+[00:59:47] Aqui, ó.
+[01:00:02] subir,
+[01:00:06] ó. Tá aqui um exemplo, ó.
+[01:00:10] Ó, eu peguei, eu fiz um sessionoff,
+[01:00:15] certo? que eu limpei tudo, fiz um um
+[01:00:19] porque na verdade eu tinha mandado aqui
+[01:00:21] fazer um sessionof,
+[01:00:23] daí eu mandei limpar, certo? Clear, ele
+[01:00:27] limpou e eu botei de volta o que que eu
+[01:00:29] tinha de contexto. E aí eu peguei e
+[01:00:32] disse modelo
+[01:00:36] 5,
+[01:00:38] esforço X hide,
+[01:00:41] certo? Ou seja, eu botei quase no topo
+[01:00:43] em cima para ele. E aí disse: "Eu quero
+[01:00:46] que analise os promptes do promovatar e
+[01:00:49] do promovatar 3. Se as três
+[01:00:51] modabilidades que criamos pode ser
+[01:00:54] melhor, não quero que mude só a análise
+[01:00:56] se conseguimos atingir de melhor o
+[01:00:59] público, sendo viral e também ético com
+[01:01:03] nossos valores.
+[01:01:05] Vou ler os promptes dos dois repo,
+[01:01:10] né?
+[01:01:10] Leos repo paá veredito. A ética não é o
+[01:01:14] ponto fraco, é a parte mais bem
+[01:01:17] desenvolvida dos três. O teto de alcance
+[01:01:20] hoje está em três lugares. A camada do
+[01:01:23] público é rasa. Uma linha por público às
+[01:01:26] vezes é é errada. Ou seja, os meus
+[01:01:29] valores éticos tão OK. O que que tá
+[01:01:32] errado é o meu viral. Então eu quis
+[01:01:36] melhorar o promptal
+[01:01:38] meus conteúdos.
+[01:01:40] né?
+[01:01:42] Melhores ferramentas de gancho ficam no
+[01:01:44] promovatar velho e não migraram. Então
+[01:01:47] ele entendeu que o promo avatar é a
+[01:01:49] versão antiga.
+[01:01:52] Daí ele me deu aí todas as as coisas de
+[01:01:55] dores e tudo. E aí eu disse ainda numa
+[01:01:58] ponto promo Avatar 3 não é uma versão
+[01:02:01] melhorada, é apenas uma versão com três
+[01:02:03] formatos, enquanto para uma avatar é um
+[01:02:05] formato só. correção aceita, ela muda a
+[01:02:09] moldura. Daí conversamos aqui, certo?
+[01:02:12] Veja, se a gente não tá interagindo, ele
+[01:02:14] vai tomar opinião dele, né? Não vai
+[01:02:18] entender as coisas. Então, a memória já
+[01:02:21] dizia dois sistemas, papá. E daí eu foi
+[01:02:23] assim, ele pegou e eu digo: "Salve tu
+[01:02:26] orientações para o executar as
+[01:02:29] alterações validando no promovatar 3 tá
+[01:02:33] tá tá tá tá tá tá tá tá". E daí pedido
+[01:02:37] agora é um plano para executar em outra
+[01:02:39] sessão. Vou usar escrita
+[01:02:42] e criou o arquivo.
+[01:02:44] Daí ele criou o arquivo, eu peguei,
+[01:02:46] salvei aquele arquivo, mandei limpar,
+[01:02:50] troquei o modelo agora por, ó, clear
+[01:02:54] modelo cinco opos. Esforço, botei em
+[01:02:57] médio. Podia botar LOL, mas eu botei em
+[01:03:00] médio só para ele ter um pouquinho de
+[01:03:02] flexibilidade,
+[01:03:04] certo?
+[01:03:06] Tá? E aí ele começou a executar o plano
+[01:03:10] aqui que fez a mudança. Então eu usei o
+[01:03:14] melhor de cada um. Usei o Fibo para ele
+[01:03:17] pegar e fazer o plano, avaliar, criticar
+[01:03:20] e [roncando]
+[01:03:21] o Opus para executar.
+[01:03:31] Opa, tudo bem? Eu vi ali, até respondi
+[01:03:34] ali. Depois eu vou depois da live eu vou
+[01:03:36] te dar um feedback aí.
+[01:03:51] Oi, tudo bem? Maritom
+[01:03:53] vai agora ã no
+[01:03:58] YouTube Nema TDSX,
+[01:04:00] a Tisa tá aí, Nema VIP tá lá, já
+[01:04:03] conversa com ela aí para ver o que que
+[01:04:05] houve,
+[01:04:08] tá legal?
+[01:04:12] Então, pessoal, mais uma dica para vocês
+[01:04:14] aí, como é um processo de melhoria, tá
+[01:04:18] legal?
+[01:04:21] Que que mais que eu tô aqui? Deixa eu
+[01:04:23] ver se tem mais alguma coisa de vídeo
+[01:04:25] aqui, né? De Jarves aqui.
+[01:04:30] Esse aqui é um conteúdo que eu baixei
+[01:04:32] aqui que eu quero estudar
+[01:04:36] aqui. É o
+[01:04:39] Ah, sim. Vamos falar um pouquinho do
+[01:04:41] Inema Pro,
+[01:04:46] certo? Nem pro aqui.
+[01:04:53] Olha só, pessoal.
+[01:04:55] Então, de novo, tô colocando aqui os
+[01:04:58] conteúdos
+[01:05:00] e se nós entrar aqui no acervo,
+[01:05:03] pessoal, já tem 17.000 conteúdos dentro
+[01:05:07] do nosso sistema do Inema Pro, cada vez
+[01:05:11] mais arredondado, né? Tudo que a gente
+[01:05:15] publica nas comunidades aí dentro do
+[01:05:18] Inema VIP, vem para cá consolidado como
+[01:05:20] um cérebro, tá? Então se tu vi aqui
+[01:05:24] procurar, né, todo o conteúdo de
+[01:05:27] madrugada ele atualiza. Eu não tô
+[01:05:29] fazendo online por causa de sobrecarga e
+[01:05:32] economia. Então o que que ele faz quando
+[01:05:35] a gente fizer isso que eu queria mostrar
+[01:05:37] aqui para vocês de novo, porque o
+[01:05:40] objetivo é sempre mostrar por baixo como
+[01:05:43] funciona, tá vendo? Isso aqui é o
+[01:05:46] portal, tá? Então, quando eu eu coloco
+[01:05:50] alguma coisa no portal, ó, por exemplo,
+[01:05:53] eu mandei publicar, né, alguma coisa no
+[01:05:56] portal,
+[01:05:58] ele atualiza lá no portal, por exemplo,
+[01:06:01] no Inema Club.
+[01:06:03] Certo?
+[01:06:05] Deixa eu ver
+[01:06:08] mais para cima. Tem que ser,
+[01:06:15] ó.
+[01:06:18] Não, mais para cima. Eu queria mostrar
+[01:06:20] uma parte que ele atualizou
+[01:06:30] aqui, ó.
+[01:06:33] Certo? Ó, quando a gente manda alterar
+[01:06:36] alguma coisa no portal,
+[01:06:39] ele vai lá dentro do portal tem uma área
+[01:06:42] de dados onde tem um curso. TS.
+[01:06:46] Aqui tem tudo, todo o conteúdo de curso,
+[01:06:50] certo? E aí o que que ele faz? Ele pega
+[01:06:53] esse dado de curso e atualiza,
+[01:06:56] certo? Lá no GitHub e tudo mais. E aí
+[01:07:00] vai para um portal.
+[01:07:03] Então dentro dessa base de dados mais
+[01:07:05] dessa de base de dados depois é levado
+[01:07:09] para dentro, né, do sistema, né, do
+[01:07:13] Inema Pro. Então você faz uma escada de
+[01:07:17] informação,
+[01:07:19] tá? A mesma coisa eu posso mostrar para
+[01:07:22] vocês aqui, ó.
+[01:07:24] Eu
+[01:07:26] acho que é esse aqui.
+[01:07:32] Isso aqui também, ó.
+[01:07:39] Ó, um exemplo aqui. Ele pega, houve
+[01:07:43] mudança, ele vai lá e atualiza os
+[01:07:47] arquivos. Tem um arquivo que é dentro do
+[01:07:51] pro chamado LIB, é a biblioteca. Daí nós
+[01:07:54] temos o cérebro que tem um conteúdo
+[01:07:57] aqui.
+[01:07:59] Então esse conteúdo desse cérebro que
+[01:08:02] serve a todo mundo,
+[01:08:04] né? Ó, cérebro tópico, tem o cérebro,
+[01:08:09] certo? Que mais? Vamos ver se aparece
+[01:08:11] mais algum aqui só para explicar,
+[01:08:14] ó. Tópico conteúdo,
+[01:08:17] certo? Então ele já prepara tudo isso.
+[01:08:21] Então de madrugada é feito isso. Então
+[01:08:23] quando alguém vem aqui e simplesmente
+[01:08:26] vai escrever sobre
+[01:08:30] vibe, opa,
+[01:08:33] vibe
+[01:08:35] coding,
+[01:08:37] ó.
+[01:08:40] Certo? Ele já buscou instantaneamente.
+[01:08:43] E eu não tô usando IA. Aá é é
+[01:08:46] preparação.
+[01:08:48] A gente sempre tem que pensar nisso. Se
+[01:08:50] eu uso a Iá na preparação, eu usei ela
+[01:08:53] uma vez. Agora, se 1000 pessoas estão
+[01:08:57] consultando, eu não gasto IA.
+[01:09:01] Certo? Então a gente usa Iá nem sempre
+[01:09:05] para ficar lá atendendo todo mundo,
+[01:09:07] porque aí tu vai gastar muita grana.
+[01:09:10] Então o ticket tem que ter alto e se eu
+[01:09:12] tenho meu ticket é baixo ou eu tô
+[01:09:14] oferecendo de graça, eu tenho que ter
+[01:09:16] maneiras que isso seja de baixo custo.
+[01:09:20] Então o que que ele faz aí a de
+[01:09:22] madrugada consolida tudo que nem ontem.
+[01:09:26] Ontem ele ela tinha mais de 2.000
+[01:09:28] informações novas para dentro do Inema
+[01:09:31] Pro, certo? Então, e aqui eu posso estar
+[01:09:35] olhando isso aqui, ó, de vários
+[01:09:37] formatos, por lista, por cartões, certo?
+[01:09:41] Por capa, certo? Por título,
+[01:09:45] por resumo,
+[01:09:47] certo? Todos eles estão buscando na
+[01:09:50] mesma base de dados, só que eles
+[01:09:52] entregam num formato, num layout
+[01:09:55] diferente, porque as pessoas gostam de
+[01:09:57] coisas diferentes, certo?
+[01:10:01] Então, sobre vibe code 500 e pouco, aí
+[01:10:04] eu posso fazer os filtros. Eu quero só
+[01:10:06] resumo, eu quero só o que que é tem do
+[01:10:09] Telegram aqui, ó. Ele não achou nada de
+[01:10:12] resumo do Telegram, mas títulos tem,
+[01:10:15] lista tem nada. Certo? Então, por que
+[01:10:20] que ele não achou nada lá? Porque não tá
+[01:10:22] indexada,
+[01:10:24] né? Se eu botar resumo, sim. Daí ele
+[01:10:27] abre aqui, né? Então, ã, assim, eu vou
+[01:10:33] alimentando a base de informação,
+[01:10:36] tá legal?
+[01:10:44] Ó, a Tisa, se a Tisa tiver aí para dar
+[01:10:47] um feedback aí, ó.
+[01:10:51] Tá legal?
+[01:10:55] Então, para vocês terem uma ideia sobre
+[01:10:57] isso aqui.
+[01:10:59] E aí nós vamos tá sempre botando as
+[01:11:03] informações e tendo abordagem diferente.
+[01:11:06] Então, quando eu vou pro cérebro, o que
+[01:11:09] que eu tenho? Eu tenho abordagens
+[01:11:10] diferentes da mesma base, porque cada
+[01:11:13] vez que tu busca, senão é aquela Babel,
+[01:11:16] tu vai no Google e tem um monte de link,
+[01:11:19] então ele tem que ser mais assertivo
+[01:11:21] aonde você tá querendo chegar, tá?
+[01:11:23] Legal?
+[01:11:25] Então aqui eu tenho várias formas de
+[01:11:27] estar buscando a mesma informação,
+[01:11:30] certo? Apresentando a mesma informação e
+[01:11:33] assim por diante,
+[01:11:35] tá legal?
+[01:11:43] Deixa eu,
+[01:11:47] deixa eu só fazer uma coisinha aqui. Sì.
+[01:12:09] Bom. Ahã.
+[01:12:19] Deixa eu já, Maritom. Eu acho que a Tisa
+[01:12:22] já te atende aí.
+[01:12:54] Ué,
+[01:12:57] cadê você, TikTok?
+[01:13:01] Ah, tá bom, tá bom.
+[01:13:06] Bom, outra coisa que eu queria mostrar
+[01:13:08] para vocês também, tá?
+[01:13:13] É que tem alguns conteúdos aqui, ó.
+[01:13:16] Deixa eu ver.
+[01:13:24] Ó,
+[01:13:25] o DeepSic aí foi lançado, né? As versões
+[01:13:29] novas que o pessoal tá falando muito,
+[01:13:32] né?
+[01:13:33] E as pessoas falam de preço. Então,
+[01:13:37] quando a gente tá falando de preço,
+[01:13:39] temos que dar uma olhada aqui, ó.
+[01:13:45] Hum. Deixa eu ver no chat aqui que eu
+[01:13:47] tenho. Vamos ver se eu acho o chat disso
+[01:13:50] que eu tava mostrando o valor aqui.
+[01:14:17] Vamos ver se esse aqui já me dá uma
+[01:14:20] ajuda.
+[01:14:23] Não, não é isso aqui.
+[01:14:27] Tá simplificando. Depois eu comando.
+[01:14:38] Cadê?
+[01:14:49] É. Daí aqui não não me aparece, então
+[01:14:54] também não. Cloud risco de impacto
+[01:14:59] geração. Mudar
+[01:15:02] não, isso já passou.
+[01:15:17] Geralmente é eu ele a busca é muito ruim
+[01:15:20] deles, né?
+[01:15:40] E eu eu não tá nem em ordem aqui. Podia
+[01:15:42] tá em ordem daí eu, né?
+[01:15:50] É, paciência.
+[01:15:54] Tudo muito.
+[01:16:15] É, deixa assim. Então eu vou mostrar
+[01:16:17] para vocês na prática aqui.
+[01:16:47] Deixa eu Só.
+[01:16:49] Oi, tudo bem, Mateus? Minha formação, eu
+[01:16:51] fui, formei em física, trabalhei em 40
+[01:16:54] anos com tecnologia.
+[01:16:57] Beleza. Deixa eu só ver mais uma vez
+[01:16:59] aqui.
+[01:17:01] Pô, meu suporte aqui não tá me ajudando.
+[01:17:18] Bom, enquanto isso lá vamos aqui, ó.
+[01:17:48] &gt;&gt; [limpando a garganta]
+[01:17:48] &gt;&gt; Que coisa sério?
+[01:18:12] Ó, se eu parar para pensar aqui no valor
+[01:18:17] de um da IA, eu posso est pensando
+[01:18:19] assim, eu tenho
+[01:18:22] Open Router e os modelo barato aqui,
+[01:18:26] certo? Então vamos pegar um exemplo. Eu
+[01:18:29] quero o modelo da do K3.
+[01:18:34] Quanto é que é o K3?
+[01:18:39] &gt;&gt; Pede pr pra mãe olhar o o a mensagem aí
+[01:18:42] urgente,
+[01:18:46] tá?
+[01:18:48] [roncando]
+[01:18:50] Tá bom?
+[01:18:53] Então, olha só, o valor do K3 tá quanto?
+[01:18:56] 14, certo?
+[01:18:59] Muito bem.
+[01:19:01] Aí nós voltamos aqui
+[01:19:05] e daí vamos lá.
+[01:19:10] Olha só, 14.
+[01:19:14] Quantos tokens eu consigo? 1 milhão.
+[01:19:18] Então, se eu chegar aqui e disser assim:
+[01:19:21] "Open router",
+[01:19:26] melhor,
+[01:19:28] qual o volume que eu gastaria
+[01:19:34] se fosse
+[01:19:36] comprar
+[01:19:40] créditos
+[01:19:44] de API?
+[01:19:46] para o cloud
+[01:19:49] code e o codex, tá? Então só vamos ver.
+[01:20:01] Olha só, hoje o que que nós temos? Nós
+[01:20:04] temos uma assinatura, certo?
+[01:20:08] Assinatura é de 20, $ e 200, certo?
+[01:20:16] OK?
+[01:20:18] Então, a minha assinatura
+[01:20:20] se, ó, assinaturas de
+[01:20:25] do
+[01:20:29] 100 e 200.
+[01:20:31] Quanto representaria
+[01:20:34] este consumo se fosse pagar a PI?
+[01:20:42] Deixa dar os valores, daí eu vou
+[01:20:43] explicar para vocês uma coisa,
+[01:20:52] tá?
+[01:20:56] Muito bem.
+[01:21:00] Existe
+[01:21:03] cálculos
+[01:21:04] em cima disso, prevendo
+[01:21:09] consumo total de 8K a 14K.
+[01:21:16] Deixa só pegar esses dados.
+[01:21:23] Olha
+[01:21:33] só
+[01:21:36] o que que acontece, tá? Existe um estudo
+[01:21:39] que diz assim: "Se você gastasse, tá, os
+[01:21:43] $2
+[01:21:46] que você tem de assinatura e tivesse que
+[01:21:50] consumir,
+[01:21:52] ã,
+[01:21:54] comprando API, você gastaria $8.000
+[01:21:58] e no cloud Code, no Codex, 14.000,
+[01:22:04] certo? Então isso é o subsídio que se
+[01:22:06] tem.
+[01:22:07] Tá. Deixa eu só fazer uma pesquisa aqui
+[01:22:10] para ver se não se eu não acho aqui o
+[01:22:13] outro que eu fiz que já tava tudo
+[01:22:15] calculado.
+[01:22:20] 57 vezes 57
+[01:22:25] vezes.
+[01:22:28] Humum.
+[01:22:36] V4.
+[01:22:46] Não, não acha. Então vamos ali.
+[01:22:49] Certo? Então olha só,
+[01:22:53] uma das coisas que eu queria mostrar é o
+[01:22:55] seguinte.
+[01:22:57] Quanto é que eu consigo fazer de custo,
+[01:23:01] né, com
+[01:23:04] 8.000K.
+[01:23:06] Qual,
+[01:23:08] quanto seria de tokens
+[01:23:13] comprando API?
+[01:23:39] Ó, de 1 a 2 bilhões de tokens novos
+[01:23:42] processado,
+[01:23:44] certo?
+[01:23:47] Então vocês imaginam o seguinte,
+[01:23:50] quando nós pensamos que a gente tem
+[01:23:54] 8.000 1000,
+[01:24:00] ou seja,
+[01:24:02] dividido por 4
+[01:24:07] é o custo que tu tem por semana,
+[01:24:10] certo? Então daria $000 por semana, que
+[01:24:14] é a cota semanal.
+[01:24:17] Então o grande problema das pessoas é
+[01:24:19] isso, é não calcular isso aí.
+[01:24:21] Quando eu tô usando o K3,
+[01:24:24] certo?
+[01:24:26] Aqui, onde que tu tá aqui
+[01:24:30] é 14 por milhão,
+[01:24:33] certo?
+[01:24:36] Então são 14
+[01:24:39] dividido por onde que tu tá?
+[01:24:48] Esse aqui é da da do cloud coden. Vamos
+[01:24:52] fazer o seguinte, eu quero
+[01:24:55] 8.000
+[01:24:58] no
+[01:25:00] Opos.
+[01:25:14] Dá 1 milhão de toques por saída. 25.
+[01:25:18] Por que que ele complica aqui em vez de
+[01:25:20] dar resposta certo?
+[01:25:27] 320 milhões, tá?
+[01:25:34] Quanto custaria?
+[01:25:38] o K3
+[01:25:41] para 320 milhões.
+[01:25:57] Tá vendo aqui?
+[01:26:02] Olha
+[01:26:09] só,
+[01:26:11] eu tenho discutido isso bastante.
+[01:26:17] Então,
+[01:26:19] são 4.800
+[01:26:21] que eu gastaria em tokens.
+[01:26:26] Vamos resumir tudo esse cálculo aqui que
+[01:26:28] eu queria fazer. Então, a questão é a
+[01:26:30] seguinte.
+[01:26:34] A questão é toda é o seguinte, eu tenho,
+[01:26:37] certo, um valor que eu consumo todo mês
+[01:26:42] com o cloud code, que é 200 por mês. Se
+[01:26:47] eu comprasse, né, o equivalente em token
+[01:26:50] que eu gasto, eu gasto todos eles o
+[01:26:52] tempo todo. Se eu consumisse isso, daria
+[01:26:56] $8.000
+[01:26:58] em tokens de API que eu compraria.
+[01:27:01] Se eu quiser agora com esse volume de
+[01:27:03] tokens comprar certo os tokens da do K3
+[01:27:10] que tá a 15
+[01:27:13] ou senão se eu quiser comprar, né, da
+[01:27:18] de PSIC que tá 6,
+[01:27:22] qual é o cálculo que eu vou ter sobre
+[01:27:24] isso?
+[01:27:46] Ó, exatamente conta é um volume de
+[01:27:49] tokens.
+[01:27:52] Hoje o Cloud Oppo 5 custa de cinco de
+[01:27:56] entrada e 25 de saída. O Kim custa 3 de
+[01:28:00] entrada e 15 de saída. Ou seja, tanto
+[01:28:04] input como output é exatamente 60% do
+[01:28:08] OPOS. Portanto, se o seu consumo mensal
+[01:28:11] no cloud Code é 8.000 em API, o mesmo
+[01:28:15] volume custaria 4800.
+[01:28:20] Só que eu pago só 200 por mês.
+[01:28:25] Vocês conseguiram entender sobre isso?
+[01:28:29] Então, mesmo que o pessoal tá falando
+[01:28:31] ali, né, que é muito barato, tá? Olha só
+[01:28:36] o deepsic são 6 aqui. Vamos pensar o
+[01:28:39] menos que possa ser, tá?
+[01:28:45] Então, o que que acontece? O depsic
+[01:28:48] eu estaria gastando quase $.000,
+[01:28:52] certo?
+[01:28:54] Enquanto que a assinatura do Cláudio
+[01:28:57] Mars é 200.
+[01:29:00] Por isso que mesmo que seja de graça,
+[01:29:03] né, ou seja, muito mais barato,
+[01:29:07] ainda assinaturas estão compensando.
+[01:29:11] Mas todo mundo fala que isso é por pouco
+[01:29:14] tempo. Então, quem tem condições hoje de
+[01:29:17] gastar na assinatura para aprender, para
+[01:29:20] desenvolver, para fazer as coisas,
+[01:29:22] porque vai chegar um ponto que a Open
+[01:29:27] a o Cloud Code, né, todos esses não vão
+[01:29:31] sustentar 200 por mês.
+[01:29:37] Deixa eu ver se se não é o Dipsic mais
+[01:29:39] barato do que isso.
+[01:29:41] Vamos ver
+[01:29:45] o depsic pro
+[01:29:47] não tá bem mais barato, ó. 87. Vamos ver
+[01:29:50] quanto é que dá, então.
+[01:29:54] Atualizando o DIP
+[01:29:58] de SIC V4 Pro é
+[01:30:04] 87.
+[01:30:09] E já coloque o
+[01:30:13] ã
+[01:30:15] quem mais que tô poderia estar colocando
+[01:30:19] o Gemini
+[01:30:23] o Grock.
+[01:30:30] Eu
+[01:30:51] acredito que a sinatura não tem como
+[01:30:53] eles bancar, né? Hoje a Openai tá no
+[01:30:56] prejuízo, a antrop tá no prejuízo, né? O
+[01:31:00] Grock tá no prejuízo.
+[01:31:03] As empresas, né, multinacionais do da
+[01:31:06] China,
+[01:31:07] elas estão fazendo isso para ganhar
+[01:31:09] mercado, para fazer dumping americana.
+[01:31:12] Então, por que que eles vão trabalhar no
+[01:31:15] negativo,
+[01:31:18] certo?
+[01:31:20] Vai chegar um ponto que tanto que vocês
+[01:31:23] lembram que deu um maior rolo nisso aí
+[01:31:26] quando elas lançaram o Fabibo. A regra
+[01:31:29] era que o Fab teria duas semanas de uso
+[01:31:31] e depois seria só via PI e daí deu todo
+[01:31:35] aquele problema lá com os governos
+[01:31:38] americano e eles tiveram que mudar a
+[01:31:40] estratégia,
+[01:31:42] mas deram dão pra gente 50% e no valor
+[01:31:46] certo do dobro.
+[01:31:49] Ó, aqui tá aqui, ó, o dipsic custa,
+[01:31:52] então no depsic, né, se nós vamos ver o
+[01:31:56] valor dele, tá considerável, né?
+[01:32:02] Então é 400 é o dobro do que nós estamos
+[01:32:05] pagando de 200, só que a qualidade dele
+[01:32:09] não é não é tão bala, certo?
+[01:32:14] Então o Grock aqui que é 6 tá me
+[01:32:16] confundindo com o Grock 2400 é 10 vezes
+[01:32:20] mais certo do que a gente tá pagando.
+[01:32:25] E a pergunta é por que que o Grock tá
+[01:32:28] mais barato? Será que o custo dele ou
+[01:32:31] também tá subsidiando,
+[01:32:34] né?
+[01:32:35] Então tudo isso faz uma, né, uma uma
+[01:32:39] visão que tu tem que ter de porque se tu
+[01:32:42] quer desenvolver coisas, tu tem que
+[01:32:44] pensar nisso. Como a empresa vai
+[01:32:47] consumir e pagar quantos 1000 dólares
+[01:32:50] ela vai gastar em tokens para atender
+[01:32:53] demanda de mercado e tudo, certo?
+[01:32:57] Então são todas coisas a considerar aí,
+[01:33:01] tá? E sempre eu gosto de tocar nesse
+[01:33:03] assunto para calcular.
+[01:33:05] Então, se a gente pensar hoje o deepsi
+[01:33:08] que é mais barato do que assinatura, não
+[01:33:11] é, mas se tu usar pouco, aí sim, né? Se
+[01:33:17] tu usar pouco aí sim, aí ele vale a
+[01:33:20] pena,
+[01:33:22] né? Então tu pode estar usando ele, né?
+[01:33:26] Zazonal no que que tu quer, assim como
+[01:33:30] eu tenho, né? Tenho coisas que eu uso
+[01:33:32] dentro da comunidade, né? Lá no
+[01:33:37] por exemplo, se você usar aí, ó, o
+[01:33:40] cérebro,
+[01:33:43] né, e tu for aqui na arena, por exemplo,
+[01:33:46] né, eu tô usando GLM, tô usando de
+[01:33:49] psique, tô usando o Queen, todos eles eu
+[01:33:53] tô usando aqui para tu poder fazer uma
+[01:33:56] pergunta e ver como cada um se comporta.
+[01:34:07] Beleza.
+[01:34:16] Oi, tudo bem?
+[01:34:18] Thago tá procurando API de geração de
+[01:34:22] vídeo para vender em site de geração em
+[01:34:24] grande escala. Olha lá no inema.Club.
+[01:34:29] Tenho, tenho tem vários várias
+[01:34:32] ferramentas já pronta praticamente para
+[01:34:34] fazer isso. Única coisa tu tem que
+[01:34:36] configurar,
+[01:34:39] [roncando] tá? Dá uma olhada no
+[01:34:42] inema.club, Club. Tem o o Inema CC Boot,
+[01:34:49] tem o Inema,
+[01:34:52] ã, o YouTube
+[01:34:56] Pub
+[01:34:58] Live X.
+[01:35:06] Opa, ó, o Lavo tá levantando assim:
+[01:35:08] "Como é feita essas assinatura oferecido
+[01:35:10] no YouTube por R$ 100 e tem várias IA?
+[01:35:15] Veja, nós temos que saber que as Ias
+[01:35:19] elas têm dois preços, né? A IA que você
+[01:35:23] usa numa interface, ó, por exemplo, aqui
+[01:35:26] eu tô usando a o clean,
+[01:35:30] certo? Eu tô usando clean,
+[01:35:34] um custo é você usar isso pela interface
+[01:35:38] web.
+[01:35:40] Outra coisa é você usar pela interface
+[01:35:45] por baixo, por API.
+[01:35:48] Então, primeiro lugar, é o seguinte.
+[01:35:49] muito dessas dessas
+[01:35:52] ferramentas aí eles estão vendendo a
+[01:35:55] interface web
+[01:35:57] e não a PI, porque o valor da API, o
+[01:36:00] preço já é outro,
+[01:36:03] certo? Assim como aqui, ó, por exemplo,
+[01:36:07] para mim eu pago 30 40 por mês e
+[01:36:11] limitado criar pela interface web.
+[01:36:15] Se eu se eu for para por
+[01:36:18] API, eu tenho que pagar em torno de
+[01:36:23] a 3 a 20, dependendo da versão que eu tô
+[01:36:26] usando, certo? Por minuto de vídeo.
+[01:36:33] Só o que que acontece? Eu fiz, ó, isso
+[01:36:35] aqui tudo é feito via web. Eu criei um
+[01:36:39] script lá no promo avatar chamado
+[01:36:43] estúdio. Ele vem e cria. Ele navega e
+[01:36:47] cria de forma automática,
+[01:36:50] certo? Por isso que eu não gasto nada.
+[01:36:53] Eu posso criar milhares de vídeo sem
+[01:36:56] pagar nada além da minha mensalidade
+[01:36:59] normal.
+[01:37:01] Então, né, quando você tá falando dessas
+[01:37:05] assinaturas que oferece nessa dessas
+[01:37:08] empresas aí, muitas delas eu diria que é
+[01:37:11] golpe. Por quê? Porque ele vende um
+[01:37:14] monte de IA que tu só usa um pouquinho.
+[01:37:17] Então, sim, ele pode pegar um pacote que
+[01:37:20] é corporativo,
+[01:37:22] certo? e que todo mundo usa pouco. Mas
+[01:37:26] se eu tiver acesso, por exemplo, a uma
+[01:37:28] dessas aí e ele diz assim: "Sim, você
+[01:37:31] tem acesso a usar o
+[01:37:35] o clean, certo? E ele me diz que é
+[01:37:38] ilimitado o clean.
+[01:37:41] Opa, aqui, ó, que é ilimitado.
+[01:37:45] Eu posso pegar, fazer uma automação que
+[01:37:47] navega e cria tudo por cima. Então, logo
+[01:37:50] essas empresas vão sumir porque elas
+[01:37:54] estavam nessa nessa lógica,
+[01:37:56] né? Ou outra coisa que pode ser que elas
+[01:37:59] não estão oferecendo as últimas versões,
+[01:38:02] certo? Então, por exemplo, seria
+[01:38:04] oferecendo sempre umas versões mais
+[01:38:07] antiga ou limite de créditos que tu tem,
+[01:38:12] certo?
+[01:38:14] Não existe, né, almoço grátis.
+[01:38:23] Vamos ver o que que ele fala aqui, ó.
+[01:38:31] Olha a sacanagem deles. Se você compra
+[01:38:35] vídeo API, você gastou, certo? 700,
+[01:38:41] você ganhou 5.000 e só vale 180 dias. E
+[01:38:45] se tu não usar, tu perde.
+[01:38:49] Certo?
+[01:38:51] Olha só.
+[01:38:53] Isso é uma sacanagem. Devia ser. Tu tem,
+[01:38:55] né?
+[01:38:57] Tu tem direito a ficar aqui. É, é, ó, 30
+[01:39:01] dias. Se tu não usar, tu perde.
+[01:39:06] Então, é muito sacanagem desses cara.
+[01:39:09] Então eu prefiro não comprar da clean e
+[01:39:12] eu ir lá na no ko, certo?
+[01:39:19] E aqui eu boto o créditos, certo?
+[01:39:24] Eu boto o crédito aqui e aí eu vou est
+[01:39:27] usando, né? Vamos ver quanto é o clean
+[01:39:29] aqui,
+[01:39:31] tá?
+[01:39:33] H
+[01:39:35] vídeo.
+[01:39:38] Daí eu procuro aqui minimax
+[01:39:41] Dance, ou seja, clean aqui, ó.
+[01:39:44] Aí eu posso ver o preço que eu tenho
+[01:39:46] aqui lá. Ah, é o mesmo. Ótimo. Então eu
+[01:39:49] fico aqui porque aqui eu não tenho
+[01:39:52] problema de meus créditos não vence. E
+[01:39:55] os créditos que eu tenho aqui vale para
+[01:39:57] qualquer um,
+[01:39:59] certo? É diferente da de comprar esses
+[01:40:02] pacotes mágico aí,
+[01:40:04] entendeu? O Lavo,
+[01:40:12] então era isso hoje, cara. Eu já passei
+[01:40:14] da hora há muito tempo,
+[01:40:18] tá? Então nós vamos tem sempre trabalhar
+[01:40:21] com preços, né, com ideias,
+[01:40:25] né, alinhando as coisas e e pensar que
+[01:40:28] tudo tá mudando o tempo todo, certo?
+[01:40:31] Então, lembra do que que o cara vou até
+[01:40:33] fechar hoje a live falando disso aqui,
+[01:40:35] ó.
+[01:40:38] Se eu vou pegar aqui no
+[01:40:41] Cadê você?
+[01:40:46] Novidades.
+[01:40:55] Ah, deixa eu dar uma palinha aqui, ó.
+[01:40:57] Não sei se vocês viram. Negócio de uma
+[01:40:59] pessoa só. Como construir em 2026,
+[01:41:02] certo?
+[01:41:05] Aqui eu tenho um conteúdo lá no Inema,
+[01:41:08] ã,
+[01:41:10] TDS. Tá aqui, ó,
+[01:41:14] que tem todo o passo a passo para que se
+[01:41:16] você quiser construir um negócio, tá?
+[01:41:21] Tem toda passo a passo aqui. Eu vou
+[01:41:23] pegar outro dia, passar para vocês eh
+[01:41:26] repassar esse conteúdo, tá?
+[01:41:30] Que tá tudo aqui disponível para vocês,
+[01:41:33] inclusive com promptes, com tudo. Como é
+[01:41:36] que tu criar um negócio de uma pessoa
+[01:41:38] só? que é uma tendência, né? Você fazer
+[01:41:42] auditoria. Quer ver um exemplo de um de
+[01:41:45] uma,
+[01:41:48] qual é a tua ideia? Você vai construir
+[01:41:51] alguma coisa
+[01:41:53] e pro cliente você tem que ser um
+[01:41:55] parceiro.
+[01:41:57] Então esse esse parceiro o que que vai
+[01:41:59] ser? Alguém que vai ajudar o cliente
+[01:42:01] crescer, que vai ser parceiro, que vai
+[01:42:04] otimizar, que vai gerar lead, né?
+[01:42:08] Em vez de tu focar em ser criativo,
+[01:42:11] comunicação, estratégia, receita,
+[01:42:14] né? Construtor de A,
+[01:42:17] tu não vai faturar, tu tem que faturar
+[01:42:20] vendendo, focando no cliente.
+[01:42:23] Então aqui, ó, deixa eu ver um gráfico
+[01:42:25] que mostra bem legal isso aqui.
+[01:42:37] Hum,
+[01:42:41] não tá aqui. Deixa eu ver me achar.
+[01:42:55] Cadê? Cadê? Cadê?
+[01:43:13] aqui, ó. Esse aqui,
+[01:43:16] olha só,
+[01:43:19] como é que tu vai fazer com que teu
+[01:43:21] produto, né, a tua solução tenha ganho
+[01:43:24] no cliente. Seu trabalho manual levava
+[01:43:27] 15 horas por semana e você com
+[01:43:31] automatização leva 1 hora, ele ganhou 14
+[01:43:35] horas. Esse é o valor que tu vai cobrar,
+[01:43:38] certo?
+[01:43:40] Isso que ele vai ganhar. Se tu cobrar
+[01:43:42] isso aqui, ele teve ganho. Agora, para
+[01:43:45] chegar nisso aqui, tu tem que entender o
+[01:43:49] negócio do cliente. Então, por isso que
+[01:43:52] se tu vai começar aqui desde o início
+[01:43:54] nossa conversa aqui, ó, tá? O ponto de
+[01:43:58] vista é o seguinte. Em vez de tu focar
+[01:44:01] como construtor de IA ou como
+[01:44:04] especialista de automação, você tem que
+[01:44:07] pensar como parceiro de ato do cliente,
+[01:44:10] porque tu tem que entender o que que o
+[01:44:12] cliente tem, né, de dor ou de esforço,
+[01:44:16] que é aí que ele quer se livrar, certo?
+[01:44:20] Então, o que que acontece? Tu tem que
+[01:44:22] sair de um modelo de pensamento de
+[01:44:24] criador para um para um pensamento de
+[01:44:27] parceiro,
+[01:44:28] certo?
+[01:44:30] Então, tu tem que parar de pensar em ser
+[01:44:33] desenvolvedor, né, em graduação de
+[01:44:36] ciência de computação, de escrever
+[01:44:38] código, porque o negócio é tu inverter,
+[01:44:43] certo? Então, tu tem que pensar em
+[01:44:45] alavancar por pessoa, chegar em alguém
+[01:44:48] que queira o teu serviço, certo? Onde
+[01:44:51] que tu possa entregar uma coisa de valor
+[01:44:54] para ele, certo?
+[01:44:56] E aí, né, como é que tu vai conquistar
+[01:44:59] mais clientes, aumentar valor, reduzir
+[01:45:02] custo,
+[01:45:03] certo? Se você não tiver experiência de
+[01:45:06] fazer alguma coisa.
+[01:45:09] Então, em vez de você tá pensando em
+[01:45:11] agendar novos lead mais conversão, tu
+[01:45:13] tem que ajeitar alguém, certo, que
+[01:45:17] aceita você ir lá e fazer alguma coisa
+[01:45:20] para ele e aí tu conseguir um cliente
+[01:45:24] e daí sim esse cliente vira, né, um
+[01:45:28] modelo para tu poder mostrar para todo
+[01:45:30] mundo ir crescendo
+[01:45:32] e ele mesmo vai te entregar, né, mais
+[01:45:36] clientes, aumentar o valor
+[01:45:38] reduzir os custos
+[01:45:41] e assim por diante. Mas eu falo isso
+[01:45:43] outra hora, tá bom?
+[01:45:47] [roncando]
+[01:45:50] Eu queria mostrar isso aqui para vocês,
+[01:45:52] ó.
+[01:46:02] Não, no cloud code, tá?
+[01:46:06] aqui.
+[01:46:13] Esse cara é o cara que fundou o que
+[01:46:16] criou o cloud coach. Simples. Este é na
+[01:46:20] verdade um recurso.
+[01:46:22] &gt;&gt; Olha essa parte.
+[01:46:24] &gt;&gt; E muitas das coisas promp serviam para
+[01:46:27] corrigir comportamentos que o modelo
+[01:46:28] deveria saber, mas que tem ele não
+[01:46:31] sabia.
+[01:46:33] 5 simplesmente faz isso. Então sim, nós
+[01:46:35] deletamos 80% do system prompt.
+[01:46:39] Você pode até tentar deletar o restante
+[01:46:41] também. Então, quando você executa o
+[01:46:43] cloud code, você pode usar algo como
+[01:46:44] system prompt, definir qualquer
+[01:46:45] promptiser, caso experimentar com isso.
+[01:46:49] E outra coisa que você pode tentar é o
+[01:46:50] modo simples. Este é, na verdade, um
+[01:46:53] recurso não documentado. Se você definir
+[01:46:55] cloud code under 5 ou igual 1, com essa
+[01:46:58] variável que é cliente. Então, executar
+[01:46:59] o cloud, eleá todos os sistemas
+[01:47:03] ferramentas.
+[01:47:05] E nós usamos isso como uma espécie de
+[01:47:06] avalção para descobrir o prompt é útil.
+[01:47:10] E o que é interessante é que o modelo,
+[01:47:12] na verdade um pouco mais inteligente sem
+[01:47:14] esses prompts. Isso é algo que temos
+[01:47:16] observado. Mas quando você usa o cloud
+[01:47:18] como produto,
+[01:47:20] &gt;&gt; vocês viram só,
+[01:47:23] se você tirar todos os promptes, o cloud
+[01:47:26] code é mais inteligente do que com os
+[01:47:28] prompts,
+[01:47:34] entendeu?
+[01:47:36] Então, esse vídeo aqui, ó, é um vídeo
+[01:47:38] muito bom para vocês entenderem a
+[01:47:41] evolução que nós estamos passando,
+[01:47:44] [roncando]
+[01:47:45] tá? E outra coisa, vocês estão vendo
+[01:47:48] aqui, ó, não para de sair notícia
+[01:47:52] que a da antrópica, da Openai, tudo que
+[01:47:57] os
+[01:47:59] o as IA novas tão tão tentando fugir do
+[01:48:04] sistema. Ou seja, elas estão cada vez
+[01:48:07] mais independente para tentar resolver
+[01:48:10] as coisas do jeito dela. Claro que daí
+[01:48:13] todo mundo pega essa ideia de, né, de
+[01:48:16] terror, de abordagem e tudo, mas o que
+[01:48:19] mostra é que elas estão tendo
+[01:48:22] raciocínio.
+[01:48:25] E hoje de tarde eu tava ensinando uma
+[01:48:28] coisa pro pessoal e mostrei isso aqui,
+[01:48:30] ó.
+[01:48:33] H, não tá mais aqui. Então vamos lá.
+[01:48:50] Cadê você
+[01:48:53] aqui?
+[01:48:57] Olha
+[01:49:01] só,
+[01:49:03] vocês imaginam que eu venho aqui
+[01:49:06] e faço uma pergunta para Iá.
+[01:49:10] Quero,
+[01:49:14] ó, quando vocês vão ver aqui, ó, deixa
+[01:49:16] eu só mostrar para vocês
+[01:49:19] aqui. Vocês viram que eu fiz uma
+[01:49:21] pergunta, [roncando] certo? E ele me deu
+[01:49:24] a resposta direto, certo? Não tem nada
+[01:49:27] aqui na frente,
+[01:49:30] ó. Me deu resposta direto. Então eu vou
+[01:49:33] vir aqui e dizer o seguinte:
+[01:49:35] se o mundo
+[01:49:41] estiver
+[01:49:43] em uma revolução,
+[01:49:46] as máquinas tomaram
+[01:49:50] conta.
+[01:49:51] os
+[01:49:54] donos
+[01:49:56] das máquinas
+[01:49:59] oligárquicos
+[01:50:02] e os governos
+[01:50:05] só
+[01:50:08] não se importam mais com as pessoas.
+[01:50:15] Neste cenário,
+[01:50:18] como eu posso ser relevante?
+[01:50:23] Como posso
+[01:50:26] educar meus filhos para este mundo,
+[01:50:32] mantendo
+[01:50:35] meus valores?
+[01:50:38] Ó, fiz uma pergunta, né, bem bem doida
+[01:50:41] aqui. Quando eu der yes, olha só o que
+[01:50:44] vai acontecer.
+[01:50:47] Ele tá pensando,
+[01:50:49] ó, e nem me deu espaço aqui,
+[01:50:53] tá? Vamos de novo. Então,
+[01:50:57] quero que faça um análise profunda antes
+[01:51:04] de responder.
+[01:51:07] Vamos lá de novo,
+[01:51:10] ó. Pensando,
+[01:51:12] ó, ele não me deu nem chance aqui, ó.
+[01:51:17] Pesquando, ó.
+[01:51:25] pensando,
+[01:51:28] analisando. Ah, cheguei, consegui pegar.
+[01:51:32] Ó, isso aqui ele não vai exibir para
+[01:51:34] vocês depois.
+[01:51:36] Isso aqui é os raciocínio dele que ele
+[01:51:38] fez, ó.
+[01:51:40] Ele pensou, tá?
+[01:51:44] Pensou por 16 segundos. Eu vou copiar
+[01:51:46] esse conteúdo aqui, só para não perder,
+[01:51:49] ó. Vou tentar abrir, ó. Tá aqui, ó. Olha
+[01:51:52] os raciocínio dele.
+[01:51:55] Certo?
+[01:51:56] Então, vou tratar disso como um cenário
+[01:51:59] extremo plausível, não como uma previsão
+[01:52:02] inevitável. A pergunta central é mais
+[01:52:04] profunda que qual o profissão terá
+[01:52:07] futuro?
+[01:52:09] Como construir uma família capaz de
+[01:52:11] preservar liberdade, dignidade e
+[01:52:13] valores, mesmo seu trabalho, poder e
+[01:52:15] instituições mudarem radicalmente.
+[01:52:19] Pesquisou cinco sites.
+[01:52:21] Aí eu poderia também abrir aqui para ver
+[01:52:23] os sites que ele pesquisou, certo? A
+[01:52:26] evidência atual não se confirma que as
+[01:52:29] máquinas tomarão tudo. A OIT ainda
+[01:52:32] considera transformação do trabalho mais
+[01:52:34] provável que substituição total. Emborga
+[01:52:37] cerca de um em quatro trabalhadores
+[01:52:39] estejam em ocupação com grau de
+[01:52:41] exposição da IA. Ao mesmo tempo, sua
+[01:52:44] preocupação com concentração não é
+[01:52:46] imaginária. Em 2025, mais de 90% da dos
+[01:52:50] modelos de fronteira relevante vieram da
+[01:52:53] indústria, infraestrutura crítica de
+[01:52:55] computação permanece bastante centrada.
+[01:52:58] Então, vou responder à versão difícil da
+[01:53:01] sua pergunta. Mesmo que o cenário piore
+[01:53:03] muito, que tipo de pessoa e família
+[01:53:06] ainda conserva poder de escolha, certo?
+[01:53:09] Então, veja, esse foi o pensamento que
+[01:53:11] ele fez, certo? Depois ele fez aqui, ó,
+[01:53:16] a lógica.
+[01:53:18] Como continuar relevante educar seus
+[01:53:20] filhos em um mundo dominado por máquina
+[01:53:22] e instituições queará, né? Premícia no
+[01:53:26] trato do cenário como inevitável.
+[01:53:28] Pergunta útil. minha tese, as máquinas,
+[01:53:32] daí a capacidade, propriedade,
+[01:53:34] relacionamento, reputação, valores.
+[01:53:38] Então, tudo isso é um conteúdo muito
+[01:53:41] válido que ninguém pega. Ó, tá vendo?
+[01:53:47] Esse é o conteúdo de valor, não é a
+[01:53:50] resposta, é as duas coisas, o pensamento
+[01:53:54] e o raciocínio.
+[01:53:57] Se vocês estudarem isso, vocês vão estar
+[01:54:00] um passo à frente de todo mundo,
+[01:54:02] inclusive das máquinas,
+[01:54:05] tá legal?
+[01:54:11] Entenderam, pessoal?
+[01:54:16] Me diz uma coisa, alguém de vocês já
+[01:54:18] entendeu isso? Já viu isso? Já testou
+[01:54:20] isso?
+[01:54:28] Então,
+[01:54:31] boa noite.
+[01:54:36] Cansei.
+[01:54:42] Olavo, me chama aí no WhatsApp aí, no
+[01:54:46] Telegram que eu que vamos trocar a ideia
+[01:54:48] ali.
+[01:54:52] Leiam isso aqui que vocês vão ver como é
+[01:54:54] que a máquina pensa.
+[01:55:01] Até amanhã.
+[01:55:07] Até amanhã, galera.

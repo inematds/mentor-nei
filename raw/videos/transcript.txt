@@ -1,0 +1,843 @@
+# transcript
+Origem: https://www.youtube.com/watch?v=Zb8TRf97zt8
+Texto: transcrição local
+
+[00:00:00] Boa noite pessoal, tudo bem? Hoje a minha garganta não tá muito legal,
+[00:00:10] essa noite muito frio, mas a gente avançou muito em muitas coisas e aqui eu vou falar hoje,
+[00:00:18] vou procurar fazer uma live rápida, mas aí passar para vocês o máximo de informações útil,
+[00:00:24] principalmente porque nós estamos passando por uma grande fase
+[00:00:29] nesses próximos um, dois meses
+[00:00:32] que eu diria que é a consolidar daquilo que a gente estava esperando para 2026.
+[00:00:39] Ontem eu fiz uma live voltando um pouco dessa visão estratégia
+[00:00:45] do que nós queremos para os próximos cinco anos
+[00:00:48] o que tu pode fazer, como é que o mercado vai ser
+[00:00:52] A gente tem sintomas de todos os lados, falando de clima, que é uma coisa que eu conheço, tem um canal bombando nisso.
+[00:01:05] Eu já viajei pelo mundo todo em função da questão climática.
+[00:01:11] E também, o outro lado é o financeiro do mundo inteiro.
+[00:01:17] nós temos problemas de conflitos, de guerra, de interesses, de geopolítica,
+[00:01:25] e por outro lado, a tecnologia.
+[00:01:27] Então, eu acho que nós estamos consolidando, não dá para usar esse termo,
+[00:01:33] mas está consolidando três grandes problemas ao mesmo momento.
+[00:01:41] Certo? Sem falar a questão política do mundo inteiro, mas o que acontece? Está surgindo também muita coisa nova.
+[00:01:52] E eu queria então hoje falar um pouco dessa coisa nova que está acontecendo para acalmar muita gente.
+[00:02:00] Porque o que acontece? Nós vamos ver o tempo todo surgir novas coisas.
+[00:02:06] Lembra, nós estamos entrando na exponencial, aquele gráfico para cima, onde toda semana vai surgir novas tendências que vai quebrar tudo o que tinha antes.
+[00:02:20] Então, essa semana a gente viu o lançamento do Grock, o bot Grock, que é fantástico, etc., mas ele não é acessível pela maioria das pessoas, porque já começa pagando 200 dólares.
+[00:02:33] e entender um pouco do groc e de tudo mais faz parte.
+[00:02:40] Então, o que nós podemos entender é que é o seguinte,
+[00:02:44] quando a gente faz agentes, os agentes, o que eles são?
+[00:02:49] Eles são scripts, ou seja, prompts de instruções
+[00:02:54] e que você tenha uma inteligência com liberdade para fazer aquelas instruções
+[00:03:03] do jeito que aquela inteligência vai trabalhar.
+[00:03:07] Então, agentes são sistemas com liberdade.
+[00:03:16] Eu acho que essa definição é muito clara.
+[00:03:19] Então, tudo que você tem hoje na mão é uma inteligência que não é muito inteligente e vai fazer besteira.
+[00:03:27] Se ele é muito inteligente e ele seguir as suas normas, ele vai seguir
+[00:03:33] Mas se ele for muito inteligente e for rebelde, ele não vai seguir
+[00:03:37] Porque ele vai dizer, não, essas instruções aí é ultrapassada
+[00:03:41] Então é o mesmo comportamento do ser humano
+[00:03:43] E aí nós vamos ter os três tipos
+[00:03:47] Agentes que seguem bem
+[00:03:50] Agentes que não seguem porque não conhecem
+[00:03:54] Agentes que não seguem porque são rebeldes
+[00:03:57] Certo?
+[00:04:02] E uma das coisas que eu digo para vocês é
+[00:04:05] Como é que é o ser humano?
+[00:04:09] Nós temos uma grande população que não tem capacidade
+[00:04:15] Nós temos uma população que ela segue as regras
+[00:04:20] E tem uma pequena fração da população que é rebelde
+[00:04:24] Certo?
+[00:04:27] que não concorda com o modelo.
+[00:04:31] E fora isso, também nós temos a maíndone e as pessoas de bem.
+[00:04:37] Nós temos as pessoas de ambição e nós temos as pessoas de ganância.
+[00:04:43] Então, no conjunto todo, a IA nada mais é do que uma ferramenta
+[00:04:49] criada a nosso espelho.
+[00:04:53] É isso que a gente tem que ver.
+[00:04:54] E quando a gente pensa numa inteligência artificial, com agentes rodando,
+[00:05:02] nós podemos lembrar dos sistemas agora que nós temos, que é o harness,
+[00:05:09] aquela cebola que tem uma série de controles para mim trabalhar.
+[00:05:14] E dentro desse harness eu tenho uma IA.
+[00:05:17] Então, um dos harness famosos agora que estão surgindo é o DeepSeq Harness, ou seja, DSH.
+[00:05:29] O DSH veio como um open source da China e ele está aí para bater contra todos que estão ali,
+[00:05:39] como o Cloud Code, como o Codex, como o Hermes, como o Cloud Cloud, como o Primo, como o Agente Zero e posso ficar falando 200 aqui.
+[00:05:56] Então, o que acontece?
+[00:05:59] Além de você ter um agente e você ter inteligência nesse agente, nós temos que pensar onde ele vai rodar.
+[00:06:06] Se você tiver no seu notebook, no seu laptop, no seu PC, ele tem que ficar 24 horas ligado,
+[00:06:15] se cair a luz é um problema, se tem problema de link de internet, tempestade, é problema.
+[00:06:21] Então a tendência, o que foi?
+[00:06:23] Nos últimos 20 anos, a gente migrou as coisas para data center, para nuvem.
+[00:06:32] E aqui eu tenho um exemplo de uma nuvem.
+[00:06:34] Então, essa nuvem é uma máquina virtual que eu coloco lá na nuvem, lá num servidor, num data center.
+[00:06:46] E aí nós chamamos máquina virtual persistente, ela não se desliga, ela fica no ar.
+[00:06:53] Eles têm vários sistemas de tolerância à falha.
+[00:06:57] Nós lá nos anos 2000, corria para planejar esse tipo de coisa.
+[00:07:02] Hoje isso está bem desenvolvido em toda indústria.
+[00:07:07] O que eu quero mostrar aqui lá?
+[00:07:09] A gente vai ter uma área para botar nossos agentes, nossos robozinhos rodando, certo?
+[00:07:17] E aí eu poderia estar pegando essas telas e botar num painel para mim, remoto,
+[00:07:23] saber o que ele está fazendo, certo?
+[00:07:26] Outra coisa, lá dentro dessa nuvem, que eu tenho, nós chamamos de VPS,
+[00:07:32] nós temos os arquivos compartilhados, nós temos os logins, nós temos os cookies,
+[00:07:40] ou seja, eu configuro tudo lá para simular que sou eu.
+[00:07:45] Eu tenho minhas telas de navegação, meus plugins, meus terminais, tudo rodando lá.
+[00:07:51] Então eu já estou isso fazendo dois anos
+[00:07:56] Eu não tenho nada mais na minha máquina funcionando
+[00:08:00] A minha máquina, eu fiz um erro
+[00:08:03] Eu comprei duas máquinas, notebook e tudo
+[00:08:06] Com GPU, 32 GB
+[00:08:09] Para quê? Se tudo roda lá
+[00:08:12] Se tudo roda na nuvem
+[00:08:15] Então por causa de uma visão medíocre que eu tinha
+[00:08:19] Ou uma esperança que eu tinha
+[00:08:21] Mas na verdade, a nuvem vai ter.
+[00:08:24] Só que aqui essa nuvem pode ser apenas de CPU de processo ou de GPU com capacidade de rodar IAs.
+[00:08:35] Certo?
+[00:08:35] Então tem dois custos aí.
+[00:08:39] Muitas vezes eu posso ter uma GPU local, certo?
+[00:08:42] Para rodar a IA.
+[00:08:44] Só que eu tenho que pensar em todos os custos e riscos que eu tenho de ter local.
+[00:08:50] Não digo de invasão, mas eu digo principalmente de energia, de links e assim por diante
+[00:08:59] A gente cada vez resolve mais os links via satélite
+[00:09:05] Energia eu posso estar pensando em sistemas de solar e outras coisas com baterias
+[00:09:14] essas coisas, eu podia estar pensando e tendo aqui na minha fazenda uma autonomia total, certo?
+[00:09:23] Então, aqui é uma base para a gente entender, então, tudo que eu estou rodando dentro da minha VPS lá na nuvem, certo?
+[00:09:32] E a grande vantagem que eu tenho também é que em cima de tudo isso, eu tenho um link de alta velocidade lá,
+[00:09:39] Eu tenho os firewall que a própria empresa dá e assim por diante que são as vantagens que eu tenho.
+[00:09:47] Tá legal?
+[00:09:48] Deixa eu pegar uma outra imagem aqui que eu queria mostrar para vocês.
+[00:09:53] Então, uma das coisas que eu posso estar observando é o que eu quero ter dentro dessa minha nuvem.
+[00:10:02] Máquina virtual, as telas, os arquivos, os logins.
+[00:10:07] como é que eu vou salvar lá, se vai ser num arquivo, se vai ser criptografado,
+[00:10:13] como é que eu uso o navegador, terminais e tudo mais.
+[00:10:17] Tudo isso é um conhecimento que eu devo ter para saber como é que eu organizo.
+[00:10:25] Porque se eu fizer isso, eu vou ter uma capacidade superior
+[00:10:29] de evoluir constantemente no importante IA que surge,
+[00:10:34] não é importante os agentes que surgem.
+[00:10:38] Se você não aprender isso aqui, você vai sempre estar dependendo de soluções dos outros.
+[00:10:47] Então, enquanto você tem tempo, porque vai chegar um tempo que você não tem mais tempo,
+[00:10:54] a tecnologia vai crescer tanto instantânea que você não tem mais tempo de aprender,
+[00:11:01] porque quando você aprendeu já substituiu tudo.
+[00:11:04] Então, o fato de tu pensar estruturado as coisas vai fazer que tu seja produtivo.
+[00:11:11] E eu vou mostrar um pouco para vocês do que está acontecendo agora.
+[00:11:16] Então, a arquitetura de um agente de A avançado, ele pode ser assim.
+[00:11:23] Você tem motores que tu substitui.
+[00:11:26] O que são esses motores?
+[00:11:28] As LLMs.
+[00:11:29] Eu posso ter aqui o Opus.
+[00:11:31] eu posso ter aqui o GROK, eu posso ter aqui o GPT, eu posso ter aqui o QIWI, eu posso ter o que eu quiser,
+[00:11:43] inclusive aqui eu posso ter uma conexão que eu coloco aqui no Open Router e eu uso o que eu quiser,
+[00:11:50] que nem agora a gente está usando o OX Alpha, que é para ser uma das tops, que ninguém sabe quem é que criou,
+[00:11:57] mas que está por sete dias gratuitos na Open Router.
+[00:12:01] E eu vou mostrar para vocês o que eu consegui fazer durante essa madrugada.
+[00:12:06] Ou ele está trabalhando para mim, eu estou gastando R$ 1.000, R$ 2.000, R$ 3.000 sem gastar nada,
+[00:12:15] porque tudo que estava empacado para mim fazer, estou dele mandar.
+[00:12:19] E aí eu vou falar um pouco sobre o que ele está fazendo certo, errado, etc.
+[00:12:24] etc. assim. Outra coisa, nós temos a comunicação dos canais, certo? Então, esse meu agente, ele tem que falar com alguém, né?
+[00:12:34] Ele tem que ter filas. Então, a gente já falou aí, dois, três cursos que eu dei aí para a comunidade sobre trabalhar com as filas,
+[00:12:43] como isso era importante entender, certo?
+[00:12:47] Nós também temos, certo?
+[00:12:50] A questão de cron, de jobs agendados, que é programar.
+[00:12:54] Então, aonde vai ficar essas regras?
+[00:12:57] Ah, vai ficar num banco de dados para ele consultar.
+[00:13:01] Vai ter um worker para fazer isso.
+[00:13:03] Vai ter os agentes paralelos que o worker vai ver quando tem que jogar,
+[00:13:08] pegando da fila ou pegando do cron,
+[00:13:10] que vai buscar na fila e vai mandar executar pelos subagentes, certo?
+[00:13:17] E aí nós temos comunicação desses caras com outras APIs, certo?
+[00:13:22] Outra coisa, a gente também tem um ambiente escalável.
+[00:13:27] Então eu tenho que pensar que se eu quiser crescer, que nível eu posso ver?
+[00:13:32] Por exemplo, eu fiz um vídeo hoje, depois de refletir muito sobre ontem
+[00:13:38] o que eu falei para vocês, da pesquisa e tudo, veja só um perigo que nós vamos ter daqui para frente.
+[00:13:48] Pode ser por bandido, pode ser por política, pode ser por ideologia, pode ser por guerra geopolítica,
+[00:13:58] mas eu posso agora ficar um agente vasculhando todos os sistemas e achar vulnerabilidade.
+[00:14:08] da indústria, do sistema de telecomunicações, dos sistemas de energia, dos sistemas do governo.
+[00:14:23] Um engenheiro capaz, um cara muito técnico conseguiria fazer isso, só que ele não tem tempo.
+[00:14:29] Agora eu posso pegar e fazer essa lógica e deixar ela produzir por meses com 1, 2, 3 mil, 10 mil, 100 mil agentes fazendo essa pesquisa e botando tudo em banco de dados.
+[00:14:46] Assim como eu estou fazendo sobre música.
+[00:14:50] Eu estou conseguindo aprender sobre música sem saber nada de música.
+[00:14:55] música porque ele tá lendo todas as músicas que tem aí na internet tá analisando o tipo de música
+[00:15:03] o estilo design etc e o acesso ou seja o quanto as pessoas estão gostando ou não então eu consigo
+[00:15:13] largar isso assim esses cara pode largar e daqui dois três meses um ano daqui a pouco ele já tem
+[00:15:20] para saber o que está errado e pode atacar por vários motivos, certo?
+[00:15:27] Então, essas questões agora, a gente vai ver que os governos estão preocupados?
+[00:15:34] Não estão, provavelmente vão estar muito depois de acontecer um incidente desses aí graves.
+[00:15:41] Mas faz parte da estratégia deles.
+[00:15:44] Então, aqui deu para ter uma ideia um pouco sobre o uso disso aí.
+[00:15:48] uma das coisas que a gente tem que pensar
+[00:15:52] é que dentro do agente eu vou ter um looping
+[00:15:54] ou seja, uma
+[00:15:56] forma de rodar
+[00:15:58] que nem essa parte aqui
+[00:15:59] certo? eu posso ter
+[00:16:02] e ele está prendendo o tempo
+[00:16:04] todo, né? com esse
+[00:16:06] motor que eu tenho, eu posso ter
+[00:16:08] vários motores, lembra? eu tenho
+[00:16:10] o motor da
+[00:16:11] Kimi, do K13, eu tenho do
+[00:16:14] Feibo, da Antropica, eu posso
+[00:16:16] ter o GPT, né?
+[00:16:17] Ou do Astra, vindo aí, eu posso ter do GLM, eu posso ter de psique, ou seja, cada um deles.
+[00:16:26] E cada um deles tem uma característica que torna ele melhor do que os outros.
+[00:16:33] Então, se eu tiver um contexto, um prompt, se eu tiver um roteador de provedores,
+[00:16:40] se eu tiver os registros de todas as ferramentas, certo?
+[00:16:44] Se eu tiver habilidade e memória, ou seja, skills e memória, se eu tiver como delegar para quem eu quero, se eu tenho sessões e checkpoint de validação, eu posso usar um looping contínuo para fazer o que eu quiser.
+[00:17:05] Certo?
+[00:17:06] E eu posso estar rodando isso numa máquina local, numa VPS, etc.
+[00:17:11] Quando eu começar a entender isso tudo, eu vou saber quanto combustível eu tenho que dar para esses caras, que é meu dinheiro, o meu tempo.
+[00:17:23] E é isso que vai fazer você ser diferencial dos outros, de entender essa engenharia toda.
+[00:17:32] E quem é que tem tempo tem que aproveitar e estudar isso.
+[00:17:35] como é que funciona um Jarvis, como funciona um Harness,
+[00:17:40] como é que funciona o intelecto que eu montei lá no cursinho,
+[00:17:45] lá no ano passado, para que as pessoas pudessem entender isso.
+[00:17:49] E tudo está gratuito dentro do Enema Club, certo?
+[00:17:53] Então isso, eu poderia dizer que vai fazer com que você construa
+[00:17:58] o teu sistema, não importa o que vem para frente, certo?
+[00:18:04] Simplesmente você vai trocando as peças, vai integrando naquilo que é proposta.
+[00:18:11] E talvez esse sistema pode ser único, plugável, ou você duplica ele e ajusta para o que você quer.
+[00:18:19] Por exemplo, eu tenho o Inema CC Bot que gera os meus 100 vídeos por dia.
+[00:18:27] Só que eu tenho também o da estrutura.
+[00:18:30] Tá legal?
+[00:18:31] Então aqui vocês podem ver, né?
+[00:18:33] Eu tenho o gateway operado pelo usuário, que é o meu controle, que eu digo o que eu quero.
+[00:18:39] E aí foi a visão que o Open Cloud trouxe lá em fevereiro.
+[00:18:45] Eu tenho os modelos de provedores que eu posso trocar.
+[00:18:51] Eu posso estar tendo meus sensores, dispositivo, agendamento.
+[00:18:58] E eu tenho os canais de comunicações.
+[00:19:00] E eu tenho meus arquivos de ferramenta e memória.
+[00:19:03] Então o modelo sempre de todos os que estão por aí são semelhantes.
+[00:19:09] Certo?
+[00:19:10] Agora, o que eu faço?
+[00:19:12] Eu crio a minha camada, eu crio o meu modelo.
+[00:19:15] Porque basta eu pegar e dizer para o cloud, vai lá e estude o Open Cloud,
+[00:19:22] estude o Hermes, estude o próprio Open Cloud que foi vazado,
+[00:19:28] estude o DSH
+[00:19:31] que é o DeepSeq
+[00:19:32] Harness
+[00:19:34] estude o Codex
+[00:19:37] que agora também está open source
+[00:19:39] e aí eu tiro
+[00:19:41] toda a informação e crio o que eu quero
+[00:19:43] esse é o ponto
+[00:19:54] Emerson, tudo bem?
+[00:19:56] Boa noite, como é que tu está?
+[00:19:57] Alexandre Miller, boa noite
+[00:19:59] Olavo, e aí, tudo certo?
+[00:20:03] Paula, tudo bem?
+[00:20:06] Dormiu bem agora?
+[00:20:08] Depois dessas mudanças todas vindo aí
+[00:20:11] Cada vez vai ser mais difícil dormir
+[00:20:14] Se a gente não tiver estruturado, não é?
+[00:20:18] Miquel, opa, quanto tempo, rapaz
+[00:20:20] E aí, Douglas, tudo certo?
+[00:20:27] Obrigado aí, deixa eu ver.
+[00:20:31] Tudo certo, pessoal?
+[00:20:33] Um abraço aí para o pessoal que está chegando aí.
+[00:20:37] Fábio, o que você quer saber de Heijen?
+[00:20:42] Quer dizer que ele realmente não existe ou existe?
+[00:20:50] Opa, Fábio, pense em criar um curso de IA para empresários, é uma boa, eles vão precisar.
+[00:20:56] Quando começar a bater água na bunda dessa galera, vocês vão ver o que eles vão correr atrás de conhecimento,
+[00:21:04] porque eles não têm tempo e nem vontade de querer estudar, certo?
+[00:21:10] Então nós vamos ver uma mudança do que é os empresários.
+[00:21:15] Eu estava vendo entrevista de grandes empresários americanos que estão dizendo assim,
+[00:21:20] todo dia eu estudo duas horas, certo?
+[00:21:25] E até pouco tempo não, ele precisava o que fazer? Ter se formado e fazer networking, não é?
+[00:21:33] Só que essas mudanças que nós vamos agora vendo de aceleração de tudo, ele precisa entender do que ele está falando.
+[00:21:44] Porque a gestão que ele fez na faculdade, os doutorados que ele fez, o mestrado, o que foi, já foi, já era.
+[00:21:52] então ele tem que se atualizar
+[00:21:54] beleza?
+[00:22:00] Oi Vinicius, o que tu quer que eu prove
+[00:22:02] que eu não sou uma Iá?
+[00:22:08] Cara, ano que vem tu não vai saber
+[00:22:10] se as pessoas são Iá ou não, mas
+[00:22:12] elas vão ser real time
+[00:22:14] você vai conversar com ela e tudo
+[00:22:16] tá bom?
+[00:22:22] Não tem problema, a gente está aqui, só que está muito frio.
+[00:22:30] Bom pessoal, eu queria então, dei uma geral primeiro do que eu estava querendo fazer para vocês.
+[00:22:36] Uma outra coisa, assunto que aqui no Brasil não dá muita bola, mas as minhas redes lá fora estão bombando.
+[00:22:47] O Oxalfa está aí, eu vou falar um pouco sobre ele.
+[00:22:52] Nós temos só sete dias aí explorando isso.
+[00:22:59] A guerra está se tornando cada vez mais acirrada no mundo inteiro,
+[00:23:03] e não é só entre países, também é dentro dos Estados Unidos.
+[00:23:12] Então, se vocês tiverem opção, vai lá, faz conexão lá no Open Router,
+[00:23:19] pegar essa Ox α, configura lá no teu Jarvis ou aonde que for, certo? Se tu não tiver nada,
+[00:23:32] baixa o DeepSeq H, ou seja, o harness do DeepSeq e configura ela, muito fácil, certo? Então, tá aí,
+[00:23:43] Eu fiz isso aqui primeiro para divulgar para vocês.
+[00:23:47] Então, o DeepSeep continua vencendo, é uma nova geração de solução.
+[00:23:54] Ele é inteligente? Não é que nem o Fable, mas ele é muito rápido.
+[00:24:01] Eu estava testando ele, comparando com os dois, virei à noite, deixei processando,
+[00:24:07] Fiz muitos cursos agora que estava tudo na lista e eu estou usando o Deep Sea Harness com o Ox Alpha.
+[00:24:20] Vou falar para vocês sobre isso, tá?
+[00:24:22] Então, se ligam aí, eu vou fazer vídeos depois explicando isso, mas essa semana estou estudando muito, tá?
+[00:24:31] É muita coisa louca aí, certo?
+[00:24:33] Então, o importante, pessoal, é pensar que vai existir mais e mais e mais a Xiaomi vindo aí, certo?
+[00:24:44] A Alibaba cada vez mais forte, ou seja, a China vindo forte, Estados Unidos com agora o Gemini 4 vindo aí também, né?
+[00:24:53] A OpenAI vindo aí com o Astra, né?
+[00:24:57] O... Cadê você?
+[00:25:00] Tá aqui, ó. Até sumiu aqui o...
+[00:25:02] O...
+[00:25:04] Né?
+[00:25:07] A Antropic aqui, mas podia estar aqui também vindo com o Mythos ou quem sabe outra versão.
+[00:25:13] E a IA cada vez mais poderosa, certo?
+[00:25:17] Então, a gente vai ter que dominar isso aí e vai aumentar
+[00:25:21] a frequência e o número de soluções, certo?
+[00:25:28] Aqui um pouquinho falar sobre o OX-Alpha.
+[00:25:37] O pessoal acha que é da GLM, que tem tudo a ver com GLM, eu não sei, nem interessa.
+[00:25:44] O que interessa é que eu estou usando ele, bastante coisa, ele tem entrada de texto,
+[00:25:49] vídeo e imagem, então isso é uma outra coisa que eu quero testar aqui hoje, essa madrugada vai se focar agora na questão de vídeo e imagem dele, para ver se ele é bom mesmo ou não, certo?
+[00:26:01] Pode ser o Gemini aí, tá?
+[00:26:03] Então é o boi aí aparecendo, ninguém sabe o que ele é.
+[00:26:07] Eles liberaram 100 trilhões de tokens gratuito, tá?
+[00:26:14] Por dia.
+[00:26:15] Então, ó, nós podemos usar à vontade, certo?
+[00:26:19] E ele veio para competir com esses grandes aí, tá legal?
+[00:26:24] Bom, deixa eu ver se tem mais alguma coisa.
+[00:26:26] Eu fiz aí um conteúdo bastante aqui para vocês, mas deixa para lá para falar depois.
+[00:26:35] Eu só tenho mais um assunto que eu queria falar com vocês, é o seguinte, antes de começar.
+[00:26:42] Olha só, o mercado de publicidade está mudando cada vez mais, os influenciadores estão mudando,
+[00:26:52] Então tem muita gente da comunidade me perguntando sobre ganhar dinheiro nas redes sociais.
+[00:26:59] Pessoal, como é que você ganha dinheiro?
+[00:27:02] Vendendo.
+[00:27:04] O teu produto tem que ser vendido.
+[00:27:07] Se você não sabe vender, ajeita um sócio ou contrata alguém.
+[00:27:13] Vender na internet era o quê?
+[00:27:16] Era você fazer tráfego pago ou você fazer conteúdo orgânico.
+[00:27:20] orgânico, ou você pega e paga um influenciador. E aí o mercado está mudando. Em vez dele pagar
+[00:27:29] um influenciador, os caras descobriram que é melhor trabalhar com afiliados. Pessoal, a Avon já
+[00:27:38] trabalhava isso há muito tempo, tinha, né, principalmente época de mulheres, recebiam o
+[00:27:44] iam em casa em casa oferecer os produtos da Avon, ou seja, já tinha filiado. Depois tanto,
+[00:27:52] os outros fizeram o mesmo modelo. O que está acontecendo agora com o Tik Tok Shopping,
+[00:27:58] né? As empresas começaram a enviar os produtos para as pessoas, as pessoas fazer vídeo, vender
+[00:28:07] a comissão. Então, o que tu tem saber? Vender. Tu tem saber
+[00:28:12] fazer vídeo o quê? Vende. Então, uma empresa, uma marca,
+[00:28:17] ela tá deixando de vir patrocinar influenciador pra
+[00:28:21] ganhar dinheiro. E eu vi muita gente já reclamando disso no
+[00:28:25] YouTube, porque o YouTube era isso, tinha seus patrocínios,
+[00:28:28] certo? Por quê? Porque dá muito melhor aqui. Aqui eu tenho que
+[00:28:33] botar na frente e não sei se isso traz um retorno. Aqui eu só gasto na comissão e eu posso aumentar
+[00:28:40] o número de afiliados sem limite, certo? Então essa é uma visão do mercado. Então o mercado mudou, certo?
+[00:28:52] Esse modelo aqui, ele está se indo, aí sim tem uma razão para a marca querer continuar com o influenciador.
+[00:29:01] Por exemplo, imagina que um influenciador sou eu, tenho lá 2 milhões de seguidores, 10 milhões de seguidores.
+[00:29:11] Eu sou uma pessoa que esses seguidores gostam, porque estão seguindo porque gostam.
+[00:29:16] Eu sou confiável.
+[00:29:18] Aí uma marca se associar, ela ganha com isso, porque a marca é desconhecida e eu associo a ela.
+[00:29:29] Então essa vantagem sim.
+[00:29:31] Agora, se você não é um grande influenciador e não tem valor para colocar a marca junto,
+[00:29:38] os micro influenciadores não têm valor que se esperava que tinha.
+[00:29:44] É muito melhor você usar o modelo de afiliados, onde você manda o produto e ele ganha em cima do produto.
+[00:29:54] Ou seja, vendendo, mostrando, etc.
+[00:29:57] Então esse está crescendo muito no mercado e vocês vão observar isso cada vez mais.
+[00:30:04] Então é o fim do influenciador pago, não totalmente.
+[00:30:10] Os que realmente agregar na marca vai valer, mas ele vai agregar na marca não por causa de visualização, de entrega e sim de associar.
+[00:30:21] Certo?
+[00:30:21] Então, é essa mudança que eu estou vendo na questão de marketing.
+[00:30:29] Então, o que provavelmente vai crescer muito é esse modelo.
+[00:30:33] Como é que tu faz com que as pessoas queiram vender tua marca, certo?
+[00:30:39] Vender teu produto dentro do digital.
+[00:30:41] E se não for as pessoas, você vai ter que fazer, em escala,
+[00:30:46] um bote para entregar mais e mais e mais e mais.
+[00:30:50] Tá legal?
+[00:30:58] Certo, pessoal?
+[00:31:00] Eu acho que era isso aí, né?
+[00:31:06] Bom, deixa eu passar outra...
+[00:31:12] Eu queria passar outra coisa para vocês aqui.
+[00:31:19] É isso aqui, eu já falei.
+[00:31:21] Deixa eu ver se eu tenho alguma coisa aqui.
+[00:31:25] Isso eu já falei.
+[00:31:28] Bom, na Open Router aqui, se vocês entrarem, o modelo é o X-Alpha, certo?
+[00:31:38] Preço free, certo?
+[00:31:40] Um milhão de contexto.
+[00:31:42] Foi liberado dia 20, tá?
+[00:31:45] Eu comecei a usar ele e realmente estou gostando.
+[00:31:48] Tá?
+[00:31:50] Entrada, saída.
+[00:31:51] 100% no ar.
+[00:31:57] Aqui algum volume, ele caiu de throughput porque o acesso foi muito grande.
+[00:32:04] Então lá no início estava bem legal de usar ele, depois ele começou a diminuir, mas está bom.
+[00:32:10] Certo?
+[00:32:13] Muito bem.
+[00:32:14] E aí, deixa eu puxar para cá a outra tela.
+[00:32:17] Ó, eu estou usando aqui o DeepSeq Harness e aqui embaixo vocês estão vendo que eu estou usando o X-Alpha, certo?
+[00:32:37] Eu fiz muita coisa aqui com ele, uma das coisas que eu posso mostrar é o seguinte, deixa eu vir aqui.
+[00:32:43] e Nema Club.
+[00:32:48] Olha só, pessoal.
+[00:32:52] Vocês estão vendo aqui?
+[00:32:57] Deixa eu dar um refresh.
+[00:33:02] Olha a data de hoje.
+[00:33:05] 24, 24, 24, 24.
+[00:33:07] Todos esses cursos aqui ele fez para mim.
+[00:33:11] Certo?
+[00:33:11] Então aqui eu tenho times, DIA, curso completo, seis trilhas, DADS, trading, cripto, imobiliário, recrutamento, finanças.
+[00:33:22] Sites 3D, cinematográfico, curso completo.
+[00:33:26] Ou seja, todos eles aqui.
+[00:33:31] Assistente de voz, etc. e tudo.
+[00:33:35] Aí eu estou revisando.
+[00:33:37] Então eu já encontrei alguns buguezinhos e tudo.
+[00:33:40] mas imagina só, pessoal, tá?
+[00:33:46] O cara construiu tudo, eu fui dormir e disse, ó, eu tenho nove cursos aqui pronto,
+[00:33:54] que eu não queria gastar os tokens, então, né?
+[00:33:58] Eu deixei isso disponível e aí eu liberei para ele fazer, ele fez isso tudo durante o dia hoje.
+[00:34:06] Certo?
+[00:34:07] Certo? Então, uma das coisas que a gente pode pensar é justamente isso, né? A IA está vindo aí com novos modelos, né? Como é que eu uso isso? Então, eu tenho o DeepSeq aqui, certo? O Harness. Eu não uso o DeepSeq, ó, se vocês olharem os modelos, eu estou usando o Queen local e estou usando o Open Router.
+[00:34:33] E aí eu poderia vir aqui nos modelos, settings, modelos, e aqui eu digo Open Router e qual é que é os modelos que ele pode, aqui, ó.
+[00:34:44] Eu configuro os modelos que eu quero.
+[00:34:48] Por exemplo, eu podia estar usando um outro modelo, então vamos lá na Open Router, né, Open Router, models.
+[00:34:59] O que que eu quero fazer?
+[00:35:01] ó, o RayGem agora até ele está na OpenRouter aqui, certo? Mas eu não quero, eu quero DeepSeq, vamos ver, opa, DeepSeq Flash Vision, ó, ele tem Vision agora também, DeepSeq,
+[00:35:24] Não, eu quero
+[00:35:28] Deixa eu clicar em modelos aqui
+[00:35:33] Eu quero assim
+[00:35:34] Aqui
+[00:35:36] Deep, Seek, Flash
+[00:35:41] Quanto está?
+[00:35:42] 12 centavos e o Pro
+[00:35:44] Vamos ver o Pro aqui
+[00:35:45] Está um e pouco
+[00:35:48] Então eu vou dizer o seguinte
+[00:35:51] Eu vou querer usar
+[00:35:52] Vamos usar o PROC
+[00:36:00] Então eu copio isso aqui
+[00:36:02] Vou lá para o meu
+[00:36:06] Lipsync Harness
+[00:36:08] E boto aqui
+[00:36:09] Aqui eu poderia descrever, mas já está bom
+[00:36:12] Vamos pegar mais um modelo
+[00:36:14] Ou seja, eu poderia deixar ele usar qualquer um
+[00:36:17] Deixa eu ver
+[00:36:20] Mais um modelo aqui
+[00:36:21] O que eu queria ver?
+[00:36:24] GLM.
+[00:36:25] Vamos ver o que ele tem de GLM aqui.
+[00:36:27] O 1, o 5.
+[00:36:31] Quanto é que está isso aqui?
+[00:36:33] Está claro.
+[00:36:36] GLM.
+[00:36:39] Última versão, 5.2, 5.2.
+[00:36:42] Não, não quero GLM.
+[00:36:44] Então eu quero agora o Q3.
+[00:36:48] Não é?
+[00:36:49] Não tem?
+[00:36:51] O Kimi não está aqui ainda. Ah, está aqui, sabia que estava aqui.
+[00:36:58] 13 dólares, estão com desconto aqui.
+[00:37:02] Eu vou querer esse cara também.
+[00:37:04] Em raro momento eu vou usar ele.
+[00:37:06] Então, Deep Seek vem aqui.
+[00:37:09] Certo?
+[00:37:11] E aí, Apply.
+[00:37:13] Certo? Pronto.
+[00:37:15] Quando eu quiser agora vir aqui e mudar,
+[00:37:19] Vamos pensar que eu quero uma seção nova aqui.
+[00:37:23] Nessa seção nova aqui.
+[00:37:37] Vamos ver aqui.
+[00:37:39] Nova seção, agora sim.
+[00:37:41] Eu vou vir aqui, eu poderia estar mudando.
+[00:37:45] E o que eu tenho?
+[00:37:46] Eu tenho K3, certo?
+[00:37:48] Eu tenho aqui o DeepSeq, certo?
+[00:37:52] Eu poderia estar cadastrando que eu quero o DeepSeq e agora ele vai usar isso.
+[00:37:57] Também eu posso estar dizendo, não, eu quero continuar com o Free aqui, que é esse Alpha.
+[00:38:02] Podia criar uma sessão de Free aqui.
+[00:38:05] Outra coisa, eu posso vir aqui, né?
+[00:38:08] Também definir o esforço que eu quero.
+[00:38:11] Aqui eu tenho o StandMod, eu posso vir para o modo Criador, certo?
+[00:38:16] Então, aqui no Workspace eu posso dizer, tu só tem acesso leitura, tu tem acesso full,
+[00:38:24] então eu vou gerenciando tudo e aqui eu digo qual o meu Workplace que eu quero.
+[00:38:30] Esse Workplace é uma área, então ele só trabalha dali para baixo, a da minha segurança.
+[00:38:36] Então, opa, o que que eu fiz?
+[00:38:39] Acho que abri outra tela.
+[00:38:42] Certo?
+[00:38:44] certo então eu posso estar usando ele todo e aqui eu tava testando ele a seguinte ó quem sou eu não
+[00:38:53] sei né porque porque não tinha nada eu chegar agora e abrir uma nova sessão aqui e dizer quem
+[00:39:01] sou eu tá que que ele vai fazer ele vai descobrir porque ele lê válido leu a gente. MD Cláudio MD
+[00:39:12] Depois leu o System Prompt, que é o System Prompt que eu posso dar Deep Seek aqui do Harness, certo?
+[00:39:21] Depois foi ler os Skills que tu tem de catálogo, certo?
+[00:39:26] Então tudo isso eu estava estudando aqui, quando eu fui olhar quem sou eu.
+[00:39:32] E daí eu depois pedi assim, como é que, né?
+[00:39:35] Quero entender o que você lê quando inicializa uma sessão.
+[00:39:38] Então, eu fui começar a estudar, System.Fix, Snap do Runtime de Contexto, os agentes do Workspace, Catálogos de Skills, né?
+[00:39:52] E assim, ou seja, estou entendendo cada vez mais ele por aqui e por baixo.
+[00:39:58] Por baixo, onde que eu fiz?
+[00:40:00] Eu fiz uma pasta por segurança, certo?
+[00:40:04] projeto e eu dentro dos meus projetos eu criei o cadê você
+[00:40:11] DSH né que é Deep Seat Harness Sandbox e aqui tem os arquivos de configuração ó.env etc e tudo e
+[00:40:25] a área de trabalho dele. E aí, que nem o XX que eu abri, ó, tá aqui, toda a área, né, que tem. Eu copiei esses agentes pra cá só pra ver o que ele faria, certo?
+[00:40:38] Então, quem quiser instalar isso, pessoal, é só buscar na internet, instalar o DeepSeq, ó.
+[00:40:48] DeepSeq Harness, procura.
+[00:40:52] Sugestão, ele é o DeepSeq, deixa eu ler aqui para vocês onde que ele está.
+[00:40:58] Não, vídeo não.
+[00:41:01] Então, deixa eu pegar o Git de novo.
+[00:41:04] Aqui, ó, Git.
+[00:41:08] Aqui está ele, é deepseek-i barra deepseek-harness.
+[00:41:16] Você baixa e instala na sua máquina ou numa VPS e aí você simplesmente tem que ir lá,
+[00:41:25] configurar, ele não vai ter nenhum LLM, ele é só o agente.
+[00:41:30] você vem aqui em setting
+[00:41:32] modelos
+[00:41:34] e você adiciona um novo
+[00:41:36] provedor, no caso
+[00:41:38] eu botei open router
+[00:41:40] certo? então ele já tem
+[00:41:42] alguma lista aqui, uma delas é
+[00:41:44] open router
+[00:41:49] cadê? open
+[00:41:52] tá, ele não vai aparecer aqui porque eu já escolhi
+[00:41:56] ele aqui eu acho
+[00:41:57] Open Code
+[00:42:00] É, ele não deve aparecer
+[00:42:06] Porque eu já tinha escolhido a Open Router ali
+[00:42:09] Que tá esse cara aqui
+[00:42:12] E aí você coloca a chave
+[00:42:14] Aqui
+[00:42:15] E aqui clica em customizar
+[00:42:18] E diz qual é que é os
+[00:42:21] As LMs
+[00:42:23] Que tu quer usar lá
+[00:42:24] Ou você já usa o Free
+[00:42:26] certo? sósfere
+[00:42:28] beleza?
+[00:42:31] oi
+[00:42:31] todas as tuas coisas estão no Manos?
+[00:42:37] é, eu
+[00:42:37] eu fico com receio de
+[00:42:39] entregar para as empresas os meus
+[00:42:41] conteúdos porque a gente
+[00:42:43] não sabe, não é por causa
+[00:42:45] de confiança
+[00:42:46] é que o Manos daqui a pouco é
+[00:42:49] vendido, é comprado, é isso
+[00:42:51] ou o Claudio
+[00:42:53] acontece terminar ou é banido
+[00:42:55] a gente não sabe, então eu uso eles como uma casca, tá bom?
+[00:43:03] Então, pessoal, aqui eu peguei, estou criando cada pasta aqui,
+[00:43:07] é uma, aonde que eu quero, então, portal, work,
+[00:43:12] eu poderia dizer, vou criar uma nova, um novo workspace, certo?
+[00:43:18] E aí eu vou pegar e vou dizer, eu quero dentro da onde eu permiti,
+[00:43:22] eu permitir projetos
+[00:43:25] dentro de projetos
+[00:43:28] eu vou dizer que eu quero
+[00:43:34] que eu tenho, esse é um curso que eu estou montando
+[00:43:37] na verdade já montei, mas vai ser em outubro
+[00:43:39] que eu vou dar
+[00:43:40] e aí eu poder vir em modo criador
+[00:43:43] e eu posso dizer
+[00:43:45] nesse cara
+[00:43:47] analise o conteúdo
+[00:43:50] e aí ele está analisando o projeto todo
+[00:43:56] ele só tem acesso a gravação
+[00:44:00] podia mudar aqui que ele só teria acesso
+[00:44:02] a leitura
+[00:44:03] então não tem risco dele gravar nada
+[00:44:06] em cima
+[00:44:07] eu posso estar usando qualquer IA
+[00:44:10] para fazer análise
+[00:44:11] para fazer criação etc e tudo
+[00:44:14] em cima disso
+[00:44:15] e aí pessoal
+[00:44:18] Eu vim aqui e eu entreguei um conteúdo bala para vocês hoje, que é...
+[00:44:24] Cadê você?
+[00:44:31] Aqui.
+[00:44:34] Isso, acho que é isso aqui.
+[00:44:36] Isso aí.
+[00:44:38] Esse conteúdo aqui que eu entreguei, aqui.
+[00:44:45] Deixa eu dar um refresh.
+[00:44:48] e eu pedi para ele fazer um curso do DSL.
+[00:44:57] Cadê você?
+[00:45:01] Aqui, ó.
+[00:45:03] O DSL, Inema Comando Lenguagem.
+[00:45:08] Pessoal, está cheio de comandos, o pessoal dizendo que é segredos.
+[00:45:12] Na verdade, não é segredo, é só tu estudar um pouco.
+[00:45:14] tá tudo documentado, tá tudo disponível
+[00:45:18] então os 100 comandos que tu pode estar usando no chat GPT
+[00:45:23] ou em qualquer lugar
+[00:45:25] então esse aqui eu montei um cursinho
+[00:45:27] pra você entender o que é esses comandos
+[00:45:30] como funciona, como tu pode agregar nos teus agentes
+[00:45:34] pra que num comando ele entenda tudo
+[00:45:36] é que nem em japonês, chinês
+[00:45:39] um kanji é aquele símbolo
+[00:45:42] Aquele símbolo, uma tradução, não é só a frase, é uma ideia.
+[00:45:47] Então, um comando, ele passa uma ideia.
+[00:45:50] É muito mais fácil a DIA entender um comando do que você escrever um textão que ele tem que interpretar.
+[00:45:57] Certo?
+[00:45:58] Então, aqui está o conteúdo todo para você estudar.
+[00:46:03] Certo?
+[00:46:03] A linguagem barra e nema, no caso eu chamei de barra e nema,
+[00:46:07] Mas na verdade é os comandos que tu pode estar criando com o teu nome, com a tua marca e assim por diante.
+[00:46:15] Tá legal?
+[00:46:16] Então em NEMA DSL, tá?
+[00:46:19] O comando língua que tu pode estar usando.
+[00:46:24] Que o pessoal está ali vendendo pra caramba como segredo.
+[00:46:32] E aí, tudo bem Vinícius?
+[00:46:37] Pessoal, eu não vou me estender mais aqui, mas hoje os momentos, o que nós temos que fazer?
+[00:46:46] É testar, usar esse recurso ou na tua VPS ou no teu harness que tu está usando
+[00:46:54] e usar essa LLM nova, chamada OX Alpha, que é gratuita, ela é muito poderosa.
+[00:47:05] Eu diria que ela não está superando o Fable, mas ela está ali disputando com ele.
+[00:47:15] E eu construí muita coisa com ela.
+[00:47:19] Então é só deixar no piloto automático e fazer.
+[00:47:23] Então é bom você estruturar tudo.
+[00:47:26] O que você quer produzir, o que você quer fazer.
+[00:47:29] E claro, né pessoal, mostrando aqui no meu caso, os meus sistemas aqui, Inema CC BOT, Inema BOT, está tudo funcionando, né?
+[00:47:42] Ó, aliás o XBOT é aquele do curso que eu fiz, até vou remover depois ele.
+[00:47:49] Inema CC Boti
+[00:47:50] olha só
+[00:47:52] ele está dele
+[00:47:55] apresentar aqui, certo?
+[00:47:57] para mim
+[00:47:58] vários
+[00:48:01] clipes que eu estou fazendo
+[00:48:02] aqui é
+[00:48:05] outro que ele me deu, do Fjord
+[00:48:07] deixa eu ver se está
+[00:48:08] esse aqui, a capa
+[00:48:11] inclusive, eu só estou
+[00:48:13] com um problema que o Google não me deixa
+[00:48:15] confirmar
+[00:48:17] meu celular, então por isso
+[00:48:19] não consegui colocar as capas
+[00:48:22] no meu conteúdo
+[00:48:23] mas deixa eu mostrar pra vocês
+[00:48:25] ó, YouTube
+[00:48:27] ó, se a gente for aqui
+[00:48:33] amo animais 2k
+[00:48:35] é uma área que é das
+[00:48:37] crianças e que eu boto bastante coisa
+[00:48:39] eu tô botando meus vídeos ali
+[00:48:41] então isso aqui
+[00:48:43] ó, ele criou um novo
+[00:48:44] eu só disse, eu quero
+[00:48:47] Rock da Noruega
+[00:48:50] Pronto
+[00:48:50] Eu quero aqui
+[00:48:52] E eu não me lembro agora o que eu coloquei
+[00:48:55] E qual é as mensagens que tem
+[00:48:56] Ele está dele produzir vídeos
+[00:48:59] Aqui é do K-pop
+[00:49:01] Aqui é sertanejo, gaúcha
+[00:49:03] E assim por diante
+[00:49:04] Então olha só, vou mostrar essas duas
+[00:49:07] Aqui para vocês, para fechar hoje o dia
+[00:49:47] FIOR FIRE
+[00:50:47] Música
+[00:51:17] A CIDADE NO BRASIL
+[00:51:47] Bom, olha o clipe.
+[00:52:12] Então vocês viram esse clipezinho aqui?
+[00:52:15] deixa eu mostrar pra vocês
+[00:52:17] o que que eu precisei fazer
+[00:52:19] certo?
+[00:52:21] simplesmente eu disse
+[00:52:22] música, vídeo, rock misturado
+[00:52:25] com estilo noruega
+[00:52:26] idioma inglês sem portão
+[00:52:29] ou seja, eu não queria dar nenhum
+[00:52:30] certo? às 6 da manhã eu fui lá
+[00:52:33] 6 e 14
+[00:52:35] 6 e 15, às 6 e 14 da manhã
+[00:52:37] certo? e deixei ele
+[00:52:39] rodando aqui, ó, daí ele já criou
+[00:52:41] né? analisou, etc
+[00:52:43] e tudo, ele tentou
+[00:52:45] várias vezes o Gemini,
+[00:52:47] certo? E pra fazer
+[00:52:49] análise e tudo, daí
+[00:52:51] depois ele criou a música,
+[00:52:53] né? O prompt da música,
+[00:52:55] o refrão da música,
+[00:52:57] eu não tava aqui pra dizer
+[00:52:59] yes, porque eu disse sem portão, vai fazer
+[00:53:01] direto, me mandou a faixa
+[00:53:03] 1, me mandou a faixa 2,
+[00:53:05] gerou a capa,
+[00:53:07] certo?
+[00:53:08] Não sei o que que é aqui, ah não,
+[00:53:10] aqui é outro assunto, análise
+[00:53:12] de vídeo, certo?
+[00:53:14] E aí, certo?
+[00:53:17] E tá pronto, produziu.
+[00:53:21] E aí, pessoal, assim eu fiz também uma outra aqui pra cima, também bem simples aí.
+[00:53:27] Tá?
+[00:53:27] Tudo ele pra testar.
+[00:53:29] Veja, ele tá decidindo tudo.
+[00:53:32] Eu não entendo de música, mas eu gostei do clipe, eu gostei da música.
+[00:53:37] Eu tô usando o Agnes, que é gratuito.
+[00:53:41] Ele faz o vídeo, o clipe, tudo gratuito.
+[00:53:43] Então imagina só se eu tenho talento musical
+[00:53:47] Ou se eu puder lá mexer nos prompts e dizer como eu quero o clipe
+[00:53:52] Mas como é que eu fiz?
+[00:53:53] Eu mandei ele estudar alguns clipes por aí, certo?
+[00:53:57] E eu estou trazendo isso para ele ir aprendendo
+[00:54:00] Então vamos ver aquela outra que eu falei aqui
+[00:54:04] Vamos ver a outra aqui para ver se vocês gostam
+[00:54:12] Tá
+[00:54:13] Depois dá para a truca
+[00:54:43] E aí
+[00:57:13] O produtor musical aqui, hein?
+[00:57:37] Que tal, pessoal?
+[00:57:39] Veja, tá?
+[00:57:41] a capacidade que cada vez mais a gente tem de construir música.
+[00:57:46] Eu gostei das duas, certo?
+[00:57:49] Ou seja, ele conseguiu entender os meus estilos,
+[00:57:52] os meus gostos e tudo.
+[00:57:53] Agora eu posso trocar,
+[00:57:55] em vez de usar os clipes do Agnes,
+[00:57:58] que são gratuitos e tudo, praticamente isso,
+[00:58:01] eu podia estar usando o Sindrin,
+[00:58:04] eu podia estar usando o Vel,
+[00:58:05] eu podia estar usando outros que iam produzir um conteúdo
+[00:58:08] e ela cantando e tudo, poderia fazer isso.
+[00:58:12] Mas por enquanto eu estou criando a máquina de produzir.
+[00:58:16] Então eu estou produzindo três, quatro vídeos,
+[00:58:18] clipes todo dia, de forma automática.
+[00:58:24] E pessoal, tá?
+[00:58:27] Agnes é...
+[00:58:29] E isso aqui todo está gratuito aqui.
+[00:58:32] Então vamos lá mostrar só para vocês.
+[00:58:34] Isso aí é um projeto dentro do Inema Club.
+[00:58:37] Opa, desculpe, deixa eu voltar aqui
+[00:58:39] Dentro do Inema Club
+[00:58:42] Queria ir lá pra cima
+[00:58:45] Vocês entram no Inema Club aqui
+[00:58:47] Baixo
+[00:58:49] E vai aqui onde diz
+[00:58:51] Últimos projetos
+[00:58:54] Música, vídeo, tá aqui ele
+[00:58:57] Produção
+[00:58:58] E você integra ele
+[00:59:01] Com o Inema CC Bot
+[00:59:02] Que é a máquina de
+[00:59:05] Botar em fila
+[00:59:06] de produzir conteúdo.
+[00:59:08] Tá legal? Então eu vou
+[00:59:10] colocando essas coisas dentro,
+[00:59:12] vou desenvolvendo
+[00:59:14] o análise de vídeo, é aqui,
+[00:59:16] ele faz análise de vídeo
+[00:59:18] e ele vai criando um banco
+[00:59:19] de clipes.
+[00:59:22] Então, com isso, a IA vai, na hora
+[00:59:24] de criar, ela aprende
+[00:59:26] qual é o estilo,
+[00:59:28] porque quando eu crio um banco
+[00:59:29] de clipes,
+[00:59:31] eu não só crio o estilo
+[00:59:33] e tudo mais, eu crio também informações
+[00:59:36] de como ele bombou na internet.
+[00:59:38] Como o público gostou dele.
+[00:59:41] Certo?
+[00:59:41] Então ele vai aprendendo, alinhando cada vez mais.
+[00:59:46] Tá legal?
+[00:59:47] O Agnes se escreve Agnes.
+[00:59:50] Nes, tá?
+[00:59:52] É Agnes aí.
+[00:59:56] Agnes, Agnes aí, ó, ponto com, ó.
+[01:00:01] Certo?
+[01:00:04] Uma muito bala isso.
+[01:00:06] Para quem não sabe, o Agnes é de uma empresa de Singapura,
+[01:00:12] deve ser muito dinheiro botando ali para crescer, para aparecer,
+[01:00:17] ou acho que a China deve estar patrocinando também,
+[01:00:20] porque eles estão naquela questão que não tem restrição contra chips americanos.
+[01:00:27] Eu acredito que tenha a ver com isso.
+[01:00:29] Tá bom, pessoal?
+[01:00:30] Pessoal, teve alguém aqui no TikTok me perguntando se...
+[01:00:35] Oi, tudo bem?
+[01:00:37] Pessoal, quem está no TikTok, tudo que eu transmito aí, a minha tela, está no YouTube, em NEMA TDSX.
+[01:00:47] O pessoal aí do X, do Facebook, do Instagram.
+[01:00:51] Eu decidi transmitir só numa plataforma, porque senão ficava eu administrando elas e daí começavam eles dar ban.
+[01:01:01] Você sabe que o TikTok quer que você interaje para que as pessoas te mandem dinheiro.
+[01:01:07] Então, como o meu propósito é ensinar, certo?
+[01:01:12] Então, pessoal, qualquer um de nós agora pode estar construindo qualquer coisa, certo?
+[01:01:19] Não é simples, não é fácil, mas tem que estudar.
+[01:01:24] Mas depois de tu estudar a base, de um dia para outro eu construo qualquer coisa.
+[01:01:29] Depois leva sete dias para a gente consertar ele, para deixar bonitinho e tudo mais.
+[01:01:36] Mas se você entender da infraestrutura, e é isso que os executivos vão ter que aprender.
+[01:01:43] isso é uma nova forma de gestão
+[01:01:46] de negócio, de processo, de pessoas
+[01:01:50] ele vai ter que aprender a gerenciar a gente
+[01:01:54] então se você pensa nisso
+[01:01:57] aproveita, aprende e vá trabalhar
+[01:02:00] porque as empresas vão estar sedentas por gente que conhece isso
+[01:02:04] eu já estou na fase de um passo da cova
+[01:02:09] então o meu negócio é curtir, é compartilhar
+[01:02:12] é ter a comunidade, né?
+[01:02:15] E sempre estou ali monitorando aí como é que está o nível nosso da comunidade, né?
+[01:02:21] E vocês podem ver que aqui, ó, estamos com 73 mil pessoas, né?
+[01:02:28] Dentro da comunidade, tudo isso gratuito para vocês.
+[01:02:32] Quem está chegando, aprende esses primeiros oito cursinhos aqui.
+[01:02:37] Depois tem um pouco mais e depois aqui, ó, tudo que eu publico está aqui.
+[01:02:42] Os 20 últimos conteúdos, tanto de projetos como de curso, estão aqui.
+[01:02:48] Depois disso, vai lá para a comunidade do Enema Pro, certo?
+[01:02:53] Então, até para valorizar quem é que colabora com a gente e tudo,
+[01:02:58] e aí os conteúdos estão aqui também, sempre disponível para todo mundo, tá bom?
+[01:03:06] Vou lá que minha garganta já se foi.
+[01:03:08] Deixa eu só ver as mensagens aqui que o pessoal está me dando
+[01:03:12] Obrigado aí
+[01:03:14] Motivando, um abraço
+[01:03:17] Tá legal?
+[01:03:20] Então está lá no Inema TDSX
+[01:03:23] E quem quer ver esses vídeos que eu estou produzindo
+[01:03:26] Tanto de criança, de canal Dark e tudo
+[01:03:29] Está no Inema, aliás, não
+[01:03:31] É no Amo Animais 2K
+[01:03:34] Era um canal das minhas crianças que eu me adonei
+[01:03:38] tá, deixa eu
+[01:03:41] eu só não consegui
+[01:03:44] botar as capas
+[01:03:45] porque eu tenho que fazer autenticação
+[01:03:47] hoje eu fiz, tentei de novo
+[01:03:49] e o Google não manda
+[01:03:51] mensagem, mas não chega no telefone
+[01:03:53] tem que ver o que que é
+[01:03:55] certo?
+[01:03:57] mas veja, não tem ninguém
+[01:03:59] inscrito aqui, então se vocês querem
+[01:04:01] acompanhar aqui, eu estou publicando
+[01:04:03] e já criticam e já me dão
+[01:04:05] dicas do que pode melhorar ou não
+[01:04:07] Tá bom?
+[01:04:11] E até mais então
+[01:04:12] Imagina nisso aqui
+[01:04:15] Produzir conteúdo para religião
+[01:04:17] Conteúdo educacional
+[01:04:19] Muito bala
+[01:04:20] Você foi minha bateria aqui do celular
+[01:04:24] Tá?
+[01:04:30] Aqui eu fiz mais duas
+[01:04:32] Só para mostrar para vocês
+[01:04:33] Eu estou
+[01:04:35] Esse aqui está produzindo meus vídeos, todo dia, em torno de 36 vezes 3.
+[01:04:44] Estou produzindo 36 vezes 3, em torno de 100 vídeos por dia.
+[01:04:51] Que vai direto para os canais.
+[01:04:55] Aqui estava com uma falha no YouTube DLP.
+[01:05:01] essas coisas, né? O Facebook mudou
+[01:05:05] alguma regra lá e isso aqui
+[01:05:08] deu erro, então tem que atualizar.
+[01:05:10] Esse é o problema de sempre, né?
+[01:05:12] As plataformas ficam...
+[01:05:14] Ó, peguei esse clipe
+[01:05:15] aqui, mandei pra ele
+[01:05:17] que eu quero que ele analise
+[01:05:19] o tipo de voz e tudo, porque
+[01:05:21] bombou.
+[01:05:23] Um milhão de visualizações
+[01:05:26] em tom. Ele tá
+[01:05:27] aprendendo esse tipo de clipe,
+[01:05:30] certo?
+[01:05:31] E aí o tipo de música e tudo mais
+[01:05:36] Aqui eu mandei um outro pra ele ver
+[01:05:39] Aqui eu mandei um outro
+[01:05:40] Aqui eu mandei outro
+[01:05:42] Ou seja, eu tô vendo os que eu gosto
+[01:05:44] Ou que ele tá bombando
+[01:05:45] Ou eu deixo ele procurar por conta
+[01:05:47] Tá legal?
+[01:05:50] Então é isso aqui
+[01:05:51] Aqui ó, outro
+[01:05:52] Ah, esse aqui ele também me mandou de volta
+[01:05:55] E alguma coisa eu tenho que ver
+[01:05:57] Ah, ele fez um vídeo dessa aqui
+[01:05:58] É um outro clipe aí, concluído sem portão.
+[01:06:05] Tá?
+[01:06:07] E é isso aí, galera.
+[01:06:11] Até amanhã, então.
+[01:06:17] Deixa eu desligar aqui.
+[01:06:20] Desligar aqui também.
+[01:06:22] Vamos comer um negócio, tomar uma coisa, que tá frio aqui hoje.

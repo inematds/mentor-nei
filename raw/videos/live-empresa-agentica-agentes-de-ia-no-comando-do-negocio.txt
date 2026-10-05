@@ -1,0 +1,1230 @@
+# LIVE： Empresa Agêntica - Agentes de IA no Comando do Negócio
+Origem: https://www.youtube.com/watch?v=U1pEPovZyfY
+Texto: legenda
+
+[00:00:04] Alô,
+[00:00:05] tudo bem, pessoal?
+[00:00:08] Hoje vou ensinar uma coisa que eu acho
+[00:00:11] que não tem ninguém explicando isso no
+[00:00:14] Brasil.
+[00:00:20] E mesmo lá fora,
+[00:00:23] eu vejo, né, que é muito difícil alguém
+[00:00:26] ter clareza do que que eu vou apresentar
+[00:00:28] para vocês. Ontem eu assisti uma um
+[00:00:31] vídeo, na verdade essa madrugada,
+[00:00:35] e do presidente da Versel, que é uma das
+[00:00:39] empresas assim de referência,
+[00:00:42] e eu parei o vídeo umas quatro vezes.
+[00:00:44] Era um vídeo pequeno de menos de uma
+[00:00:46] hora, mas eu parei várias vezes para
+[00:00:48] pensar, refletir e aí eu construí para
+[00:00:50] vocês um conteúdo muito bala, né? Como é
+[00:00:53] que a empresa, né, ela vai est vivendo
+[00:00:58] nos próximos 2 tr anos e principalmente
+[00:01:01] como é que é um um agente que toda
+[00:01:03] empresa vai criar.
+[00:01:08] &gt;&gt; Oi? Que que houve?
+[00:01:10] &gt;&gt; A gente fala que não é possível de
+[00:01:12] decodificar. Tá. Então, o quê?
+[00:01:16] &gt;&gt; O vídeo.
+[00:01:17] &gt;&gt; Tá. Depois a gente vê isso,
+[00:01:19] &gt;&gt; tá?
+[00:01:24] &gt;&gt; Oi, tudo bem, Paula?
+[00:01:28] Então,
+[00:01:31] então o que que acontece, né? Se a gente
+[00:01:33] parar para pensar, e eu vou passar para
+[00:01:35] vocês várias coisas também, vou explicar
+[00:01:38] depois de novo como instalar o Inema
+[00:01:43] CCBT, o
+[00:01:46] promo Avatar, todas essas coisas eu vou
+[00:01:48] explicar para vocês hoje.
+[00:01:50] Mas olha só, o agente que toda IA, né,
+[00:01:54] toda o agente de IA que toda empresa
+[00:01:56] está preste a criar é o quê? Nós temos
+[00:01:59] um um agente central e esse agente
+[00:02:02] central ele tem que ter várias coisas.
+[00:02:05] Por exemplo, o cérebro da empresa, né? O
+[00:02:08] gerenciamento dos suagentes.
+[00:02:11] Cada suagente eu posso estar já
+[00:02:13] estruturado. Eu posso criar ele por
+[00:02:16] demanda ou estruturado e posso deixar
+[00:02:19] ele dormindo e o cara aqui acorda ele.
+[00:02:23] Eu vou ter as habilidades o conhecimento
+[00:02:26] da empresa.
+[00:02:28] Eu vou ter listado as ferramentas que a
+[00:02:31] empresa vai usar,
+[00:02:33] né? Eu tenho segurança e permissões que
+[00:02:37] eu tenho que pensar. Eu tenho, né, o que
+[00:02:40] que eu posso já usar de proatividade?
+[00:02:43] Hoje tava um amigo meu aqui e a gente
+[00:02:45] construiu um sistema de agente para ele
+[00:02:48] e o cara ficou enlouquecido, né? E o
+[00:02:51] cara tá já com contratou sistemas pros
+[00:02:54] caras desenvolver a a valores lá em cima
+[00:02:57] e a coisa não sai e eu pá pá pá eu fiz,
+[00:03:00] né? Então o que que o sistema pode
+[00:03:03] adiantar? Mas é claro que eu tenho
+[00:03:06] experiência e tudo mais. Então entendi o
+[00:03:08] que ele queria, né, e também a intenção
+[00:03:12] dele além do que ele pediu, né, ele
+[00:03:15] queria esquentar os lead, mas na verdade
+[00:03:17] ele não queria esquentar os lead, ele
+[00:03:18] queria vender tudo, ele queria o
+[00:03:20] processo inteiro, mas a, né, o que que
+[00:03:23] ele tava pedindo era um pouco, mas ele
+[00:03:26] precisava muito mais do que isso,
+[00:03:29] né? A parte de eventos, quem é que vai
+[00:03:31] disparar eventos? Pode ser e-mail, né?
+[00:03:34] Pode ser horário, pode ser coisas de
+[00:03:36] tudo que tipo, tá?
+[00:03:39] Então, eh, boa, boa noite, Mônica.
+[00:03:42] Então, a, eu também penso uma coisa, a
+[00:03:45] gente tem que tá sempre, né, fazendo
+[00:03:47] avaliação e melhoria em cima do sistema.
+[00:03:51] Então, ficou muito claro a estrutura que
+[00:03:54] tu vai montar os sistemas. E se nós
+[00:03:57] pensarmos nisso, eu tenho esses sistemas
+[00:04:00] que poderíamos imaginar um Jarvis e a
+[00:04:04] equipe, né, vai falar com o agente
+[00:04:06] central que vai buscar os skills, o
+[00:04:09] suagente, as ferramentas, né, e os dados
+[00:04:13] de sistema, ou seja, local ou na nuvem.
+[00:04:16] Então, essa equipe pode ser interno ou
+[00:04:19] externo. O que faz diferença é a forma
+[00:04:23] como nós organizamos tudo isso, certo?
+[00:04:27] Então, o nível de seguranças e
+[00:04:29] permissões, ele pode ser, a pessoa fala,
+[00:04:33] o agente central consulta o que que ele
+[00:04:35] vai entregar, né, para busca a
+[00:04:39] informação, volta e valida lá se aquilo
+[00:04:43] que ele tá entregando é válido. Então,
+[00:04:45] tu tem duas checagens, né, na ida para
+[00:04:48] buscar só aquilo que que é permitido e
+[00:04:51] na volta tu tá fazendo auditoria. Isso
+[00:04:54] garante, né, uma segurança muito maior
+[00:04:57] nos sistemas, tá legal? Eu vou explicar
+[00:05:00] isso, então.
+[00:05:04] Bom,
+[00:05:08] então, olha só, eu coloquei aqui
+[00:05:10] fundação da empresa agêntica, tá? É um
+[00:05:13] texto que tem aqui, tem resumos
+[00:05:17] e é isso que eu tava mostrando para
+[00:05:19] vocês. Então aqui, cérebro da empresa,
+[00:05:22] subaes, os skills, as ferramentas, nível
+[00:05:25] de segurança, proatividade,
+[00:05:28] eventos, né, que pode ser e-mail,
+[00:05:31] pagamento, o que for, né, ou por
+[00:05:34] horário, gatilho, fim do mês, etc. E
+[00:05:39] melhoria contínua. Tá? Então é o que que
+[00:05:41] eu tava mostrando para vocês. Daí tem
+[00:05:43] toda a explicação sobre isso e vamos
+[00:05:45] para uma outra telinha para analisar a
+[00:05:48] empresa nas eras dos agentes.
+[00:05:51] Então o que que acontece, né? Eu tenho
+[00:05:53] que ter capacidade para competir e
+[00:05:56] liderar.
+[00:05:57] Então como é que eu vou fazer uma
+[00:05:59] inteligência organizacional da empresa,
+[00:06:03] né? Como é que eu vou fazer a
+[00:06:04] orquestração?
+[00:06:06] Aonde que tá a biblioteca dos skills,
+[00:06:09] né? Que integração de dados eu quero
+[00:06:12] ter? CRM, RP, e-mail, o que que eu quero
+[00:06:16] integrar? Automação orientada a eventos,
+[00:06:19] né? Ou seja, eu vou automatizar
+[00:06:23] não para o que que as pessoas mais
+[00:06:25] querem, e sim, né, nos eventos que a
+[00:06:29] empresa tem que ter, porque
+[00:06:30] provavelmente eu vou substituir muitas
+[00:06:33] pessoas e tarefas por agentes, né? E aí
+[00:06:38] eu preciso proatividade,
+[00:06:40] então eu vou verificar, né, o que que
+[00:06:42] normalmente alguém iria fazer e eu já
+[00:06:46] posso deixar isso pré-agendado, né, ou
+[00:06:50] por gatilhos que vai acionar isso aqui.
+[00:06:53] Governança e segurança, definindo
+[00:06:56] melhorias contínuas, né? E aí nós
+[00:06:59] montamos uma arquitetura de
+[00:07:01] multimodelos, ou seja, eu não dependo da
+[00:07:06] da do cloud, não dependo do Codex, né,
+[00:07:09] não dependo do da GLM e assim por
+[00:07:12] diante.
+[00:07:14] E com isso eu também penso, eu tenho
+[00:07:17] operação humano mais agentes. A minha
+[00:07:20] empresa vai ser uma empresa híbrida.
+[00:07:23] Então, muitas coisas que hoje tá se
+[00:07:25] fazendo, a gente vai passar pra gente e
+[00:07:28] esse agente aos poucos ele vai ter mais
+[00:07:30] autonomia,
+[00:07:32] certo? Mais harness. Então o que que a
+[00:07:35] gente faz? O que que é? É uma cebola
+[00:07:38] cada vez camadas mais, protegendo mais.
+[00:07:42] E o núcleo é a minha informação ou
+[00:07:45] minhas tarefas que eu quero atingir,
+[00:07:48] certo? E eu vou ter vários agentes
+[00:07:51] especialistas para trabalhar e quem é
+[00:07:54] que comanda é esse cara central, certo?
+[00:07:59] E aí eu posso ter, né? Arquiteto da
+[00:08:01] inteligência, curador de contexto,
+[00:08:04] design de decisões, gestão, né, de
+[00:08:07] autonomia e risco, gestor de skill,
+[00:08:10] treinador de agente, alocador de
+[00:08:12] inteligência, gestor de exceção,
+[00:08:15] designer de loops e de aprendizado. Isso
+[00:08:18] aqui eu digo assim, pode ser pessoas,
+[00:08:21] pode ser agentes.
+[00:08:23] Então, provavelmente ainda nós temos
+[00:08:25] pessoas, mas nós vamos estar migrando
+[00:08:28] para agentes. E o que que eu faço com
+[00:08:30] essas pessoas? Essa pergunta.
+[00:08:44] Oi, tudo bem? Dia.
+[00:08:47] Tô detonando o sorvetinho aqui.
+[00:08:52] Então, a empresa na era dos agentes, né?
+[00:08:56] O que que é a função que tu vai ter como
+[00:08:58] líder,
+[00:09:00] né? Tu vai ter que ser um arquiteto de
+[00:09:03] pensar o que que tu quer fazer. Você vai
+[00:09:06] ser um curador do contexto. É o que que
+[00:09:08] tá dentro do contexto de cada um desses
+[00:09:11] agentes.
+[00:09:13] Você vai fazer o design das decisões, ou
+[00:09:16] seja, você vai definir como tu quer que
+[00:09:18] seja ele tomado decisões, certo? Você
+[00:09:22] vai definir autonomia e risco de cada um
+[00:09:25] desses agentes, né? Você vai fazer
+[00:09:28] gestão dos skills, que é as boas
+[00:09:31] práticas, as instruções para eles. Você
+[00:09:35] que vai treinar os agentes, certo? E
+[00:09:39] esse treinamento não é só no início, né?
+[00:09:42] Tu vai mantendo feedback, instruções,
+[00:09:44] melhorando,
+[00:09:46] né? Alocador de inteligência, aonde que
+[00:09:49] você vai buscar, né? para quem tu vai
+[00:09:51] entregar, o que que você vai entregar,
+[00:09:55] certo? Tu tem gestor das exceções, então
+[00:09:59] os nível de segurança é mais ou menos
+[00:10:01] assim, hoje você entregaria todos os
+[00:10:04] sistemas na mão do estagiário, não, né?
+[00:10:07] Então você tem que pensar sempre é isso,
+[00:10:11] quem vai ter acesso à informação, será
+[00:10:14] que todo mundo tem acesso ao financeiro?
+[00:10:16] Será que todo mundo tem acesso a RH? Por
+[00:10:19] que que não tem? E aí você vai criando
+[00:10:21] as restrição dentro das empresas, certo?
+[00:10:25] E nem vou focar aqui, né, nas questões
+[00:10:28] essenciais, que é mais técnica.
+[00:10:33] Então, o que que acontece?
+[00:10:35] A nova força de trabalho, né? O novo
+[00:10:39] trabalho da liderança é habilitar
+[00:10:42] pessoas com agentes. Ou seja, você tem
+[00:10:45] que ter uma capacidade de criar uma
+[00:10:47] cultura dentro da empresa em assimilar
+[00:10:50] os agentes como parte das ferramentas,
+[00:10:54] certo? Porque as pessoas não querem e
+[00:10:58] [limpando a garganta] nem precisam saber
+[00:10:59] como é que funciona as coisas para
+[00:11:01] atrás, elas simplesmente querem usar.
+[00:11:05] Então o que que acontece, né? Eu vou
+[00:11:08] deixar disponível para as pessoas criar.
+[00:11:11] Ah, ele quer melhorar a página, ele quer
+[00:11:14] fazer tal coisa. O que que nós vamos
+[00:11:16] deixar? Ele ter acesso a tudo, mas eu
+[00:11:19] vou ter alguém que vai validar. Então eu
+[00:11:22] não podo, a pessoa que quer melhorar
+[00:11:24] nosso site, apenas existe um verificador
+[00:11:28] no meio do caminho, certo? Então esse
+[00:11:31] input, essa necessidade, esse lado legal
+[00:11:35] que as pessoas têm muitas vezes de
+[00:11:36] querer contribuir, eu tenho alguém
+[00:11:39] consolidando isso. [limpando a garganta]
+[00:11:41] E numa empresa a cultura pode ser de
+[00:11:43] poda, pode ser de adxar. Então essa é o
+[00:11:47] trabalho de você desenvolver dentro na
+[00:11:50] empresa a capacidade de anexar soluções,
+[00:11:53] não importa mais da onde vem. Eu me
+[00:11:56] lembro, né, de muitas empresas
+[00:11:58] trabalhando com 5S, a caixinhas de
+[00:12:00] sugestões, né, etc, etc, que é o no
+[00:12:05] digital nós estamos indo para esse
+[00:12:06] caminho também.
+[00:12:09] Então, antes a gente tinha pessoas, mais
+[00:12:12] processos, mais software. Agora nós
+[00:12:15] temos pessoas, mais agente, mais
+[00:12:17] inteligência organizacional. Então nós
+[00:12:19] mudamos um pouco e aí o software e os
+[00:12:23] processos eles vão desaparecendo, as
+[00:12:26] pessoas não, certo? Então os processos
+[00:12:29] vão começando virar regras, certo? E os
+[00:12:34] agentes são quem é que aciona essas
+[00:12:38] regras, quem é que usa esses skills, tá
+[00:12:41] legal?
+[00:12:45] E aí nós entramos na questão de
+[00:12:47] segurança de acesso, que é um dos pontos
+[00:12:49] fortes que as pessoas se preocupam na
+[00:12:52] principalmente nas empresas.
+[00:13:01] Em muitas empresas quem controla o
+[00:13:03] acesso é a TI, né? A a parte técnica.
+[00:13:08] E o técnico muitas vezes ele é rude com
+[00:13:11] isso, é rígido porque ele tem visão que
+[00:13:14] o usuário é usuário. Só que se nós
+[00:13:17] queremos que as pessoas se empoderam com
+[00:13:20] aá, eu não posso restringir.
+[00:13:23] Eu tenho que, na verdade, simizar essa
+[00:13:26] questão de gestão.
+[00:13:28] Então, para isso, o que que nós vamos
+[00:13:30] ter que pensar? Eu tenho, né, acessos
+[00:13:34] que as pessoas vão me pedir, né, e eu
+[00:13:37] vou ter pessoas internas e externas
+[00:13:40] que vão se autenticar. Baseado na
+[00:13:43] autenticação, eu crio uma identidade
+[00:13:46] dela. Baseado nessa identidade, eu dou
+[00:13:49] as permissões, como hoje seria nos
+[00:13:52] sistemas,
+[00:13:53] certo?
+[00:13:56] E aí esse agente vai pegar e entregar
+[00:13:58] para elas aquilo que tá definido nas
+[00:14:02] políticas, na identidade da pessoa.
+[00:14:06] Então, vejam só, então, à vez, em vez de
+[00:14:09] eu ficar gerenciando o acesso a
+[00:14:12] determinadas coisas, eu vou simplesmente
+[00:14:14] dizer: "Olha, tu tá autenticado, sim,
+[00:14:17] então eu sei quem tu é. Pode acessar
+[00:14:20] aquilo que tu tem direito, certo? Por
+[00:14:23] quê? Porque eu dei permissões, né,
+[00:14:25] naquela autenticação, naquela pessoa.
+[00:14:29] Então ele pode estar usando sistemas de
+[00:14:31] terceiros usando a a autenticação que
+[00:14:35] ele tem de terceiros. Eu não preciso ser
+[00:14:37] eu que vou acessar o terceiros, mas em
+[00:14:40] outros casos pode ser que sim, né? Eu
+[00:14:43] restrinjo o acesso das pessoas e eu
+[00:14:47] controlo o que que ele pode acessar
+[00:14:49] pegando e levando as coisas. Então eu
+[00:14:53] preciso classificar os dados entre
+[00:14:55] público, interno, confidencial,
+[00:14:58] restrito,
+[00:14:59] né, e outros que você possa ter na
+[00:15:03] empresa. Existe também o Human,
+[00:15:07] né? Esse é muito conhecido já. A função
+[00:15:10] é o agente tem alguma coisa, ele demanda
+[00:15:15] para o humano aprovar, né? No meus
+[00:15:18] sistemas, eu tenho isso, mas eu também
+[00:15:20] posso botar uma porta direta
+[00:15:28] ou como eu digo, sem portão. Deixa eu
+[00:15:31] virar aqui um pouco mais isso aqui,
+[00:15:33] porque para mim não interessa eu
+[00:15:35] aparecer, interessa aqui. Isso.
+[00:15:40] Então, o que que acontece, né? Eu vou
+[00:15:43] ter logs, auditorias e avaliações de uso
+[00:15:47] e com isso eu consigo entender o que que
+[00:15:50] as pessoas estão usando ou não, certo? E
+[00:15:53] aí eu vou ter os gate de ferramenta e eu
+[00:15:56] posso deixar talvez ele acessar tudo
+[00:15:59] porque o que vale é os logins que ele
+[00:16:01] tem nas ferramentas ou não. Eu faço, eu
+[00:16:05] trabalho de buscar nas ferramentas e
+[00:16:07] entrego para ele. Depende do que que eu
+[00:16:09] quero desenhar o meu sistema.
+[00:16:13] Tá legal?
+[00:16:14] Então, a segurança, identificação
+[00:16:17] primeiro da pessoa, se ela não tá logada
+[00:16:19] ou não tem como, certo? E aí os
+[00:16:22] privilégios que ele vai conquistar, né?
+[00:16:26] zero confiança, ou seja, lembrar que ele
+[00:16:29] não deve ter acesso a nada que não tiver
+[00:16:32] especificado para ele. Então, a a o
+[00:16:36] gerenciamento da dos dados cada vez mais
+[00:16:40] vai ser por identidade, né, contexto,
+[00:16:43] política e auditoria para mim validar e
+[00:16:47] sempre ver esse lado, tá?
+[00:16:51] Então, eh, os sistemas da empresa vão
+[00:16:53] estar cada vez mais indexados,
+[00:16:56] como bancos de dados, eh, segundo
+[00:16:59] cérebro e tudo mais. E as pessoas vão
+[00:17:03] est usando o acesso que elas tinham
+[00:17:05] antes, se logando, etc. Então, mostrando
+[00:17:08] isso paraas pessoas aí.
+[00:17:12] E uma das estruturas bem interessantes
+[00:17:15] para esse tipo de coisa é a estrutura do
+[00:17:17] agente EV, né? o Ive, que nem eles
+[00:17:21] falam, hã, a Verel criou isso e ele
+[00:17:25] ontem eu tava assistindo, ele explicou o
+[00:17:27] porquê. Ele queria ser que a empresa
+[00:17:30] fosse muito rápida, dinâmic adaptada,
+[00:17:33] mas que precisava desde o cara que entra
+[00:17:36] como estagiário, como o, né, o
+[00:17:39] desenvolvedor mais sior, ele tinha que
+[00:17:42] ter acesso aos dados. Só que tu não pode
+[00:17:45] dar tudo acesso pro para um estagiário
+[00:17:47] por segurança, por muitos motivos. Então
+[00:17:50] o que que você faz? Uma administração,
+[00:17:53] certo? Baseado em acesso, tá?
+[00:17:59] E aí nós temos aqui, deixa eu ver, não
+[00:18:01] tá aqui. Ah, tá aqui embaixo, ó.
+[00:18:04] EV.Ddev.
+[00:18:05] Então você já pode vir aqui, ó, e testar
+[00:18:09] criando soluções aqui. Então, tu tem
+[00:18:14] instruções, tu tem o agente, tu tem os
+[00:18:16] skills, tu tem o tools, ou seja, tu pode
+[00:18:19] fazer uma simulação aqui, onde que você
+[00:18:22] tem agente, né, e a estrutura do nome do
+[00:18:26] teu agente aqui embaixo, assim como era
+[00:18:28] o skill,
+[00:18:30] ou como é o skill. Então a proposta dele
+[00:18:34] foi organizar. Hoje nós jogamos todo
+[00:18:37] nessa pasta, gente, qualquer coisa. Ele
+[00:18:40] não, ele vai estruturar toda uma, né,
+[00:18:44] uma árvore abaixo dele, certo? Então nós
+[00:18:49] vamos ter muitos agentes, subreagentes
+[00:18:53] disponível dentro do meu ambiente de
+[00:18:56] produção,
+[00:18:58] tá? Então aqui eu coloquei para vocês
+[00:19:01] esse conteúdo, quem quer já ir
+[00:19:03] estudando, que é uma tendência, mas
+[00:19:06] também, ó, eu criei um outro conteúdo
+[00:19:08] aqui que as empresas de agente take,
+[00:19:12] certo? Para quem não sabe, agentes e
+[00:19:15] agentices,
+[00:19:18] e agentico,
+[00:19:20] né? Além dele fazer alguma coisa, de
+[00:19:23] buscar alguma coisa, ele executa, né? O
+[00:19:26] agente normal ele só consulta e
+[00:19:28] responde. Então é um exemplo comparando
+[00:19:31] aqui,
+[00:19:33] certo?
+[00:19:35] Então a tem a empresa tradicional, a
+[00:19:38] empresa digital e a empresa agentique,
+[00:19:41] certo?
+[00:19:43] Então ela focado aqui, se nós vamos ver,
+[00:19:45] ele tem aprendizado, ele tem ações,
+[00:19:49] certo? Ele tem as pessoas, agentes, os
+[00:19:52] skills, as ferramentas, dados, né,
+[00:19:56] ações. E com isso tu tá aprendendo
+[00:19:59] sempre em cima disso. Deixa eu ver se
+[00:20:01] tem mais alguma explicação aqui. Não.
+[00:20:05] Então aqui também é um conteúdo mais
+[00:20:07] para quem quer entender esse processo.
+[00:20:11] E aqui também eu tenho a, né,
+[00:20:17] pegando a mesma lógica de antes ali, eu
+[00:20:19] trouxe para cá pra gente pegar e fazer
+[00:20:22] quase que um curso disso aí. Então,
+[00:20:24] empresas na era do agente, que que tu
+[00:20:27] vai fazer? as pessoas mais agentes que
+[00:20:30] vão fazer nosso negócio. Então elas têm
+[00:20:33] que tá integrado, assim como sempre teve
+[00:20:35] o RH integrado com o financeiro, que é
+[00:20:37] integrado com a parte comercial e assim
+[00:20:40] por diante, certo? Segundo lugar é
+[00:20:43] arquitetura, arquitetura de pastas.
+[00:20:46] Então eu tenho o nome, né, desse meu
+[00:20:49] agente e eu tenho toda a estrutura de
+[00:20:52] pastas abaixo, né?
+[00:20:55] governança, todo o acesso é por
+[00:20:57] identidade, permissão, certo? E por
+[00:21:01] último, eu tenho que pensar sempre num
+[00:21:04] aprendizado contínuo, ou seja, isso vale
+[00:21:07] para hoje, amanhã não sei, talvez tem
+[00:21:09] que mudar tudo de novo. Essa é a nova
+[00:21:12] visão de negócios. Então, eu peguei,
+[00:21:15] coloquei cada um deles, certo? Fiz um
+[00:21:18] slide aqui e fiz um texto para vocês
+[00:21:21] estudarem sobre isso, ó. Cada abaixo de
+[00:21:23] cada um deles tem aqui, né, arquitetura
+[00:21:27] operacional, ali em cima foi as pessoas,
+[00:21:29] os agentes, depois a governança e
+[00:21:32] segurança. E por último, né, aprendizado
+[00:21:36] contínuo, ou seja, aprender com os erros
+[00:21:38] e acerto. E a empresa aqui, né, seguindo
+[00:21:43] aquele padrão que eu mostrei para vocês.
+[00:21:46] Alguma dúvida até aqui, pessoal? Mulher,
+[00:21:49] tudo bem, André?
+[00:21:55] Bom, o que que, qual é a proposta? Isso
+[00:21:58] a proposta é que eu vou procurar fazer
+[00:22:00] em setembro, não, em outubro, um curso
+[00:22:04] prático de como criar os agentes, ou
+[00:22:07] seja, uma empresa baseado em agentes, tá
+[00:22:10] legal? Então, eu já montei praticamente
+[00:22:13] o escopo disso. Agora só vou ver, eu
+[00:22:17] quero testar porque eu usei o Fabio essa
+[00:22:20] noite para ele montar todo esse projeto
+[00:22:23] que para ser pra gente apresentar.
+[00:22:31] Hoje eu tô cansado, pessoal. É sábado e
+[00:22:34] tem toda semana que vem de novo,
+[00:22:40] tá certo?
+[00:22:41] Bom,
+[00:22:43] eu teria mais coisas para apresentar,
+[00:22:45] mas eu quero focar aqui no Inema CC
+[00:22:48] Boot, tá?
+[00:22:53] Então eu quero focar nessa estrutura
+[00:22:55] aqui. Hoje eu instalei, verifiquei
+[00:22:58] várias coisas e pergunto, pessoal,
+[00:23:00] alguém de vocês atualizou, já usou, já
+[00:23:03] instalou?
+[00:23:17] Bom, então o que que acontece, pessoal?
+[00:23:22] Quando a gente vai fazer o sistema
+[00:23:26] dentro do, né, do Cabot ou do CCBT, eu
+[00:23:30] tenho as filas.
+[00:23:32] Além das filas, eu tenho os workers,
+[00:23:36] certo? E aí eu tenho as skills. Então
+[00:23:40] quando tu instala o inema CC Bote, ele
+[00:23:44] já vem com duas skills prontas, que é o
+[00:23:46] promover,
+[00:23:48] certo?
+[00:23:51] Então o que que acontece, tá?
+[00:23:55] Deixa eu ver se eu apresento aqui para
+[00:23:56] vocês.
+[00:23:59] Quando você instalar ele,
+[00:24:02] vamos para diretamente para o
+[00:24:06] Tu vai lá. Opa, deixa eu abrir um outro
+[00:24:15] pode ser no
+[00:24:23] Inema. CC bot. Vamos lá. Servo
+[00:24:30] inema
+[00:24:32] CC bot. Ó, tá aqui ele.
+[00:24:37] E aí, ó, tá?
+[00:24:41] Eu vou para o GitHub.
+[00:24:45] Eu vou pegar isso aqui, ó, e levar lá
+[00:24:48] para minha fazer uma clonagem. Mas
+[00:24:50] antes, dá uma lida.
+[00:24:54] guia de uso, instalação, passo a passo.
+[00:24:57] Então, o que que tu já deve ter? Por
+[00:25:00] enquanto, ele é para funcionar em cima
+[00:25:02] do cloud code. Assim que ele
+[00:25:04] estabilizar, eu vou portar ele para o
+[00:25:07] Codex também, certo?
+[00:25:10] Então, eu tenho as instalações dele
+[00:25:12] aqui, que ele vai instalar o Node, né?
+[00:25:15] Vai ver se o o cloud tiver, se não ele
+[00:25:18] instala o FFMPEG, ele vai baixar o
+[00:25:21] Python, ele vai verificar. e o playght,
+[00:25:25] que é o navegador para o estúdio que eu
+[00:25:27] preciso dele, e um banco de dados SQL
+[00:25:30] Lite para as filas, certo? Então, o que
+[00:25:34] que eu tenho que fazer? Colonar
+[00:25:37] e depois rodar aí NPMC,
+[00:25:42] certo?
+[00:25:43] Ahã. Depois disso, eu vou pegar os dois
+[00:25:47] domínios aqui, levar eles, se tu quiser
+[00:25:51] usar o promo avatar ou os os dois e
+[00:25:55] todas skills que tu quiser colocar aqui
+[00:25:57] dentro, tá? Outra coisa, eu tenho dois
+[00:26:01] arquivinhos aqui de CTA gravados lá
+[00:26:04] dentro, então você tem que trocar esse
+[00:26:07] CTA pelo teu negócio. É um arquivinho
+[00:26:10] pequeno, certo? ou você deixa ele em
+[00:26:13] branco aí, só para não ficar botando
+[00:26:15] inema.club no final dos teus vídeos,
+[00:26:19] certo?
+[00:26:21] Muito bem. Mas se tu não deixar esses
+[00:26:23] arquivos lá existente, eles vão falhar,
+[00:26:26] tá?
+[00:26:28] Muito bem. Daí o que que tu faz? Testa,
+[00:26:31] dá rewild e daí você vai lá no Telegrama
+[00:26:35] e cria o bot fatter. Cria teu boot lá no
+[00:26:39] bootfatter é barra new. E aí tem os
+[00:26:42] passo a passo, como eu já falei, tá? Se
+[00:26:45] quiser eu explico para vocês de novo.
+[00:26:48] Você tem que pegar lá no ENV, né? Dá um
+[00:26:51] cpespaço.
+[00:26:54] Exemplo, tá? A ponto env. Então você
+[00:26:57] copiou e entra aqui e edita os
+[00:27:00] parâmetros que você precisa, né? Então
+[00:27:03] tem vários parâmetros que vai ter ser
+[00:27:05] jogado aí dentro, tá? Hã,
+[00:27:10] que mais?
+[00:27:16] E aí é só botar no ar a configuração,
+[00:27:19] verificar se entrou e é tranquilo isso
+[00:27:23] aqui. Se você quiser usar, eu fiz aqui
+[00:27:26] na Tiza diferente. Na Tiza, eu abri o
+[00:27:29] cloud e disse para ele instala e dei o
+[00:27:33] link para ele e ele instalou tudo para
+[00:27:35] mim. muito mais fácil do que eu fazer
+[00:27:37] tentativa e erro se eu não conheço nada
+[00:27:39] do ambiente, tá legal?
+[00:27:48] Então, pessoal, a ideia é isso.
+[00:27:51] Inclusive, eu deixei lá vários exemplos
+[00:27:53] e tudo, né? Removi minha meus tokens,
+[00:27:56] troquei todos os tokens aí porque eu fiz
+[00:27:58] muito teste, então tá todo ele. Se tiver
+[00:28:01] alguma coisa lá de log e coisa, é tudo
+[00:28:03] velho, tá? E aqui seria as skills que tu
+[00:28:08] quer instalar, certo? Daí tem todos os
+[00:28:12] fluxo como você vai usar. Eu vou
+[00:28:14] explicar isso com o tempo para vocês,
+[00:28:17] tá? Então, o que que seria aqui normal?
+[00:28:21] Eu tenho duas maneiras de sempre
+[00:28:23] instalar, né? Se eu vou pegar e vou lá
+[00:28:27] para o
+[00:28:30] térmios, tá? Eu venho aqui e eu podia
+[00:28:35] dizer que eu quero ir para o,
+[00:28:44] Deixa eu ver aqui se eu consigo acessar
+[00:28:46] aqui.
+[00:28:53] Beleza. Ó, entrei numa numa sessão aqui,
+[00:28:56] CD Projetos
+[00:28:59] de Projetos. Não tem nada, ó. Só tem uma
+[00:29:02] o o YouTube ali de live. Então o que que
+[00:29:05] eu vou fazer? Eu tenho duas maneiras de
+[00:29:07] fazer as coisas. A primeira seria
+[00:29:09] manual. Então no manual eu vou lá em
+[00:29:11] cima,
+[00:29:13] sofro um pouco, tá?
+[00:29:16] Ó, e vou dar o né, o git clone nmtdssi.
+[00:29:21] E vou
+[00:29:23] pegar e copiar esse conteúdo. Entro no
+[00:29:26] projeto. Certo. Vamos ver se aqui roda
+[00:29:29] legal.
+[00:29:31] Então,
+[00:29:33] conttrl shift V, enter.
+[00:29:38] Ó, você com,
+[00:29:42] ó, ele tá pegando e copiando um
+[00:29:46] uma chave.
+[00:29:50] Continua?
+[00:29:52] Sim.
+[00:29:55] Vamos lá de novo.
+[00:30:04] Já deu erro aqui para mim.
+[00:30:10] Deixa eu ver se se eu tenho
+[00:30:13] tir.
+[00:30:16] Não, não tenho nada. Então,
+[00:30:19] vamos botar cloud.
+[00:30:23] Não tenho Codex
+[00:30:25] também não tenho, ó. É uma instalação
+[00:30:29] limpa. Então o que que eu poderia fazer?
+[00:30:32] Eu poderia ir na minha máquina, instalar
+[00:30:34] aqui o Cloud Code ou Codex e eu mandar
+[00:30:38] instalar aqui, certo? Ou começar aquele
+[00:30:42] sistema de para lá e para cá de erros.
+[00:30:45] Então vamos lá de novo. Que que eu tinha
+[00:30:47] para fazer aqui? Opa.
+[00:30:52] O con, isso é porque essa máquina já
+[00:30:55] tava em uso e eu não sei o que que tem
+[00:30:57] aqui dentro. Então vamos primeiro
+[00:30:59] clonar,
+[00:31:02] tá?
+[00:31:06] Yes.
+[00:31:08] Tem que dizer yes.
+[00:31:14] Acho que agora o diretório já existe.
+[00:31:16] Ah, sim.
+[00:31:22] Não, pera aí.
+[00:31:25] Git cloneema
+[00:31:27] CC bot
+[00:31:33] repositório. Existe LS - la.
+[00:31:46] Ah, tá aí, ó. Eu tô com problema de
+[00:31:49] direitos.
+[00:32:04] Deixa eu tentar fazer outra coisa aqui.
+[00:32:07] Eu não sei se é aqui ou aqui que houve,
+[00:32:12] mas eu fiz antes certinho no da da Tisa.
+[00:32:29] Mentira.
+[00:32:32] Tá aqui, ó. Instalou, sim.
+[00:32:35] Era aquele comando lá que tá errado. CD
+[00:32:39] Inema
+[00:32:41] CC bot.
+[00:32:45] Muito bem, ó. Já tô aqui dentro. E
+[00:32:48] agora, ó, se dou ls - la,
+[00:32:54] eu quero copiar aquele arquivo pon, ó,
+[00:32:58] cpespaço.
+[00:33:01] Env sample para ponto env, né? Beleza,
+[00:33:07] eu copiei. Agora só eu teria aqui nano
+[00:33:12] ponto env.
+[00:33:14] Ó, e eu tenho que botar aqui o token,
+[00:33:17] tem que botar meu usuário, mas isso eu
+[00:33:19] coloco depois.
+[00:33:21] Ele aqui já tá definido, né? O banco de
+[00:33:24] dados, o estado, aonde que vai ser todos
+[00:33:28] os caminhos. Então, provavelmente aqui,
+[00:33:31] ó, esse caminho e tudo, eu tenho que
+[00:33:33] acertar aonde que vai est esse caminho
+[00:33:36] aqui, certo? onde que vai tá os bancos
+[00:33:39] de dados e tudo. Então eu podia
+[00:33:42] simplesmente por enquanto tirar isso
+[00:33:44] aqui
+[00:33:46] e já que eu tô vai ser aqui de baixo
+[00:33:48] mesmo, ó. Ou eu podia dizer que isso
+[00:33:51] aqui vai ser um banco de dados, vai ser
+[00:33:53] lá em DB. Então botar DB barra
+[00:33:58] caminhos aqui, né? Então eu posso limpar
+[00:34:01] e definir os caminhos aonde que eu
+[00:34:03] quero,
+[00:34:08] ó. Posso deixar tudo na raiz por
+[00:34:10] enquanto, só para complicar a vida.
+[00:34:12] Deixa eu tirar isso aqui também,
+[00:34:17] ó.
+[00:34:19] E o log vai tá onde? Tô deixando tudo na
+[00:34:22] raiz, né? Ó, mesma coisa. caminho, onde
+[00:34:26] que eu quero, cada um dos projetos, eu
+[00:34:28] tenho que configurar os modelos que eu
+[00:34:30] quero usar, certo? Então, já tô dizendo
+[00:34:33] que eu quero usar o o Sonet do modelo
+[00:34:38] padrão de esforço LA. Aqui eu coloco as
+[00:34:41] chaves do Rey Jin, tá
+[00:34:45] bom? Muito bem. Então vamos pensar que
+[00:34:47] eu configurei tudo isso aqui. Opa,
+[00:34:52] aqui é control
+[00:34:56] o O, enter cont X. Tá bom? Então eu já
+[00:35:00] fiz as alterações no arquivo aqui e
+[00:35:04] deixa eu ver se tem mais alguma coisa.
+[00:35:06] LS - LA.
+[00:35:17] Hum, hum.
+[00:35:22] Muito bem. E aí, vamos ver lá o que que
+[00:35:24] é os comandos a mais que tem lá,
+[00:35:30] ó. Daí eu vou pegar depois de ter feito
+[00:35:32] isso aqui.
+[00:35:34] Não rode teste ainda. Rep, irmãos não
+[00:35:38] módulos. Ó, aqui, ó. Esses dois aqui eu
+[00:35:41] vou instalar
+[00:35:42] trazendo eles, né, para local, porque eu
+[00:35:46] vou est usando o promo, o promovatar
+[00:35:49] e o promo avatar 3,
+[00:35:53] certo? Então vamos só rodar aqui para
+[00:35:56] ver se tá funcionando
+[00:36:05] aqui. Sim, ó. LS - la.
+[00:36:11] Ai ai.
+[00:36:13] Ó, baixou os dois.
+[00:36:16] Tá legal. Vamos ver o que mais nós temos
+[00:36:18] para fazer.
+[00:36:21] o CTA que ele é ativo, que eu posso
+[00:36:23] trocar depois.
+[00:36:26] Agora só testar e compilar. Vamos ver se
+[00:36:29] vai funcionar isso aqui e depois
+[00:36:31] configurar o boot, o boot aqui,
+[00:36:42] ó. Não tá instalado as coisas ainda, ó.
+[00:36:45] AP install.
+[00:36:47] Deixa eu ver por que não rodou aqui.
+[00:36:59] Não, eu tenho que botar P AT.
+[00:37:03] Instal
+[00:37:04] npm.
+[00:37:09] Sim.
+[00:37:11] É que ó, isso aí nada tava instalado
+[00:37:13] aqui.
+[00:37:18] Vou melhorar essa instalação. Vou criar
+[00:37:20] um arquivo de instalação.
+[00:38:01] Beleza, instalou.
+[00:38:05] E agora sim, vamos só ver o que que é
+[00:38:08] que tem. Eu vou puxar, eu acho que para
+[00:38:09] lado isso aqui, porque daí vai ficar
+[00:38:11] mais fácil para mim,
+[00:38:14] tá? Esse eu já rodei.
+[00:38:18] Vamos só de novo aqui.
+[00:38:22] Projetos, o teste e o building.
+[00:38:35] Ainda ele não achou.
+[00:38:38] Deixa eu ver o que que tá dando lá.
+[00:38:57] Fui instalar o
+[00:39:01] Inema, não, o github.com.
+[00:39:06] Deixa eu pegar o link que é mais fácil.
+[00:39:18] &gt;&gt; [roncando]
+[00:39:24] &gt;&gt; e me deu este erro.
+[00:39:44] Ainda bem que tá dando erro, porque eu
+[00:39:46] instalei agora já dois e foi diretinho,
+[00:39:49] não, não deu um erro.
+[00:40:05] Deixa eu ver uma coisa aqui no meu Oh.
+[00:40:44] Para aí,
+[00:40:46] eu quero isso. Ok.
+[00:41:16] O erro não é do projeto. Instalação
+[00:41:18] incompleta. Vem com defendência. Pá, pá,
+[00:41:20] pá. Mas eu rodei.
+[00:41:23] Diagnóstico. Tá tá. Modo configuração.
+[00:41:28] Como é que eu faço o fix
+[00:41:31] aqui? Tá o fix, ó.
+[00:41:43] É, a minha instalação tá tá com a penga
+[00:41:45] lá.
+[00:42:01] E aí?
+[00:42:17] Vamos para lá.
+[00:42:28] Oh, Zé, isso aí.
+[00:42:31] Minha vontade é zerar o servidor, mas
+[00:42:33] não vamos brigar ali com ele.
+[00:42:59] Não rode sem os irmãos e nem a papá
+[00:43:02] promover, etc.
+[00:43:19] Tá. Isso aqui eu já fiz.
+[00:43:22] O clube promover. Eu não quero.
+[00:43:50] Vamos lá. Vamos testar isso aqui então.
+[00:44:08] ş
+[00:44:39] Bom, enquanto ele tá aqui, eu vou lá pro
+[00:44:40] boot fatter. Ó, a próxima coisa que a
+[00:44:44] gente tinha que ter feito aqui, ó, é
+[00:44:46] criar o bootfatter aqui. Então, vamos
+[00:44:49] criar ele.
+[00:44:53] Bootfatter
+[00:44:56] barra newbot.
+[00:45:01] Vou dar aí inema CC
+[00:45:06] bot. Não, deixa eu botar CC X bot.
+[00:45:13] Inema CC Xbot.
+[00:45:19] Pronto, tem a chave agora aqui.
+[00:45:22] Tem que colocar essa chave lá no
+[00:45:27] T.
+[00:45:31] Não, não é aqui.
+[00:45:34] Cadê você?
+[00:45:38] Aqui
+[00:45:41] deu erro aqui.
+[00:45:43] Erro não suporta. Showingunto
+[00:45:46] 240x.
+[00:45:50] Uau!
+[00:45:58] Vamos ter que ver isso aqui.
+[00:46:02] H,
+[00:46:04] nenano
+[00:46:07] ponto env.
+[00:46:10] Ó, eu vou lá naquele lá
+[00:46:19] aqui, ó. Depois eu vou vai vir o meu
+[00:46:21] código aqui.
+[00:46:24] É só acertar também os caminhos aqui,
+[00:46:30] né?
+[00:46:36] Deixa eu botar assim, ó.
+[00:46:50] aqui também.
+[00:46:52] Aonde que eu quero salvar?
+[00:47:05] Tá
+[00:47:08] o rei aqui
+[00:47:11] onde vai tá a chave.
+[00:47:13] Vai tá aqui dentro. Opa.
+[00:47:25] Ó,
+[00:47:35] esse também tiar.
+[00:47:41] Tá bom.
+[00:47:45] Control O,
+[00:47:47] enter contrtrl X. Tá bom, já tem isso
+[00:47:51] aqui. Só tem que agora ver por que eu WR
+[00:47:55] não tá funcionando. É por causa da
+[00:47:58] versão aqui.
+[00:48:09] Vamos lá.
+[00:48:17] Ah, errei aqui. Não é aqui que eu tô.
+[00:48:21] Tá na hora de eu parar e dormir.
+[00:48:30] 264.
+[00:48:43] Sim. Deixa eu fazer uma coisa.
+[00:48:56] Deixa eu fazer uma coisa aqui.
+[00:48:59] Quero que atualize
+[00:49:03] a versão do CTA no Git.
+[00:49:22] É que eu não botei o não deixei o vídeo
+[00:49:24] CTA lá,
+[00:49:26] mas eu acho que é melhor deixar lá
+[00:49:28] depois as pessoas trocam, senão dá um
+[00:49:30] erro na instalação aí.
+[00:50:39] Beleza, ele vai atualizar e daí eu posso
+[00:50:42] só dar um guit pula.
+[00:50:58] Bom, enquanto ele tá atualizando aqui,
+[00:51:00] ó, olha só como é que eu eu já consegui
+[00:51:03] avançar aqui.
+[00:51:08] Inema gatilhosema.
+[00:51:10] cinema
+[00:51:16] e
+[00:51:20] e CC Bot.
+[00:51:22] Olha só aqui, ó. Eu já tô testando
+[00:51:25] agora. Já, já funcionou.
+[00:51:29] Deixa eu voltar aqui em cima.
+[00:51:32] Lembra que eu falei para vocês que tinha
+[00:51:34] o
+[00:51:36] Promo Avatar 3. Então, o que que fez? Eu
+[00:51:40] passei uma ideia para ele e ele já criou
+[00:51:42] o avatar 3 aqui, que ele é o Cerquinha
+[00:51:48] o número. Antes era o A cerquinha o
+[00:51:50] número e ele atua para 36 alvos.
+[00:51:55] Então eu posso pegar e colocar que ele
+[00:51:57] botou 40 mais alcance, 40 mais
+[00:52:00] autoridade, 40 mais promocional.
+[00:52:05] 60 mais alcance, 60 mais autoridade, 60
+[00:52:09] mais, né, promocional. E assim ele foi
+[00:52:12] criando os 36.
+[00:52:15] Daí aqui embaixo, o que que eu tive que
+[00:52:17] fazer? Vim aqui e dizer aprovar C53.
+[00:52:22] Eu tinha esquecido, né? Botei A53, não
+[00:52:25] tem C 53. C, né? que é a versão de três,
+[00:52:31] três alvos para cada assunto. E aí aqui
+[00:52:36] não, ele tá respondendo os vídeos ainda.
+[00:52:38] E aqui ele terminou, ó, fase concluída,
+[00:52:41] ou seja, os avatar foram criados.
+[00:52:44] E aí eu só tinha que confirmar aqui C23,
+[00:52:49] aprovar.
+[00:52:51] Isso aqui é o erro de antes, ó.
+[00:52:54] E aqui, ó, ele já foi produzido todos os
+[00:52:56] vídeos aqui, certo? Então, numa atacada
+[00:53:01] só, 36 vídeo,
+[00:53:04] certo? Então aqui já tá funcionando
+[00:53:08] também esse cara aqui. Os dois estão
+[00:53:10] funcionando. Se a gente conseguir fazer
+[00:53:12] fun instalar ele daí tudo bem. Certo.
+[00:53:16] Então vamos ver o que que ele deu de
+[00:53:18] resultado aqui pra minha mensagem de
+[00:53:20] erro.
+[00:53:22] Dois testes, tá? Se encontrar para Tá,
+[00:53:26] eu já fiz isso. O é incompatível.
+[00:53:30] O projeto fixa 157 lançado antes do
+[00:53:35] Bquid do Umbunto 2.6. As versões atuais
+[00:53:39] já suportam esse umbunto, mas atualizar
+[00:53:41] a dependência do projeto sem testar em
+[00:53:43] compatibilidade, não sei o quê. Pá,
+[00:53:50] para terminar a instalação sem Chrome.
+[00:53:53] Não quero.
+[00:53:59] Quero atualizar
+[00:54:23] Ja.
+[00:54:41] &gt;&gt; [roncando]
+[00:54:42] &gt;&gt; É bom porque eu vou tá instalar aqui e
+[00:54:45] vou ver se ele vai ser compatível ou
+[00:54:47] não.
+[00:55:08] Então vamos ver aqui. Deixa eu ver.
+[00:55:21] Vamos lá.
+[00:55:23] Acho que é fácil, pessoal. Vocês acham
+[00:55:25] que é fácil?
+[00:55:27] É fácil quando tudo dá certo.
+[00:55:51] Por isso é bom ter duas, três VPS é pra
+[00:55:53] gente testar, né?
+[00:56:00] Para vocês ver aqui, ó, eu tô com dois
+[00:56:02] datis aqui, ó.
+[00:56:04] Instalou tudo certinho.
+[00:56:07] Tava rodando aqui, ó.
+[00:56:14] Deixa eu ver qual versão do umbunto.
+[00:56:22] [limpando a garganta]
+[00:56:26] Ai ai ai.
+[00:56:28] Desculpa aí pessoal, tô
+[00:56:34] É, ó, aqui eu tô usando a versão 24,
+[00:56:38] tá? 24043.
+[00:56:41] E aí na outra eu tenho a versão mais
+[00:56:43] atualizada aqui, ó. Por isso que deu
+[00:56:47] problema.
+[00:56:49] Vamos ver a segunda parte agora,
+[00:56:55] ó. Vamos lá. Teste diretamente no
+[00:56:59] navegador.
+[00:57:09] Funcionou.
+[00:57:15] Tá no navegador. Vou pular. Deixa eu ver
+[00:57:18] se Sim já deu.
+[00:57:27] Tá. A única coisa que eu tenho que fazer
+[00:57:28] aqui ainda é dar o Opa, aqui
+[00:57:33] git.
+[00:57:39] Ó, ele trouxe os os arquivinhos, né?
+[00:57:45] Tá.
+[00:57:52] Vamos ver então se detesta ou não.
+[00:58:10] Aham. Tá atualizado aqui, ó.
+[00:58:18] O que que só mudou assim, ó? Os outros
+[00:58:20] tá tudo igual, ó.
+[00:58:26] Tá.
+[00:58:30] Vamos ver se ele tá tudo OK.
+[00:58:50] Não acredito.
+[00:59:02] Deixa eu perguntar para ele aqui.
+[00:59:24] Já dei control C, não saiu.
+[00:59:32] Então, o que que tá acontecendo aqui?
+[00:59:48] Foi.
+[00:59:50] Botei exit. Foi.
+[00:59:54] Então agora só o teste.
+[01:00:12] Tá bom.
+[01:00:22] Uhum.
+[01:00:25] E daí, pessoal? Daí eu tenho que ir lá
+[01:00:27] pro pro bote,
+[01:00:32] né?
+[01:00:33] Cadê o bote? Aqui. Aqui.
+[01:00:38] Vou lá pro bote
+[01:00:41] onde eu criei o bot fatter lá, lembra?
+[01:00:48] aqui. Daí eu vou aqui e clico aqui, ó, e
+[01:00:52] vou dar start, né, para ativar o bote.
+[01:00:56] Olá.
+[01:01:04] Não tá respondendo, então vamos avisar
+[01:01:06] que estamos lá conversando.
+[01:01:16] Opa, deu fal aqui.
+[01:01:38] Mas que coisa.
+[01:01:48] Mas que que eu tô fazendo de errado?
+[01:01:55] Assim, eu acho que eu dei o Não pegou o
+[01:02:03] tudo porque eu não tô querendo fazer no
+[01:02:05] diretamente instalar um cloud, um Codex
+[01:02:08] ali, ele faria tudo para mim.
+[01:02:16] Tá bom. Então, já sei o que eu vou
+[01:02:18] fazer,
+[01:02:24] tá?
+[01:02:26] Ó, CD
+[01:02:29] ponto ponto CD Inema
+[01:02:33] Cbot,
+[01:02:35] aliás, CDON
+[01:02:38] CD promo
+[01:02:40] avatar enter git push é os dois erros
+[01:02:45] que tem não. [roncando]
+[01:02:47] Control CP
+[01:02:52] atualizei. Agora vamos pro outro.
+[01:02:56] CD
+[01:03:02] Avatar 3,
+[01:03:06] Git P.
+[01:03:13] Fez a atualização.
+[01:03:19] Deixa eu botar.
+[01:03:21] Atualizei
+[01:03:22] o
+[01:03:24] GTA.
+[01:03:26] Como
+[01:03:28] coloco ele para responder para o bot?
+[01:03:40] [roncando]
+[01:03:43] É, eu já iria tudo fazer direta pelo
+[01:03:46] chat, mas eu tô indo aqui
+[01:03:48] para mim identificar os erros, senão o
+[01:03:51] chat
+[01:03:53] resolve tudo lá, né? O Cláudio ia
+[01:03:55] resolver tudo.
+[01:04:06] Já fiz o token. Falta
+[01:04:12] fazer ele conversar e pegar o
+[01:04:19] chat.
+[01:04:29] Então, isso aqui eu já fiz.
+[01:04:32] Então, já botei isso aqui,
+[01:04:36] já fiz isso aqui, já fiz isso aqui,
+[01:04:40] tá? Nesse aqui, deixa eu fazer isso
+[01:04:43] aqui, então.
+[01:04:45] CD ponto ponto CD
+[01:04:49] pro Opa, inema.
+[01:05:05] Pô, mas eu botei o chat aí dis
+[01:05:15] eu já fiz isso aqui. Ja.
+[01:05:40] Vamos ver de novo.
+[01:05:45] Tá.
+[01:05:56] Acho que algum aqueles caminhos lá,
+[01:06:04] ó. Daí para não, é aquilo que eu digo,
+[01:06:07] eu já fiz, falta o chat ID.
+[01:06:10] E deixa eu botar aqui
+[01:06:14] [roncando]
+[01:06:22] algum daqueles caminhos que eu fiz lá
+[01:06:24] não deu certo.
+[01:06:34] Deixa eu fazer uma coisa aqui, ó.
+[01:06:43] Ó, isso aqui eu tenho feito assim, ó.
+[01:06:44] Quando era antigamente, eu fazia assim,
+[01:06:46] ó. Vinha aqui,
+[01:06:49] cont copiava,
+[01:06:52] levava ele para lá e o cara vai me
+[01:06:54] ajudar, ó. Aí ele já tá me dando dicas
+[01:06:56] aqui, mas eu vou botar o meu aqui, ó.
+[01:07:02] Ó.
+[01:07:13] Vamos ver o que que ele me sugeriu aqui.
+[01:07:18] Tá isso aqui o Japos.
+[01:07:32] Talvez tenha esse comentário aqui
+[01:07:34] embaixo.
+[01:07:52] Tudo bem, eu vou detonar isso depois.
+[01:08:00] Removo o dot defes.
+[01:08:33] Ah. Tá louco.
+[01:08:39] Eu acho que esse esses de esses
+[01:08:41] comentário aqui que pode tá dando
+[01:08:43] problema, ó.
+[01:08:53] Mas estranho que eu usei lá no outro.
+[01:09:18] Pode ser aqui, ó.
+[01:09:27] Pode ser isso aqui.
+[01:09:34] Tá, mas aqui eu vou tirar fora agora.
+[01:09:37] Opa. Depois a gente coloca do riding
+[01:09:39] aqui.
+[01:09:46] Control.
+[01:09:48] Não.
+[01:09:52] Enter. Control X.
+[01:09:56] Depois de 300 tentativas,
+[01:10:00] ainda deu boot errado.
+[01:10:06] Barbaridade.
+[01:10:21] que nem é que nem quando tu tem luz
+[01:10:23] elétrica, tu ficar sem luz e tu querer
+[01:10:25] usar vela.
+[01:10:28] E o pessoal antigamente vivia de vela,
+[01:10:30] né?
+[01:10:31] &gt;&gt; [roncando]
+[01:10:32] &gt;&gt; O programa não chegou no Telegram, mas o
+[01:10:33] toque tá configurado está inválido ou
+[01:10:35] revogado.
+[01:10:39] Vamos lá de novo.
+[01:10:52] Tá aí o problema. Eu deletei o
+[01:10:57] token aquela hora.
+[01:11:00] Nei nei nei nei
+[01:11:06] fatter.
+[01:11:32] Serviço no ar. Vamos ver.
+[01:11:50] Não tá me respondendo.
+[01:11:59] Ele entrou, mas não está respondendo o
+[01:12:04] bote.
+[01:12:13] Oi, [roncando] Maurício. Tô levando um
+[01:12:15] laço de instalar aí o meu sisteminha,
+[01:12:25] [roncando] tá? Vou tirar esse zero aqui.
+[01:12:27] Então,
+[01:12:35] então vamos lá.
+[01:12:44] É [roncando] que antes eu tava achando
+[01:12:46] que era isso aqui o o problema.
+[01:13:03] Tá, mas aí que tá. Como é que eu coloco?
+[01:13:19] Tá bom. Voltamos atrás de novo.
+[01:13:29] Botar o zero de novo.
+[01:13:32] Deixa eu ver se vai dar certo o que que
+[01:13:34] eu quero.
+[01:13:39] Ah,
+[01:13:44] o cara tá hoje. Eu tô muito mal
+[01:13:46] atrapalhado. Tá louco.
+[01:14:01] Deixa eu ver se ele já funciona aqui.
+[01:14:16] Hum.
+[01:14:19] Deixa eu startar ele lá.
+[01:14:23] CD Projetos
+[01:14:27] CD [roncando] Inema
+[01:14:30] Bot.
+[01:14:42] Mas eu não tinha alterado,
+[01:14:48] né?
+[01:14:50] Ó, e aí que tá o problema, né? Da gente
+[01:14:52] faz uma cagada depois da outra, ó. Daí
+[01:14:54] eu botei aquele,
+[01:14:57] tá vendo? Sem querer aqui. Control O,
+[01:15:01] entre control X.
+[01:15:09] Tá, subiu.
+[01:15:13] Vamos dar um ping. Vamos ver se vai
+[01:15:29] start. Eu já dei o ping. Eu já dei.
+[01:15:53] Quero permitir
+[01:15:56] todos.
+[01:15:57] E aí com o ping,
+[01:16:02] aprovar quem eu quiser.
+[01:16:08] Que coisas
+[01:16:20] tá louco, tio.
+[01:16:26] não me respondeu,
+[01:16:35] não [roncando]
+[01:16:36] é? É isso. Hoje
+[01:16:41] a coisa não é para dar certo aqui, ó.
+[01:16:43] Já, já tá dando pau aqui no meu. Fechou
+[01:16:47] os meus. Ah, tá louco.
+[01:16:55] [roncando]
+[01:16:59] Pessoal, acho que eu vou ter que dormir
+[01:17:00] porque a coisa não tá me ajudando hoje.
+[01:17:02] Ч.
+[01:18:04] Não é isso que eu fiz isso aqui.
+[01:18:32] Tá. Olha aqui, ó. Aqui ele tá dando
+[01:18:34] macete. Eu ponho isso e vai aparecer o o
+[01:18:38] rejeitado aqui e daí eu coloco o meu nú
+[01:18:42] número lá.
+[01:18:44] Tá bom?
+[01:18:52] Deixa eu tirar aqui.
+[01:19:08] [roncando]
+[01:19:08] Deixa eu fazer aqui. Daí fica melhor
+[01:19:10] para mim fazer.
+[01:19:21] Só um segundinho.
+[01:19:46] Так.
+[01:19:52] Vou lá
+[01:19:55] para o bote.
+[01:19:59] Altero,
+[01:20:05] coloco lá. Daí vai funcionar. Mas eu não
+[01:20:07] queria fazer isso. Eu queria de forma
+[01:20:10] diferente.
+[01:20:22] Daí eu explico para vocês o que que eu
+[01:20:24] fiz aqui.
+[01:20:27] Control, ent, cont X.
+[01:20:32] Ó,
+[01:20:35] eu alterei, coloquei meu ID lá
+[01:20:40] e agora eu rodo ele. Entrou, ó.
+[01:20:46] E agora eu minimizo
+[01:20:48] se eu vou lá no
+[01:20:53] Ai, ai,
+[01:20:55] chegou a fechar o telegrama aqui para
+[01:20:56] mim. Deixa eu botar o K aqui, que eu
+[01:20:59] prefiro o K do que o A. Olá,
+[01:21:13] tudo bem?
+[01:21:23] Eh, status
+[01:21:28] help.
+[01:21:31] Botar rápido agora.
+[01:21:36] Barra help.
+[01:21:40] Aham. Agora eu quero barra skills.
+[01:21:48] Agora barra help.
+[01:21:52] [roncando] Feito, pessoal.
+[01:21:58] Bom, pessoal, ó, pelo menos já fiz aqui
+[01:22:00] o que que aconteceu.
+[01:22:03] A ideia que que ele me sugeriu aqui era
+[01:22:06] boa, que é você deixa aqui, ó, permitido
+[01:22:10] zero, ou seja, ninguém.
+[01:22:13] Daí você vai lá e dá um ping, né? Aqui
+[01:22:16] daria um ping aqui,
+[01:22:19] tá? barra ping.
+[01:22:23] Daí pong responde aqui. Só que daí como
+[01:22:28] você não tem permissão,
+[01:22:30] certo?
+[01:22:33] Ele você dá esse comando aqui, ó, né?
+[01:22:37] Ele vai dizer qual é que é o ID da
+[01:22:39] pessoa que não tinha permissão. Daí tu
+[01:22:42] pega aquele ID e coloca lá dentro. Vai n
+[01:22:46] bot o ponto env e coloca lá permite e
+[01:22:50] daí bota teu ID aqui o ID da pessoa,
+[01:22:55] certo? E como eu fiz isso lá com a Tisa,
+[01:22:58] deu certinho no outro. Então aqui deu um
+[01:23:01] monte de coisinha errada, mas eu vou
+[01:23:04] pegar tudo isso e organizar para ficar
+[01:23:07] melhor,
+[01:23:09] tá legal?
+[01:23:12] Bom, amanhã vou voltar de novo nesse
+[01:23:14] assunto. Vou sempre vai ter as novidades
+[01:23:16] aí que a gente tá tendo e depois vamos
+[01:23:18] bater nisso aqui.
+[01:23:21] Mas no caso agora tá funcionando e nós
+[01:23:24] já temos, por exemplo, se eu fiz aqui
+[01:23:26] das skills, ó, né? O que que eu tenho?
+[01:23:29] Eu tenho transcrever, eu tenho dublar,
+[01:23:31] eu tenho explicativo, eu tenho curso, eu
+[01:23:33] tenho drama, eu tenho RS, ou seja,
+[01:23:35] várias skills que já tão pronta, né, que
+[01:23:39] vai junto. Depois tu pode remover essas
+[01:23:41] skills, tá? Só para E quando eu der
+[01:23:45] agora barra fluxos, fluxos
+[01:23:49] é fluxos, né? Sim. Ó, eu tenho promo
+[01:23:53] avatar,
+[01:23:54] né? Eu tenho o prumo avatar 3. Então são
+[01:23:58] dois fluxos aqui. Então para responder,
+[01:24:01] se vocês querem testar, testam nesse
+[01:24:03] cara aqui, tá? Tem ajustes para fazer.
+[01:24:06] Então amanhã eu vou aí ajustar.
+[01:24:09] Então nesse caso que nós já temos aqui,
+[01:24:11] amanhã vamos ajustar para ser de uma
+[01:24:14] outra pessoa para outra empresa, certo?
+[01:24:17] configurar um avatar lá
+[01:24:20] e daí eu vou poder vou pegar fazer com
+[01:24:22] API, sem API para vocês verem como é que
+[01:24:24] é, tá bom? Mas ã,
+[01:24:31] então pegando um exemplo de rede,
+[01:24:39] ó, só para vocês terem uma ideia aqui,
+[01:24:41] ó.
+[01:24:45] Ó, C53 aqui, ó. Agora eu tô 13 horas sem
+[01:24:50] fazer nada porque eu tava com visita aí,
+[01:24:54] mas olha aqui, ó. É todos foi feito
+[01:24:57] hoje, ó.
+[01:25:02] Ó, até a tiza aqui no meio. Fiz um aqui,
+[01:25:06] ó.
+[01:25:08] Certo?
+[01:25:13] E aí depois de ter feito todos esses
+[01:25:15] avatares aqui, ele vai lá para montar
+[01:25:17] rius,
+[01:25:19] certo?
+[01:25:21] Então se vocês, opa, fechei de novo.
+[01:25:25] Hábito. Então se eu chegar ir lá, né,
+[01:25:30] INEMA Club aqui
+[01:25:34] e vamos buscar o os projetos.
+[01:25:39] Ó, o CC boteou Avatar.
+[01:25:45] Vocês podem estudar aqui um pouco para
+[01:25:47] entender o que que ele vai fazer,
+[01:25:51] tá?
+[01:25:55] Então, os portões aqui que tem, né? Eu
+[01:25:58] tenho quatro fases aqui. O texto é, você
+[01:26:01] manda um texto, ele gera o texto, né? Eu
+[01:26:05] tenho agente, tu pode táar mudando esse
+[01:26:07] agente lá no aonde que tu muda isso? No
+[01:26:10] ponto ENV, certo? Tu tem o segundo é o
+[01:26:15] avatar. Aí tu vai dizer se tu quer que
+[01:26:18] ele, de que forma você busca o avatar lá
+[01:26:21] na no Rin,
+[01:26:23] tá? As rotas estão aqui. Você pode fazer
+[01:26:26] manual, você pode fazer estúdio, que é
+[01:26:28] igual a manual, só forma automática. O
+[01:26:31] navegador também é como se fosse manual,
+[01:26:34] só que é com avatar, com um
+[01:26:39] agente. Então aqui gosta LLM aqui no
+[01:26:42] estúdio não gasta. Então foi essa meu
+[01:26:45] minha vantagem de fazer. Ã, tu pode
+[01:26:49] estar usando teus créditos ou tua API,
+[01:26:52] certo? Então da mesma forma, né? Tu
+[01:26:57] [roncando] aqui é o comando que tu daria
+[01:26:59] no final, sempre colocar no final essa
+[01:27:02] linha e API. Linha ou estúdio, linha, os
+[01:27:07] comandos que você quer, certo? Também dá
+[01:27:10] para trocar a página da capa. Eu vou
+[01:27:12] falar isso mais adiante. Aqui são as
+[01:27:15] opções que tu tem, né? Algumas delas,
+[01:27:19] mas o help tá lá para ajudar vocês
+[01:27:23] também. Aqui é o seguinte, né? Aonde
+[01:27:26] você vai mexer,
+[01:27:29] se você quer mudar o canal, né? Você
+[01:27:32] aonde que tá o gancho de um público,
+[01:27:35] aonde que tá, né? Como os roteiros são
+[01:27:38] escrito, tá aqui dentro da fase um, né?
+[01:27:42] O que que esse fluxo pede ao Rios, tá
+[01:27:44] aqui as regras, né? Os templates, o CTA,
+[01:27:49] onde que tá para trocar pro teu CTA?
+[01:27:51] Então, tá mais ou menos isso aqui, tá
+[01:27:54] bom? Então, espero que vocês testam isso
+[01:27:57] para mim poder ir já tirando dúvida e
+[01:27:59] ajustando.
+[01:28:02] Eu vou dar uma descansada e vou focar
+[01:28:04] nesses errinhos que ele é, esses
+[01:28:07] errinhos, na verdade é por causa da
+[01:28:10] instalação. Olha só o que aconteceu.
+[01:28:13] Essa instalação aqui, eu tenho a última
+[01:28:16] versão do Bunto,
+[01:28:18] tá? que é 26 e as outras eram 24, então
+[01:28:23] por isso que deu uns errinhos. Tá legal?
+[01:28:27] Deu, pessoal, hoje deu que eu tô
+[01:28:29] realmente cansado. Eu queria hoje
+[01:28:31] descansar, mas chega a visita daí, tu
+[01:28:33] sabe como é que é.
+[01:28:36] Um abraço.

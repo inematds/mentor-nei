@@ -1,0 +1,3013 @@
+# INEMA  VibeCode do Zero - Dia 3 -  Basico de Infra
+Origem: https://www.youtube.com/watch?v=SgVhktUzuFM
+Texto: legenda
+
+[00:00:00] E eu vou botar minha tela aqui para
+[00:00:02] vocês.
+[00:00:07] A minha tela é essa aqui,
+[00:00:10] não essa aqui.
+[00:00:19] Tá beleza.
+[00:00:32] Só mais uma configuração.
+[00:00:34] Me dá um OK lá no YouTube, tia.
+[00:00:53] Tis,
+[00:01:04] tá ouvindo alguma coisa no YouTube ou
+[00:01:06] não?
+[00:01:10] &gt;&gt; Sim, tá tudo OK. Tá?
+[00:01:14] Então, beleza. Então, só fazer mais uma
+[00:01:16] coisinha aqui.
+[00:01:30] Feito. Bom, pessoal, então é o seguinte,
+[00:01:33] hoje aí, primeiro dia, a gente vai falar
+[00:01:36] sobre, né,
+[00:01:39] vibe code do zero. Então, o objetivo
+[00:01:42] sempre é que nesses cursos que eu tô
+[00:01:44] procurando fazer é dar base para quem
+[00:01:46] não conhece os assuntos e para quem já
+[00:01:49] conhece alguma coisa, revisar o que que
+[00:01:51] é importante. A gente tá evoluindo muito
+[00:01:54] esse ano, principalmente do Vibe Code,
+[00:01:58] que seria uma instrução numa língua
+[00:02:01] comum, certo? Isso vai fazer com que vai
+[00:02:05] mudar muito as coisas daqui para frente
+[00:02:08] ou principalmente no ano que vem. Eu
+[00:02:11] tava observando ontem um alguns
+[00:02:14] comentários de de pessoas influentes no
+[00:02:17] mundo dizendo: "É o fim do SAS". O que
+[00:02:20] que é o SAS? O SAS é tu desenvolver um
+[00:02:24] sistema, um software e você cobrar por
+[00:02:28] uso. Então é o SAS quer dizer software
+[00:02:31] as service, ou seja, você cobra ele pelo
+[00:02:36] uso. E por que seria o fim do SAS?
+[00:02:39] Porque cada vez mais as pessoas que
+[00:02:42] tiverem atitude, que tiverem entendendo
+[00:02:45] do que que elas querem, elas vão pedir,
+[00:02:48] né, pra inteligência artificial
+[00:02:50] construir as soluções que elas querem,
+[00:02:53] certo? Então isso faz com que um modelo
+[00:02:56] que deu muito dinheiro para muitas
+[00:02:58] empresas, certo? Elas podem se
+[00:03:02] transformar em vez de eu comprar um
+[00:03:05] software de uma empresa, ou seja, usando
+[00:03:08] esse software na internet, na nuvem e
+[00:03:11] tudo mais, pagando por mês, ou pagando
+[00:03:14] anual ou fazendo algum tipo de
+[00:03:16] assinatura, eu deixo porque eu vou
+[00:03:18] construir o meu software.
+[00:03:21] Então esse é esse é um movimento que a
+[00:03:23] gente tá vendo. E aí eu penso o
+[00:03:27] seguinte, tá? se todo mundo vai
+[00:03:30] construir o software baseado em Vibe
+[00:03:32] Code, ou seja, instruindo a máquina a
+[00:03:34] fazer e cada vez mais, né, as soluções
+[00:03:38] de desenvolvimento elas são mais
+[00:03:40] confiáveis, mais assertiva, porque a
+[00:03:43] grande parte dos desenvolvedores não
+[00:03:46] acreditaram nesse modelo. Só que
+[00:03:50] empresas que nem o Google, que nem a
+[00:03:52] Open que nem a Antropic e são referência
+[00:03:55] desse mercado e disseram que já 80% do
+[00:03:58] código é feito pela IA, né? alguma coisa
+[00:04:02] de verdade, a gente tá vendo sobre isso.
+[00:04:06] Então, nesse caminho que nós vamos
+[00:04:08] tendo, né, emigrar para um modelo onde
+[00:04:11] que a máquina vai fazer o código e nós
+[00:04:13] simplesmente vamos dizer o que queremos,
+[00:04:16] é o que se fala de vibe code.
+[00:04:21] Então, qual seria o caminho que a gente
+[00:04:23] tem, certo, para migrar para esse novo
+[00:04:27] modelo?
+[00:04:29] Ô, eu vou fazer software. Uma das coisas
+[00:04:32] que eu digo é para todo mundo que tiver
+[00:04:35] atitude, ele pode dizer assim: "Eu vou
+[00:04:38] criar soluções sob medida pro meu
+[00:04:40] cliente". O, uma coisa que antes dava
+[00:04:44] muito trabalho no passado para fazer
+[00:04:47] isso customizado para um cliente, eu
+[00:04:48] teria que cobrar muito caro. Agora, se
+[00:04:51] eu tenho um método de desenvolvimento,
+[00:04:53] eu consigo fazer isso muito rápido.
+[00:04:56] Talvez em uma semana eu consigo entregar
+[00:04:59] alguma coisa simples para um cliente.
+[00:05:01] Talvez num dia eu consigo entregar.
+[00:05:03] Talvez eu desenvolvo isso em algumas
+[00:05:06] horas e depois eu tenho talvez uma
+[00:05:08] semana para adaptar isso no cliente.
+[00:05:11] Então a ideia principal é assim, você
+[00:05:14] cria, né, você vai transformar isso numa
+[00:05:17] solução, né, você tem que conectar essa
+[00:05:20] solução no ambiente, né, do cliente ou
+[00:05:24] das APIs ou do mundo que for e
+[00:05:27] continuamente você vai evoluir. Então, a
+[00:05:30] forma de você trabalhar em cima dos
+[00:05:32] produtos é melhoria constante.
+[00:05:37] Mas agora surgiu um outro SAS que não é
+[00:05:41] S a s, que é o SAS só com uma um a que é
+[00:05:48] você criar um software, certo? E vender
+[00:05:52] ele como um serviço,
+[00:05:56] não é como uma plataforma. O que que
+[00:05:58] seria isso?
+[00:06:00] Imagina o seguinte, a Paula conhece um,
+[00:06:05] vamos citar um exemplo, ela conhece um
+[00:06:07] advogado, ele é muito bom, ele é aberto,
+[00:06:10] ele é um investidor,
+[00:06:12] mas ele não é um investidor só de
+[00:06:14] dinheiro, ele é um investidor, né, de
+[00:06:16] conhecimento da área daquele nicho. E
+[00:06:19] ele e a a Paula vão construir um sistema
+[00:06:23] para melhorar os a empresa dele.
+[00:06:27] E quando melhorou a empresa dele, eles
+[00:06:30] conseguiram atender muito mais clientes,
+[00:06:33] muito mais clientes, muito mais
+[00:06:35] clientes, muito mais clientes. Então ele
+[00:06:38] se transformou,
+[00:06:39] certo, numa empresa de serviço, não de
+[00:06:44] software as service.
+[00:06:48] Então o que que acontece? Assim como o
+[00:06:50] André Val também pegou uma um contador e
+[00:06:54] fez isso. Agora esse contador não tá
+[00:06:57] atendendo mais seus 400 clientes.
+[00:07:00] Ela tá atendendo milhares e milhares de
+[00:07:03] clientes.
+[00:07:04] Talvez o modelo vira do, né, para
+[00:07:07] atender 1 milhão de clientes. Então isso
+[00:07:10] se chama a verticalização
+[00:07:13] das atividades.
+[00:07:15] E o que que acontece com os outros
+[00:07:17] contadores?
+[00:07:19] Eles vão perder esse mercado, porque
+[00:07:21] como você escala, você consegue
+[00:07:23] trabalhar com valor menor, você consegue
+[00:07:26] trabalhar com qualidade mais, você já
+[00:07:29] tem mais serviços
+[00:07:32] e assim também, né, no advogado da
+[00:07:36] Paula,
+[00:07:37] as pessoas, ah, eu preciso, né, fazer
+[00:07:40] minha aposentadoria. Simplesmente você
+[00:07:42] lança todos os teus documentos lá, o
+[00:07:44] sistema já processa tudo, já encaminha
+[00:07:47] tudo e o custo é muito menor,
+[00:07:51] certo? Então, quer dizer, você
+[00:07:54] verticaliza. Então, nós estamos, o vibe
+[00:07:57] code ele tá mudando duas coisas. Uma,
+[00:07:59] ele tá facilitando para qualquer um
+[00:08:01] construir seu código. O segundo, ele tá
+[00:08:04] fazendo com que quem tinha software e
+[00:08:07] vendia em cima de serviço esse software,
+[00:08:10] ou seja, escalando
+[00:08:12] uma plataforma e talvez vendendo esse
+[00:08:15] software para todos os advogados, para
+[00:08:17] todos os contadores, muda a abordagem.
+[00:08:21] Porque o trabalho maior que se teria
+[00:08:24] antes de convencer um contador, de
+[00:08:27] implementar as soluções, é mais fácil
+[00:08:30] você já oferecer isso pro mercado, a
+[00:08:33] solução pronta, muito barato,
+[00:08:37] tá? Então essa é uma tendência só para
+[00:08:40] dar um feedback para vocês. Inclusive eu
+[00:08:42] fiz uns vídeos ontem sobre isso, né, que
+[00:08:45] já tá acontecendo muito forte lá fora e
+[00:08:48] provavelmente isso vai virar um padrão
+[00:08:50] mundial porque o vibe code transformou
+[00:08:53] as coisas, certo? Mas o que que nós
+[00:08:56] queremos ver então aqui que para começar
+[00:08:59] do zero vibe code eu tenho que ter a
+[00:09:01] ideia muito clara, certo? Eu tenho que
+[00:09:04] ter essa ideia validada por alguém que
+[00:09:07] conhece. Então, se você não conhece, vai
+[00:09:09] ser muito difícil fazer uma solução boa,
+[00:09:13] né? Mas se você conhece, então você é da
+[00:09:16] sua área ou você tem que ter um
+[00:09:18] parceiro,
+[00:09:20] aí nós vamos ter que pegar essa ideia,
+[00:09:22] estruturar, né, dentro da nossa ã do
+[00:09:27] nosso lugar de trabalho, que nós vamos
+[00:09:29] chamar de diretório e tudo mais, né? e
+[00:09:33] jogar isso pro GitHub. Por, qual é a
+[00:09:36] vantagem do GitHub? É versionalizar, é
+[00:09:39] ter um backup, né? é ter um controle do
+[00:09:43] que que nós estamos desenvolvendo, ter
+[00:09:45] um histórico do que nós estamos
+[00:09:46] desenvolvendo. E como o GitHub é de
+[00:09:49] graça, né, e só teria razão de pagar num
+[00:09:54] num nível muito avançado, então ele
+[00:09:57] serve muito bom como um repositório do
+[00:09:59] nosso desenvolvimento.
+[00:10:02] E aí a gente tem que pensar, eu vou
+[00:10:04] colocar onde meu sistema? Eu vou colocar
+[00:10:07] no meu sistema ou num site, né, que nem
+[00:10:11] a Versel, ou eu vou colocar numa VPS,
+[00:10:14] que é um servidor dedicado, que fica 24
+[00:10:18] horas ligado na nuvem, certo? E uma
+[00:10:21] outra coisa, eu tenho que pensar que eu
+[00:10:23] tenho que ter base de dados. Então, se
+[00:10:26] eu quiser ter uma base de dados também
+[00:10:28] tem uma forma de eu iniciar, né, usando
+[00:10:31] o
+[00:10:33] Supas que tá conectado na internet ou se
+[00:10:36] eu evoluir, vou mais técnico construir a
+[00:10:40] minha base de dados local numa VPS e
+[00:10:43] tudo mais assim. Então hoje nós vamos
+[00:10:45] ter essa visão aqui, né, de entender
+[00:10:48] todas essas partes aqui.
+[00:10:53] Para vocês verem, eu já fiz esse curso
+[00:10:55] aqui acho que duas semanas atrás, umas
+[00:10:59] semanas atrás. Então eu tô repetindo
+[00:11:02] porque teve bastante gente que queria
+[00:11:04] informações e também porque eu divulguei
+[00:11:07] numa lista e em vez de dar aquela data,
+[00:11:10] eu dei essa data. Então, sou de cumprir
+[00:11:13] a palavra que eu tô tô fazendo.
+[00:11:16] Então, esse é o propósito hoje aqui.
+[00:11:19] Então, vamos lá. A primeira coisa que
+[00:11:21] vocês vão ver, né, eu tô isso em dev,
+[00:11:24] tá? Por quê? Porque é desenvolvimento
+[00:11:27] que a gente tá fazendo. Então, aqui eu
+[00:11:29] tenho Vibecode do zero, né? Já coloquei
+[00:11:33] os links aqui que eu tenho para os para
+[00:11:36] os três. E aí o primeiro dia, certo?
+[00:11:39] estaria já tudo aqui certo para vocês
+[00:11:43] acompanhar, certo? Inclusive eu coloquei
+[00:11:46] uns arquivos aqui para vocês olharem,
+[00:11:49] pegar esse conteúdo, se quiser levar pro
+[00:11:51] chat eptes
+[00:11:57] o vídeo da, né, do semana passada, né, e
+[00:12:02] o conteúdo inicial, né? Então, o que que
+[00:12:05] nós temos aqui no conteúdo inicial? Eu
+[00:12:08] preciso criar meu ambiente antes de mais
+[00:12:11] nada, certo? Nesse meu ambiente eu
+[00:12:14] preciso me conectar, certo, com o meu
+[00:12:19] destino, que é o o GitHub, que é minha
+[00:12:24] VPS, etc, etc. E também eu tenho que
+[00:12:27] instalar os meus sistemas operacionais
+[00:12:30] para mim poder trabalhar, que nem é o
+[00:12:32] Code e o Codex. Então, o nosso objetivo
+[00:12:36] hoje é permitir que alguém que nunca
+[00:12:38] mexeu nada disso entenda e isso é
+[00:12:42] assustador para grande parte das
+[00:12:44] pessoas, certo? Então, o que que
+[00:12:47] acontece? Qual o caminho que essas
+[00:12:49] pessoas possam ter, né? Bom, vamos lá
+[00:12:52] criar a estrutura de pastas, certo?
+[00:12:56] Depois disso, a gente vai, né, instalar
+[00:12:59] o Cloud Code, o Codex
+[00:13:02] e depois nós vamos configurar essa chave
+[00:13:05] para se conectar no GitHub e em qualquer
+[00:13:09] lugar. Depois essa chave nada mais é do
+[00:13:12] que, né, uma senha que eu não preciso
+[00:13:14] est lembrando toda hora qual é a senha
+[00:13:17] da dos meus sistemas. Ele vai criar um
+[00:13:20] túnel, uma conexão entre a minha máquina
+[00:13:23] e o meus destinos.
+[00:13:25] Certo?
+[00:13:27] Então é mais ou menos essa parte. Eu tô
+[00:13:29] sendo bem direto agora, né, para não
+[00:13:32] ficar
+[00:13:33] gastando muito tempo de vocês, certo? O
+[00:13:36] ambiente de vocês pode ser que é
+[00:13:38] Windows, um ambiente pode ser Linux ou
+[00:13:42] pode ser Mac. Quem tiver Mac é muito
+[00:13:45] semelhante ao Linux, certo? E a gente
+[00:13:48] vai trabalhar sempre com o painel
+[00:13:51] e com o terminal, certo? Para quê? para
+[00:13:54] ser mais simples e quando tiver um
+[00:13:56] problema, isso não ser assustador. Mas
+[00:13:59] claro que vocês podiam ter vindo aqui,
+[00:14:01] ó, e no chat GPT trabalhar com o work.
+[00:14:05] Aqui, ó, no lado do chat tem um tal de
+[00:14:07] work, seria a mesma coisa aqui pro
+[00:14:10] terminal, só que mais limitada. Você
+[00:14:13] podia também ir lá pro pro cloud. Ai,
+[00:14:18] certo, né? E dentro do cloud aí tu
+[00:14:22] também ter, né, uma configuração assim.
+[00:14:25] No caso aqui eu teria que tá dentro do
+[00:14:29] ã do desktop, ou seja, instalar no meu
+[00:14:33] micro e daí eu teria o cork aqui. No
+[00:14:37] caso não aparece por isso, mas se eu
+[00:14:39] abrir aqui, ó, uma tela. Deixa eu puxar
+[00:14:42] para cá,
+[00:14:44] ó. E eu vim aqui, eu tenho um, tá?
+[00:14:48] Cowork aqui também. Opa, isso. Certo.
+[00:14:52] Então, só para dar uma visão para vocês
+[00:14:56] que eu podia estar nesse ambiente
+[00:14:58] gráfico, certo? Tanto no chat como no
+[00:15:02] cloud,
+[00:15:04] mas esse esse gráfico que facilita
+[00:15:07] inicialmente, ele limita depois. Então,
+[00:15:11] a gente, eu já parto para o terminal.
+[00:15:14] Qual é o lance do terminal? Se você tem
+[00:15:17] Windows, você tem duas formas de chegar
+[00:15:19] no terminal. Uma delas é CMD,
+[00:15:23] certo? Ele vai abrir uma telinha preta
+[00:15:26] aqui, essa telinha preta aqui, certo? Ou
+[00:15:31] senão você vai vir aqui e escrever Power
+[00:15:36] Shell, Windows Power Shell. Tá vendo?
+[00:15:38] Aqui vai ser uma telinha azul, preta
+[00:15:41] também aqui, ó. Mas ele era azul, tá? No
+[00:15:44] caso aqui ficou preto também.
+[00:15:46] Certo? São duas formas de fazer. A
+[00:15:49] diferença, se for no CMD, ele é mais
+[00:15:52] simples, certo? Porque tu já chegou no
+[00:15:55] teu usuário. Aqui não. Aqui não chegou
+[00:15:58] no usuário. Então eu teria que ir barra,
+[00:16:01] né? Um CD
+[00:16:04] users que nem o outro. E daí o meu
+[00:16:07] usuário, Neymar Ma. Ó, chegamos no mesmo
+[00:16:12] lugar aqui.
+[00:16:15] Bom, qual é o objetivo dessa telinha
+[00:16:17] preta? É nós chegarmos no terminal onde
+[00:16:20] que eu posso construir qualquer coisa. E
+[00:16:22] vai ser simples, tá? O início que é mais
+[00:16:26] difícil. Então, nessa telinha preta, eu
+[00:16:29] vou criar um chamado MD ou MKDR,
+[00:16:36] certo? que é um comandinho
+[00:16:38] para criar uma pasta chamado projetos.
+[00:16:43] No meu caso vai dar erro porque já
+[00:16:44] existe, ó, já existe uma pasta ou uma
+[00:16:48] subpasta chamado, né, projetos. Todos os
+[00:16:52] projetos vão estar aqui abaixo para nós
+[00:16:54] se organizar. Imagina, hoje eu tenho
+[00:16:57] mais de 400 projetos. Se eu não tenho
+[00:16:59] isso organizado, vira um caos. Então,
+[00:17:02] desde o início, eu vou est criando essa
+[00:17:05] estrutura. Certo?
+[00:17:08] Então, eh, se nós seguirmos mais
+[00:17:11] adiante, tá? Eu poderia ceder projetos.
+[00:17:16] O que que é CD? Chama o diretório, chama
+[00:17:19] a pasta. Certo? Cheguei dentro de
+[00:17:22] projetos.
+[00:17:24] E aí eu podia dar um para ver o projeto.
+[00:17:28] No caso, se eu fosse aqui CD projetos,
+[00:17:32] certo? Eu posso dar um de para ver os
+[00:17:35] projetos senão posso dar ls, né? Ele vai
+[00:17:39] me listar. O Power Shell ele é muito
+[00:17:42] parecido também com o Linux. Então no
+[00:17:45] Windows, eu tenho uma simulação do do
+[00:17:47] Linux, certo? Que é um outro sistema
+[00:17:50] operacional que nem o MAC também se
+[00:17:53] espelha nisso. Pessoal, mesmo que tu
+[00:17:57] dizer: "Eu sou leigo, não sei nada".
+[00:17:59] Isso é apenas aquela, é o primeiro passo
+[00:18:02] quando você vai aprender a dirigir um
+[00:18:04] carro. Parece difícil no início, parece,
+[00:18:07] né, um, né, um monte de coisas novas,
+[00:18:10] mas depois tu vai ver que isso é muito
+[00:18:13] simples. Então, tem que quebrar essa
+[00:18:16] resistência, essa dificuldade inicial
+[00:18:19] caso vocês estão começando, tá legal?
+[00:18:22] Então, as pastas é essa que você vai
+[00:18:25] criar os projetos e aqui eu já tenho
+[00:18:28] várias pastas criadas, certo? Nos dois
+[00:18:31] lados. Então, existe alguma, alguns
+[00:18:34] comandinhos mínimos para criar. Vamos
+[00:18:38] ver. Ta, Paula, André, vocês que estão
+[00:18:41] aí, me diz o seguinte, vamos citar qual
+[00:18:44] é os comandos mínimos que tu tem que
+[00:18:46] saber para lidar com pastas, com
+[00:18:49] diretórios. Escrevem ali no chat,
+[00:19:00] ó. André, muito bom, André. CD chama
+[00:19:04] diretório. MD make diretório, monta
+[00:19:07] diretório, ou seja, cria diretório. RD
+[00:19:11] remove diretório. Dir exibe diretório.
+[00:19:15] Já ganhou a competição, André. Tá bem.
+[00:19:19] Olha só. Então é o mínimo que a gente
+[00:19:21] vai ter que aprender alguns quatro,
+[00:19:23] cinco comandinhos que tem, mas mesmo
+[00:19:27] assim, certo?
+[00:19:32] Ó, ainda mais ele disse, para quem não
+[00:19:34] sabe o que que ele podia fazer, dá o
+[00:19:36] comando ali, ó. Então, ã, barra
+[00:19:40] interrogação, ó. Tá aí, ó.
+[00:19:44] Aqui não funcionou. Vamos ver no outro.
+[00:19:48] barra interrogação
+[00:19:53] aqui não deu certo. Ah, entendi.
+[00:19:56] Tá. Então daí vem os comandos que tem.
+[00:19:59] Vamos ver. Eu não não usei nunca isso
+[00:20:02] aqui, André.
+[00:20:05] Também não. Vamos ver.
+[00:20:09] Ah, sim. Se tu souber o comando, sim.
+[00:20:12] Tá. Mas o importante é o seguinte, vamos
+[00:20:15] focar na nas quatro, cinco que tu vai
+[00:20:17] lembrar, tá? E aí com isso, ã,
+[00:20:23] você vai poder fazer uma outra coisa se
+[00:20:26] quiser, vi na pasta, no navegador, né,
+[00:20:29] no ambiente gráfico,
+[00:20:32] aqui, ó.
+[00:20:34] E aqui eu vou lá usuário, né? meu
+[00:20:37] usuário, o usuários aqui, tu viu que ele
+[00:20:41] é aqui, ó, no lá no no terminal, ele tá
+[00:20:44] em inglês, aqui ele tá em português
+[00:20:46] porque foi configurado para ser em
+[00:20:48] português no meu Windows. Eu clico em
+[00:20:50] usuário, unei e tá todas as, né, os
+[00:20:54] projetos tá aqui e todas as pastas aqui.
+[00:20:59] Eu podia fazer tudo aqui, mas se vocês
+[00:21:02] não aprenderem essa base aqui do do
+[00:21:05] coiso, quando vocês forem num outro
+[00:21:08] terminal que não tem interface gráfica,
+[00:21:10] você tá perdido. Então não custa nada
+[00:21:14] aprender os comandinhos básicos que tem
+[00:21:16] aí, tá? Beleza?
+[00:21:20] Tá? Então tá. Então essa é a primeira
+[00:21:22] coisa. Então qual é a primeira regra?
+[00:21:25] abrir o terminal,
+[00:21:27] ir dentro do teu usuário e criar uma
+[00:21:30] pasta projetos,
+[00:21:32] certo? Depois dela, né, dessa pasta
+[00:21:36] projetos, o que que nós precisamos
+[00:21:39] fazer, né, criar nossos projetos. Então,
+[00:21:43] se eu quisesse criar um projeto novo,
+[00:21:46] né, então vamos criar MK MK, certo? Qual
+[00:21:51] é o projeto novo que eu vou criar? Então
+[00:21:54] vamos pensar vibe code, né? Ã 12 D8.
+[00:22:01] Vamos botar aqui a data só para mim
+[00:22:03] criar uma pasta nova. Criei essa essa
+[00:22:06] pasta CD VC 1208,
+[00:22:11] certo? Tô dentro dessa pasta.
+[00:22:14] Então, agora que eu tô dentro dessa
+[00:22:16] pasta, no meu caso, que já tenho
+[00:22:18] instalado as coisas, simplesmente eu
+[00:22:22] chamaria Codex ou Cloud ou Cloud, que
+[00:22:26] seria as duas ferramentas para
+[00:22:28] desenvolver code.
+[00:22:32] Ó, ele tá carregando e tá dizendo que
+[00:22:35] tem que instalar. Olha só o comando npn
+[00:22:40] install, né? Ele tá me dizendo que tem
+[00:22:42] atualização. Então, se eu copiar esse
+[00:22:45] comando aqui, praticamente esse comando
+[00:22:48] é para instalar o o o
+[00:22:53] Codex, certo? Então, é o mesmo comando
+[00:22:57] que vocês vão ter para instalar o Codex,
+[00:23:00] certo? Ou eu quero dar skip ou quero
+[00:23:04] esperar a próxima versão. Vou instalar
+[00:23:07] aqui versão nova. Então, todo dia, né,
+[00:23:11] praticamente nós vamos ver atualizações
+[00:23:14] de todos os sistemas. E isso é um choque
+[00:23:17] para muita gente, porque não existe mais
+[00:23:20] conhecimento consolidado.
+[00:23:23] Existe sim atualizações constante,
+[00:23:26] inclusive no software que você vai
+[00:23:28] desenvolver pros outros, que vai
+[00:23:30] desenvolver para ti. Então, já tem uma
+[00:23:33] lógica de atualização de melhoria
+[00:23:36] constante,
+[00:23:37] tá beleza?
+[00:23:41] Então é o básico que eu tô fazendo. Sim.
+[00:23:44] E a mesma coisa agora sim eu podia
+[00:23:46] entrar no Codex de novo, certo?
+[00:23:52] Né? Ele atualizou,
+[00:23:59] ó. Concorda. Você confia nesse
+[00:24:01] diretório? com fio. Qual é a vantagem,
+[00:24:04] pessoal, de criar projetos e pastas
+[00:24:08] aqui? Porque nós quando trabalhamos
+[00:24:11] aqui, ele vai trabalhar abaixo desse
+[00:24:13] diretório. Ele só vai buscar informações
+[00:24:17] fora desse diretório quando eu for
+[00:24:20] explícito. Isso aumenta a minha
+[00:24:22] segurança, aumenta a eficiência, porque
+[00:24:25] ele vai olhar para baixo e vai tomar
+[00:24:27] decisões aqui abaixo. Se tivesse já
+[00:24:30] informações, ele ia tomar, né, ele ia
+[00:24:33] ler todas as informações aqui abaixo.
+[00:24:36] Então o que que acontece? Entrei já no
+[00:24:39] sistema, certo? E aqui bastaria eu
+[00:24:42] escrever: "Quero construir uma web
+[00:24:47] page", né? Sobre o conteúdo xx.
+[00:24:54] Aí [roncando] você dá o contexto para
+[00:24:56] ele. Se esse conteúdo xx pode ser um
+[00:25:00] link, né? Eu poderia dizer assim, sobre
+[00:25:03] o inema.Club,
+[00:25:07] certo?
+[00:25:08] Podia ser ah, sobre o Pro, mas ele vai
+[00:25:12] conseguir acessar não. Então eu podia
+[00:25:14] ter ido lá no Pro usuário, navegado,
+[00:25:18] dava vários prints, copiar uma pasta
+[00:25:21] dentro aqui e fazer com que ele trabalhe
+[00:25:24] sobre essa pasta. Mas esse é um contexto
+[00:25:27] que eu vou mostrar daqui a pouco. O que
+[00:25:29] eu quero é agora que vocês tenham acesso
+[00:25:32] a entrar dentro desse dessa pasta, né,
+[00:25:36] criar essa estrutura e aí a partir dessa
+[00:25:40] estrutura você instalar o Codex, certo?
+[00:25:45] Então qual é que é a forma aqui?
+[00:25:47] Contrtrol C. Conttrl C sair. Então para
+[00:25:51] mim instalar tá aqui, certo? instalar o
+[00:25:55] codex que tem aqui. Ah, mas não vai
+[00:25:58] funcionar. Tem algumas coisas que vão
+[00:26:00] vão dar problema porque cada máquina tá
+[00:26:02] configurada de forma diferente. Então,
+[00:26:06] uma das coisas que a gente vai fazer é
+[00:26:08] ir lá no meu sistema, onde que eu tenho,
+[00:26:12] cadê você?
+[00:26:19] Ah, sim.
+[00:26:25] aqui.
+[00:26:28] Deixa eu ver essa aqui. Essa aqui, essa
+[00:26:30] tela que eu queria, certo? Eu vou lá na
+[00:26:33] nossa comunidade,
+[00:26:35] tá? E aonde que é Codex? Sim. Então aqui
+[00:26:39] eu tenho Codex, ó. Se nós vamos descer
+[00:26:43] aqui, tem codex aqui para baixo. Então
+[00:26:46] eu já escrevo aqui Codex.
+[00:26:49] Então, ó, Inema Codex. Aqui eu tenho
+[00:26:53] menu de links, instalando e iniciando.
+[00:26:57] Então, nesses três lugares que vocês
+[00:27:00] acham toda a informação, certo? Então,
+[00:27:03] iniciando no Codex, aqui dá, eu tenho,
+[00:27:06] na verdade, né, tudo que é básico para
+[00:27:09] começar no Codex, certo? Desde cursos e
+[00:27:13] etc, etc e tudo mais. Também instalando
+[00:27:16] o Codex. Aqui tá o passo a passo,
+[00:27:20] inclusive com todos os problemas que
+[00:27:22] teve gente que já passou. Ah, ele quer
+[00:27:25] instalar o Codex, né? E tá faltando
+[00:27:28] coisas na tua no teu Windows ou no teu
+[00:27:30] Linux. Então, ó, no Windows tem umas
+[00:27:33] coisas que tem aqui que vocês vão passar
+[00:27:35] talvez trabalho. Aqui nós vamos no Linux
+[00:27:38] trabalho, que nem olha só, a Tisa me
+[00:27:40] disse assim que chegou uma pessoa, né,
+[00:27:43] que tava entrando na comunidade e disse:
+[00:27:45] "Olha, né, eu comprei um software e o
+[00:27:48] cara disse que eu tinha que instalar um
+[00:27:50] Node, etc e tudo." Pessoal, isso não é
+[00:27:54] do software,
+[00:27:55] né? Isso é o mínimo que tem que ter na
+[00:27:59] tua máquina, né? É que nem tu querer
+[00:28:01] rodar um programa e não ter um PC, tu
+[00:28:03] tem que ter. Então o que nós vamos ter
+[00:28:06] que ter obrigatoriamente
+[00:28:08] o Node e o npm. Então se eu copiar esses
+[00:28:13] dois aqui e levar lá pro meu ambiente
+[00:28:15] operacional aqui, ó,
+[00:28:18] e der, né, um contrtrl V, ele vai me dar
+[00:28:22] a versão dos dois. Ó, se deu a versão,
+[00:28:25] tá compatível. Beleza. Beleza. Certo. Se
+[00:28:29] eu fizer isso lá no, né, no CNM, deixa
+[00:28:33] eu voltar,
+[00:28:36] ó. Mesma coisa, certo? Então esse isso
+[00:28:41] aqui já me disse se tá no ar ou não. Se
+[00:28:44] tivesse só escrito noteia dizer se ele
+[00:28:46] dá erro que não existe ou se dá erro,
+[00:28:49] né, diferente das coisas que ele disse
+[00:28:52] não passou parâmetro. Então quando vocês
+[00:28:55] vão querer instalar passo a passo as
+[00:28:58] coisas, certo? Ele pode te dizer: "Ó, tu
+[00:29:02] precisa instalar o node npm". Ah, mas e
+[00:29:06] daí como faz? Eu tô sozinho. É isso que
+[00:29:08] eu quero ensinar. Vocês vão sempre estar
+[00:29:10] abrindo o chatpt
+[00:29:13] e vão poder sempre dizer, né, como
+[00:29:16] fazer, como instalar, como isso, como
+[00:29:18] aquilo. Ou você vai pegar o erro que deu
+[00:29:22] aqui, né? Vamos pegar que deu esse erro
+[00:29:25] aqui, ó. Tá? Que não tem nada a ver com
+[00:29:28] o que nós estamos fazendo. E se você vir
+[00:29:30] aqui no chat e botar o erro aqui, ele
+[00:29:35] vai te ajudar. Nós temos que pensar
+[00:29:37] nisso. Nós temos um mestre agora que é o
+[00:29:40] chat para poder, né, ele me explicar o
+[00:29:43] que que tu quer fazer, tá? Beleza?
+[00:29:47] Então, o que que eu quero agora de vocês
+[00:29:50] é isso,
+[00:29:52] tá? Vamos lá para criar a estrutura de
+[00:29:54] vocês. Todo mundo vai criar então a
+[00:29:57] pasta de projeto que por enquanto que eu
+[00:30:00] tô pedindo, certo? para ser um padrão.
+[00:30:04] E a pasta vai se chamar VC 1208.
+[00:30:26] Então, olha só como é que eu vou
+[00:30:28] instalar um Codex. Eu vou abrir um outro
+[00:30:32] terminal aqui,
+[00:30:37] ó. Isso aqui é um outro terminal que a
+[00:30:38] gente vai falar depois sobre o termos. É
+[00:30:41] uma ferramenta para simular terminal em
+[00:30:44] VPSs.
+[00:30:45] Certo?
+[00:30:47] &gt;&gt; [roncando]
+[00:30:47] &gt;&gt; Então eu vou,
+[00:30:51] deixa eu ver,
+[00:31:09] vamos ver se ali tá liberado para mim
+[00:31:11] fazer uma instalação do zero.
+[00:31:14] Codex.
+[00:31:16] Beleza, ó,
+[00:31:19] não tem codex aqui, então eu vou entrar
+[00:31:22] lá no projeto só para me acostumar de
+[00:31:25] projetos.
+[00:31:27] Muito bem, vamos criar o diretório MKDR.
+[00:31:31] E aí vai ser
+[00:31:33] vibe codec.
+[00:31:42] E agora eu teria que ter o comando de
+[00:31:45] instalar.
+[00:31:46] Certo? Lá no Linux. Então, se eu tenho
+[00:31:48] no Linux, vou procurar aqui, ó,
+[00:31:50] instalando, certo? O codex no Linux.
+[00:31:55] Ele me diz para fazer um sudo aptidate,
+[00:31:59] ou seja, ele tá querendo que eu faço
+[00:32:02] isso, uma instrução antes para ver se
+[00:32:04] tudo tá certo, né?
+[00:32:08] Mas eu sou um teimoso e eu vou querer
+[00:32:11] rodar aquele comando aqui, ó. Lembra que
+[00:32:13] ele deu o comando aqui, ó?
+[00:32:16] Se eu for lá como teimoso e não fizer a
+[00:32:19] instalação primeira, vamos ver o que que
+[00:32:21] acontece.
+[00:32:33] Ó, será que ele instalou? Então, codex.
+[00:32:38] Eu podia até ter pego isso aqui e
+[00:32:40] marcado lá. Certo, mas vamos lá rodar
+[00:32:43] codex.
+[00:32:46] Bingo, funcionou. Por que que funcionou?
+[00:32:49] porque provavelmente os arquivos de que
+[00:32:53] ele precisava nesse ambiente já foi
+[00:32:55] atualizado e eu não tenho, mas senão eu
+[00:32:58] teria que fazer os procedimentos
+[00:33:00] anteriores, ele ia dar erro e eu ia
+[00:33:03] voltar aqui e tenho que fazer esse sudo
+[00:33:07] aptidate
+[00:33:08] sudo aptal node npn- y que é, né, o npn
+[00:33:16] e o node,
+[00:33:18] certo?
+[00:33:20] ter instalado.
+[00:33:22] Então, sempre essa questão. Você pode
+[00:33:25] ser teimoso, certo? E quem sabe
+[00:33:28] funciona, mas se você fizer os
+[00:33:30] procedimentos certo, você vai
+[00:33:33] identificar.
+[00:33:37] Não, você vai instalar uma vez o Codex,
+[00:33:41] uma vez o Cloud Code, certo? Ele é
+[00:33:44] instalado global porque quando você deu
+[00:33:47] o comandinho aqui, ó. Ó, deixa eu ir lá.
+[00:33:51] Quando eu dei o comando dele ali, ó.
+[00:33:55] Deixa eu sair fora aqui,
+[00:33:59] ó. Quando eu dei o comando aqui, ó, eu
+[00:34:02] botei - G, tá?
+[00:34:05] O - G quer dizer global. Ele é instalado
+[00:34:08] em todo o teu ambiente. Então, tu
+[00:34:10] instalou Codex para qualquer projeto. Eu
+[00:34:13] entrei apenas dentro da pasta de projeto
+[00:34:16] por hábito.
+[00:34:18] Certo?
+[00:34:21] Tá? Então, o que que acontece? Hã, eu já
+[00:34:25] tenho esse costume. Vou fazer alguma
+[00:34:27] coisa e vou fazer dentro de uma pasta de
+[00:34:29] projeto, porque se ele fizer alguma
+[00:34:32] coisa errada, vai ser ali para baixo.
+[00:34:35] Vamos imaginar que eu tô fazendo alguma
+[00:34:37] coisa que ele vai mandar deletar, né?
+[00:34:40] Ele vai deletar ali para baixo. Sempre
+[00:34:42] essa lógica de segurança tá estabelecida
+[00:34:46] para mim não complicar, né, minha vida.
+[00:34:48] Então eu já criei esse hábito aqui, tá
+[00:34:51] bom? Então vocês vão rodar esse
+[00:34:53] comandinho aí, certo? Seja no Windows,
+[00:34:56] seja no Linux. E se ele tiver problema,
+[00:34:59] você pode pegar mensagem de erro, levar
+[00:35:02] pro chat e entender o que é ou me pedir
+[00:35:05] aqui para mim tirar dúvida. Então, eu
+[00:35:08] quero que todo mundo faça isso. Eu vou
+[00:35:10] fazer um café enquanto vocês estão
+[00:35:12] instalando o Codex. Quem já instalou o
+[00:35:15] Codex, tá, tá beleza. Pode tentar
+[00:35:19] instalar o Cloud.
+[00:35:21] Quem já instalou Cloud e Codex, tá? Dá
+[00:35:25] uma uma esperada na turma toda.
+[00:35:41] Opa.
+[00:35:57] Quem tá no remoto sempre botar o shift,
+[00:35:59] né? Control shift. Quando tu tá num
+[00:36:02] terminal remoto, eu fui aqui colocar e
+[00:36:11] tá
+[00:36:23] aí. Oi. Posso
+[00:36:25] &gt;&gt; te perguntar uma coisa rapidinho, ver se
+[00:36:27] me orienta aqui.
+[00:36:30] Eu tenho local, né, no meu PC, o cloud
+[00:36:34] instalado e tenho lá na VPS o cloud
+[00:36:37] instalado também.
+[00:36:39] No meu local e lá eu uso o cinco, exceto
+[00:36:42] pelo é 4.5, né?
+[00:36:46] Eh, só que que acontece lá no na minha
+[00:36:48] VPS, eu consigo usar um mega de contexto
+[00:36:55] e no meu local eu não consegui botar 1
+[00:36:57] mega de contexto.
+[00:37:00] Você sabe se tem algum alguma chave aí,
+[00:37:03] alguma coisa para fazer?
+[00:37:05] &gt;&gt; Só tu não conseguiu colocar o quê?
+[00:37:09] &gt;&gt; É a mesma assinatura. Eu tenho o cloud
+[00:37:11] na VPS, eu tenho o cloud no meu micro
+[00:37:13] local. No meu micro local o contexto é
+[00:37:16] 200K.
+[00:37:18] No meu micro na lá na VPS e 1, né? 1
+[00:37:22] milhão de contextos.
+[00:37:24] &gt;&gt; Aham.
+[00:37:25] &gt;&gt; Eh, e é a mesma coisa, tudo igual, não
+[00:37:27] muda nada. Por que que lá eu tenho 1
+[00:37:30] milhão e aqui eu tenho 200?
+[00:37:34] &gt;&gt; Deixa eu pensar. Eu já tive um comando
+[00:37:38] que eu aumentava o contexto, mas
+[00:37:42] que é o seguinte, talvez a tua a tua
+[00:37:45] aplicação ali, mas deixa eu deixa vamos
+[00:37:48] lá, vamos lá no chat.
+[00:37:51] Eu me lembro que eu tinha isso aqui
+[00:37:53] antigamente, a gente setava qual é o
+[00:37:55] tamanho de contexto.
+[00:37:59] Eh, qual o
+[00:38:03] parâmetro para limitar? o contexto
+[00:38:09] do
+[00:38:11] modelo no cloud code.
+[00:38:25] &gt;&gt; [roncando]
+[00:38:25] &gt;&gt; Ó, dá uma olhada se tu não tem um
+[00:38:27] parâmetro desses setado lá no teu
+[00:38:30] Windows.
+[00:38:33] Meu Windows não éps, né?
+[00:38:35] Oi.
+[00:38:36] &gt;&gt; Na VTE ou no Windows que imita 200, né?
+[00:38:39] &gt;&gt; Sim. Porque o que que eu eu acho assim,
+[00:38:40] ó? Imagina que eu estava lá na época que
+[00:38:45] era só
+[00:38:49] 16 eh 1000 o contexto e eu e daí surgiu
+[00:38:54] um recurso que tu podia setar para ser
+[00:38:56] maior. Daí tu setou lá para ser isso
+[00:38:59] aqui, ó. Máximo MCP contexto, né? o
+[00:39:02] máximo contexto token e você botou para
+[00:39:05] 200 e hoje tá acetado no teu computador,
+[00:39:11] entendeu?
+[00:39:13] &gt;&gt; Eu eu digo hoje, por exemplo, se tu
+[00:39:16] tivesse lá, eu tenho como definir o
+[00:39:18] contexto máximo que eu quero e eu e se
+[00:39:21] eu deixar sem definir nada, vai 1
+[00:39:23] milhão,
+[00:39:24] mas eu por limitação da minha máquina eu
+[00:39:27] setei para ser 200,
+[00:39:31] tá? Então eu tenho que rever ver os sets
+[00:39:34] lá, né? Ã,
+[00:39:37] se não tá acetado limitando isso no teu
+[00:39:39] Windows,
+[00:39:41] &gt;&gt; isso normalmente fica no set.
+[00:39:43] &gt;&gt; Sim. Deixa aí já perguntando para ele.
+[00:39:46] Como posso ver se não tenho algum set
+[00:39:52] setado limitando o contexto no Windows?
+[00:40:02] Minha minhas filhas ontem eu tava eu fui
+[00:40:04] ir no médico aí e minhas filhas tavam:
+[00:40:07] "Pai, mas tu não tem memória, pai? Tu
+[00:40:10] não tem isso?" Eu digo: "Não, pai, eu só
+[00:40:11] o pai só tem raciocínio. Memória não tem
+[00:40:14] mais". Então, uma depois que o chat me
+[00:40:17] deu isso, a gente o o lance é sacar para
+[00:40:22] buscar aí sim as respostas dele. Então,
+[00:40:24] olha só, né? Aqui ele tá me dando, como
+[00:40:27] é que eu poderia saber, ó.
+[00:40:30] Tá?
+[00:40:34] Então,
+[00:40:36] se você usa CMD, no CMD você pode táar
+[00:40:39] usando, tá?
+[00:40:42] E daí eu diria assim, tá?
+[00:40:46] Qual o comando que eu liste todas
+[00:40:51] os sets?
+[00:40:59] Ó, então só o sete já te dá resposta
+[00:41:02] ali, ó. Tá? Vamos ver se funciona isso,
+[00:41:06] pessoal. Enquanto isso, vocês vão
+[00:41:08] fazendo a o tema de casa,
+[00:41:11] ó. Tá aí, ó, só sete.
+[00:41:14] Então, tu dá uma revisada se tu não tem
+[00:41:17] uma limitação aqui, Carlos.
+[00:41:25] Tá, daqui a pouco você tem alguma
+[00:41:27] limitação aqui.
+[00:41:29] Eu vou dar um cat aí para salvar isso no
+[00:41:31] arquivo e pesquisa no arquivo que é mais
+[00:41:33] fácil sobre o termo.
+[00:41:35] &gt;&gt; Sim.
+[00:41:36] &gt;&gt; Tá. Ou você não pega esse set e leva pro
+[00:41:38] chat e diz: "Escute, eu tenho esse
+[00:41:41] problema, né? Me ajuda a resolver aqui,
+[00:41:46] &gt;&gt; tá? Beleza?"
+[00:41:49] Bom,
+[00:41:50] eu vou lá pegar um café e volto já para
+[00:41:53] nós continuar essa outra parte, pessoal,
+[00:41:56] tá?
+[00:42:47] Bom, essa parte que parece eh muito
+[00:42:51] simples para alguns, muito complicado
+[00:42:53] para os outros, certo? Que é a pastas
+[00:42:57] e instalação do cloud, instalação do
+[00:43:00] Codex. Então, mesma lógica que tem
+[00:43:03] depois de vocês terem instalado,
+[00:43:06] certo? O,
+[00:43:09] deixa eu onde que eu tô terminal tá
+[00:43:12] aqui. Ter instalado ele, você vai dar
+[00:43:16] codex.
+[00:43:19] Isso vale também para o o ambiente da
+[00:43:24] do cloud. Ó, quando você dá Codex ou
+[00:43:28] cloud, você vai ter três opções.
+[00:43:31] A primeira é você quer se logar com o
+[00:43:34] teu usuário que tu tem, né, uma
+[00:43:37] assinatura, um logado.
+[00:43:40] Esse esse é o que nós usamos.
+[00:43:43] Porque o que que acontece, pessoal, aqui
+[00:43:46] você tá economizando
+[00:43:49] 50, 60, 70 vezes mais do que você pagar
+[00:43:54] as APIs. É uma discussão inclusive que
+[00:43:57] eu tive com o Carlos e tudo mais esses
+[00:43:59] dias, porque o seguinte, se eu hoje vem
+[00:44:04] alguém oferecer uma LLM muito barata, a
+[00:44:08] questão é quando eu tô usando o cloud ou
+[00:44:12] Codex, eles estão me subsidiando.
+[00:44:14] O pessoal acha que isso aí vai terminar,
+[00:44:18] vai chegar um momento que as as IAS vão
+[00:44:20] custar muito cara, porque eles têm que
+[00:44:23] dar lucro,
+[00:44:25] né? Quem é que fala mal desses caras da
+[00:44:28] das grandes empresas tá dizendo que vai
+[00:44:30] dar uma bolha? Mas o o lance que quando
+[00:44:33] aí a a Open vai querer dizer assim:
+[00:44:37] "Agora eu botei no IPO, né? Eu eu tenho
+[00:44:41] que dar lucro". Ela vai ter que aumentar
+[00:44:43] o valor, certo? Então quem tem
+[00:44:46] assinatura hoje tem um benefício muito
+[00:44:49] grande, tá legal?
+[00:44:52] Outra coisa que nós temos aqui, né? Ah,
+[00:44:57] a mesma lógica, se tu usar, certo, uma
+[00:45:01] outra device em um outro lugar e a
+[00:45:04] última se eu quiser botar a chave de
+[00:45:07] API, certo? Por exemplo, eu eu posso ter
+[00:45:10] uma assinatura ou um crédito lá na Open
+[00:45:14] Router e daí eu coloco aqui a chave de
+[00:45:17] API. Eu vou trabalhar com os modelos da
+[00:45:22] da Open AI lá na Open Router,
+[00:45:27] certo?
+[00:45:29] Então, sempre a gente vai tá tendo essas
+[00:45:31] três configurações aqui. Eu vou usar a
+[00:45:34] primeira e aí ele vai me dar uma chave,
+[00:45:37] um link. Quando eu clicar esse link,
+[00:45:41] certo? Ele vai pedir para mim abrir e me
+[00:45:46] logar.
+[00:45:49] Certo? Nem sei em que tela aqui vai tá
+[00:45:51] aparecendo isso,
+[00:45:54] tá?
+[00:46:00] Não sei. Então eu vou pegar e copiar
+[00:46:02] isso aqui e abrindo numa tela.
+[00:46:06] Quando eu vim aqui e abrir numa tela,
+[00:46:10] só para vocês enxergarem,
+[00:46:15] que que ele vai fazer? Ele vai querer
+[00:46:17] que eu me logue, certo?
+[00:46:20] E aí eu vou me logar. Então esse usuário
+[00:46:23] que eu uso aqui de brincadeira, né,
+[00:46:26] continua na minha conta do espaço,
+[00:46:31] tá?
+[00:46:33] Aqui, ó, deu um erro aqui por causa de
+[00:46:37] local space.
+[00:46:39] Deixa eu ver.
+[00:46:42] Daí eu tenho que botar, eu acho que
+[00:46:43] aquele IP lá, se não me engano.
+[00:46:49] Vamos ver.
+[00:46:52] Deixa eu puxar aqui pro lado aqui para
+[00:46:55] mim descobrir o IP aqui.
+[00:47:03] Vamos ver se vai passar isso aqui.
+[00:47:08] Então
+[00:47:10] aqui
+[00:47:22] não deu não. Foi isso aqui ainda.
+[00:47:33] Vamos ver por que ele tá dando esse
+[00:47:35] erro.
+[00:47:51] É, mas não pegou.
+[00:48:06] Desculpa.
+[00:48:09] Beleza, pessoal. Quem é que não tá
+[00:48:11] conseguindo me dar um OK aí, porque
+[00:48:15] daí eu posso também acompanhar vocês.
+[00:48:33] Tentar ver aqui por que que ele não
+[00:48:35] passou.
+[00:48:40] Tá. Escolhe uma conta.
+[00:48:43] Escolhei a conta.
+[00:48:46] Espaço cinema. Continuar.
+[00:49:00] Deixa eu ver por que o meu tá dando erro
+[00:49:02] aqui.
+[00:49:16] depois
+[00:49:19] de autenticar
+[00:49:23] no
+[00:49:27] Ele me dá erro de
+[00:49:38] Eu não tinha tido esse erro ainda. Да.
+[00:50:25] Ele tá me mandando fazer tudo normal,
+[00:50:27] mas eu já fiz.
+[00:50:29] Deixa eu só ver uma coisa. Então,
+[00:50:33] vamos tentando aqui.
+[00:50:39] Opa. Não é isso aqui.
+[00:50:46] Essa tela aqui.
+[00:51:20] Vamos ver de novo o que que ele tá.
+[00:51:51] É o logout. Instalo. Já fiz.
+[00:51:54] Deixa eu ver o upgrade só para ver.
+[00:52:23] Então vou tentar instalar ele de novo.
+[00:52:26] Vamos ver se tem se isso aqui resolve.
+[00:52:39] Tá dois,
+[00:52:41] ó. Nenhum login aqui funcionou lá
+[00:52:43] naquele meu ambiente.
+[00:52:47] Vamos ver agora o login se vai
+[00:52:48] funcionar.
+[00:52:56] Ó, daí eu copio aquele trabalho que tem
+[00:52:59] assim, vai e vem.
+[00:53:09] Opa, boa tarde, Valteir.
+[00:53:22] Tá.
+[00:53:46] Ó, [roncando][limpando a garganta] ele
+[00:53:46] tá dizendo que o comando tá antigo.
+[00:53:51] Vamos ver. Codex version.
+[00:53:57] Opa. Eu
+[00:54:01] tô parando aqui para porque geralmente
+[00:54:04] essas coisas acontecem aqui.
+[00:54:09] Codex version.
+[00:54:12] Codex
+[00:54:14] version.
+[00:54:18] Ó, vamos ver o que que ele me diz aqui.
+[00:54:19] Vou pegar a versão que ele me deu, ó,
+[00:54:24] e vou levar para ele lá.
+[00:54:40] Ele me enche de coisa, mas que não
+[00:54:42] resolve.
+[00:54:54] Tá, eu vou resolver isso de outra forma.
+[00:55:00] Como eu faço
+[00:55:03] túnel
+[00:55:06] para o meu local host
+[00:55:13] que acho
+[00:55:15] que isso é o problema.
+[00:55:46] Tá? Então, olha só, pessoal, o que que
+[00:55:49] provavelmente tá acontecendo quando ele
+[00:55:51] tenta autenticar, ele vai pro local
+[00:55:54] hostador,
+[00:55:58] eu tenho um navegador na minha máquina.
+[00:56:01] Isso é um pouco complexo, mas eu vou
+[00:56:03] explicar porque depois vou documentar
+[00:56:05] isso. Daí quando der esse problema,
+[00:56:06] vocês vão só ali nas dicas e pegam essa
+[00:56:09] dica. É isso aí. Certo? Então, o que que
+[00:56:13] acontece? Quando vocês viram que eu fui
+[00:56:15] fazer a autenticação,
+[00:56:18] ele deu esse erro, local host, né? 1455.
+[00:56:23] Pá, pá. Então, eu vou dar uma enganação
+[00:56:26] nele. A minha enganação vai ser ir na
+[00:56:29] minha máquina local,
+[00:56:33] certo? Aqui no meu no meu comando, ó. E
+[00:56:38] eu vou trocar esse aqui pelo um IP,
+[00:56:42] certo?
+[00:56:44] pelo IP aqui da VPS. Então, vou pegar o
+[00:56:48] IP, certo?
+[00:56:51] Vou copiar aqui, ó.
+[00:56:53] Vou botar aqui o meu IP. O que que ele
+[00:56:56] tá fazendo, ó? Ele diz o seguinte:
+[00:56:58] quando ele pediu o IP lá na VPS desse
+[00:57:02] cara aqui, certo? E vai pedir local host
+[00:57:06] lá VPS, eu digo que é aqui na minha
+[00:57:08] máquina, certo? Então eu vou dar isso
+[00:57:11] aqui. Ele vai provavelmente tem que
+[00:57:14] pedir um usuário uma senha que eu não
+[00:57:16] sei agora de cor. Então como eu tenho
+[00:57:18] aqui embaixo a senha, eu vou tirar aqui
+[00:57:21] da tela.
+[00:57:23] Vocês não estão vendo, né? E daí eu
+[00:57:26] posso ver essa senha
+[00:57:34] e daí ele vai pedir aqui. Vocês também
+[00:57:36] não vão ver porque táí escuro. Entre aí.
+[00:57:40] Certo? Então eu já tô lá agora. Agora
+[00:57:44] vamos ver se isso aqui vai rodar legal.
+[00:57:47] Certo.
+[00:57:49] Então de novo, trazendo aquela de volta.
+[00:57:56] Vamos lá. Vou me logar de novo. Eu vou
+[00:57:59] dar só codex.
+[00:58:02] Ele vai querer a primeira opção. Vai me
+[00:58:05] dar o link.
+[00:58:07] Vou pegar o link.
+[00:58:09] Vou copiar esse link. Control shift C.
+[00:58:14] Vou rodar de novo aqui, como eu fiz
+[00:58:16] antes.
+[00:58:18] Vou selecionar meu usuário,
+[00:58:23] né? Continuar.
+[00:58:27] Bingo.
+[00:58:30] E agora eu vou lá.
+[00:58:33] Certo. Assinado lado tudo. Pressione,
+[00:58:36] ent para continuar.
+[00:58:39] Certo?
+[00:58:41] Por isso que eu gosto que dá erro, né?
+[00:58:44] Porque daí quando dá um erro a gente
+[00:58:47] pode aprender ou ensinar os outros.
+[00:58:50] Então, para entender para vocês, é o
+[00:58:52] seguinte, quando eu me loguei aqui, eu
+[00:58:56] tô lá dentro da VPS, ele meu o link, se
+[00:58:59] eu desse o link, ele me mandava para
+[00:59:01] abrir o browser na VPS ou no servidor
+[00:59:05] destino, só que lá eu não tenho
+[00:59:09] browser, navegador,
+[00:59:12] então eu usei local, só que local ele
+[00:59:15] tentava jogar de volta para fechar o
+[00:59:18] login e esse local host era lá e não na
+[00:59:22] minha máquina, então ele se perdia.
+[00:59:24] Então o que que eu fiz? Eu fiz uma meia
+[00:59:27] um tunelamento que a gente chama, certo?
+[00:59:31] Eu dei esse comando aqui, onde que tu
+[00:59:34] tá?
+[00:59:37] Não, não é aqui, é na no micro local.
+[00:59:46] Aqui tá o comando, ó. Então esse comando
+[00:59:49] aqui é que fez
+[00:59:53] ele. Deixa eu botar lá, eu vou botar já
+[00:59:56] aqui assim. Quando
+[00:59:59] estiver num Linux
+[01:00:03] ou VPS e não tem navegador,
+[01:00:08] tem que fazer
+[01:00:11] túnel.
+[01:00:14] por exemplo.
+[01:00:20] E daí eu vou colocar aqui, tá? Isso aqui
+[01:00:25] não tem problema. Esse servidor também é
+[01:00:27] de testes e tudo, só para deixar claro
+[01:00:29] para vocês. Então, sempre vai ser usado.
+[01:00:32] Ó, eu tô, na verdade, enganando ele.
+[01:00:35] Quando ele pedir local host a porta tal,
+[01:00:38] eu tô jogando isso para meu local,
+[01:00:41] certo? Por isso eu ponho a mesma porta
+[01:00:44] aqui.
+[01:00:45] Existe uma técnica de trocar as portas
+[01:00:48] também para enganar os hackers, tá?
+[01:00:51] Então você protege dessa forma também,
+[01:00:54] mas isso se foi um exemplo do SSH.
+[01:00:59] OK, pessoal?
+[01:01:01] Quem não entendeu me pede porque eu
+[01:01:04] explico de novo, de outra forma.
+[01:01:10] Paula, Carlos, Tisa,
+[01:01:13] André,
+[01:01:15] Valteir,
+[01:01:17] todo mundo entendeu?
+[01:01:24] Não entendi ainda.
+[01:01:27] &gt;&gt; Tá beleza, então. Tá.
+[01:01:30] Então, vou, vamos continuar. Depois de
+[01:01:33] nós ter o Codex no ar e tudo,
+[01:01:37] faria a mesma lógica com o cloud. Eu não
+[01:01:39] vou fazer agora por causa do nosso
+[01:01:41] tempo, tá? Mas daí quem tiver dúvida
+[01:01:44] chama eu ou at, né? Até amanhã e a gente
+[01:01:48] resolve isso pessoalmente. Agora vamos
+[01:01:50] falar da outra parte que é importante
+[01:01:53] aqui. Vocês viram que eu usei um tal
+[01:01:55] DSH,
+[01:01:57] certo?
+[01:01:58] Veja, eu, ele pediu uma senha e eu não
+[01:02:02] quero ficar digitando essa senha o tempo
+[01:02:05] todo,
+[01:02:07] certo?
+[01:02:09] Então, o que que acontece? Eu crio uma
+[01:02:12] chave SSH, certo? Então, nós vamos
+[01:02:15] trabalhar um pouco sobre essa chave de
+[01:02:17] SSH, aonde que ela tá, né? Se você ir lá
+[01:02:22] no no teu Windows,
+[01:02:25] tá dentro do teu usuário,
+[01:02:28] certo? Existe um ponto SSH,
+[01:02:33] certo? Dentro desse ponto SSH existe uma
+[01:02:36] série de arquivos,
+[01:02:39] tá? Com essas chaves escondidas. Ponto
+[01:02:43] alguma coisa, quer dizer escondido. O
+[01:02:46] que era para ser escondido no passado,
+[01:02:48] hoje virou um padrão nosso, tá? Todos
+[01:02:51] nós, né, temos acesso porque a gente
+[01:02:54] mandou visualizar. Se vocês não
+[01:02:56] conseguem enxergar, vocês têm que ir na
+[01:02:58] configuração e dizer: "Eu quero ver no
+[01:03:01] Windows, no Linux, no Mac os arquivos
+[01:03:04] escondidos ocultos, tá bom? Na medida
+[01:03:08] que você vem aqui, né?
+[01:03:12] Eh, aqui, ó, tá vendo? Itens ocultos,
+[01:03:15] mostrar, né? Itens ocultos. Tá ativo
+[01:03:18] aqui, senão não aparece. tá no Linux lá
+[01:03:22] para você ver no comandinho que tu tem
+[01:03:24] lá, né? Ã, deixa eu abrir uma nova tela
+[01:03:29] aqui para mim ficar com dois,
+[01:03:33] tá? Continua.
+[01:03:37] Se você vai chegar e dizer CD projetos
+[01:03:42] projetos,
+[01:03:44] certo? LS - LA, que permite ver os
+[01:03:49] arquivos escondidos. Então, se eu entrar
+[01:03:51] aqui ninema CC
+[01:03:54] CC
+[01:03:56] bot,
+[01:03:59] né? Se eu der um LS, ele vai exibir
+[01:04:01] alguns arquivos. Se eu der LS men la,
+[01:04:06] certo? Ele vai aparecer os ponto, né?
+[01:04:11] pont gitignore ponenv
+[01:04:14] env exemple, né? Vários escondidos
+[01:04:17] também. Então o menos la, né, permite
+[01:04:21] isso. Então se eu quiser só anotar aqui
+[01:04:24] para nós não quiser ver os ocultos
+[01:04:30] ocultos
+[01:04:32] no Linux. Por que que eu sempre faço
+[01:04:35] isso no Linux? Tá, ó, la não, LS, aliás.
+[01:04:42] menos
+[01:04:43] la. Por que que no Linux eu tô fazendo?
+[01:04:46] Porque no Windows tem uma interface
+[01:04:48] gráfica, no Mac tem interface gráfica.
+[01:04:51] No Linux nem sempre a gente tem
+[01:04:53] interface gráfica. Então, e nós vamos
+[01:04:55] estar usando o Linux porque é nosso
+[01:04:57] servidor de VPS, é onde vai rodar as
+[01:05:00] coisas remoto. Então, eu tenho que
+[01:05:02] aprender esses comandinhos mínimos aqui,
+[01:05:05] certo?
+[01:05:07] Então, beleza, nós estávamos navegando
+[01:05:09] aqui e vimos que tem vários arquivos
+[01:05:12] escondidos dentro do SSH,
+[01:05:15] certo? Então, nesses arquivos aqui, eu
+[01:05:18] não posso olhar esse aqui. Eu não posso,
+[01:05:22] eu só posso olhar os públicos, porque se
+[01:05:24] eu mostrar isso aqui, eu tô entregando a
+[01:05:27] minha chave privada.
+[01:05:29] O que eu posso mostrar é a pública e
+[01:05:33] assim eu posso ter vários SSH, quer
+[01:05:36] dizer, eu tenho aqui, ó, para VPS do
+[01:05:39] Eliseu, para mim não precisar botar
+[01:05:41] senha, eu criei uma chave pública,
+[01:05:44] certo? A mesma coisa, né? Inema Club tem
+[01:05:49] uma chave pública, a privada tá aqui.
+[01:05:52] Essa chave pública eu vou criar e depois
+[01:05:55] eu vou copiar pro meu destino,
+[01:05:58] certo?
+[01:06:00] E daí o meu destino quer falar comigo,
+[01:06:03] ele vai olhar a minha chave privada e
+[01:06:05] dizer: "Opa, tá fechando". Então ele não
+[01:06:08] precisa senha, ele já teve uma chave,
+[01:06:11] né, que nem uma assinatura eletrônica,
+[01:06:13] certo? Então, a gente não compartilha o,
+[01:06:17] né, a chave privada, a gente compartilha
+[01:06:20] a chave pública. Se por acaso eu mostrar
+[01:06:23] a chave privada aqui, né, eu tenho que
+[01:06:26] revogar ela e criar uma nova chave,
+[01:06:29] certo?
+[01:06:33] O André do Val tá dizendo o seguinte:
+[01:06:35] "Eu não tenho VPS, rodo tudo na máquina
+[01:06:38] e depois mando para o Git que manda para
+[01:06:40] o servidor." Beleza, André? Agora
+[01:06:42] imagina o seguinte, mais adiante tu quer
+[01:06:45] rodar alguma coisa numa VPS, certo?
+[01:06:49] Então, qual é a tua vantagem? É esse
+[01:06:53] conhecimento. Quando é que nós usaríamos
+[01:06:56] uma VPS? Quando eu tiver que rodar um
+[01:06:59] processo que não roda numa página web,
+[01:07:03] certo? Então, por exemplo, que nem eu
+[01:07:05] tenho a comunidade, a comunidade tem
+[01:07:08] processos que não é só uma página.
+[01:07:12] Então eu preciso estar rodando numa VPS,
+[01:07:15] ou seja, num servidor,
+[01:07:17] tá? A ideia é o seguinte, eh, que nem no
+[01:07:21] meu caso, eu já transformei minha VPS e
+[01:07:24] em vez de usar a minha máquina, tudo
+[01:07:27] roda na VPS, inclusive o que tu roda
+[01:07:29] hoje, André, na tua máquina. Por quê?
+[01:07:32] Porque eu não quero me preocupar com
+[01:07:34] máquina. Se eu tiver na casa, né, de um
+[01:07:37] amigo e eu precisar resolver alguma
+[01:07:39] coisa, eu abro o terminal. do Windows
+[01:07:42] dele, me conecto com o meu uso, meu IP
+[01:07:46] da FPS, ponho minha senha e ele abre o
+[01:07:49] terminal e eu faço tudo de lá. Então eu
+[01:07:52] tenho, né, mais de um notebook, não tem,
+[01:07:56] todas as coisas estão centralizadas ao
+[01:07:58] mesmo local. Com isso também eu não faço
+[01:08:01] backup, não me preocupo com
+[01:08:03] disponibilidade, né? Posso botar coisas
+[01:08:07] na VPS rodando que nem aquelas
+[01:08:10] publicações que eu tenho de gerar, né,
+[01:08:14] 20, 30, 50, 100 vídeos por dia, tá
+[01:08:17] rodando a VPS, certo? Então, só para
+[01:08:20] explicar um pouco sobre isso. Bom,
+[01:08:22] vamos, como é que eu crio então ah essa
+[01:08:25] solução de SSH? Pessoal, eu quero que
+[01:08:29] vocês aprendam como eu e a maioria dos
+[01:08:33] cara, certo? Top. Tão fazendo assim.
+[01:08:39] Eh, ó, a pergunta antes de eu continuar
+[01:08:42] aqui, só para responder pro André,
+[01:08:44] precisa de uma VPS para roda para rodar
+[01:08:46] tudo isso? Depende do que que você vai
+[01:08:49] rodar lá, mas, por exemplo, para mim
+[01:08:52] trabalhar com o Cloud Code, o Codex e
+[01:08:56] essas coisas é o mínimo, né?
+[01:09:00] A gente não precisa máquina boa porque
+[01:09:02] roda tudo na nuvem, apenas é uma
+[01:09:04] interface de tela. Daí dependendo do que
+[01:09:08] você quer tá usando, vai aumentar, mas
+[01:09:11] você tem um monitor do teu desempenho,
+[01:09:13] da tua máquina para aumentar ou
+[01:09:14] diminuir,
+[01:09:16] certo? Então, ah, agora eu tenho umas
+[01:09:19] demanda muito grande para fazer tal
+[01:09:21] coisa. Aumenta a máquina, certo? Depois,
+[01:09:25] ah, sobre agora eu não tenho mais
+[01:09:27] demanda, baixa o custo da máquina, então
+[01:09:30] tu pode estar jogando lá pelos seus, né,
+[01:09:33] mínimos de dólares por mês,
+[01:09:36] tá legal? Depois eu falo mais de VPS.
+[01:09:39] Agora, por enquanto, vamos aqui. Então,
+[01:09:42] veja só, todos nós temos que usar os
+[01:09:45] benefícios da IA. Em vez de eu saber as
+[01:09:48] coisas, decoro. Basta eu pedir o que que
+[01:09:50] eu quero. Então eu diria assim: como
+[01:09:53] crio uma chave,
+[01:09:57] né? Um ou melhor um token
+[01:10:02] SSH.
+[01:10:04] Pronto. Ele vai dizer que eu tenho uma
+[01:10:07] ferramenta chamado SSH Kin, certo? Onde
+[01:10:11] eu tenho um padrão aqui, certo?
+[01:10:16] que é a estrutura de criar, certo? E eu,
+[01:10:21] como curioso, diria: "Ah, o que que é
+[01:10:23] esses parâmetros, né? O que que quer
+[01:10:25] dizer o T? O que que quer dizer o nome
+[01:10:27] aqui? Etc, etc, e tudo mais." Então, ele
+[01:10:30] aqui me ensinou que era só rodar isso
+[01:10:33] aqui, certo? E que ele vai criar dentro
+[01:10:36] dessa pasta. O tio quer dizer meu
+[01:10:39] usuário, tá? Então, sempre é o o nome do
+[01:10:42] usuário barra e ele criou ali. Lembra do
+[01:10:45] que eu botei ponto SSH lá no meu
+[01:10:47] usuário, né? Ó, meu usuário ponsh.
+[01:10:54] Depois ele tá dizendo como é que eu vejo
+[01:10:56] ela, certo? Com o cat, certo? Ou vindo
+[01:11:00] aqui,
+[01:11:02] né, no ambiente, botão da direita, abrir
+[01:11:06] como bloco de notas.
+[01:11:09] Tô abrindo a pública, certo? Ó, então
+[01:11:14] posso mostrar para vocês porque é a
+[01:11:16] pública.
+[01:11:18] E isso aqui eu levaria, ó, eu não de não
+[01:11:21] disse qual é meu e-mail, então ele não
+[01:11:24] colocou, certo? Nesse caso não colocou.
+[01:11:29] Muito bem. Voltando. Ã, que mais? Copie
+[01:11:33] todo o conteúdo que começa com Então é a
+[01:11:36] chave que eu levaria lá, certo? Daí eu
+[01:11:39] vou lá onde que é no GitHub Setting,
+[01:11:42] etc. Aonde for o destino, na minha VPS,
+[01:11:46] no GitHub, no Supas, em todo lugar, eu
+[01:11:50] vou levar essa chave para lá. Para quê?
+[01:11:53] Não precisar mais usar minha minha
+[01:11:56] senha, certo? Não precisar mais me
+[01:11:59] autenticar.
+[01:12:01] Isso é necessário também. Por quê?
+[01:12:03] Porque quando você criar sistemas e ele
+[01:12:05] precisa conectar em tudo que lugar, ele
+[01:12:08] vai usar as chave SSH ou um token,
+[01:12:13] certo? Então é um exemplo do que nós
+[01:12:16] temos aqui, certo?
+[01:12:19] Então eu eu quando digo assim, atualize
+[01:12:21] no Git, ele vai atualizar sem pedir
+[01:12:25] senha, sem pedir nada, porque tem essa
+[01:12:27] chave, certo? a chave de token de SCH.
+[01:12:33] OK? Então, por exemplo, eh,
+[01:12:37] como eu faço se eu quero usar
+[01:12:43] chaves de tokens
+[01:12:47] diferente
+[01:12:49] para
+[01:12:51] cada sistema. Por exemplo,
+[01:12:54] se for o git, vul vps,
+[01:13:01] ã supa base.
+[01:13:06] Então eu dei três opções para vocês
+[01:13:08] verem. Assim, eu não quero só uma. No
+[01:13:10] meu caso, por exemplo, como eu exponho
+[01:13:13] muito aqui mostrando as coisas, né? Eu
+[01:13:17] deixo elas aqui, mas se eu quiser, ah,
+[01:13:19] minha VPS e tal, eu tenho que definir
+[01:13:22] para não mostrar ela, porque sem querer
+[01:13:24] eu posso mostrar a privada. Vamos
+[01:13:26] pensar, certo? Ó, então ele criou uma
+[01:13:29] estrutura, ó, ele colocou que tu tem o
+[01:13:31] gitema,
+[01:13:33] git produção, né, VPS Staging, né? Ele
+[01:13:38] mostrou vários e daí ele deu comando, ó.
+[01:13:41] Então, o comando, o que que ele fez?
+[01:13:43] Esse aqui é um padrão de criptografia.
+[01:13:46] Certo? Aqui ele disse aonde que vai tá e
+[01:13:50] aqui ele disse o nome, certo? Então ele
+[01:13:54] criou já um padrão para mim poder criar
+[01:13:57] de várias formas aqui,
+[01:14:00] certo?
+[01:14:02] Agora vejam só, daí ele enche de
+[01:14:04] linguiça aqui mostrando todo o, né, a
+[01:14:07] estrutura, como é que eu faço. E eu
+[01:14:09] diria assim, para que funciona o
+[01:14:15] e-mail no final do comando?
+[01:14:30] É, também, viu?
+[01:14:32] Ó,
+[01:14:33] no comando, o e-mail não serve para
+[01:14:35] autenticar, ele só é um comentário,
+[01:14:37] etiqueta, colocado no final da chave
+[01:14:39] pública para você saber de quem e qual é
+[01:14:42] o sistema daquela chave, tá bom? Então,
+[01:14:45] só para deixar claro, mas como a gente
+[01:14:48] já deu o nome para ela, certo? Então
+[01:14:51] fica já fica no nome essa informação,
+[01:14:57] tá legal? Então agora eu quero que vocês
+[01:14:59] criam o SSH de vocês ali. Eu quero que
+[01:15:03] vocês criam dois, um que seja definir
+[01:15:07] nada, só o SSH Kej
+[01:15:10] e outro que vocês vão colocar nome. Eu
+[01:15:14] vou pegar meu café que já deve ter
+[01:15:15] esfriado lá, tá bom?
+[01:15:21] Então vamos lá.
+[01:15:24] Deixa eu deixar aqui aonde que tá o isso
+[01:15:27] aqui.
+[01:15:28] Já volto aí.
+[01:17:34] Pessoal, quem não conseguiu me dá um OK.
+[01:17:44] &gt;&gt; [roncando]
+[01:17:44] &gt;&gt; Ja.
+[01:20:34] Pessoal, me dá quem tá OK, me dá um OK
+[01:20:37] agora para mim poder avançar.
+[01:20:57] Tá legal? Ó, quem é que tiver que sair e
+[01:21:00] tudo, eu vou ficar até às 5, tá? Eu
+[01:21:03] sempre procuro ficar uma hora mais aí
+[01:21:06] para vocês e para tirar dúvida e daí
+[01:21:09] vocês olham o conteúdo que eu vou
+[01:21:11] passando aí para vocês, tá bom?
+[01:21:14] Então, continuando aqui, tá? Eh, se
+[01:21:19] alguém tiver atrasado, me fala.
+[01:21:21] Continuando aqui, além da do desse kit,
+[01:21:25] né, quando você pegar e fizer, aliás, a
+[01:21:29] o SSH, nós vamos levar ele. Então, aqui
+[01:21:32] ele já dá a dica, ó. Você vai no Git
+[01:21:36] setting. Então, vamos lá. O que que é o
+[01:21:38] GitHub? Para quem não sabe, né, o Git é
+[01:21:42] nosso repositório que ele permite fazer
+[01:21:45] versionamento das coisas. Então, eu
+[01:21:48] tenho aí muitos gits, um para cada login
+[01:21:51] que eu tenho e tudo para cada função. E
+[01:21:54] dentro do GitHub
+[01:21:56] eu tenho repositórios,
+[01:21:59] certo?
+[01:22:00] Então, quando eu eu chegar aqui no meu
+[01:22:02] git, por exemplo, eu chegar git, pegar
+[01:22:05] aqui, ó,
+[01:22:08] pegar esse carro aqui, ó. Eu tô num
+[01:22:10] usuário do Inema TDS. Então, se eu
+[01:22:14] chegar aqui Git e botar meu usuário
+[01:22:18] depois do Git, ele vai ter todo o meu
+[01:22:22] ambiente de projetos. Então eu venho
+[01:22:24] aqui em repositório, 463
+[01:22:27] projetos eu tenho no Git. Certo? E aí,
+[01:22:32] se eu clicar aqui, eu posso estar
+[01:22:34] buscando qualquer um desses projetos,
+[01:22:37] certo? Então, né, eu venho aqui e
+[01:22:41] pesquiso. Eu queria o projeto que seja ã
+[01:22:48] intelecto,
+[01:22:49] ó. Então, vou ter aí, né, aqueles Jarves
+[01:22:52] que eu fiz vários cursos, testes e tudo
+[01:22:56] um tempo atrás sobre como construir um
+[01:22:58] Jarvis. do zero, né? Então tá todo
+[01:23:02] repositórios aqui, o curso, o guia, o
+[01:23:06] testes, o intelecto original, o
+[01:23:09] intelecto em quatro dimensões, certo? E
+[01:23:12] assim por diante. Tá tudo aqui, certo?
+[01:23:16] Aí se eu qualquer um deles eu quiser,
+[01:23:20] né, clicar e alterar, eu tenho
+[01:23:22] individual, mas se eu vim à direita aí
+[01:23:26] no meu usuário e vi em profile ou
+[01:23:29] settings, por exemplo, tá? Vocês vão ver
+[01:23:33] a esquerda o SSH.
+[01:23:36] E aqui, ó, eu posso cadastrar. Então,
+[01:23:40] vocês estão vendo, eu tenho o SSH do DG
+[01:23:43] DGX. Essa chave não é problemática, é
+[01:23:48] minhas chave priv públicas, etc. Então
+[01:23:51] eu tenho aqui da VPS, eu tenho a TISA
+[01:23:54] VPS, então eu tenho o NEO aqui, ou seja,
+[01:23:58] uma série de SSHs para vir acessar o
+[01:24:03] INEMA TDS. Então a TISA da VPS pode vir
+[01:24:08] acessar o Inema TDS porque tem uma
+[01:24:10] chave,
+[01:24:12] certo, né? Oema, grupos do VIP pode vir
+[01:24:17] aqui no TDS porque tem chave. O DGX pode
+[01:24:21] vir aqui, tem a chave. O Nel novo tem a
+[01:24:23] chave e eu posso dizer o que ele pode
+[01:24:26] fazer.
+[01:24:28] Então, a vantagem de eu criar uma nova
+[01:24:30] chave é isso. Eu dou um nome, então
+[01:24:33] seria teste, né? Ou melhor, VC, tá?
+[01:24:40] 1208.
+[01:24:42] Eu diria que eu quero. Daí eu pego
+[01:24:45] aquela chave que eu tinha mostrado para
+[01:24:47] vocês, certo? Que tá aqui ela. Deixa eu
+[01:24:52] mostrar para vocês aqui, ó. Eu pego essa
+[01:24:55] chave toda com e-mail sem e-mail. Vocês
+[01:24:58] viram que o e-mail é só para comentário.
+[01:25:01] E coloco aqui.
+[01:25:03] Agora que eu adiciono ela, ele vai pedir
+[01:25:06] autenticação pro meu celular.
+[01:25:09] Certo? Eu acho que é, né? Sim.
+[01:25:14] né? Por segurança para que alguém não
+[01:25:17] possa alterar isso,
+[01:25:22] ó.
+[01:25:28] Inema TDS, cadê você?
+[01:25:39] &gt;&gt; [roncando]
+[01:25:45] &gt;&gt; Não é, não é no envio meio meio. Ah,
+[01:25:48] não, tudo bem. Ele tá me pedindo
+[01:25:50] autenticação, aquele authentication que
+[01:25:53] a gente tem, né, no celular.
+[01:25:56] Authentication
+[01:25:58] tá aqui.
+[01:26:00] Então, eu tenho que isso aqui é oema
+[01:26:04] TDS.
+[01:26:06] Aqui
+[01:26:12] 90345.
+[01:26:15] Esse número já mudou. Pronto, já mudou,
+[01:26:18] mas passou. Certo?
+[01:26:24] Então, deixa eu dar um refresh aqui.
+[01:26:30] Não,
+[01:26:35] vamos de novo, então.
+[01:26:37] Acho que passou o número por isso.
+[01:26:40] Então, VC
+[01:26:42] 118, [limpando a garganta]
+[01:26:45] certo? A chave era essa.
+[01:26:48] Adicione.
+[01:26:55] Ah, olha só, a chave já tá em uso,
+[01:26:59] né? Provavelmente essa aqui embaixo.
+[01:27:04] Tá
+[01:27:06] tudo bem. Então, tá isso aí. Então, por
+[01:27:09] isso eu não olhei a mensagem que tinha
+[01:27:11] aqui, tá bom?
+[01:27:13] Então assim você cadastra e a partir
+[01:27:16] dali você não precisa mais usar senha,
+[01:27:21] né, para poder autenticar quando você
+[01:27:23] quer fazer atualização no GitHub e
+[01:27:25] vice-versa,
+[01:27:27] tá legal? Então, voltando aqui pro nosso
+[01:27:30] sistema, né? Se eu chegar agora aqui na
+[01:27:34] minha máquina e quiser atualizar no
+[01:27:36] GitHub alguma coisa,
+[01:27:40] então nós vamos agora aprender um pouco
+[01:27:42] sobre o Git. Que que é o Git? Git é um
+[01:27:46] repositório onde que eu vou jogar dados
+[01:27:49] para lá. Então eu tô dentro do codex
+[01:27:51] aqui, certo? Se eu tiver aqui em Codex,
+[01:27:56] lembra que nós estava aqui?
+[01:27:59] e eu quiser, né, criar uma pasta, criar
+[01:28:02] um sistema, criar uma página web e
+[01:28:05] depois eu querer atualizar no Git, eu
+[01:28:08] vou ter que vir aqui, certo? Então eu
+[01:28:11] daria atualize
+[01:28:17] no Git,
+[01:28:19] certo?
+[01:28:21] Inema TDS,
+[01:28:23] tá? Para ele saber, deixa eu escrever
+[01:28:26] certo, né?
+[01:28:28] Inema TDS
+[01:28:32] este repositório.
+[01:28:38] E aí eu tenho que ter dessa máquina. Eu
+[01:28:41] não tenho ainda, né? Então ele tá
+[01:28:45] explorando tudo que tem dentro desse
+[01:28:47] projeto.
+[01:28:49] E aí ele diz, ó, os comandos que eu
+[01:28:51] usaria,
+[01:28:53] tá?
+[01:28:56] Então tá todos os comandos que ele
+[01:28:58] usaria aqui.
+[01:29:00] Só que isso é vibe code. Certo? Se eu
+[01:29:04] fosse agora ir comando de linha, vamos
+[01:29:08] imaginar que eu quero pegar esse projeto
+[01:29:10] aqui que eu tenho, ó, e quero atualizar
+[01:29:13] lá, eu teria que dar git, certo? O que
+[01:29:17] que eu quero? Jogar para lá. Push.
+[01:29:21] e eu daria o repositório, os parâmetros
+[01:29:23] que eu quero. Para isso, eu tenho que
+[01:29:26] estudar esses parâmetros. Então, podia
+[01:29:28] dar git help, né?
+[01:29:32] Ó, aí ele vai me ensinar todos os
+[01:29:35] parâmetros que eu teria que usar,
+[01:29:39] certo? Bom, então vamos lá, vamos
+[01:29:41] entender lá, vamos lá no chat, vamos
+[01:29:44] entender de novo o que que é o Git Hub.
+[01:29:50] Então, chat EPT,
+[01:29:53] né? Quero usar o Git
+[01:29:58] como
+[01:29:59] ou melhor, quais são os parâmetros
+[01:30:04] mínimos?
+[01:30:06] Por exemplo, eu sei que é git clone, faz
+[01:30:10] uma cópia. Então, seria git clone um um
+[01:30:14] link que eu te passei lá do inema pegar
+[01:30:17] um daqueles projetos que eu tenho lá.
+[01:30:20] Peguei o projeto. Então, aonde que tu tá
+[01:30:24] aqui.
+[01:30:27] Vamos voltar aqui e pegar um projeto que
+[01:30:30] tem aqui.
+[01:30:38] Deixa eu mais. Ah, isso, ó. Eu quero o
+[01:30:41] projet do Inema.
+[01:30:43] Qual é que é? Esses são privados, não
+[01:30:46] tem que ser público.
+[01:30:50] Hum.
+[01:30:52] Aqui, promovatar, esse aqui.
+[01:30:55] Se eu pegar esse aqui e vir aqui na
+[01:30:59] minha VPS, certo? Eu daria simplesmente
+[01:31:03] isso aqui, ó. Volto atrás, lembra?
+[01:31:08] Git clone. E eu dou o link.
+[01:31:14] Automaticamente ele vai criar esse
+[01:31:18] repositório aqui na minha máquina, ó.
+[01:31:21] Ele diz que já existe. Então eu dou um
+[01:31:23] espaço, vou chamar promo
+[01:31:27] avatar
+[01:31:28] testes.
+[01:31:32] Já baixou. Se tu vai lá ls
+[01:31:37] - la, ó, nós vamos ver que tem o avatar
+[01:31:42] testes, ó.
+[01:31:43] A tisa já tem o avatar e o avatar 3 aqui
+[01:31:46] rodando e ela já tem o CCB, então já tem
+[01:31:50] um sistema rodando lá, certo? Tô
+[01:31:53] bagunçando o ambiente dela lá, certo?
+[01:31:58] Então,
+[01:32:00] o clone vocês já viram. Então, vamos lá
+[01:32:02] entender um pouco mais além do clone. Eu
+[01:32:04] gosto sempre de usar o chat para isso.
+[01:32:07] Clone
+[01:32:09] push
+[01:32:11] pull, né? Ã, init add.
+[01:32:19] Explique de forma
+[01:32:24] direta
+[01:32:25] os comandos.
+[01:32:27] mínimos,
+[01:32:30] certo?
+[01:32:51] Foi lá.
+[01:32:53] Então o mínimo é clone, tá aqui o outro
+[01:32:57] gitnit para inicializar um, né, uma
+[01:33:01] pasta nova. Git status para verificar,
+[01:33:05] né? Ã, git commit, todas as alterações.
+[01:33:10] E daí tem um comentário sobre que que é
+[01:33:12] aquela alteração,
+[01:33:14] gitpol, né? Ele vai buscar alguma coisa
+[01:33:18] que foi alterada. Por exemplo, tu tu
+[01:33:21] baixou que nem a Tisa, baixou o Inema, ã
+[01:33:26] promo Avatar o E eu melhorei lá. Ela vai
+[01:33:30] lá e dá Git dentro do repositório, ela
+[01:33:33] vai dar só gitol, vai baixar as novas
+[01:33:37] atualizações.
+[01:33:38] Git push, ela vai jogar de volta ou eu
+[01:33:41] vou jogar de volta, ela pode criar um
+[01:33:44] novo repositório dela, né? Então esse é
+[01:33:48] é o 90% dos casos, tá aqui,
+[01:33:52] certo? Inite, add, etc, etc. Porém,
+[01:33:56] pessoal, isso aqui vocês não usam no dia
+[01:33:58] a dia porque vocês vão fazer dentro do
+[01:34:01] cloud code. Então, dentro do cloud code
+[01:34:05] ou dentro do codex, qual é que é os
+[01:34:08] comandos que vocês vão dizer? É mais ou
+[01:34:10] menos assim, git ou atualiza o git,
+[01:34:16] certo? Então ele vai saber que, né, que
+[01:34:18] ele vai est fazendo o push. Ah, atualize
+[01:34:22] o Git, ou seja, busque novas informações
+[01:34:25] do Git. Ele vai fazer o pool. Então vai
+[01:34:28] ser o pull, vai ser o push, mais ou
+[01:34:31] menos. E quando tu diz instala esse novo
+[01:34:33] repositório, ele vai fazer o clone.
+[01:34:37] Então a gente não vai mais aprender
+[01:34:39] esses comandos de linha aqui, certo? não
+[01:34:42] vai memorizar porque a gente vai falar
+[01:34:45] numa linguagem comum, mas a gente sabe
+[01:34:48] que existe uma atualização, existe um
+[01:34:51] envio, certo? Então, se tu tá criou uma
+[01:34:54] página nova, né, de divulgação do teu
+[01:34:57] produto, você vai criar um novo
+[01:35:00] repositório, certo? Você vai jogar para
+[01:35:03] lá mandando push,
+[01:35:06] certo?
+[01:35:08] E se você fosse lá num outro computador,
+[01:35:11] você vai fazer um clone.
+[01:35:13] Então, imagina só, você tem um
+[01:35:15] computador na empresa e um em casa.
+[01:35:18] Então, você vai trabalhar nos dois
+[01:35:21] atualizando sempre o teu computador. Eu
+[01:35:23] não tenho isso porque eu jogo na VPS.
+[01:35:26] Mas se você tivesse isso, o que que você
+[01:35:28] vai trabalhar com o git push e o git
+[01:35:31] pull.
+[01:35:33] Então, o pol é trazer a nova atualização
+[01:35:35] pra tua máquina. O push é jogar as
+[01:35:38] atualizações para tua eh ver eh para tua
+[01:35:42] teu repositório. Então, vamos fazer só
+[01:35:45] um exemplo. Você tá na empresa, criou
+[01:35:48] uma página, tudo, etc e tudo lá. E o que
+[01:35:52] tu vai antes de ir embora, git push,
+[01:35:56] certo? jogou de volta para, né, o Git,
+[01:36:00] chegou em casa, abriu o teu computador.
+[01:36:03] Se for a primeira vez, o que que tu vai
+[01:36:05] fazer? Git clone, né, ou um forque,
+[01:36:09] fazer uma cópia. Mas digamos que já tem,
+[01:36:12] tu trabalha na empresa, em casa, em
+[01:36:14] casa, antes de tu mexer, tu vai dar git
+[01:36:18] para trazer as novas atualizações que tu
+[01:36:20] fez na empresa.
+[01:36:22] Você trabalhou em casa, antes de ir
+[01:36:24] embora, antes de fechar, você vai dar um
+[01:36:26] git push para mandar de volta, para
+[01:36:29] chegar lá na empresa no outro dia,
+[01:36:31] gitol, trazer os dados. OK? Ficou claro,
+[01:36:35] pessoal? Isso?
+[01:36:37] Então esse fluxo é que a gente tem que
+[01:36:40] entender, né? O fluxo de como tu vai
+[01:36:44] fazer. Nós não precisamos mais saber
+[01:36:46] esses comandos. A gente só tem que
+[01:36:49] entender essa lógica de fluxo para poder
+[01:36:52] trabalhar. Quando você trabalha em
+[01:36:54] equipe também. Então, por exemplo, né,
+[01:36:58] como seria se eu trabalho em equipe,
+[01:37:05] seja direto para não me enrolar muito?
+[01:37:08] Então, nós vamos entender os branch, as
+[01:37:11] cópia, certo?
+[01:37:14] Então aqui ele tá dando já dizendo check
+[01:37:16] out, mine, né, pull, né, depois o push,
+[01:37:20] aquela lógica que eu expliquei para
+[01:37:22] vocês, certo? E aí, né, para ver qual a
+[01:37:26] branch, ou seja, qual é a cópia que tá
+[01:37:29] atualizada, você dá git branch, certo?
+[01:37:33] Então você tem original e as cópia,
+[01:37:37] porque cada um pode tirar uma cópia,
+[01:37:40] trabalhar
+[01:37:41] e depois mandar atualizar. Só que daí
+[01:37:43] você vai ter várias cópias e vai ter uma
+[01:37:46] confusão. Então existe um comando
+[01:37:49] chamado merge, é que ele tenta alinhar
+[01:37:53] se tem uma lógica para quem é que pegou.
+[01:37:56] Por quê? Se cada um pegou uma parte e
+[01:37:58] organizado, cada um mexeu em coisas que
+[01:38:01] não afetam os outros, dá para fazer um
+[01:38:04] merge igual.
+[01:38:06] Se afeta os outros, aí nós temos que
+[01:38:08] resolver esses conflitos,
+[01:38:11] tá legal?
+[01:38:14] Diz a Paula,
+[01:38:16] entenderam essa questão do MERGE e do,
+[01:38:20] né, do do MERGE, principalmente se tu dá
+[01:38:23] consultoria, alguma empresa e tudo onde
+[01:38:25] tem equipe de desenvolvimento ou equipes
+[01:38:28] que trabalham no mesmo projeto, né, eles
+[01:38:31] vão acabar tirando branch, tirando
+[01:38:34] cópias.
+[01:38:36] E o importante é que se eles tirarem
+[01:38:39] cópia e trabalhar isoladamente em partes
+[01:38:42] diferentes, não vai dar conflito.
+[01:38:45] Só que eles, né? Então simplesmente vai
+[01:38:48] ter o merge que vai juntar os branch
+[01:38:51] para a original,
+[01:38:55] certo? Então a cópia original é a
+[01:38:58] consolidada.
+[01:39:01] Tisa tá aí, não ouvi se tu entendeu ou
+[01:39:03] não, que o pessoal vai pedir suporte
+[01:39:06] sobre isso. Ah, tô tendo conflito disso.
+[01:39:09] Certo? Então, o Git simples vai e volta,
+[01:39:13] né? O Git que nós vamos na empresa ou em
+[01:39:17] casa é o Git Pull e Git Push.
+[01:39:20] E o outra parte do Git é as cópias.
+[01:39:24] Então, quando cada um faz, né, uma cópia
+[01:39:28] daquilo lá e várias pessoas estão
+[01:39:30] trabalhando no mesmo projeto, se ele
+[01:39:33] mexer em coisas diferente, é só depois
+[01:39:36] fazer um merge, juntar,
+[01:39:39] certo? Mas se eles tiverem, né, mexendo
+[01:39:43] no mesmo código, imagina tia, tu mexeu
+[01:39:45] no código, eu também, na mesma parte,
+[01:39:48] qual vale mais, né? É por horário, é
+[01:39:51] por, né, importância?
+[01:39:55] Então, eh, isso é é isso que tem que
+[01:39:59] aprender do Git. O que que eu ensinei
+[01:40:01] agora é a parte que normalmente as
+[01:40:04] pessoas não discutem do Git porque só
+[01:40:06] joga, publica, etc. Tá legal? Então,
+[01:40:10] essa é uma parte mais complicadinha da
+[01:40:13] questão do Git, tá? E o resto, pessoal,
+[01:40:17] do Git é bem fácil de configurar. Por
+[01:40:21] exemplo, eu venho aqui no no meu
+[01:40:24] merge, vou no settings.
+[01:40:27] No settings, eu tenho aqui várias
+[01:40:30] coisas, mas o que importa mesmo é SSH. E
+[01:40:34] depois um tal de
+[01:40:37] Ah, cadê você? O page aqui, ó.
+[01:40:42] Quando eu configuro páginas, eu posso
+[01:40:45] fazer com que meu repositório esteja
+[01:40:48] compartilhado,
+[01:40:50] certo?
+[01:40:51] Mas daí é melhor o que que a gente
+[01:40:52] fazer, né? Pegar uma, no caso desse
+[01:40:56] aqui, certo? Promo avatar, certo? Ele é
+[01:41:01] público. Settings.
+[01:41:04] Vamos ver. Ele é público ou não?
+[01:41:07] Aqui embaixo ele é público, ó. Ele é
+[01:41:09] público, então eu posso mudar, vou
+[01:41:12] transformar ele em privado.
+[01:41:15] Mas se ele for público, né,
+[01:41:19] eu posso transformar ele numa página
+[01:41:21] web.
+[01:41:23] Outra coisa, só para ver, é aqui nessa
+[01:41:25] parte aqui onde que eu posso deletar
+[01:41:28] ele, certo? Mas o nosso foco é deixar
+[01:41:32] ele público. Então ele é público. Vocês
+[01:41:34] já viram que ele é público. E quando eu
+[01:41:37] tenho ele público, eu posso vir aqui
+[01:41:39] onde diz page.
+[01:41:43] E nesse page aqui, certo? Eu posso
+[01:41:46] customizar ele aqui para que ele fosse,
+[01:41:50] né, uma página. E dessa página ele tem
+[01:41:53] um comando aqui, certo? que deixa ele
+[01:41:57] automaticamente público. Vocês podem ver
+[01:42:00] que mudou, ó, o meu nome vai na frente,
+[01:42:03] o nome do usuário, pgithub.io.
+[01:42:08] E aí vem o nome do meu projeto.
+[01:42:11] Aqui é o contrário. Gitthub.com.
+[01:42:15] Aqui é ponion.
+[01:42:17] Aqui é pcom. Daí vem o nome do meu
+[01:42:20] usuário aqui. O nome do usuário veio na
+[01:42:22] frente. Aí o projeto. Então aqui é
+[01:42:26] assim, github.com
+[01:42:29] meu usuário/meuprojeto.
+[01:42:33] Aqui para a página é ao contrário. O
+[01:42:36] nome do meu usuáriithub.
+[01:42:40] barra o projeto. Se eu pegar isso aqui
+[01:42:42] agora e copiar
+[01:42:46] e abrir essa página aqui.
+[01:42:50] Opa,
+[01:42:53] ó. Não, eu copiei uma coisa mais na
+[01:42:56] frente,
+[01:42:59] ó. Tá com erro. Por que tá com erro?
+[01:43:02] Porque não foi ativado ela. Mas tem um
+[01:43:05] macete aqui, né, que eu botei um guia.
+[01:43:09] Agora sim. Certo. Então virou uma página
+[01:43:13] aqui, tá? Essa página aqui ela existe
+[01:43:19] por quê? Porque tá dentro do
+[01:43:20] repositório,
+[01:43:22] certo? E eu criei uma uma pasta chamada
+[01:43:25] guia aqui, tá? Ó. E aqui tem um index
+[01:43:30] HTML com aquela apresentação lá,
+[01:43:34] certo?
+[01:43:36] Então tudo que eu tenho no GitHub que é
+[01:43:39] público, eu posso transformar numa
+[01:43:41] pasta,
+[01:43:43] certo? Então, por exemplo, se eu pegar,
+[01:43:47] né, qualquer um dos repositórios meus
+[01:43:50] públicos, eu transformei em pasta,
+[01:43:53] certo? Ó, por exemplo, aqui eu não tenho
+[01:43:56] guia, tá? Porque isso aqui era lá dos
+[01:43:59] antigos. Então, se eu vir no settings
+[01:44:02] inim page,
+[01:44:04] vocês estão vendo? Vocês vão encontrar
+[01:44:06] isso aqui. Vocês tem que tirar de none
+[01:44:09] para main e dizer aonde está o index na
+[01:44:15] raiz,
+[01:44:16] certo? Então, com isso, o que que
+[01:44:19] acontece? Transformei essa página aqui.
+[01:44:22] Então, vamos lá pela regra, ó. Isso aqui
+[01:44:24] é o FEP, ó. github.comds/fep.
+[01:44:30] Se eu venho aqui, né, e botar inema tds,
+[01:44:34] certo?
+[01:44:36] Pgit
+[01:44:39] hub.ioio
+[01:44:42] barra, qual é o meu projeto? F E P.
+[01:44:47] Enter. Eu digitei errado.
+[01:44:51] Git hub.
+[01:44:53] Aqui tá git.
+[01:44:57] github.FEP.
+[01:44:59] Agora sim, enter.
+[01:45:02] Então, os meus cursos que eu deixei open
+[01:45:05] source estão no Git. E eu para que que
+[01:45:09] eu vou levar isso para minha VPS, para
+[01:45:12] um Vcelo, para coisa se isso já é aberto
+[01:45:15] e já tá aqui,
+[01:45:18] certo? Então, dentro do GitHub,
+[01:45:22] a gente aprendeu, uma coisa era jogar os
+[01:45:25] dados para lá e para cá. E agora a gente
+[01:45:28] aprendeu a configurar o GitHub, certo?
+[01:45:32] Para que eu possa ter esse recurso.
+[01:45:36] Então basta eu chegar lá, né, no meu
+[01:45:39] GitHub,
+[01:45:41] cadê você aqui? In settings, né, dentro
+[01:45:44] do meu repositório, ó. Vou vou estar no
+[01:45:47] repositório, tá? Aqui, ó.
+[01:45:49] Aqui, esse texto aqui se chama ridm, tá?
+[01:45:54] Então tem toda uma explicação mais
+[01:45:56] técnica. Então, ah, eu vou atualizar no
+[01:45:59] RIDM, tá aqui, certo? Então, se nós
+[01:46:02] olharmos lá estrutura aqui, ó, tá? Eu
+[01:46:06] tenho um
+[01:46:09] um arquivo ritm aqui, R deve tá em
+[01:46:13] ordem.
+[01:46:15] RST.
+[01:46:20] aqui, ó. Tá? Não tá em ordem alfabética
+[01:46:24] aqui, pelo jeito, tá? Ã, RIDM tá aqui.
+[01:46:28] Esse arquivo é o que aparece aqui. Aqui.
+[01:46:31] Então, você pode colocar nesse arquivo
+[01:46:33] imagens, textos, o que tu quiser. Mas
+[01:46:36] uma página web, certo? É um index. Ó, tá
+[01:46:40] aqui o index.
+[01:46:42] Para mim deixar mais enxuto o os meus
+[01:46:45] projetos.
+[01:46:47] O que que eu fiz? Eu criei uma uma pasta
+[01:46:50] chamado eh guia, certo? Porque daí e aí
+[01:46:55] eu coloquei lá dentro essa configuração
+[01:46:58] do index e outras coisas mais que eu
+[01:47:00] queria, certo?
+[01:47:03] Então com isso, o que que acontece? O
+[01:47:06] FEP tem o RIDM e tem o index, certo? E
+[01:47:12] aí tem todo o conteúdo de curso, como
+[01:47:14] ele é aberto, eu deixei aqui. Se eu
+[01:47:17] quisesse vir aqui e disser que vai ser
+[01:47:19] privado, né,
+[01:47:22] eu torno ele privado, eu não consigo ter
+[01:47:25] página web no GitHub,
+[01:47:28] então eu vou lá no Versel ou em outra
+[01:47:32] ferramenta, certo? Onde que eu vou fazer
+[01:47:35] a publicação dessa página web. Então,
+[01:47:39] vamos imaginar o seguinte. Ah, vocês têm
+[01:47:42] aqui, ó, eu tenho acesso. Se vocês
+[01:47:43] olharem no
+[01:47:48] aqui
+[01:47:50] lá em cima, se vocês vão ver os os
+[01:47:54] projetos que eu tenho, certo? Cliquei
+[01:47:57] aqui, 463 projetos, tem vários projetos
+[01:48:01] privados,
+[01:48:03] certo?
+[01:48:05] Nema busca, por exemplo, ele é público o
+[01:48:09] acesso, mas a estrutura toda é privada.
+[01:48:13] Não tem ritm no caso, porque não tem que
+[01:48:15] exibir para ninguém, é só para mim. Tem
+[01:48:17] documentação aqui dentro, tem os docs
+[01:48:20] meus, tem backup, tem isto, tem aquilo,
+[01:48:23] tá tudo aqui dentro. Certo? Só que o que
+[01:48:26] acontece, esse index aqui, mesmo que tu
+[01:48:29] digita lá, não vai est público. Por quê?
+[01:48:32] Porque foi clicado aqui como privado,
+[01:48:36] certo? Ó, é privado.
+[01:48:40] E aí o que que eu faço? Eu vou lá no
+[01:48:42] GitHub, aliás, no Versel. Então é um
+[01:48:46] outro sistema chamado Vercel,
+[01:48:50] certo?
+[01:48:53] Ó.
+[01:48:55] E dentro do Verscel,
+[01:48:59] ó, eu tenho inúmeros projetos, tá?
+[01:49:04] Inúmeros projetos configurados aqui.
+[01:49:07] Cerbo VIP, o inema, apagamento, todas
+[01:49:10] essas coisas. Eu tenho uma cópia aqui,
+[01:49:12] eu tenho uma cópia num outro repositório
+[01:49:14] já de para por segurança, certo? Que se
+[01:49:17] der uma pan errar, né, vazar a senha ou
+[01:49:20] coisa assim. Então aqui eles são
+[01:49:23] privados. O que que eu preciso fazer
+[01:49:25] para criar um novo projeto?
+[01:49:28] Eu venho, ó, no repositório, tudo que eu
+[01:49:31] criar lá tá disponível aqui.
+[01:49:35] Então, por exemplo, que nem eu tenho
+[01:49:37] portal, eu tenho os públicos e os
+[01:49:39] privados,
+[01:49:40] certo? Então, qualquer projeto que tá
+[01:49:43] disponível, eu posso vir importar.
+[01:49:48] E aí, o que que eu tenho que preocupar
+[01:49:50] aqui com duas coisas? Uma é aonde está o
+[01:49:54] index, aonde tá a página principal, que
+[01:49:57] diretório. Então ele procura no root, na
+[01:50:01] raiz. Se você não definir, você pode vir
+[01:50:05] aqui e dizer aonde que ele tá, certo?
+[01:50:08] Você configura isso na hora de criar. A
+[01:50:12] segunda opção é você definir as
+[01:50:15] variáveis de ambiente. Por exemplo, aqui
+[01:50:19] o que que eu tenho? a chave antrópica, a
+[01:50:21] chave do, né, do gate e do e assim por
+[01:50:25] diante. Então, tudo que eu tenho, ó,
+[01:50:27] Telegram, o token, tudo que você tiver
+[01:50:30] de chaves, você configura aqui. Por quê?
+[01:50:35] Aí vem uma explicação.
+[01:50:38] No GitHub, quando você joga, ele não
+[01:50:41] leva nenhuma chave,
+[01:50:44] né? Ele leva todo o teu código, leva
+[01:50:46] tudo mesmo na parte privada para não ter
+[01:50:50] vazamento e não ter responsabilidade do
+[01:50:53] GitHub sobre dados sensíveis.
+[01:50:57] Então o que que tu faz? Você pega todas
+[01:50:59] essas chaves que nós configuramos de
+[01:51:02] API, de banco de dados e tudo mais. E
+[01:51:05] quando você importa no Versel, certo?
+[01:51:09] Você tem uma área de ambiente para
+[01:51:11] configurar,
+[01:51:13] certo?
+[01:51:15] Então esse é é o processo que eu mostro
+[01:51:17] para vocês,
+[01:51:20] tá legal? Então, todo o procedimento,
+[01:51:24] né, que nós temos é desenvolver code,
+[01:51:28] jogar pro GitHub,
+[01:51:30] é público, tá tudo bem, podemos
+[01:51:33] transformar em página e tudo mais. É
+[01:51:36] privado, eu vou ter que ter uma, né, uma
+[01:51:39] outra ferramenta para importar e
+[01:51:41] publicar essa página ou esse sistema.
+[01:51:44] E aí que entra, nem tudo roda no Versel,
+[01:51:48] certo? Então o que não roda no Verscel,
+[01:51:50] talvez você vai ter que rodar numa web
+[01:51:53] page pessoal dentro da tua VPS,
+[01:51:57] certo? Então eu tenho um sistema lá que
+[01:52:00] tá rodando esses, né, essa esse
+[01:52:06] promovatar que é publicação de rios em
+[01:52:09] massa. Ele não roda no Versel, ele tem
+[01:52:13] que rodar numa máquina que tem a
+[01:52:14] capacidade de rodar programas. Então eu
+[01:52:17] vou pra VPS, então eu faço o meu
+[01:52:19] projeto. Ó, vocês têm promovatar, né?
+[01:52:23] Não adianta levar o promovatar pro
+[01:52:25] Versel, ele não vai rodar lá. Ele não é
+[01:52:27] uma página, ele é um sistema. Então eu
+[01:52:31] tenho que levar ele para onde? Pro
+[01:52:33] GitHub, para uma VPS.
+[01:52:36] Então lá na VPS que eu tô rodando, eu
+[01:52:39] tenho que fazer um clone, certo? E
+[01:52:42] mandar instalar, executar,
+[01:52:46] tá legal?
+[01:52:49] Então, a ideia minha amanhã é mostrar
+[01:52:52] para vocês essas duas coisas: rodar
+[01:52:55] alguma coisa, né?
+[01:52:57] no Verscel, como rodar uma coisa na
+[01:53:00] minha na minha VPS e como configurar um
+[01:53:04] banco de dados e entender do banco de
+[01:53:07] dados ali, certo?
+[01:53:10] Beleza?
+[01:53:13] Então, o nosso processo é isso aí,
+[01:53:16] certo? Quando as pessoas aprendem vibe
+[01:53:20] code, elas aprendem só escrever para
+[01:53:23] dizer criar um sistema. Mas antes de
+[01:53:26] criar esse sistema, antes de dizer o que
+[01:53:28] tu quer, tu tem que pensar em
+[01:53:30] infraestrutura.
+[01:53:33] Então, quando eu tô tentando ensinar
+[01:53:35] pras pessoas, certo, o que que é Vibe
+[01:53:38] Code do zero, não é escrever o Vibe
+[01:53:42] Code. E eu sei que isso vai ser uma
+[01:53:44] frustração para muita gente, porque ele
+[01:53:47] quer simplesmente escrever e a coisa
+[01:53:49] acontecer,
+[01:53:51] certo? Só que nós temos que pensar numa
+[01:53:55] infraestrutura antes, entender a
+[01:53:57] infraestrutura,
+[01:54:01] tá beleza?
+[01:54:05] Dentro do que eu expliquei aqui, o que
+[01:54:07] vocês querem que eu explico de novo,
+[01:54:09] melhor e tudo, né?
+[01:54:13] Me me digam aí.
+[01:54:47] Oh. Eu p
+[01:54:51] &gt;&gt; pode falar, voltei, depois eu falo.
+[01:54:54] &gt;&gt; Eu perinte aula, como sempre, eu eu
+[01:54:57] entendi. V a aula tá gravada.
+[01:54:59] &gt;&gt; Sim, ela eu já tá gravado no YouTube,
+[01:55:02] tá?
+[01:55:03] &gt;&gt; Ah, tá.
+[01:55:04] &gt;&gt; Eu vou até compartilhar com vocês aí.
+[01:55:07] H, o Tiza pode compartilhar também ali e
+[01:55:11] depois eu vou colocar esse o link do
+[01:55:13] YouTube, eu coloco sempre aqui, ó,
+[01:55:16] dentro, por exemplo, assim, como isso,
+[01:55:18] por que que eu não botei no Codex, no
+[01:55:20] Vibe Code, tudo? Porque a base de
+[01:55:22] desenvolvimento vale para tudo. Então,
+[01:55:25] eu já tenho aqui, ó, da semana passada o
+[01:55:29] Vibecode do Zero, que estão aqui os
+[01:55:32] conteúdos daquela gravação de dois dias,
+[01:55:35] tá? é o dia 1 e dia 2, tá?
+[01:55:41] Então eu tenho aqui, ó, aqui tá a
+[01:55:42] gravação,
+[01:55:44] tá? E eu vou botar aqui embaixo a
+[01:55:46] gravação de hoje, tá? Então, no caso
+[01:55:50] aqui do dia primeiro, que é essa parte
+[01:55:52] de infraestrutura, que é o que que eu tô
+[01:55:54] querendo ensinar, a infraestrutura do
+[01:55:56] ambiente, as pastas, o SSH, né? A
+[01:56:00] instalação do cloud Code, do Codex, o
+[01:56:03] Git, certo? E aí, né, a parte do Versel,
+[01:56:09] tá, que ela já começa hoje porque é
+[01:56:12] aquela parte de compartilhamento
+[01:56:14] privado, tá? Então, eu não quero que as
+[01:56:17] pessoas tenham acesso porque eu tenho
+[01:56:19] informações da da estrutura que eu
+[01:56:22] tenho, né? Eu não quero compartilhar meu
+[01:56:25] código, então eu coloco no Git como
+[01:56:27] privado. Eu não pago nada,
+[01:56:31] assim como eu não pago nada no Verscelo
+[01:56:33] enquanto não tiver volume.
+[01:56:40] Entendeu? Então é só para passar para
+[01:56:44] vocês. Então o que que é hoje que eu
+[01:56:46] quero ensinar bem essa parte inicial que
+[01:56:49] nós temos, certo? Vocês viram o macete
+[01:56:52] que eu dei do SSH de com, né, quando,
+[01:56:55] ah, você tá na VPS e você não tem acesso
+[01:56:59] lá algum recurso que tu tem no teu PC,
+[01:57:02] você pode fazer o tunelamento,
+[01:57:04] né, o aquele comando de túnel. Então,
+[01:57:08] vocês viram, deu problema já foi bom,
+[01:57:11] porque eu consegui já mostrar para
+[01:57:12] vocês, né? Então, a importância da base
+[01:57:16] é estrutura de arquivo, o SSH, o Git,
+[01:57:21] certo? E o caso Migrando para Versel,
+[01:57:25] VPS, etc. E amanhã o que que a gente vai
+[01:57:29] focar em entender um pouco mais da
+[01:57:31] estrutura de banco de dados de VPS,
+[01:57:39] tá bom?
+[01:57:42] Bom, se ninguém tem mais pergunta para
+[01:57:45] mim, eu vou continuar aqui avançando um
+[01:57:47] pouco mais para explicar sobre o uso.
+[01:57:51] Deixa eu abrir uma, eu abri essa tela
+[01:57:53] aqui. Oi.
+[01:57:57] &gt;&gt; O SSH, ele vai ser sempre o mesmo para
+[01:58:00] todos os projetos que eu criar ali
+[01:58:02] dentro?
+[01:58:03] &gt;&gt; Sim. E não, tá? Ó, lembra daquilo que eu
+[01:58:07] falei? No meu caso, eu poderia criar um
+[01:58:11] SSH com uma chave diferente para cada
+[01:58:14] ambiente. Por exemplo, eu criei aqui do
+[01:58:16] Eliseu,
+[01:58:18] certo? Por quê? Porque lá naquele curso,
+[01:58:21] naquela imersão que a gente fez, como
+[01:58:24] ele não tinha VPS, eu criei uma VPS para
+[01:58:26] ele e eu não ia col,
+[01:58:29] &gt;&gt; mas no meu caso, por exemplo, que eu sou
+[01:58:31] uma pessoa que vou usar sempre eu com o
+[01:58:34] meu
+[01:58:35] o meu login e tudo, ele fica registrado
+[01:58:38] com [roncando]
+[01:58:40] &gt;&gt; tudo depende.
+[01:58:42] &gt;&gt; Tudo dependeudar
+[01:58:45] isso,
+[01:58:45] &gt;&gt; ó. Veja só, tu poderia est criando um
+[01:58:48] uma SSH e pegar aquela chave pública e
+[01:58:53] botar em tudo que lugar ela. Então, o
+[01:58:56] que que ela vincula o teu PC,
+[01:58:59] certo?
+[01:59:01] Com todos os as as interfaces que tu
+[01:59:05] tem,
+[01:59:07] OK?
+[01:59:08] Só que tu podia dizer assim: "Não, por
+[01:59:11] segurança, como eu tenho meus filhos que
+[01:59:13] mexem no PC, que mexem nisso e tudo, né?
+[01:59:17] Eu vou separar isso, eu vou ter uma
+[01:59:20] chave, certo?
+[01:59:22] Para quando é VPS,
+[01:59:25] diferente da chave que eu uso com o Git,
+[01:59:31] mas vai ficar transparente igual.
+[01:59:35] Vamos imaginar o seguinte. Teve
+[01:59:38] vazamento
+[01:59:39] do do GitHub,
+[01:59:44] certo? A chave que privada e e e pública
+[01:59:49] do GitHub tu vai atualizar,
+[01:59:52] mas tu não vai atualizar as chaves da
+[01:59:55] tua VPS.
+[01:59:59] Então tanto faz. É mais numa estrutura
+[02:00:02] de planejamento de chave e tudo.
+[02:00:08] Então, desse cara aqui, ó, eu tenho
+[02:00:11] várias, ó. Eu tenho do Inema Club
+[02:00:14] separado. Eu tenho quando eu crio para
+[02:00:16] alguém, eu crio ela separado.
+[02:00:23] Isso que eu não uso, esse meu, esse PC
+[02:00:25] aqui eu não uso, né, para
+[02:00:30] ultimamente paraas imersões, eu tenho
+[02:00:32] outro, né? Então, por isso nem aparece
+[02:00:34] um monte de outras chaves aqui.
+[02:00:39] Mas a princípio, tia, tu cria uma chave
+[02:00:43] e compartilha essa chave em todos os
+[02:00:46] sistemas que tu vai usar.
+[02:00:49] Só que é um detalhe, você tá na tua
+[02:00:52] máquina fazendo isso. Se tu for agora na
+[02:00:55] outra máquina lá do teu menino,
+[02:00:59] eh, você tem que fazer a mesma coisa.
+[02:01:03] tem que criar uma chave daquela lá,
+[02:01:07] tá? A chave SSH é da onde que você tá
+[02:01:11] com o teu destino.
+[02:01:15] Então, para não complicar a vida de todo
+[02:01:17] mundo, cria uma só e aos poucos ele vai
+[02:01:20] pensando em estratégia de usar mais de
+[02:01:23] uma,
+[02:01:26] tá?
+[02:01:28] Por isso que quando eu tô demonstrando,
+[02:01:30] eu uso o meu PC que não tem nada de, né?
+[02:01:34] A as coisas, as chaves de segurança
+[02:01:36] estão lá na minha VPS,
+[02:01:40] onde que eu não demonstro, né?
+[02:01:44] Tá legal?
+[02:01:47] Bom,
+[02:01:49] &gt;&gt; oi.
+[02:01:51] &gt;&gt; Você não pode depois pegar essas
+[02:01:56] essas live, né, essas master e botar num
+[02:02:00] mini curso daquele lá? Não,
+[02:02:02] &gt;&gt; deixa eu não, eu não entendi.
+[02:02:06] &gt;&gt; Você não pode pegar essas lives, por
+[02:02:08] exemplo, do Vibing desde o início, como
+[02:02:10] você tá dando e colocar lá, porque elas
+[02:02:12] estão atualizadas, né, numa sequência
+[02:02:15] mais enxuta, tipo os cursos, né, que a
+[02:02:19] gente tem lá.
+[02:02:21] &gt;&gt; Sim, eu eu sim, eu vou fazer isso agora,
+[02:02:24] mas eu tô, por exemplo, assim, eu tô
+[02:02:26] consolidando, né? E se vocês vão
+[02:02:30] observar,
+[02:02:32] olha só, deixa eu abrir.
+[02:02:39] Hoje se a gente vai pegar aqui, ó,
+[02:02:44] tá?
+[02:02:46] Se eu vou pegar, por exemplo, aqui, eu
+[02:02:48] tenho aqui algumas playlist, tá?
+[02:02:52] Então, eu tenho a playlist aqui dos
+[02:02:56] do curso aquele do agentes, tá?
+[02:03:01] Hoje, se tu pegar essa playlist, tu
+[02:03:03] poderia pegar os conteúdos todos que tu
+[02:03:06] tem dela e fazer transcrição, certo?
+[02:03:11] Então, com a transcrição, nós temos
+[02:03:14] acesso a tudo,
+[02:03:16] né, a todo esse conteúdo aí.
+[02:03:19] Eu
+[02:03:21] não sei se é isso que tu tá querendo
+[02:03:23] dizer.
+[02:03:25] &gt;&gt; Sim, mas é que você, por exemplo, você
+[02:03:27] com essa transcrição, você tem aquela
+[02:03:29] skill tu aí que você coloca ele gera o o
+[02:03:32] curso.
+[02:03:33] &gt;&gt; Sim. Uhum. [limpando a garganta]
+[02:03:34] &gt;&gt; Entendeu? É mais fácil, né?
+[02:03:36] &gt;&gt; Sim. É, é que também eu não tô gerando
+[02:03:38] esse e os cursos agora porque eu tô
+[02:03:41] gastando muitos créditos e um curso ele
+[02:03:44] gasta muito créditos,
+[02:03:48] entendeu?
+[02:03:52] Tá,
+[02:03:53] &gt;&gt; mas eu vou fazer isso, né? Mas eu eu tô
+[02:03:56] dando um tempo porque eu tô com muito
+[02:03:59] conteúdo aí para fazer e daí eu tô
+[02:04:01] gastando muito crédito nisso, mas senão
+[02:04:04] a a transcrição já vai ajudar bastante,
+[02:04:06] né?
+[02:04:10] &gt;&gt; Ah, tá beleza.
+[02:04:11] &gt;&gt; Uhum.
+[02:04:13] Tá. Deixa eu então continuar aqui que eu
+[02:04:15] queria mostrar para vocês o seguinte.
+[02:04:17] Deixa eu só ver se é aqui que eu tô.
+[02:04:20] Sim. Não, não é o TDS que eu quero. Eu
+[02:04:22] quero essa aqui. Olha só, se eu entrar
+[02:04:25] aqui no Verscel,
+[02:04:27] Verscel,
+[02:04:30] certo? Que que eu vou fazer? Eu vou me
+[02:04:33] cadastrar. Eu não sei se eu tenho um
+[02:04:35] loguinho ou não aqui. Então vamos lá.
+[02:04:38] Continuar como Google.
+[02:04:41] Usuário novo. Ó, que que ele precisa?
+[02:04:43] Ele precisa que tu se identifique com o
+[02:04:45] telefone. Cada vez mais eles estão
+[02:04:48] colocando isso. Então eu preciso me
+[02:04:52] criar uma identificação única. Então se
+[02:04:55] você tiver várias contas, que nem eu
+[02:04:57] tenho aqui muitas contas, né? Você já
+[02:05:00] pode fazer isso em cada uma delas,
+[02:05:04] né? Então, ah, deixa eu ver só. Essa
+[02:05:07] aqui é o quê? O FTD.
+[02:05:12] Deixa eu ver se eu não tenho já ele.
+[02:05:15] Deixa eu voltar aqui.
+[02:05:25] Voltar aqui, Git. Deixa eu ver,
+[02:05:30] ó. Eu entrei como não como Google e sim
+[02:05:34] como
+[02:05:35] ã GitHub.
+[02:05:38] Autorizando.
+[02:05:43] Tá, já tá associado. P p pã.
+[02:05:59] É, continua. querendo, ó, ele não tinha
+[02:06:02] isso, agora eles estão botando o
+[02:06:04] telefone também. A Versel tá fazendo
+[02:06:06] isso, então não vou botar o telefone
+[02:06:09] agora que eu não nem sei qual o telefone
+[02:06:11] eu usaria aqui.
+[02:06:16] Hum, deixa eu ver. Então, esse aqui eu
+[02:06:20] queria pegar um novo aí para mostrar
+[02:06:22] para vocês do zero.
+[02:06:28] Vamos ver agora se esse aqui eu consigo.
+[02:06:37] Versel.
+[02:06:45] Ó, isso aqui eu já consegui entrar
+[02:06:46] direto, tá?
+[02:06:51] Ó, vocês vocês olharem aqui, eu tenho já
+[02:06:53] um monte de projetos rodando aqui,
+[02:06:57] certo?
+[02:06:59] Só que ele tá dizendo que foi pausado,
+[02:07:03] certo? Por quê? Porque estourou aqui, ó.
+[02:07:06] Eu passei de 1 milhão
+[02:07:09] de acessos aqui. Tem 1.100. Então, ele
+[02:07:13] quer que eu faça o upgrade,
+[02:07:15] certo?
+[02:07:17] Ó, tá vendo
+[02:07:20] aqui dó aqui eu eu tenho não tenho
+[02:07:23] problema. Então o que que eu queria
+[02:07:24] mostrar para vocês é justamente isso,
+[02:07:27] que vocês têm um limite gratuito, não
+[02:07:31] importa quantos projetos criam, certo?
+[02:07:35] Mas tu tem um limite gratuito.
+[02:07:38] Então, se eu não pegar e atualizar isso
+[02:07:41] aqui, tá? Eu não posso, ele não pode
+[02:07:44] mais funcionar. Então ele começa a dar
+[02:07:46] erro geral aqui em função disso, certo?
+[02:07:51] Então ou tu espera um mês baixar o
+[02:07:53] tráfego, certo? E voltar ao normal, ou
+[02:07:57] você faz o upgrade aqui,
+[02:08:00] certo?
+[02:08:02] Então verificam sempre isso aqui. Claro
+[02:08:05] que aqui foi um volume muito grande que
+[02:08:07] eu tenho de acesso aqui, tá?
+[02:08:11] Mas, né, eh, paraa maioria das pessoas,
+[02:08:16] o uso é tranquilo do Verscel,
+[02:08:19] mas se tu crescer, quanto é que é o
+[02:08:21] upgrade? Ah, vamos ver.
+[02:08:24] Tá.
+[02:08:28] Hum. Aqui não diz, mas é em torno de 20.
+[02:08:31] Ah, 20 aqui, ó. Tá?
+[02:08:37] Então tu tem 20 que tu gastaria para ter
+[02:08:41] um repositório, uma página privada.
+[02:08:44] Aonde mais eu posso ter isso? Se você
+[02:08:47] for nas VPS, que nem a Hostinger, ela te
+[02:08:50] dá hospedagem, né, no pacote ou muitas
+[02:08:54] vezes pagando a parte. Então também são
+[02:08:57] alternativas que tu tem nas VPS. Hosting
+[02:09:02] Gen, por exemplo, tá? Deixa eu ver se
+[02:09:06] fala aqui de preço assim para vocês
+[02:09:08] terem uma ideia,
+[02:09:12] tá? Então aqui, ó, quando nós olharmos
+[02:09:15] em produto, eu tenho hospedagem,
+[02:09:19] certo? Mas que tipo de hospedagem que eu
+[02:09:21] quero? VS é uma coisa, hospedagem de
+[02:09:26] site é outra coisa, hospedagem
+[02:09:28] gerenciada por Word Express, um blog,
+[02:09:32] certo? Hospedagem de página web. mais
+[02:09:35] com a PP que nem a Versel, certo? Então
+[02:09:39] isso aqui, né, é simples, isso aqui é um
+[02:09:42] pouco mais complexos, certo? Então, né,
+[02:09:47] a ideia é que você possa est trabalhando
+[02:09:50] dessa forma, mas quanto é que é esse
+[02:09:52] valor, certo? É diferente, talvez de
+[02:09:57] outras formas. Quando você tem uma VPS,
+[02:10:00] você tem um servidor privado para ti, só
+[02:10:03] que é um servidor virtual, por isso é
+[02:10:06] VPS, server private virtual, certo? Aqui
+[02:10:12] ele já tem aqui servidores gerenciado
+[02:10:15] por IA,
+[02:10:17] certo? E uma coisa que a gente tem que
+[02:10:18] entender, um servidor de VPS, ele é CPU,
+[02:10:23] certo? A diferença de CPU e GPU é quando
+[02:10:27] eu quero rodar uma IA,
+[02:10:30] eu preciso ser GPU, que é sistemas
+[02:10:35] gráficos de matemática, de muito
+[02:10:37] cálculo. Então o custo muitas vezes de
+[02:10:40] uma VPS é em torno de 10. Vamos
+[02:10:44] arredondar para baixo, certo?
+[02:10:47] muitas vezes pro site, né, é
+[02:10:51] ó ou nem isso.
+[02:10:53] Então, depende do que que você tá
+[02:10:56] hospedando dentro das empresas. Agora,
+[02:10:59] se eu tivesse que usar uma uma VPS
+[02:11:04] para inteligência artificial, aí eu
+[02:11:07] posso est usando o replicate
+[02:11:13] comom, por exemplo,
+[02:11:16] certo? E aí eu alugo por hora. Então
+[02:11:19] preço aqui, ó. Certo? Então se eu olhar
+[02:11:23] os preços, o que que eu quero ver? Deixa
+[02:11:26] eu ver se eu acho eles aqui.
+[02:11:30] Aqui ele tá me oferecendo aqui, ó,
+[02:11:33] software, certo? Mas eu não quero
+[02:11:36] software, eu quero hardware. Então, ó,
+[02:11:40] como CPU, ele eu pago quanto a hora?
+[02:11:44] Então é 9 centavos a hora, certo? Né?
+[02:11:49] Por segundo eu pago, né? 0 em segundos.
+[02:11:55] Então esse é o custo que eu tenho de
+[02:11:57] CPU, né? Aqui eu tenho nove e aqui eu
+[02:12:00] tenho, né? Dois tipos de CPU aqui com 2
+[02:12:04] GB, com 8 GB, com tanta CPUs. Então só
+[02:12:08] vamos calcular aqui quanto seria,
+[02:12:11] quanto é que é.
+[02:12:15] Vamos botar cálculo.
+[02:12:18] Calculadora
+[02:12:21] se é 9,
+[02:12:23] opa,
+[02:12:26] 0 V
+[02:12:28] 0 64.
+[02:12:32] Isso é muito caro aqui. Mas eles
+[02:12:35] oferecem também GPU,
+[02:12:38] tá? Então GPU o que que é? Já é 5 a
+[02:12:41] hora.
+[02:12:43] Certo?
+[02:12:47] Aqui tem uma tal de Nvidia T4 GPU,
+[02:12:51] já tá um valor mais baixo, então eu
+[02:12:53] teria que estudar qual é a solução. Mas
+[02:12:57] olha só, ã, para rodar certas coisas que
+[02:13:01] nem esses dias, né, ó Carlos, ah, eu
+[02:13:04] quero rodar um K3, quanto é que eu
+[02:13:06] preciso? Tá? Preciso quatro, né? A 100
+[02:13:10] para poder rodar ele. Então, né? Vamos
+[02:13:12] limpar aqui e botar por hora. São 5 x 4
+[02:13:18] são 20
+[02:13:20] vezes, né? 24.
+[02:13:28] Então são 14.000 que eu gasto por mês
+[02:13:32] para ter uma máquina para rodar aquilo
+[02:13:34] lá. Só que tem gente que faz isso e diz:
+[02:13:38] "Olha, é qu 14.000 que eu vou ter para
+[02:13:41] rodar isso, para rodar uma aplicação,
+[02:13:44] que é aquilo que vocês viram aqui. Então
+[02:13:46] são gente pegando e colocando o fluxo,
+[02:13:49] né? O fluxo deve, certo? Ele cobra um
+[02:13:53] valor por imagem porque ele tá ganhando
+[02:13:57] em cima. Isso aqui é um software ofs,
+[02:14:01] certo? Então ele alugou uma máquina
+[02:14:04] poderosa, colocou uma interface e as
+[02:14:08] pessoas vêm aqui e usam para criar
+[02:14:10] vídeo, para criar imagem, para criar,
+[02:14:15] né, alguma coisa aqui dentro, certo?
+[02:14:18] Então, a replicate tem isso. Se nós
+[02:14:21] vamos ver a hug face,
+[02:14:25] que é aquele repositório,
+[02:14:29] ó, Hug Face,
+[02:14:33] que é um repositório também, tá? Onde
+[02:14:37] que eu tenho
+[02:14:39] os spaces aqui, eu posso usar os spaces
+[02:14:43] eu comprar spaces, certo? Então também
+[02:14:46] tem preços aqui, ó. Tá? E aí tu começa,
+[02:14:51] o que que tu tá comprando? Ah, tô só
+[02:14:53] comprando uso, né, de recursos privados.
+[02:14:57] Não, eu quero comprar máquina. Então,
+[02:15:00] GPU on demand, né? Quanto é que é?
+[02:15:04] Então, ó, CPU básica, ó, eles estão te
+[02:15:07] dando de graça aqui, certo?
+[02:15:10] Agora, se eu quiser, né, o upgrade é
+[02:15:14] tanto valor, ó, é três, é mais barato lá
+[02:15:17] do que o outro que era nove, certo? Só
+[02:15:19] que lá o nove era dois, aqui tá muito
+[02:15:22] barato, ó. É aquela que ele cobrava 5
+[02:15:27] meio dólar.
+[02:15:29] E aí, zero GPU, eu posso testar coisas
+[02:15:32] aqui, ó, free,
+[02:15:34] e eu posso ir pagando. Então, veja, na
+[02:15:38] medida que vocês vão dominando vibe
+[02:15:40] code, dominando soluções, vocês podem
+[02:15:43] estar observando que tem muitas empresas
+[02:15:46] com soluções, certo? Que te dão de
+[02:15:50] graça, mas na medida que tu vai
+[02:15:51] consumindo, certo? você pode tá pagando,
+[02:15:56] né, por hora, no caso aqui. Daí tem que
+[02:16:00] sempre ver as limitações do free, né? O
+[02:16:04] que que tu pode fazer, o que que tu pode
+[02:16:05] rodar, para que que é, né?
+[02:16:09] Então são várias coisas e isso aqui é o
+[02:16:12] Hug Face é bancado pela Microsoft, né?
+[02:16:15] Então tem um interesse provavelmente
+[02:16:18] dela entender, ganhar com isso,
+[02:16:21] tá? Beleza, pessoal? tão só buscando
+[02:16:23] sobre quando a gente fala de VPS, de
+[02:16:26] infraestrutura,
+[02:16:28] né, de CPU e de GPU, de hospedagem de
+[02:16:32] site, de hospedagem com algumas, né,
+[02:16:35] alguns recursos que nem o Node, né, e
+[02:16:38] outras coisas mais para poder tá rodando
+[02:16:42] isso aí. Então, eh, quando nós pegamos o
+[02:16:46] Versel e a gente vai criar um novo
+[02:16:49] projeto, certo? E aí eu diria, eu quero
+[02:16:53] pegar e importar do meu Git Hub, tá?
+[02:16:58] Então ele já se conectou, eu tenho que
+[02:17:00] instalar aqui um, né, um recurso para
+[02:17:03] importar,
+[02:17:05] tá? Eu me assinalo aqui, OK, né? É. A E
+[02:17:13] aí ele quer verificar via e-mail. Eu vou
+[02:17:16] receber agora uma chave aqui.
+[02:17:21] Então, é aquela integração que eu tenho
+[02:17:23] que fazer aqui via e-mail. Deixa eu ver
+[02:17:26] se eu recebi aqui,
+[02:17:29] ó. Ele me deu um código.
+[02:17:32] Então, eu tô integrando o meu GitHub com
+[02:17:35] a Versel,
+[02:17:38] tá?
+[02:17:48] Verificando.
+[02:17:50] Pronto, você tá integrado os dois,
+[02:17:54] certo? Eu não tenho nenhum repositório
+[02:17:57] lá. Então, no meu GitHub aqui, ó,
+[02:18:02] Git Hub.
+[02:18:07] Certo?
+[02:18:10] Ó, eu não tenho nada aqui.
+[02:18:17] Inema DB.
+[02:18:21] Eu tô no inema DB ou não?
+[02:18:25] BD. É BD. Tá.
+[02:18:32] Ó, eu não tenho nada,
+[02:18:35] então vou para fazer criar o
+[02:18:37] repositório, clicar em repositório, unir
+[02:18:40] repositório.
+[02:18:42] E agora vamos criar o primeiro, lembra?
+[02:18:44] VC
+[02:18:47] 1208.
+[02:18:49] Pronto, ó. Tá liberado, sim. Ele é
+[02:18:52] público ou privado? público, certo? E
+[02:18:55] vamos lá criar o repositório.
+[02:18:58] Podia botar descrição, etc. e tudo.
+[02:19:01] Agora esse repositório tá criado e eu
+[02:19:04] podia ir lá no meu projeto que eu tô
+[02:19:07] criando lá, lembra,
+[02:19:10] né? CD
+[02:19:13] VC.
+[02:19:17] Imagina que eu tenho aqui já criado
+[02:19:19] coisas. Então, que que eu poderia fazer?
+[02:19:22] poderia dar um, né, um comando, jogar
+[02:19:25] ele todo aqui, né, criar um
+[02:19:30] nano
+[02:19:32] espaço
+[02:19:34] index
+[02:19:36] HTML.
+[02:19:37] Enter.
+[02:19:39] Página web
+[02:19:43] criada, tá? Control O, enter, contol X.
+[02:19:50] Então vocês viram agora eu tenho Nano, é
+[02:19:52] uma ferramentinha de editar alguma coisa
+[02:19:55] dentro, né, do Linux lá. Se eu fizer
+[02:19:59] isso e agora entrar aqui e disser: "Eu
+[02:20:02] quero fazer um git, tá? Push,
+[02:20:11] certo? aqui para esse repositório. Vocês
+[02:20:14] vão ver que existe algumas dicas que
+[02:20:17] você teria que ter antes, mas só para
+[02:20:19] mostrar, eu queria só jogar ele para lá.
+[02:20:23] Que que ele vai dizer? Esse repósito não
+[02:20:26] tem, não tem Git, porque eu teria que
+[02:20:29] fazer aqueles procedimentos de NIT,
+[02:20:31] certo?
+[02:20:33] Ó, então não é bem assim, né? Eu preciso
+[02:20:37] fazer, então por isso que com o Cloud,
+[02:20:40] com o Codex aqui, ó.
+[02:20:42] Se eu abrir o codex aqui,
+[02:20:45] vai ser muito mais fácil eu dizer assim:
+[02:20:48] "Quero atualizar
+[02:20:51] este repositório
+[02:20:54] no Git,
+[02:20:56] certo? Esse cara aqui, certo?
+[02:21:01] E aí
+[02:21:03] lá vamos nós.
+[02:21:06] Ele vai tem que ter toda. Ah, mas eu
+[02:21:08] tenho, eu tenho usuário, eu tenho senha,
+[02:21:12] certo? Eu tenho que ter tudo feito isso
+[02:21:15] antes. E isso não foi feito para quem?
+[02:21:19] Para esse usuário, porque eu tava me
+[02:21:21] logando com outro usuário. Então, essas
+[02:21:23] confusões iniciais que se tu não tiver o
+[02:21:27] SH configurado não vai rolar.
+[02:21:30] Certo?
+[02:21:32] Então aí ele já tá me dando, ó, não
+[02:21:34] consegui publicar ainda porque o GH não
+[02:21:37] tá instalado, certo? Né? Ã, a pasta
+[02:21:41] contém apenas e, né? O index HTML não
+[02:21:46] tem nenhum ponto git para mim saber o
+[02:21:48] que que tem, certo?
+[02:21:51] E, né, instale autentique o git CLI.
+[02:21:56] Então, ele mandou fazer essa instalação
+[02:21:58] primeira.
+[02:22:00] Então, além do Git, nós temos o GH
+[02:22:03] também, que é um outro recurso que se
+[02:22:06] chama GitHub. Então, eu vou vir aqui,
+[02:22:10] certo? Copiar isso aqui.
+[02:22:14] [limpando a garganta]
+[02:22:15] Oi, alguém chamou?
+[02:22:20] &gt;&gt; Tá. Então, o que que eu vou fazer, ó? Eu
+[02:22:24] vou sair fora aqui. E aqui eu daria
+[02:22:27] aqueles comandos de ele sempre dá sudo,
+[02:22:31] aptalo,
+[02:22:33] update, tudo. Ele tá mandando fazer esse
+[02:22:36] esse procedimento lá,
+[02:22:40] ó. Tá, ele tá instalando o GH que eu não
+[02:22:43] tinha, eu tinha só o Git,
+[02:22:47] tá?
+[02:22:48] Daí, certo?
+[02:22:52] Você
+[02:22:57] quer autenticar? Sim.
+[02:23:00] Qual é o login que tu vai fazer? Daí de
+[02:23:03] novo, aquele mesma lógica, certo? Ó, daí
+[02:23:07] ele vai pegar esse código lá que eu
+[02:23:10] tenho que botar lá no browser,
+[02:23:13] né?
+[02:23:16] E eu tenho que ver se ele abriu o
+[02:23:18] browser.
+[02:23:21] Ó, conte GitHub
+[02:23:23] que tã, você quer login ent browser?
+[02:23:27] Sim. Como você vai autenticada? Ele é a
+[02:23:30] primeira cópia disso. Enter.
+[02:23:34] Ó, e ele não encontrou nada dos links
+[02:23:36] para mim porque eu não tenho o navegador
+[02:23:40] lá.
+[02:23:41] Mas como eu posso ter, né, o
+[02:23:46] ter feito aquele
+[02:23:50] aquela
+[02:23:53] aquele túnel, né? Pode ser que eu
+[02:23:56] consigo me logar lá. Então esse
+[02:23:59] procedimento que eu queria dizer que é é
+[02:24:01] as complicações.
+[02:24:03] Então primeiro o que que tu tem que
+[02:24:05] fazer?
+[02:24:06] instalar, executar num ambiente, num
+[02:24:09] login, tudo para poder não dar as
+[02:24:12] confusões. Se tu tem vários logins, né,
+[02:24:15] vários computadores e tudo, você tem que
+[02:24:18] pensar, usa um, configura todo ele e
+[02:24:21] simplifica isso. Então, o que que
+[02:24:24] acontece? Eu não coloquei aqui para
+[02:24:27] vocês as chaves aqui, certo? Eu não fiz
+[02:24:31] isso, eu não copiei para cá a chave,
+[02:24:33] então ele não tem como fazer isso,
+[02:24:36] certo? Então como é que eu colocaria a
+[02:24:38] chave SSH nessa máquina aqui?
+[02:24:44] Entenderam, pessoal? Então por isso que
+[02:24:47] eu digo assim, né? São pequenas
+[02:24:49] coisinhas que vão dando certo quando
+[02:24:52] você sobre degrau por degrau.
+[02:24:55] Então eu pulei alguns degraus de
+[02:24:57] proposta para mostrar que se eu não faço
+[02:25:00] os procedimentos iniciais, certo?
+[02:25:04] Eu virá uma confusão depois, certo?
+[02:25:07] Então não tenha vários logins, tenha um.
+[02:25:11] Tá começando, tenha um. Primeira coisa
+[02:25:14] que tu tem que fazer, ter uma chave. E
+[02:25:17] aí sim, né, pegar aquela chave e copiar
+[02:25:21] lá para dentro. Então, se você vi aqui,
+[02:25:25] né, lá no onde nós tínhamos
+[02:25:31] aqui,
+[02:25:33] vocês tinam em algum lugar aqui, vocês
+[02:25:35] aprenderam a criar o SSH, ó. Certo?
+[02:25:39] Então, tá aqui ele. Então, eu preciso
+[02:25:42] copiar ele. Fiz ele sim. Agora eu até eu
+[02:25:45] podia vir aqui embaixo e dizer assim:
+[02:25:49] como eu copio o SH para minha
+[02:25:55] VPS,
+[02:25:57] para o, digamos, aonde que tu quer
+[02:26:01] copiar? Então, lembra que era do BD?
+[02:26:05] Isso. Eu tenho que vir aqui no
+[02:26:09] GitHub do VB.
+[02:26:11] Primeira coisa que eu tenho que fazer
+[02:26:12] antes de viajar na maionese aqui, ir lá
+[02:26:15] e configurar,
+[02:26:18] ó,
+[02:26:21] settings,
+[02:26:24] SSH,
+[02:26:26] adicionar
+[02:26:28] e dizer, né? Ah, é o Nel, tá? Que é meu
+[02:26:33] computador local. E botei a chave,
+[02:26:35] adicionar.
+[02:26:38] Agora sim. Certo?
+[02:26:43] Já tá em uso.
+[02:26:48] É, ele quer que seja uma nova,
+[02:26:51] ele não aceita a mesma em vários
+[02:26:53] usuários.
+[02:26:55] Beleza? Então vamos lá. Vamos ter que
+[02:26:58] criar do zero aqui.
+[02:27:05] Então não serviu aquela.
+[02:27:08] Então, o que que nós vamos fazer?
+[02:27:13] Usar o comandinho aqui já pronto.
+[02:27:19] CSH
+[02:27:26] aqui,
+[02:27:29] ó. Vamos copiar isso aqui.
+[02:27:32] Vamos lá no dos.
+[02:27:35] Certo. Eu quero outro.
+[02:27:37] Deixa eu fechar o
+[02:27:40] PH para não me confundir.
+[02:27:43] Então eu vou vir aqui e aqui eu vou dar
+[02:27:47] o nome GitHub.
+[02:27:50] Não, vamos botar
+[02:27:53] Inema BD. Esse vai ser a mesma coisa
+[02:27:57] aqui. Em vez de GitHub,
+[02:28:01] INEMA BD.
+[02:28:06] Não.
+[02:28:10] Ó, então o que que eu tô mudando? Tô
+[02:28:13] mudando o nome do arquivo que vai ser
+[02:28:15] Inema BD Nel e um comentário que vai ser
+[02:28:19] Inema BD.
+[02:28:21] Enter. Enter.
+[02:28:24] Vamos ver se ele criou.
+[02:28:39] Não criouema
+[02:28:50] não, não criou.
+[02:28:54] Vamos ver o que que eu fiz de errado.
+[02:28:57] Falhou.
+[02:29:05] Por que que ele falhou?
+[02:29:16] Vamos lá de novo. Não precisa ter isso.
+[02:29:19] Nada. Falhou. Deixa eu perguntar lá pro
+[02:29:21] chat por que ele falhou. Em vez de eu
+[02:29:24] ficar tentando descobrir. Opa.
+[02:29:34] Então vamos lá.
+[02:29:55] Ó, ele tá, é porque eu tô no Windows,
+[02:29:57] entendeu? No Windows, eu o comando que
+[02:29:59] ele fez rodaria no Power Shell,
+[02:30:09] tá?
+[02:30:11] Vamos só rodar essa aqui de novo. Ah,
+[02:30:13] tá. Ele cria aqui a variável para saber
+[02:30:15] em que pasta que eu tô.
+[02:30:18] Certo. Tá bom. Ele cria a variável,
+[02:30:23] ó. Essa aqui ele ele determina,
+[02:30:28] ó, a variável tá aqui, já existe lá.
+[02:30:31] E essa variável, vamos ver se ele assume
+[02:30:34] agora.
+[02:30:40] feito.
+[02:30:42] Então, olha só, eu tava usando o comando
+[02:30:45] que ele funciona no Power Shell ou no
+[02:30:47] Linux, mas não funcionaria aqui no
+[02:30:50] Windows. Então isso depois é legal que
+[02:30:52] eu já documento aqui para vocês. Então
+[02:30:55] agora vamos ver se ele copiou. Dar um
+[02:30:58] refresh aquiema.
+[02:31:01] Ó, o pub eu posso abrir. Então, vamos
+[02:31:04] abrir
+[02:31:07] essa chave aqui,
+[02:31:10] tá? Copiando.
+[02:31:13] E aí nós vamos lá para o
+[02:31:17] meu, vamos abrir uma nova chave, botar
+[02:31:20] de novo, né? Nel, que seria o meu minha
+[02:31:24] máquina local. E aí tô botando a chave.
+[02:31:27] adicionei.
+[02:31:29] Ah, agora apareceu aqui.
+[02:31:32] Certo?
+[02:31:33] Então eu fiz o procedimento, né, da
+[02:31:37] minha máquina com a chave que eu tenho.
+[02:31:40] Beleza? Essa chave agora eu tenho
+[02:31:44] transparência. Vamos ver agora se eu for
+[02:31:46] lá pro
+[02:31:48] Como é que eu boto essa chave agora aqui
+[02:31:51] na VPS? Porque eu não tô rodando o
+[02:31:54] local,
+[02:31:56] certo?
+[02:31:58] Então, e outra coisa também, além dessa
+[02:32:00] chave aqui, se eu quiser criar essa
+[02:32:03] chave aqui também no Linux para ir lá
+[02:32:07] cadastrar essa aqui, então vamos botar
+[02:32:09] fazer a mesma lógica aqui. Se eu rodar
+[02:32:12] simplesmente ela aqui, ó.
+[02:32:16] Ã,
+[02:32:18] vamos lá.
+[02:32:23] Cadê você?
+[02:32:27] Aqui,
+[02:32:28] se eu pegar aquele comando aqui, só para
+[02:32:31] vocês verem, ó, ele vai dar erro,
+[02:32:33] provavelmente, porque ele não é esse
+[02:32:35] aqui. Ah, tá aqui o Power Shell. Esse
+[02:32:37] aqui pode funcionar lá,
+[02:32:40] ó.
+[02:32:47] Deixa eu tirar o
+[02:32:49] Vamos botar VPS aqui. O nome vai se
+[02:32:51] chamar VPS.
+[02:32:56] Certo?
+[02:32:58] Inema DB VPS,
+[02:33:04] ó. Enter.
+[02:33:07] Enter. Criou. Certo. Então, porque aqui
+[02:33:12] já foi ó dólar home, diferente um
+[02:33:15] pouquinho daquilo lá que ele já buscou a
+[02:33:17] variável para saber aonde criar. Agora,
+[02:33:21] como é que eu vou saber o comando?
+[02:33:24] Tá, a chave pública, ela tá lá dentro,
+[02:33:27] ó. CD ponto ponton CD. De novo, CD.Ssh,
+[02:33:33] SSH.
+[02:33:35] Ó, se eu der LS
+[02:33:38] - la, tá aqui ela, ó,
+[02:33:45] tá dentro da [limpando a garganta]
+[02:33:46] autorizado Kiss,
+[02:33:49] mas eu não vi o pub aqui.
+[02:33:54] Será que criou mesmo?
+[02:33:59] Ah, aqui ele já me mostrou a chave, ó.
+[02:34:03] Tá bom? Dá para copiar aqui.
+[02:34:07] Então agora eu vou poder vir aqui no
+[02:34:10] no GitHub de novo
+[02:34:14] e vou criar uma nova chave
+[02:34:17] chamado lá Vald
+[02:34:21] ou VPS VPS Vald.
+[02:34:30] e boto essa chave aqui.
+[02:34:33] Adicionar.
+[02:34:36] Por que que não deu?
+[02:34:38] Porque ele pegou a chave, não é a chave
+[02:34:41] pública,
+[02:34:43] ele me deu só um racho.
+[02:34:46] Eu tenho que pegar a chave pública, ó.
+[02:34:49] Então, vamos lá. Não foi esse. Como é
+[02:34:52] que eu pego a chave pública se ele não
+[02:34:54] me mostra aqui? Daí, lembra que tinha um
+[02:34:57] comando cat, um type, etc. Vamos lá.
+[02:35:01] Então, como no Linux,
+[02:35:06] posso pegar
+[02:35:09] a chave pública,
+[02:35:20] ó. Lembra que aqui tá o C, ó. Vamos ver
+[02:35:23] se vai rolar essa aí.
+[02:35:28] Então é o comando aqui,
+[02:35:31] só que muda porque não é o Nel. O que
+[02:35:34] que era? VPS
+[02:35:37] VPS é isso.
+[02:35:41] Deixa eu ver que que a gente deu de
+[02:35:43] nome.
+[02:35:46] IFim VPS mesmo.
+[02:35:54] Vamos ver o que que ele me diz aqui.
+[02:36:01] Isso é só no início. Depois a coisa fica
+[02:36:04] fácil de usar, né? Ah, eu usei barra
+[02:36:07] invertida aqui, ó.
+[02:36:09] Certo.
+[02:36:13] Para confirmar. Tá, tá, tã.
+[02:36:15] [limpando a garganta] Então, é, é a
+[02:36:17] barra ao contrário.
+[02:36:24] Então, o que que aconteceu?
+[02:36:28] Tá aí o problema que eu fiz errado,
+[02:36:30] pessoal.
+[02:36:32] Quando eu dei o comando antes, ó,
+[02:36:36] tá vendo esse essas barras aqui
+[02:36:40] no Linux? É ao contrário, é essa barra.
+[02:36:45] Então ele disse que deu sucesso, mas não
+[02:36:47] deu.
+[02:36:53] Ó, agora sim. LS - la.
+[02:37:01] Ó, agora apareceu aqui.
+[02:37:03] Então, por isso que eu digo assim, é
+[02:37:05] muito bom os erros, mas você tem que ter
+[02:37:09] um procedimento para resolver os erros.
+[02:37:11] E nós temos o chat e o chat de cara
+[02:37:14] mostrou o que que é o erro,
+[02:37:17] certo?
+[02:37:22] Tá
+[02:37:25] ok? Então vocês estão vendo aqui um
+[02:37:28] exemplo bem típico disso aqui,
+[02:37:34] certo?
+[02:37:36] Então agora sim eu posso vir aqui dar o
+[02:37:38] cat,
+[02:37:41] certo? Inema
+[02:37:45] BDF
+[02:37:48] enfim vps.
+[02:37:51] PP pub. Lembra? Não pode mostrar que não
+[02:37:55] seja pub.
+[02:37:57] Ó, tá aqui a chave que eu tenho, ó.
+[02:38:00] Então, vou copiar essa chave.
+[02:38:04] Control shift C. Vou lá pro meu e vamos
+[02:38:10] lá de novo, ó.
+[02:38:12] Então, o que que seria isso?
+[02:38:16] Meuema DB VPS
+[02:38:20] Var
+[02:38:24] aqui adicionando.
+[02:38:28] Opa, passou. Certo.
+[02:38:31] Então esse procedimento, né, que a gente
+[02:38:35] já tinha visto, tem que lembrar, é
+[02:38:38] Windows, é uma coisa, Linux é outra
+[02:38:40] coisa. Então, quem é de Linux já ou quem
+[02:38:43] é de MAC é muito similar, mas quem é de
+[02:38:46] Windows, a barra do Windows é a
+[02:38:48] esquerda, a barra do Linux é a direita,
+[02:38:52] certo? Então já dá conflito. E tu vê que
+[02:38:55] ele passou dizendo que tinha OK, mas não
+[02:38:58] criou destino.
+[02:39:01] E é isso que muitas vezes dá todo o
+[02:39:03] desgaste, o trabalho que tu acha que
+[02:39:05] criou e depois não criou, certo? Então
+[02:39:09] essa parte inicial ela é fundamental,
+[02:39:12] né, dominar bem, né, de criar isso aqui.
+[02:39:15] E agora vamos paraa segunda parte que é
+[02:39:18] a mais complicada que nós temos, que é
+[02:39:21] ã a parte de
+[02:39:26] atualizar. Então vamos ver agora. Tá
+[02:39:30] beleza, tá feito o cdono.
+[02:39:33] Vamos lá de novo. CD projetos
+[02:39:37] CD VC
+[02:39:39] alguma coisa. E aí, Codex.
+[02:40:15] Bom,
+[02:40:17] tava vendo as mensagens tava dando aqui.
+[02:40:20] Ã,
+[02:40:22] bom, agora vamos lá, né?
+[02:40:25] Provavelmente antes eu tinha que fazer
+[02:40:27] aquelas atualizações aqui.
+[02:40:32] Deixa eu sair do
+[02:40:35] Vamos ver. Lembra que nós estávamos
+[02:40:37] querendo atualizar aqui o
+[02:40:45] a instalação aqui não aparece que é
+[02:40:47] aquela instalação do GH, né? Instalação
+[02:40:52] do GH. Então vamos procurar onde que
+[02:40:54] tava a nossa,
+[02:40:58] ó, GH. Eu quero instalar o GitHub,
+[02:41:02] só que além do GitHub, eu também tenho o
+[02:41:05] GH, né? Além do Git,
+[02:41:10] quero instalar no Linux o GH, que ele tá
+[02:41:15] me cobrando.
+[02:41:18] Qual é a diferença do GH e qual é a
+[02:41:20] diferença do Linux, né? Então, o GH é um
+[02:41:24] recurso diretamente do GitHub para fazer
+[02:41:27] mais coisas. do que simplesmente o Git.
+[02:41:32] Então vamos lá. Vamos tentar o Git
+[02:41:34] primeiro na minha página aqui, certo? Eu
+[02:41:37] quero quero atualizar o Git,
+[02:41:42] o
+[02:41:44] repositório
+[02:41:46] e eu dei o repositório que eu queria,
+[02:41:48] lembra disso aqui? E ele mandou fazer
+[02:41:51] essa instalação dupla aqui,
+[02:41:54] tá? Então vamos lá. Primeiro eu quero
+[02:41:57] tentar de novo aqui,
+[02:42:01] só para ser teimoso.
+[02:42:04] Isso.
+[02:42:18] Tã. Você quer proceder? Daí eu digo não.
+[02:42:23] Eu digo não. Quero que você use o SSH.
+[02:42:38] Tá querendo que eu use o GH. Eu não
+[02:42:41] quero usar o GH. Quero tentar ver se ele
+[02:42:44] passa,
+[02:42:46] que é procedimento.
+[02:42:48] Sim.
+[02:42:54] Ó, ele recusou a permissão, negado e
+[02:42:57] tudo.
+[02:43:05] Por que que ele deu negado?
+[02:43:27] Ó, a chave funcionou, autenticou com
+[02:43:29] minema DB. Agora é só clonar. Você
+[02:43:32] concorda? Sim.
+[02:43:47] O remoto tá vazio. Tudo bem?
+[02:44:04] Concordar.
+[02:44:24] Beleza?
+[02:44:26] Então agora vamos dar uma olhada lá, né,
+[02:44:30] no
+[02:44:31] nosso sistema aqui, ó.
+[02:44:34] Quando a gente vinha
+[02:44:36] no git aqui, ó, vamos botar git,
+[02:44:41] tá? Inema DB, lembra?
+[02:44:45] Eu tenho um repositório
+[02:44:49] que tá aqui,
+[02:44:52] né? Ou senão eu clico aqui e ele me
+[02:44:54] lista os repositórios que eu tenho, ó.
+[02:44:58] E aí ele já criou, criou o index que eu
+[02:45:01] tinha aqui,
+[02:45:03] certo?
+[02:45:05] Se eu clicar aqui, ó, tá aqui o index,
+[02:45:08] página errado, criada. Então, eu
+[02:45:11] consegui fazer ele ser publicado no
+[02:45:14] GitHub, certo? E ele me negou primeiro
+[02:45:18] porque ele quer o GH. E eu disse: "Não,
+[02:45:21] usa o SSH, usa o SSH para você
+[02:45:25] autenticar". E aí eu consegui fazer a
+[02:45:28] autenticação.
+[02:45:30] Agora ele já tem informação. Agora fica
+[02:45:33] muito mais fácil fazer, né? Agora se eu
+[02:45:36] pegar for lá na no na página, né? Direto
+[02:45:40] aqui, ó,
+[02:45:42] né? e eu fizer
+[02:45:45] index
+[02:45:50] pon html
+[02:45:53] e botar index 2 html,
+[02:45:58] ó,
+[02:46:00] ls.
+[02:46:02] Já tem as duas páginas. Agora, se eu for
+[02:46:05] simplesmente aqui, tá, e dizer
+[02:46:09] push ou atualiza,
+[02:46:15] a princípio ele já tem informação porque
+[02:46:17] existe um arquivo chamado git,
+[02:46:22] aliás, ponto git, né? E ele tem
+[02:46:25] informações tudo,
+[02:46:28] ó. Vamos ver. Vamos dar um refresh.
+[02:46:34] É aqui. Ele não apareceu ainda.
+[02:46:45] Ã, quero que atualize o Git com as duas
+[02:46:52] páginas.
+[02:47:17] Ó, ele tá atualizando a ele deu o
+[02:47:19] comando add a página lá, ou seja, por
+[02:47:22] baixo ele usou esse comando todo aqui.
+[02:47:26] Então eu simplesmente converso com ele
+[02:47:32] aqui. Ainda não apareceu. Pode ser cash.
+[02:47:36] Agora apareceu, ó. Index. Index 2.
+[02:47:40] Certo.
+[02:47:42] Mas para facilitar minha vida, certo? Se
+[02:47:46] eu instalar aqui em cima, que ele me
+[02:47:48] sugeriu, ó, a instalação do GH.
+[02:47:53] Deixa eu ver onde que ele sugere,
+[02:47:59] &gt;&gt; [roncando]
+[02:47:59] &gt;&gt; ó. Ele manda instalar aqui o sudo GH. Tá
+[02:48:02] vendo? Se eu copio isso aqui, contrtrl
+[02:48:05] C, né? Control shift C, vou lá no
+[02:48:08] comando de linha e rodo esse cara aqui,
+[02:48:12] ó.
+[02:48:14] Ah, errei.
+[02:48:18] Eu vou est instalando um recurso mais
+[02:48:21] agora. Certo? Que é o GH. Além do Git,
+[02:48:25] eu vou ter o GH. Certo? Então vamos
+[02:48:28] pensar GH aqui. Pronto, já tá instalado
+[02:48:32] ele. O GH ele permite eu dar comando de
+[02:48:37] linha aqui e criar. Por exemplo, se eu
+[02:48:41] vou aqui agora, quero que
+[02:48:44] use o GH e crie um novo repo
+[02:48:51] chamado
+[02:48:55] VC
+[02:49:02] com o mesmo conteúdo deste
+[02:49:07] repo.
+[02:49:11] Então o o GH permite criar pastas novas,
+[02:49:15] projetos novos, ou seja, todos os
+[02:49:17] direitos. O Git ele você tem que ter
+[02:49:21] criado primeiramente a configuração do
+[02:49:24] GitHub. Então nós temos dois programas
+[02:49:27] para atualizar o GitHub, o Git e o GH,
+[02:49:31] certo?
+[02:49:33] Ele tá só pedindo confirmação.
+[02:49:41] Então essa parte aqui que eu queria, né,
+[02:49:44] dar para vocês de inicial é pastas, o
+[02:49:48] Git, o SSH, né, que seria que é
+[02:49:52] fundamental para qualquer coisa em Vibe
+[02:49:54] Code,
+[02:49:56] certo? que é a base de tudo. Então, se
+[02:50:00] vocês tiverem dificuldade, tem o chat
+[02:50:02] para ajudar e tudo, né, em buscar as
+[02:50:05] respostas pros probleminhas que ele vai
+[02:50:07] estar fazendo.
+[02:50:09] Então, daqui a pouco ele vai tá criando
+[02:50:12] a segunda pasta aqui. Em vez de ser só
+[02:50:15] esse 120, vai ter o VC 1308,
+[02:50:20] certo?
+[02:50:21] Então ele vai tá fazendo essa
+[02:50:22] atualização aqui. Eu consigo também não
+[02:50:27] ficar respondendo y toda hora. Para
+[02:50:31] isso, o que que acontece? Se vocês vão
+[02:50:33] ver na minha pasta aqui de projetos,
+[02:50:37] dentro do nei projetos,
+[02:50:41] eu tenho um arquivinho chamado CC bate,
+[02:50:45] CCSH, CC, CX bate, esse cara. Então,
+[02:50:50] todos esses arquivinhos aqui, o que que
+[02:50:53] eles são? São comandos para facilitar a
+[02:50:55] minha vida. Então, por exemplo, CC bate
+[02:50:58] é para para Windows,
+[02:51:01] eh, CC bate é para Windows de Cloud
+[02:51:04] Code. CX bate é para Windows de Codex
+[02:51:09] e CX.
+[02:51:11] É para Linux. Então, qual é o comando
+[02:51:14] que eu tenho aqui? Se eu vim aqui e
+[02:51:16] abrir, ó, é isso aqui. Codex menos. E
+[02:51:19] daí tão parâmetros
+[02:51:21] para mim não ficar respondendo toda
+[02:51:23] hora.
+[02:51:25] Então, eu podia estar pegando esse
+[02:51:27] arquivo aqui e deixando lá na minha VPS
+[02:51:31] também ou aonde que eu vou trabalhar
+[02:51:33] para mim não ficar toda hora, tá,
+[02:51:36] executando. Então, quando eu tô no meu
+[02:51:39] Windows aqui, certo?
+[02:51:42] H, trabalhando aqui, ó, eu simplesmente
+[02:51:46] daria ponto ponto, né? É Windows, então
+[02:51:49] é barra esquerda, né? CX ponto bate. Se
+[02:51:55] fosse no Linux seria ponto ponto
+[02:51:59] barra da direita cx.
+[02:52:03] SH, certo? Que são os formatos de cada
+[02:52:07] um. Isso aí faz com que eu dou um enter,
+[02:52:10] ele já carrega. carrega todos os
+[02:52:12] parâmetros,
+[02:52:14] certo? E já entra lá. E eu não preciso
+[02:52:16] est ficando dando, né, o os
+[02:52:20] yes yes e tudo mais ali dentro, certo?
+[02:52:24] Então aqui vamos ver se ele já fez isso
+[02:52:27] lá para nós.
+[02:52:30] Então vamos dar um refresh.
+[02:52:37] Ainda só tem um repositório, não deu
+[02:52:39] refresh ainda,
+[02:52:42] mas daqui a pouquinho já tá atualizado.
+[02:52:45] Ó, última atualização, 5 minutos
+[02:52:49] feito, pessoal. Deu para entender esse
+[02:52:52] esses procedimentos?
+[02:52:54] Então vocês têm que dominar bem o Git,
+[02:52:58] certo? Dominar o SSH, que são
+[02:53:02] fundamental,
+[02:53:04] entender se você vai trabalhar num
+[02:53:05] ambiente de Linux e amanhã eu vou focar
+[02:53:09] mais com vocês em cima, né, dessa parte
+[02:53:13] do Versel, da VPS e do Supase. Tá bom?
+[02:53:20] Dúvida, alguma dúvida aí?
+[02:53:31] aqui para mim tudo tranquilo, Nei.
+[02:53:35] &gt;&gt; Paula, tudo certo.
+[02:53:38] Acho que você está tranquilo, né? Mas o
+[02:53:41] importante é isso aí. Vocês viram vários
+[02:53:43] errinhos que deu. Qual é o procedimento
+[02:53:46] que tem que ter? Ir pro chat.
+[02:53:50] Sabe, eu eu eu sigo vários caras top de
+[02:53:54] linha, todos eles têm esse mesmo
+[02:53:56] procedimento, né? Nós temos a Iá para
+[02:53:59] nos nos ajudar a resolver as coisas.
+[02:54:02] Então ele levou para o problema, eu
+[02:54:05] levei para lá, ele já me eu já vi de
+[02:54:07] cara, era a barra. Agora, senão eu teria
+[02:54:11] que será que eu tiria de cara essa ideia
+[02:54:14] que esse é o problema? Então marcam o
+[02:54:17] problema quando dá, levam pro chat e às
+[02:54:20] vezes marcam não só aquele problema,
+[02:54:23] marcam para cima para ele ter um pouco
+[02:54:25] de histórico do que que você tinha
+[02:54:27] feito,
+[02:54:31] tá?
+[02:54:33] Então esse esse é o eu diria que a base
+[02:54:38] de quando a gente vai construir as
+[02:54:40] soluções. E aqui, como eu coloquei já,
+[02:54:43] certo? Eu já coloquei aqui, ó, o dia um,
+[02:54:46] que é isso aqui. Então, é o nosso
+[02:54:49] conteúdo aqui. Se vocês vão ver esses
+[02:54:52] conteúdos que eu coloquei aqui, ó, né?
+[02:54:55] Referência, ó, dólar, home, né? No Mac,
+[02:54:58] no Windows, ó, tudo que a gente passou
+[02:55:00] hoje,
+[02:55:02] certo?
+[02:55:04] Então, são os, né? Onde que tá a
+[02:55:07] referência da aonde que tá a página
+[02:55:09] principal, né? Depois é a questão do o
+[02:55:12] tio dos projetos, tá no Power Shell, no
+[02:55:16] outro, né? Aquele aqueles arquivinhos
+[02:55:18] que eu mostro, ponto CCC, etc. Tudo, né?
+[02:55:23] A estrutura de pastas que você tem,
+[02:55:27] certo? Tá tudo aqui, né? Pelo menos você
+[02:55:30] dá uma olhada, né? Aonde que tá o ponto
+[02:55:33] codex, o ponto, as configurações,
+[02:55:36] né? O arquivo cloud.m.
+[02:55:41] é onde tá a base de tudo. O agente CMD é
+[02:55:44] a base do do Codex e de outros sistemas,
+[02:55:48] certo? E aí eu nem vou falar agora de
+[02:55:52] skill, dessas outras coisas, deixar para
+[02:55:54] amanhã,
+[02:55:56] né, os arquivinhos que estão aqui,
+[02:56:00] certo? Então, tá todo o conteúdo que eu
+[02:56:04] resumi já aqui para vocês. E a ideia é
+[02:56:07] por que eu tô colocando sempre em MD.
+[02:56:10] Porque você pode pegar isso, levar pro
+[02:56:12] chat, conversar, né, pedir explicação,
+[02:56:16] pedir para organizar da forma que tu
+[02:56:17] quiser, né? Então esse é mais técnico e
+[02:56:21] isso aqui é mais para iniciante mesmo.
+[02:56:23] Quem é zerado começa por aqui que é mais
+[02:56:26] simples a explicação,
+[02:56:29] tá legal? Então bem simples, tá? Bem
+[02:56:32] direto, tá? que é hoje aí
+[02:56:43] e se tá tudo certo,
+[02:56:45] até amanhã,
+[02:56:48] que aqui tá frio e muita chuva. Minha
+[02:56:51] garganta tá saindo.
+[02:56:54] &gt;&gt; Depois dá uma olhadinha lá no que eu te
+[02:56:56] mandei. Eu vou marcar desde a,
+[02:56:58] &gt;&gt; tá? Tá beleza? Então,
+[02:57:03] valeu.
+[02:57:05] &gt;&gt; Até amanhã então pessoal, obrigado pela
+[02:57:07] &gt;&gt; tá amanhã 2 horas estamos aqui. Dúvida,
+[02:57:11] manda mensagem para Tiso, para mim,
+[02:57:14] melhor pra Tisa, porque daí ela tá
+[02:57:16] sempre atento nas mensagens. Tá bom,
+[02:57:18] pessoal?
+[02:57:21] Perfeito.

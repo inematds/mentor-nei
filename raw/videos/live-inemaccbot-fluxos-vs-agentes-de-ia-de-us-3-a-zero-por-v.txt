@@ -1,0 +1,1964 @@
+# LIVE： INEMACCBOT Fluxos vs Agentes de IA — De US$3 a Zero por Vídeo
+Origem: https://www.youtube.com/watch?v=axMCHVuSu0M
+Texto: legenda
+
+[00:00:03] Tá lá, tesa, só testa então se tá saindo
+[00:00:06] o som lá na no YouTube e a gente vai
+[00:00:09] falar. Bom, pessoal,
+[00:00:12] ã, isso aqui é uma evolução daquele
+[00:00:14] curso que a gente deu esses dias, né,
+[00:00:17] que é o o hub que era cinco etapas. E a
+[00:00:21] gente, eu peguei isso e tentei melhorar.
+[00:00:24] Eu usava já um sistema chamado, ã,
+[00:00:27] marketing 3, usava várias coisas e
+[00:00:31] quando a gente passou por aquilo lá, eu
+[00:00:33] disse: "Pô, vamos otimizar". Então, o
+[00:00:36] objetivo é do Inema CC BOT, é justamente
+[00:00:40] isso, de você ter um canal de entrada,
+[00:00:43] certo? Ter uma fila durável. Qual é que
+[00:00:46] é o objetivo durável? Você cair,
+[00:00:48] desligar, ligar, não importa, né? de a
+[00:00:52] gente ter os workers que vão pegar e
+[00:00:55] chamar os agentes. E o que que eu
+[00:00:58] implementei a mais foi um fluxo. Por
+[00:01:02] exemplo, quando nós temos simplesmente
+[00:01:04] numa fila, né, que nem eu nós estava
+[00:01:07] usando o CA aqui, CCA, né, de automático
+[00:01:11] aqui de agentes, você chamava aqui a
+[00:01:14] fila, o worker chamava um agente que
+[00:01:18] chamava o skill, executava, terminou.
+[00:01:21] Mas quando tu tem alguma coisa mais
+[00:01:23] complexa, isso já é um fluxo. Então a
+[00:01:27] gente implementou o quê? um fluxo onde
+[00:01:30] que eu posso quando mandar alguma coisa
+[00:01:33] esse gato e aqui ele vai entender.
+[00:01:35] Escute o que tu tá querendo, eu tenho
+[00:01:38] como entregar isso sim. Como é que é?
+[00:01:41] Ah, isso é um fluxo, isso não é um
+[00:01:43] atendimento ou não, não tenho nada.
+[00:01:45] Então ele não passa, ele não pode passar
+[00:01:49] diante sobre isso. Então aqui eu botei
+[00:01:51] aí várias
+[00:01:54] imagens aqui do que nós estávamos
+[00:01:56] discutindo, né? Mas principalmente aqui
+[00:01:59] que é o ponto de diferença, certo? Então
+[00:02:03] nós temos, né, o usuário que manda
+[00:02:06] mensagem proema CCBT, certo? Esse CCB
+[00:02:10] aqui é o gateway e validação. Parcer é
+[00:02:14] quer dizer validação, né? ele vai
+[00:02:16] analisar aquele contexto. Então, se vi
+[00:02:19] alguma coisa que ele não entende, tem
+[00:02:21] que já parar aqui, tem que ter a
+[00:02:24] conversa aqui. Então, esse worker aqui,
+[00:02:28] o agente, ele é fundamental, é o
+[00:02:30] orquestrador por um lado, certo? Mas eu
+[00:02:34] diria que é muito mais um validador, né,
+[00:02:37] para que não venha para cá alguma coisa
+[00:02:39] que não esteja completo, certo? Então, é
+[00:02:42] muito importante tudo que tu mandar
+[00:02:44] fazer aqui atrás. Esse cara tem que
+[00:02:47] conhecer,
+[00:02:49] entenderam? Então, se eu tiver meu
+[00:02:51] sistema e quiser agregar novos serviços,
+[00:02:55] esse aqui tem que saber disso. E aí ele
+[00:02:59] registra esse job, né? Vai paraa fila,
+[00:03:03] no caso nós temos um banco de dados
+[00:03:05] chamado SQL Lite para rodar local,
+[00:03:08] certo? Porque daí eu tenho gerenciamento
+[00:03:12] disso tudo. Aí o worker vai consumir a
+[00:03:15] fila e eu posso ter mais do que um
+[00:03:18] worker controlando. E esse worker tem
+[00:03:21] que dizer: "Ó, esse arqu esse sistema eu
+[00:03:23] tô usando. Então se eu tiver mais do que
+[00:03:25] um worker, eu tenho que ter um controle
+[00:03:28] atômico, né? Que é uma forma de garantir
+[00:03:31] que aquele registro lá, aquele
+[00:03:35] aquele job, né? aquele trabalho dentro
+[00:03:38] da fila, eu tô fazendo para não ter um
+[00:03:41] segundo que iria pegar lá, certo? E ele
+[00:03:44] o que vai chamar? Ele, ele vai ter que
+[00:03:46] chamar alguém, um agente. E aí eu tenho
+[00:03:49] um gatilho aqui que é um roteador que
+[00:03:52] ele vai descobrir se se esse cara é
+[00:03:54] direto,
+[00:03:56] certo? Que pode ser chamar um skill
+[00:03:58] direto, um agente com skill, ou eu vou
+[00:04:01] ter que estar chamando um fluxo, né? E
+[00:04:04] esse fluxo aí vai chamar vários agentes,
+[00:04:07] etc. e tudo. Então eu preciso est
+[00:04:09] controlando esse tipo de coisa aqui. Por
+[00:04:13] isso que esse caso tá ligado com o dois
+[00:04:16] aqui, certo?
+[00:04:19] Aqui, né? Um um desenho mais simples
+[00:04:21] disso. Então, só para entender, eu tenho
+[00:04:24] skill ou tenho multi etapas, né? Então,
+[00:04:28] eu tenho o CCBT, né? Eu tenho a fila,
+[00:04:32] né? Eu tenho ou isso e os agentes e
+[00:04:36] depois tem a entrega. A entrega é uma
+[00:04:39] informação que tu já coletou aqui para
+[00:04:43] saber para onde que vai. Seu usuário não
+[00:04:46] define, tem um default. Então dentro do
+[00:04:49] skill ou dentro do fluxo já pode ter os
+[00:04:53] parâmetros para onde vai ser entregue,
+[00:04:56] né? Se vai ser publicado, se vai ser num
+[00:04:58] arquivo, se vai ser uma resposta no
+[00:05:00] Telegram, se é um status. como vai ser
+[00:05:03] feito isso, certo? Isso aqui a gente já
+[00:05:06] viu, tá? Aqui também isso aqui é mais um
+[00:05:11] marketing. Esse aqui é um outro alegal.
+[00:05:14] Aqui, ó, nós podemos observar que eu
+[00:05:17] teria um fluxo normal, entendeu? Então,
+[00:05:20] usuário, o bot, a fila, o worker, o
+[00:05:23] agente, o skill e o resultado.
+[00:05:26] Porém, quando eu entro em fluxo, talvez
+[00:05:29] o que que eu tenho que fazer? criar
+[00:05:30] várias etapas
+[00:05:33] dentro desse fluxo. Eu posso colocar em
+[00:05:36] filas e em execuções diferentes.
+[00:05:39] Então, eu posso ter uma ordem dentro do
+[00:05:41] fluxo, como vai ser, aonde vai ser.
+[00:05:44] Então, né, depois que ele disparou esse
+[00:05:47] fluxo, pode ser que ele quebre isso em
+[00:05:50] várias coisas dentro de uma fila, né? ou
+[00:05:54] ele vai fazer navegação, ou ele vai
+[00:05:57] fazer esperar, porque ele tem que ter,
+[00:06:00] tem uma ordem, né? E aí vai ser do jeito
+[00:06:04] que for definido esse sistema aqui,
+[00:06:07] certo?
+[00:06:10] H, é isso. Então, quando chegou aqui, eu
+[00:06:13] tenho um kind, né, um que é função ou
+[00:06:17] agente. E aí entra outra questão. Quando
+[00:06:21] a gente tá desenvolvendo sistemas hoje
+[00:06:24] na era da inteligência artificial, seria
+[00:06:26] muito bom tudo deixar pro agente. Qual é
+[00:06:29] a vantagem? Ele é inteligente suficiente
+[00:06:32] para buscar o caminho. Qual é a
+[00:06:34] desvantagem? Eu tenho custo, quanto mais
+[00:06:37] ele trabalha para tentar resolver as
+[00:06:39] coisas. A segunda, eu não tenho, né,
+[00:06:43] garantia de ser execução eh exata.
+[00:06:48] Então, quando eu crio um script, eu sei
+[00:06:52] que vai ser rodado igual sempre. Quando
+[00:06:54] eu deixo pro agente, eu tenho que
+[00:06:56] controlar esse agente com muitas regras,
+[00:07:00] muitas, né, guardas em redor. Então tem
+[00:07:04] razões que para não usar agentes, ou
+[00:07:06] seja, para não usar inteligência
+[00:07:08] artificial junto na programação,
+[00:07:12] tá legal?
+[00:07:14] [roncando]
+[00:07:16] Deu para entender isso aqui, pessoal?
+[00:07:21] Então, enquanto todo mundo tá querendo
+[00:07:23] criar gentes, talvez o melhor era criar
+[00:07:26] um fluxo,
+[00:07:28] certo? Que nem nós tínhamos no N8N.
+[00:07:32] Só que hoje com o Vibe Code eu posso
+[00:07:34] criar um fluxo. Então eu queria voltar
+[00:07:36] aqui para mostrar para vocês aqui onde
+[00:07:39] eu tenho promo avatar, certo? Olha aqui
+[00:07:43] o que que eu tinha. Nós tínhamos aqui,
+[00:07:47] eu vou falar isso dentro de durante o
+[00:07:49] curso, eu tinha o texto, depois eu tinha
+[00:07:53] navegação, ou seja, ele entrava dentro
+[00:07:55] da página, depois ele baixava, depois
+[00:07:59] ele criava o RS. Esse é o promo Bavar,
+[00:08:02] ele tem,
+[00:08:05] eu dou o assunto, ele pega o assunto e
+[00:08:08] quebra, certo, no número de eh públicos
+[00:08:12] alvos. Ele criou texto, daí ele joga pro
+[00:08:15] avatar, pro avatar falar. Daí eu baixo
+[00:08:19] esse avatar e crio rius.
+[00:08:22] Isso tudo, pessoal, me custava certo
+[00:08:26] 122,
+[00:08:30] certo? E levava em torno de 4 a 6 horas
+[00:08:35] para fazer 12 vídeos.
+[00:08:39] OK.
+[00:08:43] Então, Olavo, não é barato as coisas,
+[00:08:48] porém, né, a gente sendo teimoso, a
+[00:08:51] gente diz: "Bom, vamos tentar melhorar
+[00:08:54] isso. O que que eu posso ver? O que que
+[00:08:56] eu tenho de tempo? O que que eu tenho de
+[00:08:58] output, o que que eu tenho de cash, né?
+[00:09:01] E vamos trabalhar isso." E assim eu fui
+[00:09:03] trabalhando, certo? Fui tentar entender
+[00:09:07] o que que ele tava gastando em entrada,
+[00:09:09] em saída. né? Enque de gravação, em cash
+[00:09:14] de leitura. Eu não sei se vocês sabem,
+[00:09:16] isso aqui é o custo que nós temos dos
+[00:09:19] tokens.
+[00:09:22] Me dão só um feedback, deixa eu pegar e
+[00:09:24] colocar aqui, ó, para que que eu possa
+[00:09:27] ver mensagens de vocês.
+[00:09:34] Oi, Emerson.
+[00:09:36] pessoal aí que tá da comunidade, entra
+[00:09:38] direto ali no nosso chat na daí eu eu
+[00:09:41] respondo no chat, tá? Aqui.
+[00:09:47] Deixa eu ver onde que tu tá, chatinha
+[00:09:50] aqui.
+[00:09:53] Oi. Tá bom. Então, me diz assim, ó. Eu
+[00:09:56] quero todo mundo escrevendo no chat aqui
+[00:09:58] se vocês entendem o que eu tô falando
+[00:10:00] sobre essa medida aqui.
+[00:10:08] Sim. Não. OK,
+[00:10:12] entendi. Entendi um pouco. Tá.
+[00:10:17] Sim. Tá. Então, lá vou só para você
+[00:10:21] entender, quando você tem hoje nós temos
+[00:10:24] quatro medida do custo da minha LLM.
+[00:10:27] Quando tu for lá olhar o preço, eles vão
+[00:10:30] dar principalmente o custo de entrada e
+[00:10:32] de saída, certo? Então é o entrada é o
+[00:10:37] que eu digito, saída é o que que me
+[00:10:38] entrega dentro do processo todo. E ainda
+[00:10:43] tem o que que é o cash de gravação e o
+[00:10:46] cash de leitura. Então, em vez de de eu
+[00:10:49] pegar, né, eu tenho toda a informação lá
+[00:10:52] e ele precisava ler esse conteúdo, se já
+[00:10:55] tá na memória dele, o custo é menor,
+[00:10:59] mas por outro lado, né, a entrada de
+[00:11:01] gravação é maior. Então, mas no final o
+[00:11:05] que que aconteceu? Olha só, eu gastei
+[00:11:08] 150, 147
+[00:11:11] milhões de tokens, certo?
+[00:11:16] enquanto que a saída foi essa. Então, o
+[00:11:19] meu custo foi alto aqui. Olha só,
+[00:11:22] pessoal, mais experiência, Carlos e todo
+[00:11:25] mundo, olha só como é que se engana. O
+[00:11:28] Casher Red é baratinho, mas olha o que
+[00:11:31] ele gastou. Delendo, relendo, relendo.
+[00:11:34] Então isso é meu sistema de agente
+[00:11:36] furado.
+[00:11:39] Eu fiz o sistema, funciona tudo, mas eu
+[00:11:41] tô pagando fortunas.
+[00:11:45] Certo?
+[00:11:47] Então, por isso que quando as pessoas
+[00:11:50] falam de agente, agentes e tudo, eu olho
+[00:11:53] assim, eu acho que muito desenvolvedor e
+[00:11:57] e analista de sistema deve dizer assim:
+[00:11:59] "Os caras tão maluco porque é legal
+[00:12:02] quando tu usa pouco, mas se tu escalar
+[00:12:04] isso para usar muito é caríssimo."
+[00:12:07] Então eu fui trabalhando para poder
+[00:12:09] vocês entenderem de eu fui lá tentar ver
+[00:12:12] o que que ele tava fazendo, a
+[00:12:14] ferramenta, o que que ela tava usando,
+[00:12:16] certo? Ã, depois eu fui vendo o que que
+[00:12:20] eu tava usando cada um deles, né? Então
+[00:12:23] ele tava usando quatro 14 vezes, né?
+[00:12:27] Esse comando aqui tava usando isso aqui
+[00:12:30] sete vezes. Isso aqui ele tava usando 10
+[00:12:33] vezes. Gerar imagem duas vezes, né? O o
+[00:12:37] croque, né? Tradução de voz, né? Duas
+[00:12:41] vezes. Então comecei a entender aonde
+[00:12:44] tava o gargalo, certo? Daí os templates
+[00:12:47] que eu tava usando aqui, certo? Muito
+[00:12:51] bem. Fui fui indo, tá?
+[00:12:54] H, [roncando] daí a capa que tinha, ou
+[00:12:57] seja, tentei cada um deles medir e aí eu
+[00:13:00] criei vários fluxo, certo? E nesses
+[00:13:05] fluxos, olha só, eu comecei ver a média
+[00:13:08] de tempo, ó. Comecei baixar o tempo e
+[00:13:12] baixar o, né, o valor aqui, tá?
+[00:13:18] Então, o que que acontece
+[00:13:20] com isso? como é que, né, o que que eu
+[00:13:23] fui fazendo que começou me dar retorno
+[00:13:26] aqui, tá?
+[00:13:29] Ó, então eu descobri que se eu tinha
+[00:13:33] baixar, né, quanto tempo levava,
+[00:13:35] navegar, rios, texto, cada um o tempo,
+[00:13:39] né, que eu tinha, certo?
+[00:13:43] vezes a quantidade que eu tinha de
+[00:13:47] de público. Então eu fui assim
+[00:13:49] trabalhando. Não vou me preocupar muito,
+[00:13:52] tá? Mas só para vocês verem, né, o o que
+[00:13:55] que nós trabalhamos para ajustar, que
+[00:13:58] esse é o maior valor no final de conta,
+[00:14:01] certo?
+[00:14:03] Bom, daí fui indo, fui indo, fui indo,
+[00:14:05] fui indo. Depois vocês podem olhar com
+[00:14:07] calma até eu chegar nesse ponto aqui, ó,
+[00:14:10] do 19 ao 34.
+[00:14:13] Certo? Eu fui baixando e descobri que o
+[00:14:16] meu valor, que era 3 por cada vídeo,
+[00:14:20] virou 50 centavos, virou 18 centavos e
+[00:14:24] eu consegui fazer ele zerar.
+[00:14:28] Mas o que que eu parei? Eu transformei
+[00:14:30] tudo em alguma coisa estática,
+[00:14:34] previsível e não mais com agentes.
+[00:14:37] Então, a ideia do agente ele é para
+[00:14:40] criar, para construir e depois no mínimo
+[00:14:43] possível.
+[00:14:44] Então, hoje é onde que eu uso o agente
+[00:14:47] ainda no promo
+[00:14:49] só na hora de criar o texto.
+[00:14:53] Depois disso, né, onde eu uso LLM,
+[00:14:56] depois disso, tudo são workers.
+[00:14:59] Certo?
+[00:15:01] Então aqui era, olha só, eu tinha várias
+[00:15:05] coisas aqui, o custo, né, ele vai
+[00:15:08] baixando cada vez quando tu calcular,
+[00:15:11] né, no custo geral, certo? Bom, depois
+[00:15:16] nós vamos falar sobre o promovatar, mas
+[00:15:20] primeiro eu queria só dar uma ideia para
+[00:15:22] você sobre como essas coisas de fluxo
+[00:15:25] podem ajudar muito melhorar do que
+[00:15:27] entregar simplesmente para um agente
+[00:15:29] fazer.
+[00:15:32] Só resumindo, qual era a vantagem
+[00:15:34] principal? Quando eu deixava o agente
+[00:15:36] fazer, ele construía
+[00:15:38] os script a cada vez que ele ia criar um
+[00:15:42] vídeo,
+[00:15:45] ele criava todos os script.
+[00:15:48] Daí eu digo: "Não, mas não precisa. Eu
+[00:15:51] quero que tu use o script." Então o
+[00:15:54] agente começou deixar de ele querer
+[00:15:56] criar e ele usar.
+[00:15:59] E isso foi diminuindo o, né, o o tempo e
+[00:16:05] o custo de criar.
+[00:16:09] Beleza? Então, vamos voltar aqui no
+[00:16:11] nosso sisteminha,
+[00:16:13] né, para nós darmos uma olhada aqui
+[00:16:16] no que que eu tenho do bot, certo?
+[00:16:20] Se eu pegar simplesmente aquiema
+[00:16:24] Clube
+[00:16:26] [roncando] e eu vim aqui nas últimas
+[00:16:29] atualizações de projeto.
+[00:16:34] Cadê você?
+[00:16:42] Já sumiu daqui.
+[00:16:47] A coisa anda, a fila anda. Então vamos
+[00:16:49] lá. Eu
+[00:16:51] vou pegar qualquer projeto aqui, daí eu
+[00:16:53] fica mais fácil eu ir pro git e trocar
+[00:16:56] aqui.
+[00:16:58] Então nós temos lá inema CC Bot,
+[00:17:03] certo? Tá aqui ele.
+[00:17:07] Ã,
+[00:17:08] o mais importante que dentro do inema
+[00:17:11] CCBT é eu tenho que ter o ND, certo? Eu
+[00:17:16] tenho que pensar que eu tenho o cloud ou
+[00:17:18] um outra ferramenta para gerenciar fila,
+[00:17:21] né? Eh, que é o motor,
+[00:17:25] eu tenho que ter o FFMPEG
+[00:17:27] para mim trabalhar com tamb, com
+[00:17:30] imagens, com vídeo, se eu quiser, né? Eu
+[00:17:33] tenho que ter o Python,
+[00:17:35] eu tenho que ter o o playground
+[00:17:39] do Shoming, que é um playwite, que para
+[00:17:42] ele poder capturar telas. Então são
+[00:17:45] recursos e ferramentas que eu preciso
+[00:17:47] ter. Ah, eu vou usar tudo, talvez não,
+[00:17:50] mas isso aí é o mínimo que a gente vai
+[00:17:52] ter lá na nossa VPS, certo?
+[00:17:56] Muito bem. Então, o que que eu faço? Eu
+[00:17:58] vou clonar o meu projeto,
+[00:18:01] certo?
+[00:18:03] Que que eu faço? Eu defino aonde que eu
+[00:18:06] quero colocar. Lembra que tudo que tu
+[00:18:08] colocar depois do Git aqui vai ser o
+[00:18:11] destino. Então ele já tá dizendo que vai
+[00:18:14] ser lá projetos tal lugar ou você
+[00:18:17] entraria lá dentro do projetos e daria
+[00:18:20] esse comando, certo? E depois do projeto
+[00:18:24] enema CCBOT npm,
+[00:18:28] certo?
+[00:18:29] Tá? Então seria mais ou menos isso.
+[00:18:33] Depois o que que é domínios? Domínios
+[00:18:37] são todos os recursos que tu tem dentro
+[00:18:40] como serviço. Então, tu pode ter muitos
+[00:18:43] domínios. No caso aqui, se eu chegar
+[00:18:46] aqui no Inema CC Boot, tá? Tá aqui
+[00:18:49] embaixo ele,
+[00:18:51] ó. Eu vim aqui barra, né? Help,
+[00:18:57] ele vai me dar aqui status prontos, o
+[00:19:01] skills e fluxos. O que que é os skills e
+[00:19:05] os fluxo? são os domínios.
+[00:19:08] Então, se eu botar aqui, né, skills,
+[00:19:14] skills que eu instalei lá, certo? que eu
+[00:19:17] botei aqui tem transcrever, tem dublar,
+[00:19:20] explicativo, curso, demo e assim tu pode
+[00:19:24] todos os rios que tu ou todos os skills
+[00:19:27] que tu quiser. Então, para isso, eu
+[00:19:30] tenho que chamar eles, certo?
+[00:19:34] Como um domínio, certo? Então, eu quero
+[00:19:37] transcrever, eu quero dublar, eu quero
+[00:19:39] alguma coisa. Então tu dá um domínio. E
+[00:19:42] se eu der aqui fluxos,
+[00:19:46] ele os fluxos que eu instalei, que é o
+[00:19:49] promovatar, o promovatar 3, no caso eu
+[00:19:53] instalei só esses dois. Então a mesma e
+[00:19:57] se eu não a como é que eu uso promovatar
+[00:19:59] para não ficar um help muito grande, a
+[00:20:01] gente bota promo avatar
+[00:20:06] help.
+[00:20:08] Aí ele explica tudo o que for sobre esse
+[00:20:12] cara, certo? Então quando eu desenvolvo
+[00:20:15] o sistema, né, usando método de chat ou
+[00:20:20] de bote ou de canais, a gente cria os
+[00:20:23] helps, né, justamente pra pessoa não
+[00:20:27] lembra como é que é d aqui, né, ou você
+[00:20:30] colocaria num documento lá, só que tem
+[00:20:33] que ser funcional. Então, para mim me
+[00:20:35] lembrar os parâmetros que eu teria que
+[00:20:37] usar no promovatar, tá aqui certo, tá
+[00:20:41] explicado. Talvez tem que melhorar a
+[00:20:44] formatação e tudo, né? Mas é a base de
+[00:20:48] tudo aí, certo? Então, quando eu instalo
+[00:20:52] ele lá numa VPS, é justamente isso que
+[00:20:54] eu preciso, né?
+[00:20:57] &gt;&gt; [roncando]
+[00:20:57] &gt;&gt; fazer a instalação, ter a documentação
+[00:21:01] toda e aí por diante. Então, se a gente
+[00:21:04] voltar lá e olhar o que que ele fala de
+[00:21:07] instalar e tudo, sempre é bom a gente
+[00:21:10] dar uma lida em todo o documento aqui,
+[00:21:13] certo?
+[00:21:15] E quem não faz isso vai acontecer que
+[00:21:17] vai ter que ler depois duas, três vezes
+[00:21:19] quando dá os problemas, certo? Então, o
+[00:21:24] básico de tudo para instalar seria isso
+[00:21:26] aqui, ó.
+[00:21:27] nós fazer o clone, certo? E aí depois
+[00:21:32] rodar esse cara aqui, tá? Normalmente os
+[00:21:36] problemas é quando nós temos uma uma
+[00:21:39] VPS,
+[00:21:40] né, não atualizada, que nem ontem quando
+[00:21:44] eu fui lá usar o Bentch Stúo, tava o meu
+[00:21:48] problema lá que tava numa versão antiga,
+[00:21:50] não atualizada e tudo mais, certo? Então
+[00:21:54] vamos lá.
+[00:21:56] Pessoal, isso pode ser rodado na sua
+[00:21:59] máquina local ou numa VPS.
+[00:22:02] Eu vou fazer isso tudo numa VPS aqui.
+[00:22:08] Então, deixa eu voltar atrás. LS men
+[00:22:14] -
+[00:22:17] Ó, eu já tenho aqui todo instalado ele
+[00:22:19] aqui, ó. CCBEMA DLP, etc. Então vamos
+[00:22:23] ver numa outra VPS se eu tenho aqui
+[00:22:31] LS - la.
+[00:22:36] Ó, aqui eu não tenho pelo jeito nada, ó.
+[00:22:38] Só tenho o Bench. Beleza? Então que que
+[00:22:42] eu faria,
+[00:22:43] né? Posso fazer esse comando aqui,
+[00:22:47] tá?
+[00:22:49] Vamos ver se roda desse jeito.
+[00:22:55] Opa, fiz errado.
+[00:22:59] Deixa eu fechar, tá? Control C. E vamos
+[00:23:03] lá para VPS. Rodar aqui,
+[00:23:12] ó.
+[00:23:18] Ué,
+[00:23:32] ele diz que já existe, mas eu botei
+[00:23:34] aqui, não tem.
+[00:23:40] Vamos navegar lá para ver o que que tá
+[00:23:42] acontecendo.
+[00:23:44] Eu já peguei aqui porque eu achei que já
+[00:23:46] tinha.
+[00:23:49] Tá, eu quero sair fora aqui. Quero
+[00:23:51] entrar no
+[00:23:59] Nano,
+[00:24:02] senão a gente põe lá na Tisa,
+[00:24:06] que eu acho que na Tisa não tá
+[00:24:07] instalado.
+[00:24:17] projetos.
+[00:24:23] Estranho.
+[00:24:26] Dependeu aqui que tinha já.
+[00:24:31] Então vamos lá.
+[00:24:39] Ah, não. Ele tá com problema da origem.
+[00:24:41] Então vamos lá pegar o original aqui.
+[00:24:45] Control C.
+[00:24:56] Ó, git club. É clube git clone.
+[00:25:02] E tá aqui ele. Enter.
+[00:25:05] Não é aqui direitos.
+[00:25:10] Beleza. Então, a princípio já instalou
+[00:25:14] CD.
+[00:25:17] Inema
+[00:25:20] CCB.
+[00:25:26] Ó, então agora o que que nós temos que
+[00:25:28] fazer? Instalar esse cara aqui. Vamos
+[00:25:31] ver se isso aqui vai funcionar.
+[00:25:55] Tá beleza?
+[00:25:58] E aí, né, os repositórios de domínio,
+[00:26:04] eu vou botar esses dois aqui agora só,
+[00:26:08] só para vocês,
+[00:26:12] se eu quisesse estar rodando esses dois,
+[00:26:22] colocou esses domínio aí, ou seja, eu
+[00:26:24] baixei todos os repositórios ali.
+[00:26:26] Certo? Uma dica aqui nisso aqui é eu
+[00:26:30] dentro do promo avatar tem o CTA, no
+[00:26:32] caso tá o enema, então depois tem que
+[00:26:35] trocar ali para esse arquivinho para
+[00:26:38] dentro de gerar os os vídeos, tá? Se
+[00:26:42] vocês usarem o promo avatar, senão
+[00:26:44] ignora, certo?
+[00:26:47] Ã, testar e compilar. Vamos ver agora se
+[00:26:50] funciona.
+[00:26:52] Então vamos lá. Olha só, vou dar npm
+[00:26:55] teste, certo? E npm run building. Podia
+[00:27:01] ser run deve, tá? Mas é melhor usar o
+[00:27:04] build porque ele vai atualizar sempre a
+[00:27:08] versionalização do GitHub.
+[00:27:11] Então vamos lá,
+[00:27:15] depois eu deixo vocês fazerem aí, tá? Só
+[00:27:17] vamos ver se o processo aqui meu
+[00:27:20] funciona.
+[00:27:37] Ó, então ele tá criando toda a
+[00:27:39] aplicação, certo? Para ser acessada.
+[00:27:45] Vamos ver se não vai dar um erro no
+[00:27:46] final.
+[00:27:51] Então, tia, tu, no caso, tu e quem tiver
+[00:27:53] VPS vai poder fazer todo esse processo
+[00:27:56] aí.
+[00:28:08] Beleza? Tá. Então, agora o que que nós
+[00:28:11] temos que fazer, certo? Criar o
+[00:28:14] bootfatter lá, certo? e colocar ele aqui
+[00:28:18] dentro desse arquivo.
+[00:28:21] Então vou fazer isso. Venho aqui
+[00:28:26] bootfatter.
+[00:28:29] Oi.
+[00:28:40] Eu até faço isso, mas não na que quando
+[00:28:43] tu tá explicando pras pessoas e tudo, eu
+[00:28:46] tô criando mais uma camada de problema
+[00:28:48] para eles, entendeu?
+[00:28:51] Então, por exemplo, eu deixo tudo no
+[00:28:53] ponto ENV para isso, paraa base, senão
+[00:28:57] daqui a pouco nós estamos, é que nem eu
+[00:28:59] trabalhar com VS Code ou com o cursor,
+[00:29:03] etc, né? Ou com antigravity, quando vê,
+[00:29:06] tu tá criando mais camada ainda, tá?
+[00:29:10] Então procuro sempre trabalhar no mais
+[00:29:12] simples que tem, tá? Só para te dar
+[00:29:16] feedback, tá? Então vamos lá criar o o
+[00:29:20] boot fatter aqui, certo? Então eu quero
+[00:29:24] criar mais um novo boot. New boot, ó.
+[00:29:27] New boot.
+[00:29:31] Nome vai ser inema CC,
+[00:29:35] né?
+[00:29:36] X. Eu vou botar aqui botema.
+[00:29:44] Agora CX X bot.
+[00:29:49] Passou. Peguei a chave dele aqui. Então,
+[00:29:52] essa chave aqui que eu quero levar para
+[00:29:55] dentro da onde? O que que ele tá me
+[00:29:57] dizendo?
+[00:29:58] Ele tá me dizendo para mim copiar esse
+[00:30:00] cara aqui, né, e dar direitos de 600
+[00:30:04] para que, né, possa só quem tem direitos
+[00:30:08] usar. Então, vamos lá. Primeiro vamos
+[00:30:11] abrir a tela aqui e já tirar a cópia do
+[00:30:15] cara aqui, ó.
+[00:30:17] Pronto. E agora eu vou dar nano
+[00:30:21] pon.
+[00:30:24] Ó, tenho aí uma série de parâmetros,
+[00:30:26] etc. Tudo definido aqui. E o que
+[00:30:29] interessa agora é esse aqui.
+[00:30:34] Vamos lá achar ele
+[00:30:39] aqui em cima. B token.
+[00:30:44] Tem que tem que descer.
+[00:30:54] Pronto. Certo.
+[00:30:58] Eh, control
+[00:31:00] O, ent, cont X. Beleza? Então, a
+[00:31:05] princípio, temos esse cara aqui, que é o
+[00:31:08] bot que tem aí. Se eu vim agora aqui
+[00:31:11] nesse cara, eu vou dar um start,
+[00:31:15] certo?
+[00:31:17] E vamos ver o que mais eu tenho que
+[00:31:19] fazer aqui,
+[00:31:21] tá? Beleza?
+[00:31:23] Aqui, ó, enquanto
+[00:31:26] tá,
+[00:31:28] ele vai aceitar. Depois que não tiver
+[00:31:31] zero, ele não vai aceitar mais ninguém,
+[00:31:33] certo?
+[00:31:35] Tã. Eu vou dar ping, então vamos ver se
+[00:31:37] eu dou ping lá e ele vai funcionar.
+[00:31:53] Deixa eu ver.
+[00:31:56] Às vezes tem uma ordem.
+[00:31:59] Tá, tá. Como descobrir o chat? Tá.
+[00:32:03] Esse é o pareamento primeiro dá um ping,
+[00:32:08] tá?
+[00:32:10] Vamos subir então na mão aí. ponto start
+[00:32:18] p barra start
+[00:32:22] ps
+[00:32:27] ele falhou porque existe alguma coisa é
+[00:32:30] nas falhas aqui do do Nando, ó.
+[00:32:39] aqui, ó. Esses caminhos aí, aonde que
+[00:32:43] seria? Então, eu vou deixar, ó, ele tá
+[00:32:47] pegando esse caminho aqui.
+[00:32:58] Vamos botar assim. Vamos ver se
+[00:33:00] funciona. Senão tem que depois ajustar.
+[00:33:02] Isso. Não tá legal. Tinha que já
+[00:33:04] funcionar de cara.
+[00:33:12] Ah.
+[00:33:25] Tá.
+[00:33:38] Isso é, isso aí é um bug do cara que
+[00:33:40] desenvolveu isso aqui
+[00:33:49] aqui em cima também tem que tirar isso
+[00:33:51] aqui.
+[00:33:55] Vamos ver se vai passar aqui.
+[00:33:58] Eu acho que tudo isso aqui tem que
+[00:33:59] mudar.
+[00:34:02] projetos
+[00:34:22] Ó, tem mais aqui embaixo, tá? Mas depois
+[00:34:25] eu mostro, mexo nesses outros aqui.
+[00:34:28] Cont.
+[00:34:30] Vamos ver.
+[00:34:36] Ainda tem rot projetos inibotro.
+[00:34:57] Ah, tá aqui, ó.
+[00:35:04] Aqui é o tio. Cadê você, tio?
+[00:35:11] Acho que era isso aqui.
+[00:35:25] Ainda tem.
+[00:35:40] Deixa eu ver aqui para baixo se tem
+[00:35:41] alguma coisa.
+[00:35:56] imagem, caminho pro Isso tudo do Rid,
+[00:35:59] hein. Isso aqui eu depois eu vou
+[00:36:01] atualizar aí o sistema para ele pegar já
+[00:36:04] a
+[00:36:06] variável do do local
+[00:36:09] aqui, provavelmente foi, ó.
+[00:36:17] Então vamos fazer diferente. Vamos ver
+[00:36:20] se isso aqui resolve assim.
+[00:36:45] Não, pera aí.
+[00:36:49] Deixa eu pegar, deixa eu resolver.
+[00:36:55] Eu
+[00:36:59] não quero mandar o o chat resolver isso.
+[00:37:05] Opa, que que é isso?
+[00:37:14] E deixa eu pegar aqui a
+[00:37:36] Deixa eu ver. Eu não vi isso aqui.
+[00:37:57] Ah, sim, sim.
+[00:38:06] Sim, eu vi, eu vi aqui.
+[00:38:11] É, mas não é aqui que ele ele ia agora
+[00:38:13] não. Eu não tô usando o Rey Jen agora,
+[00:38:16] por isso
+[00:38:28] deixa eu fazer uma coisa aqui.
+[00:38:30] [roncando]
+[00:38:33] Aham. Sim, mas aqui ali é comentário.
+[00:38:37] Deixa eu fazer uma coisa aqui. CD
+[00:38:40] pcc
+[00:38:57] deixa eu ajustar. Eu vou ajustar aqui na
+[00:39:00] fonte, senão vai dar problema para todo
+[00:39:01] mundo.
+[00:39:05] ponto env
+[00:39:08] exemp
+[00:39:20] erradas. Quero que zera e pegue
+[00:39:26] os diretórios
+[00:39:28] de
+[00:39:33] uma VPS.
+[00:39:38] Ajuste isso agora. OK.
+[00:39:46] Sim. Senão vocês vão ter esse problema
+[00:39:48] aí.
+[00:40:18] Tá beleza.
+[00:40:20] Daí eu vou vir aqui, vamos puxar. Eu só
+[00:40:22] tenho que pegar essa chave aqui. O resto
+[00:40:25] não tem nada de ver.
+[00:40:37] Yes.
+[00:40:48] Deixa eu ver. Push. Tá feito.
+[00:40:55] Vamos ver.
+[00:41:00] CP.
+[00:41:12] Vamos ver agora.
+[00:41:21] Ó, agora ele atualizou. Vamos ver se
+[00:41:24] passa agora.
+[00:41:44] &gt;&gt; [risadas]
+[00:41:44] &gt;&gt; Ele tava aí com meus testes, por isso
+[00:41:46] que foi, acabou indo para lá,
+[00:41:50] ó. Falhou
+[00:41:52] porque não existe o binário cloud aí.
+[00:41:59] [roncando] Tá tudo bem. É porque eu não
+[00:42:01] tenho o o cloud instalado aqui. Deixa eu
+[00:42:04] ver se eu tenho Codex.
+[00:42:07] Não, Cloud.
+[00:42:11] Tá. Então eu tenho que instalar o cloud
+[00:42:12] aqui para poder rodar.
+[00:42:15] Certo?
+[00:42:18] Então,
+[00:42:21] comandinho do Cloud.
+[00:42:25] Alguém lembra o comando do Cláudio
+[00:42:27] Decor?
+[00:42:44] &gt;&gt; [roncando]
+[00:42:45] &gt;&gt; Ó, já vou baixar isso aqui também.
+[00:42:55] Comando Cláudio tava aqui para cima.
+[00:43:08] Aqui, ó.
+[00:43:13] Ó,
+[00:43:24] ele vai me dar o link, né, para mim
+[00:43:26] autenticar.
+[00:43:38] Ué,
+[00:43:45] deixa eu copiar isso aqui para cá.
+[00:43:49] Vamos lá. Eu vou, eu tô levando aqui, ó,
+[00:43:51] para vocês, para mim sempre ver os
+[00:43:55] problemas que a gente vai enfrentar.
+[00:44:04] Sim, tu tem que ter o Cláudio ou Codex,
+[00:44:06] né? Ou você tem que ter alguém que vai
+[00:44:09] poder rodar esse cara, certo?
+[00:44:14] [roncando]
+[00:44:22] Sim. Daí depois tu pode sim, tu pode
+[00:44:25] botar qualquer outra chave aí. né? Mas
+[00:44:28] tu tem que ter um agente que nem eles
+[00:44:30] estão chamando de o harness, esse cara
+[00:44:34] que vai fazer a execução. Podia tá
+[00:44:38] rodando o local também fazendo isso.
+[00:44:48] Sim, sim. É isso aí.
+[00:44:57] É, tu pode estar rodando também o Codex,
+[00:44:59] ó. Tá?
+[00:45:02] Vamos ver se não for aqui. Vamos ver. Eu
+[00:45:06] tô botando nessa instalação aqui que não
+[00:45:08] tem nada.
+[00:45:16] Qualquer
+[00:45:19] É, na verdade assim, ó, tem duas coisas
+[00:45:21] que a gente tem que lembrar.
+[00:45:23] Qual é o agente que que roda e qual é a
+[00:45:27] LLM? São duas coisas diferentes, né?
+[00:45:31] Quando a gente usa o cloud Code, usa
+[00:45:33] Codex, usa o cursor, né? Ou outros
+[00:45:38] agentes.
+[00:45:40] E aí você tem que dizer quem é que é a
+[00:45:43] inteligência desse agente, qual é o
+[00:45:46] cérebro. Daí é a LLM.
+[00:45:48] Então a LM, eu eu diria assim, vamos
+[00:45:51] pensar sempre, eu tô usando Open Router,
+[00:45:54] a LLM é lá, mas quem é que é o cara que
+[00:45:57] gerencia isso, né? Então sempre temos
+[00:46:01] que isso é a base de tudo,
+[00:46:06] ó, o Codex aqui e o cloud. Beleza?
+[00:46:11] Agora vamos ver se ele roda aqui,
+[00:46:15] ó.
+[00:46:16] Versão do cloud tá aqui. Versão do Codex
+[00:46:20] tá aqui.
+[00:46:22] Certo? E vamos rodar o start aqui.
+[00:46:31] Pon barra startart psh.
+[00:46:37] Que que eu fiz de regata?
+[00:46:44] Mas eu já deslodei aqui que ele não
+[00:46:46] existe.
+[00:46:57] Aliás, é aqui que eu tinha que botar
+[00:46:59] ele.
+[00:47:12] Ó, ele tá exigindo um diretório local,
+[00:47:16] certo?
+[00:47:18] Então, o que que nós vamos fazer? Vamos
+[00:47:20] fazer o comando. Deixa eu ver o que que
+[00:47:21] ele tá mandando fazer.
+[00:47:28] está só referenciando isso aqui. Vamos
+[00:47:31] ver se faz.
+[00:47:36] Tem que corrigir aqui o o esse cara
+[00:47:39] aqui. Mas depois nós fizemos isso. Vamos
+[00:47:42] ver se aqui resolve.
+[00:47:48] Falhou.
+[00:47:53] Bo falhou. Registro de fluxo entrada
+[00:47:56] zero repo. Não existe projetos.
+[00:48:10] Deixa eu rodar, mas não vai rodar, ó.
+[00:48:16] Então vamos tentar mudar diretamente
+[00:48:18] aqui, ó.
+[00:48:31] Se não rodar isso aqui, eu vou mandar
+[00:48:33] alterar de novo.
+[00:48:40] É, a gente fica daí as cegas,
+[00:48:46] então não adianta.
+[00:49:00] Deixa eu ver o o
+[00:49:11] Deixa eu ajustar esse tá bom porque daí
+[00:49:14] eu já vou forçando aqui.
+[00:49:43] Só para vocês verem o que que Eu tô
+[00:49:45] fazendo, eu tô consertando aqui, ó.
+[00:50:10] Vamos ver se isso aqui vai ajudar.
+[00:50:17] É tudo é onde que tá o diretório, né?
+[00:50:19] Foi instalado um diretório diferente
+[00:50:22] do
+[00:50:24] Ó, ele ainda tá dando errado. O
+[00:50:27] diretório não existe.
+[00:50:40] [roncando] Só de curiosidade.
+[00:50:56] Deixa eu ver. Nano
+[00:51:00] ponto
+[00:51:02] para onde ele? Ué,
+[00:51:09] para onde ele tá dizendo que tá o
+[00:51:11] diretório aqui?
+[00:51:39] Aqui tá, ó. Rot projetos
+[00:51:45] motor Pladão Cloud. Aqui tu pode mudar
+[00:51:47] para Codex
+[00:51:49] o modelo que tu queira usar.
+[00:51:52] E o esforço padrão. Tá tudo aqui
+[00:51:55] definindo
+[00:52:03] aqui. Tá certo.
+[00:52:10] Ó, vamos lá rodar. Então, eu vou dar
+[00:52:13] git. Eu alterei lá.
+[00:52:16] E vamos dar aquele o gitpol
+[00:52:19] npn building, tá? Ou seja, para ele
+[00:52:23] pegar e recriar de novo.
+[00:52:31] Vamos ver se resolve aqui.
+[00:52:44] Serviço no ar. Vamos ver.
+[00:52:46] Vou aqui agora e vou dar um ping aqui.
+[00:52:53] Lembra? A gente tem isso aqui. Ping
+[00:53:02] feito. Ufa.
+[00:53:06] Ã,
+[00:53:08] beleza. Tudo bem, pessoal? Então, olha
+[00:53:10] só.
+[00:53:12] Carlos Kberler, Marcos, entenderam aí o
+[00:53:15] que que o que que foi? Era um erro
+[00:53:18] dentro do
+[00:53:20] do script aí dizendo que o
+[00:53:26] aonde tá o diretório, certo?
+[00:53:31] Então o que que eu fiz? Eu dei um git,
+[00:53:33] eu acertei ele, dei um git e atualizei.
+[00:53:37] Então o problema todo era do da onde tá
+[00:53:39] o binário que tem aí. Bom, agora se nós
+[00:53:43] vamos parar para pensar, ó, vamos ver se
+[00:53:45] help se vai funcionar o meu.
+[00:53:50] Ó, tá vendo? Eu tô no Inema CCB,
+[00:53:53] certo? E agora se nós olharmos aqui, ó,
+[00:53:56] vocês vão ver que eu aqui e agora em
+[00:54:00] diante não vai ter mais zero.
+[00:54:04] Então vamos lá.
+[00:54:07] Eu vou abrir uma nova sessão aqui para
+[00:54:09] não atrapalhar essa aqui. Eu Onde que tu
+[00:54:13] tá,
+[00:54:15] Nano? Aqui,
+[00:54:25] ó. Se eu cheguei projetos
+[00:54:30] CDEMA
+[00:54:34] CCBOT
+[00:54:36] nano poner
+[00:54:40] env.
+[00:54:43] Ó, tá vendo? Ele já botou aí agora os
+[00:54:46] códigos todos aqui dentro, certo?
+[00:54:54] Muito bom,
+[00:54:56] pessoal. Aí, então, a instalação é essa
+[00:55:00] aqui. Eu preciso ter um servidor, um
+[00:55:03] serviço rodando, seja cloud, seja Codex,
+[00:55:08] seja, por exemplo, aí, vamos lá, Carlos.
+[00:55:12] Ã, tu tá usando kim, né?
+[00:55:18] Tá. Olha só. Mas qual é que é o harness
+[00:55:21] que tu tá usando? Qual é que é o agente?
+[00:56:01] Sim.
+[00:56:26] Hum.
+[00:56:29] Tá. Então, o seguinte, só para ver o que
+[00:56:32] que eu tava querendo dizer é que
+[00:56:38] quando você tá usando um sistema, quando
+[00:56:41] você fala em qualquer LLM, uma coisa é
+[00:56:45] tu usar a LLM, outra coisa é tu usar
+[00:56:50] aquela LLM dentro de um
+[00:56:54] sistema, um agente, um
+[00:56:57] harness, certo?
+[00:57:00] Então o cloud code é um harness.
+[00:57:08] Isso sim. Por exemplo, o cloud code é um
+[00:57:13] harness, o codex é um harness, certo? O
+[00:57:17] cursor é um harness, o
+[00:57:21] antigravity é um harness, o open cloud
+[00:57:26] um hardness. O Hermes, é um harness.
+[00:57:29] Em todos esses aí a gente tem que pensar
+[00:57:33] quem nós vamos usar para
+[00:57:36] ã deixa eu tirar aqui que ele tá dando
+[00:57:39] um eco aqui. Oi. Ã, a gente tem que
+[00:57:45] pensar em cima desses cara
+[00:57:48] qual é a IA que eu vou usar. Então, qual
+[00:57:51] era o problema que nós temos no cloud
+[00:57:53] code? é que ele não deixava você colocar
+[00:57:56] uma outra e sem ser o o digamos o opus o
+[00:58:01] o Sonet ou Haiku ou ou o Fable, certo?
+[00:58:06] Daí tu tinha que fazer lá uma, né, uma
+[00:58:09] uma mudança ali para poder usar,
+[00:58:14] certo?
+[00:58:17] Então eu posso instalar de graça
+[00:58:20] qualquer um desses harners, porque nós
+[00:58:23] pagamos não pelo harness, nós pagamos
+[00:58:26] pelo
+[00:58:28] pela IA, pela LLM, certo?
+[00:58:49] Sim, mas uma das coisas importantes, tá?
+[00:58:54] Veja, não importa qual é a Ll,
+[00:58:59] mas mais importante do que isso seria
+[00:59:02] por que eu vou usar o o Kim
+[00:59:09] se eu tenho outras que podem ser
+[00:59:11] melhores em custo benefício.
+[00:59:14] Por que que eu vou usar o Fable se eu
+[00:59:16] tenho outras melhores?
+[00:59:23] Certo.
+[00:59:31] [roncando]
+[00:59:43] Ó, mas aí que tá, mas aí que tá. Vamos
+[00:59:46] lá. Eu quero parar aqui um pouquinho por
+[00:59:49] paraa gente não não fugir das coisas
+[00:59:52] importantes, tá?
+[00:59:54] Olha só um exemplo aqui. Cloud, Code e o
+[00:59:57] Codex, certo? Aqui tem uma avaliação de
+[01:00:01] que foi feito uma aplicação
+[01:00:04] em Cloud Code, em Codex, certo? Isso
+[01:00:07] aqui o NAT fez lá.
+[01:00:10] Enquanto que a mesma coisa, um levou 5
+[01:00:13] horas e gastou 800, o outro gastou
+[01:00:18] 3.000, levou 61 horas para fazer a mesma
+[01:00:21] coisa.
+[01:00:37] O Cláudio levou 5 horas isso aqui e o
+[01:00:40] Codex levou 3000 3.000 e 61 horas.
+[01:00:45] Então, então nós temos que olhar daí o
+[01:00:49] que que eu quero só que vocês entendam.
+[01:00:52] Uma coisa é o harness, certo? E eu
+[01:00:55] pergunto para vocês, qual é o melhor
+[01:00:58] harness?
+[01:01:04] Não, não. Ah, não. Aqui tudo bem aqui
+[01:01:07] nessa solução. Mas eu digo agora esquece
+[01:01:09] isso. Pensar qual é o melhor harness?
+[01:01:12] Todos harness são de graça. Qual você
+[01:01:15] vai usar e por quê?
+[01:01:26] Marcos. Vai lá, Cléber. Vai lá, Tia.
+[01:01:29] Paula.
+[01:01:48] Veja só. Vamos lá. Vamos pedir pro chat
+[01:01:51] ajuda.
+[01:01:53] Comparando os harness.
+[01:01:58] existentes como Cloud Code, Codex,
+[01:02:04] só para ele não viajar na maionese.
+[01:02:07] Hermes cursor
+[01:02:10] open
+[01:02:16] qual
+[01:02:19] antigravity.
+[01:02:24] Quais vantagens e desvantagens
+[01:02:29] tenho cada um? Faça uma tabela simples
+[01:02:35] no final,
+[01:02:37] OK? Então, o que que acontece quando,
+[01:02:40] por que que eu tô falando isso agora?
+[01:02:42] Porque a gente instalou nosso sistema e
+[01:02:44] escolheu um hardware para gerenciar,
+[01:02:47] certo? Eu podia dizer que eu não quero
+[01:02:51] ter nenhum e eu vou construir o meu.
+[01:02:56] Porque olha só, se vocês estão, lembra
+[01:02:58] que eu falei do Bent Stúio,
+[01:03:02] né? Ó, eu tenho Bent Studio aqui, o
+[01:03:05] sisteminha que eu fiz. Ele é o próprio
+[01:03:08] Harness, porque ele não usa ninguém. Eu
+[01:03:10] não preciso ter ninguém
+[01:03:13] para rodar por baixo dele. Eu só preciso
+[01:03:15] uma LLM se eu quero fazer refinar o
+[01:03:18] prompt. Senão não é eu eu ele é o
+[01:03:21] harnet, ou seja, ele é o programa.
+[01:03:25] Quando nós pensamos em harness, nós
+[01:03:27] estamos pensando uma cebola, onde que eu
+[01:03:30] vou ter uma série de ferramentas, onde
+[01:03:33] eu vou ter os processos gerenciando,
+[01:03:36] onde que eu vou ter as LLMs que eu quero
+[01:03:39] conectar. Então, quando nós estamos
+[01:03:42] usando LLMs, eu tenho que eu tenho que
+[01:03:44] pensar em cada uma o que que é melhor.
+[01:03:47] Certo?
+[01:03:49] Hoje eu separia code em fix, ou seja, o
+[01:03:52] que que eu quero o Harmers para fazer
+[01:03:55] codificação.
+[01:03:57] O que que eu quero eles para para fazer
+[01:04:00] coisas gerais?
+[01:04:03] O que que eu quero apenas para
+[01:04:05] orquestração?
+[01:04:08] Certo? Então, né, os Hermes e os
+[01:04:11] OpenCloud é um propósito geral.
+[01:04:15] E aí eu podia tá lendo tudo isso que ele
+[01:04:18] me apresenta, mas já mandei aqui uma
+[01:04:20] tabelinha porque a gente tá em live,
+[01:04:21] então, né? O que que é desvantagens,
+[01:04:25] certo? Então, cada um tem sua
+[01:04:28] desvantagem,
+[01:04:30] né? mais especializado em software, mais
+[01:04:33] acoplado ao cursor, mais configuração,
+[01:04:37] mais complexidade e segurança, né?
+[01:04:42] Mais você precisa a infraestrutura.
+[01:04:45] Então, cada um deles tem vantagens e eh
+[01:04:49] desvantagens,
+[01:04:51] certo?
+[01:04:52] Então, uma coisa é o seguinte, se tu
+[01:04:55] quer desenvolver, tu não vai focar no
+[01:04:57] Hermes, no OpenCloud, etc, para
+[01:05:00] desenvolver, porque tu vai ter que ter
+[01:05:02] um, né, um uma coisa muito grande para
+[01:05:06] fazer uma coisa simples, que é da
+[01:05:08] direção para Iar, certo? Agora, se tu
+[01:05:13] quiser ser um sistema de multiagentes,
+[01:05:17] né, num numa operação, talvez eu tenha
+[01:05:21] OpenCloud ou Hermes e assim por diante.
+[01:05:23] Então, não importa. Eu queria mostrar só
+[01:05:27] para vocês que a gente tem muitos
+[01:05:29] recursos, cada vez vão surgir mais e
+[01:05:32] alguns vão estar em evidência pelo menos
+[01:05:34] por um tempo, certo? Então, o que que
+[01:05:39] acontece? Se nós estamos pensando em
+[01:05:41] alguma coisa bem simples, certo? Eu
+[01:05:44] podia estar usando talvez o pi. Agora
+[01:05:47] vamos botar aqui. Quero apenas
+[01:05:51] um simples para gerenciar
+[01:05:55] meu
+[01:05:57] processo ou sistema
+[01:06:01] inema CCBT.
+[01:06:11] Ó, então aqui ele já tá me dando aqui,
+[01:06:14] ó. Eu escolheria o Open Cloud porque daí
+[01:06:18] ele pá daria as as alternativas e
+[01:06:21] contraalternativas em cada um, certo?
+[01:06:25] Agora, por exemplo, tem e o primo
+[01:06:31] ou primo novo agente não seria uma boa?
+[01:06:37] Só para pegar um hiper novo aí que tá se
+[01:06:40] falando desse cara,
+[01:06:46] ó. Prime a gente, tá? Tá, tá, tá, tá. Ou
+[01:06:50] seja, só para complicar um pouco. Então,
+[01:06:52] realmente, eh, o Marcos falou: "Qual é o
+[01:06:56] melhor?" Aquele que tu domina,
+[01:06:59] certo?
+[01:07:01] Só que quando a gente tá antes de
+[01:07:03] escolher e tudo, é pensar sobre isso,
+[01:07:07] né? Talvez eu posso fazer alguma coisa
+[01:07:09] bem mais simples, mais leve, etc., para
+[01:07:12] gastar menos máquina. Porque quando nós
+[01:07:15] pensamos em esses sistemas que nem o
+[01:07:18] OpenCloud, Hermes, eh, etc, eles cada
+[01:07:23] vez mais robusto para poder ter mais
+[01:07:25] serviços,
+[01:07:27] certo?
+[01:07:29] E aí por diante. Então, tudo bem, isso
+[01:07:31] aí vai dar tempo para vocês pensarem e
+[01:07:33] tudo, mas eu só queria chamar atenção
+[01:07:36] agora logo depois de ter instalado e
+[01:07:39] rodando o meu sistema.
+[01:07:42] Agora, se eu quero entender meu sistema,
+[01:07:44] o que que eu vou? Vamos lá de novo no
+[01:07:48] aqui, ó,
+[01:07:50] dentro do ritm
+[01:07:53] um link chamado arquitetura,
+[01:07:58] certo? Que tá aqui, ó. Certo? Aqui
+[01:08:01] embaixo era a arquitetura.
+[01:08:04] O que que nós temos? Temos o Telegram.
+[01:08:07] E se vocês olharem aqui, ó, ó, Telegram,
+[01:08:11] existe um arquivo, né, uma pasta e um
+[01:08:14] arquivo aqui chamado Telegram TS,
+[01:08:17] certo? Aqui dentro tá o programa para
+[01:08:21] gerenciar a comunicação entre o
+[01:08:23] Telegram, certo? e o orquestrador,
+[01:08:28] né, o roteador.
+[01:08:32] Eu não preciso entender de programação,
+[01:08:35] mas eu só tô querendo mostrar para vocês
+[01:08:37] aonde tá a relação. Então, é um programa
+[01:08:41] falando com outro programa,
+[01:08:44] os dois, né, do gateway.
+[01:08:48] Então, as mensagens que tu recebe, esse
+[01:08:51] cara aqui que vai ter a função de
+[01:08:54] rotear.
+[01:08:55] E aqui ele vai procurar se veio um
+[01:08:58] comando barrafila barra status
+[01:09:01] barraespaço barra ping barra não sei o
+[01:09:04] quê. Ou seja tem um arquivo chamado
+[01:09:07] comandos.ts.
+[01:09:12] Certo? Também, ó, quando as pessoas
+[01:09:16] escrevem alguma coisa, vai ter um
+[01:09:18] gramática. O que que é? São as palavras
+[01:09:21] que querem dizer alguma coisa.
+[01:09:27] senão a palavra skill, a palavra skill
+[01:09:30] não é apenas habilidade,
+[01:09:34] ela é uma função, é um programa, é um
+[01:09:38] recurso. Então eu vou ter que trabalhar
+[01:09:41] aqui. Quando a pessoa digita umas
+[01:09:44] palavras, eu vou botar o que que
+[01:09:46] significa aquelas palavras,
+[01:09:51] certo? Veja essa diferença que nós vamos
+[01:09:55] ver daqui para frente. Eu não preciso
+[01:09:57] fazer nada de programa, mas eu tenho que
+[01:09:59] entender uma lógica,
+[01:10:04] não é?
+[01:10:06] O Marcos tá me ouvindo
+[01:10:10] muito bem. O que que significou isso
+[01:10:13] aqui?
+[01:10:20] Isso aqui quer dizer, eu não preciso
+[01:10:22] explicar, não é?
+[01:10:25] É um comando.
+[01:10:28] Se eu mudar de dedo, tu pode se ofender,
+[01:10:30] não é?
+[01:10:32] Então, é, é, ou seja, atrás de um
+[01:10:35] comando existe algumas coisas. Então nós
+[01:10:38] estamos construindo, certo, as regras
+[01:10:41] aqui. Então eu tenho comandos, eu tenho
+[01:10:44] gramática para entender no meio de uma
+[01:10:46] frase o que que aquela palavra pode
+[01:10:48] significar.
+[01:10:51] Tanto que se vocês vão verem aqui, ó,
+[01:10:55] eu cheguei aqui eema vip, novidades,
+[01:11:03] ó. cinco comandos que mudam o jogo,
+[01:11:07] certo?
+[01:11:09] Porque eu vi várias pessoas vendendo
+[01:11:12] isso na internet, etc, vendendo até os
+[01:11:15] kits. Eu vou eu vou vender também porque
+[01:11:17] eu tenho 100 comandos de IA e NEMA DSL.
+[01:11:24] O que que são esses comandos? São
+[01:11:27] recursos que a Iá entende. Então basta
+[01:11:29] tu dar um comando
+[01:11:32] e ela já sabe o que tu quer passar. Tu
+[01:11:34] não precisa escrever um monte de script,
+[01:11:37] né? Não precisa dar um prompt,
+[01:11:41] né? Então pros caras que estão vendendo
+[01:11:44] é o segredo da Iá. Então quando tu dá,
+[01:11:47] né? Tu diz: "Eu quero que seja
+[01:11:49] verdadeiro". Quando tu dá verify, eu
+[01:11:51] quero que tu faça tal coisas. Então a Iá
+[01:11:54] já é inteligente, suficiente para
+[01:11:56] entender que basta tu dar aquela posição
+[01:11:58] de dedo, ela já passou um significado.
+[01:12:03] Assim como se fizer isso aqui também
+[01:12:05] sabe o que que é,
+[01:12:08] né?
+[01:12:09] Então, eh, voltando paraa nossa, né, pra
+[01:12:13] nossa lógica aqui da do que que a gente
+[01:12:15] tá querendo construir, é, eu preciso
+[01:12:20] agora assim entender o contexto todo.
+[01:12:23] Deixa eu ver onde que eu tava aqui.
+[01:12:27] Certo? Então, eu tenho cada um desses
+[01:12:30] aqui, ó, né?
+[01:12:33] Fluxos TS. Ó, eu tenho comandos dos
+[01:12:36] fluxo. TS.
+[01:12:39] né? Eu tenho stories,
+[01:12:42] né? Que fica a informação. Então todos
+[01:12:44] os arquivos já, né? Tá script podia ser
+[01:12:48] P que seria feito em Python. Então
+[01:12:52] depende do que que tu fez a linguagem e
+[01:12:54] tu vai ter os arquivos, certo? Né? Os
+[01:12:58] workers, né? Aqui tem o agente ou
+[01:13:02] função. Então aqui dentro ele vai chamar
+[01:13:04] quem, né? e assim por diante. Eu tenho a
+[01:13:08] estrutura. Se se eu fosse lá na minha
+[01:13:11] época, lá nos meus 20 anos, o que que eu
+[01:13:14] fiz quando eu peguei a primeiro, né,
+[01:13:17] rede novela, etc. Ah, o Windows, o DOS,
+[01:13:22] eu ia abrir um por um dos arquivos para
+[01:13:25] poder olhar o que tinha dentro de
+[01:13:27] curioso.
+[01:13:29] Certo?
+[01:13:31] Então, veja só os destinos aqui, ó.
+[01:13:35] Lembra que eu falei lá, a gente pode
+[01:13:37] definir os destinos. Então, lives ní ele
+[01:13:41] significa, se a pessoa escreveu lives
+[01:13:44] um, lives dois, ele sabe que vai ser
+[01:13:47] YouTube Pub, lives n vai ser o
+[01:13:51] número/imports/vío.
+[01:13:53] É ali que ele vai botar o arquivo de
+[01:13:56] destino,
+[01:13:59] certo?
+[01:14:01] Então, por que que é importante isso?
+[01:14:03] Porque o Cléber, ele disse assim: "Não,
+[01:14:07] o Nei tá fazendo aí vídeo, mas eu quero
+[01:14:10] fazer diferente, eu quero fazer, eu
+[01:14:12] quero que coloque em outro lugar, eu
+[01:14:14] quero que faça tal coisa". Então é aonde
+[01:14:17] tu vai definir, tá no destino. Para quem
+[01:14:20] notificar, tá aqui
+[01:14:24] em que circunstância,
+[01:14:27] né? Vai publicar, vai mudar o título,
+[01:14:30] vai fazer alguma coisa. Então, a entrega
+[01:14:33] tá aqui, a execução tá aqui, a fila tá
+[01:14:36] aqui, o gateway tá aqui e o chat tá
+[01:14:38] aqui. Então eu entender esses arquivos é
+[01:14:42] fundamental. Talvez eu nem vou nunca
+[01:14:45] entrar dentro deles. Eu vou usar o o
+[01:14:47] Cloud ou o Codex ou o Hermes que for,
+[01:14:52] Carlos, para poder alterar.
+[01:14:57] Certo?
+[01:15:00] Entendeu, Tia?
+[01:15:08] Oi, Emerson.
+[01:15:10] Tu tem que tá na entra no inema.Vip,
+[01:15:13] entra na na live aqui, ó. Eu não
+[01:15:17] eu não acompanho o
+[01:15:20] YouTube aí na quando eu tô fazendo o
+[01:15:22] workshop, o curso, tá bom?
+[01:15:36] Pessoal, entendido isso, me dá um
+[01:15:38] feedback aí, ó.
+[01:15:41] Antônio Morais, Luís Ávila, Carlos,
+[01:15:44] Olavo, Paula, Marcos, tudo certo ou quê?
+[01:15:54] Então é uma pauleira até você botar teu
+[01:15:57] sistema no ar por causa da configuração
+[01:15:59] da tua VPS, certo?
+[01:16:03] Depois que tá no ar, eu só tenho que
+[01:16:05] entender essa estrutura de arquivos.
+[01:16:14] Então,
+[01:16:16] quando nós temos o projetos CCBOT ou o
+[01:16:20] nome que tu der, qualquer um dos
+[01:16:22] projetos, certo? Eu vou ter um arquivo
+[01:16:25] dentro do config chamado Fluxus Jason.
+[01:16:30] Eu vou ter lá dentro um arquivo chamado
+[01:16:32] Skill Jason.
+[01:16:35] Eu vou ter lá dentro, né, dentro do soio
+[01:16:39] flow.
+[01:16:41] né? Eu vou ter dentro da fila tarefas
+[01:16:44] index ts,
+[01:16:46] certo? Eu vou ter o arquivo ponto env,
+[01:16:51] eu vou ter, né, barra status states
+[01:16:55] ponto num banco de dados.
+[01:16:58] Então essa estrutura toda aqui, ó, eu
+[01:17:02] preciso
+[01:17:04] entender porque toda vez que eu colocar
+[01:17:06] alguma coisa nova ou retirar, é nesses
+[01:17:09] arquivos que vai ser feito,
+[01:17:12] na mão ou pelo cloud, o COD ou o que
+[01:17:16] for,
+[01:17:20] certo? Senão eu vou ter um sistema
+[01:17:22] vazio, eu tenho que ter o quê? Domínios,
+[01:17:26] certo?
+[01:17:28] Então, o termo domínio tá claro para
+[01:17:31] todos vocês?
+[01:17:35] A gente vai falar sempre de domínio, que
+[01:17:38] é um padrão. Quer dizer, o que que eu
+[01:17:40] tenho de serviços para aquele meu meu
+[01:17:44] sistema do inema CCBT?
+[01:17:52] Por exemplo, ontem me ligaram duas vezes
+[01:17:55] para tu ver os caras tão atrás de mim
+[01:17:58] atrás porque todo mundo quer publicar
+[01:18:01] muitos vídeos de político.
+[01:18:06] Então o que que acontece?
+[01:18:09] Eu tenho aqui um sistema de fila que eu
+[01:18:12] dou as ideias e ele gera um conteúdo com
+[01:18:15] avatar e tudo mais. Mas para fazer isso,
+[01:18:18] o que que eu quero? Eu tenho que ter os
+[01:18:20] domínios.
+[01:18:25] Vamos imaginar que o Kéber ele quer
+[01:18:27] criar, ele é da da igreja e ele quer
+[01:18:32] criar conteúdo educacional, né, como se
+[01:18:35] fosse filmes, etc. e tudo. Então ele vai
+[01:18:38] usar a fila para dizer o que ele quer e
+[01:18:41] aquilo para construir os filmes na
+[01:18:43] máquina dele e leva a noite toda. Então
+[01:18:46] ele dá uma, duas, três instruções e
+[01:18:48] deixa para pra fila. Só o que que
+[01:18:51] acontece? Ele tem que construir um
+[01:18:53] domínio que constrói os filmes para ele.
+[01:18:59] O inema Cebote é apenas, né, o
+[01:19:03] gerenciamento disso.
+[01:19:10] Para vocês verem aqui, ó. Se eu vim
+[01:19:13] aqui, Inema CCBT,
+[01:19:16] cadê você? Inema CCBT tá aqui, ó.
+[01:19:20] Certo?
+[01:19:22] Ó, isso aqui tudo são vídeos que foram
+[01:19:25] criados, ó, 10 da manhã aqui, ó. Hoje 10
+[01:19:29] da manhã, 10:40 foi criado, né? Ele deu
+[01:19:33] um erro aqui na 81,
+[01:19:36] tá? Pá, pá. Teve dois aqui com que não
+[01:19:41] foi processado,
+[01:19:43] né? Aqui eu fui ver aí o status às
+[01:19:47] 10:33.
+[01:19:49] Ó, aqui tudo vídeo também, ó. 81, 82.
+[01:19:55] Aqui teve dois três também que tava com
+[01:19:57] probleminha. Isso aqui é quando, né,
+[01:20:01] você estoura a tua carga lá e depois é
+[01:20:04] só dar refazer,
+[01:20:06] né? Ó os status que eu tinha aqui,
+[01:20:11] certo? 4 da manhã, ó, botei o status que
+[01:20:14] eu queria ir dormir. Daí digo: "Ah, ó,
+[01:20:17] tá processando e aqui é o texto que eu
+[01:20:20] passei." Então, só passei o texto aqui,
+[01:20:23] depois aqui mais para cima, passei outro
+[01:20:25] texto, outro texto, outro texto. Então,
+[01:20:29] entrou nas fila.
+[01:20:33] Então essa noite de novo foi mais de
+[01:20:36] 1000 mais de 100 criado,
+[01:20:42] certo?
+[01:20:44] E aonde eles estão os vídeos? Lá no
+[01:20:46] destino, onde que eu defini,
+[01:20:49] certo? Então para isso, deixa eu me
+[01:20:52] localizar onde que tá. Tá aqui, ó, a
+[01:20:54] máquina aqui de publicar,
+[01:20:58] certo? Então ele vai jogando para essa
+[01:21:00] máquina aqui,
+[01:21:04] ó. Na fila aqui, ó, tem mais de 100 aqui
+[01:21:07] vídeos pronto para ser publicado. Eu tô
+[01:21:10] deixando só dois por dia agora. Tô
+[01:21:14] diminuindo, aumentei, diminuí. Então,
+[01:21:17] cada canal, como eu tô aumentando o
+[01:21:19] número de canais, certo? Tô distribuindo
+[01:21:23] mais para ter mais alcance.
+[01:21:27] Ó, 100 aqui, 61 aqui, 104 aqui, 81 aqui.
+[01:21:32] Ou seja, eu continuo produzindo conteúdo
+[01:21:35] todo dia para minha máquina não ficar
+[01:21:38] parada. O meu custo é operacional, é
+[01:21:41] igual mensal
+[01:21:43] do rei Jin, né, da máquina parada.
+[01:21:47] Então, o que que eu tenho que fazer?
+[01:21:49] fazer o meu inema CCB e trabalhar.
+[01:21:54] Então, se eu chegar agora, por exemplo,
+[01:21:56] aqui e botar
+[01:21:59] botar barra status,
+[01:22:03] ó, ó, ele tem o quê? Ele tem
+[01:22:08] dois arquivos aqui que tá no Rios, ó, tá
+[01:22:11] na fila.
+[01:22:15] Na verdade, tem um só.
+[01:22:19] Deve ter alguma coisa aqui,
+[01:22:26] né? Muitas vezes tranca, muitas vezes
+[01:22:29] aconteceu não tem espaço, etc.
+[01:22:33] [roncando] Tá? Então, o gerenciamento
+[01:22:35] disso aqui.
+[01:22:38] Então, voltando para nosso sisteminha
+[01:22:41] aqui que nós estamos estudando,
+[01:22:46] se eu precisar colocar alguma coisa nova
+[01:22:49] no meu sistema, vai ser um novo domínio.
+[01:22:52] E um dos domínios que nós instalamos é o
+[01:22:54] Promo Avatar 3 e o Promo Avatar normal e
+[01:22:58] mais as skills que eu já defini aqui
+[01:23:01] dentro.
+[01:23:05] Então, se eu quiser usar uma skill nova,
+[01:23:08] eu escrevo aqui, certo?
+[01:23:12] Porque daí sim, né? Ele vai poder lá
+[01:23:16] consultar na hora do bote para ver isso
+[01:23:19] que tu tá pedindo. É uma skill que eu
+[01:23:20] conheço. Sim. Se não conheço, eu não te
+[01:23:23] atendo.
+[01:23:28] Tá claro que se tu não te tu não pode
+[01:23:31] deixar ele querer qualquer coisa, senão
+[01:23:34] ele vai gastar tua máquina, fila e tudo
+[01:23:36] para gerar uma coisa que ele não
+[01:23:37] consegue entregar,
+[01:23:42] certo?
+[01:23:47] E aí no domínio como é que funciona?
+[01:23:50] Olha só, eu tenho fluxos aqui e aqui eu
+[01:23:54] tenho flow, né? O flow é o é o que ele
+[01:23:57] vai executar, né? O workflow, o fluxo de
+[01:24:01] dado, né? O pipeline. Então é os alvos,
+[01:24:05] as fases, no caso, nesse caso é o avatar
+[01:24:08] que tem, né, a voz, os templates, né, o
+[01:24:12] CTA, o motor, rep, ou seja, tudo que te
+[01:24:15] envolve aqui.
+[01:24:17] Aonde que estão os promptes? Aí tem uma
+[01:24:20] pasta chamado prompts barra, né? E
+[01:24:23] vários promptes para quê? Para atender a
+[01:24:27] demanda disso aqui. Eu tenho os
+[01:24:29] templates que já que isso aqui é um ri
+[01:24:32] no final eu tenho os formatos que eu
+[01:24:34] quero, certo? E aí eu tenho um mapa
+[01:24:38] disso aí tudo. Eu tenho os scripts que é
+[01:24:41] aqui já tudo isso aqui já roda em
+[01:24:43] Python,
+[01:24:45] né? Eu tenho o arquivo CTA, que é aquele
+[01:24:48] arquivo no final. Por que que eu tenho
+[01:24:51] esse arquivo CTA no final? Porque quando
+[01:24:54] eu tava tentando diminuir o valor de
+[01:24:56] custo, por que que eu vou gastar ele
+[01:24:59] fazer um CTA sempre no final se eu já
+[01:25:02] sempre é o mesmo?
+[01:25:04] Então eu não preciso gastar ele criar,
+[01:25:07] né, gerar áudio, gerar vídeo, gerar
+[01:25:10] tudo. Eu simplesmente mando o FFM peg e
+[01:25:14] juntar junto. Então eu tenho um lugar
+[01:25:16] que onde eu tenho um CTA ou vários CTAs,
+[01:25:22] por exemplo, tá?
+[01:25:24] Vamos pegar a Paula. A Paula trabalha
+[01:25:26] com produtos. Ela tem lá seus 10
+[01:25:29] produtos.
+[01:25:30] Ela pode criar 10, 20, 30 CTA de cada
+[01:25:33] produto. E quando ela chamar o domínio,
+[01:25:36] ela pode dar um parâmetro que é qual é o
+[01:25:39] CTA que vai usar. ou se ela omitir, eu
+[01:25:43] poderia, baseado em onde que ela usa a
+[01:25:46] os recursos, vai ter um, né, uma
+[01:25:49] informação
+[01:25:51] que usa para aquele template, usa tal
+[01:25:54] CTA, outro template para tal. E a gente
+[01:25:58] tá falando CTA, mas podia ter abertura,
+[01:26:01] podia ter o engajamento, podia ter, ou
+[01:26:03] seja, qualquer coisa ali dentro, já que
+[01:26:06] eu tô falando em vídeo, mas podia ser
+[01:26:08] outros assuntos, né? Podia ser
+[01:26:11] construção de de livros, podia ser
+[01:26:14] relatórios que tu tá fazendo, né?
+[01:26:19] Então, eh, porque olha só, eu não sei se
+[01:26:22] vocês estão acompanhando, Carlos, também
+[01:26:24] a Openine, ela agora deu 50% em todos os
+[01:26:31] os
+[01:26:33] as LLMs.
+[01:26:35] Você usa a bet
+[01:26:38] e ela tem 24 horas para rodar ele.
+[01:26:42] Então imagina, tu tá conseguindo metade
+[01:26:44] de do preço de desconto por alguma coisa
+[01:26:48] que tu não quer agora.
+[01:26:52] Quer ver um exemplo? Todo dia, todo dia
+[01:26:54] meia-noite eu faço o meu cérebro
+[01:26:57] reprocessar.
+[01:27:01] Tanto faz se eu pensar, é uma vez por
+[01:27:03] dia entrego aquilo para executar com
+[01:27:07] Mobet
+[01:27:11] e eu ganhei 50%.
+[01:27:16] Então são os modelos de de coisa que eu
+[01:27:19] preciso ter retorno imediato. Não, não é
+[01:27:22] imediato. Então como é que eu vou est
+[01:27:24] usando?
+[01:27:27] Certo?
+[01:27:29] E aqui também tá onde que tá os help,
+[01:27:32] né? Help MD com todos os parâmetros que
+[01:27:36] ele é para entregar. Ele é para entregar
+[01:27:37] tudo numa vez, não. Ele entrega partes
+[01:27:40] para não sobrecarregar as pessoas lá.
+[01:27:43] Então a estrutura de um domínio, tá? Ele
+[01:27:47] vai eu, né, o cara vai consultar, ele
+[01:27:50] verifica se existe algum fluxo. Tem
+[01:27:54] fluxo sim. Então ele vai buscar o flow
+[01:27:56] lá, certo?
+[01:27:58] né? Vai analisar tudo isso e vai
+[01:28:00] devolver,
+[01:28:02] né? Porque eu tenho domínio, esse flow,
+[01:28:05] ó. Certo? Então eu tenho um sisteminha
+[01:28:09] que vai validar aquilo que tu tá
+[01:28:11] passando. Se encaixa aqui dentro,
+[01:28:17] certo?
+[01:28:25] Sim.
+[01:28:31] Sim, ele
+[01:28:37] sim, sim. Veja só, tu tem o inema CCB,
+[01:28:41] tá rodando.
+[01:28:43] Vamos imaginar agora que eu quero criar
+[01:28:45] contigo lá. E nesse aqui eu quero
+[01:28:48] colocar um domínio de construir música,
+[01:28:52] certo? Música e vídeo musical
+[01:28:55] não existe nesse meu domínio, ten o
+[01:28:58] promo avatar. Então nós vamos lá,
+[01:29:00] criamos ou já tem um pronto e eu tenho
+[01:29:03] que trazer ele para rodar dentro do
+[01:29:07] inema CCBT.
+[01:29:09] O domínio vai ser, né, música, vídeos.
+[01:29:14] OK?
+[01:29:16] Então, por exemplo, como é que eu vou
+[01:29:18] montar isso? Certo? Então, uma coisa,
+[01:29:22] ele já tá funcionando. Música vídeo.
+[01:29:24] Sim. Tá. Mas e como é que eu aciono ele
+[01:29:28] aqui dentro?
+[01:29:30] Certo?
+[01:29:32] Então, para, por exemplo, eu vou ter que
+[01:29:34] pegar e colocar ele como domínio aqui,
+[01:29:37] certo? Eu vou, ele é um fluxo ou ele é
+[01:29:40] skill? Ah, ele é fluxo, então eu tenho
+[01:29:43] que colocar ele aqui. Não é só uma skill
+[01:29:46] que vai pegar e fazer, digamos, uma capa
+[01:29:48] daquela música.
+[01:29:51] Então ele entraria um esquil. Então
+[01:29:55] em vez de eu deixar isso livre, porque a
+[01:29:58] a grande questão é assim: Se tu deixa na
+[01:30:01] mão dos agentes, ele vai cada vez
+[01:30:04] construir e gastar teus teus créditos.
+[01:30:09] Se tu usa, né, pessoalmente uma outra
+[01:30:11] vez, tudo bem. Mas se nós estamos
+[01:30:13] pensando em escalar isso paraa empresa
+[01:30:15] ou escalar isso pro mercado, eu tenho
+[01:30:18] que otimizar o máximo possível.
+[01:30:22] Agora, tu não vai vir aqui alterar cada
+[01:30:25] um na mão. A gente vai dizer
+[01:30:28] simplesmente para o Cloud ou Codex e diz
+[01:30:31] assim: "Ó, eu tenho esse esse projeto
+[01:30:34] aqui, certo? Que é o vídeos e a música
+[01:30:39] vídeos. Eu quero que tu transforme ele
+[01:30:41] num, né, num domínio do meu inema
+[01:30:44] CCBote.
+[01:30:47] E daí ele vai construir dentro desses
+[01:30:50] lugares. Isso. Então, a ideia é mais a
+[01:30:55] gente entender
+[01:30:57] como é que funciona esse ambiente todo,
+[01:31:01] certo?
+[01:31:05] Tá?
+[01:31:07] Então, eh, os fluxos aqui, tá? Quando é
+[01:31:11] que ele lê? No boot do processo, certo?
+[01:31:16] Então, se tu mexer alguma coisa, precisa
+[01:31:19] iniciar, sim, né? O skills, a mesma
+[01:31:23] coisa precisa. Quando você melhorar
+[01:31:26] alguma coisa, né?
+[01:31:29] Ã, dentro do fluxo, não precisa, os
+[01:31:33] promptes não precisa,
+[01:31:35] tá? os templates não precisa reiniciar
+[01:31:40] e quando tu mexer no pronto ENV, né, ele
+[01:31:43] tem que se mexer. Então tudo que ele ele
+[01:31:46] carrega no boot no início, tá ali. Então
+[01:31:50] tu colocou um novo template, não tem
+[01:31:52] problema, né? Porque ele vai lá buscar a
+[01:31:55] informação na hora que ele vai
+[01:31:57] selecionar,
+[01:31:58] tá? Então, só falando de boot aqui.
+[01:32:04] Então, quando nós temos, por exemplo,
+[01:32:06] chamamos lá barra avatar, né, promo
+[01:32:09] avatar 3, certo? Ele virou um comando,
+[01:32:14] certo? Ele vai procurar, né, qual é que
+[01:32:17] é o alvo, qual é que é o prompt, qual é
+[01:32:19] que é o estúdio. Ou seja, eu tenho umas
+[01:32:22] barrinhas de parâmetro que eu posso
+[01:32:24] deixar junto, certo? Ele vai criar o
+[01:32:27] fluxo e ele valida no flow.jonjason,
+[01:32:32] certo? Então ele recusa cedo se não
+[01:32:35] fecha,
+[01:32:39] tá?
+[01:32:40] E aí o que que acontece, né? Ele passa
+[01:32:44] lá, ele ajusta toda a parte de prompt
+[01:32:48] entregar, embute o texto dos promptes e
+[01:32:52] tudo mais, certo?
+[01:32:56] Então essa essa parte inicial que nós
+[01:32:58] temos, por isso que ele pega o prompt
+[01:33:02] que tu colocou lá, né, e aplica baseado
+[01:33:07] no alvo, baseado no prompt, baseado no
+[01:33:11] estúdio, no, né, no caso, o que que ele
+[01:33:13] tá fazendo,
+[01:33:15] né? E se tiver alguma coisa errada, ele
+[01:33:18] já descarta lá no início.
+[01:33:23] Então, quando eu vim aqui e vou dar um
+[01:33:26] comando, vamos pegar um exemplo aqui, ó.
+[01:33:29] Eu quero
+[01:33:31] abrir um chat aqui e diz assim: "Quero
+[01:33:35] fazer divulgação
+[01:33:38] do Inema Club,
+[01:33:42] certo?
+[01:33:44] Então eu vou criar um texto e tudo. Daí
+[01:33:46] aqui eu discuto até chegar no ponto da
+[01:33:50] minha ideia. Veja, nada de promte, nada.
+[01:33:54] É aqui a ideia, a discussão de ideias.
+[01:33:59] Depois que eu tenho a ideia definida, eu
+[01:34:01] vou dar missão. Vou dar missão paraos
+[01:34:03] meus agentes,
+[01:34:07] ó.
+[01:34:09] Tá, tá. Daí tudo bem. Conversei com e
+[01:34:12] tudo. Digo, mas como posso
+[01:34:17] mostrar algo de bom no Cinema Club?
+[01:34:25] O pessoal quer o milagre,
+[01:34:30] mas a gente sabe que não existe. Tem que
+[01:34:35] estudar e testar muito. Como fazer
+[01:34:42] eles entender ou melhor deixar eles de
+[01:34:48] lado? Então eu tô discutindo,
+[01:34:51] certo? Só para mostrar assim para vocês,
+[01:34:54] a gente vai construindo
+[01:34:56] a lógica do que que é a intenção. Eu
+[01:35:00] tenho intenção, mas eu tenho que tá
+[01:35:02] dando os contrapontos.
+[01:35:05] Eu acho melhor não gastar energia
+[01:35:08] tentando convencer alguém que que quer
+[01:35:10] milagre, mas também não precisa
+[01:35:13] simplesmente deixar esse pessoal de lado
+[01:35:15] de forma agressiva. O ideal é é fazer o
+[01:35:18] próprio posicionamento como um filtro.
+[01:35:21] Tá tá.
+[01:35:24] Vamos imaginar que isso aqui foi cor no
+[01:35:27] que que eu queria.
+[01:35:30] Eu venho lá, ó. E aqui eu vou dar barra
+[01:35:34] promo avatar.
+[01:35:38] Vou usar o promovatar 3,
+[01:35:42] certo?
+[01:35:45] E aí eu botei o texto. E aí eu coloco o
+[01:35:49] que que eu quero de alvos. Por exemplo,
+[01:35:52] né? Se nós formos olhar o help que teve
+[01:35:54] aqui, se eu deixar aberto, ele vai
+[01:35:58] botar, né, para todo mundo,
+[01:36:02] né? Eu tenho 12 públicos.
+[01:36:05] E aí eu posso definir então aqui uma
+[01:36:07] barrinha e dizer assim que eu quero usar
+[01:36:11] alvo
+[01:36:13] igual
+[01:36:15] jovens,
+[01:36:17] certo? barrinha de novo. Eu quero que
+[01:36:21] seja estúdio
+[01:36:25] e eu não vou deixar, eu podia dar outros
+[01:36:27] parâmetros que nem sem portão, etc, que
+[01:36:30] não é para dar resposta e tudo. E eu vou
+[01:36:33] dar enter.
+[01:36:36] Ó, ele disse alvo desconhecido. Ou seja,
+[01:36:41] o que que aconteceu? Eu botei alguma
+[01:36:43] coisa errada aqui que não f
+[01:36:47] Então, provavelmente é, né? E daí ele tá
+[01:36:51] dizendo aqui, ó, os alvos que tu tem é
+[01:36:54] jovens,
+[01:36:56] certo?
+[01:36:58] Ó, conheço o pessoal, tá? Tá, tá. Ele tá
+[01:37:01] me dizendo quais são. Então, é jovens a
+[01:37:05] alcance,
+[01:37:07] certo? Então tem que ser exato. E é isso
+[01:37:10] que eu falei, é melhor ele errar agora,
+[01:37:13] certo? Do que
+[01:37:16] depois. Então,
+[01:37:18] vou copiar tudo isso aqui de novo,
+[01:37:23] boto aqui e lá embaixo faltou
+[01:37:28] como eles são jovens out.
+[01:37:33] Então eu tenho três, como é para um
+[01:37:37] avatar três, é três para cada público
+[01:37:39] alvo é alcance para quem não me conhece,
+[01:37:43] autoridade para quem me conhece e
+[01:37:45] promocional para mim vender alguma
+[01:37:46] coisa. Vamos ver se passa.
+[01:37:51] Então o que que eu quis mostrar para
+[01:37:53] vocês aqui é assim, eu posso filtrar
+[01:37:56] como eu quero, se eu deixo sem nada, ele
+[01:37:58] peço,
+[01:38:00] que é os 36 vídeos, né?
+[01:38:03] Agora quanto foi? Vai sair um vídeo só
+[01:38:09] porque eu dei um alvo,
+[01:38:13] né? Eu podia ter dado mais de um álvulo
+[01:38:16] aqui.
+[01:38:18] Então, só para mostrar isso aqui para
+[01:38:20] vocês.
+[01:38:22] O fato dele ter errado lá no início, que
+[01:38:25] eu ter errado foi bom, porque o que
+[01:38:26] aconteceu aqui que eu disse, né? valida
+[01:38:30] o flow, recusa cedo.
+[01:38:34] Imagina que ele já tivesse criado as
+[01:38:36] coisas, os o texto, gastado tokens, ter
+[01:38:40] gerado um avatar com texto que não tinha
+[01:38:42] a ver.
+[01:38:45] Então, é muito importante a gente sempre
+[01:38:48] ter essa visão. Nós temos que errar cedo
+[01:38:51] e consertar.
+[01:38:54] E aí na medida que tu faz esse cedo,
+[01:38:57] você consegue resolver isso rápido,
+[01:39:00] tá?
+[01:39:05] Outra coisa que vocês podem ver que eu
+[01:39:08] dei alvo, eu podia dizer o prompt que eu
+[01:39:10] quero mudar, eu não disse, então ele vai
+[01:39:13] buscar o prompt lá.
+[01:39:16] Certo? A mesma coisa eu posso dizer
+[01:39:19] aqui, ó, um portão, nós chamamos portão
+[01:39:23] humano. Eu posso fazer pausa em que
+[01:39:26] partes que eu quero ter o portão?
+[01:39:30] O termo portão, né, é justamente valida.
+[01:39:35] Ó, já veio uma mensagem aqui para mim.
+[01:39:38] Vou olhar aí. Ele já me deu, ó. Como eu
+[01:39:40] não dei portão sem portão, se fosse sem
+[01:39:43] portão, ele já cria tudo direto. Eu vou
+[01:39:46] dormir, eu deixo lá para ele fazer sem
+[01:39:51] vídeos, eu boto barra sem portão,
+[01:39:56] certo? E aí ele disse muito focadas de
+[01:40:00] conclusão. E o que isso significa é sim,
+[01:40:03] ele pode entregar muito, muito mais
+[01:40:05] código, ele pode fazer muito mais, ele
+[01:40:07] pode fazer tarefas muito, muito maiores,
+[01:40:09] tarefas mais longas, mas você precisa
+[01:40:11] garantir que a cobertura esteja lá,
+[01:40:14] porque no momento em que você não
+[01:40:15] adiciona,
+[01:40:16] &gt;&gt; ó, eh, parece que ele tá entendendo o
+[01:40:19] que eu falei, porque é o mesmo assunto
+[01:40:20] aqui. Eu já vou bater nisso aqui com
+[01:40:22] vocês de novo. Então, olha só,
+[01:40:25] observando aqui, testamos sete
+[01:40:28] ferramentas de só duas prestaram, as
+[01:40:30] outras cinco prometiam renda fácil,
+[01:40:33] fórmula pronta, resultado garantido.
+[01:40:36] Você tem 19 anos, já baixou um desses
+[01:40:39] app, seguiu o passo passo certinho, pá,
+[01:40:42] pá, pá. Ou seja, ele fez baseado ao
+[01:40:44] aquele público alvo,
+[01:40:47] certo? Ah, mas não tá legal. Por quê?
+[01:40:50] Porque o meu prompt não tá legal. Então
+[01:40:52] eu posso ir lá, certo, nos meus sistema,
+[01:40:56] descobrironde que há os prompts e
+[01:40:58] melhorar o prompt.
+[01:41:03] Não tá legal o layout. Eu vou aonde tem
+[01:41:05] os templates melhorar o o layout.
+[01:41:10] Isso tudo aonde? no domínio, mas o
+[01:41:13] domínio tem que tá ligado com o o flow,
+[01:41:18] o inema CCB, senão ele vai criar lá e lá
+[01:41:22] no final que ele vai dar erro e vou
+[01:41:24] perder dinheiro e tempo.
+[01:41:27] Pessoal, vocês estão entendendo essa
+[01:41:29] essa questão do fluxo?
+[01:41:41] Porque o mais importante, pessoal, não é
+[01:41:44] mais criar isso aí. A gente diz para irá
+[01:41:47] fazer isso. Eu dizia pro programador
+[01:41:49] fazer. O programador que fazia aquilo
+[01:41:51] que eu pedia tava ótimo. Pior era aquilo
+[01:41:54] que tu pedia pro cara e o cara era um
+[01:41:56] gênio e ele fazia diferente.
+[01:41:59] E aí talvez ele fazia melhor do que eu
+[01:42:01] esperava,
+[01:42:03] mas nem sempre isso era garantido,
+[01:42:06] né? Então os campos de uma fase de flow.
+[01:42:10] Então o que que eu tenho lá dentro do
+[01:42:13] flow? O que faz e qual é os valores?
+[01:42:15] Então, se eu quiser olhar lá, eu tenho
+[01:42:18] essa base de informação,
+[01:42:20] certo?
+[01:42:22] Então, ele tem toda vez, ele tem lá o
+[01:42:25] ID, o escopo, né, a fila, certo? Ã, a
+[01:42:32] tarefa, o kind, o kinds, ele vai ser
+[01:42:36] agente ou função, né, para direcionar.
+[01:42:40] Então eu não quero deixar I decidir, eu
+[01:42:43] quero eu garantir o caminho. Então por
+[01:42:46] isso eu defino, se eu deixar IA vai ser
+[01:42:48] legal, só que eu vou gastar tokens,
+[01:42:52] certo? E eu tô ten economia. Então eu
+[01:42:56] tenho aqui as tarefas, os promptes, as
+[01:42:59] variáveis, né? As variantes ali, certo?
+[01:43:04] Alguma coisa opcional. Pausa após, então
+[01:43:08] é os portões,
+[01:43:10] tá? Aí espera,
+[01:43:13] né? Então eu posso dizer quanto tempo
+[01:43:16] ele é para dar time out. Por exemplo,
+[01:43:19] como eu eu vou lá aqui, ó, tá vendo? Eu
+[01:43:23] não tenho nada rodando aqui, ó. Certo?
+[01:43:27] Então, esse aqui, o último é 82.
+[01:43:31] Se eu vim aqui no portão e eu vou dizer
+[01:43:33] barraaprovar,
+[01:43:36] certo? C3,
+[01:43:41] ele tá aprovado. Se eu agora for lá e
+[01:43:43] monitorar, eu vou ver que daqui a pouco
+[01:43:46] ele vai tá criando aqui, certo? Um
+[01:43:49] avatar,
+[01:43:53] certo?
+[01:43:54] Então,
+[01:43:58] esse intervalo aqui pode ser que ele
+[01:44:01] criou avatar, não, ele deu uma
+[01:44:03] instrução, eu entrei na fila dos cara e
+[01:44:06] lá agora, porque como eu já gastei meus
+[01:44:09] créditos de rápido, eu estou na fila que
+[01:44:12] pode levar 1 hora, 2 horas, 3 horas, 36
+[01:44:16] horas.
+[01:44:19] Então eu tenho que definir qual é o meu
+[01:44:22] time out para aquele aquela espera,
+[01:44:27] né, máximo de tentativas,
+[01:44:30] né, antes de dar falha. Então também
+[01:44:34] vocês viram que eu fiz um trabalho
+[01:44:37] grande em cima do Agnes e a gente
+[01:44:39] descobriu que 34% de falha ele tem.
+[01:44:44] Então as pessoas aquele não é bom. Por
+[01:44:46] quê? porque desistiram antes. Então tu
+[01:44:48] vai lá e diz: "Olha, até 40% tu vai
+[01:44:52] tentando, porque tu só vai gastar, né, o
+[01:44:56] teu tempo ali."
+[01:44:59] Então ele, tu mandou e ele fica lá 40,
+[01:45:02] né, por das vezes, ou seja, né,
+[01:45:06] tentando, tentando, tentando até que ele
+[01:45:08] recupera.
+[01:45:10] Então, toda vez que tu usa o Agnes, se
+[01:45:13] tu pegar lá o arquivo Agnes Vídeo, tu
+[01:45:16] vai ter todos os macetes ali já pronto,
+[01:45:20] ou seja, o conhecimento.
+[01:45:26] Então, o que que a gente fez, né? Quando
+[01:45:30] eu crio o texto, usando o promovatar, eu
+[01:45:33] crio o texto, certo? Eu dou a
+[01:45:36] informação, tudo que eu quero. Ele vai
+[01:45:40] usar o opos ou quem ele vai usar. Então
+[01:45:42] eu defino qual é que a Ia que ele é para
+[01:45:44] usar o texto. Eu deixei um médio para
+[01:45:48] cima para ele sair um texto bom, certo?
+[01:45:52] E aí ele tem 12 roteiros,
+[01:45:56] tá?
+[01:45:58] E aí ele vai gerar,
+[01:46:01] certo? na mão. Isso aqui é o é o avatar,
+[01:46:05] né? Eu faço na mão ou na PI.
+[01:46:10] Eu posso gerar através de créditos
+[01:46:13] na PI ou eu vou no estúdio. O estúdio é
+[01:46:17] eu ir lá pessoalmente
+[01:46:21] ou navega avatar. Aqui eu dou um agente
+[01:46:24] e mando o agente fazer.
+[01:46:27] Pessoal, com a agente fazendo, eu
+[01:46:29] gastava 120
+[01:46:32] para gerenciar e 40 por, né,
+[01:46:36] dólares era só que eu gastava de tokens
+[01:46:39] para fazer essa navegação. Então eu
+[01:46:42] criei o estúdio. O estúdio é uma função,
+[01:46:46] ele não é um agente. Essa função é um
+[01:46:49] worker,
+[01:46:51] ele é determinístico,
+[01:46:54] porque como as coisas estão no mesmo
+[01:46:56] lugar,
+[01:46:58] eu mandei ele repetir aquilo,
+[01:47:04] certo? Com isso eu economizei para
+[01:47:07] caramba, né? Daí depois tem o baixar
+[01:47:11] e, ó, né? até 40 horas é o meu meu time,
+[01:47:17] certo? E aí ele monta via função,
+[01:47:21] viação. Vocês estão vendo? Só tem agente
+[01:47:25] aqui.
+[01:47:27] Aqui é agente função, função, função.
+[01:47:31] Aqui é função. Aqui é função e aqui é
+[01:47:35] aqui nem tem função porque é só copiar.
+[01:47:41] Então vocês entenderam a diferença de
+[01:47:43] função e de agente
+[01:47:57] porque isso foi o que eu fiz. Por isso,
+[01:47:59] milhares de vídeo no Rey Jane, sem
+[01:48:03] gastar nenhum
+[01:48:06] dos meus eh as LLMs,
+[01:48:16] tá?
+[01:48:18] Pessoal que tá no YouTube aí e for da
+[01:48:20] comunidade, pode vir paraa comunidade
+[01:48:23] aqui.
+[01:48:32] Beleza?
+[01:48:35] Ó, aqui nós falamos sobre o promovatar.
+[01:48:38] Aqui vamos ver o promovatar 3. Ó, o
+[01:48:41] promovatar 3, o que que ele faz? Ele
+[01:48:45] pega, né? E tenho variantes,
+[01:48:48] certo?
+[01:48:50] Eu tenho variantes que é o seguinte, eu
+[01:48:52] posso usar o prompt de manifesto, eu
+[01:48:55] posso usar um prompt viral,
+[01:48:58] então eu posso dizer na hora que eu
+[01:49:01] quiser passar que eu não implementei
+[01:49:03] isso aqui, certo? Mas aqui eu já já
+[01:49:07] disse, eu quero que eh o a minha
+[01:49:11] abordagem
+[01:49:12] seja viral. Eu quero que seja manifesto,
+[01:49:16] eu quero que seja didático, eu quero que
+[01:49:18] seja especulativo, eu quero que seja
+[01:49:21] polêmico. O que que vai mudar?
+[01:49:27] O prompt,
+[01:49:30] certo? pode mudar também o template.
+[01:49:33] Então posso associar baseado, né? Então
+[01:49:37] quando eu dou promptis igual lá, né? lá
+[01:49:41] na na minha entrada são parâmetros, são
+[01:49:46] chaves que eu tô dizendo para ele que eu
+[01:49:48] quero, ó, esse eu quero um estilo viral
+[01:49:51] desse assunto. Eu quero um estilo
+[01:49:52] manifesto, eu quero um estilo
+[01:49:55] explicativo. Então tu tá passando, né,
+[01:50:00] um conteúdo diferente. Ele vai pegar
+[01:50:03] padrões diferentes que você montou.
+[01:50:14] E aí quando você mandar pro avatar aqui,
+[01:50:17] ó, de novo, eu posso estar usando
+[01:50:20] aqueles formatos aqui, ó.
+[01:50:23] Então, se eu usar o estúdio, né, ele vai
+[01:50:27] usar o navegador para fazer tudo isso,
+[01:50:30] mas eu não vou gastar crédito nenhum.
+[01:50:33] Então, por API, eu pago por API. Aqui,
+[01:50:36] pago pelos créditos da da assinatura. E
+[01:50:38] esse aqui então eu posso passar os
+[01:50:41] parâmetros que eu quero. Por isso que eu
+[01:50:43] usei estúdio,
+[01:50:46] certo?
+[01:50:47] E aí eu baixo,
+[01:50:50] tem um portão aqui, tem um portão aqui.
+[01:50:53] Portão é eu dá provar.
+[01:50:56] Daí ele monta rios. os rios eu posso
+[01:51:00] estar usando um flow, posso usar CTA, eu
+[01:51:03] posso passar parâmetros também para ele
+[01:51:06] aqui,
+[01:51:07] certo?
+[01:51:12] Então, comparando, né, eu tenho um
+[01:51:14] prefixo lá que eu defini A e o C. C é
+[01:51:17] quando é, né, os três, quando o avatar,
+[01:51:21] quando é um só é o a, ele atinge 12
+[01:51:24] público. Esse aqui atinge 12 público com
+[01:51:27] três variáveis cada um, certo? Que é
+[01:51:31] alcance, autoridade promocional,
+[01:51:34] tá?
+[01:51:36] E aí são rotas, eu tenho quatro opcional
+[01:51:40] aqui. Eu tenho três, uma descartei já.
+[01:51:43] Certo?
+[01:51:45] Aqui tem o agente que pilota navegador,
+[01:51:49] tá? Ã, variante de prompt não tem aqui.
+[01:51:53] Eu criei dois, mas posso criar mais.
+[01:51:56] Certo? O CTA,
+[01:51:59] o CTA aqui eu posso estar criando por um
+[01:52:02] CTA viral, um CTA manifesto e assim por
+[01:52:06] diante.
+[01:52:08] Ã, aqui modelo de fase é do Opus. Eu
+[01:52:12] posso tá mudando, tá? Então dentro do
+[01:52:14] flow Jason eu digo qual é a IA, qual é o
+[01:52:18] modelo que eu vou usar para fazer esse
+[01:52:21] texto, né? Então, qual é o bom para
+[01:52:24] fazer texto viral ou texto isso ou texto
+[01:52:27] aquilo? Então, você vai definir aqui
+[01:52:28] dentro do flow Jason, certo?
+[01:52:33] Perfil padrão do boot, ó.
+[01:52:38] H time out 3 horas e aqui 6 horas
+[01:52:44] definido.
+[01:52:47] Tu pode tá mudando tudo isso, tá?
+[01:52:57] Aqui é o motor do Rios, né? O quando
+[01:52:59] você vai fazer o vídeo lá, certo? Como é
+[01:53:03] que é o formato? Qual é que é o qual é
+[01:53:06] que é o estilo? Então eu posso dizer
+[01:53:08] qual é o avatar que eu vou usar, certo?
+[01:53:11] Qual é o alvo, qual é o texto? Qual é a
+[01:53:14] saída, qual é o flow, qual é a CTA? E
+[01:53:17] tudo que tu não definir vem os default.
+[01:53:21] Mas na verdade quando você tá tá
+[01:53:23] chamando o fluxo, ele já vai criar todos
+[01:53:27] esses parâmetros para cada um dos 36.
+[01:53:32] Então ele já passa esse parâmetro, por
+[01:53:34] isso que ele é flexível,
+[01:53:38] né? E daí ele gera e manda ele lá
+[01:53:42] processar.
+[01:53:43] Então montar o rius aqui nesse Python
+[01:53:47] que ele faz aqui.
+[01:53:51] Então os seis passos para montar, ele
+[01:53:54] prepara mídia, transcrição, imagem,
+[01:53:57] template, HTML. Daí, né, no primeiro
+[01:54:01] portão, né, visual, eu posso tá ativar
+[01:54:05] ou não esse portão. Portão quer dizer lá
+[01:54:07] no dois, depois dele ter feito, eu quero
+[01:54:10] ver se ficou legal ou não.
+[01:54:13] Eu não quero ver, então passa adiante
+[01:54:15] tudo. Eu só quero resultado.
+[01:54:18] Daí ele pega e faz o render, ele monta
+[01:54:21] em HTML, frames e gera o MP4.
+[01:54:26] E aí entra o revisor, ele olha se
+[01:54:30] fechando com as regras que foi
+[01:54:32] estabelecida,
+[01:54:34] certo? Se não for, ele manda fazer de
+[01:54:37] novo. Fica num looping também tem
+[01:54:39] definido aqui qual é o número de
+[01:54:42] tolerâncias que tu tem. E aí ele parte
+[01:54:45] para juntar o CTA no final, certo? E
+[01:54:50] garantir a qualidade aqui,
+[01:54:53] certo?
+[01:54:55] Então esse é o fluxo que tem.
+[01:54:58] E se tu quiser mudar alguma coisa, onde
+[01:55:00] que é? Então mudar o texto que aí
+[01:55:03] escreve domínio barraprompts/fase.
+[01:55:08] Então isso virou um padrão meu e de quem
+[01:55:11] desenvolve, né? Qual é o domínio? Promo
+[01:55:15] avatar 3. Ah, podia ser outro domínio.
+[01:55:18] Música, vídeos
+[01:55:21] promptes, né? de de várias fases que
+[01:55:24] pode ter aí, né? Se eu quero botar mais
+[01:55:28] público, tirar público, domínio/flow,
+[01:55:32] os alvos,
+[01:55:33] né? Trocar um canal de um público flow,
+[01:55:38] né? Alvos pont pont canal, né? Criar um
+[01:55:43] canal novo, live 7, por exemplo, criar
+[01:55:46] uma pasta, ó, projetos do Monta Live,
+[01:55:50] né? sete, ele vai colocar lá,
+[01:55:54] certo? Não importa se aquilo existe ou
+[01:55:56] não, ele vai criar essa esse diretório e
+[01:55:59] botar lá a pasta que tu definiu. Trocar
+[01:56:02] o avatar ou a voz. Aonde que tá? Ó, tem
+[01:56:05] avatar ID, voz ID, o engenho que tu tá
+[01:56:09] usando. Eu tô usando o a versão ã Avatar
+[01:56:14] 3, que é a que é aquela ilimitada que eu
+[01:56:16] tenho. Ela não é tão boa como quatro ou
+[01:56:19] cinco, mas é de graça. Então vamos lá.
+[01:56:23] Mudar o visual do RS, aonde que tu muda
+[01:56:27] templates,
+[01:56:28] mudar o layout de cada formato de usar,
+[01:56:32] né?
+[01:56:33] Então, tu tem um mapa aqui dentro dos
+[01:56:36] templates,
+[01:56:39] gravar um layout para um determinado
+[01:56:41] público. Ó, eu dou o alvo, o nome do
+[01:56:44] alvo ponto template. Então, ele vai
+[01:56:47] sempre tá usando esse template aqui.
+[01:56:50] Trocar o clipe de encerramento,
+[01:56:53] tá?
+[01:56:55] Aonde que tá domínio CTA, né? E aqui eu
+[01:56:59] tenho o meu CTA. Criar uma variante de
+[01:57:02] prompt.
+[01:57:03] Mesma coisa. Acrescentar uma fase é o
+[01:57:05] pipeline. Então vocês estão vendo que
+[01:57:07] tem cada um deles tem aonde que foi
+[01:57:11] colocado isso,
+[01:57:13] certo?
+[01:57:15] Um domínio novo do zero, sem tocar no
+[01:57:17] bote, tá? Então o que que tu teria que
+[01:57:20] fazer aqui, ó? Toda uma estrutura aqui
+[01:57:25] no na mão, certo?
+[01:57:28] Então eu poderia dizer aqui o meu
+[01:57:30] domínio, qual é o do meu domínio? Música
+[01:57:33] vídeo, certo? Música vídeo. E aí a gente
+[01:57:38] vai botar aqui música vídeo, certo?
+[01:57:43] Né?
+[01:57:45] Vai tá rodando aonde, né? Qual Qual o
+[01:57:48] recurso que eu quero estar usando?
+[01:57:51] Vou botar aqui, né? Etc, etc. Aí vou
+[01:57:55] passar todos os parâmetros que eu quero
+[01:57:57] para ele.
+[01:58:00] E daí quando você quiser, né, lá tu tu
+[01:58:03] escreve barra meu domínio assunto e pode
+[01:58:07] testar. E se tu botar barra sombra, ele
+[01:58:10] vai testar tudo e não vai gastar nada de
+[01:58:12] créditos,
+[01:58:14] tá? Ele só vai validar tudo.
+[01:58:19] Beleza, pessoal?
+[01:58:22] Então, a gente falou hoje sobre
+[01:58:25] infraestrutura,
+[01:58:27] instalar,
+[01:58:29] né, e entender como é que é a base de
+[01:58:32] tudo isso.
+[01:58:34] Amanhã nós vamos montar, né, o um promo
+[01:58:38] avatar ou vamos o Lavo daqui a pouco o
+[01:58:41] Lavo troca ideia aí com a tia e me dá aí
+[01:58:44] a sugestão e a gente monta um música
+[01:58:47] vídeo ou monta outra coisa que seja um
+[01:58:51] outro domínio além do cinema avatar,
+[01:58:54] certo?
+[01:58:56] Ou Marcos tem alguma ideia, ou o Carlos
+[01:58:59] tem uma ideia, Cléber tem uma ideia,
+[01:59:02] Luís tem a ideia.
+[01:59:04] Quem mais? Paula tem ideia.
+[01:59:10] Então eu espero que até amanhã esteja
+[01:59:12] rodando na VPS ou na máquina de vocês o
+[01:59:16] Inema CCBote com pelo menos o promo
+[01:59:20] Avatar.
+[01:59:37] Tá
+[01:59:40] sim. [roncando] Senão me chama aí
+[01:59:43] agora de noite aí. Tô disponível aí para
+[01:59:45] vocês.
+[01:59:47] Eu só vou pegar um negócio para beber aí
+[01:59:49] e vamos até às 5 horas eu vou est aqui,
+[01:59:52] tá?

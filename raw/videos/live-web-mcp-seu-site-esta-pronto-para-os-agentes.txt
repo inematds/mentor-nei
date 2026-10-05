@@ -1,0 +1,1162 @@
+# LIVE： Web MCP - Seu Site Está Pronto para os Agentes？
+Origem: https://www.youtube.com/watch?v=to23gU8eeSY
+Texto: legenda
+
+[00:00:10] Ah,
+[00:00:17] Opa, boa noite.
+[00:00:21] Deixa eu ver. Nós estamos aqui,
+[00:00:29] tem a sua experiência formal, mas você
+[00:00:32] tem
+[00:00:36] tudo certo. Bom, pessoal, só deixa eu
+[00:00:39] ligar a outra câmera aqui.
+[00:00:44] Isso aqui
+[00:00:51] hoje a novidade é boa. Você já devem ter
+[00:00:54] visto, né?
+[00:01:02] E aí ele Alexandre.
+[00:01:05] Bom, olha só, hoje é negócio é para dar
+[00:01:10] um susto na galera. Então vamos abrir
+[00:01:12] aqui.
+[00:01:14] Certo. Deixa eu ver.
+[00:01:18] Cara, eu tava cansado ontem, mas eu não
+[00:01:21] consegui dormir e eu implementei uma
+[00:01:24] coisa fora de série. Não sei se vocês
+[00:01:25] acompanharam.
+[00:01:27] Aqui dentro do Inema Club tá disponível
+[00:01:32] para vocês um curso de R$ 5.000 ou de R$
+[00:01:35] 10.000,
+[00:01:37] certo? Se eu for fazer esse curso
+[00:01:39] presencial, eu vou cobrar de 5 a R$
+[00:01:41] 10.000. É uma formação de transformar,
+[00:01:45] né, o teu sistema, teus sites de web
+[00:01:49] MCP. Para quem não sabe, ã, quando a
+[00:01:54] gente hoje navega na internet, né, a
+[00:01:58] gente navega nos sites usando HTTP, ou
+[00:02:02] seja, ele tem que ser visualmente atraí
+[00:02:05] atraível. É isso que eu vou falar, né?
+[00:02:09] Ã,
+[00:02:12] e então acessível, muito fácil. E por
+[00:02:16] outro lado, eh, a gente tá entrando na
+[00:02:20] era dos agentes, como é que os agentes
+[00:02:23] vão acessar teu site, certo? E eu já
+[00:02:27] tinha feito um trabalho mais um tempo
+[00:02:30] atrás, criei até um conteúdo, curso,
+[00:02:33] sistema para você colocar a base de
+[00:02:36] conhecimento. E agora saiu dia 26 um
+[00:02:40] relatório sobre, né, a definição do web
+[00:02:43] MCP. ainda tem discussões, mas já tá 90%
+[00:02:48] definido. E eu estudei, estudei e ontem
+[00:02:51] eu digo, cara, eu vou fazer um conteúdo
+[00:02:53] para melhorar meu site, né, nossa
+[00:02:56] comunidade e vou fazer um curso. E aí
+[00:03:01] foi indo, foi indo, fui indo, virei a
+[00:03:03] madrugada, gastei todos os meus
+[00:03:05] créditos, fui lá, botei mais $ de
+[00:03:08] crédito e disse pá, construí. Então, vou
+[00:03:10] explicar para vocês o que que é esse web
+[00:03:13] MCP. Como vocês podem acessar o curso,
+[00:03:17] são quatro cursos, na verdade são seis
+[00:03:20] módulos, mas quatro cursos, um para
+[00:03:23] entender o conceito e o outro é o
+[00:03:25] sistema, tá? Outra coisa, você já pode
+[00:03:28] testar o teu site, o site de alguém, se
+[00:03:31] ele tá pronto ou não para os agentes. E
+[00:03:35] aí vão falar outras coisas, né? Vamos
+[00:03:37] falar sobre as músicas, sobre outros
+[00:03:39] sistemas que eu tô construindo aí para
+[00:03:41] vocês, certo? Então, primeiro lugar, o
+[00:03:44] seguinte, quem é que tá
+[00:03:47] no TikTok, no Facebook, no Instagram, no
+[00:03:51] X, né, todos vocês querem ver minha tela
+[00:03:55] no Inema TDS do YouTube, tá? Daí
+[00:03:58] simplificou isso aí. Vou botar minha
+[00:04:00] cara aqui que não tá aparecendo também
+[00:04:03] na câmera aqui, ó.
+[00:04:05] Certo, eu tive que sair na corrida aqui
+[00:04:08] porque tem um temporal muito grande.
+[00:04:12] Certo, tudo bem?
+[00:04:15] Então, olha só, esclarecendo, quem tiver
+[00:04:17] pergunta pode fazer, certo? Sobre isso,
+[00:04:19] tô aqui para descobrir. Alexandre
+[00:04:22] Miller, tudo bem? Boa noite. Dudu, tudo
+[00:04:26] certo?
+[00:04:29] Oi, qual é a minha opinião sobre Bil? Na
+[00:04:32] verdade, eu já estou indo lá.
+[00:04:35] Já estudei, já verifiquei que eles pagam
+[00:04:38] 70 centavos para cada 1000
+[00:04:39] visualizações,
+[00:04:41] mas você tem que ser subir no nível
+[00:04:43] três, certo? Ou seja, vai ser alguém
+[00:04:46] para bater o YouTube. Isso é bom porque
+[00:04:48] ele tava de dono da, né, do mercado. A
+[00:04:52] gente que é pequeno, né, e que tem um o
+[00:04:55] conteúdo mais educativo, que não é
+[00:04:57] senscionalista e tudo, é difícil crescer
+[00:04:59] nas redes, né? Então é bom. Concorrência
+[00:05:02] sempre é bom, assim como a concorrência
+[00:05:05] para mim é bom, porque daí faz com que
+[00:05:07] eu melhore, certo?
+[00:05:11] Ã,
+[00:05:12] ô Alexandre, mandei mensagem para ti
+[00:05:14] resolver meu acesso, tá beleza. Ela deve
+[00:05:17] tá conectando daqui a pouquinho na live
+[00:05:20] aí, certo? Bom, então vamos falar um
+[00:05:24] pouco aí, galera. Isso aqui vai mudar
+[00:05:27] tudo daqui para frente. Imagina, eu
+[00:05:30] estou desde o ano 2000 ensinando sobre
+[00:05:34] HTML,
+[00:05:36] né, CSS,
+[00:05:38] ã, e todas essas questões lá quando eu
+[00:05:41] eu ensinava fazer a HTML na mão.
+[00:05:46] E aí eu criei um monte de pessoas em
+[00:05:48] redor de mim, na área de marketing que
+[00:05:50] se desenvolveram, depois foram
+[00:05:52] instrutores, hoje são pessoas de dono de
+[00:05:55] agência, famosos até no Brasil, mas que
+[00:05:58] começaram assim. E aí eu diria para todo
+[00:06:02] mundo, hoje nós estamos entrando numa
+[00:06:04] nova era, a era onde que os agentes vão
+[00:06:09] falar com o site. Cada vez vai diminuir
+[00:06:12] o nós usando, acessando o site e
+[00:06:15] aumentando os agentes. Por exemplo, essa
+[00:06:17] eu vou viajar agora com minha família,
+[00:06:20] eu vou viajar lá para neve. Então o que
+[00:06:23] que eu faço? Em vez de eu sair pelo
+[00:06:26] Google pesquisando site por site, eu vou
+[00:06:29] no chat e vou dizer: "Eu quero, né,
+[00:06:33] esquiar. Qual é o melhor lugar para
+[00:06:35] esquiar em setembro?"
+[00:06:38] O, o o chat GPT, o Gine, o antrópico, o
+[00:06:44] Perplex, o que for humanos, ele é um
+[00:06:48] agente.
+[00:06:49] Ele na verdade vai buscar informações
+[00:06:52] aonde? nos sites,
+[00:06:54] certo? E como é que ele vai fazer isso?
+[00:06:59] Quanto mais fácil para ele, ele tem 10
+[00:07:01] sites. Se tiver sites preparado para
+[00:07:04] entregar o conteúdo pra gente, ele vai
+[00:07:08] preferir aquilo, certo? Ao menos que o
+[00:07:11] outro pagar. E se o outro pagar, ele tem
+[00:07:13] que custizar para os agentes, certo?
+[00:07:17] porque senão ele teria que olhar a
+[00:07:19] página, ler o HTML ou usar um, né, um um
+[00:07:23] navegador gastando muito recurso para
+[00:07:26] poder analisar. Então ele vai preferir
+[00:07:29] quem é que tá entregando já os dados
+[00:07:32] pronto, certo? Então a ideia do web MCP,
+[00:07:37] né, lembra do MCP? é um protocolo, né,
+[00:07:40] de contexto, né, um modelo de de
+[00:07:43] contexto protocolo. Esse isso aqui foi
+[00:07:47] antrópico que criou para ter comunicação
+[00:07:50] entre eh a gente, né, os aplicações e o
+[00:07:56] os servidores.
+[00:07:58] Só que agora, né, o W3 e eh C, ele é um
+[00:08:03] órgão internacional que define os
+[00:08:05] padrões. criou o web MCP. Tanto que se
+[00:08:09] nós entrarmos aqui, certo? Eu fui lá
+[00:08:13] onde que tem no inema
+[00:08:15] IA, que é conceitos e aqui já tem, ó,
+[00:08:19] web mcp, certo? Então tem todo o
+[00:08:24] conteúdo aqui, certo? De conceitos, né?
+[00:08:27] Do que que é, como funciona, né? A
+[00:08:29] interface humana navega, fala com
+[00:08:33] alguém, certo? e essa interface pros
+[00:08:37] agentes. Então eu tenho que ter meu site
+[00:08:39] que ele vai atender pessoas e agentes.
+[00:08:43] As pessoas cada vez nós vamos usar
+[00:08:45] menos, talvez só no fechamento, talvez
+[00:08:47] nem mais no fechamento, certo? E
+[00:08:50] fechamento,
+[00:08:52] tá legal?
+[00:08:55] É isso que tá acontecendo. E galera, e
+[00:08:58] tem ainda a gente querendo construir
+[00:09:00] sites. Claro, vai existir ainda pessoas
+[00:09:03] consumindo sites, mas também cada vez
+[00:09:06] mais os milhões de pessoas que tm o chat
+[00:09:10] e pesquisam, meus filhos pesquisam no
+[00:09:12] chat as coisas. Então, né, cada vez mais
+[00:09:17] eu preciso entregar isso pros agentes,
+[00:09:21] certo? Então aqui tem toda uma
+[00:09:23] explicação sobre isso. Tem o, né, aqui a
+[00:09:27] algumas informações, por exemplo, aqui,
+[00:09:29] ó, né, o draft dia 26 de agosto, certo?
+[00:09:35] o relatório, toda a informação tá aqui.
+[00:09:38] Então, botei já lá para no pessoal da
+[00:09:40] comunidade, quem gosta de ler, estudar,
+[00:09:42] né? E tudo como você configura e faz
+[00:09:46] dentro do teu site. Mas como eu gosto de
+[00:09:49] já deixar tudo pronto, certo?
+[00:09:53] Aqui eu expliquei um pouco mais e já
+[00:09:55] comecei a mostrar. Olha o que você tem
+[00:09:57] que fazer. Buscar produto. É uma função
+[00:10:00] padrão, certo? adicionar no carrinho,
+[00:10:04] calcular frete, finalizar compra. Então,
+[00:10:07] se eu quiser vender online, um eu tenho
+[00:10:10] um e-comércio, eu começo a construir,
+[00:10:13] né, funções para os agentes, certo? E
+[00:10:18] assim por diante. Então, como é que
+[00:10:20] funciona? Tudo, todo o conceito eu
+[00:10:22] expliquei aqui, certo? Beleza.
+[00:10:27] H,
+[00:10:31] está nos projetos do Inema Club.
+[00:10:41] Mas deixa eu fazer o seguinte, já que o
+[00:10:43] cara quer aqui, ó, da comunidade, vamos
+[00:10:46] abrir aquiema Club.
+[00:10:49] Vamos descer,
+[00:10:52] ó. Aqui, ó, pessoal, eu coloquei os
+[00:10:55] cursos formação 5 4 3 2 e 1, certo?
+[00:11:01] Então tem aqui, já vou mostrar isso para
+[00:11:03] vocês. E aqui o MCP release, tá? Então,
+[00:11:10] deixa eu botar isso aqui. Aqui
+[00:11:16] e deixa eu botar outro. É.
+[00:11:19] Tã. Cadê você?
+[00:11:25] Deixa eu fechar isso aqui.
+[00:11:37] Deixa eu ir lá já pegar o link direto
+[00:11:39] ali, dar de barbada pra galera.
+[00:11:42] Pessoal não quer ter esforço nenhum
+[00:11:44] mais,
+[00:11:46] pessoal. 200 462 projetos. Tá aí já
+[00:11:50] disponível para vocês,
+[00:11:57] ó.
+[00:12:00] Beleza? Então, tá aqui disponível para
+[00:12:02] tudo mais. Vamos lá falar um pouco do
+[00:12:04] que que eu tenho, pessoal, lá na na para
+[00:12:07] facilitar a vida de todo mundo, coloquei
+[00:12:10] um banner aqui. Se tu clicar no banner,
+[00:12:13] tu vem para cá. E aqui tu pode vir, ó, e
+[00:12:16] testar, por exemplo, vou pegar o site de
+[00:12:19] alguém, certo?
+[00:12:22] Analisar uma URL, ó. Venho aqui e coloco
+[00:12:26] um site. Por exemplo, se você botar o
+[00:12:29] Inema Club aqui, analisar o site, ele
+[00:12:33] vai, isso é um software que eu já
+[00:12:34] desenvolvi, certo? Você pode estar
+[00:12:36] usando e ele vai fazer, ó, eu a
+[00:12:40] pontuação de 100 eu consegui no Inema
+[00:12:42] Club agora 90%.
+[00:12:45] Olha só que show, certo? E aí tem o web
+[00:12:50] MCP, tem o CEL, que era o tradicional da
+[00:12:53] busca de search engineer otimization do
+[00:12:56] Google. Nós temos o gel e o Ael. São
+[00:13:00] dois recursos de, né, generativa. Então,
+[00:13:04] em vez de ser só de busca do Google,
+[00:13:06] esse aqui é para otimizar para que as
+[00:13:10] IAS venham buscar meu conteúdo, a
+[00:13:12] pesquisa. Então, gel degenerativa, tá?
+[00:13:16] A, ã, eu não me lembro agora o A Bem
+[00:13:20] certo o que que é, mas é só pesquisar,
+[00:13:22] certo? E aí, pessoal, e o que que ele
+[00:13:25] faz? Ele faz esse relatório e começa a
+[00:13:27] dar sugestões do que que tu pode
+[00:13:29] melhorar. Por exemplo, o web MCP, eu
+[00:13:33] posso melhorar na API, no navegador, tá?
+[00:13:36] Ele daí eles me explica aqui que que é
+[00:13:38] para fazer. Todo todo o conteúdo é um
+[00:13:41] relatório e daí tu pode baixar esse
+[00:13:43] relatório aqui, certo? E aqui é os
+[00:13:46] cursos gratuitos, né, que tu pode estar
+[00:13:48] fazendo para dominar esse assunto,
+[00:13:52] certo? Então galera, assim como nós
+[00:13:55] aprendemos N8N no passado, aprendemos
+[00:13:59] Vibe Code, aprendemos agente, aprendemos
+[00:14:01] skill, mais um assunto para aprender web
+[00:14:05] MCP,
+[00:14:08] certo?
+[00:14:09] Oi, tudo bem? Não, isso aqui o foco não
+[00:14:12] é fazer campanha, não é fazer marketing,
+[00:14:15] é deixar teu site disponível. Quer ver
+[00:14:17] um exemplo? Se eu vou pegar um site
+[00:14:20] aqui, ó, vamos pegar um site. Ã,
+[00:14:27] deixa eu limpar. Vou pegar esse site
+[00:14:29] aqui, ó.
+[00:14:32] Hum.
+[00:14:33] XDEMA. Ó,
+[00:14:36] deixa eu tenho que botar um HTTP aqui,
+[00:14:41] ó. Opa.
+[00:14:46] Pegam qualquer site que vocês quiserem,
+[00:14:48] vem aqui e olha, analisar site.
+[00:14:59] Olha só,
+[00:15:00] olha a pontuação 64 de 100. Olha como
+[00:15:04] ele falta, né, configurar o web MCP, ou
+[00:15:08] seja, todo ele é um site legal, bonito e
+[00:15:11] tudo, né? Só que não tá otimizado para
+[00:15:15] era da inteligência artificial. E aqui
+[00:15:18] explica tudo que eles deveriam fazer.
+[00:15:21] Certo?
+[00:15:23] Agora vamos olhar uma outra coisa, ó. Se
+[00:15:25] eu pegar agora além do Inema,
+[00:15:28] vamos olhar lá o Inema, por exemplo, o
+[00:15:30] INEMA VIP.
+[00:15:33] Inema VIP.
+[00:15:36] Vamos dar uma olhada como é que tá o
+[00:15:37] site do Inema VIP.
+[00:15:40] Ó, tá analisando. Olha só. Nema VIP tem,
+[00:15:44] tá melhor, ó, 88%. Tem coisa a melhorar,
+[00:15:48] tem. Certo? Então tem que configurar
+[00:15:52] coisas aqui melhor lá. Outra coisa,
+[00:15:55] vamos ver o Inema Pro.
+[00:15:59] Esse eu não mexi nele ainda. Vamos ver,
+[00:16:03] ó. Olha só a situação dele, pior ainda.
+[00:16:07] Então, pô, eu tô, minha comunidade, né,
+[00:16:11] não tá otimizada para isso. Eu vou
+[00:16:13] mostrar para vocês como eu resolvo. E se
+[00:16:17] eu botar aqui, voltar, ó, botar aqui em
+[00:16:19] cima o Inema
+[00:16:22] Club que eu otimizei, ó,
+[00:16:28] 90%.
+[00:16:29] Certo?
+[00:16:31] Então é isso que vocês podem oferecer de
+[00:16:34] serviço para todos. Milhões de sites.
+[00:16:39] Olha a oportunidade de negócio. Quem
+[00:16:41] aprender isso e vai otimizar pras
+[00:16:44] empresas. Vamos dar uma olhadinha. Será
+[00:16:46] que o Mercado Livre tá preparado para
+[00:16:48] isso? Mercado
+[00:16:52] pronto.com.br.
+[00:16:54] br
+[00:16:56] analisar o site.
+[00:16:59] Olha só a situação,
+[00:17:03] tá?
+[00:17:04] Vamos lá, vamos ver um outro. Vamos ver
+[00:17:07] a Amazon
+[00:17:11] comom. Vamos ver lá fora ela como é que
+[00:17:13] tá.
+[00:17:15] Ó, deixa eu ver.
+[00:17:19] Amazon.com. Vamos ver se pon ele
+[00:17:22] permite.
+[00:17:26] Não, ó,
+[00:17:30] não deixou. Deve estar bloqueado em
+[00:17:33] termos de proteção a Amazon. Isso não
+[00:17:36] tem jeito. Ã,
+[00:17:42] vamos ver se a Magalu
+[00:17:49] não, agora deve ter dado algum erro
+[00:17:51] aqui.
+[00:17:54] Opa. Só porque eu tô mostrando aqui.
+[00:17:57] Deixa eu voltar aqui para ver se como é
+[00:17:58] que tá o enema VIP. Se se foi ou não.
+[00:18:09] Deu um erro aí.
+[00:18:16] Deixa eu ver o que que aconteceu.
+[00:18:20] Pode ser que o meu
+[00:18:25] Pode ser que foi bloqueado lá o meu
+[00:18:29] meu sistema. Vamos ver se não pode ser
+[00:18:31] isso.
+[00:18:33] Os caras estão achando que eu sou um
+[00:18:35] spam.
+[00:18:45] Não,
+[00:18:50] vamos ver.
+[00:19:04] Hum, hum.
+[00:19:06] Ah, aqui, ó. excedeu os meus recursos
+[00:19:09] por isso,
+[00:19:11] tá? Eu testei demais. Eu vou ter que, ó,
+[00:19:13] passou de 4 horas aqui, ó. O negócio meu
+[00:19:17] é fazer o upgrade aqui, ó.
+[00:19:23] Tá, mas tudo bem.
+[00:19:26] Vou ter que fazer upgrade.
+[00:19:29] Ó, tá aqui esse cara aqui, ó.
+[00:19:35] Tá?
+[00:19:36] Então, só porque eu quis mostrar aqui,
+[00:19:40] me sobrecarreguei aqui,
+[00:19:44] mas nada que um troquinho aqui que não
+[00:19:46] resolva aqui, tá?
+[00:19:52] E botar um cartão de crédit resolva.
+[00:19:54] Depois da live vou configurar isso aqui,
+[00:20:01] tá legal, pessoal? Então, tá bom.
+[00:20:04] H, mas vocês, eu consegui mostrar pelo
+[00:20:07] menos para vocês e a gente começa a usar
+[00:20:10] e eu sei que tem muita gente já testando
+[00:20:12] isso, então provavelmente deu problema
+[00:20:15] por isso. Mas aqui, ó, pessoal, tá? Como
+[00:20:19] é que vocês podem fazer? Aqui tem um
+[00:20:22] curso, certo? para vocês aprender o
+[00:20:26] building, então como funciona, depois
+[00:20:29] para você fazer a integração,
+[00:20:32] depois para você, né, fazer um
+[00:20:35] desenvolvimento de um agente, ou seja,
+[00:20:38] você ser um agente, não só consultar,
+[00:20:41] certo? E aqui se tornar um expert.
+[00:20:44] Então, eu trabalhei a noite toda, tá?
+[00:20:47] Gastei muito crédito, foi todos os meus
+[00:20:50] tokens do cloud. Tanto que para mostrar
+[00:20:54] para vocês aqui, ó, situação do meu do
+[00:20:57] Cloud aqui tá terrível, ó.
+[00:21:01] Ó. Ã,
+[00:21:05] ó, 98%,
+[00:21:07] tá? Se foi meus créditos do Cloud.
+[00:21:11] os créditos do
+[00:21:14] eu botei mais de $ aqui para mim
+[00:21:16] desenvolver isso aqui no no Codex, tá?
+[00:21:20] Então o conteúdo tá aqui, vocês têm
+[00:21:23] acesso direto, né? Entrou no Inema Club,
+[00:21:27] ó, tem aqui, vai direto ou senão vem
+[00:21:32] aqui nas últimas últimos cursos, tá? E o
+[00:21:36] já e o e o o que que você tem aqui? web
+[00:21:40] MCP,
+[00:21:42] certo?
+[00:21:43] Tá? Que seria esse sisteminha. Eu vou
+[00:21:46] botar aqui, tá faltando o você ir pro
+[00:21:50] pro GitHub, mas o pessoal da comunidade,
+[00:21:53] ó, que que vocês têm aqui, ó, dentro do
+[00:21:56] dev, tá? Nós temos web MCP do zero a
+[00:22:02] expert. Então, olha só,
+[00:22:06] tem todo um conteúdo de aqui para vocês
+[00:22:09] aprender, né, que é toda aquela
+[00:22:12] explicação.
+[00:22:14] E aqui,
+[00:22:16] tá, olha só, esse aqui era o Inema Club,
+[00:22:21] certo? Tava nisso aqui, lembra? tinha
+[00:22:24] várias coisas configuradas e tudo o gel
+[00:22:26] que eu otimizei,
+[00:22:29] certo, esses dias, lembra que eu falei?
+[00:22:31] Daí o que que acontece? Esse aqui era o
+[00:22:34] inema, a cisnema, aquela lá que eu
+[00:22:36] mostrei. E aí, ó, eu peguei e
+[00:22:40] implementei toda a solução,
+[00:22:43] ó, e aí ele já foi para 90 pontos, etc,
+[00:22:48] e tudo que, né? E aqui tá um texto para
+[00:22:51] vocês lerem o que que ele construiu.
+[00:22:54] Mas como eu sempre gosto de entregar
+[00:22:56] tudo pronto para vocês estudarem, eu fiz
+[00:23:00] o prompt que eu usei. Quero preparar e
+[00:23:04] otimizar o site para web MCP, C, Aeol e
+[00:23:09] G. O caminho do repositório, onde que
+[00:23:12] tá? Ou seja, isso aqui seria o caminho
+[00:23:16] teu lá do teu projeto, certo? Então aqui
+[00:23:19] é o site e aqui é o projeto, certo? E o
+[00:23:24] relatório, se tu quiser, aonde ele é
+[00:23:26] para gerar um relatório para ti. E aí eu
+[00:23:29] digo, execute o trabalho de ponta a
+[00:23:31] ponta seguindo essas regras. Comece
+[00:23:34] auditando o repositório, leia as
+[00:23:36] informações, pá, pá, pá, né? E assim por
+[00:23:39] diante. Tudo isso aqui, mais isso aqui,
+[00:23:45] né? Tem alguma coisa que tu tem que ler
+[00:23:47] que nem aqui, ó, né? pode trocar o nome
+[00:23:50] de vocês ou de quem é o autor, certo?
+[00:23:54] Né? Da da
+[00:23:57] aqui, ó. Tá vendo?
+[00:24:00] Também eu tenho um scanner aqui que tu
+[00:24:02] pode estar usando o teu scanner ou o meu
+[00:24:06] para ele validar e toda a informação,
+[00:24:10] certo? O prompt tá aqui, ó, esse mesmo,
+[00:24:13] ó. Então você pode copiar ele. Eu vou
+[00:24:17] mostrar como é que eu vou fazer isso
+[00:24:18] aqui agora.
+[00:24:21] Então eu baixo esse cara aqui, download,
+[00:24:23] esse prompt
+[00:24:25] aqui. Vocês podem ver, ó, o Inema VIP
+[00:24:29] tava assim e ficou assim depois de eu
+[00:24:32] rodar o prompt. Então melhorou bastante.
+[00:24:34] Agora tem coisas que eu tenho que
+[00:24:36] acertar na mão depois,
+[00:24:38] certo?
+[00:24:44] Tá? Então, como é que eu faço? Eu entro
+[00:24:47] lá no meu projeto.
+[00:24:50] Então, vamos entrar lá no Inema Pro,
+[00:24:53] certo? Então, se eu chegar aqui, ó, eu
+[00:24:58] abrir aqui a tela, vou entrar no meu
+[00:25:02] projeto CD Inema Pro.
+[00:25:09] E aí eu vou chamar o Codex.
+[00:25:15] Chamei o Codex, tá no ar.
+[00:25:18] E aí eu vou dizer o seguinte, eu vou
+[00:25:20] pegar aquele link lá, lembra que eu
+[00:25:22] tenho que eu baixei, ó. Tá aqui ele.
+[00:25:26] Prompt. Copiar.
+[00:25:29] Vou lá dentro do Codex.
+[00:25:32] Vou botar o link aqui e dizer assim:
+[00:25:34] "Quero que leia
+[00:25:38] este documento
+[00:25:40] e
+[00:25:43] analise o siteema
+[00:25:48] pro,
+[00:25:51] a parte pública
+[00:25:56] para atender a
+[00:26:02] finição
+[00:26:04] do
+[00:26:06] pronto.
+[00:26:08] Não faça nada, só analise e
+[00:26:13] me mostre uma proposta.
+[00:26:22] Proposta.
+[00:26:25] Opa. Proosta.
+[00:26:28] Enter.
+[00:26:31] Então, o que que ele vai fazer? Vou ler
+[00:26:33] o documento e mapear apenas a superfície
+[00:26:36] pública do INEMA Pro, como você pediu.
+[00:26:38] Vou ficar em modo de análise, nenhuma
+[00:26:41] alteração de código.
+[00:26:46] Olha, o documento pede uma auditoria bem
+[00:26:48] mais ampla, inclui domínio, conteúdo,
+[00:26:51] pá, pá, pá.
+[00:26:53] Também vou usar uma skill de agente de
+[00:26:56] pescar
+[00:26:59] p pa pá, certo? Usando. Então agora ele
+[00:27:03] tá lendo todo o layout, etc. Todos os
+[00:27:06] arquivos.
+[00:27:11] Ou seja, ele vai olhar aquele o site e
+[00:27:13] tu tem que ter acesso físico ao site
+[00:27:15] para melhorar, certo?
+[00:27:18] Então, a proposta que tu pode fazer é
+[00:27:20] chegar nas empresas e dizer: "Olha, eu
+[00:27:23] quero acessar teu site e eu vou fazer um
+[00:27:26] relatório e uma proposta de mudança".
+[00:27:31] E aí nós vamos ter que responder uma
+[00:27:33] série de, né, perguntas. Tu vai ver,
+[00:27:43] ó, a chamada do scanner oficial.
+[00:27:47] Deixa eu dizer assim, o você tem o
+[00:27:52] scanner
+[00:27:55] local para rodar. Use o eh
+[00:28:01] projeto
+[00:28:04] da web MCP
+[00:28:10] repo
+[00:28:12] do scanner. Ele tem um repo ali
+[00:28:16] porque deu problema lá. Ou seja, ele
+[00:28:19] precisa olhar por fora e por dentro.
+[00:28:27] Pessoal, ninguém tá falando disso. Eu
+[00:28:30] pesquisei,
+[00:28:32] tá? Inclusive, eu tô louco para depois
+[00:28:35] da live eu vou transformar isso em
+[00:28:36] inglês e colocar pro pros grupos gringo,
+[00:28:40] porque ninguém tá falando disso ainda.
+[00:28:43] Ou seja, faz poucos dias que saiu isso.
+[00:28:45] Então, né, para quem definir, estudar
+[00:28:48] isso, é um nicho de suporte
+[00:28:51] muito grande.
+[00:28:54] Ó, encontrei o scanner aqui, né? Ele já
+[00:28:57] tem dependência instalada pá diretamente
+[00:29:00] vou executar essa função localmente e
+[00:29:02] resumir o V2 completo.
+[00:29:27] de novo nós na vanguarda. Lembra quem é
+[00:29:30] que acompanha a comunidade? A gente
+[00:29:32] falava de Cloud Code no início do ano
+[00:29:35] passado,
+[00:29:37] né? Já faz mais de um ano e meio, né? A
+[00:29:40] gente falou toda essa esse ano passado,
+[00:29:43] dominamos para caramba
+[00:29:45] e agora vem o pessoal, né, com essa
+[00:29:48] questão e nós estamos aqui, ó. Que que
+[00:29:51] ele viu? Geral 57,
+[00:29:54] certo?
+[00:29:57] Ó, ele tá fazendo o relatório aqui.
+[00:30:03] Esse relatório é muito bom, porque é ele
+[00:30:05] que vai otimizar o nosso site para os
+[00:30:09] agentes.
+[00:30:13] Eu vou fazer mais por cima, só para
+[00:30:15] vocês terem uma ideia, tá? Depois eu vou
+[00:30:18] ter que fazer lendo com calma todos
+[00:30:20] eles, tá? Ó, então vamos lá. Desde o
+[00:30:23] início do relatório,
+[00:30:26] ele começou aí, ó, chamado escanho. Pá,
+[00:30:30] tá
+[00:30:31] perfeito. Aqui
+[00:30:35] tá o scanner local com clip
+[00:30:41] 42, CEL 71. Ou seja, a única coisa boa
+[00:30:46] que eu tenho é o Cell, mais ou menos. O
+[00:30:48] resto tá tudo ruim. Ou seja, um site não
+[00:30:52] é otimizado para o pessoal buscar no
+[00:30:55] Google, buscar no, né, em qualquer
+[00:30:57] lugar. O que que eu tô bem bem
+[00:31:00] posicionado no Inema Club, mas no Inema
+[00:31:03] Pro não. Certo? Outra coisa, né? Ah,
+[00:31:07] detalhe importante, a nota está otimista
+[00:31:09] porque o scanner segue o 307 de robots,
+[00:31:14] o site MAP e LLMs até entrar a conta
+[00:31:19] HTML na tela de login, como se fosse
+[00:31:22] arquivos encontrados. Vou registrar isso
+[00:31:25] como limitação do baseline, não como
+[00:31:27] aprovação técnica.
+[00:31:29] E aí ele começa a me mostrar cada um
+[00:31:31] deles, certo? Foram encontrado quatro
+[00:31:35] bloqueadores, 15 alertas, nenhuma
+[00:31:37] ferramenta MC web MCP,
+[00:31:41] ou seja, um agente não consegue falar
+[00:31:43] comigo. A nota está parcialmente inflada
+[00:31:46] ainda por cima por causa disso aqui, tá?
+[00:31:51] Ó, HTP válido, nem pro tá OK, certo?
+[00:31:56] Tenho o AW também. Hã, tã. Linguagem
+[00:32:01] português tá configurado um único H1 sem
+[00:32:05] saltos de hierarquia. Remite Pá,
+[00:32:09] problemas prioritários. Aí que vamos
+[00:32:11] centrar direito aqui. A raiz retorna a
+[00:32:14] 307 entrar para visitantes em vez de uma
+[00:32:18] página pública indexável.
+[00:32:21] O Midware protege também arquivos
+[00:32:24] técnicos e futuras APIs públicas.
+[00:32:28] Não existe Canonic,
+[00:32:30] Openraph, Twitter Cards ou Jason LD, ou
+[00:32:36] seja, não tem nada. Robots sitem
+[00:32:39] mapíveis,
+[00:32:42] não há favicon nem imagem social. A
+[00:32:46] descrição possui apenas 38 caracteres. O
+[00:32:49] conteúdo público tem somente 11 111
+[00:32:52] palavras. nenhum m ou sessão. Não há
+[00:32:56] páginas sobre metodologias, fontes,
+[00:32:59] limitações ou contatos. Não há perguntas
+[00:33:02] e respostas diretas. Não existe webcp
+[00:33:05] declarativo imperativo. Não existe
+[00:33:08] permissões políticas, né? Eh,
+[00:33:12] polices. Links internos usam
+[00:33:15] frequentemente
+[00:33:17] pro gerando redirect adicional para WW.
+[00:33:21] Conteúdo privado de página
+[00:33:23] administrativa ainda não possui uma
+[00:33:24] política explícita de no index.
+[00:33:29] Que caos, que cara que fez isso aí.
+[00:33:32] Olha, nunca eu ia contratar ele.
+[00:33:36] Arquivos centrais relacionados.
+[00:33:38] Certo. Beleza. Proposta recomendada.
+[00:33:42] Criar uma superfície pública sem abrir o
+[00:33:45] conteúdo premium. Tornar uma Lpage
+[00:33:48] pública com status 200. O comportamento
+[00:33:51] pode ser condicional. Visitantes recebe
+[00:33:54] Land pública. Assinante autenticado
+[00:33:56] continua recebendo a jornada atual.
+[00:33:59] Catálogo completo. Trilhas detalhado,
+[00:34:02] cérebro, curadoria e la permanece
+[00:34:05] protegidos.
+[00:34:06] E aí ele faz a proposta, certo?
+[00:34:11] E aí, né, criar o conteúdo público
+[00:34:13] verdadeiro,
+[00:34:15] tá?
+[00:34:18] explorar, implementar c técnico,
+[00:34:22] né? Dados estruturados
+[00:34:26] a G, criar respostas diretas, curtas e
+[00:34:29] aprofundados para perguntas reais.
+[00:34:33] Cadê? Cada resposta começa com parágrafo
+[00:34:37] objetivo e o web MCP com progressiv
+[00:34:42] em. Então começa aqui ferramenta buscar
+[00:34:46] conteúdos cinema pro declarativa. Daí
+[00:34:49] tem um formulário geral, né? Listar
+[00:34:53] trilhas públicas imperativa. Ou seja,
+[00:34:56] tem toda uma explicação aí. Ferramentas,
+[00:34:59] ferramentas,
+[00:35:01] cabeçalho. Bom, e agora o que que eu
+[00:35:06] poderia dizer? Ok, faça isso.
+[00:35:14] OK, pessoal. Quanto vale esse promte,
+[00:35:20] leilão? Tô vendendo.
+[00:35:29] E aí?
+[00:35:36] Tá bom.
+[00:35:39] Então eu podia dizer, pode fazer, não é?
+[00:35:44] É claro que eu tenho que ler isso com
+[00:35:46] calma, mas esse seria e ele vai
+[00:35:48] construir para mim.
+[00:35:51] Como eu tenho já isso no GitHub, ele é,
+[00:35:56] né,
+[00:35:57] eh, versionável, ou seja, ele tem a
+[00:36:00] versão. Se der errado, é só voltar
+[00:36:02] atrás.
+[00:36:05] Beleza? Se você não tem isso no Git, é
+[00:36:08] um risco tu fazer alguma mudança, alguma
+[00:36:10] coisa. Mas se tu tem no Git, você
+[00:36:13] simplesmente atualizou ele e ele fica
+[00:36:16] com versões. E aí tu pode configurar
+[00:36:19] tudo e botar no ar.
+[00:36:25] Pessoal, tô tô aí esperando se vocês
+[00:36:27] querem alguma dica sobre isso.
+[00:36:40] Simples, né?
+[00:36:52] Oi, tudo bem? Pelo ser tenho desvantagem
+[00:36:55] do que pelo PC. Oi, time fut. Depende o
+[00:36:59] que que tu quer dizer pelo celular tem
+[00:37:01] desvantagem. Quem quiser assistir, tá,
+[00:37:03] tô transmitindo lá no YouTube e nem
+[00:37:06] tdsx.
+[00:37:09] Por isso que o TikTok não entrega, né,
+[00:37:12] para mim para diante, porque
+[00:37:15] eu não tô transmitindo a tela ali, mas
+[00:37:17] azar é deles.
+[00:37:23] Pessoal, posso terminar a live ou querem
+[00:37:25] tirar alguma dúvida?
+[00:37:37] Beleza? Então,
+[00:37:40] porém, porém, pessoal, eu não dormi e
+[00:37:44] aí, como eu gosto de fazer mais coisas,
+[00:37:47] eu criei um sistema chamado cont do
+[00:37:50] vídeo,
+[00:37:52] tá? Aqui, ó, esse contém dois vídeos,
+[00:37:56] tá?
+[00:37:57] Se vocês descerem aqui, ó, tá aqui o
+[00:38:01] projeto aqui, ó. Esse aqui não, deixa eu
+[00:38:03] fechar. Tá no projeto aqui, ó. Contend
+[00:38:06] dois vídeos.
+[00:38:08] Que que você faz? Tu manda o link e sai
+[00:38:11] um vídeo pronto. Olha que barbada eu fiz
+[00:38:14] aqui. Deixa eu ver se ele está no ar,
+[00:38:16] senão eu tenho que botar no ar.
+[00:38:19] Roda numa VPS,
+[00:38:22] contém dois vídeo.
+[00:38:25] Ou seja, você manda o link, esse para
+[00:38:28] mim é que eu fiz isso para mim. Eu tô
+[00:38:31] cansado de pegar, ter conteúdo bom, né,
+[00:38:35] de site, de documento e tudo. E eu
+[00:38:38] queria passar pro pessoal, mas o pessoal
+[00:38:40] não gosta de ler.
+[00:38:43] O pessoal quer assistir aquilo lá, quer
+[00:38:45] ter tudo assim, ó, na boquinha. Hoje eu
+[00:38:48] tava falando com, né, com a minha mulher
+[00:38:51] aí, a mãe dos filhos,
+[00:38:53] e dizendo sobre o que que eu quero. Eu
+[00:38:56] disse: "Meu pai me educou
+[00:38:59] com pressão.
+[00:39:01] Eu eu sempre era o cara que queria. Eu
+[00:39:03] comecei a vender osso. Eu ia na colônia
+[00:39:06] de bicicleta e recolhia os ossos e
+[00:39:10] vendia os ossos com menos de 10 anos.
+[00:39:13] E às vezes eu achava uma uma lá com
+[00:39:16] muito e eu ia muito às vezes lá. Depois
+[00:39:19] eu comecei vender picolé, só que eu
+[00:39:22] comecei e daí eu não tinha o carrinho,
+[00:39:24] eu tinha a caixa de isopor e eu tinha
+[00:39:26] que levar isso num num futebol,
+[00:39:30] tá? chamado esmagaçar pro lugar lá para
+[00:39:32] vocês verem onde era. Era uns 5 km da
+[00:39:36] cidade
+[00:39:37] e eu levava duas caixa de zopor e eu
+[00:39:40] levava uma e depois um pedaço e depois
+[00:39:43] ia lá buscar outra porque as duas eu não
+[00:39:45] aguentava. E eu chegava lá e pá, vendia
+[00:39:48] tudo. Daí voltava pra cidade, juntava a
+[00:39:52] grana, né? Menos de 10 anos.
+[00:39:55] E o que que acontecia?
+[00:39:57] Chegava um tempo, eu enchia o saco,
+[00:40:00] não queria mais saber disso. E daí meu
+[00:40:03] pai dizendo: "Não, tu começou, não vai
+[00:40:05] parar, tu vai só parar se tu ajeitar uma
+[00:40:08] outra coisa melhor para fazer".
+[00:40:11] Daí eu inventei de vender jornal.
+[00:40:14] Daí chegava o jornal um dia depois,
+[00:40:16] porque era 500 km da cidade de Porto
+[00:40:19] Alegre, minha cidade natal.
+[00:40:22] E eu pegava aquele jornal, ia vender. Só
+[00:40:25] que o pessoal da minha cidade, poucos
+[00:40:27] que gostavam de ler. Então eu ficava até
+[00:40:30] meia-noite tentando na chuva, etc.
+[00:40:33] Tentando vender, batendo em porta em
+[00:40:35] porta, oferecendo o jornal.
+[00:40:39] E também chegou um ponto, eu disse:
+[00:40:41] "Pai, eu não quero mais". Ele disse:
+[00:40:43] "Não, tu começou". E aí o azar que fez,
+[00:40:46] eu inventei de vender jornal, depois
+[00:40:49] meus irmãos todos tiveram que vender
+[00:40:51] jornal, né?
+[00:40:53] Então isso faz com que a dificuldade da
+[00:40:57] nós que meu pai me deu para mim não
+[00:41:00] desistir faz com que eu me tornei muito
+[00:41:03] bom, porque muita gente inteligente é
+[00:41:06] boa, só que ele não tem persistência,
+[00:41:09] ele não tem foco.
+[00:41:12] Então eu peguei e disse: "É, quero esse
+[00:41:14] conteúdo que eu acho legal, já que o
+[00:41:17] pessoal não lê texto, vamos fazer vídeo,
+[00:41:21] certo? E o que que eu fiz? Simplesmente
+[00:41:25] peguei alguns assuntos que nem aqui, ó.
+[00:41:27] O que que é agi? Ó, é um texto super
+[00:41:30] legal, com conhecimento profundo, né, da
+[00:41:35] AWS.
+[00:41:38] Que que eu fiz? Simplesmente fui ali,
+[00:41:41] botei o link aqui. Eu não vou botar
+[00:41:44] agora porque leva tempo. Aqui tá tudo
+[00:41:47] definido, ó. Formato 916 ou 16 por 9.
+[00:41:52] H, ó, é 60 segundos, ou seja, eu quero
+[00:41:56] de 1 minuto, dou tolerância de 30%,
+[00:41:59] certo? O formato que tá aqui em
+[00:42:01] português, essa é a pessoa. E tudo isso
+[00:42:04] aqui tá configurado dentro do ponto ENV.
+[00:42:08] Então, se tu quer outra pessoa falando,
+[00:42:11] outra configuração e tudo, tá tudo lá. E
+[00:42:14] aí, certo? Eu peguei e coloquei, ó, fiz
+[00:42:19] vários aqui para testar, né? Falei do
+[00:42:22] Inema, falei do Zuckenberg, etc. E eu
+[00:42:26] dei só o link e ele construiu, certo?
+[00:42:29] Então vamos só olhar aqui um, por
+[00:42:31] exemplo, tá? Ó,
+[00:42:34] &gt;&gt; democratas e republicanos discordam
+[00:42:36] sobre quase tudo, mas dois nomes
+[00:42:38] produziram consensos em direções
+[00:42:40] opostas.
+[00:42:42] A pesquisa nacional da Lowel, feita em
+[00:42:44] abril de 2026 perguntou a adultos
+[00:42:47] americanos como viam figuras públicas.
+[00:42:50] Dolly Parton aparece no topo, favorável
+[00:42:53] para 78% dos democratas e 73% dos
+[00:42:57] republicanos.
+[00:42:59] Mark Zuckerberg quase encosta no chão,
+[00:43:01] 8% entre democratas e 13% entre
+[00:43:05] republicanos.
+[00:43:06] No total, a diferença também é enorme.
+[00:43:09] 70% de favorabilidade para Dolly contra
+[00:43:12] 10% para Zuckerberg.
+[00:43:15] Olha só, pegando um exemplo, isso aqui é
+[00:43:17] uma matéria que ele tá falando sobre ã
+[00:43:22] pessoas públicas e como eles estão dando
+[00:43:25] valor ainda pros políticos e o cara de
+[00:43:27] tecnologia tá sendo odiado nos Estados
+[00:43:30] Unidos, tá? Então, só para dar um daí eu
+[00:43:32] peguei, ah, vou fazer um matéria. Ele
+[00:43:35] pegou todo layout, estilo, tudo do
+[00:43:37] material original.
+[00:43:40] A futurista chamou isso de relação
+[00:43:42] antidolly parton. Uma é admirada dos
+[00:43:44] dois lados, o outro registra baixa
+[00:43:46] aprovação nos dois. Os números não
+[00:43:49] explicam sozinhos o motivo, e a pesquisa
+[00:43:51] mede opinião, não caráter, mas revelam
+[00:43:54] algo raro, consenso em uma época
+[00:43:56] polarizada.
+[00:43:58] Quando os extremos concordam, vale olhar
+[00:44:00] o dado antes da manchete. Às vezes, o
+[00:44:03] verdadeiro fato não é a divisão, é a
+[00:44:05] convergência.
+[00:44:08] &gt;&gt; Certo? Então, tipo, um, peguei um
+[00:44:09] conteúdo dele aqui, vou pegar um outro,
+[00:44:13] certo? Só para vocês verem. Por exemplo,
+[00:44:15] aqui eu peguei uma matéria do Rot.
+[00:44:19] &gt;&gt; Quando alguém pergunta a inteligência
+[00:44:20] artificial sobre o seu mercado, a sua
+[00:44:22] marca aparece ou desaparece?
+[00:44:25] Web MCP aponta para um futuro em que
+[00:44:27] agentes vão interagir diretamente com
+[00:44:29] sites, mas a disputa que você pode
+[00:44:31] vencer começa agora, ser citado. Com a
+[00:44:33] Semrus, você verifica se seu site está
+[00:44:35] pronto para rastreadores de inteligência
+[00:44:37] artificial, encontra barreiras técnicas
+[00:44:39] e acompanha os sinais que influenciam a
+[00:44:41] descoberta.
+[00:44:43] Depois monitora menções em chat GPT
+[00:44:45] Zemin Perplexity, Google Inteligência
+[00:44:47] Artificial Mode e Inteligência
+[00:44:49] Artificial Overviels e enxerga quais
+[00:44:51] páginas são citadas, a participação de
+[00:44:53] voz e o sentimento e transforma lacunas
+[00:44:55] em ação. Descobre consultas em que
+[00:44:57] concorrentes ganham citações, identifica
+[00:44:59] temas e prompts ausentes e encontra
+[00:45:01] sites que já moldam essas respostas.
+[00:45:04] Não é uma aposta solitária. 28 milhões
+[00:45:06] de profissionais já usaram Semrug e 35%
+[00:45:09] das empresas Forum 500 confiam na
+[00:45:11] plataforma.
+[00:45:13] O futuro agente está chegando. Ganhe
+[00:45:15] visibilidade e inteligência artificial
+[00:45:17] hoje. Experimente a Sembrus grátis por 7
+[00:45:19] dias.
+[00:45:20] &gt;&gt; Ó, peguei um conteúdo promocional dos
+[00:45:22] cara e botei aqui. Quer ver um outro? Um
+[00:45:26] outro que eu peguei aqui. Ã, AGI, por
+[00:45:30] exemplo,
+[00:45:31] ó. Esse aqui, ó, não terminou ainda.
+[00:45:34] Aguardando revisão, certo? E daí eu
+[00:45:37] veria aqui, ó. Eu posso vir abrir,
+[00:45:42] olhar como é que ele foi produzido e
+[00:45:44] coisa. Eu posso melhorar os templates
+[00:45:46] também, ó. E vamos ver como é que foi. O
+[00:45:48] salto para uma inteligência geral não é
+[00:45:50] responder melhor, é aprender algo aqui e
+[00:45:52] conseguir usar esse conhecimento em
+[00:45:53] outro lugar. A inteligência artificial
+[00:45:56] atual, inclusive a generativa, continua
+[00:45:58] especializada. AGI é a hipótese de um
+[00:46:00] sistema que aprende sozinho e resolve
+[00:46:02] problemas em vários domínios. Para isso,
+[00:46:05] não basta juntar habilidades, memória,
+[00:46:07] aprendizado, percepção e criatividade
+[00:46:09] teriam de funcionar como um único
+[00:46:10] sistema cognitivo integrado. A pesquisa
+[00:46:13] explora caminhos simbólicos,
+[00:46:14] conexionistas, universalistas,
+[00:46:16] corporificados e híbridos. Cada um tenta
+[00:46:18] explicar uma parte diferente da
+[00:46:20] inteligência. Aprendizado profundo,
+[00:46:22] inteligência artificial generativa,
+[00:46:24] linguagem, visão e robótica empurram
+[00:46:26] essa pesquisa. Mas essas tecnologias são
+[00:46:28] peças do quebra-cabeça, não a a pronta.
+[00:46:31] E ainda faltam três saltos. Transferir
+[00:46:33] conhecimento entre domínios, reproduzir
+[00:46:35] criatividade emocional e perceber o
+[00:46:37] mundo físico com riqueza humana. Por
+[00:46:40] isso, a continua sendo uma meta teórica
+[00:46:42] e distante. A diferença não é um modelo
+[00:46:44] simplesmente maior, é uma inteligência
+[00:46:46] realmente geral.
+[00:46:49] &gt;&gt; Veja, eu posso melhorar o layout e tudo
+[00:46:51] isso aqui. Experimentei. Eu fiz essa
+[00:46:54] noite ali, tem os ajustes, né? e cada um
+[00:46:57] deles. Agora veja, eu poderia vir aqui e
+[00:47:00] dizer o seguinte: eu quero abrir no
+[00:47:03] editor, eu quero fazer uma cópia, eu
+[00:47:05] quero aprovar ou eu quero editar num
+[00:47:07] prompt e daí nesse prompto, aqui
+[00:47:10] escrever o que que eu quero que ele
+[00:47:12] mude, né, num prompt ou só mando aqui
+[00:47:16] continuar,
+[00:47:17] certo? E aí ele vai continuar onde que
+[00:47:21] ele tinha parado, por exemplo, certo?
+[00:47:25] Então, só mostrando isso aqui para
+[00:47:27] vocês, né? Tá disponível. Pega isso
+[00:47:30] aqui, baixa, edita, customiza.
+[00:47:33] Certo?
+[00:47:38] Tá, tá no GitHub como sempre. Pessoal,
+[00:47:41] hoje veio o pessoal me dizer assim:
+[00:47:43] "Nei, tu não pode entregar tudo isso,
+[00:47:45] cara. Os caras não entram na comunidade
+[00:47:48] tua, certo? E vão pegar tudo aí que tá
+[00:47:52] disponível no Inema Club." E eu digo,
+[00:47:54] tudo bem, cara. Qual é o problema? O meu
+[00:47:57] o meu fato, se eu quisesse ganhar
+[00:47:59] dinheiro que nem os cara, eu ia começar
+[00:48:02] a vender cursinho,
+[00:48:04] certo?
+[00:48:06] E entregar o mínimo possível.
+[00:48:09] Mas não é, a gente tá formando uma
+[00:48:11] elite, certo? E uma elite de
+[00:48:14] conhecimento, de pessoas, de atitude. É
+[00:48:16] isso que eu quero. Tá beleza?
+[00:48:19] Continuando aqui, eu tenho mais coisas.
+[00:48:23] Não satisfeito.
+[00:48:25] A Tisa disse assim: "Nei, tem um cara da
+[00:48:28] comunidade que ele veio com o software,
+[00:48:30] ele queria ver como é que se faz num tal
+[00:48:32] de software, se chama V sub.
+[00:48:40] Alguém conhece esse V sub
+[00:48:43] para criar esses esses negócios aqui?"
+[00:48:50] Daí fui dar uma olhada.
+[00:48:52] né? Beleza, já sabe o que que eu fiz.
+[00:48:59] Criei o o nosso sistema chamado
+[00:49:07] víde
+[00:49:09] e aí tu dá um assunto
+[00:49:12] e ele constrói para vocês isso aqui.
+[00:49:15] Claro que leva tempo, mas igual. O que
+[00:49:17] que ele fez? Eu dei o assunto, botei a
+[00:49:20] configuração o Agnes,
+[00:49:24] certo?
+[00:49:26] E aí, galera? Certo? Simplesmente ele
+[00:49:29] vai montar, ele monta o conteúdo, certo?
+[00:49:33] Gerando roteiro, gerando voz, gerando
+[00:49:36] imagem, gerando movimento, gerando
+[00:49:38] legenda e renderizando. E pronto aqui
+[00:49:42] embaixo, pronto para baixar.
+[00:49:44] Então, olha só o que ele fez. Ele pegou
+[00:49:47] aqui, se eu der um
+[00:49:51] Deixa eu ver como é que é aqui, ó.
+[00:49:54] [música]
+[00:49:56] Eu usei o [canto] Agnes para isso, tá?
+[00:49:58] Para não precisar gastar recursos.
+[00:50:02] Então, ó, assim, ele criou todo isso
+[00:50:05] automaticamente, gerou o vídeo,
+[00:50:08] certo? Mas eu posso vir aqui, ó, editar.
+[00:50:12] Talvez eu até mudo isso aqui, boto mais
+[00:50:14] para cima, não sei o layout, mas eu
+[00:50:16] posso vir mudar a cena aqui, ó. Então, a
+[00:50:19] cena tá aqui, ó. Posso mudar o o áudio.
+[00:50:22] &gt;&gt; Reconhecer uma AGI exigiria mais do que
+[00:50:25] aprovação em uma prova. Pesquisadores
+[00:50:28] discutem avaliações que combinem
+[00:50:30] amplitude de habilidades, capacidade de
+[00:50:33] aprender.
+[00:50:35] Então, tu pode fazer, né, a proposta do
+[00:50:37] que tu quer de roteiro. Tu pode vir aqui
+[00:50:41] refazer a voz que não gostou, baseado na
+[00:50:43] nova resposta. Você pode fazer o
+[00:50:46] movimento que tu não gostou e aí tu
+[00:50:48] baixa ele, certo? Baixou, ó, o vídeo tá
+[00:50:52] pronto, tá? Imagine uma inteligência
+[00:50:56] artificial capaz de aprender uma tarefa
+[00:50:59] desconhecida, perceber que errou, mudar
+[00:51:02] de incomparável em muitos domínios,
+[00:51:05] capaz de raciocinar.
+[00:51:08] também variam muito conforme usando
+[00:51:11] definições diferentes. A resposta
+[00:51:13] energia, dados e métodos de treinamento.
+[00:51:17] Se surgir, uma AGI poderá acelerar
+[00:51:19] pesquisas, educação e produtividade.
+[00:51:23] &gt;&gt; Ou seja, você pode ter criar agora
+[00:51:26] conteúdo para canal Dark para caramba,
+[00:51:30] pessoal. Isso aqui vai se chamar vídeo
+[00:51:32] sub.
+[00:51:34] Então, de novo,
+[00:51:37] pra galera que gosta de conteúdo bala,
+[00:51:40] tá aqui, ó.
+[00:51:43] Ó, vídeo sub tá disponível para vocês
+[00:51:46] também aqui no GitHub e tudo mais. Só
+[00:51:49] que esse aqui eu vou melhorar porque eu
+[00:51:51] descobri um furo aqui. Deixa eu ver onde
+[00:51:55] que ele tá.
+[00:52:00] Agora não sei onde que eu tinha. Eu
+[00:52:09] tava aqui não, acho que esse aqui. Isso.
+[00:52:13] O que que acontece? Como aqui o texto
+[00:52:16] ficou longo, certo? E o vídeo também
+[00:52:20] ficou longo e tudo. Eu preciso colocar
+[00:52:23] mais animações aqui no meio ou aumentar,
+[00:52:27] né, na hora de enviar pro Agnes
+[00:52:31] para ele fazer mais longo isso aqui.
+[00:52:33] Então eu só tenho que sincronizar isso
+[00:52:35] aqui. Então tem coisinhas que eu quero
+[00:52:37] ajustar, né, nisso aqui, tá? Mas ó,
+[00:52:43] mais uma coisa bala aí,
+[00:52:47] ó. Aqui nós eu tem a configuração do
+[00:52:49] Codex, o Agnes Eleva Labs e o FFMPEG. É
+[00:52:54] o que a gente tá usando. Você pode mudar
+[00:52:57] tudo isso na no ponto ENV.
+[00:53:02] Beleza, pessoal?
+[00:53:05] Querem mais? Tem mais. Mas daí vocês
+[00:53:07] podem também ir lá no Inema VIP ou Inema
+[00:53:10] Pro e etc dar uma pesquisada, né, nas
+[00:53:14] coisas novas que eu tenho colocado aqui,
+[00:53:16] ó.
+[00:53:17] Todo dia eu coloco bastante coisa que eu
+[00:53:20] estudei e vou botando disponível aqui
+[00:53:23] para vocês, ó,
+[00:53:25] sempre lá pro link. E um detalhe, né,
+[00:53:29] galera,
+[00:53:31] nós temos três tipos de pessoas
+[00:53:35] da área de IA, os que estudam para
+[00:53:40] caramba, testam para caramba,
+[00:53:43] os que querem tudo pronto e os que só
+[00:53:46] reclamam.
+[00:53:47] Porque olha, tem muita gente que eu
+[00:53:49] conheço que continua reclamando, tudo é
+[00:53:52] difícil, tudo é caro, tu o, né? Ah, a
+[00:53:56] comunidade é muito difícil quando tu
+[00:53:58] facilita. Ah, mas daí não, não, né? Não
+[00:54:01] dá para fazer porque eu não tenho
+[00:54:02] computador, eu não tenho isso, cara. E é
+[00:54:05] isso aí, vai sempre ter essas pessoas.
+[00:54:08] Então, espero que vocês sejam pessoas
+[00:54:11] que pegam as coisas, testam, desenvolvam
+[00:54:15] e sejam os diferenciais do mercado.
+[00:54:19] Então, nós estamos aqui, ó, por exemplo,
+[00:54:22] aqui eu fiz um conteúdo sobre lipsc.
+[00:54:25] Qual é o lipsc que você tem que usar se
+[00:54:28] você trabalha com vídeo, certo? Então,
+[00:54:31] ó, se entrar lá no inema, né, dentro
+[00:54:35] sempre eu coloco aqui, ó, qual é o grupo
+[00:54:38] no grupo nem voz fiz um levantamento
+[00:54:41] como usar. Então, tu vai lá e aqui no
+[00:54:44] grupo, certo?
+[00:54:46] A ideia é o seguinte, tu tem o voice
+[00:54:49] engineer, tá? Que é considerado melhor.
+[00:54:54] Por quê? Porque ele consegue trabalhar
+[00:54:56] só na boca,
+[00:54:59] certo? Se você pegar usar o clean ou
+[00:55:03] você usar um outros, o que que acontece?
+[00:55:06] Ele gera todo o vídeo, então sai muito
+[00:55:08] mais caro.
+[00:55:10] E outra coisa, tu fez um vídeo de 2
+[00:55:13] minutos. Vamos pensar que é um vídeo de
+[00:55:16] música. Esses aqui, ó.
+[00:55:19] Certo?
+[00:55:21] Esses vídeos aqui,
+[00:55:24] um vídeo de 2 minutos. Quantas vezes
+[00:55:27] está alguém falando no microfone
+[00:55:29] cantando? Talvez vai ser 30 segundos, 20
+[00:55:35] segundos.
+[00:55:37] Então você poderia fazer dois, três
+[00:55:40] lipsink só.
+[00:55:43] Tu gastaria só nos lipsink que ela tá
+[00:55:46] falando perto, porque se tá falando, se
+[00:55:48] tá a imagem longe, não precisa fazer
+[00:55:50] lipsink.
+[00:55:53] E isso eu posso implementar. Então eu tô
+[00:55:56] aqui na versão do Inema Música Vídeo
+[00:55:58] 2.3,
+[00:56:00] né? A versão 3, já dando uma palinha,
+[00:56:04] ele vai ter Lipsink sincronizado. Então
+[00:56:07] aonde vai ser necessário, ele vai fazer
+[00:56:09] Lipsink, tu vai pagar só por isso. E na
+[00:56:13] versão TR nós vamos ter a os atores, por
+[00:56:18] exemplo, se essa aqui, né, essa menina
+[00:56:21] aqui, vamos abrir só a tela aqui, tá?
+[00:56:26] Ó, se eu for pegar essa menina aqui e
+[00:56:29] ela é a cantora,
+[00:56:32] eu quero que todos os vídeos que eu
+[00:56:34] fizer dela [música]
+[00:56:35] use a mesma característica dela, né? Eu
+[00:56:40] vou descrever [música] a roupa, o
+[00:56:41] estilo, se vai ser um show na piscina,
+[00:56:44] né? Se vai ser aonde, por exemplo, aqui
+[00:56:47] precisa de Sim que não. [música]
+[00:56:53] Então, quando é que eu devo usar o que
+[00:56:55] pagar? Então, todas essas coisas, né,
+[00:56:58] [música][canto]
+[00:57:00] a gente tá trabalhando
+[00:57:03] [música]
+[00:57:05] [canto]
+[00:57:10] [música]
+[00:57:14] [canto]
+[00:57:16] on [música]
+[00:57:22] that
+[00:57:24] on the
+[00:57:26] on the de [música]
+[00:57:27] of the
+[00:57:46] air and diamond spray watch the city
+[00:57:50] [música]
+[00:57:51] Que
+[00:57:53] queen mar
+[00:57:58] keeps asking more hold your breath
+[00:58:04] the fl [música]
+[00:58:05] about to break
+[00:58:08] one more drop
+[00:58:11] is all it takes
+[00:58:16] on the water turn it up don't
+[00:58:25] &gt;&gt; [música]
+[00:58:30] [música]
+[00:58:33] &gt;&gt; Ou seja, não teve lipsink aqui, então
+[00:58:35] não preciso gastar em lipsink, né? Então
+[00:58:39] depende de como você vai fazer o clipe,
+[00:58:41] né? Mas eu quero manter essa essa pessoa
+[00:58:45] com a mesma característica. Por enquanto
+[00:58:47] eu tô usando Agnes para ajudar vocês a
+[00:58:50] fazer de forma gratuita praticamente.
+[00:58:54] Então, quem é bom de música ou quem tem
+[00:58:56] atitude, tá aí. Tô aqui produzindo mais,
+[00:59:00] né, do que gente que gosta de música.
+[00:59:04] Por quê? Porque tem que ter atitude.
+[00:59:07] Tanto que estão dizendo para mim que
+[00:59:09] isso que essas músicas aqui são de gente
+[00:59:13] que eu peguei já de alguém produzindo
+[00:59:16] porque tá muito bom. Não, a Iá fez,
+[00:59:19] né?
+[00:59:25] &gt;&gt; [música]
+[00:59:31] &gt;&gt; você falado, só que eu amo.
+[00:59:35] Você voltou [música]
+[00:59:36] dizendo, [canto]
+[00:59:37] &gt;&gt; ó, vamos botar aqui o clipe.
+[00:59:40] [música]
+[00:59:46] Você falada sofão.
+[00:59:49] &gt;&gt; Daí agora sim tu teria que fazer
+[00:59:51] [música] o clipe nessa parte que ela vai
+[00:59:53] cantar. Eu queria acreditar, mas lembrar
+[00:59:56] [música] não é escolha o que ficou. Você
+[01:00:00] bateu na porta com [canto][música]
+[01:00:02] aquele sorriso.
+[01:00:04] Disse que mudou, que agora é outra
+[01:00:07] história. [música]
+[01:00:08] Eu [canto] servi café. Escutei em
+[01:00:11] silêncio. Boa noite. Vou ficar escutando
+[01:00:14] minha [canto] voz. Mais a memória.
+[01:00:19] Eu ainda te amo.
+[01:00:22] Se eu não nego, posso perdoar,
+[01:00:26] mas não me entrego. Meu coração diz
+[01:00:29] volta, razão diz não. [canto]
+[01:00:33] Nesse caso,
+[01:00:34] &gt;&gt; perdoar não é esquecer,
+[01:00:38] meu [música] amor.
+[01:00:40] Perdoar não é [canto]
+[01:00:43] esquecer. Eu
+[01:00:52] [música]
+[01:00:53] não guardo mágoa, não te desejo mal.
+[01:00:57] &gt;&gt; Eu tô botando esses esses meus vídeos
+[01:00:59] tudo na na no bil,
+[01:01:03] ou seja, vou começar a ser famoso pros
+[01:01:05] chineses lá.
+[01:01:10] Beleza, pessoal, por hoje era só,
+[01:01:15] mas tem mais. Quem quiser dá uma olhada
+[01:01:17] lá nas notícias, nas novidades aí.
+[01:01:22] Vou comer uma coisa e eu quero dormir
+[01:01:25] mais cedo hoje, mas tem ainda novidades
+[01:01:27] aí para mim testar, deixar redondinho
+[01:01:30] ainda esse
+[01:01:31] o o vídeo sub,
+[01:01:36] tá?
+[01:01:42] Boa noite, então até amanhã.
+[01:01:46] Amanhã é o último dia de live, pessoal.
+[01:01:49] Setembro não vai ter live,
+[01:01:52] certo? Mas vai ter conteúdo sempre
+[01:01:54] bastante aí.
