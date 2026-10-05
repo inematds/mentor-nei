@@ -8,11 +8,14 @@ Entregar à IA contexto (pasta doc com referências, prints, planos) em vez de p
 
 ### Por fonte (o que cada lote observou)
 
+- **Núcleo portátil** — O contexto do projeto mora em Markdown comum (AGENTS.md, context/, tasks/current.md, handoffs/) com dono por tipo de informação; o handoff passa o estado entre sessões e entre runtimes, e o prime lê só em modo leitura.
 - **Contexto antes do prompt (pasta doc)** — Ele defende entregar à IA um contexto — uma pasta (doc) com referências, prints, links e planos discutidos no chat — em vez de um prompt longo; com isso a instrução fica curta e a IA não chuta. A pasta de contexto é privada e fica fora do git.
 - **Contexto e memória** — Manter o contexto limpo (handoff, clear, memory audit) para economizar tokens; usar engenharia de contexto para não quebrar a cada versão nova de modelo; registrar lições na memória do projeto.
 
 ## Trechos
 
+- "O núcleo (contexto, decisões, tarefas, skills, handoffs) fica em Markdown comum dentro do projeto." — [[guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831]] `raw/guia/agente-claude-codex-migrar-do-claude-pro-codex-ou--ac8311.md`
+- "Fato, preferência, hipótese e decisão são coisas diferentes." — [[guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831]] `raw/guia/agente-claude-codex-migrar-do-claude-pro-codex-ou--ac8311.md`
 - "tua intenção, mas ela não pode ser num" (@00:41:08) — [[video-inema-vibecode-do-zero-dia-1-infra-git-e-vercel]] `raw/videos/inema-vibecode-do-zero-dia-1-infra-git-e-vercel.txt`
 - "Entrega uma pasta cheia de informações" (@00:41:17) — [[video-inema-vibecode-do-zero-dia-1-infra-git-e-vercel]] `raw/videos/inema-vibecode-do-zero-dia-1-infra-git-e-vercel.txt`
 - "informação. Ele não vai chutar buscando" (@00:36:23) — [[video-inema-vibecode-do-zero-dia-1-infra-git-e-vercel]] `raw/videos/inema-vibecode-do-zero-dia-1-infra-git-e-vercel.txt`
@@ -24,6 +27,7 @@ Entregar à IA contexto (pasta doc com referências, prints, planos) em vez de p
 
 ## Fontes
 
+- [[guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831]] — agente-claude-codex — Migrar do Claude pro Codex ou ficar agnóstico
 - [[guia-execucao-longa-agentes-que-trabalham-horas-e-dias-b4357]] — Execução Longa — agentes que trabalham horas e dias sem perder o rumo
 - [[video-inema-vibecode-do-zero-dia-1-infra-git-e-vercel]] — INEMA  VibeCode do Zero - Dia 1 - Infra Git e Vercel
 - [[video-live-100-videosdia-com-ia-agentes-metodos-e-escala-rea]] — LIVE： 100 Vídeos⧸Dia com IA — Agentes, Métodos e Escala Real
@@ -35,4 +39,4 @@ Entregar à IA contexto (pasta doc com referências, prints, planos) em vez de p
 
 ## Relacionados
 
-[[menor-custo-que-resolve]], [[verificar-antes-de-afirmar]], [[medir-antes-de-acreditar]], [[custo-de-tokens]], [[skills]], [[live-construindo-ao-vivo]]
+[[menor-custo-que-resolve]], [[verificar-antes-de-afirmar]], [[medir-antes-de-acreditar]], [[custo-de-tokens]], [[skills]], [[live-construindo-ao-vivo]], [[nucleo-portatil-entre-runtimes]], [[higiene-de-contexto]]

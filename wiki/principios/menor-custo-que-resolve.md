@@ -8,6 +8,7 @@ Custo entra na conta antes de construir: assinatura em vez de API, menor modelo 
 
 ## Trechos
 
+- "Tudo roda pela assinatura de cada assistente, sem chave de API." — [[guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831]] `raw/guia/agente-claude-codex-migrar-do-claude-pro-codex-ou--ac8311.md`
 - "O menor modelo que resolve bem esse passo é o escolhido" — [[guia-maestro-roteador-triagem-de-modelo-e-esforco-para-ded1b]] `raw/guia/maestro-roteador-triagem-de-modelo-e-esforco-para--ded1bc.md`
 - "O esforço certo é o menor que cobre o risco" — [[guia-maestro-roteador-triagem-de-modelo-e-esforco-para-ded1b]] `raw/guia/maestro-roteador-triagem-de-modelo-e-esforco-para--ded1bc.md`
 - "A implementação é bom que o esforço seja" (@02:50:49) — [[video-inema-vibecode-do-zero-dia-1-infra-git-e-vercel]] `raw/videos/inema-vibecode-do-zero-dia-1-infra-git-e-vercel.txt`
@@ -30,6 +31,7 @@ Custo entra na conta antes de construir: assinatura em vez de API, menor modelo 
 
 ## Fontes
 
+- [[guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831]] — agente-claude-codex — Migrar do Claude pro Codex ou ficar agnóstico
 - [[guia-inemaseo-seu-site-em-destaque-no-google-no-bing-e-daa22]] — inemaSEO — seu site em destaque no Google, no Bing e nas IAs
 - [[guia-maestro-roteador-triagem-de-modelo-e-esforco-para-ded1b]] — maestro-roteador — triagem de modelo e esforço para Claude Code
 - [[guia-musicavideo-musica-capa-e-clipe-a-partir-de-uma-fr-b4bc]] — musicavideo — música, capa e clipe a partir de uma frase

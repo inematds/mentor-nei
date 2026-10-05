@@ -8,6 +8,8 @@ Dizer exatamente o que é pronto vale mais que esforço alto. Pronto = comando c
 
 ## Trechos
 
+- "Objetivo observável (qual suíte, qual entrada, qual saída), escopo limitado, pare quando passar." — [[guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831]] `raw/guia/agente-claude-codex-migrar-do-claude-pro-codex-ou--ac8311.md`
+- "Se o mesmo bloqueio sobreviver a duas tentativas, relate e peça a decisão." — [[guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831]] `raw/guia/agente-claude-codex-migrar-do-claude-pro-codex-ou--ac8311.md`
 - "Esforço não compensa especificação vaga." — [[guia-maestro-roteador-triagem-de-modelo-e-esforco-para-ded1b]] `raw/guia/maestro-roteador-triagem-de-modelo-e-esforco-para--ded1bc.md`
 - "Seis fases, cada uma com comando próprio e critério de pronto medido." — [[guia-transformsite-seu-site-vira-um-agente-de-atendimen-f267]] `raw/guia/transformsite-seu-site-vira-um-agente-de-atendimen-f26733.md`
 - "93 testes de aceitação congelados" — [[guia-atende-clinica-agenda-whatsapp-e-equipe-no-telegra-c3a0]] `raw/guia/atende-clinica-agenda-whatsapp-e-equipe-no-telegra-c3a005.md`
@@ -23,6 +25,7 @@ Dizer exatamente o que é pronto vale mais que esforço alto. Pronto = comando c
 
 ## Fontes
 
+- [[guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831]] — agente-claude-codex — Migrar do Claude pro Codex ou ficar agnóstico
 - [[guia-atende-clinica-agenda-whatsapp-e-equipe-no-telegra-c3a0]] — Atende Clínica — agenda, WhatsApp e equipe no Telegram para clínicas
 - [[guia-execucao-longa-agentes-que-trabalham-horas-e-dias-b4357]] — Execução Longa — agentes que trabalham horas e dias sem perder o rumo
 - [[guia-maestro-roteador-triagem-de-modelo-e-esforco-para-ded1b]] — maestro-roteador — triagem de modelo e esforço para Claude Code
@@ -36,4 +39,4 @@ Dizer exatamente o que é pronto vale mais que esforço alto. Pronto = comando c
 
 ## Relacionados
 
-[[verificar-antes-de-afirmar]], [[medir-antes-de-acreditar]], [[custo-de-tokens]], [[git-e-deploy]], [[menor-custo-que-resolve]], [[guia-de-projeto-landing]]
+[[verificar-antes-de-afirmar]], [[medir-antes-de-acreditar]], [[custo-de-tokens]], [[git-e-deploy]], [[menor-custo-que-resolve]], [[guia-de-projeto-landing]], [[revisao-cruzada-entre-agentes]]

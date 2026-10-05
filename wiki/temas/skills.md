@@ -13,6 +13,8 @@ Skill é a receita/manual que o agente pode usar. Ajuda, mas precisa de curadori
 
 ## Trechos
 
+- "Skills têm uma fonte canônica e cópias geradas por runtime com checagem de drift." — [[guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831]] `raw/guia/agente-claude-codex-migrar-do-claude-pro-codex-ou--ac8311.md`
+- "Uma skill pessoal com o mesmo nome pode vencer a do projeto" — [[guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831]] `raw/guia/agente-claude-codex-migrar-do-claude-pro-codex-ou--ac8311.md`
 - "pra memória o tempo todo, mesmo que eu" (@00:11:25) — [[video-live-fim-dos-skills-auditoria-de-ablacao-no-claude-cod]] `raw/videos/live-fim-dos-skills-auditoria-de-ablacao-no-claude-code.txt`
 - "canibais com gatilhos idênticos e" (@00:11:01) — [[video-live-fim-dos-skills-auditoria-de-ablacao-no-claude-cod]] `raw/videos/live-fim-dos-skills-auditoria-de-ablacao-no-claude-code.txt`
 - "Ou seja, eu só copiei. Ah, aquela" (@00:13:00) — [[video-live-fim-dos-skills-auditoria-de-ablacao-no-claude-cod]] `raw/videos/live-fim-dos-skills-auditoria-de-ablacao-no-claude-code.txt`
@@ -23,6 +25,7 @@ Skill é a receita/manual que o agente pode usar. Ajuda, mas precisa de curadori
 
 ## Fontes
 
+- [[guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831]] — agente-claude-codex — Migrar do Claude pro Codex ou ficar agnóstico
 - [[guia-maestro-roteador-triagem-de-modelo-e-esforco-para-ded1b]] — maestro-roteador — triagem de modelo e esforço para Claude Code
 - [[guia-makeshorts-fabrica-de-shorts-com-ia-70fe54]] — MakeShorts — Fábrica de Shorts com IA
 - [[video-live-100-videosdia-com-ia-agentes-metodos-e-escala-rea]] — LIVE： 100 Vídeos⧸Dia com IA — Agentes, Métodos e Escala Real
@@ -35,4 +38,4 @@ Skill é a receita/manual que o agente pode usar. Ajuda, mas precisa de curadori
 
 ## Relacionados
 
-[[menor-custo-que-resolve]], [[verificar-antes-de-afirmar]], [[contexto-e-memoria]], [[medir-antes-de-acreditar]], [[producao-de-video-com-ia]], [[custo-de-tokens]]
+[[menor-custo-que-resolve]], [[verificar-antes-de-afirmar]], [[contexto-e-memoria]], [[medir-antes-de-acreditar]], [[producao-de-video-com-ia]], [[custo-de-tokens]], [[nucleo-portatil-entre-runtimes]]

@@ -208,5 +208,15 @@
     "coletado_em": "2026-10-05",
     "palavras": 8045,
     "sha256": "4732438ce358fcd811e2fc18448af9dc889ff5715376f1cf4c39cafdba619264"
+  },
+  {
+    "id": "guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831",
+    "tipo": "guia",
+    "url": "https://inematds.github.io/agente-claude-codex/guia/",
+    "titulo": "agente-claude-codex — Migrar do Claude pro Codex ou ficar agnóstico",
+    "arquivo": "raw/guia/agente-claude-codex-migrar-do-claude-pro-codex-ou--ac8311.md",
+    "coletado_em": "2026-10-05",
+    "palavras": 2024,
+    "sha256": "4af5d2a81bec928355d614b621d74a3668d7b3b06b52199ea4b2421042d8fe13"
   }
 ]

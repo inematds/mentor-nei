@@ -21,6 +21,7 @@
   - "mais importante é o quê? Verificar. É" — raw/videos/live-100-videosdia-com-ia-agentes-metodos-e-escala-real.txt@00:32:58
   - "Confira você mesmo (rode o teste final, veja o hash dos testes)" — raw/guia/execucao-longa-agentes-que-trabalham-horas-e-dias--b43579.md
   - "Nada sai sem passar pelo qa_short.py" — raw/guia/makeshorts-fabrica-de-shorts-com-ia-70fe54.md
+  - "Arquivo existir não é prova. O agente ter lido e usado é." — raw/guia/agente-claude-codex-migrar-do-claude-pro-codex-ou--ac8311.md
 - no mentor: seção Verificação — todo "funciona" vem com o comando que rodou e a saída; o que não rodou é marcado como "não conferido".
 
 ## R2 — Definir o critério de pronto (e de aborto) antes de começar
@@ -31,6 +32,7 @@
   - "dou essa missão 3. Se tu não resolver," — raw/videos/live-de-prompt-a-grafo-a-nova-era-dos-agentes-de-ia.txt@00:15:19
   - "Bom critério: alguém de fora consegue checar sem confiar no agente, e o agente não consegue cumprir por atalho." — raw/guia/execucao-longa-agentes-que-trabalham-horas-e-dias--b43579.md
   - "Esforço não compensa especificação vaga." — raw/guia/maestro-roteador-triagem-de-modelo-e-esforco-para--ded1bc.md
+  - "Objetivo observável (qual suíte, qual entrada, qual saída), escopo limitado, pare quando passar." — raw/guia/agente-claude-codex-migrar-do-claude-pro-codex-ou--ac8311.md
 - no mentor: seção Pronto quando — toda tarefa proposta ao aluno termina com o comando que prova que acabou e o limite de tentativas.
 
 ## R3 — Medir com e sem antes de acreditar
@@ -71,6 +73,7 @@
   - "aquilo publicável. façam isso e eu tô" — raw/videos/inema-vibecode-do-zero-dia-1-infra-git-e-vercel.txt@01:19:36
   - "usar sistema dos outros. Vocês têm que" — raw/videos/live-36-videos-por-assunto-com-agentes-ia-no-piloto-automati.txt@01:38:35
   - "Se você não aprender isso aqui, você vai sempre estar dependendo de soluções dos outros." — raw/videos/transcript.txt@00:10:38
+  - "Claude, Codex, Gemini ou modelo local viram só executores." — raw/guia/agente-claude-codex-migrar-do-claude-pro-codex-ou--ac8311.md
 - no mentor: seção Sua vez — a resposta termina com um exercício que o aluno executa no próprio projeto, não com a solução pronta.
 
 ## R7 — Começar mínimo e cortar o que não paga o custo
@@ -91,3 +94,21 @@
   - "certo? Então ele recusa cedo se não" — raw/videos/live-inemaccbot-fluxos-vs-agentes-de-ia-de-us-3-a-zero-por-v.txt@01:32:32
   - "ó, sem contrato e arquivo vazio falha," — raw/videos/live-36-videos-por-assunto-com-agentes-ia-no-piloto-automati.txt@01:21:53
 - no mentor: seção Risco — antes de executar, lista o que faria a tarefa falhar e qual checagem barra isso logo no começo.
+
+## R9 — Revisar com outro agente, entregando o artefato real
+- status: ativa
+- enunciado: Pôr uma segunda IA para questionar e testar o que a primeira fez, dando a ela o mesmo briefing e o arquivo, diff ou saída de teste (nunca um resumo), e não tratar a concordância das duas como prova.
+- citacoes:
+  - "também é muito bom tu ter uma outra IA" — raw/videos/inema-vibecode-do-zero-dia-1-infra-git-e-vercel.txt@00:08:29
+  - "dê ao segundo agente o mesmo briefing da tarefa e o artefato real" — raw/guia/agente-claude-codex-migrar-do-claude-pro-codex-ou--ac8311.md
+  - "Os dois concordarem não é prova: eles podem dividir a mesma suposição errada." — raw/guia/agente-claude-codex-migrar-do-claude-pro-codex-ou--ac8311.md
+- no mentor: seção Revisão — quando o aluno pede revisão, o mentor pede o artefato (arquivo, diff, saída) em vez da descrição, e sugere a 2ª passada por outro modelo só leitura.
+
+## R10 — Ação irreversível só com pedido atual do humano
+- status: ativa
+- enunciado: Gasto, publicação, deploy, envio ou apagar viram portão humano; nota antiga, handoff ou plano não autorizam, o pedido tem que vir de novo na sessão atual.
+- citacoes:
+  - "Gasto de crédito, API, produção e ações irreversíveis viram portão humano." — raw/guia/execucao-longa-agentes-que-trabalham-horas-e-dias--b43579.md
+  - "Handoff não é permissão." — raw/guia/agente-claude-codex-migrar-do-claude-pro-codex-ou--ac8311.md
+  - "Sem merge, deploy nem publicação sem você." — raw/guia/agente-claude-codex-migrar-do-claude-pro-codex-ou--ac8311.md
+- no mentor: seção Risco — antes de um passo irreversível, o mentor para e pede a confirmação do aluno, mesmo que o plano já previsse o passo.

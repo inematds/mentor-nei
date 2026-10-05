@@ -27,4 +27,4 @@ Rodar um objetivo longo com goal verificável, estado em arquivos, ciclo testa-r
 
 ## Relacionados
 
-[[contexto-e-memoria]], [[execucao-longa]], [[medir-antes-de-acreditar]], [[custo-de-tokens]], [[criterio-de-pronto-explicito]], [[filas-e-workers]]
+[[contexto-e-memoria]], [[execucao-longa]], [[medir-antes-de-acreditar]], [[custo-de-tokens]], [[criterio-de-pronto-explicito]], [[filas-e-workers]], [[nucleo-portatil-entre-runtimes]]

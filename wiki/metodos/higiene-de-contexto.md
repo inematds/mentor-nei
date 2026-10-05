@@ -26,6 +26,8 @@ Rotina para baixar o contexto sem perder decisões: acompanhar o % na statusline
 
 ## Exemplos (trechos)
 
+- "Sessão → handoff em Markdown → nova sessão lê o handoff (prime)." — [[guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831]] `raw/guia/agente-claude-codex-migrar-do-claude-pro-codex-ou--ac8311.md`
+- "Handoff não é permissão." — [[guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831]] `raw/guia/agente-claude-codex-migrar-do-claude-pro-codex-ou--ac8311.md`
 - "Mandei limpar o meu contexto, ó. Sempre" (@00:29:26) — [[video-live-de-prompt-a-grafo-a-nova-era-dos-agentes-de-ia]] `raw/videos/live-de-prompt-a-grafo-a-nova-era-dos-agentes-de-ia.txt`
 - "tiver em 40, vai lá, terminou uma" (@01:11:57) — [[video-live-de-prompt-a-grafo-a-nova-era-dos-agentes-de-ia]] `raw/videos/live-de-prompt-a-grafo-a-nova-era-dos-agentes-de-ia.txt`
 - "e e o Status Line são três coisas que é" (@00:22:03) — [[video-live-claude-code-economize-90-dos-tokens-com-3-comando]] `raw/videos/live-claude-code-economize-90-dos-tokens-com-3-comandos.txt`
@@ -35,9 +37,10 @@ Rotina para baixar o contexto sem perder decisões: acompanhar o % na statusline
 
 ## Fontes
 
+- [[guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831]] — agente-claude-codex — Migrar do Claude pro Codex ou ficar agnóstico
 - [[video-live-claude-code-economize-90-dos-tokens-com-3-comando]] — LIVE： Claude Code - Economize 90% dos Tokens com 3 Comandos
 - [[video-live-de-prompt-a-grafo-a-nova-era-dos-agentes-de-ia]] — LIVE： De Prompt a Grafo — A Nova Era dos Agentes de IA
 
 ## Relacionados
 
-[[menor-custo-que-resolve]], [[contexto-e-memoria]], [[execucao-longa]], [[medir-antes-de-acreditar]], [[custo-de-tokens]], [[skills]]
+[[menor-custo-que-resolve]], [[contexto-e-memoria]], [[execucao-longa]], [[medir-antes-de-acreditar]], [[custo-de-tokens]], [[skills]], [[nucleo-portatil-entre-runtimes]]

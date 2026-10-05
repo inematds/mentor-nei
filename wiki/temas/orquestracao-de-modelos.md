@@ -14,6 +14,8 @@ Harness (Claude Code, Codex, Hermes, DeepSeek Harness…) não é a LLM. Ele com
 
 ## Trechos
 
+- "Migrar não obriga a escolher um só." — [[guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831]] `raw/guia/agente-claude-codex-migrar-do-claude-pro-codex-ou--ac8311.md`
+- "A tabela é ponto de partida, não ranking" — [[guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831]] `raw/guia/agente-claude-codex-migrar-do-claude-pro-codex-ou--ac8311.md`
 - "Soma ambiguidade + custo do erro." — [[guia-maestro-roteador-triagem-de-modelo-e-esforco-para-ded1b]] `raw/guia/maestro-roteador-triagem-de-modelo-e-esforco-para--ded1bc.md`
 - "rotear uma parte pra um modelo menor via subagente NÃO toca o cache principal" — [[guia-maestro-roteador-triagem-de-modelo-e-esforco-para-ded1b]] `raw/guia/maestro-roteador-triagem-de-modelo-e-esforco-para--ded1bc.md`
 - "e a implementação pode ser na menor, na" (@02:50:41) — [[video-inema-vibecode-do-zero-dia-1-infra-git-e-vercel]] `raw/videos/inema-vibecode-do-zero-dia-1-infra-git-e-vercel.txt`
@@ -27,6 +29,7 @@ Harness (Claude Code, Codex, Hermes, DeepSeek Harness…) não é a LLM. Ele com
 
 ## Fontes
 
+- [[guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831]] — agente-claude-codex — Migrar do Claude pro Codex ou ficar agnóstico
 - [[guia-maestro-roteador-triagem-de-modelo-e-esforco-para-ded1b]] — maestro-roteador — triagem de modelo e esforço para Claude Code
 - [[guia-musicavideo-musica-capa-e-clipe-a-partir-de-uma-fr-b4bc]] — musicavideo — música, capa e clipe a partir de uma frase
 - [[video-inema-vibecode-do-zero-dia-1-infra-git-e-vercel]] — INEMA  VibeCode do Zero - Dia 1 - Infra Git e Vercel
@@ -40,4 +43,4 @@ Harness (Claude Code, Codex, Hermes, DeepSeek Harness…) não é a LLM. Ele com
 
 ## Relacionados
 
-[[menor-custo-que-resolve]], [[custo-de-tokens]], [[producao-de-video-com-ia]], [[verificar-antes-de-afirmar]], [[live-construindo-ao-vivo]], [[infraestrutura-basica]]
+[[menor-custo-que-resolve]], [[custo-de-tokens]], [[producao-de-video-com-ia]], [[verificar-antes-de-afirmar]], [[live-construindo-ao-vivo]], [[infraestrutura-basica]], [[revisao-cruzada-entre-agentes]]

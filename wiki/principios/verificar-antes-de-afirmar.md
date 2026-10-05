@@ -8,6 +8,8 @@ O OK da ferramenta ou do agente não prova nada. Nada é dado como feito sem con
 
 ## Trechos
 
+- "Arquivo existir não é prova. O agente ter lido e usado é." — [[guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831]] `raw/guia/agente-claude-codex-migrar-do-claude-pro-codex-ou--ac8311.md`
+- "Os dois concordarem não é prova: eles podem dividir a mesma suposição errada." — [[guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831]] `raw/guia/agente-claude-codex-migrar-do-claude-pro-codex-ou--ac8311.md`
 - "Nada sai sem passar pelo qa_short.py" — [[guia-makeshorts-fabrica-de-shorts-com-ia-70fe54]] `raw/guia/makeshorts-fabrica-de-shorts-com-ia-70fe54.md`
 - "também é muito bom tu ter uma outra IA" (@00:08:29) — [[video-inema-vibecode-do-zero-dia-1-infra-git-e-vercel]] `raw/videos/inema-vibecode-do-zero-dia-1-infra-git-e-vercel.txt`
 - "Sem fonte, o bot diz" — [[guia-transformsite-seu-site-vira-um-agente-de-atendimen-f267]] `raw/guia/transformsite-seu-site-vira-um-agente-de-atendimen-f26733.md`
@@ -29,6 +31,7 @@ O OK da ferramenta ou do agente não prova nada. Nada é dado como feito sem con
 
 ## Fontes
 
+- [[guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831]] — agente-claude-codex — Migrar do Claude pro Codex ou ficar agnóstico
 - [[guia-atende-clinica-agenda-whatsapp-e-equipe-no-telegra-c3a0]] — Atende Clínica — agenda, WhatsApp e equipe no Telegram para clínicas
 - [[guia-execucao-longa-agentes-que-trabalham-horas-e-dias-b4357]] — Execução Longa — agentes que trabalham horas e dias sem perder o rumo
 - [[guia-inemaseo-seu-site-em-destaque-no-google-no-bing-e-daa22]] — inemaSEO — seu site em destaque no Google, no Bing e nas IAs
@@ -49,4 +52,4 @@ O OK da ferramenta ou do agente não prova nada. Nada é dado como feito sem con
 
 ## Relacionados
 
-[[menor-custo-que-resolve]], [[medir-antes-de-acreditar]], [[git-e-deploy]], [[custo-de-tokens]], [[live-construindo-ao-vivo]], [[producao-de-video-com-ia]]
+[[menor-custo-que-resolve]], [[medir-antes-de-acreditar]], [[git-e-deploy]], [[custo-de-tokens]], [[live-construindo-ao-vivo]], [[producao-de-video-com-ia]], [[revisao-cruzada-entre-agentes]]

@@ -12,10 +12,12 @@ O harness principal das lives e guias: CLAUDE.md e memória, skills e subagentes
 - Execução longa com estado em arquivos e critério nível 3+ [[guia-execucao-longa-agentes-que-trabalham-horas-e-dias-b4357]]
 - Skills de produção (MakeShorts) rodando dentro do Claude Code [[guia-makeshorts-fabrica-de-shorts-com-ia-70fe54]]
 - Consumo medido e comparado com o preço de API (~95x) [[video-live-deepseek-harness-orquestre-ias-e-corte-custos-em-]]
+- Migrar para o Codex ou ficar agnóstico: AGENTS.md portátil, skills com fonte canônica, readback em sessão nova, revisão cruzada com o Codex [[guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831]]
 - Vibe code do zero com agente no terminal [[video-inema-vibecode-do-zero-dia-1-infra-git-e-vercel]], [[video-inema-vibecode-do-zero-dia-3-basico-de-infra]]
 
 ## Fontes
 
+- [[guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831]] — agente-claude-codex — Migrar do Claude pro Codex ou ficar agnóstico
 - [[guia-execucao-longa-agentes-que-trabalham-horas-e-dias-b4357]] — Execução Longa — agentes que trabalham horas e dias sem perder o rumo
 - [[guia-maestro-roteador-triagem-de-modelo-e-esforco-para-ded1b]] — maestro-roteador — triagem de modelo e esforço para Claude Code
 - [[guia-makeshorts-fabrica-de-shorts-com-ia-70fe54]] — MakeShorts — Fábrica de Shorts com IA
@@ -27,4 +29,4 @@ O harness principal das lives e guias: CLAUDE.md e memória, skills e subagentes
 
 ## Relacionados
 
-[[custo-de-tokens]], [[verificar-antes-de-afirmar]], [[menor-custo-que-resolve]], [[medir-antes-de-acreditar]], [[criterio-de-pronto-explicito]], [[contexto-e-memoria]]
+[[custo-de-tokens]], [[verificar-antes-de-afirmar]], [[menor-custo-que-resolve]], [[medir-antes-de-acreditar]], [[criterio-de-pronto-explicito]], [[contexto-e-memoria]], [[nucleo-portatil-entre-runtimes]], [[revisao-cruzada-entre-agentes]]

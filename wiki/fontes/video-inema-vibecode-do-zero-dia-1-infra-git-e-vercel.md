@@ -29,4 +29,4 @@ Primeiro dia do curso "VibeCode do Zero", em aula ao vivo (~3 h) com alunos inte
 ## Ligações
 - Temas: [[git-e-deploy]], [[infraestrutura-basica]], [[contexto-e-memoria]], [[custo-de-tokens]], [[orquestracao-de-modelos]], [[claude-code]]
 - Princípios: [[construir-junto-ao-vivo]], [[menor-custo-que-resolve]], [[verificar-antes-de-afirmar]], [[automatizar-o-repetitivo]], [[criterio-de-pronto-explicito]], [[orquestrar-nao-reinventar]]
-- Métodos: [[vibe-code-do-zero]], [[depurar-ao-vivo]], [[live-construindo-ao-vivo]]
+- Métodos: [[vibe-code-do-zero]], [[depurar-ao-vivo]], [[live-construindo-ao-vivo]], [[revisao-cruzada-entre-agentes]]

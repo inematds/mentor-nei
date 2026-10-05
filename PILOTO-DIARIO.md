@@ -24,3 +24,28 @@
 | 16:50 | 5 teste 1 | /nei-ensina "hook Stop que bloqueia com TODO.md aberto" (0,9 min + subagente): Pronto → menor versão → previsão → saída real → versão quebrada (v0 em loop infinito quando item depende de terceiro; 6/6 bloqueios) → correção (teto de 3) → teste numa sessão real → "Sua vez" (exercício, vindo da R6) → relatório com R1–R8. validar_resposta com transcript: 14 Bash, exit 0. Aprendi: o bloqueio sem teto prende a sessão para sempre quando o item não depende do agente. | — | ok | — |
 | 16:50 | 5 teste 1 | Resumo final da sessão saiu em inglês (a lição em PT). | idioma do usuário | baixa | agente/skill: "responda no idioma do pedido" |
 | 16:50 | 5 teste 1 | Gravou o código em ~/projetos/output/hook-todo-stop (seguiu a regra global da máquina), fora do projeto do mentor. | — | ok | — |
+| 17:00 | 5 teste 3 | /nei-ingere guia agente-claude-codex (2,4 min): fonte nova, 2 métodos novos, R9 e R10 criadas já ativas (2ª fonte existia no raw), R1/R2/R6 reforçadas, index/hot/log atualizados; 3 validadores exit 0. | — | ok | — |
+
+## Placar
+
+| Critério | Resultado |
+|---|---|
+| Fases 1–3 com exit 0 | ✅ (fase 1 após calibrar a meta e +1 fonte) |
+| Portão: bloqueou certo, sem bloqueio indevido | ✅ |
+| Teste 1 passou e eu aprendi algo | ✅ (teto de bloqueio por sessão em hook Stop) |
+| Teste 2 previu, reproduziu e provou | ⚠️ reproduziu e provou; previsão não escrita antes de rodar |
+| Teste 3 atualizou a wiki sozinho | ✅ |
+| Nota "reconheço a pessoa nas regras" (0–10) | 8 |
+| Tempo total (humano / máquina) | ~1h20 operando / ~20 min de sessões + 7,7 min de transcrição |
+
+**Decisão (pelo PILOTO.md): 4/5 e nota 8 → corrigir os itens do diário numa versão nova do kit e repetir só o teste 2.**
+
+### Correções para o kit 1.2 (do diário)
+1. alta — transcrição salva com nome do transcritor (`transcript.txt`): sobrescreve e some do manifesto
+2. média — manifesto sem trava: coleta em paralelo perde entradas
+3. média — legenda em linhas curtas com [hh:mm:ss]: citações picadas e não casam entre linhas
+4. média — loop/seções do agente fixos; regras do especialista pedem seções próprias
+5. média — revisa não exige previsão antes de rodar
+6. baixa — stats não mostra quanto falta na meta; metas calibradas depois de listar as fontes
+7. baixa — "Stop hook error occurred" parece erro: documentar
+8. baixa — responder no idioma do pedido; revisado com extensão; tmp dentro do projeto

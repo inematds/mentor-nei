@@ -4,6 +4,7 @@ Mapa de todas as páginas. Mantido por /nei-compilar e /nei-ingere.
 
 ## Fontes
 
+- [[guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831]] — agente-claude-codex — Migrar do Claude pro Codex ou ficar agnóstico
 - [[guia-atende-clinica-agenda-whatsapp-e-equipe-no-telegra-c3a0]] — Atende Clínica — agenda, WhatsApp e equipe no Telegram para clínicas
 - [[guia-execucao-longa-agentes-que-trabalham-horas-e-dias-b4357]] — Execução Longa — agentes que trabalham horas e dias sem perder o rumo
 - [[guia-inemaseo-seu-site-em-destaque-no-google-no-bing-e-daa22]] — inemaSEO — seu site em destaque no Google, no Bing e nas IAs
@@ -30,8 +31,8 @@ Mapa de todas as páginas. Mantido por /nei-compilar e /nei-ingere.
 
 - [[agentes-de-ia]] — Agentes de IA (9 fontes)
 - [[atendimento-com-agentes]] — Atendimento com agentes (WhatsApp, Telegram, chat do site) (3 fontes)
-- [[claude-code]] — Claude Code (8 fontes)
-- [[contexto-e-memoria]] — Contexto e memória (8 fontes)
+- [[claude-code]] — Claude Code (9 fontes)
+- [[contexto-e-memoria]] — Contexto e memória (9 fontes)
 - [[custo-de-tokens]] — Custo de tokens (14 fontes)
 - [[execucao-longa]] — Execução longa (4 fontes)
 - [[filas-e-workers]] — Filas e workers (8 fontes)
@@ -41,26 +42,26 @@ Mapa de todas as páginas. Mantido por /nei-compilar e /nei-ingere.
 - [[infraestrutura-basica]] — Infraestrutura básica (9 fontes)
 - [[llm-local-e-gratis]] — LLM local e grátis (8 fontes)
 - [[mcp]] — MCP (3 fontes)
-- [[orquestracao-de-modelos]] — Orquestração de modelos (10 fontes)
+- [[orquestracao-de-modelos]] — Orquestração de modelos (11 fontes)
 - [[producao-de-video-com-ia]] — Produção de vídeo com IA (12 fontes)
 - [[seo-e-sites-para-agentes]] — SEO e sites para agentes (3 fontes)
-- [[skills]] — Skills (9 fontes)
-- [[subagentes]] — Subagentes (2 fontes)
+- [[skills]] — Skills (10 fontes)
+- [[subagentes]] — Subagentes (3 fontes)
 
 ## Princípios
 
 - [[automatizar-o-repetitivo]] — Automatizar o que se repete (6 fontes)
 - [[construir-junto-ao-vivo]] — Construir junto ao vivo, com fundamento (7 fontes)
 - [[construir-o-proprio-sistema]] — Construir o próprio sistema (não só copiar) (1 fontes)
-- [[criterio-de-pronto-explicito]] — Critério de pronto explícito (10 fontes)
+- [[criterio-de-pronto-explicito]] — Critério de pronto explícito (11 fontes)
 - [[falhar-cedo]] — Falhar cedo e barato (2 fontes)
 - [[fundamentos-antes-de-ferramentas]] — Fundamentos antes de ferramentas (5 fontes)
-- [[independencia-de-plataforma]] — Independência de plataforma (2 fontes)
+- [[independencia-de-plataforma]] — Independência de plataforma (3 fontes)
 - [[medir-antes-de-acreditar]] — Medir antes de acreditar (14 fontes)
-- [[menor-custo-que-resolve]] — Menor custo que resolve (16 fontes)
+- [[menor-custo-que-resolve]] — Menor custo que resolve (17 fontes)
 - [[orquestrar-nao-reinventar]] — Orquestrar, não reinventar (5 fontes)
 - [[simplicidade-e-corte]] — Simplicidade e corte (7 fontes)
-- [[verificar-antes-de-afirmar]] — Verificar antes de afirmar (17 fontes)
+- [[verificar-antes-de-afirmar]] — Verificar antes de afirmar (18 fontes)
 
 ## Métodos
 
@@ -72,13 +73,15 @@ Mapa de todas as páginas. Mantido por /nei-compilar e /nei-ingere.
 - [[depurar-ao-vivo]] — Depurar ao vivo (7 fontes)
 - [[execucao-longa-com-estado-em-arquivos]] — Execução longa com estado em arquivos (1 fontes)
 - [[guia-de-projeto-landing]] — Guia de projeto (landing + guia de uso) (8 fontes)
-- [[higiene-de-contexto]] — Higiene de contexto (2 fontes)
+- [[higiene-de-contexto]] — Higiene de contexto (3 fontes)
 - [[live-construindo-ao-vivo]] — Live construindo ao vivo (11 fontes)
 - [[loop-com-criterio-de-sucesso-e-aborto]] — Loop/goal com critério de sucesso e aborto (1 fontes)
 - [[medir-consumo-de-tokens-e-comparar-com-api]] — Medir consumo de tokens e comparar com a API (1 fontes)
+- [[nucleo-portatil-entre-runtimes]] — Núcleo portátil entre runtimes (Claude ↔ Codex) (1 fontes)
 - [[metodo-seo-10-etapas]] — Método inemaSEO em 10 etapas (1 fontes)
 - [[pipeline-de-video-por-assunto]] — Pipeline de vídeo por assunto (9 fontes)
 - [[plano-antes-de-gastar-com-portao]] — Plano antes de gastar, com portão por parte (2 fontes)
+- [[revisao-cruzada-entre-agentes]] — Revisão cruzada entre agentes (um faz, outro revisa) (2 fontes)
 - [[setup-do-ambiente-vibecode]] — Montar o ambiente de vibe code do zero (1 fontes)
 - [[triagem-de-modelo-e-esforco]] — Triagem de modelo e esforço (2 fontes)
 - [[trocar-llm-por-script-para-cortar-custo]] — Trocar chamadas de LLM por script/rotina para cortar custo (1 fontes)
