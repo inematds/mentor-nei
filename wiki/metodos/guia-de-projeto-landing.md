@@ -29,3 +29,5 @@ Cada projeto publicado ganha uma página única de landing + guia de uso no pró
 ## Relacionados
 
 [[verificar-antes-de-afirmar]], [[criterio-de-pronto-explicito]], [[medir-antes-de-acreditar]], [[git-e-deploy]], [[claude-code]], [[menor-custo-que-resolve]]
+
+- Ver também: [[guia-agente-claude-codex-migrar-do-claude-pro-codex-ou-ac831]]

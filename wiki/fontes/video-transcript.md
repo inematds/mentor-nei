@@ -30,3 +30,5 @@ Live curta (cerca de 1 h) sobre como montar e rodar agentes de forma que dê par
 - Temas: [[agentes-de-ia]], [[llm-local-e-gratis]], [[orquestracao-de-modelos]], [[infraestrutura-basica]], [[filas-e-workers]], [[producao-de-video-com-ia]], [[custo-de-tokens]]
 - Princípios: [[menor-custo-que-resolve]], [[orquestrar-nao-reinventar]], [[automatizar-o-repetitivo]], [[construir-junto-ao-vivo]], [[independencia-de-plataforma]]
 - Métodos: [[pipeline-de-video-por-assunto]], [[live-construindo-ao-vivo]], [[plano-antes-de-gastar-com-portao]]
+
+- Ver também: [[subagentes]]

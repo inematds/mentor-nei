@@ -30,3 +30,5 @@ Live em que ele mostra, ao vivo, a "máquina de publicar" que produz ~100 vídeo
 - Temas: [[producao-de-video-com-ia]], [[agentes-de-ia]], [[contexto-e-memoria]], [[skills]], [[custo-de-tokens]], [[llm-local-e-gratis]], [[git-e-deploy]]
 - Princípios: [[menor-custo-que-resolve]], [[verificar-antes-de-afirmar]], [[automatizar-o-repetitivo]], [[simplicidade-e-corte]], [[medir-antes-de-acreditar]], [[fundamentos-antes-de-ferramentas]]
 - Métodos: [[pipeline-de-video-por-assunto]], [[live-construindo-ao-vivo]]
+
+- Ver também: [[subagentes]]
