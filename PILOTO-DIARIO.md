@@ -58,3 +58,11 @@
 | 17:50 | 5 teste 2 (rodada 3) | Com a instrução explícita "escreva uma linha `Previsão:` antes do primeiro comando que executa código": mesmo comportamento (prevê no raciocínio, escreve "a previsão bateu" depois). Validador reprovou de novo. | idem | média | **instrução não basta: precisa de mecanismo** → portão de previsão (PreToolUse em Bash: comando que executa código sem `Previsão:` escrita antes → bloqueia). Fica para o kit 1.3 (2 tentativas sem avanço; não insistir num 3º ciclo). |
 
 **Placar final do piloto:** 4/5 (teste 2 parcial: reproduz, corrige e prova lado a lado, mas não escreve a previsão antes de rodar). Nota 8. O que o kit ganhou com isso: o verificador externo detecta a falha que a própria sessão declarou como OK.
+
+## Rodada 4 do teste 2 — kit 1.3 (portão de previsão)
+
+| hora | fase | o que aconteceu | esperado | gravidade | ideia de correção |
+|---|---|---|---|---|---|
+| 17:55 | 5 teste 2 (rodada 4) | O mentor tentou executar antes de prever → **o portão de previsão negou** o comando ("antes de executar código, escreva 'Previsão: …'"). O mentor escreveu "Previsão: `UnicodeEncodeError` com '\U0001f50e' na linha 28, exit 1 e nenhum `relatorio.txt` criado" e só então rodou. `validar_resposta --perfil revisao --transcript` → 9 execuções, **OK**. | previsão antes de rodar | ok | o validador passou a ignorar comandos negados por hook (a tentativa bloqueada não rodou) |
+
+**Placar final: 5/5, nota 8.** O caminho do teste 2: instrução (2 rodadas falhando) → mecanismo (portão de previsão) → verificação de fora (o validador provou que resolveu).

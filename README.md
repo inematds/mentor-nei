@@ -12,7 +12,7 @@ Mentor no Claude Code que ensina **no método do Nei Maldaner (INEMA)**: usar Cl
 | Palavras | ~189 mil (legendas públicas + 1 transcrição local) |
 | Wiki | 76 páginas, ~1.300 links (fontes, temas, princípios, métodos) |
 | Regras | 10, todas ativas, 40 citações conferidas por script |
-| Piloto | 4/5 critérios, nota 8 em "reconheço a pessoa nas regras" |
+| Piloto | **5/5** critérios (4/5 até o portão de previsão do kit 1.3), nota 8 em "reconheço a pessoa nas regras" |
 
 As regras mais fortes, pelo número de fontes: **conferir o resultado real antes de dizer "pronto"**, **definir o critério de pronto antes de começar**, **medir com e sem antes de acreditar** e **usar o menor custo que resolve**. Veja [`regras.md`](regras.md) e [`wiki/hot.md`](wiki/hot.md).
 
